@@ -1,0 +1,1252 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        102,
+        1200,
+        618
+      ],
+      "fragments": [
+        [
+          124,
+          102,
+          1200,
+          618
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          102,
+          1200,
+          618
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        124,
+        758,
+        1138,
+        878
+      ],
+      "fragments": [
+        [
+          124,
+          758,
+          1138,
+          878
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          758,
+          1138,
+          878
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        900,
+        1200,
+        1800
+      ],
+      "fragments": [
+        [
+          124,
+          900,
+          1200,
+          1800
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          900,
+          1200,
+          1800
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        1808,
+        1200,
+        2700
+      ],
+      "fragments": [
+        [
+          124,
+          1808,
+          1200,
+          2700
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          1808,
+          1200,
+          2700
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        2728,
+        1200,
+        3372
+      ],
+      "fragments": [
+        [
+          124,
+          2728,
+          1200,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          2728,
+          1200,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        100,
+        2328,
+        882
+      ],
+      "fragments": [
+        [
+          1250,
+          100,
+          2328,
+          882
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          100,
+          2328,
+          882
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        902,
+        2328,
+        1662
+      ],
+      "fragments": [
+        [
+          1250,
+          902,
+          2328,
+          1662
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          902,
+          2328,
+          1662
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        1684,
+        2328,
+        2756
+      ],
+      "fragments": [
+        [
+          1250,
+          1684,
+          2328,
+          2756
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          1684,
+          2328,
+          2756
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        139,
+        108,
+        1196,
+        308
+      ],
+      "text": "Der CALL-Befehl, Befehls-Code: Baa CALL kann aus dem englischen mit „rufen” übersetzt werden. Es ist der Adressen-Aufrufzum Sprung in ein Unter-Programm. Der Befehls-Code ist Baa, wobei für aa die Start-Adresse des Unter-Programms eingegeben wird.",
+      "lines": [
+        [
+          140,
+          108,
+          812,
+          143
+        ],
+        [
+          139,
+          148,
+          1195,
+          184
+        ],
+        [
+          139,
+          189,
+          1195,
+          225
+        ],
+        [
+          140,
+          230,
+          1196,
+          266
+        ],
+        [
+          140,
+          272,
+          754,
+          308
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        138,
+        343,
+        1197,
+        542
+      ],
+      "text": "Der RET-Befehl, Befehls-Code F07 RET kommt aus dem englischen return und kann mit „zurück” übersetzt werden. Mit der Befehls-Eingabe F07 erfolgt der Rücksprung vom Unter-Programm automatisch zur nächsten nach dem CALL-Befehl folgenden Programm-Adresse.",
+      "lines": [
+        [
+          140,
+          343,
+          772,
+          377
+        ],
+        [
+          138,
+          383,
+          1194,
+          419
+        ],
+        [
+          139,
+          424,
+          1197,
+          459
+        ],
+        [
+          138,
+          465,
+          1194,
+          501
+        ],
+        [
+          139,
+          507,
+          1083,
+          542
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        138,
+        571,
+        1147,
+        607
+      ],
+      "text": "Ein Unter-Programm wird uns im nächsten Kapitel gezeigt.",
+      "lines": [
+        [
+          138,
+          571,
+          1147,
+          607
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        768,
+        829,
+        868
+      ],
+      "text": "Wie wird ein Computer-Spiel programmiert?",
+      "lines": [
+        [
+          137,
+          768,
+          829,
+          815
+        ],
+        [
+          141,
+          821,
+          503,
+          868
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        909,
+        753,
+        956
+      ],
+      "text": "Beispiel: Das Nimm-Spiel",
+      "lines": [
+        [
+          137,
+          909,
+          753,
+          956
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        994,
+        1196,
+        1154
+      ],
+      "text": "Bei unseren ersten Computer-Erfahrungen haben wir das Nimm-Spiel kennengelernt. Da die Programmierung solcher Spiele sehr interessant ist, wollen wir das Nimm-Spiel-Pro- gramm einmal genauer untersuchen.",
+      "lines": [
+        [
+          136,
+          994,
+          1194,
+          1029
+        ],
+        [
+          136,
+          1035,
+          1196,
+          1071
+        ],
+        [
+          135,
+          1076,
+          1196,
+          1112
+        ],
+        [
+          135,
+          1118,
+          770,
+          1154
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        1183,
+        1196,
+        1342
+      ],
+      "text": "Wie bekannt, ist das Nimm-Spiel als Fest-Programm im Mikro- prozessor gespeichert. Mit HALT - PGM - 7 können wir das Nimm-Spiel in den für uns zugänglichen Programm-Speicher einspielen.",
+      "lines": [
+        [
+          134,
+          1183,
+          1196,
+          1218
+        ],
+        [
+          136,
+          1224,
+          1194,
+          1260
+        ],
+        [
+          135,
+          1265,
+          1196,
+          1301
+        ],
+        [
+          135,
+          1308,
+          317,
+          1342
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        1366,
+        1194,
+        1491
+      ],
+      "text": "Achtung: Durch Überspielen des Nimm-Spiels werden andere in unserem Programm-Speicher vorhandene Programme bis zur Adresse 44 gelöscht.",
+      "lines": [
+        [
+          134,
+          1366,
+          1193,
+          1408
+        ],
+        [
+          136,
+          1413,
+          1194,
+          1449
+        ],
+        [
+          134,
+          1455,
+          563,
+          1491
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        1520,
+        1196,
+        1638
+      ],
+      "text": "Mit HALT - NEXT - 00 gehen wirzum Programm-Anfang und wir können jetzt mit der NEXT-Taste das Programm ansehen und mit der Programm-Tabelle dieses Kapitels vergleichen.",
+      "lines": [
+        [
+          135,
+          1520,
+          1196,
+          1555
+        ],
+        [
+          135,
+          1561,
+          1193,
+          1597
+        ],
+        [
+          135,
+          1603,
+          1080,
+          1638
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        132,
+        1668,
+        1196,
+        1786
+      ],
+      "text": "Wenn wir selbst programmieren und ein derartiges Programm entwickeln möchten, müssen wir uns am Anfang mit der „Spiel- Theorie” beschäftigen.",
+      "lines": [
+        [
+          132,
+          1668,
+          1192,
+          1703
+        ],
+        [
+          134,
+          1709,
+          1196,
+          1744
+        ],
+        [
+          132,
+          1751,
+          521,
+          1786
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        132,
+        1815,
+        1196,
+        1975
+      ],
+      "text": "Das Nimm-Spiel ist ein zwar einfaches, aber trotzdem interes- santes Spiel für 2 Personen. In der sogenannten „Spiel-Theo- rie” wird dieses Spiel als „2-Personen-Nullsummen-Spiel mit vollständiger Information und optimaler Strategie” bezeichnet.",
+      "lines": [
+        [
+          134,
+          1815,
+          1196,
+          1850
+        ],
+        [
+          133,
+          1857,
+          1196,
+          1892
+        ],
+        [
+          134,
+          1898,
+          1194,
+          1933
+        ],
+        [
+          132,
+          1939,
+          1193,
+          1975
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        132,
+        2005,
+        1196,
+        2123
+      ],
+      "text": "„Nullsummen-Spiel” bedeutet, daß es grundsätzlich einen Ge- winner und einen Verlierer gibt. Ein Unentschieden ist nicht möglich.",
+      "lines": [
+        [
+          134,
+          2005,
+          1196,
+          2040
+        ],
+        [
+          132,
+          2046,
+          1194,
+          2082
+        ],
+        [
+          134,
+          2088,
+          276,
+          2123
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        132,
+        2152,
+        1197,
+        2271
+      ],
+      "text": "„Vollständige Information” bedeutet, daßesz.B.keine verdeck- ten Karten gibt, sondern beide Mitspieler haben während der gesamten Spielzeit die gleichen Informationen.",
+      "lines": [
+        [
+          133,
+          2152,
+          1197,
+          2188
+        ],
+        [
+          132,
+          2193,
+          1196,
+          2229
+        ],
+        [
+          132,
+          2235,
+          943,
+          2271
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        130,
+        2300,
+        1194,
+        2454
+      ],
+      "text": "„Optimale Strategie” bedeutet, daß es für den Spieler einen Weg gibt, der grundsätzlich zum Ziel führen muß. Hierdurch ist es relativ einfach möglich, für ein solches Spiel ein Programm zu entwickeln.",
+      "lines": [
+        [
+          133,
+          2300,
+          1193,
+          2336
+        ],
+        [
+          130,
+          2341,
+          1194,
+          2377
+        ],
+        [
+          132,
+          2383,
+          1193,
+          2418
+        ],
+        [
+          131,
+          2425,
+          375,
+          2454
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        131,
+        2489,
+        1196,
+        2690
+      ],
+      "text": "Die Hauptschwierigkeit ist es, die „optimale Strategie” zu fin- den. Für dieses Nimm-Spiel ist die Strategie noch verhältnis- mäßig leicht zu finden. Bei dem im zweiten Teil des Anleitungs- buches folgenden Spiel „Nimm-2” ist die Findung einer optima- en Strategie bereits recht schwierig.",
+      "lines": [
+        [
+          132,
+          2489,
+          1196,
+          2525
+        ],
+        [
+          131,
+          2530,
+          1196,
+          2566
+        ],
+        [
+          133,
+          2572,
+          1196,
+          2607
+        ],
+        [
+          132,
+          2613,
+          1196,
+          2649
+        ],
+        [
+          132,
+          2655,
+          767,
+          2690
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        2737,
+        1196,
+        3097
+      ],
+      "text": "Wie finden wir die „optimale Strategie”? Hierfür ist es notwendig, ein Spiel in einzelne Spielabschnitte zu zerlegen. Am besten ist es sogar, mit den Überlegungen am Spielende zu beginnen. Für unsere Überlegungen gehen wir davon aus, daß die beiden Mitspieler A und B gegeneinander spielen, und daß A gewinnen soll. Bei Spielbeginn soll ein Häuf- chen mit 15 Streichhölzern zur Verfügung stehen. Minimal 1 oder maximal 3 Hölzchen dürfen auf einmal weggenommen werden.",
+      "lines": [
+        [
+          129,
+          2737,
+          867,
+          2773
+        ],
+        [
+          131,
+          2778,
+          1193,
+          2818
+        ],
+        [
+          130,
+          2820,
+          1192,
+          2860
+        ],
+        [
+          130,
+          2861,
+          1196,
+          2897
+        ],
+        [
+          130,
+          2902,
+          1196,
+          2938
+        ],
+        [
+          130,
+          2944,
+          1196,
+          2979
+        ],
+        [
+          130,
+          2985,
+          1187,
+          3021
+        ],
+        [
+          129,
+          3027,
+          1192,
+          3062
+        ],
+        [
+          128,
+          3068,
+          264,
+          3097
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        127,
+        3133,
+        1196,
+        3375
+      ],
+      "text": "Nachdem der Spieler B verlieren soll, muß B das letzte Hölz- chen wegnehmen. Der Spieler A muß seine Strategie so ein- richten, daß B bei seinem vorletzten Zug maximal 4 Hölzchen, mindestens jedoch 2 Hölzchen liegenlassen muß. Spieler A wird also versuchen, daß nach seinem Zug 5 Hölzchen übrig- bleiben. Nimmt anschließend B 3 Hölzchen weg, bleiben 2",
+      "lines": [
+        [
+          129,
+          3133,
+          1196,
+          3168
+        ],
+        [
+          129,
+          3174,
+          1196,
+          3209
+        ],
+        [
+          130,
+          3216,
+          1193,
+          3251
+        ],
+        [
+          130,
+          3256,
+          1194,
+          3292
+        ],
+        [
+          127,
+          3298,
+          1196,
+          3334
+        ],
+        [
+          129,
+          3339,
+          1193,
+          3375
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        105,
+        2317,
+        218
+      ],
+      "text": "übrig, Animmt 1 und Bverliert mit dem letzten Hölzchen. OderB nimmt von den 5 Hölzchen 1 weg, von den 4 übrigbleibenden nimmt A 3 und B verliert mit dem letzten Hölzchen.",
+      "lines": [
+        [
+          1259,
+          105,
+          2317,
+          141
+        ],
+        [
+          1259,
+          146,
+          2316,
+          181
+        ],
+        [
+          1259,
+          187,
+          2131,
+          218
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        251,
+        2320,
+        576
+      ],
+      "text": "Somit ist die Ziffer 5 eine Gewinnzahl. Der Spieler, welchernach seinem Zug 5 Hölzchen übrig !äßt, hat bereits gewonnen. Die nächst folgende Gewinnzahl ist 1, denn wer das letzte Hölz- chen übriglassen kann gewinnt. Die Differenz aus den Gewinn- zahlen 5 und 1 ist 4. Addieren wir zur Gewinnzahl 5 die Diffe- renzzahl 4, ergibt sich 9 als nächste Gewinnzahl. Wer 9 Hölz- chen übrig läßt und die Spiel-Strategie kennt - wird gewinnen. Die nächste Gewinnzahl ergibt sich aus 9 und 4 = 13.",
+      "lines": [
+        [
+          1258,
+          251,
+          2316,
+          286
+        ],
+        [
+          1258,
+          293,
+          2318,
+          330
+        ],
+        [
+          1260,
+          334,
+          2320,
+          371
+        ],
+        [
+          1258,
+          375,
+          2320,
+          412
+        ],
+        [
+          1258,
+          416,
+          2320,
+          447
+        ],
+        [
+          1259,
+          457,
+          2320,
+          494
+        ],
+        [
+          1259,
+          499,
+          2317,
+          536
+        ],
+        [
+          1259,
+          540,
+          2178,
+          576
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        605,
+        2320,
+        725
+      ],
+      "text": "Die Gewinnzahlen, die der Spieler A versuchen muß zu errei- chen, sind also 13-9 -5-1.Mankann diese Gewinnzahlen zer- legen:",
+      "lines": [
+        [
+          1259,
+          605,
+          2320,
+          640
+        ],
+        [
+          1258,
+          646,
+          2320,
+          681
+        ],
+        [
+          1259,
+          690,
+          1362,
+          725
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        917,
+        2318,
+        994
+      ],
+      "text": "Auch die Zahl 4 hat einen Ursprung: Minimal muß 1 Hölzchen, maximal dürfen 3 Hölzchen weggenommen werden: 3+1=4.",
+      "lines": [
+        [
+          1257,
+          917,
+          2317,
+          952
+        ],
+        [
+          1260,
+          959,
+          2318,
+          994
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        1023,
+        2321,
+        1096
+      ],
+      "text": "Man kann die Gewinnzahl auch mit Hilfe einer Formel berech- nen.",
+      "lines": [
+        [
+          1259,
+          1023,
+          2321,
+          1054
+        ],
+        [
+          1260,
+          1074,
+          1328,
+          1096
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        1130,
+        2322,
+        1291
+      ],
+      "text": "Hierfür bezeichnen wir Gewinnzahl mit GZ, maximal mit MAX und minimal mit MIN: GZ=0x (MAX + MIN) + 1",
+      "lines": [
+        [
+          1259,
+          1130,
+          2322,
+          1163
+        ],
+        [
+          1259,
+          1173,
+          1624,
+          1202
+        ],
+        [
+          1258,
+          1255,
+          1709,
+          1291
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        1336,
+        2321,
+        1457
+      ],
+      "text": "Mit dieser Formel können auch andere Gewinnzahlen ermittelt werden, z. B. wenn maximal 6 Hölzchen und minimal 1 Hölz- chen genommen werden können:",
+      "lines": [
+        [
+          1259,
+          1336,
+          2318,
+          1367
+        ],
+        [
+          1257,
+          1378,
+          2321,
+          1414
+        ],
+        [
+          1258,
+          1420,
+          1843,
+          1457
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        1691,
+        2321,
+        1853
+      ],
+      "text": "Während eines derartigen Spiels, wird niemand solche Be- rechnungen ausführen. Soll jedoch ein derartiges Spiel gegen den Computer gespielt werden, muß ihm geholfen werden, die richtigen Berechnungen ausführen.",
+      "lines": [
+        [
+          1257,
+          1691,
+          2321,
+          1727
+        ],
+        [
+          1259,
+          1732,
+          2318,
+          1770
+        ],
+        [
+          1259,
+          1774,
+          2319,
+          1811
+        ],
+        [
+          1260,
+          1816,
+          1871,
+          1853
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        1881,
+        2322,
+        2077
+      ],
+      "text": "Für die Entwicklung eines solchen Programmes beginnt man zweckmäßig beim schwierigsten Programmteil, indem zu- nächst ein Programm-Ablaufplan skizziert wird. Wir müssen uns zunächst aiso einmal überlegen, wie der Computer eine Gewinnzahl finden kann.",
+      "lines": [
+        [
+          1259,
+          1881,
+          2319,
+          1917
+        ],
+        [
+          1258,
+          1922,
+          2322,
+          1959
+        ],
+        [
+          1260,
+          1963,
+          2318,
+          2000
+        ],
+        [
+          1260,
+          2004,
+          2320,
+          2040
+        ],
+        [
+          1258,
+          2047,
+          1681,
+          2077
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        2110,
+        2323,
+        2272
+      ],
+      "text": "Davon ausgehend, daß auf dem Häufchen maximal 15 Streich- hölzer zur Verfügung stehen, und daß maximal, bzw. minimal 1 Hölzchen weggenommen werden darf, lassen wir den Compu- ter zweckmäßigerweise nach folgendem Schema arbeiten:",
+      "lines": [
+        [
+          1260,
+          2110,
+          2322,
+          2148
+        ],
+        [
+          1260,
+          2152,
+          2314,
+          2189
+        ],
+        [
+          1259,
+          2193,
+          2323,
+          2231
+        ],
+        [
+          1258,
+          2235,
+          2278,
+          2272
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1256,
+        2300,
+        2323,
+        2745
+      ],
+      "text": "Er nimmt (für seine internen schnellen Berechnungen) die ma- ximal zulässige Zahl (3). Wird hierdurch keine Gewinnzahl erreicht, wird der maximale Wert um 1 Stück reduziert, d.h. der Computer rechnet, ob er mit 2 eine Gewinnzahl erreicht. Wenn nicht, wird abermals der Wert 1 reduziert und entweder wird jetzt eine Gewinnzahl gefunden, oder der minimale Wegnah- mewert ist erreicht. Diese Methode hat den Vorteil, daß der Computer, falls er keine Gewinnzahl findet, vom zur Verfügung stehenden Häufchen immer nur 1 Hölzchen wegnimmt und da- mit das Spiel verzögert, um evtl. bei seinem nächsten Zug die Gewinnzahl zu erreichen.",
+      "lines": [
+        [
+          1259,
+          2300,
+          2323,
+          2338
+        ],
+        [
+          1259,
+          2341,
+          2320,
+          2378
+        ],
+        [
+          1259,
+          2382,
+          2323,
+          2418
+        ],
+        [
+          1258,
+          2424,
+          2320,
+          2461
+        ],
+        [
+          1260,
+          2465,
+          2320,
+          2501
+        ],
+        [
+          1256,
+          2506,
+          2323,
+          2544
+        ],
+        [
+          1260,
+          2548,
+          2323,
+          2582
+        ],
+        [
+          1258,
+          2589,
+          2320,
+          2626
+        ],
+        [
+          1259,
+          2631,
+          2323,
+          2666
+        ],
+        [
+          1260,
+          2672,
+          2321,
+          2709
+        ],
+        [
+          1258,
+          2715,
+          1695,
+          2745
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1281,
+        2913,
+        1456,
+        2971
+      ],
+      "text": "“Optimale",
+      "lines": [
+        [
+          1281,
+          2913,
+          1456,
+          2971
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

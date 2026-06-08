@@ -1,0 +1,1340 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        100,
+        1205,
+        305
+      ],
+      "fragments": [
+        [
+          108,
+          100,
+          1205,
+          305
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          100,
+          1205,
+          305
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        345,
+        1205,
+        1460
+      ],
+      "fragments": [
+        [
+          108,
+          345,
+          1205,
+          1460
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          345,
+          1205,
+          1460
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        1495,
+        1205,
+        2445
+      ],
+      "fragments": [
+        [
+          108,
+          1495,
+          1205,
+          2445
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          1495,
+          1205,
+          2445
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        2470,
+        1205,
+        2970
+      ],
+      "fragments": [
+        [
+          108,
+          2470,
+          1205,
+          2970
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          2470,
+          1205,
+          2970
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1236,
+        100,
+        2334,
+        170
+      ],
+      "fragments": [
+        [
+          1236,
+          100,
+          2334,
+          170
+        ]
+      ],
+      "lines": [
+        [
+          1236,
+          100,
+          2334,
+          170
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1236,
+        172,
+        2334,
+        1300
+      ],
+      "fragments": [
+        [
+          1236,
+          172,
+          2334,
+          1300
+        ]
+      ],
+      "lines": [
+        [
+          1236,
+          172,
+          2334,
+          1300
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1236,
+        1878,
+        2334,
+        3372
+      ],
+      "fragments": [
+        [
+          1236,
+          1878,
+          2334,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1236,
+          1878,
+          2334,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        129,
+        105,
+        1192,
+        299
+      ],
+      "text": "Da sich der „Haltepunkt” auf eine gespeicherte Adresse be- zieht, ergibt sich auch bei Änderung der Programm-Eingabe ein Stop auf der Haltepunkt-Adresse. Es sollte daher niemals vergessen werden, den Haltepunkt zu löschen mit: HALT - BKP - 00 - HALT.",
+      "lines": [
+        [
+          131,
+          105,
+          1192,
+          146
+        ],
+        [
+          130,
+          146,
+          1189,
+          184
+        ],
+        [
+          130,
+          187,
+          1191,
+          223
+        ],
+        [
+          129,
+          229,
+          1190,
+          265
+        ],
+        [
+          130,
+          270,
+          447,
+          299
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        352,
+        1189,
+        675
+      ],
+      "text": "REG Kontrolle und Änderung der 16 Arbeits-Register (0 bisF).Durch HALT - REG und der Eingabe einer Register-Adresse (0 bis F) erscheint auf dem Display die Register-Adresse und der Regi- ster-Inhalt. Wird jetzt eine Ziffern-Taste betätigt, wird dieser Wert in das Register übernommen und angezeigt. Für die Anzeige eines anderen Registers muß wieder die HALT-Taste betätigt werden.",
+      "lines": [
+        [
+          129,
+          352,
+          203,
+          380
+        ],
+        [
+          129,
+          387,
+          1186,
+          431
+        ],
+        [
+          128,
+          434,
+          1185,
+          473
+        ],
+        [
+          127,
+          475,
+          1189,
+          514
+        ],
+        [
+          127,
+          516,
+          1189,
+          554
+        ],
+        [
+          125,
+          557,
+          1186,
+          596
+        ],
+        [
+          125,
+          599,
+          1186,
+          635
+        ],
+        [
+          128,
+          640,
+          403,
+          675
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        723,
+        1187,
+        923
+      ],
+      "text": "G/CE Bei faischer Eingabe eines Befehls, wird durch einmalige Betä- tigung die letzte Ziffer des eingegebenen Befehls-Codes ge- löscht. Bei zweimaliger Betätigung wird der gesamte (3-stelli- ge) Befehis-Code gelöscht.",
+      "lines": [
+        [
+          126,
+          723,
+          215,
+          751
+        ],
+        [
+          126,
+          763,
+          1187,
+          801
+        ],
+        [
+          124,
+          805,
+          1187,
+          843
+        ],
+        [
+          126,
+          846,
+          1186,
+          885
+        ],
+        [
+          124,
+          887,
+          596,
+          923
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        969,
+        1185,
+        1173
+      ],
+      "text": "RUN Programm-Start-Taste. Der Programm-Ablauf beginnt mit der Adresse, weiche momentan auf dem Display angezeigt wird. Soll mit einer anderen Adresse gestartet werden, wird die ge- wünschte Adresse z. B. 00 (Programm-Anfang) eingegeben.",
+      "lines": [
+        [
+          124,
+          969,
+          199,
+          998
+        ],
+        [
+          124,
+          1011,
+          1185,
+          1049
+        ],
+        [
+          122,
+          1052,
+          1182,
+          1090
+        ],
+        [
+          122,
+          1093,
+          1185,
+          1132
+        ],
+        [
+          121,
+          1135,
+          1158,
+          1173
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1211,
+        1181,
+        1454
+      ],
+      "text": "STEP Bei Betätigung der STEP-Taste wird der auf dem Display ange- zeigte Befehl ausgeführt und der nächstfolgende Befehl auf dem Display angezeigt. Mit STEP kann ein Programm schritt- weise durchgearbeitet und dabei die Flags (CARRY und ZERO- FLAG) beobachtet, bzw. Register-Inhalte kontrolliert werden.",
+      "lines": [
+        [
+          118,
+          1211,
+          213,
+          1240
+        ],
+        [
+          119,
+          1252,
+          1181,
+          1291
+        ],
+        [
+          118,
+          1293,
+          1180,
+          1331
+        ],
+        [
+          118,
+          1335,
+          1180,
+          1373
+        ],
+        [
+          116,
+          1376,
+          1180,
+          1414
+        ],
+        [
+          118,
+          1417,
+          1161,
+          1454
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1500,
+        839,
+        1578
+      ],
+      "text": "PGM Abruf-Taste für die Fest-Programme, z. B.:",
+      "lines": [
+        [
+          118,
+          1500,
+          198,
+          1529
+        ],
+        [
+          115,
+          1541,
+          839,
+          1578
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        117,
+        1606,
+        557,
+        1642
+      ],
+      "text": "PGM O= Test-Programm",
+      "lines": [
+        [
+          117,
+          1606,
+          557,
+          1642
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        117,
+        1672,
+        1178,
+        1749
+      ],
+      "text": "PGM 1 =Programme von einem Tonband oder Cassetten-Re- corder in den Programm-Speicher überspielen.",
+      "lines": [
+        [
+          117,
+          1672,
+          1178,
+          1707
+        ],
+        [
+          294,
+          1713,
+          1111,
+          1749
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1777,
+        1175,
+        1857
+      ],
+      "text": "PGM 2= Programme vom Programm-Speicher auf Tonband oder Cassetten-Recorder überspielen.",
+      "lines": [
+        [
+          116,
+          1777,
+          1175,
+          1815
+        ],
+        [
+          292,
+          1819,
+          956,
+          1857
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        114,
+        1884,
+        585,
+        1986
+      ],
+      "text": "PGM 3 = Uhrzeit eingeben PGM 4= Uhrzeit anzeigen",
+      "lines": [
+        [
+          116,
+          1884,
+          585,
+          1920
+        ],
+        [
+          114,
+          1949,
+          578,
+          1986
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        2014,
+        1176,
+        2132
+      ],
+      "text": "PGM 5= Alle Programme im Programm-Speicher löschen (bei sämtlichen Adressen wird der Code 000 ange- zeigt)",
+      "lines": [
+        [
+          115,
+          2014,
+          1173,
+          2052
+        ],
+        [
+          293,
+          2056,
+          1176,
+          2094
+        ],
+        [
+          291,
+          2097,
+          380,
+          2132
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        113,
+        2162,
+        1175,
+        2357
+      ],
+      "text": "PGM 6= NOP in den Programm-Speicher laden (auf allen Adressen steht jetzt der Code F01). NOP ist ein Be- fehl ohne Funktion. Bei den NOP-Adressen können nachträglich andere Befehls-Codes eingegeben werden.",
+      "lines": [
+        [
+          113,
+          2162,
+          1172,
+          2200
+        ],
+        [
+          288,
+          2204,
+          1175,
+          2241
+        ],
+        [
+          289,
+          2245,
+          1172,
+          2277
+        ],
+        [
+          291,
+          2287,
+          1171,
+          2324
+        ],
+        [
+          288,
+          2328,
+          423,
+          2357
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        112,
+        2379,
+        490,
+        2416
+      ],
+      "text": "PGM 7 = Nimm-Spiel",
+      "lines": [
+        [
+          112,
+          2379,
+          490,
+          2416
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        110,
+        2475,
+        1175,
+        2636
+      ],
+      "text": "Achtung: FürPGM 1 und PGM 2 ist ein zusätzliches Cassetten- Interface notwendig. Werden diese Programme ohne Interface aufgerufen, kann der Computer nur durch Betätigung der RESET-Taste wieder funktionsfähig gemacht werden.",
+      "lines": [
+        [
+          110,
+          2475,
+          1175,
+          2510
+        ],
+        [
+          112,
+          2516,
+          1172,
+          2553
+        ],
+        [
+          110,
+          2557,
+          1174,
+          2596
+        ],
+        [
+          111,
+          2599,
+          1031,
+          2636
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        108,
+        2681,
+        1173,
+        2965
+      ],
+      "text": "RESET Durch Betätigung der grünen RESET-Taste (auf der Computer- Platine) wird das Betriebs-System des Computers aktiviert. Hierdurch werden gespeicherte Register-Werte gelöscht, bzw. auf O gesetzt (es geht z. B. die eingegebene Uhrzeit verloren). Eingegebene Programme werden durch die RESET-Taste nicht gelöscht.",
+      "lines": [
+        [
+          110,
+          2681,
+          230,
+          2710
+        ],
+        [
+          110,
+          2723,
+          1173,
+          2761
+        ],
+        [
+          110,
+          2764,
+          1170,
+          2802
+        ],
+        [
+          109,
+          2805,
+          1170,
+          2843
+        ],
+        [
+          108,
+          2847,
+          1170,
+          2886
+        ],
+        [
+          108,
+          2888,
+          1170,
+          2924
+        ],
+        [
+          109,
+          2929,
+          360,
+          2965
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        110,
+        1955,
+        150
+      ],
+      "text": "Der Microtronic-Befehls-Satz",
+      "lines": [
+        [
+          1253,
+          110,
+          1955,
+          150
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1250,
+        173,
+        2309,
+        249
+      ],
+      "text": "Alle Befehle, die ein Mikroprozessor verarbeiten kann, werden „Befehls-Satz” genannt.",
+      "lines": [
+        [
+          1250,
+          173,
+          2309,
+          210
+        ],
+        [
+          1251,
+          213,
+          1664,
+          249
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1250,
+        279,
+        2312,
+        348
+      ],
+      "text": "Der Microtronic-Befehls-Satz kann in 6 Gruppen unterteilt wer- den:",
+      "lines": [
+        [
+          1251,
+          279,
+          2312,
+          315
+        ],
+        [
+          1250,
+          319,
+          1325,
+          348
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1247,
+        384,
+        2308,
+        581
+      ],
+      "text": "Zwei-Adress-Befehle: Befehls-Code Obis A. Die erste Code-Ziffergibtan, um welchen Befehl es sich handelt. Die beiden nächsten Ziffern geben an, weiche Register (bzw. Konstanten) durch den Befehl beeinflußt werden. Diese Befehle haben das Schema:",
+      "lines": [
+        [
+          1248,
+          384,
+          1644,
+          415
+        ],
+        [
+          1250,
+          425,
+          2307,
+          462
+        ],
+        [
+          1249,
+          466,
+          2308,
+          505
+        ],
+        [
+          1248,
+          508,
+          2308,
+          544
+        ],
+        [
+          1247,
+          549,
+          1997,
+          581
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1247,
+        613,
+        2308,
+        776
+      ],
+      "text": "1. Ziffer 2. Ziffer 3. Ziffer z.B. Befehl z.B. 6 s= Quell-Register d=Ziel-Reg. 6sd oder Befehl z.B.5 n = Konstante d=Ziel-Reg. 5nd",
+      "lines": [
+        [
+          1251,
+          613,
+          2308,
+          647
+        ],
+        [
+          1248,
+          655,
+          2291,
+          693
+        ],
+        [
+          1247,
+          696,
+          1326,
+          725
+        ],
+        [
+          1248,
+          737,
+          2292,
+          776
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1245,
+        820,
+        2335,
+        897
+      ],
+      "text": "Für s und d werden die Register-Nummern, fürn der konstante Wert eingegeben.",
+      "lines": [
+        [
+          1247,
+          820,
+          2335,
+          856
+        ],
+        [
+          1245,
+          861,
+          1547,
+          897
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        943,
+        2304,
+        1104
+      ],
+      "text": "Sprung-Befehle (Verzweigungs-Befehle): Befehls-Code BbisE.Die erste Code-Ziffer gibt an, um welchen Befehl es sich handelt, auf den beiden nächsten Stellen wird die hexadezimale Sprung-Adresse eingegeben.",
+      "lines": [
+        [
+          1245,
+          943,
+          2000,
+          982
+        ],
+        [
+          1246,
+          984,
+          2303,
+          1022
+        ],
+        [
+          1246,
+          1026,
+          2304,
+          1060
+        ],
+        [
+          1244,
+          1067,
+          2067,
+          1104
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1894,
+        1151,
+        2274,
+        1182
+      ],
+      "text": "3. Ziffer z.B",
+      "lines": [
+        [
+          1894,
+          1151,
+          2274,
+          1182
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1539,
+        1150,
+        2282,
+        1228
+      ],
+      "text": "2. Ziffer . Sprung-Ad.=a Caa",
+      "lines": [
+        [
+          1539,
+          1150,
+          2282,
+          1183
+        ],
+        [
+          1893,
+          1192,
+          2279,
+          1228
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1538,
+        1191,
+        1823,
+        1227
+      ],
+      "text": "Sprung-Adr.=a",
+      "lines": [
+        [
+          1538,
+          1191,
+          1823,
+          1227
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1245,
+        1149,
+        1473,
+        1221
+      ],
+      "text": "1. Ziffer Befehl z.B.C",
+      "lines": [
+        [
+          1247,
+          1149,
+          1371,
+          1179
+        ],
+        [
+          1245,
+          1191,
+          1473,
+          1221
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1244,
+        1256,
+        1961,
+        1293
+      ],
+      "text": "Für aa wird die Adressen-Nr. eingegeben.",
+      "lines": [
+        [
+          1244,
+          1256,
+          1961,
+          1293
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        1928,
+        2301,
+        2089
+      ],
+      "text": "Ein-Adress-Befehle: Die erste Code-Ziffer ist grundsätzlich F.Die zweite Code-Ziffer (7 bis C) gibt an, um welchen Befehl es sich handeit. Die dritte Code-Ziffer d betrifft das Register, welches verändert wird.",
+      "lines": [
+        [
+          1239,
+          1928,
+          1611,
+          1959
+        ],
+        [
+          1239,
+          1969,
+          2301,
+          2006
+        ],
+        [
+          1240,
+          2011,
+          2298,
+          2046
+        ],
+        [
+          1238,
+          2052,
+          2245,
+          2089
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1533,
+        2136,
+        1812,
+        2207
+      ],
+      "text": "2. Ziffer Befehlsart z.B. 9",
+      "lines": [
+        [
+          1533,
+          2136,
+          1661,
+          2165
+        ],
+        [
+          1534,
+          2177,
+          1812,
+          2207
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1887,
+        2137,
+        2299,
+        2214
+      ],
+      "text": "3. Ziffer Beispiel Zieil-Reg.=d F9d",
+      "lines": [
+        [
+          1888,
+          2137,
+          2299,
+          2174
+        ],
+        [
+          1887,
+          2178,
+          2231,
+          2214
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1239,
+        2136,
+        1394,
+        2207
+      ],
+      "text": "1. Ziffer Befehl: F",
+      "lines": [
+        [
+          1241,
+          2136,
+          1367,
+          2166
+        ],
+        [
+          1239,
+          2178,
+          1394,
+          2207
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1236,
+        2259,
+        2299,
+        2502
+      ],
+      "text": "Ein- und Ausgabe-Befehle: Die erste Code-Ziffer ist grundsätzlich F. Die zweite Code-Ziffer (D-E oder F} gibt beiDIN, DOTundKIN an, um welchen Befehles sich handelt. Bein oder s wird eingegeben aus welchem oder in weiches Register die Daten kommen sollen. Beispiel: FDd, FEs, FFd",
+      "lines": [
+        [
+          1237,
+          2259,
+          1728,
+          2295
+        ],
+        [
+          1237,
+          2300,
+          2299,
+          2337
+        ],
+        [
+          1238,
+          2342,
+          2297,
+          2378
+        ],
+        [
+          1236,
+          2383,
+          2299,
+          2420
+        ],
+        [
+          1237,
+          2425,
+          2035,
+          2461
+        ],
+        [
+          1238,
+          2466,
+          1639,
+          2502
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1235,
+        2549,
+        2296,
+        2749
+      ],
+      "text": "Anzeige-Befehl: Die erste Code-Ziffer ist grundsätzlich F. Auf den beiden letzten Codeziffernn und s werden die aufdemDisplay anzuzeigenden Registerstellen eingegeben (siehe DISP-Befehl). Beispiel: Fns",
+      "lines": [
+        [
+          1236,
+          2549,
+          1528,
+          2585
+        ],
+        [
+          1237,
+          2591,
+          2296,
+          2627
+        ],
+        [
+          1236,
+          2632,
+          2296,
+          2672
+        ],
+        [
+          1236,
+          2673,
+          2069,
+          2712
+        ],
+        [
+          1235,
+          2714,
+          1458,
+          2749
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1233,
+        2797,
+        2298,
+        2997
+      ],
+      "text": "Sonder-Befehle: Die erste und zweite Code-Ziffer sind grundsätzlich immer FO. Bei der dritten Code-Ziffer (Eingabe O bis F) wird angege- ben, um welchen Befehl es sich handelt. Beispiel: F00 bis FOF",
+      "lines": [
+        [
+          1233,
+          2797,
+          1535,
+          2828
+        ],
+        [
+          1235,
+          2838,
+          2298,
+          2876
+        ],
+        [
+          1234,
+          2880,
+          2297,
+          2920
+        ],
+        [
+          1235,
+          2921,
+          1959,
+          2954
+        ],
+        [
+          1237,
+          2963,
+          1616,
+          2997
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1235,
+        3028,
+        2299,
+        3099
+      ],
+      "text": "Der Microtronic-Befehls-Satz hat insgesamt 41 verschiede- ne Befehle:",
+      "lines": [
+        [
+          1235,
+          3028,
+          2299,
+          3066
+        ],
+        [
+          1236,
+          3069,
+          1439,
+          3099
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1235,
+        3134,
+        1744,
+        3371
+      ],
+      "text": "11 Zwei-Adress-Befehle 4 Sprung-Befehle 6 Ein-Adress-Befehle 3 Ein- und Ausgabe-Befehle 1 Anzeige-Befehl 16 Sonder-Befehle",
+      "lines": [
+        [
+          1237,
+          3134,
+          1652,
+          3164
+        ],
+        [
+          1257,
+          3175,
+          1562,
+          3211
+        ],
+        [
+          1256,
+          3217,
+          1623,
+          3247
+        ],
+        [
+          1255,
+          3258,
+          1744,
+          3294
+        ],
+        [
+          1258,
+          3300,
+          1549,
+          3335
+        ],
+        [
+          1235,
+          3340,
+          1559,
+          3371
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

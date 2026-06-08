@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "Nachdem die Computer- und Mikroprozessor-Entwicklungen…",
+    "en": "Since computer and microprocessor development largely originated in the USA, short forms of the English command names — known worldwide — were created. Such short forms are called \"mnemonics\" (yikes — what a word).\n\nAmong computer-/microprocessor-enthusiast friends you may have noticed mnemonics being used with increasing enthusiasm. This eye-popping \"computer Chinese\" gladly documents that one is a \"specialist\".\n\nBesides the dazzling effect, mnemonics also have a practical benefit: such short forms are easier to remember than the raw command code. When we later read specialist magazines or in-depth books about microprocessor technology, we will run into these internationally used short forms again and again.\n\nSo let's learn computer-Chinese:"
+  },
+  "1": {
+    "de": "Mal sehen, ob alles geklappt hat?…",
+    "en": "Let's see if it all worked: press 6 digit or letter keys — the display shows the entered values. Hats off to us — we now know how to program the computer!\n\nIn passing, let's note that by varying the initial display command (F10 to F60) and combining it with the various Input/Wait commands, we could show 1 to 6 digits on the display. Our computer knows it can show only 6 digits. If we gave it the nonsensical command F70, it would react nonsensically. So in our experiments we avoid illogical command entries.\n\nLet's do something <i>logically</i> mischievous instead. So far we varied the display command between F10 and F60. The last digit 0 stayed unchanged: we wanted it to show all registers addressed by the Input/Wait commands (FF0 to FF5). If we change the display command to <b>F63</b>, we tell the computer to show 6 digits but starting from register 3 — i.e. it shows the values entered into registers 3, 4 and 5 (only those).\n\nLet's try. Stop program execution: HALT NEXT 00. Same entry as before, just change the display command:"
+  },
+  "2": {
+    "de": "KIN FFd …",
+    "en": "<table class=\"codes boxed\"><tr><th>Mnemonic<br>(short form)</th><th>Command<br>code</th><th>Explanation</th></tr><tr><td>KIN</td><td>FFd</td><td>Input command from the keyboard (<i>key-input</i>). Actual command code = FF. For <b>d</b> (<i>destination register</i>*) substitute a register identifier (digit or letter) for the value to be stored. Example: FF1, FF2.</td></tr><tr><td>GOTO</td><td>Caa</td><td>Jump command. \"GOTO\" is short for \"go to\". Actual code = C. For <b>aa</b> substitute the target program address. When the computer hits Caa during execution, it jumps to address aa and continues from there. Example: C00 = jump to program start.</td></tr><tr><td>DISP</td><td>Fns</td><td>Display / output command to the LED display. Actual code = F. For <b>n</b> substitute a number 1–6 = how many positions to display. <b>s</b> (<i>source register</i>*) = starting register address. Example: F10, F63.</td></tr><tr><td>DISOUT</td><td>F02</td><td>Display Out. Turns all display positions off. No register variation; the code is always F02.</td></tr></table>\n\nAfter the initial shock of having to learn yet more abbreviations, we'll happily note that we can remember the short form <b>DISP</b> for a display command much more easily than the raw code \"Fns\".\n\nKeeping all this computer-Chinese in our heads at once is hard. That's why the instruction book ships with a bookmark which helps us locate the special terms, command names etc. We use the bookmark as our private computer memory.\n\n*destination register. For the KIN command the code is \"FFd\", where \"d\" stands for a register value — short for \"destination register\"."
+  },
+  "3": {
+    "de": "Programm-Eingabe beenden: HALT NEXT 00 Programm starten: RUN…",
+    "en": "Finish program entry: <b>HALT NEXT 00</b>. Start the program: <b>RUN</b>.\n\nNow press 6 different digit or letter keys, and we see that only 3 positions on the display change."
+  },
+  "4": {
+    "de": "Mnemonics — und anderes Computer-chinesisch",
+    "en": "Mnemonics — and other Computer-Chinese"
+  },
+  "5": {
+    "de": "Bei unseren Programmier-Arbeiten…",
+    "en": "In our programming work we've learned a fair number of commands by now. Step by step more will come. We've also noticed that commands for very different functions look similar (display command = F10, Input/Wait command = FF0). Since the register identifiers within a command code can also vary, it would be cumbersome to keep referring to e.g. \"display commands\" or \"Input/Wait commands\" by their full description every time."
+  }
+}

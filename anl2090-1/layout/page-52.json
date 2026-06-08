@@ -1,0 +1,669 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        134,
+        105,
+        1199,
+        560
+      ],
+      "fragments": [
+        [
+          134,
+          105,
+          1199,
+          560
+        ]
+      ],
+      "lines": [
+        [
+          134,
+          105,
+          1199,
+          560
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1259,
+        111,
+        2243,
+        161
+      ],
+      "fragments": [
+        [
+          1259,
+          111,
+          2243,
+          161
+        ]
+      ],
+      "lines": [
+        [
+          1259,
+          111,
+          2243,
+          161
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1255,
+        231,
+        2319,
+        444
+      ],
+      "fragments": [
+        [
+          1255,
+          231,
+          2319,
+          444
+        ]
+      ],
+      "lines": [
+        [
+          1255,
+          231,
+          2319,
+          444
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1255,
+        455,
+        2319,
+        504
+      ],
+      "fragments": [
+        [
+          1255,
+          455,
+          2319,
+          504
+        ]
+      ],
+      "lines": [
+        [
+          1255,
+          455,
+          2319,
+          504
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        525,
+        2319,
+        3278
+      ],
+      "fragments": [
+        [
+          1250,
+          525,
+          2319,
+          3278
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          525,
+          2319,
+          3278
+        ]
+      ],
+      "text": "",
+      "font_pt": 7.4
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1241,
+        3295,
+        2319,
+        3344
+      ],
+      "fragments": [
+        [
+          1241,
+          3295,
+          2319,
+          3344
+        ]
+      ],
+      "lines": [
+        [
+          1241,
+          3295,
+          2319,
+          3344
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        136,
+        105,
+        1197,
+        223
+      ],
+      "text": "Mit HALT - NEXT -00 -RUN in Betrieb nehmen. Display zeigt O. Wir geben jetzt beispielsweise ein 8 und 5. Das Display zeigt 3. Der Computer hat gerechnet 8-5 =3.",
+      "lines": [
+        [
+          139,
+          105,
+          1197,
+          143
+        ],
+        [
+          136,
+          146,
+          1196,
+          184
+        ],
+        [
+          137,
+          187,
+          811,
+          223
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        252,
+        1199,
+        370
+      ],
+      "text": "Eingabe 7-8= -1 (das Minus-Zeichen wird momentan nicht ge- setzt, weil in unserer Programm-Eingabe hierfür nichts vorge- sehen war).",
+      "lines": [
+        [
+          137,
+          252,
+          1199,
+          290
+        ],
+        [
+          136,
+          293,
+          1199,
+          331
+        ],
+        [
+          136,
+          334,
+          335,
+          370
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        399,
+        1197,
+        552
+      ],
+      "text": "Die Programm-Funktion ist prinzipiell die gleiche wie im Kapitel „Suübtrahieren” beschrieben, lediglich, daß durch den neu ein- gefügten INV-Befehl nun auch „negative” Dezimal-Ergebnisse erzielt werden.",
+      "lines": [
+        [
+          136,
+          399,
+          1195,
+          437
+        ],
+        [
+          136,
+          440,
+          1197,
+          476
+        ],
+        [
+          134,
+          481,
+          1195,
+          520
+        ],
+        [
+          134,
+          523,
+          385,
+          552
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        458,
+        1122,
+        823,
+        1161
+      ],
+      "text": "\"Negatives Ergebnis\"",
+      "lines": [
+        [
+          458,
+          1122,
+          823,
+          1161
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1259,
+        111,
+        2243,
+        161
+      ],
+      "text": "Dezimale Subtraktion mit Minus-Anzeige",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1255,
+        231,
+        2319,
+        432
+      ],
+      "text": "Wir sehen bereits aus der folgenden Programm-Tabelle, daß sich ein erheblich größerer Programmierungs-Umfang ergibt, nur weil wir jetzt nicht mehr im hexadezimalen, sondern im 2- stelligen dezimalen Bereich rechnen wollen. Außerdem sollein negatives Ergebnis kenntlich gemacht werden.",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1255,
+        461,
+        2195,
+        497
+      ],
+      "text": "Nach HALT - NEXT - 00 geben wir das Programm ein:",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1254,
+        537,
+        2303,
+        3266
+      ],
+      "text": "Adresse |Eingabe-| Mnemonic| Erklärungen Befehl 00 FO8 CLEAR alle Register löschen 01 F21 DISP 2,1 Reg. 1u. Reg. 2 anzeigen 02 FOA RSC Carry-Flag rücksetzen (LED aus) 03 FFO KINO Eingabe in Reg. O 04 9A0 CMPI A,0 | eingegebener Wert A? 05 EOC BRZ OC | dann Sprung und Zahlen umspeichern 06 9B0 CMPI B,0 | eingegebener Wert B? 07 EOE BRZOE |dann Sprung zur Subtrak- tion 08 DO0 BRC 00 größer als B, alle Register löschen (Sprung nach 00) 09 012 MOV 1,2 | Register eine Stelle 0A 001 MOV 0,1 | weiterschieben OB C03 GOTO 03 0C FOF EXRA Registertausch 0D C03 GOTO 03 0E 619 SUB 1,9 |die beiden rechten Stellen subtrahieren OF D11 BRC 11 |Übertrag? 10 c14 GOTO 14 11 769 SUBI 6,9 |Dezimalausgleich 12 71A SUBI 1,A | Übertrag von der linken Stelle (Reg. A) abziehen 13 D18 BRC 18 |Übertrag? Sprung nach 18 14 62A SUB 2,A | die beiden linken Stellen subtrahieren 15 D19 BRC 19 |Übertrag? Ja, Sprung nach 19 16 FOF EXRA Registertausch, um Ergebnis in die Anzeige zu bringen 17 co2 GOTO 02 18 62A SUB 2,A | die beiden linken Stellen subtrahieren 19 76A SUBI 6,A | Dezimalkorrektur 1A F89 INV 9 Reg. 9 invertieren 1B 769 SUBI 6,9 | Dezimalkorrektur 1C F8A INVA Reg. A invertieren 1D 76A SUBI 6,A | Dezimalikorrektur 1E 519 Addi 1,9 |1 zu Reg. 9 addieren 1F 999 CMPI 9,9 | Übertrag? 20 D22 BRC 22 |Ja, Sprung nach 22 21 C24 GOTO 24 22 569 Addi 6,9 |Dezimalkorrektur 23 51A Addi 1,A 24 FOF EXRA Registertausch, um Ergebnis in die Anzeige zu bringen 25 F09 STC Carry-Flag setzen (Minus- Anzeige) 26 C03 GOTO 03 | Sprung nach 03",
+      "lines": [
+        [
+          1267,
+          537,
+          2054,
+          575
+        ],
+        [
+          1446,
+          579,
+          1560,
+          607
+        ],
+        [
+          1268,
+          632,
+          2211,
+          667
+        ],
+        [
+          1268,
+          684,
+          2284,
+          722
+        ],
+        [
+          1268,
+          737,
+          2228,
+          774
+        ],
+        [
+          1846,
+          779,
+          2012,
+          815
+        ],
+        [
+          1267,
+          832,
+          2152,
+          869
+        ],
+        [
+          1267,
+          885,
+          2235,
+          921
+        ],
+        [
+          1267,
+          938,
+          2280,
+          974
+        ],
+        [
+          1845,
+          980,
+          2070,
+          1015
+        ],
+        [
+          1267,
+          1033,
+          2235,
+          1069
+        ],
+        [
+          1266,
+          1086,
+          2302,
+          1122
+        ],
+        [
+          1842,
+          1127,
+          1904,
+          1157
+        ],
+        [
+          1266,
+          1180,
+          2291,
+          1218
+        ],
+        [
+          1844,
+          1221,
+          2287,
+          1258
+        ],
+        [
+          1265,
+          1275,
+          2181,
+          1318
+        ],
+        [
+          1265,
+          1324,
+          2106,
+          1362
+        ],
+        [
+          1265,
+          1381,
+          1803,
+          1411
+        ],
+        [
+          1264,
+          1434,
+          2102,
+          1470
+        ],
+        [
+          1264,
+          1487,
+          1802,
+          1518
+        ],
+        [
+          1264,
+          1540,
+          2303,
+          1575
+        ],
+        [
+          1841,
+          1582,
+          2059,
+          1612
+        ],
+        [
+          1263,
+          1629,
+          2013,
+          1671
+        ],
+        [
+          1265,
+          1689,
+          1802,
+          1718
+        ],
+        [
+          1265,
+          1741,
+          2143,
+          1778
+        ],
+        [
+          1265,
+          1789,
+          2250,
+          1831
+        ],
+        [
+          1840,
+          1836,
+          2259,
+          1873
+        ],
+        [
+          1264,
+          1883,
+          2301,
+          1926
+        ],
+        [
+          1264,
+          1943,
+          2271,
+          1977
+        ],
+        [
+          1839,
+          1984,
+          2057,
+          2014
+        ],
+        [
+          1264,
+          2031,
+          2213,
+          2074
+        ],
+        [
+          1841,
+          2079,
+          1973,
+          2109
+        ],
+        [
+          1263,
+          2132,
+          2175,
+          2168
+        ],
+        [
+          1839,
+          2174,
+          2303,
+          2210
+        ],
+        [
+          1840,
+          2215,
+          1969,
+          2251
+        ],
+        [
+          1263,
+          2268,
+          1798,
+          2298
+        ],
+        [
+          1262,
+          2321,
+          2269,
+          2355
+        ],
+        [
+          1838,
+          2363,
+          2056,
+          2392
+        ],
+        [
+          1262,
+          2415,
+          2134,
+          2450
+        ],
+        [
+          1262,
+          2469,
+          2142,
+          2505
+        ],
+        [
+          1261,
+          2522,
+          2134,
+          2556
+        ],
+        [
+          1261,
+          2575,
+          2144,
+          2611
+        ],
+        [
+          1261,
+          2628,
+          2133,
+          2663
+        ],
+        [
+          1260,
+          2681,
+          2191,
+          2717
+        ],
+        [
+          1260,
+          2728,
+          2008,
+          2770
+        ],
+        [
+          1256,
+          2787,
+          2179,
+          2823
+        ],
+        [
+          1256,
+          2841,
+          1797,
+          2870
+        ],
+        [
+          1256,
+          2893,
+          2132,
+          2928
+        ],
+        [
+          1255,
+          2946,
+          1780,
+          2981
+        ],
+        [
+          1255,
+          3000,
+          2171,
+          3036
+        ],
+        [
+          1836,
+          3042,
+          2300,
+          3078
+        ],
+        [
+          1836,
+          3083,
+          1964,
+          3118
+        ],
+        [
+          1255,
+          3135,
+          2287,
+          3173
+        ],
+        [
+          1833,
+          3177,
+          1983,
+          3213
+        ],
+        [
+          1254,
+          3230,
+          2116,
+          3266
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1241,
+        3299,
+        2304,
+        3336
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt:",
+      "lines": [],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,1080 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        134,
+        106,
+        1198,
+        184
+      ],
+      "fragments": [
+        [
+          134,
+          106,
+          1198,
+          184
+        ]
+      ],
+      "lines": [
+        [
+          134,
+          106,
+          1198,
+          184
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        126,
+        202,
+        1200,
+        1276
+      ],
+      "fragments": [
+        [
+          126,
+          202,
+          1200,
+          1276
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          202,
+          1200,
+          1276
+        ]
+      ],
+      "text": "",
+      "font_pt": 6.7
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        1296,
+        1196,
+        1962
+      ],
+      "fragments": [
+        [
+          124,
+          1296,
+          1196,
+          1962
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          1296,
+          1196,
+          1962
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        126,
+        2136,
+        965,
+        2192
+      ],
+      "fragments": [
+        [
+          126,
+          2136,
+          965,
+          2192
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          2136,
+          965,
+          2192
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        118,
+        2255,
+        1196,
+        3372
+      ],
+      "fragments": [
+        [
+          118,
+          2255,
+          1196,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          118,
+          2255,
+          1196,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1252,
+        100,
+        2326,
+        402
+      ],
+      "fragments": [
+        [
+          1252,
+          100,
+          2326,
+          402
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          100,
+          2326,
+          402
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1245,
+        924,
+        2330,
+        1062
+      ],
+      "fragments": [
+        [
+          1245,
+          924,
+          2330,
+          1062
+        ]
+      ],
+      "lines": [
+        [
+          1245,
+          924,
+          2330,
+          1062
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1252,
+        1132,
+        2050,
+        1192
+      ],
+      "fragments": [
+        [
+          1252,
+          1132,
+          2050,
+          1192
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          1132,
+          2050,
+          1192
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1245,
+        1230,
+        2330,
+        2052
+      ],
+      "fragments": [
+        [
+          1245,
+          1230,
+          2330,
+          2052
+        ]
+      ],
+      "lines": [
+        [
+          1245,
+          1230,
+          2330,
+          2052
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        2058,
+        2322,
+        3286
+      ],
+      "fragments": [
+        [
+          1240,
+          2058,
+          2322,
+          3286
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          2058,
+          2322,
+          3286
+        ]
+      ],
+      "text": "",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1245,
+        3296,
+        2330,
+        3372
+      ],
+      "fragments": [
+        [
+          1245,
+          3296,
+          2330,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1245,
+          3296,
+          2330,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        137,
+        109,
+        1195,
+        180
+      ],
+      "text": "Je nach dem wie die „1-Bits” in dieser Tabelle stehen, ergeben sich unterschiedliche Werte:",
+      "lines": [
+        [
+          137,
+          109,
+          1195,
+          144
+        ],
+        [
+          139,
+          150,
+          635,
+          180
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        132,
+        1299,
+        1194,
+        1376
+      ],
+      "text": "Die Tabelle zeigt uns nichts anderes, als das bekannte Dual- System mit der hexadezimalen Wertangabe.",
+      "lines": [
+        [
+          132,
+          1299,
+          1194,
+          1334
+        ],
+        [
+          134,
+          1341,
+          897,
+          1376
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        130,
+        1399,
+        1194,
+        1523
+      ],
+      "text": "Übrigens, es ist ganz einfach die dualen Werte in dezimale Wer- te umzuwandeln. Wir müssen lediglich die dualen „1, die je- weils unter den „Werten” stehen, addieren. Beispiel:",
+      "lines": [
+        [
+          131,
+          1399,
+          1194,
+          1441
+        ],
+        [
+          130,
+          1447,
+          1193,
+          1483
+        ],
+        [
+          130,
+          1488,
+          1032,
+          1523
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        1665,
+        610,
+        1699
+      ],
+      "text": "Werte bei dual „1” addiert =",
+      "lines": [
+        [
+          126,
+          1665,
+          610,
+          1699
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        127,
+        1748,
+        1188,
+        1866
+      ],
+      "text": "Der Computer hat in vielen Dingen seine eigene Gedankenwelt. Man muß sich „eindenken” und kommt dann zur Erkenntnis, daß die Computer-Logik auch für uns logisch werden kann.",
+      "lines": [
+        [
+          128,
+          1748,
+          1188,
+          1784
+        ],
+        [
+          129,
+          1789,
+          1188,
+          1824
+        ],
+        [
+          127,
+          1831,
+          1159,
+          1866
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        2140,
+        957,
+        2188
+      ],
+      "text": "Arbeitsregister - Speicherregister",
+      "lines": [
+        [
+          128,
+          2140,
+          957,
+          2188
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        126,
+        2259,
+        1191,
+        2461
+      ],
+      "text": "Für unsere Tätigkeit mit dem Computer stehen uns 16 verschie- dene Register (0, 1,2... bis F) zur Verfügung. In diese Register können wir Werte eingeben, und wir können uns z.B. die Werte anzeigen lassen. Da wir mit diesen Registern arbeiten, nennt man sie „Arbeitsregister”.",
+      "lines": [
+        [
+          128,
+          2259,
+          1191,
+          2296
+        ],
+        [
+          127,
+          2301,
+          1191,
+          2339
+        ],
+        [
+          128,
+          2342,
+          1188,
+          2378
+        ],
+        [
+          126,
+          2383,
+          1189,
+          2420
+        ],
+        [
+          128,
+          2425,
+          565,
+          2461
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        2489,
+        1190,
+        2642
+      ],
+      "text": "Neben diesen 16 Arbeitsregistern hat unser Microtronic-Com- puter auch noch 16 Speicherregister in denen wir Zahlen oder Werte speichern können, solange bis sie einmal gebraucht werden.",
+      "lines": [
+        [
+          127,
+          2489,
+          1190,
+          2526
+        ],
+        [
+          127,
+          2531,
+          1190,
+          2568
+        ],
+        [
+          124,
+          2572,
+          1188,
+          2610
+        ],
+        [
+          125,
+          2614,
+          259,
+          2642
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        123,
+        2679,
+        1190,
+        2879
+      ],
+      "text": "Die Inhalte der Speicherregister sind uns nicht direkt zugäng- lich, sondern wir müssen sie durch spezielle Befehle in die Arbeitsregister bringen, damit wir die Inhalte der Speicherregi- steraufrufenkönnen. Hierfür stehen uns folgende 3 Befehle zur Verfügung:",
+      "lines": [
+        [
+          126,
+          2679,
+          1190,
+          2717
+        ],
+        [
+          126,
+          2720,
+          1187,
+          2757
+        ],
+        [
+          123,
+          2761,
+          1189,
+          2799
+        ],
+        [
+          124,
+          2802,
+          1189,
+          2840
+        ],
+        [
+          123,
+          2844,
+          311,
+          2879
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        122,
+        2927,
+        1188,
+        3169
+      ],
+      "text": "EXRL mit dem Befehls-Code FOD Dieser Befehl bewirkt, daß die Inhalte der Arbeitsregister Obis 7 in die Speicherregister O bis 7 gebracht werden. Gleichzeitig werden die Inhalte der Speicherregister 0 bis 7 in die Arbeitsre- gister 0 bis 7 gebracht. Die Arbeits- und Speicherregister O bis 7 werden also ausgetauscht.",
+      "lines": [
+        [
+          124,
+          2927,
+          737,
+          2957
+        ],
+        [
+          124,
+          2968,
+          1186,
+          3005
+        ],
+        [
+          124,
+          3009,
+          1185,
+          3047
+        ],
+        [
+          122,
+          3051,
+          1188,
+          3087
+        ],
+        [
+          122,
+          3092,
+          1186,
+          3130
+        ],
+        [
+          124,
+          3133,
+          620,
+          3169
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        120,
+        3216,
+        1187,
+        3369
+      ],
+      "text": "EXRM mit dem Befehls-Code FOE Gleiche Arbeitsweise wie der EXRL-Befehl, es werden jedoch die Inhalte der Arbeits- und Speicherregister 8 bis F ausge- tauscht.",
+      "lines": [
+        [
+          122,
+          3216,
+          735,
+          3247
+        ],
+        [
+          120,
+          3257,
+          1183,
+          3295
+        ],
+        [
+          121,
+          3298,
+          1187,
+          3336
+        ],
+        [
+          120,
+          3339,
+          256,
+          3369
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        110,
+        2320,
+        393
+      ],
+      "text": "MAS mit dem pauschalen Befehis-Code F7d MAS kann man mit „MOVE: Arbeitsregister in Speicherregi- ster” bezeichnen. Durch den MAS-Befehl wird der Inhalt eines Arbeitsregisters in einem Speicherregister gespeichert. Für d kann die Register-Nr. angegeben werden. Beispiel: MAS 5 (Be- fehls-Code F75) bedeutet, daß der Inhalt vom Arbeitsregister Nr. 5 im Speicherregister Nr. 5 gespeichert wird.",
+      "lines": [
+        [
+          1260,
+          110,
+          2067,
+          145
+        ],
+        [
+          1260,
+          151,
+          2320,
+          187
+        ],
+        [
+          1258,
+          192,
+          2318,
+          223
+        ],
+        [
+          1257,
+          233,
+          2319,
+          270
+        ],
+        [
+          1259,
+          275,
+          2320,
+          312
+        ],
+        [
+          1257,
+          316,
+          2319,
+          352
+        ],
+        [
+          1259,
+          357,
+          2091,
+          393
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        933,
+        2313,
+        1052
+      ],
+      "text": "Für spezielle Berechnungen stehen uns somit insgesamt 32 Register zur Verfügung. Anwendungsbeispiele finden wir bei den nun folgenden neuen Rechen-Operationen.",
+      "lines": [
+        [
+          1254,
+          933,
+          2313,
+          969
+        ],
+        [
+          1254,
+          975,
+          2312,
+          1010
+        ],
+        [
+          1253,
+          1016,
+          2084,
+          1052
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        1139,
+        1671,
+        1185
+      ],
+      "text": "Die Multiplikation",
+      "lines": [
+        [
+          1253,
+          1139,
+          1671,
+          1185
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        1238,
+        2317,
+        1563
+      ],
+      "text": "Diesem Kapitel soll vorangestellt werden, daß unser Computer nicht „nur” Rechen-Operationen durchführen kann, denn wir werden später noch sehen, daß alle „Computer-Spielereien” an irgendeiner Stelle des Programms Rechen-Operationen erforderlich werden lassen. Ein Teil des Mikroprozessors ist ständig als „Rechner” tätig, und wir werden feststellen, daß mit Rechen-Operationen noch ganz andere Dinge als „nur rech- nen” bewältigt werden können.",
+      "lines": [
+        [
+          1255,
+          1238,
+          2316,
+          1274
+        ],
+        [
+          1256,
+          1279,
+          2317,
+          1315
+        ],
+        [
+          1253,
+          1321,
+          2314,
+          1357
+        ],
+        [
+          1254,
+          1362,
+          2314,
+          1398
+        ],
+        [
+          1254,
+          1403,
+          2314,
+          1439
+        ],
+        [
+          1254,
+          1445,
+          2314,
+          1480
+        ],
+        [
+          1254,
+          1486,
+          2317,
+          1522
+        ],
+        [
+          1255,
+          1527,
+          1788,
+          1563
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        1592,
+        2316,
+        1745
+      ],
+      "text": "Im Monitor-Programm (Betriebs-System) stehen unsu. a.2Be- fehle zur Verfügung, die normalerweise für Mikroprozessoren ungewöhnlich sind: Ein Multiplikations- und ein Divisions-Be- fehl.",
+      "lines": [
+        [
+          1254,
+          1592,
+          2316,
+          1628
+        ],
+        [
+          1252,
+          1633,
+          2313,
+          1670
+        ],
+        [
+          1255,
+          1675,
+          2316,
+          1711
+        ],
+        [
+          1252,
+          1716,
+          1322,
+          1745
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        1781,
+        2316,
+        1982
+      ],
+      "text": "Zunächst befassen wir uns mit dem Multiplikations-Befehl. Er multipliziert 6 Arbeitsregister mit 6 Speicherregistern, d.h. daß wir 6-stellige Multiplikationen durchführen können. Diese Mul- tiplikation wird außerdem nicht wie beim Mikroprozessor sonst üblich hexadezimal, sondern sofort dezimal ausgeführt.",
+      "lines": [
+        [
+          1252,
+          1781,
+          2315,
+          1816
+        ],
+        [
+          1254,
+          1822,
+          2314,
+          1858
+        ],
+        [
+          1252,
+          1864,
+          2316,
+          1899
+        ],
+        [
+          1252,
+          1905,
+          2313,
+          1941
+        ],
+        [
+          1254,
+          1946,
+          2209,
+          1982
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        2029,
+        2301,
+        2065
+      ],
+      "text": "Nach HALT - NEXT - 00 geben wir folgendes Programm ein:",
+      "lines": [
+        [
+          1253,
+          2029,
+          2301,
+          2065
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        2096,
+        2305,
+        3266
+      ],
+      "text": "Adresse | Eingabe- | Mnemonic | Erklärungen Befehl 00 FO8 CLEAR 01 F60 DISP 6,0 02 FF6 KIN 6 03 9A6 CMPI A,6 04 EOF BRZ OF 05 9B6 CMPI B,6 06 E11 BRZ 11 07 DOO BRC 00 08 045 MOVA45 Eingabe-Routine 09 034 MOV 3,4 OA 023 MOV 2,3 OB 012 MOV 1,2 0C 001 MOV 0,1 OD 060 MOV 6,0 0E co2 GOTO 02 OF FOD EXRL Arbeitsregister — Speicherregister tauschen 10 Co00 GOTO 00 | Rücksprung für 2. Eingabe 11 FOB MULT Multiplikation ausführen 12 co02 GOTO 02 | Rücksprung für Ergebnisanzeige",
+      "lines": [
+        [
+          1262,
+          2096,
+          2050,
+          2132
+        ],
+        [
+          1440,
+          2139,
+          1556,
+          2168
+        ],
+        [
+          1263,
+          2192,
+          1749,
+          2222
+        ],
+        [
+          1263,
+          2245,
+          1777,
+          2278
+        ],
+        [
+          1263,
+          2298,
+          1723,
+          2329
+        ],
+        [
+          1263,
+          2351,
+          1787,
+          2385
+        ],
+        [
+          1263,
+          2404,
+          1759,
+          2435
+        ],
+        [
+          1263,
+          2457,
+          1788,
+          2491
+        ],
+        [
+          1263,
+          2511,
+          1752,
+          2542
+        ],
+        [
+          1263,
+          2564,
+          1763,
+          2595
+        ],
+        [
+          1263,
+          2616,
+          2167,
+          2651
+        ],
+        [
+          1263,
+          2670,
+          1777,
+          2704
+        ],
+        [
+          1263,
+          2723,
+          1776,
+          2757
+        ],
+        [
+          1263,
+          2776,
+          1777,
+          2810
+        ],
+        [
+          1263,
+          2829,
+          1771,
+          2863
+        ],
+        [
+          1263,
+          2883,
+          1777,
+          2917
+        ],
+        [
+          1263,
+          2936,
+          1792,
+          2967
+        ],
+        [
+          1263,
+          2988,
+          2131,
+          3023
+        ],
+        [
+          1845,
+          3029,
+          2305,
+          3065
+        ],
+        [
+          1266,
+          3080,
+          2303,
+          3124
+        ],
+        [
+          1266,
+          3136,
+          2259,
+          3171
+        ],
+        [
+          1266,
+          3186,
+          2053,
+          3231
+        ],
+        [
+          1844,
+          3230,
+          2189,
+          3266
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1247,
+        3299,
+        2309,
+        3370
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt 000000.",
+      "lines": [
+        [
+          1247,
+          3299,
+          2309,
+          3336
+        ],
+        [
+          1247,
+          3341,
+          1385,
+          3370
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

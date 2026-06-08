@@ -1,0 +1,236 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        146,
+        100,
+        1116,
+        146
+      ],
+      "fragments": [
+        [
+          146,
+          100,
+          1116,
+          146
+        ]
+      ],
+      "lines": [
+        [
+          146,
+          100,
+          1116,
+          146
+        ]
+      ],
+      "text": "Timer -— der Computer als Zeit-Schalter"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        958,
+        1204,
+        1669
+      ],
+      "fragments": [
+        [
+          140,
+          958,
+          1204,
+          1669
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          958,
+          1204,
+          1669
+        ]
+      ],
+      "text": "Unter der Bezeichnung Timer verstehen wir Uhren die „rück- wärts” laufen, um nach einer bestimmten eingestellten Zeit z. B. einen Signalton auszulösen. Für diesen Versuch bleibt der Piezo-Summer angeschlossen. Außerdem muß eine Verbindungsleitung zwischen Eingang 4 und Takt/Clock vorhanden sein. Zweckmäßigerweise löschen wir vor Programm-Eingabe den gesamten Programm-Spei- cher mit: HALT - PGM - 5. Die einzelnen Befehle müssen sehr sorgfältig eingegeben werden, weil bei der Verwechslung einer Zahl oder eines Buchstabens das Programm nicht funktionie- ren wird. Wir achten auch darauf, daß wir pro Adresse jeweils nur 3 Zeichen eingeben und dann die NEXT-Taste betätigen."
+    },
+    {
+      "kind": "title",
+      "one_line": true,
+      "bbox": [130, 1620, 880, 1692],
+      "fragments": [[130, 1620, 880, 1692]],
+      "lines": [[130, 1620, 880, 1692]],
+      "text": "Programm: Timer als Zeitschalter"
+    },
+    {
+      "kind": "body",
+      "bbox": [130, 1701, 1200, 3361],
+      "fragments": [[130, 1701, 1200, 3361]],
+      "lines": [[130, 1701, 1200, 3361]],
+      "text": "Timer-Listing links (Adressen 00-10)"
+    },
+    {
+      "kind": "body",
+      "bbox": [1228, 98, 2320, 2730],
+      "fragments": [[1228, 98, 2320, 2730]],
+      "lines": [[1228, 98, 2320, 2730]],
+      "text": "Timer-Listing rechts (Adressen 11-2E)"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        146,
+        100,
+        1116,
+        146
+      ],
+      "text": "Timer -— der Computer als Zeit-Schalter",
+      "lines": [
+        [
+          146,
+          100,
+          1116,
+          146
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        525,
+        477,
+        926,
+        596
+      ],
+      "text": "Computergesteuerter Zeitschalter mit Tonerzeugung",
+      "lines": [
+        [
+          525,
+          477,
+          926,
+          518
+        ],
+        [
+          526,
+          513,
+          747,
+          546
+        ],
+        [
+          530,
+          554,
+          882,
+          596
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        140,
+        958,
+        1204,
+        1448
+      ],
+      "text": "Unter der Bezeichnung Timer verstehen wir Uhren die „rück- wärts” laufen, um nach einer bestimmten eingestellten Zeit z. B. einen Signalton auszulösen. Für diesen Versuch bleibt der Piezo-Summer angeschlossen. Außerdem muß eine Verbindungsleitung zwischen Eingang 4 und Takt/Clock vorhanden sein. Zweckmäßigerweise löschen wir vor Programm-Eingabe den gesamten Programm-Spei- cher mit: HALT - PGM - 5. Die einzelnen Befehle müssen sehr sorgfältig eingegeben werden, weil bei der Verwechslung einer Zahl oder eines Buchstabens das Programm nicht funktionie- ren wird. Wir achten auch darauf, daß wir pro Adresse jeweils nur 3 Zeichen eingeben und dann die NEXT-Taste betätigen.",
+      "lines": [
+        [
+          143,
+          958,
+          1204,
+          993
+        ],
+        [
+          142,
+          999,
+          1202,
+          1034
+        ],
+        [
+          142,
+          1041,
+          722,
+          1076
+        ],
+        [
+          143,
+          1082,
+          1201,
+          1117
+        ],
+        [
+          141,
+          1123,
+          1201,
+          1158
+        ],
+        [
+          143,
+          1165,
+          1200,
+          1200
+        ],
+        [
+          141,
+          1205,
+          1204,
+          1242
+        ],
+        [
+          142,
+          1247,
+          1203,
+          1278
+        ],
+        [
+          142,
+          1289,
+          1203,
+          1324
+        ],
+        [
+          140,
+          1330,
+          1203,
+          1366
+        ],
+        [
+          143,
+          1371,
+          1201,
+          1407
+        ],
+        [
+          143,
+          1413,
+          1200,
+          1448
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        143,
+        1642,
+        743,
+        1677
+      ],
+      "text": "Programm: Timer als Zeitschalter",
+      "lines": [
+        [
+          143,
+          1642,
+          743,
+          1677
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

@@ -1,0 +1,1250 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        122,
+        98,
+        1200,
+        545
+      ],
+      "fragments": [
+        [
+          122,
+          98,
+          1200,
+          545
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          98,
+          1200,
+          545
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        122,
+        574,
+        1200,
+        790
+      ],
+      "fragments": [
+        [
+          122,
+          574,
+          1200,
+          790
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          574,
+          1200,
+          790
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        122,
+        820,
+        1200,
+        1710
+      ],
+      "fragments": [
+        [
+          122,
+          820,
+          1200,
+          1710
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          820,
+          1200,
+          1710
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        122,
+        1720,
+        1200,
+        2255
+      ],
+      "fragments": [
+        [
+          122,
+          1720,
+          1200,
+          2255
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          1720,
+          1200,
+          2255
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        122,
+        2675,
+        1140,
+        2785
+      ],
+      "fragments": [
+        [
+          122,
+          2675,
+          1140,
+          2785
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          2675,
+          1140,
+          2785
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        122,
+        2832,
+        1200,
+        3372
+      ],
+      "fragments": [
+        [
+          122,
+          2832,
+          1200,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          2832,
+          1200,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1252,
+        96,
+        2120,
+        142
+      ],
+      "fragments": [
+        [
+          1252,
+          96,
+          2120,
+          142
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          96,
+          2120,
+          142
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1252,
+        155,
+        2325,
+        978
+      ],
+      "fragments": [
+        [
+          1252,
+          155,
+          2325,
+          978
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          155,
+          2325,
+          978
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1252,
+        1700,
+        2325,
+        1762
+      ],
+      "fragments": [
+        [
+          1252,
+          1700,
+          2325,
+          1762
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          1700,
+          2325,
+          1762
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1252,
+        1802,
+        2330,
+        3372
+      ],
+      "fragments": [
+        [
+          1252,
+          1802,
+          2330,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          1802,
+          2330,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        138,
+        103,
+        1200,
+        344
+      ],
+      "text": "Speicherregistern O bis 3. Ergibt sich ein Rest, leuchtet die ZERO-LED gleichzeitig mit der Ergebnis-Anzeige auf. Hier- durch ergibt sich ein Hinweis, daß ein Rest vorhanden ist. Bei einer Ergebnis-Anzeige ohne Rest, leuchtet die ZERO-LED nicht. Das ZERO-Flag kann dazu verwendet werden, das Pro- gramm abzufragen, ob ein Rest vorhanden ist.",
+      "lines": [
+        [
+          140,
+          103,
+          1197,
+          138
+        ],
+        [
+          138,
+          144,
+          1200,
+          180
+        ],
+        [
+          139,
+          185,
+          1196,
+          220
+        ],
+        [
+          139,
+          226,
+          1196,
+          262
+        ],
+        [
+          140,
+          267,
+          1199,
+          303
+        ],
+        [
+          139,
+          309,
+          932,
+          344
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        373,
+        1199,
+        533
+      ],
+      "text": "Bei einigen Divisions-Aufgaben (z. B. 9999 : 1) beträgt die Re- chenzeit mehrere Sekunden. Während dieserZeitschaltetsich das Display aus, wir erkennen jedoch an der ständig leuchten- den ZERO-LED, daß der Computer arbeitet.",
+      "lines": [
+        [
+          139,
+          373,
+          1199,
+          410
+        ],
+        [
+          138,
+          415,
+          1194,
+          444
+        ],
+        [
+          138,
+          456,
+          1198,
+          491
+        ],
+        [
+          137,
+          497,
+          887,
+          533
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        580,
+        1198,
+        697
+      ],
+      "text": "Wie führt der Mikroprozessor die Division aus? Eine Division isteine wiederholte Subtraktion, d.h. daß die Divi- sion schrittweise ausgeführt wird.",
+      "lines": [
+        [
+          135,
+          580,
+          993,
+          614
+        ],
+        [
+          137,
+          621,
+          1198,
+          655
+        ],
+        [
+          136,
+          662,
+          715,
+          697
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        827,
+        1197,
+        945
+      ],
+      "text": "Kein Wunder, daß der Computer für die Aufgabe 9999 : 1 einige Sekunden benötigt. Trotzdem isteserstaunlich, in welcher Ge- schwindigkeit 9999 -1 -1 -1.... usw. gerechnet wird.",
+      "lines": [
+        [
+          136,
+          827,
+          1194,
+          863
+        ],
+        [
+          135,
+          868,
+          1197,
+          904
+        ],
+        [
+          135,
+          910,
+          1038,
+          945
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        133,
+        975,
+        1196,
+        1293
+      ],
+      "text": "Auch bei der Division werden neben den Arbeitsregistern und Speicherregistern die im Betriebs-System zur Verfügung ste- henden Hilfsregister herangezogen. Bei der vorerwähnten Auf- gabe 9999 : 1 wird nicht nur 9999 mal der Wert 1 subtrahiert, sondern im Hilfsregister wird auch 9999 mal der Wert 1 hin- zuaddiert, damit wir am Ende durch verschiedene Manipulatio- nen innerhalb des Mikroprozessors das Ergebnis 9999 able- sen können.",
+      "lines": [
+        [
+          133,
+          975,
+          1193,
+          1011
+        ],
+        [
+          134,
+          1016,
+          1196,
+          1052
+        ],
+        [
+          135,
+          1057,
+          1196,
+          1093
+        ],
+        [
+          134,
+          1099,
+          1193,
+          1134
+        ],
+        [
+          134,
+          1140,
+          1196,
+          1176
+        ],
+        [
+          133,
+          1182,
+          1195,
+          1217
+        ],
+        [
+          134,
+          1223,
+          1195,
+          1259
+        ],
+        [
+          133,
+          1265,
+          343,
+          1293
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        130,
+        1329,
+        1195,
+        1697
+      ],
+      "text": "Wir müssen zwar eine zeitlang (ca. 8 Sekunden) aufdasErgeb- nis warten, der Mikroprozessor führt jedoch in dieser Zeit (durch das erforderliche Subtrahieren und Addieren) 19.998 Rechenvorgänge durch. Das sind 2.500 Rechenvorgänge pro Sekunde. Während der Rechenzeit steuert derMikroprozessor das Display nichtan (dahertrotz des DISP-Befehls keine Anzei- ge). Erfragt während derRechenzeitauch die Tastaturnicht ab, weshalb wir die Taste HALT betätigen können, ohne daß der Computer hierauf reagiert.",
+      "lines": [
+        [
+          132,
+          1329,
+          1195,
+          1366
+        ],
+        [
+          134,
+          1371,
+          1193,
+          1406
+        ],
+        [
+          134,
+          1412,
+          1192,
+          1449
+        ],
+        [
+          133,
+          1454,
+          1192,
+          1490
+        ],
+        [
+          132,
+          1495,
+          1194,
+          1531
+        ],
+        [
+          131,
+          1537,
+          1194,
+          1572
+        ],
+        [
+          131,
+          1578,
+          1191,
+          1614
+        ],
+        [
+          130,
+          1619,
+          1194,
+          1655
+        ],
+        [
+          131,
+          1661,
+          584,
+          1697
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        129,
+        1726,
+        1193,
+        2128
+      ],
+      "text": "Mit 2.500 Rechenvorgängen pro Sekunde setzt der Mikropro- zessor mitallen übrigen Arbeiten vorübergehend aus, um mög- lichst schnell zum Ergebnis zu kommen. Dies führt auch dazu, daß z.B. die Uhrzeit während derartig langer Rechen-Operatio- nen keinen Takt-Impuls erhält und somit einige Sekunden nachgeht. Es istallerdings zu bedenken, daß die Division 9999: 1 die längste Zeit benötigt. Bei der Division 9999 : 2 ist logi- scherweise nur die halbe Zeit (ca. 4 Sekunden) erforderlich und die Divisionszeit bei den üblichen normalen Aufgaben ist unerheblich.",
+      "lines": [
+        [
+          131,
+          1726,
+          1193,
+          1762
+        ],
+        [
+          130,
+          1767,
+          1193,
+          1803
+        ],
+        [
+          131,
+          1809,
+          1191,
+          1844
+        ],
+        [
+          130,
+          1850,
+          1193,
+          1886
+        ],
+        [
+          131,
+          1892,
+          1190,
+          1927
+        ],
+        [
+          130,
+          1933,
+          1190,
+          1969
+        ],
+        [
+          133,
+          1975,
+          1193,
+          2010
+        ],
+        [
+          129,
+          2016,
+          1188,
+          2052
+        ],
+        [
+          130,
+          2057,
+          1191,
+          2093
+        ],
+        [
+          130,
+          2099,
+          342,
+          2128
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        129,
+        2163,
+        1192,
+        2241
+      ],
+      "text": "Der DIV-Befehl bringt uns beim Programmieren ähnlich wie der MULT-Befehl eine große Erleichterung.",
+      "lines": [
+        [
+          129,
+          2163,
+          1192,
+          2199
+        ],
+        [
+          129,
+          2204,
+          801,
+          2241
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        2682,
+        671,
+        2774
+      ],
+      "text": "Die letzten 4 Befehle - dann können wir alles!",
+      "lines": [
+        [
+          127,
+          2682,
+          669,
+          2721
+        ],
+        [
+          125,
+          2735,
+          671,
+          2774
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        2825,
+        785,
+        2874
+      ],
+      "text": "Der HALT-Befehl, Befehls-Code F00",
+      "lines": [
+        [
+          124,
+          2825,
+          785,
+          2874
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        2900,
+        1189,
+        3218
+      ],
+      "text": "Neben der Funktionstaste HALT können wir auch direkt in einem Programm einen HALT-Befehl einbauen. Der Eingabe- Befehl istF0O. Ist dieser Befehlinnerhalb einesProgramms vor- handen, wird an dieser Stelle das Programm gestoppt. Auf demDisplay wird die Adresse angezeigt, aufwelcher derHALT- Befehl FOO eingegeben wurde. Für die Programm-Fortführung muß zuerst die STEP-Taste und dann die RUN-Taste betätigt werden.",
+      "lines": [
+        [
+          124,
+          2900,
+          1186,
+          2929
+        ],
+        [
+          123,
+          2941,
+          1189,
+          2977
+        ],
+        [
+          127,
+          2982,
+          1189,
+          3018
+        ],
+        [
+          124,
+          3023,
+          1189,
+          3059
+        ],
+        [
+          123,
+          3065,
+          1189,
+          3101
+        ],
+        [
+          123,
+          3106,
+          1186,
+          3142
+        ],
+        [
+          124,
+          3148,
+          1187,
+          3184
+        ],
+        [
+          121,
+          3189,
+          256,
+          3218
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        3254,
+        1189,
+        3372
+      ],
+      "text": "Der HALT-Befehl kann z. B. als „Warte-Befehl” in einem Pro- gramm vorhanden sein, er kann jedoch auch zum Austesten eines neuen Programmes verwendet werden.",
+      "lines": [
+        [
+          123,
+          3254,
+          1189,
+          3289
+        ],
+        [
+          121,
+          3295,
+          1185,
+          3331
+        ],
+        [
+          121,
+          3337,
+          906,
+          3372
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        102,
+        1896,
+        137
+      ],
+      "text": "Der NOP-Befehl, Befehis-Code F01",
+      "lines": [
+        [
+          1262,
+          102,
+          1896,
+          137
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1261,
+        161,
+        2321,
+        236
+      ],
+      "text": "Der NOP-Befehl (no operation) hat keinerlei Funktionen. Der NOP-Befehl ist ein Befehl, der keinen Befehl ausführt!",
+      "lines": [
+        [
+          1261,
+          161,
+          2321,
+          197
+        ],
+        [
+          1261,
+          202,
+          2191,
+          236
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        267,
+        1761,
+        297
+      ],
+      "text": "Was soll dann dieser Befehl?",
+      "lines": [
+        [
+          1259,
+          267,
+          1761,
+          297
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1258,
+        332,
+        2321,
+        856
+      ],
+      "text": "Wenn wir längere Programme selbst erstellen und nicht sicher sind, ob evtl. nach einem ersten Programm-Test noch weitere Befehle eingefügt werden müssen, kann der NOP-Befehl eine gute Hilfe sein. Wir können nämlich beim Programmieren an uns kritisch erscheinenden Programm-Stellen einige NOP-Be- fehle eingeben. Wir haben dann die Möglichkeit später anstelle der NOP-Befehle die evtl. fehlenden Befehls-Eingaben vorzu- nehmen, ohne daß deshalb das gesamte Programm neu einge- geben werden müßte. Da die NOP-Befehle ohne Funktion sind, stört es bei einem späteren Programmlauf nicht, wenn einige unbenutzte NOP-Befehle dazwischen stehen, weil diese ein- fach übersprungen werden - so als ob sie nicht vorhanden wä- ren.",
+      "lines": [
+        [
+          1259,
+          332,
+          2320,
+          367
+        ],
+        [
+          1260,
+          373,
+          2319,
+          408
+        ],
+        [
+          1261,
+          414,
+          2319,
+          450
+        ],
+        [
+          1259,
+          455,
+          2317,
+          491
+        ],
+        [
+          1261,
+          496,
+          2321,
+          532
+        ],
+        [
+          1258,
+          537,
+          2318,
+          574
+        ],
+        [
+          1259,
+          579,
+          2321,
+          615
+        ],
+        [
+          1260,
+          620,
+          2321,
+          656
+        ],
+        [
+          1259,
+          661,
+          2318,
+          697
+        ],
+        [
+          1259,
+          702,
+          2318,
+          739
+        ],
+        [
+          1260,
+          744,
+          2320,
+          778
+        ],
+        [
+          1258,
+          785,
+          2320,
+          821
+        ],
+        [
+          1260,
+          835,
+          1320,
+          856
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        892,
+        2320,
+        963
+      ],
+      "text": "Bei unserem Microtronic-Computersystem wurde an alles ge- dacht.",
+      "lines": [
+        [
+          1260,
+          892,
+          2320,
+          928
+        ],
+        [
+          1258,
+          934,
+          1363,
+          963
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1255,
+        1656,
+        2262,
+        1756
+      ],
+      "text": "Pa Mit CALL in ein Unterprogramm springen!",
+      "lines": [
+        [
+          1266,
+          1656,
+          1304,
+          1683
+        ],
+        [
+          1255,
+          1709,
+          2262,
+          1756
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        1812,
+        2316,
+        2055
+      ],
+      "text": "Bei längeren Programmen ist es möglich, daß gleiche Berech- nungen an verschiedenen Programmstellen durchgeführt wer- den müssen. Damit diese gleichen Programmschritte nicht mehrmals an den verschiedenen Programmstellen einzufügen sind, verwenden wir für gleiche Programmschritte ein soge- nanntes „Unter-Programm’”:",
+      "lines": [
+        [
+          1254,
+          1812,
+          2316,
+          1848
+        ],
+        [
+          1255,
+          1853,
+          2316,
+          1890
+        ],
+        [
+          1253,
+          1895,
+          2314,
+          1930
+        ],
+        [
+          1255,
+          1936,
+          2312,
+          1972
+        ],
+        [
+          1253,
+          1977,
+          2316,
+          2013
+        ],
+        [
+          1254,
+          2020,
+          1737,
+          2055
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        2084,
+        2316,
+        2244
+      ],
+      "text": "Das Haupt-Programm wird vom Computer wie üblich abgear- beitet. Sobald die Adresse mit dem CALL-Befehl erscheint, erfolgt ein Sprung zum Unter-Programm, welchesz.B.am Ende des Haupt-Programms im Programm-Speicher stehen kann.",
+      "lines": [
+        [
+          1254,
+          2084,
+          2316,
+          2120
+        ],
+        [
+          1254,
+          2125,
+          2313,
+          2159
+        ],
+        [
+          1253,
+          2167,
+          2313,
+          2203
+        ],
+        [
+          1252,
+          2207,
+          2313,
+          2244
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        2273,
+        2316,
+        2392
+      ],
+      "text": "CALL ist also ähnlich wie GOTO ein Sprung-Befehl, jedoch beim CALL-Befehl wird im Mikroprozessor dessen Adresse ge- speichert.",
+      "lines": [
+        [
+          1252,
+          2273,
+          2311,
+          2308
+        ],
+        [
+          1253,
+          2314,
+          2316,
+          2350
+        ],
+        [
+          1252,
+          2357,
+          1422,
+          2392
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        2421,
+        2316,
+        2953
+      ],
+      "text": "Das Unter-Programm wird ebenfalls normal abgearbeitet, bis am Ende des Unter-Programms der Befehl RET (return) erscheint. Durch RET erfolgt ein Rücksprung zum Haupt-Pro- gramm. Da der Mikroprozessor die Adresse des CALL-Befehls registriert hat, wird im Haupt-Programm automatisch die nach dem CALL-Befehl folgende Adresse angesteuert und das Haupt-Programm kann weiter gearbeitet werden. Bei jedem CALL-Befehl wird die CALL-Adresse im Mikroprozessor neu gespeichert, wodurch es möglich ist, das Unter-Programm von verschiedenen Stellen des Haupt-Programmes aus anzusprin- gen. Genauso ist es möglich, vom Unter-Programm immer wie- der an die verschiedenen Stellen des Haupt-Programms zu- rückzuspringen.",
+      "lines": [
+        [
+          1253,
+          2421,
+          2314,
+          2457
+        ],
+        [
+          1252,
+          2461,
+          2311,
+          2498
+        ],
+        [
+          1252,
+          2503,
+          2316,
+          2539
+        ],
+        [
+          1252,
+          2545,
+          2314,
+          2581
+        ],
+        [
+          1253,
+          2586,
+          2311,
+          2623
+        ],
+        [
+          1252,
+          2628,
+          2314,
+          2663
+        ],
+        [
+          1252,
+          2669,
+          2312,
+          2705
+        ],
+        [
+          1251,
+          2710,
+          2312,
+          2745
+        ],
+        [
+          1251,
+          2751,
+          2312,
+          2788
+        ],
+        [
+          1250,
+          2793,
+          2315,
+          2828
+        ],
+        [
+          1251,
+          2834,
+          2315,
+          2871
+        ],
+        [
+          1251,
+          2875,
+          2316,
+          2911
+        ],
+        [
+          1252,
+          2918,
+          1528,
+          2953
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        2981,
+        2315,
+        3183
+      ],
+      "text": "Mit CALL können auch verschiedene (mehrere) Unter-Pro- gramme angesteuert werden, wobei jedoch mit RET zuerst ein Rücksprung zum Haupt-Programm erforderlich ist. Ein Sprung von einem Unter-Programm direkt zu einem anderen ist nicht möglich.",
+      "lines": [
+        [
+          1252,
+          2981,
+          2315,
+          3018
+        ],
+        [
+          1251,
+          3023,
+          2312,
+          3059
+        ],
+        [
+          1252,
+          3064,
+          2312,
+          3100
+        ],
+        [
+          1250,
+          3105,
+          2313,
+          3141
+        ],
+        [
+          1252,
+          3148,
+          1395,
+          3183
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        3212,
+        2316,
+        3372
+      ],
+      "text": "Unter-Programme werden auch „Subroutine” genannt. Durch eine derartige Subroutine kann ein Programm kürzer gehalten werden, weil die Wiederholung immer wiederkehrender glei- cher Programmschritte nicht notwendig ist.",
+      "lines": [
+        [
+          1251,
+          3212,
+          2311,
+          3248
+        ],
+        [
+          1250,
+          3253,
+          2312,
+          3289
+        ],
+        [
+          1249,
+          3295,
+          2316,
+          3330
+        ],
+        [
+          1250,
+          3336,
+          2000,
+          3372
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

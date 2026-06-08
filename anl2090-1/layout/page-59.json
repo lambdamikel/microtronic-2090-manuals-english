@@ -1,0 +1,1102 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        1268,
+        106,
+        2334,
+        1452
+      ],
+      "fragments": [
+        [
+          1268,
+          106,
+          2334,
+          1452
+        ]
+      ],
+      "lines": [
+        [
+          1268,
+          106,
+          2334,
+          1452
+        ]
+      ],
+      "text": "Batterie-Anschlüsse entfernen und der Computer ist wieder wie üblich einsatzbereit. Ein kurzer Programm-Test wirdes uns beweisen, daß die eingegebenen Programme noch vorhanden sind.  Die Betätigung der RESET-Taste kurz vor und während der Netzstromunterbrechung (bzw. während der Netzstromein- schaltung) ist unbedingt erforderlich, damit keine Daten der eingegebenen Programme verloren gehen. Sollte durch fal- sche Betätigung der RESET-Taste ein Programm nicht ein- wandfrei funktionieren (was sich vor allem bei den ersten und letzten Adressen des Programm-Speichers auswirken könn- te), müßten einzelne Korrekturen in der bekannten Weise durchgeführt werden.  istauch eine Langzeit-Batterie-Versorgung des Programm- Speichers möglich”?  In der Standard-Lieferausführung ist dies nicht möglich. Wir können jedoch auf der Computer-Platine den dort u.a. enthal- tenen Speicher-Baustein gegen einen anderen Typ austau- schen, welcher durch besonders geringe Stromaufnahme spe- ziell für Batterie-Betrieb geeignet ist.  Bevor wir technische Eingriffe an der Platine vornehmen, soll- ten wir jedoch unseren Computer etwas besser kennenlernen. Hinweise zu diesem Thema finden wir im Kapitel „Speicher und Speicher-Möglichkeiten”."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        145,
+        116,
+        1210,
+        1100
+      ],
+      "fragments": [
+        [
+          145,
+          116,
+          1210,
+          1100
+        ]
+      ],
+      "lines": [
+        [
+          145,
+          116,
+          1210,
+          1100
+        ]
+      ],
+      "text": "Wie können wir bei kurzfristiger Netzstrom-Unterbrechung die eingegebenen Programme im Programm-Speicher halten?  Wie schon erwähnt, kann derComputer im Dauerbetrieb an der Netzstromsteckdose angeschlossen bleiben.  Nun kann es vorkommen, daß der Netzstrom aus irgendwel- chen Gründen kurzfristig unterbrochen werden muß, weil der Computer beispielsweise von einem Raum in einen anderen Raum gebracht werden soll. Schade, wenn hierdurch ein größeres Programm verloren ginge und kurze Zeit später wie- der neu eingegeben werden müßte.  Für Netzstromunterbrechungen bis zu maximal 1 Stunde, kön- nen wir die gespeicherten Programmehalten, wenn die 9V-Bat- terie (siehe Abbildung) rechts hinten an der Computer-Platine angeschlossen wird. Dabei dürfen die Batterie-Pole in keinem Fallvertauscht werden: Der Minus-Pol der Batterie führt zur An- schlußbuchse GND (Ground), der Plus-Pol der Batterie führt zur Anschlußbuchse U,. Die Batterie wird erst kurz vor der Netzstrom-Unterbrechung angeschlossen."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1277,
+        2188,
+        2346,
+        3374
+      ],
+      "fragments": [
+        [
+          1277,
+          2188,
+          2341,
+          2388
+        ],
+        [
+          1277,
+          2419,
+          2343,
+          2791
+        ],
+        [
+          1279,
+          2815,
+          2345,
+          3179
+        ],
+        [
+          1280,
+          3210,
+          2346,
+          3374
+        ]
+      ],
+      "lines": [
+        [
+          1278,
+          2188,
+          2340,
+          2227
+        ],
+        [
+          1277,
+          2230,
+          2338,
+          2270
+        ],
+        [
+          1277,
+          2271,
+          2341,
+          2308
+        ],
+        [
+          1277,
+          2313,
+          2339,
+          2350
+        ],
+        [
+          1277,
+          2359,
+          1355,
+          2388
+        ],
+        [
+          1277,
+          2419,
+          2340,
+          2458
+        ],
+        [
+          1279,
+          2460,
+          2342,
+          2499
+        ],
+        [
+          1278,
+          2502,
+          2340,
+          2540
+        ],
+        [
+          1278,
+          2543,
+          2342,
+          2583
+        ],
+        [
+          1278,
+          2585,
+          2343,
+          2624
+        ],
+        [
+          1278,
+          2625,
+          2341,
+          2661
+        ],
+        [
+          1280,
+          2667,
+          2341,
+          2707
+        ],
+        [
+          1280,
+          2708,
+          2341,
+          2748
+        ],
+        [
+          1279,
+          2755,
+          1490,
+          2791
+        ],
+        [
+          1280,
+          2815,
+          2344,
+          2855
+        ],
+        [
+          1279,
+          2857,
+          2341,
+          2894
+        ],
+        [
+          1281,
+          2897,
+          2344,
+          2935
+        ],
+        [
+          1280,
+          2938,
+          2344,
+          2979
+        ],
+        [
+          1280,
+          2980,
+          2345,
+          3019
+        ],
+        [
+          1281,
+          3022,
+          2345,
+          3059
+        ],
+        [
+          1281,
+          3062,
+          2345,
+          3099
+        ],
+        [
+          1280,
+          3104,
+          2345,
+          3141
+        ],
+        [
+          1280,
+          3151,
+          1448,
+          3179
+        ],
+        [
+          1281,
+          3210,
+          2343,
+          3249
+        ],
+        [
+          1281,
+          3251,
+          2346,
+          3292
+        ],
+        [
+          1280,
+          3293,
+          2344,
+          3332
+        ],
+        [
+          1281,
+          3339,
+          1594,
+          3374
+        ]
+      ],
+      "text": "Im Zusammenhang mit Computern wird häufig von Bits (Mehr- zahl von Bit) und Bytes (Mehrzahl von Byte) gesprochen. Aus der technischen Beschreibung unseres Microtronic-Compu- ters sehen wir z. B., daß ein 4-Bit-Mikroprozessor verwendet wird.  Aus unseren vorangegangenen Experimenten wissen wir, daß unser Mikrocomputer hexadezimal arbeitet, und daß die 16 he- xadezimalen Werte (von O bis F) im Mikroprozessor durch die aus O und 1 gebildeten 4-stelligen Dualzahlen verarbeitet wer- den. Für jede Dual-Stelle benötigen wir 1 Bit. Da der Mikropro- zessor mit 4 Dualstellen arbeitet, sind für seine Tätigkeit 4 Bit notwendig. Ein Bit (Abkürzung für „binary digit”) ist somit die kleinste Speicher-Einheit eines Mikroprozessors (und eines Computers).  Für jeden hexadezimalen Wert, den wir in einem unserer Regi- ster verarbeiten, benötigen wir 4 Bits. Diese 4 Bits müssen innerhalb des Mikroprozessors gleichzeitig, z. B. vom Pro- gramm-Speicher zu den Ausgängen gebracht werden. Hierfür sind 4 Leitungen erforderlich. Wir erinnern uns an den „Daten- Bus”. Ein 4-Bit-Mikroprozessor hat einen 4-Bit breiten Daten- Bus. Dies bedeutet z. B., daß immer nur eine 1-stellige hexade- zimale Ziffer in einem Arbeitsgang bearbeitet (z.B. addiert) wer- den kann.  4-Bit-Mikroprozessoren haben weltweit die größte Verbreitung gefunden. Sie finden sich in fast allen Taschenrechnern, Auto- Computern, elektronischen Spielen, Haushaltsmaschinen, Steuerungen usw."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        153,
+        2576,
+        1221,
+        3380
+      ],
+      "fragments": [
+        [
+          153,
+          2576,
+          1221,
+          3380
+        ]
+      ],
+      "lines": [
+        [
+          153,
+          2576,
+          1221,
+          3380
+        ]
+      ],
+      "text": "Vor dem Herausziehen des Netzgeräts aus der Steckdose  ist die grüne RESET-Taste aufdem Computer-Platine ca.10 Se- kunden niederzudrücken. Auch während und nach dem Her- ausziehen des Netzgeräts die RESET-Tastenoch ca.10 Sekun- den in Druckstellung halten.  Der Programm-Speicher wird nun durch die Batterie-Span- nung betriebsbereit gehalten, während alle übrigen Computer- Funktionen abgeschaltet sind. Es kann also mit Batteriebetrieb nicht weitergearbeitet werden.  Da sich für die Betriebsbereitschaft des Programm-Speichers ein Stromverbrauch von ca. 30 mA ergibt, sollte der Computer schnellstmöglichst (zur Schonung der Batterie) wieder an einer Steckdose angeschlossen werden.  Vor dem Einstecken des Netzgeräts in die Steckdose ist erneut die RESET-Taste ca. 10 Sekunden lang zu drücken, dann (bei gedrückter RESET-Taste) das Netzgerät einstecken. Nach dem Einstecken die RESET-Taste noch ca. 10 Sekunden in Druckstellung halten."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1274,
+        1672,
+        1755,
+        1745
+      ],
+      "fragments": [
+        [
+          1274,
+          1672,
+          1755,
+          1745
+        ]
+      ],
+      "lines": [
+        [
+          1274,
+          1672,
+          1755,
+          1745
+        ]
+      ],
+      "text": "Bit und Byte heading"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        145,
+        116,
+        1083,
+        323
+      ],
+      "text": "Wie können wir bei kurzfristiger Netzstrom-Unterbrechung die eingegebenen Programme im Programm-Speicher halten?",
+      "lines": [
+        [
+          145,
+          116,
+          601,
+          157
+        ],
+        [
+          148,
+          167,
+          1083,
+          217
+        ],
+        [
+          147,
+          222,
+          883,
+          270
+        ],
+        [
+          149,
+          273,
+          908,
+          323
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        398,
+        1208,
+        479
+      ],
+      "text": "Wie schon erwähnt, kann derComputer im Dauerbetrieb an der Netzstromsteckdose angeschlossen bleiben.",
+      "lines": [
+        [
+          145,
+          398,
+          1208,
+          436
+        ],
+        [
+          147,
+          441,
+          926,
+          479
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        498,
+        1209,
+        745
+      ],
+      "text": "Nun kann es vorkommen, daß der Netzstrom aus irgendwel- chen Gründen kurzfristig unterbrochen werden muß, weil der Computer beispielsweise von einem Raum in einen anderen Raum gebracht werden soll. Schade, wenn hierdurch ein größeres Programm verloren ginge und kurze Zeit später wie- der neu eingegeben werden müßte.",
+      "lines": [
+        [
+          147,
+          498,
+          1208,
+          535
+        ],
+        [
+          147,
+          539,
+          1208,
+          578
+        ],
+        [
+          147,
+          580,
+          1206,
+          621
+        ],
+        [
+          148,
+          621,
+          1206,
+          663
+        ],
+        [
+          147,
+          662,
+          1209,
+          705
+        ],
+        [
+          148,
+          708,
+          762,
+          745
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        763,
+        1210,
+        1091
+      ],
+      "text": "Für Netzstromunterbrechungen bis zu maximal 1 Stunde, kön- nen wir die gespeicherten Programmehalten, wenn die 9V-Bat- terie (siehe Abbildung) rechts hinten an der Computer-Platine angeschlossen wird. Dabei dürfen die Batterie-Pole in keinem Fallvertauscht werden: Der Minus-Pol der Batterie führt zur An- schlußbuchse GND (Ground), der Plus-Pol der Batterie führt zur Anschlußbuchse U,. Die Batterie wird erst kurz vor der Netzstrom-Unterbrechung angeschlossen.",
+      "lines": [
+        [
+          149,
+          763,
+          1210,
+          802
+        ],
+        [
+          149,
+          804,
+          1210,
+          845
+        ],
+        [
+          147,
+          845,
+          1208,
+          887
+        ],
+        [
+          149,
+          887,
+          1207,
+          929
+        ],
+        [
+          150,
+          928,
+          1210,
+          964
+        ],
+        [
+          149,
+          969,
+          1209,
+          1009
+        ],
+        [
+          149,
+          1011,
+          1210,
+          1052
+        ],
+        [
+          149,
+          1055,
+          889,
+          1091
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        153,
+        2576,
+        1218,
+        2613
+      ],
+      "text": "Vor dem Herausziehen des Netzgeräts aus der Steckdose",
+      "lines": [
+        [
+          153,
+          2576,
+          1218,
+          2613
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        155,
+        2627,
+        1220,
+        2791
+      ],
+      "text": "ist die grüne RESET-Taste aufdem Computer-Platine ca.10 Se- kunden niederzudrücken. Auch während und nach dem Her- ausziehen des Netzgeräts die RESET-Tastenoch ca.10 Sekun- den in Druckstellung halten.",
+      "lines": [
+        [
+          156,
+          2627,
+          1220,
+          2669
+        ],
+        [
+          156,
+          2669,
+          1220,
+          2704
+        ],
+        [
+          155,
+          2710,
+          1220,
+          2749
+        ],
+        [
+          155,
+          2755,
+          640,
+          2791
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        156,
+        2810,
+        1221,
+        2975
+      ],
+      "text": "Der Programm-Speicher wird nun durch die Batterie-Span- nung betriebsbereit gehalten, während alle übrigen Computer- Funktionen abgeschaltet sind. Es kann also mit Batteriebetrieb nicht weitergearbeitet werden.",
+      "lines": [
+        [
+          156,
+          2810,
+          1221,
+          2851
+        ],
+        [
+          157,
+          2853,
+          1220,
+          2893
+        ],
+        [
+          157,
+          2893,
+          1219,
+          2933
+        ],
+        [
+          158,
+          2938,
+          680,
+          2975
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        156,
+        2993,
+        1221,
+        3157
+      ],
+      "text": "Da sich für die Betriebsbereitschaft des Programm-Speichers ein Stromverbrauch von ca. 30 mA ergibt, sollte der Computer schnellstmöglichst (zur Schonung der Batterie) wieder an einer Steckdose angeschlossen werden.",
+      "lines": [
+        [
+          157,
+          2993,
+          1219,
+          3030
+        ],
+        [
+          156,
+          3035,
+          1221,
+          3072
+        ],
+        [
+          156,
+          3076,
+          1217,
+          3116
+        ],
+        [
+          157,
+          3120,
+          864,
+          3157
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        155,
+        3176,
+        1221,
+        3381
+      ],
+      "text": "Vor dem Einstecken des Netzgeräts in die Steckdose ist erneut die RESET-Taste ca. 10 Sekunden lang zu drücken, dann (bei gedrückter RESET-Taste) das Netzgerät einstecken. Nach dem Einstecken die RESET-Taste noch ca. 10 Sekunden in Druckstellung halten.",
+      "lines": [
+        [
+          155,
+          3176,
+          1221,
+          3214
+        ],
+        [
+          157,
+          3218,
+          1220,
+          3254
+        ],
+        [
+          157,
+          3259,
+          1220,
+          3301
+        ],
+        [
+          157,
+          3300,
+          1220,
+          3336
+        ],
+        [
+          158,
+          3347,
+          564,
+          3381
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1268,
+        106,
+        2330,
+        263
+      ],
+      "text": "Batterie-Anschlüsse entfernen und der Computer ist wieder wie üblich einsatzbereit. Ein kurzer Programm-Test wirdes uns beweisen, daß die eingegebenen Programme noch vorhanden sind.",
+      "lines": [
+        [
+          1270,
+          106,
+          2330,
+          140
+        ],
+        [
+          1268,
+          147,
+          2328,
+          182
+        ],
+        [
+          1271,
+          187,
+          2327,
+          226
+        ],
+        [
+          1270,
+          234,
+          1348,
+          263
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1270,
+        299,
+        2332,
+        669
+      ],
+      "text": "Die Betätigung der RESET-Taste kurz vor und während der Netzstromunterbrechung (bzw. während der Netzstromein- schaltung) ist unbedingt erforderlich, damit keine Daten der eingegebenen Programme verloren gehen. Sollte durch fal- sche Betätigung der RESET-Taste ein Programm nicht ein- wandfrei funktionieren (was sich vor allem bei den ersten und letzten Adressen des Programm-Speichers auswirken könn- te), müßten einzelne Korrekturen in der bekannten Weise durchgeführt werden.",
+      "lines": [
+        [
+          1271,
+          299,
+          2331,
+          339
+        ],
+        [
+          1271,
+          341,
+          2331,
+          378
+        ],
+        [
+          1270,
+          382,
+          2331,
+          422
+        ],
+        [
+          1271,
+          423,
+          2331,
+          463
+        ],
+        [
+          1271,
+          464,
+          2332,
+          503
+        ],
+        [
+          1270,
+          505,
+          2329,
+          543
+        ],
+        [
+          1272,
+          546,
+          2332,
+          584
+        ],
+        [
+          1270,
+          587,
+          2330,
+          629
+        ],
+        [
+          1271,
+          632,
+          1641,
+          669
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1271,
+        688,
+        2332,
+        769
+      ],
+      "text": "istauch eine Langzeit-Batterie-Versorgung des Programm- Speichers möglich”?",
+      "lines": [
+        [
+          1272,
+          688,
+          2332,
+          726
+        ],
+        [
+          1271,
+          732,
+          1635,
+          769
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1271,
+        787,
+        2334,
+        991
+      ],
+      "text": "In der Standard-Lieferausführung ist dies nicht möglich. Wir können jedoch auf der Computer-Platine den dort u.a. enthal- tenen Speicher-Baustein gegen einen anderen Typ austau- schen, welcher durch besonders geringe Stromaufnahme spe- ziell für Batterie-Betrieb geeignet ist.",
+      "lines": [
+        [
+          1272,
+          787,
+          2333,
+          825
+        ],
+        [
+          1273,
+          829,
+          2333,
+          869
+        ],
+        [
+          1271,
+          871,
+          2333,
+          910
+        ],
+        [
+          1272,
+          911,
+          2334,
+          950
+        ],
+        [
+          1272,
+          955,
+          1900,
+          991
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1272,
+        1012,
+        2334,
+        1176
+      ],
+      "text": "Bevor wir technische Eingriffe an der Platine vornehmen, soll- ten wir jedoch unseren Computer etwas besser kennenlernen. Hinweise zu diesem Thema finden wir im Kapitel „Speicher und Speicher-Möglichkeiten”.",
+      "lines": [
+        [
+          1273,
+          1012,
+          2334,
+          1050
+        ],
+        [
+          1272,
+          1053,
+          2332,
+          1093
+        ],
+        [
+          1273,
+          1094,
+          2332,
+          1130
+        ],
+        [
+          1273,
+          1139,
+          1714,
+          1176
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1274,
+        1677,
+        1655,
+        1727
+      ],
+      "text": "„Bit” und „Byte”",
+      "lines": [
+        [
+          1274,
+          1677,
+          1655,
+          1727
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1974,
+        2042,
+        2249,
+        2080
+      ],
+      "text": "8 Bits = 1Byte",
+      "lines": [
+        [
+          1974,
+          2042,
+          2249,
+          2080
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1277,
+        2188,
+        2341,
+        2388
+      ],
+      "text": "Im Zusammenhang mit Computern wird häufig von Bits (Mehr- zahl von Bit) und Bytes (Mehrzahl von Byte) gesprochen. Aus der technischen Beschreibung unseres Microtronic-Compu- ters sehen wir z. B., daß ein 4-Bit-Mikroprozessor verwendet wird.",
+      "lines": [
+        [
+          1278,
+          2188,
+          2340,
+          2227
+        ],
+        [
+          1277,
+          2230,
+          2338,
+          2270
+        ],
+        [
+          1277,
+          2271,
+          2341,
+          2308
+        ],
+        [
+          1277,
+          2313,
+          2339,
+          2350
+        ],
+        [
+          1277,
+          2359,
+          1355,
+          2388
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1277,
+        2419,
+        2343,
+        2791
+      ],
+      "text": "Aus unseren vorangegangenen Experimenten wissen wir, daß unser Mikrocomputer hexadezimal arbeitet, und daß die 16 he- xadezimalen Werte (von O bis F) im Mikroprozessor durch die aus O und 1 gebildeten 4-stelligen Dualzahlen verarbeitet wer- den. Für jede Dual-Stelle benötigen wir 1 Bit. Da der Mikropro- zessor mit 4 Dualstellen arbeitet, sind für seine Tätigkeit 4 Bit notwendig. Ein Bit (Abkürzung für „binary digit”) ist somit die kleinste Speicher-Einheit eines Mikroprozessors (und eines Computers).",
+      "lines": [
+        [
+          1277,
+          2419,
+          2340,
+          2458
+        ],
+        [
+          1279,
+          2460,
+          2342,
+          2499
+        ],
+        [
+          1278,
+          2502,
+          2340,
+          2540
+        ],
+        [
+          1278,
+          2543,
+          2342,
+          2583
+        ],
+        [
+          1278,
+          2585,
+          2343,
+          2624
+        ],
+        [
+          1278,
+          2625,
+          2341,
+          2661
+        ],
+        [
+          1280,
+          2667,
+          2341,
+          2707
+        ],
+        [
+          1280,
+          2708,
+          2341,
+          2748
+        ],
+        [
+          1279,
+          2755,
+          1490,
+          2791
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1279,
+        2815,
+        2345,
+        3179
+      ],
+      "text": "Für jeden hexadezimalen Wert, den wir in einem unserer Regi- ster verarbeiten, benötigen wir 4 Bits. Diese 4 Bits müssen innerhalb des Mikroprozessors gleichzeitig, z. B. vom Pro- gramm-Speicher zu den Ausgängen gebracht werden. Hierfür sind 4 Leitungen erforderlich. Wir erinnern uns an den „Daten- Bus”. Ein 4-Bit-Mikroprozessor hat einen 4-Bit breiten Daten- Bus. Dies bedeutet z. B., daß immer nur eine 1-stellige hexade- zimale Ziffer in einem Arbeitsgang bearbeitet (z.B. addiert) wer- den kann.",
+      "lines": [
+        [
+          1280,
+          2815,
+          2344,
+          2855
+        ],
+        [
+          1279,
+          2857,
+          2341,
+          2894
+        ],
+        [
+          1281,
+          2897,
+          2344,
+          2935
+        ],
+        [
+          1280,
+          2938,
+          2344,
+          2979
+        ],
+        [
+          1280,
+          2980,
+          2345,
+          3019
+        ],
+        [
+          1281,
+          3022,
+          2345,
+          3059
+        ],
+        [
+          1281,
+          3062,
+          2345,
+          3099
+        ],
+        [
+          1280,
+          3104,
+          2345,
+          3141
+        ],
+        [
+          1280,
+          3151,
+          1448,
+          3179
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1280,
+        3210,
+        2346,
+        3374
+      ],
+      "text": "4-Bit-Mikroprozessoren haben weltweit die größte Verbreitung gefunden. Sie finden sich in fast allen Taschenrechnern, Auto- Computern, elektronischen Spielen, Haushaltsmaschinen, Steuerungen usw.",
+      "lines": [
+        [
+          1281,
+          3210,
+          2343,
+          3249
+        ],
+        [
+          1281,
+          3251,
+          2346,
+          3292
+        ],
+        [
+          1280,
+          3293,
+          2344,
+          3332
+        ],
+        [
+          1281,
+          3339,
+          1594,
+          3374
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

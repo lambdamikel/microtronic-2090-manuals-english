@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "We want to carry out the following multiplication: 27 &times; 426"
+  },
+  "1": {
+    "de": "",
+    "en": "For this we enter: numbers <b>27</b> then key <b>A</b>, numbers <b>426</b> then key <b>B</b>. The display shows the result: 11502.\n\nKey A corresponds to the &times; key on a pocket calculator. With B we have the = key, and with C we can clear an entry and the results. We should not enter the numbers to be multiplied too quickly one after another, because otherwise there is a danger that individual values are not stored in the corresponding register.\n\nWe now enter a task that can no longer be calculated with the 6 digits, e.g.: 276 &times; 3726. On the display appears EEEEEE for Error. (Error means fault; the computer has not calculated correctly because the available 6 digits are not enough for the larger result)."
+  },
+  "2": {
+    "de": "",
+    "en": "<b>Program description</b>\nThe commands at addresses 00 to 0E again form an input routine, as already discussed with the 6-digit addition. Differences from that earlier program are that the input of the values to be multiplied takes place via register no. 6 (KIN 6), and that these entered values are shifted into registers 0 to 5 via the MOV commands and are also displayed there."
+  },
+  "3": {
+    "de": "",
+    "en": "At address 0F we have the EXRL command, with which the values standing in the working registers are brought into the memory registers. After pressing key A, the next input is likewise taken into working registers 0 to 5. The MULT command then multiplies, decimally, working registers 0 to 5 by the values that were previously brought into memory registers 0 to 5. The result is taken into working registers 0 to 5 and displayed."
+  },
+  "4": {
+    "de": "",
+    "en": "<b>How does the microprocessor calculate with the MULT command?</b>\nA multiplication is nothing other than a repeated addition.\n\nExample: 5 &times; 5 = 5 + 5 + 5 + 5 + 5 = 25."
+  },
+  "5": {
+    "de": "",
+    "en": "That the microprocessor, for this arithmetic operation, needs in addition to the working register and the memory register also an auxiliary register (which is likewise controlled by the operating system) need only interest us in passing, because the processor carries out the task automatically. We do, however, recognize that the MULT command saves a great deal of programming work.\n\nThe <b>MULT command</b> has the entry code <b>F0B</b>, with no variable registers to be specified."
+  },
+  "6": {
+    "de": "",
+    "en": "Division"
+  },
+  "7": {
+    "de": "",
+    "en": "The counterpart to multiplication is division. For this too, the operating system of our microprocessor has the special <b>DIV command</b> with command code <b>F0C</b>. For this command code too there are no variable register specifications.\n\nDivision too is carried out immediately decimally; it is, however, for internal reasons limited to four digits."
+  },
+  "8": {
+    "de": "",
+    "en": "After HALT – NEXT – 00 we enter the division program:"
+  },
+  "9": {
+    "de": "",
+    "en": "<table class=\"timer\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td class=\"a\">00</td><td class=\"c\">F08</td><td class=\"m\">CLEAR</td><td rowspan=\"13\">Input routine</td></tr><tr><td class=\"a\">01</td><td class=\"c\">F40</td><td class=\"m\">DISP 4,0</td></tr><tr><td class=\"a\">02</td><td class=\"c\">FF6</td><td class=\"m\">KIN 6</td></tr><tr><td class=\"a\">03</td><td class=\"c\">9A6</td><td class=\"m\">CMPI A,6</td></tr><tr><td class=\"a\">04</td><td class=\"c\">E0D</td><td class=\"m\">BRZ 0D</td></tr><tr><td class=\"a\">05</td><td class=\"c\">9B6</td><td class=\"m\">CMPI B,6</td></tr><tr><td class=\"a\">06</td><td class=\"c\">E0F</td><td class=\"m\">BRZ 0F</td></tr><tr><td class=\"a\">07</td><td class=\"c\">D00</td><td class=\"m\">BRC 00</td></tr><tr><td class=\"a\">08</td><td class=\"c\">023</td><td class=\"m\">MOV 2,3</td></tr><tr><td class=\"a\">09</td><td class=\"c\">012</td><td class=\"m\">MOV 1,2</td></tr><tr><td class=\"a\">0A</td><td class=\"c\">001</td><td class=\"m\">MOV 0,1</td></tr><tr><td class=\"a\">0B</td><td class=\"c\">060</td><td class=\"m\">MOV 6,0</td></tr><tr><td class=\"a\">0C</td><td class=\"c\">C02</td><td class=\"m\">GOTO 02</td></tr><tr><td class=\"a\">0D</td><td class=\"c\">F0D</td><td class=\"m\">EXRL</td><td>swap working register – memory register</td></tr><tr><td class=\"a\">0E</td><td class=\"c\">C00</td><td class=\"m\">GOTO 00</td><td>jump back for 2nd input</td></tr><tr><td class=\"a\">0F</td><td class=\"c\">F0C</td><td class=\"m\"><b>DIV</b></td><td>execute division</td></tr><tr><td class=\"a\">10</td><td class=\"c\">E12</td><td class=\"m\">BRZ 12</td><td>if remainder, then jump to 12</td></tr><tr><td class=\"a\">11</td><td class=\"c\">C02</td><td class=\"m\">GOTO 02</td><td>jump back for result display</td></tr><tr><td class=\"a\">12</td><td class=\"c\">FF6</td><td class=\"m\">KIN 6</td><td>wait for remainder display</td></tr><tr><td class=\"a\">13</td><td class=\"c\">F0D</td><td class=\"m\">EXRL</td><td>swap working register – memory register</td></tr><tr><td class=\"a\">14</td><td class=\"c\">C02</td><td class=\"m\">GOTO 02</td><td>jump back for remainder display</td></tr></table>"
+  },
+  "10": {
+    "de": "",
+    "en": "Program start: HALT – NEXT – 00 – RUN. The display shows: 0000.\n\nFirst we want to carry out the following task: 625 : 5.\n\nFor this we make the following entries: numbers <b>625</b> then key <b>A</b>, number <b>5</b>, then key <b>B</b>. On the display appears the result: 125.\n\nKey A is used as the division key. Key B is again the = key. With key C we have the clear key.\n\nAs the next task we calculate: 19 : 5.\n\nThe display shows as the result: 0003. The correct result should however be 3.8. Does our computer calculate wrongly?\n\nWe want to clear the result with key C, but the display shows: 0004. Now we see that the computer has actually calculated correctly: 19 : 5 = 3 remainder 4. The computer works only with whole numbers; values after the decimal point are not calculated further, rather the remainder value is displayed. On pressing key C again, the remainder value is cleared – a new task can be carried out."
+  },
+  "11": {
+    "de": "",
+    "en": "<b>Program description</b>\nAt addresses 00 to 0C we again have an input routine, which however has a few program steps fewer than the multiplication, because the division is carried out only 4-digit, and thus fewer MOV commands are necessary.\n\nAt address 0D the values of the working registers and memory registers are exchanged by the EXRL command. The dividend goes into memory registers 0 to 3, the divisor stays in working registers 0 to 3 (dividend : divisor = result).\n\nIt must also be noted, for division, that the working and memory registers no. 4 and 5 must have the value 0, which in our preceding program example is brought about by the CLEAR command at the program start.\n\nAfter division has taken place, the result stands in working registers 0 to 3, and if a remainder is present, it stands in the"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "0": {
+    "de": "Zusammenfassung der ADD-Befehle",
+    "en": "Summary of the ADD Commands"
+  },
+  "1": {
+    "de": "Right column program table.",
+    "en": "<table class=\"codes boxed\"><tr><th>Addr</th><th>Code</th><th>Mnem.</th><th>Explanation</th></tr><tr><td>00</td><td>F60</td><td>DISP 6,0</td><td>show contents from register 0</td></tr><tr><td>01</td><td>FF0</td><td>KIN 0</td><td>enter a number (value) in register 0</td></tr><tr><td>02</td><td>FF1</td><td>KIN 1</td><td>enter a number in register 1</td></tr><tr><td>03</td><td>FF2</td><td>KIN 2</td><td>enter a number in register 2</td></tr><tr><td>04</td><td>FF3</td><td>KIN 3</td><td>enter a number in register 3</td></tr><tr><td>05</td><td>FF4</td><td>KIN 4</td><td>enter a number in register 4</td></tr><tr><td>06</td><td>FF5</td><td>KIN 5</td><td>enter a number in register 5</td></tr><tr><td>07</td><td>FF6</td><td>KIN 6</td><td>enter a number in register 6</td></tr><tr><td>08</td><td>F08</td><td>CLEAR</td><td>clear all register contents (set to 0)</td></tr><tr><td>09</td><td>C00</td><td>GOTO 00</td><td>jump back to address 00 (program start)</td></tr></table>\n\nStart: HALT – NEXT – 00 – RUN."
+  },
+  "2": {
+    "de": "Der besseren Übersicht wegen…",
+    "en": "For better overview, the commands just learned are presented once more:\n\n<table class=\"codes boxed\"><tr><th>Mnem.</th><th>Code</th><th>Explanation</th></tr><tr><td>ADD</td><td>4sd</td><td><b>Addition command.</b> Code is 4. For <b>s</b> and <b>d</b>, 2 register addresses must be given. The contents of the two registers are added and the result stored in register <b>d</b> (destination register). Any earlier value in <b>d</b> is overwritten. If the result exceeds F, the Carry-Flag lights.</td></tr><tr><td>ADDI</td><td>5nd</td><td><b>Addition command with a constant.</b> For <b>n</b> a constant value is substituted, which is added to register <b>d</b>. If the result exceeds F, the Carry-Flag lights.</td></tr><tr><td>ADC</td><td>FBd</td><td><b>Add Carry</b> (ADD-Carry). The value 1 is added into register <b>d</b> whenever a carry has occurred (Carry-Flag lit). The Carry-Flag is reset on the next addition without a carry.</td></tr></table>"
+  },
+  "3": {
+    "de": "In das Register d wird immer der Wert 1 hinzuaddiert…",
+    "en": "Whenever a carry has occurred (Carry-Flag lit), the value 1 is always added into register d."
+  },
+  "4": {
+    "de": "Der Computer hat befehlsgemäß reagiert…",
+    "en": "The computer reacted as commanded: the DISP command (F60) ordered display of 6 positions starting at register 0. The KIN commands (e.g. FF0) let us enter and store a value in register 0 — e.g. the digit 5. FF1 stored another value in register 1, e.g. 1. FF3 stored the 3rd entered value in register 3, etc., until FF5 stored the last displayed value in register 5 (the 6th display position). With FF6 we entered another value (or letter) which was also stored, but not shown — we can only display 6 positions, and we used registers 0–5 for those. Logically, this 7th value can't be displayed. That 7th entered value, however, triggered the <b>CLEAR</b> command — all register contents were cleared (set to 0), which is why the display now shows only zeros. If we enter 6 more values, they're shown until the 7th entry again triggers CLEAR and resets all entered register values to 0.\n\nIncidentally, we noticed that although we can only display 6 positions, we did enter a value into a 7th register — it just stayed invisible. Recall that we have storage in 16 different registers total; in the previous example only 7 were used.\n\n<p><b>The CLEAR command: F08</b><br>The command code for CLEAR is always <b>F08</b>; no variations. Its job is to set all registers to 0.</p>"
+  },
+  "5": {
+    "de": "Wir wollen Register-Inhalte löschen",
+    "en": "Clearing Register Contents"
+  },
+  "6": {
+    "de": "Register löschen…",
+    "en": "<p><b>\"Clear registers\"</b></p>\n\nWe'd now like to be able to \"clear\" the number values shown on the display — i.e. all positions show the digit 0. For this we need a new command: the <b>CLEAR</b> command. With this \"clear\" command, the contents of all registers are set to 0. We'll see this quickly with a new program per the following table. First go back to the program start: HALT – NEXT – 00."
+  },
+  "7": {
+    "en": "<b>Note on the Carry-Flag:</b> whenever the Carry-Flag is set, the Carry-LED lights. The Carry-Flag is reset (LED goes out) at the next addition without a carry."
+  }
+}

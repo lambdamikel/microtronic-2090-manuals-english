@@ -1,0 +1,768 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        1263,
+        100,
+        2185,
+        165
+      ],
+      "fragments": [
+        [
+          1263,
+          100,
+          2185,
+          165
+        ]
+      ],
+      "lines": [
+        [
+          1263,
+          100,
+          2185,
+          165
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        142,
+        108,
+        1211,
+        1968
+      ],
+      "fragments": [
+        [
+          142,
+          108,
+          1211,
+          1968
+        ]
+      ],
+      "lines": [
+        [
+          142,
+          108,
+          1211,
+          1968
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1262,
+        240,
+        2329,
+        1480
+      ],
+      "fragments": [
+        [
+          1262,
+          240,
+          2329,
+          1480
+        ]
+      ],
+      "lines": [
+        [
+          1262,
+          240,
+          2329,
+          1480
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        142,
+        113,
+        1204,
+        518
+      ],
+      "text": "Die Anzahl der Schritte, die für die Ausführung eines Befehls benötigt werden, nennt man auch Befehls-Zyklus (instruction cycle). Je nach Art des Befehls sind teilweise auch 6 und 8 Funktionsschritte notwendig. Die Ablaufsteuerung wird von einem Takt-Generator gesteuert, damit die einzelnen Funk- tionsschritte immer in einem gleichbleibenden Rhythmus aus- geführt werden. Der Takt-Generator unseres Mikroprozessors arbeitet mit einer Frequenz von ca. 500 kHz, d.h. daß pro Se- kunde 500.000 derartige Einzelschritte ausgeführt werden können.",
+      "lines": [
+        [
+          143,
+          113,
+          1201,
+          150
+        ],
+        [
+          144,
+          154,
+          1200,
+          194
+        ],
+        [
+          143,
+          195,
+          1201,
+          237
+        ],
+        [
+          144,
+          237,
+          1200,
+          274
+        ],
+        [
+          143,
+          277,
+          1203,
+          316
+        ],
+        [
+          142,
+          319,
+          1204,
+          357
+        ],
+        [
+          143,
+          361,
+          1202,
+          401
+        ],
+        [
+          143,
+          401,
+          1204,
+          440
+        ],
+        [
+          145,
+          442,
+          1201,
+          481
+        ],
+        [
+          145,
+          490,
+          279,
+          518
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        143,
+        548,
+        1205,
+        875
+      ],
+      "text": "Alle Funktionen, die der Mikroprozessor ausführt, sind von den Daten abhängig, die im Betriebs-System (ROM-Speicher) fest- gelegt wurden. Durch Änderung der im ROM-Speicher fest programmierten Daten, kann der gleiche Mikroprozessor für die verschiedensten Aufgaben vorbereitet werden, Der ROM- Speicher des Microtronic-Mikroprozessors enthält ein Moni- tor-Programm, welches dem Mikroprozessor die Fähigkeit gibt, als Mikrocomputer arbeiten zu können.",
+      "lines": [
+        [
+          144,
+          548,
+          1201,
+          586
+        ],
+        [
+          144,
+          589,
+          1205,
+          633
+        ],
+        [
+          144,
+          630,
+          1203,
+          672
+        ],
+        [
+          145,
+          671,
+          1204,
+          713
+        ],
+        [
+          145,
+          713,
+          1205,
+          751
+        ],
+        [
+          144,
+          754,
+          1205,
+          795
+        ],
+        [
+          143,
+          795,
+          1202,
+          836
+        ],
+        [
+          144,
+          839,
+          819,
+          875
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        921,
+        1206,
+        1081
+      ],
+      "text": "Die gesamten beschriebenen Funktionen des Mikroprozes- sors werden aufeinem „Chip”, einem winzigen Plättchen mit ca. 5x5 mm ausgeführt. Warum ist derschwarze Mikroprozessor- Block dann 5 cm lang”?",
+      "lines": [
+        [
+          145,
+          921,
+          1206,
+          959
+        ],
+        [
+          145,
+          961,
+          1203,
+          999
+        ],
+        [
+          146,
+          1003,
+          1205,
+          1041
+        ],
+        [
+          146,
+          1047,
+          543,
+          1081
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        1108,
+        1207,
+        1396
+      ],
+      "text": "Der winzige Chip hat 40 Anschlußstellen, nämlich die 40 An- schlußbeinchen des Mikroprozessors. Die einzelnen An- schlußbeinchen erfordern beim Einlöten auf der Platine einen gewissen Mindestabstand. Deshalb sind die äußeren Abmes- sungen des Mikroprozessors um ein vielfaches größer als der inseinem schwarzen Gehäuse eingegosseneMikroprozessor- Chip.",
+      "lines": [
+        [
+          146,
+          1108,
+          1206,
+          1148
+        ],
+        [
+          145,
+          1149,
+          1206,
+          1186
+        ],
+        [
+          145,
+          1191,
+          1203,
+          1226
+        ],
+        [
+          146,
+          1233,
+          1207,
+          1274
+        ],
+        [
+          146,
+          1273,
+          1206,
+          1314
+        ],
+        [
+          147,
+          1316,
+          1206,
+          1352
+        ],
+        [
+          145,
+          1362,
+          232,
+          1396
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        1420,
+        1208,
+        1668
+      ],
+      "text": "Wenn wir das schwarze Gehäuse öffnen könnten, (ein Versuch wird nicht empfohien) und wir würden den freigelegten Chip unter einer starken Lupe betrachten, könnten wir die winzigen Goldfäden sehen, welche die einzelnen Funktions-Gruppen des Prozessors mit den außenherum angeordneten Anschluß- punkten verbinden (siehe Foto).",
+      "lines": [
+        [
+          144,
+          1420,
+          1203,
+          1457
+        ],
+        [
+          145,
+          1462,
+          1206,
+          1502
+        ],
+        [
+          147,
+          1503,
+          1205,
+          1542
+        ],
+        [
+          146,
+          1546,
+          1205,
+          1583
+        ],
+        [
+          146,
+          1586,
+          1208,
+          1623
+        ],
+        [
+          148,
+          1631,
+          696,
+          1668
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        148,
+        1693,
+        1205,
+        1772
+      ],
+      "text": "Bei einer nochmaligen Vergrößerung werden die einzelnen Funktions-Gruppen des Mikroprozessor-Chips erkennbar:",
+      "lines": [
+        [
+          148,
+          1693,
+          1205,
+          1731
+        ],
+        [
+          148,
+          1734,
+          1155,
+          1772
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        148,
+        1798,
+        1211,
+        1958
+      ],
+      "text": "Unter einem Mikroskop sieht das Chipähnlich aus wie eine Pla- tine, auf weicher die winzigen Bauelemente angeordnet sind. Ein gigantisches elektronisches Schaltwerk mit ca. 35.000 transistorähnlichen Funktionen.",
+      "lines": [
+        [
+          150,
+          1798,
+          1211,
+          1836
+        ],
+        [
+          148,
+          1839,
+          1208,
+          1879
+        ],
+        [
+          150,
+          1881,
+          1209,
+          1922
+        ],
+        [
+          149,
+          1926,
+          695,
+          1958
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        152,
+        2164,
+        339,
+        2280
+      ],
+      "text": "Eingang - Ausgang - Verwaltung",
+      "lines": [
+        [
+          154,
+          2164,
+          322,
+          2199
+        ],
+        [
+          153,
+          2206,
+          335,
+          2239
+        ],
+        [
+          152,
+          2246,
+          339,
+          2280
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        151,
+        2612,
+        365,
+        2687
+      ],
+      "text": "ALU- Rechenwerk",
+      "lines": [
+        [
+          151,
+          2612,
+          236,
+          2640
+        ],
+        [
+          152,
+          2659,
+          365,
+          2687
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1263,
+        105,
+        2178,
+        159
+      ],
+      "text": "Speicher und Speicher-Möglichkeiten",
+      "lines": [
+        [
+          1263,
+          105,
+          2178,
+          159
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1262,
+        245,
+        2324,
+        326
+      ],
+      "text": "Der ROM-Speicher unseres Mikroprozessors ist für das Be- triebs-System (Monitor-Programm) zuständig.",
+      "lines": [
+        [
+          1264,
+          245,
+          2324,
+          284
+        ],
+        [
+          1262,
+          287,
+          2056,
+          326
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        351,
+        2324,
+        433
+      ],
+      "text": "Außerdem ist ein RAM-Speicher für die Register-Inhalte inte- griert.",
+      "lines": [
+        [
+          1263,
+          351,
+          2324,
+          389
+        ],
+        [
+          1264,
+          398,
+          1359,
+          433
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        457,
+        2325,
+        574
+      ],
+      "text": "Unsere eingegebenen Programme werden in einem separaten RAM-Speicher Baustein (auf der Computer-Platine) gespei- chert.",
+      "lines": [
+        [
+          1264,
+          457,
+          2321,
+          496
+        ],
+        [
+          1265,
+          498,
+          2325,
+          538
+        ],
+        [
+          1264,
+          545,
+          1360,
+          574
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        604,
+        2326,
+        850
+      ],
+      "text": "Außer RAM und ROM gibt es auch noch PROM-Speicher (pro- grammable read only memory). Die in einem PROM gespei- cherten Daten können nicht mehr gelöscht werden. PROM's werden dann eingesetzt, wenn für spezielle Einsatzmöglichkei- ten Speicher mit Fest-Programmen in geringen Stückzahlen benötigt werden.",
+      "lines": [
+        [
+          1264,
+          604,
+          2326,
+          643
+        ],
+        [
+          1265,
+          645,
+          2326,
+          687
+        ],
+        [
+          1265,
+          686,
+          2324,
+          722
+        ],
+        [
+          1264,
+          727,
+          2326,
+          766
+        ],
+        [
+          1264,
+          769,
+          2323,
+          809
+        ],
+        [
+          1267,
+          815,
+          1553,
+          850
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        875,
+        2327,
+        1161
+      ],
+      "text": "Mit einen EPROM (erasable - programmable - ROM) können ähnlich wie im PROM feste Daten oder Programme gespeichert werden. Beim EPROM können diese Daten jedoch mit UV-Licht wieder gelöscht werden und stehen dann für einen neuen Ver- wendungszeck zur Verfügung. Der kleine Chip innerhalb des EPROM-Bausteins ist durch ein „Fenster” sichtbar, wodurch die UV-Lichtbestrahlung möglich ist.",
+      "lines": [
+        [
+          1266,
+          875,
+          2323,
+          915
+        ],
+        [
+          1265,
+          916,
+          2324,
+          953
+        ],
+        [
+          1265,
+          957,
+          2325,
+          994
+        ],
+        [
+          1265,
+          999,
+          2327,
+          1039
+        ],
+        [
+          1265,
+          1040,
+          2326,
+          1081
+        ],
+        [
+          1267,
+          1081,
+          2323,
+          1118
+        ],
+        [
+          1267,
+          1125,
+          1895,
+          1161
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1266,
+        1187,
+        2329,
+        1474
+      ],
+      "text": "RAM-Speicher (z. B. unser Programm-Speicher) verlieren die eingegebenen Daten, sobald die Betriebs-Spannung abge- schaltet wird. Deshalb wurden RAMs entwickelt, welche mit äußerst minimaler Spannung und sehr kleinen Strömen arbei- ten. Diese sogenannten C-MOS-RAMs können deshalb z. B. von einer Batterie versorgt werden und die eingegebenen Da- ten über einen längeren Zeitraum speichern.",
+      "lines": [
+        [
+          1267,
+          1187,
+          2326,
+          1228
+        ],
+        [
+          1266,
+          1229,
+          2328,
+          1270
+        ],
+        [
+          1267,
+          1270,
+          2326,
+          1306
+        ],
+        [
+          1267,
+          1311,
+          2329,
+          1350
+        ],
+        [
+          1266,
+          1353,
+          2326,
+          1393
+        ],
+        [
+          1266,
+          1395,
+          2329,
+          1432
+        ],
+        [
+          1266,
+          1437,
+          2036,
+          1474
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        154,
+        3011,
+        426,
+        3041
+      ],
+      "text": "Befehisdekoder",
+      "lines": [
+        [
+          154,
+          3011,
+          426,
+          3041
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2047,
+        2916,
+        2341,
+        2993
+      ],
+      "text": "ROM-Programm- speicher",
+      "lines": [
+        [
+          2048,
+          2916,
+          2341,
+          2949
+        ],
+        [
+          2047,
+          2957,
+          2199,
+          2993
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

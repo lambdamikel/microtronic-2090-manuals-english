@@ -1,0 +1,580 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        136,
+        110,
+        1120,
+        209
+      ],
+      "fragments": [
+        [
+          136,
+          110,
+          1120,
+          209
+        ]
+      ],
+      "lines": [
+        [
+          136,
+          110,
+          1120,
+          157
+        ],
+        [
+          139,
+          164,
+          386,
+          209
+        ]
+      ],
+      "text": "Aufgabe für ein selbst zu entwickeindes Programm"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        119,
+        425,
+        1195,
+        3357
+      ],
+      "fragments": [
+        [
+          119,
+          425,
+          1195,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          119,
+          425,
+          1195,
+          3357
+        ]
+      ],
+      "text": "Wir möchten erreichen, daß bei jedem Tastendruck einer be- liebigen Zifferntaste der konstante Wert 1 dezimal addiert wird, wobei das Ergebnis auf allen 6 Stellen des Displays gleichzei- tig angezeigt werden soll. BeiProgramm-Beginn sollen alle Re- gister gelöscht werden, damit sechsmal die Zahl 0 angezeigt wird. Bei Betätigung einer Zifferntaste wird der Wert 1 hinzu- addiert, welcher dann auf allen 6 Display-Stellen angezeigt wird. Bei jedem weiteren Tastendruck erhöht sich das Ergeb- nis um den Wert 1. Sobald der Wert 9 erreicht wird, soll nicht hexadezimal mit A-B-C. .. . sondern es soll dezimal weiterge- zählt werden, also wieder mit O beginnend.  Problem-Analyse: Wir kennen alle notwendigen Befehle, um dieses Programm durchzuführen. Folgende Überlegungen sind notwendig:  . Sämtliche Register löschen. . 6 Stellen auf dem Display anzeigen. . Auf Tastendruck (Zifferneingabe) warten. . Konstanten Wert 1 in Register 1 addieren. . Ist der Inhalt von Register 1 größer als 9? Wenn ja zum Programm-Anfang zurückspringen - wenn nein siehe 6. . Inhalt von Register 1 in die Register 2-6 schieben. . Rücksprung zu 2. (Ergebnis anzeigen).  Nachdem das Problem logisch aufgeteilt wurde, können wir das Programm in die entsprechenden Befehls-Codes umset- zen, Wir beachten, daß bei der Position „auf Tastendruck war- ten” der KIN-Befehl notwendig ist, wobei der eingegebene Wert jedoch nicht weiter verarbeitet wird. Wir dürfen daher für KIN nicht die 6 Anzeige-Register verwenden. Aus der Pro- blem-Analyse ersehen wir, daß die Register 1 bis 6 bereits be- legt sind. Register O ist noch frei.  Wir schreiben das Programm in nachfolgende Tabelle:  00 01 02 03 04 05 06 07 08 09 OA OB Wie üblich, nehmen wir das Programm mit HALT - NEXT - 00 - RUN in Betrieb. Auf dem Display muß jetzt sechsmal die Zahl O stehen und wenn wir eine Taste, z.B. „1” betätigen, erscheint sechsmal die Ziffer 1. Bei jedem Tastendruck erhöht sich das  Ergebnis um den Wert 1, so daß jeweils sechsmal die Ziffern 2, 3, 4... angezeigt werden.  Bringt der Computer nicht diese Ergebnisse, haben wir falsch programmiert. Also müssen wir überlegen, welche Befehle notwendig sind?  Hinweis: Wir benötigen die Befehle CLEAR - DISP - KIN - ADDI - CMPI - BRC - MOV - GOTO.  Falls das Programm immer noch nicht einwandfrei läuft, erge- ben sich vielleicht noch Schwierigkeiten mit der Register-Be- legung oder mit den Sprung-Befehlen. Die Programm-Lösung finden wir auf der folgenden Seite."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        136,
+        110,
+        1120,
+        209
+      ],
+      "text": "Aufgabe für ein selbst zu entwickeindes Programm",
+      "lines": [
+        [
+          136,
+          110,
+          1120,
+          157
+        ],
+        [
+          139,
+          164,
+          386,
+          209
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        133,
+        425,
+        1195,
+        873
+      ],
+      "text": "Wir möchten erreichen, daß bei jedem Tastendruck einer be- liebigen Zifferntaste der konstante Wert 1 dezimal addiert wird, wobei das Ergebnis auf allen 6 Stellen des Displays gleichzei- tig angezeigt werden soll. BeiProgramm-Beginn sollen alle Re- gister gelöscht werden, damit sechsmal die Zahl 0 angezeigt wird. Bei Betätigung einer Zifferntaste wird der Wert 1 hinzu- addiert, welcher dann auf allen 6 Display-Stellen angezeigt wird. Bei jedem weiteren Tastendruck erhöht sich das Ergeb- nis um den Wert 1. Sobald der Wert 9 erreicht wird, soll nicht hexadezimal mit A-B-C. .. . sondern es soll dezimal weiterge- zählt werden, also wieder mit O beginnend.",
+      "lines": [
+        [
+          134,
+          425,
+          1195,
+          460
+        ],
+        [
+          136,
+          466,
+          1192,
+          501
+        ],
+        [
+          134,
+          507,
+          1194,
+          543
+        ],
+        [
+          133,
+          549,
+          1194,
+          584
+        ],
+        [
+          134,
+          590,
+          1192,
+          625
+        ],
+        [
+          133,
+          631,
+          1194,
+          667
+        ],
+        [
+          134,
+          672,
+          1192,
+          707
+        ],
+        [
+          133,
+          713,
+          1194,
+          748
+        ],
+        [
+          135,
+          755,
+          1192,
+          789
+        ],
+        [
+          134,
+          796,
+          1193,
+          831
+        ],
+        [
+          133,
+          837,
+          887,
+          873
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        132,
+        920,
+        1190,
+        1037
+      ],
+      "text": "Problem-Analyse: Wir kennen alle notwendigen Befehle, um dieses Programm durchzuführen. Folgende Überlegungen sind notwendig:",
+      "lines": [
+        [
+          134,
+          920,
+          1189,
+          960
+        ],
+        [
+          133,
+          961,
+          1190,
+          997
+        ],
+        [
+          132,
+          1003,
+          411,
+          1037
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        152,
+        1066,
+        1187,
+        1392
+      ],
+      "text": ". Sämtliche Register löschen. . 6 Stellen auf dem Display anzeigen. . Auf Tastendruck (Zifferneingabe) warten. . Konstanten Wert 1 in Register 1 addieren. . Ist der Inhalt von Register 1 größer als 9? Wenn ja zum Programm-Anfang zurückspringen - wenn nein siehe 6. . Inhalt von Register 1 in die Register 2-6 schieben. . Rücksprung zu 2. (Ergebnis anzeigen).",
+      "lines": [
+        [
+          154,
+          1066,
+          667,
+          1102
+        ],
+        [
+          154,
+          1107,
+          807,
+          1143
+        ],
+        [
+          154,
+          1149,
+          889,
+          1185
+        ],
+        [
+          154,
+          1191,
+          916,
+          1226
+        ],
+        [
+          153,
+          1232,
+          1187,
+          1267
+        ],
+        [
+          178,
+          1273,
+          1159,
+          1309
+        ],
+        [
+          153,
+          1314,
+          1062,
+          1350
+        ],
+        [
+          152,
+          1356,
+          856,
+          1392
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        1068,
+        158,
+        1385
+      ],
+      "text": "a Ze>) QPROND—",
+      "lines": [
+        [
+          126,
+          1068,
+          158,
+          1385
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        127,
+        1421,
+        1190,
+        1746
+      ],
+      "text": "Nachdem das Problem logisch aufgeteilt wurde, können wir das Programm in die entsprechenden Befehls-Codes umset- zen, Wir beachten, daß bei der Position „auf Tastendruck war- ten” der KIN-Befehl notwendig ist, wobei der eingegebene Wert jedoch nicht weiter verarbeitet wird. Wir dürfen daher für KIN nicht die 6 Anzeige-Register verwenden. Aus der Pro- blem-Analyse ersehen wir, daß die Register 1 bis 6 bereits be- legt sind. Register O ist noch frei.",
+      "lines": [
+        [
+          129,
+          1421,
+          1190,
+          1457
+        ],
+        [
+          129,
+          1463,
+          1190,
+          1498
+        ],
+        [
+          128,
+          1504,
+          1190,
+          1539
+        ],
+        [
+          127,
+          1546,
+          1187,
+          1581
+        ],
+        [
+          127,
+          1587,
+          1190,
+          1621
+        ],
+        [
+          128,
+          1628,
+          1190,
+          1664
+        ],
+        [
+          128,
+          1669,
+          1190,
+          1705
+        ],
+        [
+          128,
+          1711,
+          709,
+          1746
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        1793,
+        1085,
+        1829
+      ],
+      "text": "Wir schreiben das Programm in nachfolgende Tabelle:",
+      "lines": [
+        [
+          125,
+          1793,
+          1085,
+          1829
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        1958,
+        1185,
+        2768
+      ],
+      "text": "00 01 02 03 04 05 06 07 08 09 OA OB Wie üblich, nehmen wir das Programm mit HALT - NEXT - 00 - RUN in Betrieb. Auf dem Display muß jetzt sechsmal die Zahl O stehen und wenn wir eine Taste, z.B. „1” betätigen, erscheint sechsmal die Ziffer 1. Bei jedem Tastendruck erhöht sich das",
+      "lines": [
+        [
+          138,
+          1958,
+          179,
+          1988
+        ],
+        [
+          138,
+          2011,
+          172,
+          2040
+        ],
+        [
+          138,
+          2065,
+          178,
+          2094
+        ],
+        [
+          138,
+          2118,
+          178,
+          2147
+        ],
+        [
+          138,
+          2171,
+          178,
+          2200
+        ],
+        [
+          138,
+          2225,
+          178,
+          2253
+        ],
+        [
+          137,
+          2277,
+          178,
+          2307
+        ],
+        [
+          137,
+          2331,
+          178,
+          2360
+        ],
+        [
+          137,
+          2384,
+          178,
+          2413
+        ],
+        [
+          137,
+          2437,
+          177,
+          2467
+        ],
+        [
+          137,
+          2491,
+          181,
+          2520
+        ],
+        [
+          137,
+          2544,
+          181,
+          2573
+        ],
+        [
+          121,
+          2608,
+          1185,
+          2644
+        ],
+        [
+          123,
+          2649,
+          1185,
+          2685
+        ],
+        [
+          122,
+          2691,
+          1185,
+          2727
+        ],
+        [
+          122,
+          2732,
+          1185,
+          2768
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        122,
+        2773,
+        1184,
+        2851
+      ],
+      "text": "Ergebnis um den Wert 1, so daß jeweils sechsmal die Ziffern 2, 3, 4... angezeigt werden.",
+      "lines": [
+        [
+          122,
+          2773,
+          1184,
+          2810
+        ],
+        [
+          122,
+          2816,
+          573,
+          2851
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        120,
+        2880,
+        1183,
+        2998
+      ],
+      "text": "Bringt der Computer nicht diese Ergebnisse, haben wir falsch programmiert. Also müssen wir überlegen, welche Befehle notwendig sind?",
+      "lines": [
+        [
+          120,
+          2880,
+          1181,
+          2916
+        ],
+        [
+          121,
+          2921,
+          1183,
+          2957
+        ],
+        [
+          120,
+          2963,
+          411,
+          2998
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        3027,
+        1185,
+        3098
+      ],
+      "text": "Hinweis: Wir benötigen die Befehle CLEAR - DISP - KIN - ADDI - CMPI - BRC - MOV - GOTO.",
+      "lines": [
+        [
+          123,
+          3027,
+          1185,
+          3062
+        ],
+        [
+          121,
+          3069,
+          775,
+          3098
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        3133,
+        1185,
+        3293
+      ],
+      "text": "Falls das Programm immer noch nicht einwandfrei läuft, erge- ben sich vielleicht noch Schwierigkeiten mit der Register-Be- legung oder mit den Sprung-Befehlen. Die Programm-Lösung finden wir auf der folgenden Seite.",
+      "lines": [
+        [
+          120,
+          3133,
+          1185,
+          3169
+        ],
+        [
+          120,
+          3174,
+          1185,
+          3211
+        ],
+        [
+          121,
+          3216,
+          1183,
+          3253
+        ],
+        [
+          119,
+          3257,
+          711,
+          3293
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

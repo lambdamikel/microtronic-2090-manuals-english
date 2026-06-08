@@ -1,0 +1,30 @@
+{
+  "0": {
+    "de": "",
+    "en": "<b>A special C-MOS RAM is also available for our Microtronic computer,</b> so that the programs entered into the computer are not lost even after the mains power is switched off."
+  },
+  "1": {
+    "de": "",
+    "en": "The RAM plugged onto the computer board can easily be exchanged for a C-MOS RAM."
+  },
+  "2": {
+    "de": "",
+    "en": "From the illustration we see that the RAM is to be found to the right next to the microprocessor. The RAM is plugged onto a socket soldered to the board. It can (by pushing a small screwdriver in between) be lifted and exchanged for the C-MOS RAM.\n\nA C-MOS RAM specially suited to the Microtronic computer system can be ordered, with the enclosed spare-parts price list, under order number 20910 (against payment of the amount to a postal cheque account).\n\nThe 9 V battery can then take over the voltage supply of the C-MOS RAM for many weeks. The battery is connected with a 2.2 k&#8486; resistor connected in between (see illustration). The connecting leads must not be interchanged."
+  },
+  "3": {
+    "de": "",
+    "en": "<b>Before pulling the power supply out of the socket,</b> the green RESET key on the computer board is to be pressed down for about 10 seconds. Also during and after pulling out the power supply, keep the RESET key pressed for about another 10 seconds.\n\nThe program memory is now kept ready for operation by the battery voltage, while all the remaining computer functions are switched off. So with battery operation one cannot continue working.\n\n<b>Before plugging the power supply into the socket,</b> the RESET key is again to be pressed for about 10 seconds, then (with the RESET key pressed) plug in the power supply. After plugging in, keep the RESET key pressed for about another 10 seconds.\n\nRemove the battery connections and the computer is ready for use again as usual. A short program test will prove to us that the entered programs are still present.\n\nPressing the RESET key shortly before and during the mains interruption (or during the mains switch-on) is absolutely necessary so that no data of the entered programs is lost. Should a program not function flawlessly due to incorrect operation of the RESET key (which could affect above all the first and last addresses of the program memory), individual corrections would have to be carried out in the known way."
+  },
+  "4": {
+    "de": "",
+    "en": "The ROM is the interpreter of our microprocessor"
+  },
+  "5": {
+    "de": "",
+    "en": "The ROM memory with the operating system and the RAM memory with the programs entered by us work &bdquo;hand in hand&rdquo; in the microprocessor.\n\nWhen the computer works through an entered program, the following happens: As soon as we press the RUN key, its program is started in the ROM memory. The microprocessor receives the command to fetch the first program step (the input stored under address 00) from the RAM memory, which is temporarily stored via the data bus in the accumulator (ALU)."
+  },
+  "6": {
+    "de": "",
+    "en": "If a command begins, for example, with the number 4, the microprocessor recognizes by comparison that this is an ADD command, and a program jump takes place in the ROM memory in order to execute the ADD command.\n\nLike all entry commands, the ADD command too, for example, contains several individual commands to the microprocessor:\n\n<ol><li>The two registers to be added are loaded into the accumulator (ALU) and into a second auxiliary register.</li><li>The addition is carried out. The result is in the accumulator.</li><li>The result is passed on to the target register (destination register).</li></ol>"
+  }
+}

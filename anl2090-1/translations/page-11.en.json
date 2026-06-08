@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "Unser erstes Programm: Ein elektronischer Würfel",
+    "en": "Our First Program: An Electronic Die"
+  },
+  "1": {
+    "de": "Computer Programm - was ist das eigentlich?",
+    "en": "Computer Program — what is it, really?"
+  },
+  "2": {
+    "de": "Wir werden unseren Computer nun erstmals programmieren…",
+    "en": "We are now going to program our computer for the first time. We want it to work as an electronic die — i.e. it should generate random numbers between 1 and 6.\n\nTo tell the computer that we want to enter a program (a sequence of commands), we press the following keys:\n\n<table class=\"codes\"><tr><td>First</td><td>HALT</td></tr><tr><td>then</td><td>NEXT</td></tr><tr><td>then</td><td>0</td></tr><tr><td>again</td><td>0</td></tr></table>"
+  },
+  "3": {
+    "de": "Vieles im täglichen Leben läuft nach einem festen Schema ab…",
+    "en": "Much of daily life runs according to a fixed pattern. Most people are in some sense \"pre-programmed\" for their daily routine. When the alarm clock rings in the morning, the following program flow might result:\n\n<ol><li>Is today a holiday? — yes! — then keep sleeping</li><li>Not a holiday — so get up</li><li>Brush teeth, wash, get dressed</li><li>Eat breakfast</li><li>Still hungry? — yes — back to 4</li><li>No longer hungry? — finish breakfast</li><li>Leave the home</li></ol>\n\nWe see that already in the early morning a fixed program runs that repeats every day. We can identify the components of the program:\n\n<ul><li>the individual program steps, to be performed in order;</li><li>the consecutive numbering of program steps, called the command number or address.</li></ul>\n\nWe also see that the steps don't have to run strictly one after another. Between addresses (command numbers) 1 and 2 there may be a delay (it's a holiday). Jumps can also occur — e.g. a jump back from 5 to 4 (still hungry).\n\nSo that a computer knows what to do, it needs a program. The individual program steps consist of short \"commands\" — a command code the computer can understand.\n\nWhen we want to program a computer, the required program flow must be thought through and broken into small program steps. The steps are translated into command codes the computer understands. Entering such commands is called <i>programming</i>.\n\nBefore we can create our own programs, we must learn the computer's commands so we can make ourselves understood."
+  },
+  "4": {
+    "de": "Wir sollten uns diese Tasten-Folge einprägen…",
+    "en": "We should memorize this key sequence — every programming session begins with it.\n\nThe computer now shows on the display 2 zeros, a dark position, and 3 arbitrary digits or letters. If not, press the keys again.\n\nBefore we program our electronic die, note the following:\n\nIn the following table the <b>Input</b> column shows which single keys (digits or letters) or function keys to press. The <b>Display</b> column shows how the entered command appears on the display. Every time the <b>NEXT</b> function key is pressed, we push the previously entered command into the computer's memory. The first two display positions show a running number, and after each NEXT key press the last 3 positions show arbitrary digits or letters. Because this random sequence isn't predictable, the table represents it as <i>xxx</i>. The computer is showing a random command from its memory which will be overwritten by our new command entry.\n\nIf we make a typo while entering commands, do <b>not</b> push that wrong command into memory with NEXT — correct it instead. Press the correction key <b>C/CE</b> twice and the wrongly-entered command is cleared (display shows zeros in the last 3 positions), then enter the new command. If we notice a mistake too late, start over from the beginning by pressing: <b>HALT</b>, <b>NEXT</b>, <b>0</b>, <b>0</b>."
+  }
+}

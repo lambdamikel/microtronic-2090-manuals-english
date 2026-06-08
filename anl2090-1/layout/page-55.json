@@ -1,0 +1,640 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        137,
+        105,
+        1200,
+        318
+      ],
+      "fragments": [
+        [
+          137,
+          105,
+          1200,
+          605
+        ]
+      ],
+      "lines": [
+        [
+          137,
+          105,
+          1200,
+          605
+        ]
+      ],
+      "text": "Ein Wert addiert mit einem invertierten Wert muß beim Dezimal- System immer den Wert 10 ergeben. Da sich bei der Addition jedoch immer nur der Wert 9ergibt, verstehen wir, warum für die Dezimal-Korrektur immer der konstante Wert 1 hinzuaddiert werden muß."
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1263,
+        106,
+        1913,
+        205
+      ],
+      "fragments": [
+        [
+          1263,
+          106,
+          1913,
+          205
+        ]
+      ],
+      "lines": [
+        [
+          1264,
+          106,
+          1769,
+          156
+        ],
+        [
+          1263,
+          157,
+          1913,
+          205
+        ]
+      ],
+      "text": "Mit „High” und „Low” an die Computer-Eingänge"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1261,
+        306,
+        2329,
+        1888
+      ],
+      "fragments": [
+        [
+          1261,
+          306,
+          2329,
+          2827
+        ]
+      ],
+      "lines": [
+        [
+          1261,
+          306,
+          2329,
+          2827
+        ]
+      ],
+      "text": "Mit den folgenden Experimenten sollen die Eingänge und Aus- gänge der Computer-Platine in die Programmierung einbezo- gen werden. Ein Eingangs-Signal soll, über den Computer ge- steuert, ein Ausgangs-Signal auslösen.  Um an einem Eingang eine Signalwirkung auszulösen, muß eine Spannung zu diesem Eingang herangeführt werden. Ist eine Spannung vorhanden, wird der Wert 1 registriert und man sagt auch, der Eingang ist „high”. Ohne Spannung (Wert 0) ist der Eingang „low”.  Um den Zustand „high”aneinenEingang zu bringen, benötigen wir eine Spannung. Um diese Spannung zu erzeugen, ist eine zusätzliche Energie-Quelle (eine kleine 9 V Batterie) erforder- lich, Hierfür verwenden wir die bei kleinen Transistor-Radios üblichen 9V Blocks (BezeichnungEC 6 F22) z.B. von Varta Su- per 438 oder von Mallory MN 1604. Die Batterie wird in dieHalte- rung des beigegebenen Batterie-Bausteins eingesetzt. Sobald der am Baustein vorhandene Anschlußclip auf die Batterie- noppen aufgedrückt wird, ist der Batterie-Baustein einsatzfä- hig.  Der Computer arbeitet mit sehrgeringen Spannungen. Die Bat- terie-Spannung 9 V darf niemals direkt an die Eingänge oder Ausgänge des Computers angeschlossen werden. Durch das Zwischenschalten entsprechender Widerstände wird die 9 V Spannung aufein fürden Computer erträgliches Maß reduziert.  Durch Tastendruck sollen kurze „high”-Signale an die Eingän- ge herangeführt werden. Hierfür sind am Armaturenboard die roten Tasten G undH vorhanden. Damit wir die Tasten (mit den Verbindungsleitungen und den gelben Plastiksteckern) leicht anschließen können, finden wir jeweils hinter den Tasten G und H einen Baustein mit der Aufschrift „Taster”. Die Bausteine wer- den hinter der Computer-Platine eingesteckt (siehe Abbildung unten), wobei zwischen den Bausteinen und den im Armatu- renboard eingebauten Tasten eine Verbindungsleitung be- steht. Der Baustein von Taster G wird links eingesteckt, der Baustein von Taster H wird rechts daneben plaziert. Zur Redu- zierung der Batterie-Spannung werden noch die beiden Bau-"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        970,
+        1203,
+        1055
+      ],
+      "fragments": [
+        [
+          140,
+          970,
+          1203,
+          1400
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          970,
+          1203,
+          1400
+        ]
+      ],
+      "text": "Auch bei einer hexadezimalen Inverse ist die Korrektur in glei- cher Weise erforderlich:"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        143,
+        1604,
+        1207,
+        1888
+      ],
+      "fragments": [
+        [
+          143,
+          1604,
+          1207,
+          2311
+        ]
+      ],
+      "lines": [
+        [
+          143,
+          1604,
+          1207,
+          2311
+        ]
+      ],
+      "text": "Mit diesem Kapitel haben wir den schwierigsten Teil der Com- puter-Logik (für die Programmierung eines Computers not- wendige Logik) hinter uns gebracht. Mit jedem der folgenden Kapitel nähern wir uns den größeren und interessanten Pro- grammen. Für uns ist nun der Computer nicht mehr das unbe- kannte Wesen, weil wir durch unsere Kenntnisse jetzt wissen, wie er arbeitet und wie er unsere Befehle ausführen kann."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        322,
+        1200,
+        950
+      ],
+      "fragments": [
+        [
+          135,
+          322,
+          1200,
+          950
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          322,
+          1200,
+          950
+        ]
+      ],
+      "text": "[redrawn table]",
+      "font_pt": 6.7
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        1070,
+        1200,
+        1588
+      ],
+      "fragments": [
+        [
+          135,
+          1070,
+          1200,
+          1588
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          1070,
+          1200,
+          1588
+        ]
+      ],
+      "text": "[redrawn table]",
+      "font_pt": 6.7
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        137,
+        105,
+        1200,
+        305
+      ],
+      "text": "Ein Wert addiert mit einem invertierten Wert muß beim Dezimal- System immer den Wert 10 ergeben. Da sich bei der Addition jedoch immer nur der Wert 9ergibt, verstehen wir, warum für die Dezimal-Korrektur immer der konstante Wert 1 hinzuaddiert werden muß.",
+      "lines": [
+        [
+          140,
+          105,
+          1200,
+          140
+        ],
+        [
+          140,
+          146,
+          1197,
+          188
+        ],
+        [
+          137,
+          187,
+          1198,
+          229
+        ],
+        [
+          140,
+          229,
+          1198,
+          264
+        ],
+        [
+          139,
+          276,
+          360,
+          305
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        140,
+        970,
+        1203,
+        1046
+      ],
+      "text": "Auch bei einer hexadezimalen Inverse ist die Korrektur in glei- cher Weise erforderlich:",
+      "lines": [
+        [
+          140,
+          970,
+          1203,
+          1005
+        ],
+        [
+          141,
+          1015,
+          556,
+          1046
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        159,
+        1552,
+        233,
+        1574
+      ],
+      "text": "USW.",
+      "lines": [
+        [
+          159,
+          1552,
+          233,
+          1574
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        143,
+        1604,
+        1207,
+        1887
+      ],
+      "text": "Mit diesem Kapitel haben wir den schwierigsten Teil der Com- puter-Logik (für die Programmierung eines Computers not- wendige Logik) hinter uns gebracht. Mit jedem der folgenden Kapitel nähern wir uns den größeren und interessanten Pro- grammen. Für uns ist nun der Computer nicht mehr das unbe- kannte Wesen, weil wir durch unsere Kenntnisse jetzt wissen, wie er arbeitet und wie er unsere Befehle ausführen kann.",
+      "lines": [
+        [
+          144,
+          1604,
+          1206,
+          1643
+        ],
+        [
+          145,
+          1647,
+          1206,
+          1686
+        ],
+        [
+          143,
+          1687,
+          1203,
+          1727
+        ],
+        [
+          145,
+          1729,
+          1207,
+          1769
+        ],
+        [
+          143,
+          1770,
+          1207,
+          1811
+        ],
+        [
+          145,
+          1811,
+          1204,
+          1849
+        ],
+        [
+          143,
+          1853,
+          1143,
+          1887
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        106,
+        1913,
+        205
+      ],
+      "text": "Mit „High” und „Low” an die Computer-Eingänge",
+      "lines": [
+        [
+          1264,
+          106,
+          1769,
+          156
+        ],
+        [
+          1263,
+          157,
+          1913,
+          205
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1261,
+        306,
+        2323,
+        468
+      ],
+      "text": "Mit den folgenden Experimenten sollen die Eingänge und Aus- gänge der Computer-Platine in die Programmierung einbezo- gen werden. Ein Eingangs-Signal soll, über den Computer ge- steuert, ein Ausgangs-Signal auslösen.",
+      "lines": [
+        [
+          1262,
+          306,
+          2323,
+          344
+        ],
+        [
+          1261,
+          347,
+          2322,
+          387
+        ],
+        [
+          1261,
+          388,
+          2323,
+          429
+        ],
+        [
+          1262,
+          431,
+          1937,
+          468
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        493,
+        2322,
+        695
+      ],
+      "text": "Um an einem Eingang eine Signalwirkung auszulösen, muß eine Spannung zu diesem Eingang herangeführt werden. Ist eine Spannung vorhanden, wird der Wert 1 registriert und man sagt auch, der Eingang ist „high”. Ohne Spannung (Wert 0) ist der Eingang „low”.",
+      "lines": [
+        [
+          1263,
+          493,
+          2322,
+          530
+        ],
+        [
+          1262,
+          533,
+          2322,
+          572
+        ],
+        [
+          1263,
+          575,
+          2321,
+          614
+        ],
+        [
+          1263,
+          616,
+          2322,
+          655
+        ],
+        [
+          1263,
+          660,
+          1578,
+          695
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        722,
+        2325,
+        1133
+      ],
+      "text": "Um den Zustand „high”aneinenEingang zu bringen, benötigen wir eine Spannung. Um diese Spannung zu erzeugen, ist eine zusätzliche Energie-Quelle (eine kleine 9 V Batterie) erforder- lich, Hierfür verwenden wir die bei kleinen Transistor-Radios üblichen 9V Blocks (BezeichnungEC 6 F22) z.B. von Varta Su- per 438 oder von Mallory MN 1604. Die Batterie wird in dieHalte- rung des beigegebenen Batterie-Bausteins eingesetzt. Sobald der am Baustein vorhandene Anschlußclip auf die Batterie- noppen aufgedrückt wird, ist der Batterie-Baustein einsatzfä- hig.",
+      "lines": [
+        [
+          1263,
+          722,
+          2321,
+          760
+        ],
+        [
+          1262,
+          763,
+          2322,
+          802
+        ],
+        [
+          1263,
+          804,
+          2325,
+          843
+        ],
+        [
+          1264,
+          845,
+          2323,
+          879
+        ],
+        [
+          1264,
+          886,
+          2325,
+          926
+        ],
+        [
+          1265,
+          928,
+          2325,
+          969
+        ],
+        [
+          1265,
+          969,
+          2322,
+          1009
+        ],
+        [
+          1263,
+          1011,
+          2325,
+          1046
+        ],
+        [
+          1265,
+          1051,
+          2325,
+          1092
+        ],
+        [
+          1265,
+          1098,
+          1323,
+          1133
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        1159,
+        2327,
+        1364
+      ],
+      "text": "Der Computer arbeitet mit sehrgeringen Spannungen. Die Bat- terie-Spannung 9 V darf niemals direkt an die Eingänge oder Ausgänge des Computers angeschlossen werden. Durch das Zwischenschalten entsprechender Widerstände wird die 9 V Spannung aufein fürden Computer erträgliches Maß reduziert.",
+      "lines": [
+        [
+          1264,
+          1159,
+          2326,
+          1198
+        ],
+        [
+          1263,
+          1200,
+          2326,
+          1239
+        ],
+        [
+          1263,
+          1241,
+          2324,
+          1281
+        ],
+        [
+          1263,
+          1283,
+          2327,
+          1320
+        ],
+        [
+          1264,
+          1324,
+          2324,
+          1364
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        1389,
+        2329,
+        1883
+      ],
+      "text": "Durch Tastendruck sollen kurze „high”-Signale an die Eingän- ge herangeführt werden. Hierfür sind am Armaturenboard die roten Tasten G undH vorhanden. Damit wir die Tasten (mit den Verbindungsleitungen und den gelben Plastiksteckern) leicht anschließen können, finden wir jeweils hinter den Tasten G und H einen Baustein mit der Aufschrift „Taster”. Die Bausteine wer- den hinter der Computer-Platine eingesteckt (siehe Abbildung unten), wobei zwischen den Bausteinen und den im Armatu- renboard eingebauten Tasten eine Verbindungsleitung be- steht. Der Baustein von Taster G wird links eingesteckt, der Baustein von Taster H wird rechts daneben plaziert. Zur Redu- zierung der Batterie-Spannung werden noch die beiden Bau-",
+      "lines": [
+        [
+          1265,
+          1389,
+          2327,
+          1425
+        ],
+        [
+          1264,
+          1430,
+          2325,
+          1470
+        ],
+        [
+          1265,
+          1472,
+          2324,
+          1508
+        ],
+        [
+          1263,
+          1513,
+          2325,
+          1552
+        ],
+        [
+          1264,
+          1554,
+          2324,
+          1591
+        ],
+        [
+          1265,
+          1596,
+          2328,
+          1632
+        ],
+        [
+          1265,
+          1637,
+          2324,
+          1675
+        ],
+        [
+          1266,
+          1679,
+          2328,
+          1719
+        ],
+        [
+          1266,
+          1720,
+          2328,
+          1759
+        ],
+        [
+          1265,
+          1761,
+          2328,
+          1796
+        ],
+        [
+          1265,
+          1803,
+          2329,
+          1838
+        ],
+        [
+          1265,
+          1844,
+          2329,
+          1883
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

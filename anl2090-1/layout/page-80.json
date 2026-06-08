@@ -1,0 +1,1028 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        415,
+        1210,
+        2270
+      ],
+      "fragments": [
+        [
+          108,
+          415,
+          1210,
+          2270
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          415,
+          1210,
+          2270
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        2278,
+        1205,
+        2326
+      ],
+      "fragments": [
+        [
+          108,
+          2278,
+          1205,
+          2326
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          2278,
+          1205,
+          2326
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        303,
+        2378,
+        565,
+        2495
+      ],
+      "fragments": [
+        [
+          303,
+          2378,
+          565,
+          2495
+        ]
+      ],
+      "lines": [
+        [
+          303,
+          2378,
+          565,
+          2495
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        850,
+        2400,
+        1120,
+        2500
+      ],
+      "fragments": [
+        [
+          850,
+          2400,
+          1120,
+          2500
+        ]
+      ],
+      "lines": [
+        [
+          850,
+          2400,
+          1120,
+          2500
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        303,
+        2538,
+        608,
+        2668
+      ],
+      "fragments": [
+        [
+          303,
+          2538,
+          608,
+          2668
+        ]
+      ],
+      "lines": [
+        [
+          303,
+          2538,
+          608,
+          2668
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        840,
+        2632,
+        1180,
+        2722
+      ],
+      "fragments": [
+        [
+          840,
+          2632,
+          1180,
+          2722
+        ]
+      ],
+      "lines": [
+        [
+          840,
+          2632,
+          1180,
+          2722
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        301,
+        2700,
+        648,
+        2815
+      ],
+      "fragments": [
+        [
+          301,
+          2700,
+          648,
+          2815
+        ]
+      ],
+      "lines": [
+        [
+          301,
+          2700,
+          648,
+          2815
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        834,
+        2700,
+        1200,
+        2815
+      ],
+      "fragments": [
+        [
+          834,
+          2700,
+          1200,
+          2815
+        ]
+      ],
+      "lines": [
+        [
+          834,
+          2700,
+          1200,
+          2815
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        2850,
+        740,
+        3015
+      ],
+      "fragments": [
+        [
+          108,
+          2850,
+          740,
+          3015
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          2850,
+          740,
+          3015
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        415,
+        2340,
+        1835
+      ],
+      "fragments": [
+        [
+          1240,
+          415,
+          2340,
+          1835
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          415,
+          2340,
+          1835
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        125,
+        421,
+        1189,
+        626
+      ],
+      "text": "Dual-System: Besteht lediglich aus den beiden Ziffern O und 1. Alle Computer-Systeme arbeiten grundsätzlich nur mit die- sen beiden Ziffern, weil hierdurch die Darstellung der beiden Zustände „Spannung vorhanden” (high) oder „keine Span- nung vorhanden” (low) möglich ist, (high = 1, low = 0).",
+      "lines": [
+        [
+          128,
+          421,
+          1186,
+          458
+        ],
+        [
+          130,
+          463,
+          1189,
+          500
+        ],
+        [
+          127,
+          504,
+          1186,
+          542
+        ],
+        [
+          125,
+          545,
+          1188,
+          584
+        ],
+        [
+          127,
+          586,
+          1098,
+          626
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        651,
+        1184,
+        729
+      ],
+      "text": "Hardware: Bezeichnung für die elektronischen Komponenten und Bauteile eines Computers, Siehe auch Software.",
+      "lines": [
+        [
+          126,
+          651,
+          1184,
+          690
+        ],
+        [
+          126,
+          692,
+          1058,
+          729
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        757,
+        1186,
+        878
+      ],
+      "text": "Hexadezimal-System: Besteht aus 16 Ziffern (den Zahlen O bis 9 und den Buchstaben A bis F). Speziell in der Mikroprozes- sor-Technik und Datenverarbeitung übliches Zahlen-System.",
+      "lines": [
+        [
+          125,
+          757,
+          1184,
+          795
+        ],
+        [
+          124,
+          798,
+          1186,
+          837
+        ],
+        [
+          124,
+          839,
+          1183,
+          878
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        122,
+        904,
+        1185,
+        1068
+      ],
+      "text": "High: Bezeichnung für den Zustand, daß an einer bestimmten Stelle einer elektronischen Schaltung „eine Spannung vor- handen” ist. Der Zustand „high” wird auch durch die Ziffer 1 angezeigt. (Siehe auch ”low” und Dual-System).",
+      "lines": [
+        [
+          123,
+          904,
+          1182,
+          941
+        ],
+        [
+          122,
+          945,
+          1185,
+          985
+        ],
+        [
+          123,
+          987,
+          1176,
+          1024
+        ],
+        [
+          122,
+          1028,
+          970,
+          1068
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        118,
+        1085,
+        1183,
+        1382
+      ],
+      "text": "Interface: Elektronische Schnittstelle (Übergangsstelle), um zwei oder mehrere Geräte elektronisch miteinander zu verbin- den, z. B. Computer mit Cassetten-Recorder. Durch die in einem Interface vorhandene elektronische Schaltung werden die Signale eines Geräts so umgewandelt, damit diese Signale von einem anderen Gerät übernommen werden können. (Z.B. Cassetten-Interface wandelt Daten in akustische Signale).",
+      "lines": [
+        [
+          122,
+          1085,
+          1180,
+          1138
+        ],
+        [
+          120,
+          1134,
+          1183,
+          1168
+        ],
+        [
+          120,
+          1175,
+          1180,
+          1211
+        ],
+        [
+          120,
+          1217,
+          1179,
+          1257
+        ],
+        [
+          119,
+          1258,
+          1180,
+          1299
+        ],
+        [
+          118,
+          1299,
+          1178,
+          1339
+        ],
+        [
+          119,
+          1341,
+          1136,
+          1382
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1406,
+        1181,
+        1571
+      ],
+      "text": "Low: Bezeichnung für den Zustand, daß z. B. an einer be- stimmten Stelle einer elektronischen Schaltung „keine Span- nung vorhanden” ist. Der Zustand „low” wird auch durch die Ziffer O angezeigt. (Siehe auch „high” und Dual-System).",
+      "lines": [
+        [
+          119,
+          1406,
+          1181,
+          1443
+        ],
+        [
+          118,
+          1447,
+          1181,
+          1487
+        ],
+        [
+          119,
+          1489,
+          1179,
+          1526
+        ],
+        [
+          116,
+          1530,
+          1120,
+          1571
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1595,
+        1185,
+        1674
+      ],
+      "text": "Mikroprozessor: Ein IC (integrated circuit), welcher die Zen- traleinheit (CPU) eines Computers enthält.",
+      "lines": [
+        [
+          117,
+          1595,
+          1185,
+          1635
+        ],
+        [
+          115,
+          1637,
+          856,
+          1674
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1702,
+        1187,
+        1824
+      ],
+      "text": "Mnemonic: Bezeichnung für eine Kurzform, welche einen Hin- weis auf die Art eines Code-Wortes gibt (z.B. ADD für Addition, MULT für Multiplikation usw.)",
+      "lines": [
+        [
+          117,
+          1702,
+          1187,
+          1741
+        ],
+        [
+          115,
+          1743,
+          1184,
+          1787
+        ],
+        [
+          116,
+          1784,
+          619,
+          1824
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1850,
+        894,
+        1887
+      ],
+      "text": "Monitor-Programm: Siehe Betriebs-System.",
+      "lines": [
+        [
+          116,
+          1850,
+          894,
+          1887
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1915,
+        1182,
+        1996
+      ],
+      "text": "Programm: Eine Folge von Befehlen, zur Lösung einer Aufga- be durch einen Computer.",
+      "lines": [
+        [
+          115,
+          1915,
+          1182,
+          1959
+        ],
+        [
+          116,
+          1956,
+          578,
+          1996
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        112,
+        2020,
+        1177,
+        2264
+      ],
+      "text": "Programm-Ablaufplan (Fluß-Diagramm, flow-chart): Stellt den Funktionsablauf eines Computer-Programmes dar. Die einzelnen Operationen werden in verschiedenartige Symbol- Bilder eingetragen und durch Ablauflinien miteinander verbun- den. Programm-Ablaufpläne sind unentbehrliches Hilfsmittel zum Entwickeln und Verfolgen von Computer-Programmen.",
+      "lines": [
+        [
+          116,
+          2020,
+          1175,
+          2059
+        ],
+        [
+          114,
+          2061,
+          1175,
+          2099
+        ],
+        [
+          113,
+          2103,
+          1177,
+          2140
+        ],
+        [
+          113,
+          2144,
+          1177,
+          2180
+        ],
+        [
+          113,
+          2185,
+          1174,
+          2221
+        ],
+        [
+          112,
+          2227,
+          1156,
+          2264
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        112,
+        2291,
+        1054,
+        2328
+      ],
+      "text": "Symbole für Programm-Ablaufpläne nach DIN 66001:",
+      "lines": [
+        [
+          112,
+          2291,
+          1054,
+          2328
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        98,
+        2364,
+        1189,
+        2790
+      ],
+      "text": "Allgemeine > Operation Verzweigung Subroutine \\\\ Unterprogramm Eingabe/Ausgabe Anfang oder Ende ® Übergangsstelle zu CL) eines Programms anderen Programm-",
+      "lines": [
+        [
+          306,
+          2364,
+          817,
+          2482
+        ],
+        [
+          307,
+          2449,
+          1071,
+          2494
+        ],
+        [
+          307,
+          2535,
+          814,
+          2662
+        ],
+        [
+          307,
+          2614,
+          1153,
+          2668
+        ],
+        [
+          304,
+          2691,
+          1174,
+          2765
+        ],
+        [
+          98,
+          2709,
+          1189,
+          2790
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        838,
+        2781,
+        939,
+        2810
+      ],
+      "text": "Teilen",
+      "lines": [
+        [
+          838,
+          2781,
+          939,
+          2810
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        106,
+        2863,
+        555,
+        2981
+      ],
+      "text": "> bedeutet: größer < bedeutet: kleiner = bedeutet: gleicher Wert",
+      "lines": [
+        [
+          106,
+          2863,
+          439,
+          2899
+        ],
+        [
+          107,
+          2904,
+          442,
+          2935
+        ],
+        [
+          106,
+          2946,
+          555,
+          2981
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1248,
+        427,
+        2312,
+        588
+      ],
+      "text": "Programm-Schrittzähler: Eine Einheit einer CPU. Der Pro- gramm-Schrittzähler enthält die Adresse des auszuführen- den Befehls. Er wird daher auch als Befehls-Zähler (program- counter, instruction counter) bezeichnet.",
+      "lines": [
+        [
+          1251,
+          427,
+          2312,
+          463
+        ],
+        [
+          1249,
+          468,
+          2312,
+          503
+        ],
+        [
+          1248,
+          509,
+          2312,
+          548
+        ],
+        [
+          1248,
+          551,
+          1961,
+          588
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1247,
+        616,
+        2311,
+        817
+      ],
+      "text": "RAM (random access memory): Ein sogenannter „Schreib- und Lese-Speicher”. In einem RAM-Speicher können Daten eingegeben und herausgelesen werden. Das RAM wird des- halb auch als „Arbeits-Speicher” bezeichnet. (Siehe auch ROM).",
+      "lines": [
+        [
+          1249,
+          616,
+          2311,
+          653
+        ],
+        [
+          1248,
+          657,
+          2307,
+          693
+        ],
+        [
+          1247,
+          698,
+          2310,
+          734
+        ],
+        [
+          1248,
+          739,
+          2306,
+          777
+        ],
+        [
+          1247,
+          780,
+          1352,
+          817
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1245,
+        845,
+        2309,
+        963
+      ],
+      "text": "Register: Speicher zur Aufnahme sehr kleiner Informationen, z.B. einer Ziffer oder eines Zeichens. Register werden zur Zwi- schen-Speicherung von Ziffern verwendet.",
+      "lines": [
+        [
+          1247,
+          845,
+          2306,
+          883
+        ],
+        [
+          1245,
+          886,
+          2309,
+          923
+        ],
+        [
+          1245,
+          927,
+          1994,
+          963
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        993,
+        2308,
+        1236
+      ],
+      "text": "ROM (read only memory): Ein sogenannter „Nur-Lese-Spei- cher”. In einem ROM-Speicher sind Daten fest eingegeben (gespeichert) und können später nicht mehr verändert wer- den. Die fest eingegebenen Daten können jederzeit „ausgege- ben” werden, es ist jedoch nicht möglich, neue Daten einzuge- ben. (Siehe auch RAM).",
+      "lines": [
+        [
+          1246,
+          993,
+          2308,
+          1031
+        ],
+        [
+          1245,
+          1034,
+          2304,
+          1073
+        ],
+        [
+          1246,
+          1075,
+          2308,
+          1112
+        ],
+        [
+          1244,
+          1117,
+          2307,
+          1155
+        ],
+        [
+          1245,
+          1158,
+          2307,
+          1197
+        ],
+        [
+          1245,
+          1199,
+          1661,
+          1236
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1242,
+        1264,
+        2306,
+        1343
+      ],
+      "text": "Software: Bezeichnung für nicht „sicht- und greifbare” Com- puter-Funktionen, wie z. B. Programme, Betriebs-System usw.",
+      "lines": [
+        [
+          1242,
+          1264,
+          2306,
+          1302
+        ],
+        [
+          1244,
+          1306,
+          2303,
+          1343
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1242,
+        1370,
+        2305,
+        1490
+      ],
+      "text": "Source-Register: Quell-Register, aus welchem die Daten für eine weitere Bearbeitung übernommen werden. (Siehe auch Destination-Register).",
+      "lines": [
+        [
+          1242,
+          1370,
+          2305,
+          1407
+        ],
+        [
+          1242,
+          1412,
+          2302,
+          1450
+        ],
+        [
+          1243,
+          1453,
+          1618,
+          1490
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1241,
+        1518,
+        2305,
+        1678
+      ],
+      "text": "Speicher: Elektronische Möglichkeit zur Aufbewahrung von Daten. So werden z.B. „high”- oder „lIow”-Signale in Halbleiter- Bausteinen (siehe z. B. RAM oder ROM) oder auf Magnetbän- der,bzw. Magnetplatten gespeichert.",
+      "lines": [
+        [
+          1241,
+          1518,
+          2301,
+          1557
+        ],
+        [
+          1242,
+          1559,
+          2305,
+          1596
+        ],
+        [
+          1242,
+          1601,
+          2305,
+          1639
+        ],
+        [
+          1241,
+          1642,
+          1877,
+          1678
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1239,
+        1707,
+        2303,
+        1820
+      ],
+      "text": "Zero-Flag: Ein vom Mikroprozessor erzeugtes Signal, welches auftritt, wenn zwei zu vergleichende Ziffern gleich sind, oder wenn eine Ziffer O ist.",
+      "lines": [
+        [
+          1240,
+          1707,
+          2301,
+          1745
+        ],
+        [
+          1240,
+          1748,
+          2303,
+          1785
+        ],
+        [
+          1239,
+          1790,
+          1616,
+          1820
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

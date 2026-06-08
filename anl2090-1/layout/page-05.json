@@ -1,0 +1,1112 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        125,
+        84,
+        898,
+        123
+      ],
+      "fragments": [
+        [
+          125,
+          84,
+          898,
+          123
+        ]
+      ],
+      "lines": [
+        [
+          125,
+          84,
+          898,
+          123
+        ]
+      ],
+      "text": "Start frei zum ersten Probelauf!"
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1245,
+        85,
+        2074,
+        185
+      ],
+      "fragments": [
+        [
+          1247,
+          85,
+          2074,
+          132
+        ],
+        [
+          1245,
+          139,
+          1699,
+          185
+        ]
+      ],
+      "lines": [
+        [
+          1247,
+          85,
+          2074,
+          132
+        ],
+        [
+          1245,
+          139,
+          1699,
+          185
+        ]
+      ],
+      "text": "Der Computer testet sich selbst —  das Prüfprogramm"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        115,
+        399,
+        1182,
+        1456
+      ],
+      "fragments": [
+        [
+          121,
+          399,
+          1182,
+          723
+        ],
+        [
+          119,
+          753,
+          1180,
+          913
+        ],
+        [
+          119,
+          941,
+          1181,
+          1184
+        ],
+        [
+          115,
+          1213,
+          1178,
+          1456
+        ]
+      ],
+      "lines": [
+        [
+          122,
+          399,
+          1179,
+          436
+        ],
+        [
+          123,
+          440,
+          1182,
+          477
+        ],
+        [
+          124,
+          482,
+          1179,
+          516
+        ],
+        [
+          123,
+          523,
+          1182,
+          560
+        ],
+        [
+          123,
+          564,
+          1178,
+          600
+        ],
+        [
+          121,
+          605,
+          1182,
+          642
+        ],
+        [
+          123,
+          647,
+          1179,
+          683
+        ],
+        [
+          121,
+          688,
+          664,
+          723
+        ],
+        [
+          121,
+          753,
+          1177,
+          787
+        ],
+        [
+          121,
+          794,
+          1180,
+          828
+        ],
+        [
+          119,
+          835,
+          1180,
+          871
+        ],
+        [
+          121,
+          876,
+          1004,
+          913
+        ],
+        [
+          120,
+          941,
+          1181,
+          977
+        ],
+        [
+          120,
+          983,
+          1181,
+          1018
+        ],
+        [
+          120,
+          1024,
+          1179,
+          1060
+        ],
+        [
+          120,
+          1065,
+          1178,
+          1100
+        ],
+        [
+          119,
+          1107,
+          1178,
+          1142
+        ],
+        [
+          120,
+          1148,
+          1102,
+          1184
+        ],
+        [
+          118,
+          1213,
+          1178,
+          1249
+        ],
+        [
+          118,
+          1254,
+          1178,
+          1290
+        ],
+        [
+          119,
+          1296,
+          1178,
+          1332
+        ],
+        [
+          115,
+          1337,
+          1178,
+          1372
+        ],
+        [
+          117,
+          1378,
+          1176,
+          1414
+        ],
+        [
+          116,
+          1420,
+          967,
+          1456
+        ]
+      ],
+      "text": "Wir stecken zunächst einmal das Netzgerät in die Steckdose. Sofort erscheinen auf der Leuchtanzeige des Armaturen- boards zwei Nullen, eine Dunkelstelle und dann drei Nullen. Eine Leuchtdiode auf der Computer-Platine (vor der Bezeich- nung „Takt/Clock”) beginnt zu blinken. Eine weitere Reaktion werden wir zunächst nicht feststellen. Unser Computer ist be- reit „Befehle” von uns entgegenzunehmen, Er erwartet von uns eine Mitteilung, was er tun soll.  Unser Mikro-Computer ist darauf vorbereitet, sich selbst zu kontrollieren und zu prüfen, ob alle seine Funktionen einwand- frei arbeiten. Dieser Computer-Selbsttest gibt uns die Sicher- heit, daß beim Transport nichts beschädigt wurde.  Wir sollten nun keineswegs damit beginnen, wahllos die Ta- sten zu betätigen, weil unser Computer keine sinnlosen, son- dern logische Befehle von uns erwartet. Sollten wir jedoch bis zum Lesen dieser Zeilen bereits „Unsinn” produziert haben, wird sich der Computer diesem sinnlosen Vorhaben sperren, d. h. er wird auf keinen weiteren Tastendruck reagieren.  Es bleibt uns nichts anderes übrig, ais dem Computer mitzutei- len, daß wir unsere sinnlose Betätigung soeben beendet ha- ben. Zu diesem Zweck drücken wir kurz auf die grüne Reset- Taste auf der Computer-Platine. Der Computer wird uns über seine Leuchtanzeige sofort bestätigen, daß er wieder mit uns zusammenarbeiten will (Leuchtanzeige: 00 000)."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        401,
+        2305,
+        745
+      ],
+      "fragments": [
+        [
+          1240,
+          401,
+          2305,
+          440
+        ],
+        [
+          1244,
+          442,
+          1820,
+          518
+        ],
+        [
+          1820,
+          443,
+          2305,
+          515
+        ],
+        [
+          1242,
+          525,
+          2305,
+          678
+        ],
+        [
+          1243,
+          690,
+          1819,
+          725
+        ],
+        [
+          1824,
+          690,
+          2302,
+          745
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          401,
+          2305,
+          440
+        ],
+        [
+          1244,
+          442,
+          1804,
+          471
+        ],
+        [
+          1244,
+          483,
+          1820,
+          518
+        ],
+        [
+          1820,
+          443,
+          2303,
+          481
+        ],
+        [
+          1825,
+          485,
+          2305,
+          515
+        ],
+        [
+          1242,
+          525,
+          2305,
+          678
+        ],
+        [
+          1243,
+          690,
+          1819,
+          725
+        ],
+        [
+          1824,
+          690,
+          2302,
+          725
+        ],
+        [
+          1885,
+          731,
+          1905,
+          745
+        ]
+      ],
+      "text": "Für den Selbsttest müssen einige Kabelverbindungen herge-  stelit werden. Hierzu werden die den blanken (abisolierten) Drahte  Kabel gemäß Abbildung mit nden in die Buchsen an der  hinteren Platinen-Seite eingesteckt und durch einen aufge- drückten gelben Plastikstecker gehalten. Wir achten darauf, daß die Drähte nicht zu weit in die Buchse eingesteckt werden, weil nur das blanke Drahtende den erwünschten Kontakt in  der Buchse ergibt. Die vier notwe  ndigen Kabel führen jeweils EN"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1237,
+        1636,
+        1749,
+        1739
+      ],
+      "fragments": [
+        [
+          1237,
+          1636,
+          1749,
+          1739
+        ]
+      ],
+      "lines": [
+        [
+          1238,
+          1636,
+          1672,
+          1668
+        ],
+        [
+          1238,
+          1671,
+          1749,
+          1703
+        ],
+        [
+          1237,
+          1708,
+          1648,
+          1739
+        ]
+      ],
+      "text": "Leuchtdipde für Taktanzeige (blinkt, sobald Computer mit dem Netzstrom verbunden wird)"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        174,
+        2284,
+        1153,
+        2381
+      ],
+      "fragments": [
+        [
+          174,
+          2284,
+          1153,
+          2381
+        ]
+      ],
+      "lines": [
+        [
+          267,
+          2284,
+          643,
+          2315
+        ],
+        [
+          174,
+          2319,
+          1153,
+          2355
+        ],
+        [
+          267,
+          2354,
+          672,
+          2381
+        ]
+      ],
+      "text": "Steckplatine zum Aufbau ® zusätzlicher Schaltungenmitt & ® r ® BUSCH-Elektronik-Studios"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        125,
+        84,
+        898,
+        123
+      ],
+      "text": "Start frei zum ersten Probelauf!",
+      "lines": [
+        [
+          125,
+          84,
+          898,
+          123
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        121,
+        399,
+        1182,
+        723
+      ],
+      "text": "Wir stecken zunächst einmal das Netzgerät in die Steckdose. Sofort erscheinen auf der Leuchtanzeige des Armaturen- boards zwei Nullen, eine Dunkelstelle und dann drei Nullen. Eine Leuchtdiode auf der Computer-Platine (vor der Bezeich- nung „Takt/Clock”) beginnt zu blinken. Eine weitere Reaktion werden wir zunächst nicht feststellen. Unser Computer ist be- reit „Befehle” von uns entgegenzunehmen, Er erwartet von uns eine Mitteilung, was er tun soll.",
+      "lines": [
+        [
+          122,
+          399,
+          1179,
+          436
+        ],
+        [
+          123,
+          440,
+          1182,
+          477
+        ],
+        [
+          124,
+          482,
+          1179,
+          516
+        ],
+        [
+          123,
+          523,
+          1182,
+          560
+        ],
+        [
+          123,
+          564,
+          1178,
+          600
+        ],
+        [
+          121,
+          605,
+          1182,
+          642
+        ],
+        [
+          123,
+          647,
+          1179,
+          683
+        ],
+        [
+          121,
+          688,
+          664,
+          723
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        753,
+        1180,
+        913
+      ],
+      "text": "Unser Mikro-Computer ist darauf vorbereitet, sich selbst zu kontrollieren und zu prüfen, ob alle seine Funktionen einwand- frei arbeiten. Dieser Computer-Selbsttest gibt uns die Sicher- heit, daß beim Transport nichts beschädigt wurde.",
+      "lines": [
+        [
+          121,
+          753,
+          1177,
+          787
+        ],
+        [
+          121,
+          794,
+          1180,
+          828
+        ],
+        [
+          119,
+          835,
+          1180,
+          871
+        ],
+        [
+          121,
+          876,
+          1004,
+          913
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        941,
+        1181,
+        1184
+      ],
+      "text": "Wir sollten nun keineswegs damit beginnen, wahllos die Ta- sten zu betätigen, weil unser Computer keine sinnlosen, son- dern logische Befehle von uns erwartet. Sollten wir jedoch bis zum Lesen dieser Zeilen bereits „Unsinn” produziert haben, wird sich der Computer diesem sinnlosen Vorhaben sperren, d. h. er wird auf keinen weiteren Tastendruck reagieren.",
+      "lines": [
+        [
+          120,
+          941,
+          1181,
+          977
+        ],
+        [
+          120,
+          983,
+          1181,
+          1018
+        ],
+        [
+          120,
+          1024,
+          1179,
+          1060
+        ],
+        [
+          120,
+          1065,
+          1178,
+          1100
+        ],
+        [
+          119,
+          1107,
+          1178,
+          1142
+        ],
+        [
+          120,
+          1148,
+          1102,
+          1184
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1213,
+        1178,
+        1456
+      ],
+      "text": "Es bleibt uns nichts anderes übrig, ais dem Computer mitzutei- len, daß wir unsere sinnlose Betätigung soeben beendet ha- ben. Zu diesem Zweck drücken wir kurz auf die grüne Reset- Taste auf der Computer-Platine. Der Computer wird uns über seine Leuchtanzeige sofort bestätigen, daß er wieder mit uns zusammenarbeiten will (Leuchtanzeige: 00 000).",
+      "lines": [
+        [
+          118,
+          1213,
+          1178,
+          1249
+        ],
+        [
+          118,
+          1254,
+          1178,
+          1290
+        ],
+        [
+          119,
+          1296,
+          1178,
+          1332
+        ],
+        [
+          115,
+          1337,
+          1178,
+          1372
+        ],
+        [
+          117,
+          1378,
+          1176,
+          1414
+        ],
+        [
+          116,
+          1420,
+          967,
+          1456
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        865,
+        1671,
+        1180,
+        1739
+      ],
+      "text": "Anschlußbuchsen für Ein- u. Ausgänge",
+      "lines": [
+        [
+          865,
+          1671,
+          1138,
+          1698
+        ],
+        [
+          865,
+          1706,
+          1180,
+          1739
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        262,
+        1669,
+        802,
+        1737
+      ],
+      "text": "Leuchtdioden zur Zustandsanzeige der Ausgänge",
+      "lines": [
+        [
+          266,
+          1669,
+          802,
+          1703
+        ],
+        [
+          262,
+          1706,
+          475,
+          1737
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1247,
+        85,
+        2074,
+        132
+      ],
+      "text": "Der Computer testet sich selbst —",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1245,
+        139,
+        1699,
+        185
+      ],
+      "text": "das Prüfprogramm",
+      "lines": [
+        [
+          1245,
+          139,
+          1699,
+          185
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1244,
+        442,
+        1820,
+        518
+      ],
+      "text": "stelit werden. Hierzu werden die den blanken (abisolierten) Drahte",
+      "lines": [
+        [
+          1244,
+          442,
+          1804,
+          471
+        ],
+        [
+          1244,
+          483,
+          1820,
+          518
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1240,
+        401,
+        2305,
+        440
+      ],
+      "text": "Für den Selbsttest müssen einige Kabelverbindungen herge-",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1820,
+        443,
+        2305,
+        515
+      ],
+      "text": "Kabel gemäß Abbildung mit nden in die Buchsen an der",
+      "lines": [
+        [
+          1820,
+          443,
+          2303,
+          481
+        ],
+        [
+          1825,
+          485,
+          2305,
+          515
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1242,
+        525,
+        2305,
+        678
+      ],
+      "text": "hinteren Platinen-Seite eingesteckt und durch einen aufge- drückten gelben Plastikstecker gehalten. Wir achten darauf, daß die Drähte nicht zu weit in die Buchse eingesteckt werden, weil nur das blanke Drahtende den erwünschten Kontakt in",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1243,
+        690,
+        1819,
+        725
+      ],
+      "text": "der Buchse ergibt. Die vier notwe",
+      "lines": [
+        [
+          1243,
+          690,
+          1819,
+          725
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1484,
+        794,
+        1703,
+        866
+      ],
+      "text": "warum funktioniert",
+      "lines": [
+        [
+          1525,
+          794,
+          1645,
+          835
+        ],
+        [
+          1484,
+          831,
+          1703,
+          866
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1237,
+        1636,
+        1749,
+        1739
+      ],
+      "text": "Leuchtdipde für Taktanzeige (blinkt, sobald Computer mit dem Netzstrom verbunden wird)",
+      "lines": [
+        [
+          1238,
+          1636,
+          1672,
+          1668
+        ],
+        [
+          1238,
+          1671,
+          1749,
+          1703
+        ],
+        [
+          1237,
+          1708,
+          1648,
+          1739
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1824,
+        690,
+        2302,
+        745
+      ],
+      "text": "ndigen Kabel führen jeweils EN",
+      "lines": [
+        [
+          1824,
+          690,
+          2302,
+          725
+        ],
+        [
+          1885,
+          731,
+          1905,
+          745
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1942,
+        1519,
+        1986,
+        1555
+      ],
+      "text": "FG",
+      "lines": [
+        [
+          1942,
+          1519,
+          1986,
+          1555
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1816,
+        1573,
+        2170,
+        1749
+      ],
+      "text": "Netzteil zur Stromversorgung 220 V/9 V, 250 mA (Steckdose darf keinen Wackelkontakt haben!)",
+      "lines": [
+        [
+          1821,
+          1573,
+          1988,
+          1598
+        ],
+        [
+          1820,
+          1608,
+          2080,
+          1640
+        ],
+        [
+          1819,
+          1643,
+          2101,
+          1673
+        ],
+        [
+          1819,
+          1681,
+          2170,
+          1712
+        ],
+        [
+          1816,
+          1716,
+          2166,
+          1749
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        174,
+        2284,
+        1153,
+        2381
+      ],
+      "text": "Steckplatine zum Aufbau ® zusätzlicher Schaltungenmitt & ® r ® BUSCH-Elektronik-Studios",
+      "lines": [
+        [
+          267,
+          2284,
+          643,
+          2315
+        ],
+        [
+          174,
+          2319,
+          1153,
+          2355
+        ],
+        [
+          267,
+          2354,
+          672,
+          2381
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1545,
+        2427,
+        1810,
+        2504
+      ],
+      "text": "MN] Reset-Taste",
+      "lines": [
+        [
+          1545,
+          2427,
+          1810,
+          2504
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        110,
+        3283,
+        835,
+        3317
+      ],
+      "text": "Normbuchsen zum Anschluß Sondertasten",
+      "lines": [
+        [
+          110,
+          3283,
+          835,
+          3317
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        105,
+        3319,
+        400,
+        3404
+      ],
+      "text": "von Überspielkabel 4",
+      "lines": [
+        [
+          109,
+          3319,
+          400,
+          3349
+        ],
+        [
+          105,
+          3376,
+          124,
+          3404
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        903,
+        3262,
+        1410,
+        3352
+      ],
+      "text": "£ 2 Leuchtdioden für Zustandsanzeige des Computers",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1576,
+        3252,
+        1757,
+        3321
+      ],
+      "text": "6-5tellige N",
+      "lines": [
+        [
+          1576,
+          3252,
+          1757,
+          3321
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1576,
+        3324,
+        1796,
+        3355
+      ],
+      "text": "Leuchtanzeige",
+      "lines": [
+        [
+          1576,
+          3324,
+          1796,
+          3355
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1845,
+        3288,
+        2299,
+        3349
+      ],
+      "text": "Tastatur mit 16 Eingabetasten und 8 Funktionstasten",
+      "lines": [
+        [
+          1845,
+          3288,
+          2299,
+          3319
+        ],
+        [
+          1848,
+          3323,
+          2189,
+          3349
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

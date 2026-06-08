@@ -1,0 +1,164 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        130,
+        92,
+        760,
+        128
+      ],
+      "fragments": [
+        [
+          130,
+          92,
+          760,
+          128
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          92,
+          760,
+          128
+        ]
+      ],
+      "text": "Programm-Eingabe „Mondiandung”"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        127,
+        157,
+        1186,
+        275
+      ],
+      "fragments": [
+        [
+          127,
+          157,
+          1186,
+          275
+        ]
+      ],
+      "lines": [
+        [
+          127,
+          157,
+          1186,
+          275
+        ]
+      ],
+      "text": "Mit HALT - NEXT - 00 zum Programm-Anfang gehen und Be- fehlscodes It. Tabelle eingeben. Nach jeder Befehlseingabe Taste NEXT nicht vergessen."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1230,
+        1100,
+        2330,
+        1940
+      ],
+      "fragments": [
+        [
+          1230,
+          1100,
+          2330,
+          1940
+        ]
+      ],
+      "lines": [
+        [
+          1230,
+          1100,
+          2330,
+          1940
+        ]
+      ],
+      "text": "Damit das Spielende auch akustisch wahrgenommen werden kann"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1230,
+        2740,
+        2330,
+        3375
+      ],
+      "fragments": [
+        [
+          1230,
+          2740,
+          2330,
+          3375
+        ]
+      ],
+      "lines": [
+        [
+          1230,
+          2740,
+          2330,
+          3375
+        ]
+      ],
+      "text": "Wichtige Information bezüglich Netzstromanschluß"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        130,
+        92,
+        760,
+        128
+      ],
+      "text": "Programm-Eingabe „Mondiandung”",
+      "lines": [
+        [
+          130,
+          92,
+          760,
+          128
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        127,
+        157,
+        1186,
+        275
+      ],
+      "text": "Mit HALT - NEXT - 00 zum Programm-Anfang gehen und Be- fehlscodes It. Tabelle eingeben. Nach jeder Befehlseingabe Taste NEXT nicht vergessen.",
+      "lines": [
+        [
+          130,
+          157,
+          1186,
+          193
+        ],
+        [
+          128,
+          198,
+          1184,
+          234
+        ],
+        [
+          127,
+          240,
+          627,
+          275
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

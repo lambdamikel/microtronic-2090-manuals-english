@@ -1,0 +1,894 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        1253,
+        105,
+        2313,
+        153
+      ],
+      "fragments": [
+        [
+          1253,
+          105,
+          2313,
+          153
+        ]
+      ],
+      "lines": [
+        [
+          1253,
+          105,
+          2313,
+          153
+        ]
+      ],
+      "text": "Bus-Verbindungen für den Datentransport?"
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        134,
+        114,
+        723,
+        158
+      ],
+      "fragments": [
+        [
+          134,
+          114,
+          723,
+          158
+        ]
+      ],
+      "lines": [
+        [
+          134,
+          114,
+          723,
+          158
+        ]
+      ],
+      "text": "Software und Hardware."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1255,
+        783,
+        2327,
+        2562
+      ],
+      "fragments": [
+        [
+          1255,
+          783,
+          2327,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          1255,
+          783,
+          2327,
+          3357
+        ]
+      ],
+      "text": "Kaum vorstellbar, doch zwischen den Einheiten des Compu- ters besteht eine Bus-Verbindung für den Datentransport. Mit Bus werden die Verbindungsleitungen (Leiterbahnen auf der Platine usw.) bezeichnet. Wie wir gleich sehen werden, benö- tigt ein Computer unwahrscheinlich viele Verbindungskabel, weil der Mikroprozessor gleichzeitig (oder besser gesagt nacheinander im Bruchteil einer tausendstei Sekunde) die verschiedensten Aufgaben bearbeitet.  Wir wissen, daß Computer nur mit den beiden Zuständen „O” (keine Spannung) und „1” (Spannung vorhanden) arbeiten. Die Verbindungsleitungen sind für die Übertragung dieser Sig- nale notwendig. Wir erinnern uns, daß wir zur Darstellung einer dezimalen Zahl (durch das hierfür erforderliche Dual-System) bereits 4 Verbindungsleitungen benötigen. Nun muß der Mi- kroprozessor jedoch dem Speicher-Baustein mitteilen kön- nen, aus welcher Speicher-Adresse er seine Befehle haben möchte. Nachdem jede Programm-Adresse aus 2 Ziffern be- steht, sind auch hierfür 2x 4= 8 Verbindungsleitungen not- wendig. Der eigentliche Befehls-Code besteht aus 3 hexadezi- malen Ziffern, d. h., daß weitere 12 Verbindungsleitungen not- wendig sind, so daß wir bereits jetzt 20 Leitungen benötigen würden.  Der Mikroprozessor muß jedes einzelne Leuchtsegment des Displays ansteuern können. Jede auf dem Display dargestellte Stelle besteht aus 7 Leuchtsegmenten und nachdem wir auf dem Display 6 Stellen (mit jeweils 7 Leuchtsegmenten) haben, wären hierfür weitere 42 Verbindungsleitungen notwendig. Unsere Tastatur mit den 24 Einzeltasten würde ebenfalls 24 Leitungen benötigen und, wenn wir noch die 4 Eingänge und Ausgänge hinzunehmen, müßten bereits 94 Leitungen zu unserem Mikroprozessor führen. Da wir auch noch eine RESET-Taste, die Takt-Frequenz, die Stromzufuhr, Carry- und ZERO-Flag usw. haben, wären ganze Kabelwülste notwendig, um die Zentraleinheit Mikroprozessor mit den übrigen Compu- ter-Elementen zu verbinden.  Wir sehen bereits - so geht das nicht. Man hat sich daher überlegt, wie man mit wesentlich weniger Leitungen auskom- men kann. Das Resultat sind die sogenannten Bus-Verbindun- gen, wodurch mit den gleichen Verbindungsleitungen nicht nur einzelne, sondern eine ganze Reihe Bauelemente mitein- ander verbunden sind."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        792,
+        1203,
+        3357
+      ],
+      "fragments": [
+        [
+          135,
+          792,
+          1203,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          792,
+          1203,
+          3357
+        ]
+      ],
+      "text": "Nachdem wir im letzten Kapitel mit dem 6-stelligen Additions- Programm den schwierigsten Teil unserer Einführung in die Computer-Technik überwunden haben, wollen wir uns zur Abwechslung einmal mit unproblematischeren Dingen befas- sen.  Bis jetzt hatten wir in erster Linie „Software-Probleme” zu be- wältigen. Also sollten wir uns jetzt einmal mit der „Hardware” unseres Computers befassen.  Schon wieder Computer chinesisch? Das englische „softwa- re” könnte man mit „Weich-Material” übersetzen. Unter Soft- ware versteht man alles, was man bei einem Computer nicht sehen und nicht greifen kann: Die einzugebenden Daten und Programme und auch das im Mikroprozessor enthaltene „Mo- nitor-Programm”, durch welches unser Computer funktionsfä- hig wird.  Unter Hardware verstehen wir die greif- und sichtbaren Teile des Computers: Die Tastatur, das Display, die Platine mit den Chips usw.  Mittelpunkt und Gehirn unseres Computers ist der größere schwarze Chip mit seinen 40 Anschlußbeinchen: Der Mikro- Prozessor.  Mit der Erfindung des Mikroprozessors wurde der höchste technische Entwicklungsstand eingeleitet, den die Mensch- heit bisher erreicht hat. So unglaublich es klingen mag - der Mikroprozessor wird unser Weltbild verändern. Seine Einsatz- möglichkeiten sind unübersehbar und durch den Mikropro- zessor werden zukünftig Dinge möglich sein, die noch vor we- nigen Jahren von den meisten Menschen als utopisch ange- sehen wurden. Unsere intensive Beschäftigung mit dem Mikrocomputer gibt uns die einmalige Chance, die techni- sche Weiterentwicklung der nächsten Jahre besser zu verste- hen.  Der Mikroprozessor alleine ist noch kein Computer. Um einen „Zugriff” zum Mikroprozessor zu haben, benötigen wir die Tastatur und die Daten-Eingangsleitungen. Damit sich der Mikroprozessor „mitteilen” kann, benötigt er ein Display (in unserem Fall die Leuchtanzeige - bei größeren Geräten einen Bildschirm), die Daten-Ausgangsleitungen und eine „Drum- Herum-Elektronik”, die als Peripherie-Elektronik bezeichnet wird.  Der Mikroprozessor als Zentraleinheit des Computers wird als CPU bezeichnete (sprich: „ZEH-PEH-UH” oder englisch aus- gesprochen „si-pi-juh”). Dies ist die Abkürzung für central pro- cessing unit. Die CPU verwaltet die Ein- und Ausgabe der Da- ten und den Zugriff zu den Speichereinheiten. Außerdem ist die CPU die eigentliche Recheneinheit des Computers."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        134,
+        114,
+        723,
+        158
+      ],
+      "text": "Software und Hardware.",
+      "lines": [
+        [
+          134,
+          114,
+          723,
+          158
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        135,
+        792,
+        1196,
+        993
+      ],
+      "text": "Nachdem wir im letzten Kapitel mit dem 6-stelligen Additions- Programm den schwierigsten Teil unserer Einführung in die Computer-Technik überwunden haben, wollen wir uns zur Abwechslung einmal mit unproblematischeren Dingen befas- sen.",
+      "lines": [
+        [
+          136,
+          792,
+          1196,
+          830
+        ],
+        [
+          139,
+          833,
+          1194,
+          874
+        ],
+        [
+          135,
+          876,
+          1196,
+          915
+        ],
+        [
+          135,
+          916,
+          1196,
+          956
+        ],
+        [
+          136,
+          971,
+          205,
+          993
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1021,
+        1198,
+        1145
+      ],
+      "text": "Bis jetzt hatten wir in erster Linie „Software-Probleme” zu be- wältigen. Also sollten wir uns jetzt einmal mit der „Hardware” unseres Computers befassen.",
+      "lines": [
+        [
+          138,
+          1021,
+          1198,
+          1064
+        ],
+        [
+          136,
+          1063,
+          1195,
+          1105
+        ],
+        [
+          139,
+          1109,
+          662,
+          1145
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        1170,
+        1199,
+        1460
+      ],
+      "text": "Schon wieder Computer chinesisch? Das englische „softwa- re” könnte man mit „Weich-Material” übersetzen. Unter Soft- ware versteht man alles, was man bei einem Computer nicht sehen und nicht greifen kann: Die einzugebenden Daten und Programme und auch das im Mikroprozessor enthaltene „Mo- nitor-Programm”, durch welches unser Computer funktionsfä- hig wird.",
+      "lines": [
+        [
+          137,
+          1170,
+          1199,
+          1208
+        ],
+        [
+          139,
+          1211,
+          1199,
+          1250
+        ],
+        [
+          137,
+          1252,
+          1197,
+          1290
+        ],
+        [
+          137,
+          1293,
+          1196,
+          1334
+        ],
+        [
+          139,
+          1335,
+          1199,
+          1376
+        ],
+        [
+          139,
+          1376,
+          1199,
+          1417
+        ],
+        [
+          139,
+          1424,
+          283,
+          1460
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        1484,
+        1197,
+        1607
+      ],
+      "text": "Unter Hardware verstehen wir die greif- und sichtbaren Teile des Computers: Die Tastatur, das Display, die Platine mit den Chips usw.",
+      "lines": [
+        [
+          138,
+          1484,
+          1197,
+          1522
+        ],
+        [
+          137,
+          1526,
+          1196,
+          1566
+        ],
+        [
+          137,
+          1573,
+          328,
+          1607
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        1630,
+        1199,
+        1754
+      ],
+      "text": "Mittelpunkt und Gehirn unseres Computers ist der größere schwarze Chip mit seinen 40 Anschlußbeinchen: Der Mikro- Prozessor.",
+      "lines": [
+        [
+          138,
+          1630,
+          1197,
+          1670
+        ],
+        [
+          137,
+          1671,
+          1199,
+          1711
+        ],
+        [
+          138,
+          1725,
+          315,
+          1754
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        138,
+        1779,
+        1202,
+        2228
+      ],
+      "text": "Mit der Erfindung des Mikroprozessors wurde der höchste technische Entwicklungsstand eingeleitet, den die Mensch- heit bisher erreicht hat. So unglaublich es klingen mag - der Mikroprozessor wird unser Weltbild verändern. Seine Einsatz- möglichkeiten sind unübersehbar und durch den Mikropro- zessor werden zukünftig Dinge möglich sein, die noch vor we- nigen Jahren von den meisten Menschen als utopisch ange- sehen wurden. Unsere intensive Beschäftigung mit dem Mikrocomputer gibt uns die einmalige Chance, die techni- sche Weiterentwicklung der nächsten Jahre besser zu verste- hen.",
+      "lines": [
+        [
+          140,
+          1779,
+          1199,
+          1818
+        ],
+        [
+          138,
+          1820,
+          1201,
+          1859
+        ],
+        [
+          140,
+          1861,
+          1201,
+          1899
+        ],
+        [
+          140,
+          1903,
+          1201,
+          1943
+        ],
+        [
+          140,
+          1945,
+          1202,
+          1985
+        ],
+        [
+          138,
+          1987,
+          1202,
+          2025
+        ],
+        [
+          140,
+          2028,
+          1202,
+          2069
+        ],
+        [
+          139,
+          2069,
+          1198,
+          2105
+        ],
+        [
+          140,
+          2110,
+          1202,
+          2150
+        ],
+        [
+          139,
+          2153,
+          1202,
+          2191
+        ],
+        [
+          140,
+          2199,
+          211,
+          2228
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        2245,
+        1202,
+        2571
+      ],
+      "text": "Der Mikroprozessor alleine ist noch kein Computer. Um einen „Zugriff” zum Mikroprozessor zu haben, benötigen wir die Tastatur und die Daten-Eingangsleitungen. Damit sich der Mikroprozessor „mitteilen” kann, benötigt er ein Display (in unserem Fall die Leuchtanzeige - bei größeren Geräten einen Bildschirm), die Daten-Ausgangsleitungen und eine „Drum- Herum-Elektronik”, die als Peripherie-Elektronik bezeichnet wird.",
+      "lines": [
+        [
+          139,
+          2245,
+          1198,
+          2285
+        ],
+        [
+          139,
+          2287,
+          1200,
+          2328
+        ],
+        [
+          136,
+          2328,
+          1202,
+          2367
+        ],
+        [
+          140,
+          2370,
+          1199,
+          2411
+        ],
+        [
+          140,
+          2411,
+          1199,
+          2449
+        ],
+        [
+          139,
+          2453,
+          1202,
+          2494
+        ],
+        [
+          140,
+          2494,
+          1201,
+          2533
+        ],
+        [
+          138,
+          2542,
+          217,
+          2571
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        138,
+        2600,
+        1203,
+        2847
+      ],
+      "text": "Der Mikroprozessor als Zentraleinheit des Computers wird als CPU bezeichnete (sprich: „ZEH-PEH-UH” oder englisch aus- gesprochen „si-pi-juh”). Dies ist die Abkürzung für central pro- cessing unit. Die CPU verwaltet die Ein- und Ausgabe der Da- ten und den Zugriff zu den Speichereinheiten. Außerdem ist die CPU die eigentliche Recheneinheit des Computers.",
+      "lines": [
+        [
+          138,
+          2600,
+          1200,
+          2640
+        ],
+        [
+          138,
+          2642,
+          1202,
+          2681
+        ],
+        [
+          138,
+          2684,
+          1202,
+          2724
+        ],
+        [
+          138,
+          2725,
+          1202,
+          2765
+        ],
+        [
+          139,
+          2766,
+          1203,
+          2806
+        ],
+        [
+          141,
+          2809,
+          1114,
+          2847
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        105,
+        2313,
+        153
+      ],
+      "text": "Bus-Verbindungen für den Datentransport?",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1255,
+        783,
+        2319,
+        1112
+      ],
+      "text": "Kaum vorstellbar, doch zwischen den Einheiten des Compu- ters besteht eine Bus-Verbindung für den Datentransport. Mit Bus werden die Verbindungsleitungen (Leiterbahnen auf der Platine usw.) bezeichnet. Wie wir gleich sehen werden, benö- tigt ein Computer unwahrscheinlich viele Verbindungskabel, weil der Mikroprozessor gleichzeitig (oder besser gesagt nacheinander im Bruchteil einer tausendstei Sekunde) die verschiedensten Aufgaben bearbeitet.",
+      "lines": [
+        [
+          1257,
+          783,
+          2318,
+          822
+        ],
+        [
+          1255,
+          825,
+          2316,
+          862
+        ],
+        [
+          1257,
+          865,
+          2318,
+          904
+        ],
+        [
+          1257,
+          907,
+          2319,
+          949
+        ],
+        [
+          1255,
+          949,
+          2316,
+          991
+        ],
+        [
+          1256,
+          991,
+          2317,
+          1029
+        ],
+        [
+          1258,
+          1031,
+          2318,
+          1067
+        ],
+        [
+          1256,
+          1075,
+          1921,
+          1112
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        1139,
+        2324,
+        1712
+      ],
+      "text": "Wir wissen, daß Computer nur mit den beiden Zuständen „O” (keine Spannung) und „1” (Spannung vorhanden) arbeiten. Die Verbindungsleitungen sind für die Übertragung dieser Sig- nale notwendig. Wir erinnern uns, daß wir zur Darstellung einer dezimalen Zahl (durch das hierfür erforderliche Dual-System) bereits 4 Verbindungsleitungen benötigen. Nun muß der Mi- kroprozessor jedoch dem Speicher-Baustein mitteilen kön- nen, aus welcher Speicher-Adresse er seine Befehle haben möchte. Nachdem jede Programm-Adresse aus 2 Ziffern be- steht, sind auch hierfür 2x 4= 8 Verbindungsleitungen not- wendig. Der eigentliche Befehls-Code besteht aus 3 hexadezi- malen Ziffern, d. h., daß weitere 12 Verbindungsleitungen not- wendig sind, so daß wir bereits jetzt 20 Leitungen benötigen würden.",
+      "lines": [
+        [
+          1257,
+          1139,
+          2318,
+          1177
+        ],
+        [
+          1260,
+          1179,
+          2319,
+          1222
+        ],
+        [
+          1260,
+          1221,
+          2322,
+          1261
+        ],
+        [
+          1260,
+          1262,
+          2321,
+          1303
+        ],
+        [
+          1259,
+          1304,
+          2318,
+          1343
+        ],
+        [
+          1260,
+          1345,
+          2323,
+          1384
+        ],
+        [
+          1261,
+          1387,
+          2323,
+          1428
+        ],
+        [
+          1261,
+          1428,
+          2320,
+          1469
+        ],
+        [
+          1261,
+          1469,
+          2323,
+          1509
+        ],
+        [
+          1260,
+          1511,
+          2323,
+          1551
+        ],
+        [
+          1259,
+          1552,
+          2324,
+          1594
+        ],
+        [
+          1262,
+          1594,
+          2324,
+          1633
+        ],
+        [
+          1260,
+          1635,
+          2321,
+          1676
+        ],
+        [
+          1262,
+          1683,
+          1397,
+          1712
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1740,
+        2327,
+        2274
+      ],
+      "text": "Der Mikroprozessor muß jedes einzelne Leuchtsegment des Displays ansteuern können. Jede auf dem Display dargestellte Stelle besteht aus 7 Leuchtsegmenten und nachdem wir auf dem Display 6 Stellen (mit jeweils 7 Leuchtsegmenten) haben, wären hierfür weitere 42 Verbindungsleitungen notwendig. Unsere Tastatur mit den 24 Einzeltasten würde ebenfalls 24 Leitungen benötigen und, wenn wir noch die 4 Eingänge und Ausgänge hinzunehmen, müßten bereits 94 Leitungen zu unserem Mikroprozessor führen. Da wir auch noch eine RESET-Taste, die Takt-Frequenz, die Stromzufuhr, Carry- und ZERO-Flag usw. haben, wären ganze Kabelwülste notwendig, um die Zentraleinheit Mikroprozessor mit den übrigen Compu- ter-Elementen zu verbinden.",
+      "lines": [
+        [
+          1261,
+          1740,
+          2322,
+          1782
+        ],
+        [
+          1261,
+          1781,
+          2322,
+          1824
+        ],
+        [
+          1261,
+          1822,
+          2324,
+          1861
+        ],
+        [
+          1261,
+          1864,
+          2322,
+          1906
+        ],
+        [
+          1260,
+          1905,
+          2322,
+          1943
+        ],
+        [
+          1262,
+          1947,
+          2323,
+          1984
+        ],
+        [
+          1262,
+          1990,
+          2323,
+          2032
+        ],
+        [
+          1261,
+          2032,
+          2323,
+          2073
+        ],
+        [
+          1263,
+          2071,
+          2324,
+          2112
+        ],
+        [
+          1263,
+          2113,
+          2323,
+          2153
+        ],
+        [
+          1262,
+          2154,
+          2324,
+          2196
+        ],
+        [
+          1264,
+          2196,
+          2327,
+          2235
+        ],
+        [
+          1262,
+          2241,
+          1756,
+          2274
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        2300,
+        2326,
+        2544
+      ],
+      "text": "Wir sehen bereits - so geht das nicht. Man hat sich daher überlegt, wie man mit wesentlich weniger Leitungen auskom- men kann. Das Resultat sind die sogenannten Bus-Verbindun- gen, wodurch mit den gleichen Verbindungsleitungen nicht nur einzelne, sondern eine ganze Reihe Bauelemente mitein- ander verbunden sind.",
+      "lines": [
+        [
+          1259,
+          2300,
+          2324,
+          2340
+        ],
+        [
+          1262,
+          2342,
+          2325,
+          2385
+        ],
+        [
+          1262,
+          2383,
+          2326,
+          2421
+        ],
+        [
+          1261,
+          2424,
+          2324,
+          2468
+        ],
+        [
+          1262,
+          2466,
+          2326,
+          2506
+        ],
+        [
+          1261,
+          2513,
+          1649,
+          2544
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1716,
+        2704,
+        1985,
+        2738
+      ],
+      "text": "Mikroprozessor",
+      "lines": [
+        [
+          1716,
+          2704,
+          1985,
+          2738
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1469,
+        2855,
+        1634,
+        2885
+      ],
+      "text": "Datenbus",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1777,
+        3083,
+        2282,
+        3127
+      ],
+      "text": "Anzeige Tastatur",
+      "lines": [
+        [
+          1777,
+          3083,
+          2282,
+          3127
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1774,
+        3128,
+        1921,
+        3164
+      ],
+      "text": "(Display)",
+      "lines": [
+        [
+          1774,
+          3128,
+          1921,
+          3164
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1419,
+        3091,
+        1577,
+        3127
+      ],
+      "text": "Speicher",
+      "lines": [
+        [
+          1419,
+          3091,
+          1577,
+          3127
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

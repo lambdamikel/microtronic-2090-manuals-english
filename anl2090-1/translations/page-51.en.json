@@ -1,0 +1,47 @@
+{
+  "0": {
+    "en": "At the end of the instruction book we find a summary of all commands. There it is also described when the CARRY and ZERO FLAGs are set. All commands with a short explanation are also on the book's bookmark, so that for programming experiments one has all the necessary information available.\n\nBy the way: if we have not yet cleared the alarm-clock program — which we entered at address E0 (see pages 46/47) — by pulling the power supply out of the socket, we can now have the exact time displayed with HALT – NEXT – E0 – RUN, or enter a new wake-up time."
+  },
+  "1": {
+    "en": "0 becomes 1 – 1 becomes 0!"
+  },
+  "2": {
+    "en": "To avoid lengthy explanations, we enter the following program after HALT – NEXT – 00:"
+  },
+  "3": {
+    "en": "<table class=\"codes boxed\"><tr><th>Addr.</th><th>Entry code</th><th>Mnemonic</th></tr><tr><td>00</td><td>F08</td><td>CLEAR</td></tr><tr><td>01</td><td>F10</td><td>DISP 1,0</td></tr><tr><td>02</td><td>FF0</td><td>KIN 0</td></tr><tr><td>03</td><td>FE0</td><td>DOT 0</td></tr><tr><td>04</td><td>FF1</td><td>KIN 1</td></tr><tr><td>05</td><td>F80</td><td>INV 0</td></tr><tr><td>06</td><td>FE0</td><td>DOT 0</td></tr><tr><td>07</td><td>C02</td><td>GOTO 02</td></tr></table>"
+  },
+  "4": {
+    "en": "After HALT – NEXT – 00 – RUN, 0 appears on the display. We enter 2. This is shown on the display — the LED at output 2 lights. We enter 2 once more — the display shows D — the previous LED goes out and the three other LEDs light. We enter 6 — the two middle LEDs light. We repeat the digit entry 6 — the two outer LEDs light.\n\nNow we enter 0 — all LEDs go out — entering 0 again shows F on the display — all LEDs light.\n\nA light suddenly dawns on us. The entry 0 corresponds to the binary value 0000. On entering 0 again, F is displayed = binary 1111. So we have reversed the binary values.\n\nIn the above program, a number can be entered into register 0 at address 02 (e.g. 2). Through the following DOT command, the entered value is passed on to the outputs (i.e. 0010). If a key is pressed again, the new INV command follows at address 05 (an abbreviation of “inverse”, which means roughly “reversed”). Through the INV command, the individual binary positions in register 0 are reversed."
+  },
+  "5": {
+    "en": "We can try this out with all numbers and letters (best done in sequence) and then obtain the following table:"
+  },
+  "6": {
+    "en": "<table class=\"boxed\"><tr><th>Entered<br>value</th><th>Binary<br>value</th><th>Inverse<br>output value</th><th>Binary<br>value</th></tr><tr><td>0</td><td>0000</td><td>F</td><td>1111</td></tr><tr><td>1</td><td>0001</td><td>E</td><td>1110</td></tr><tr><td>2</td><td>0010</td><td>D</td><td>1101</td></tr><tr><td>3</td><td>0011</td><td>C</td><td>1100</td></tr><tr><td>4</td><td>0100</td><td>B</td><td>1011</td></tr><tr><td>5</td><td>0101</td><td>A</td><td>1010</td></tr><tr><td>6</td><td>0110</td><td>9</td><td>1001</td></tr><tr><td>7</td><td>0111</td><td>8</td><td>1000</td></tr><tr><td>8</td><td>1000</td><td>7</td><td>0111</td></tr><tr><td>9</td><td>1001</td><td>6</td><td>0110</td></tr><tr><td>A</td><td>1010</td><td>5</td><td>0101</td></tr><tr><td>B</td><td>1011</td><td>4</td><td>0100</td></tr><tr><td>C</td><td>1100</td><td>3</td><td>0011</td></tr><tr><td>D</td><td>1101</td><td>2</td><td>0010</td></tr><tr><td>E</td><td>1110</td><td>1</td><td>0001</td></tr><tr><td>F</td><td>1111</td><td>0</td><td>0000</td></tr></table>"
+  },
+  "7": {
+    "en": "What does this reversal effect give us? We remember the first subtraction programs, which were not carried out to our full satisfaction because no negative results were shown. In the subtraction 7 – 8, the result was F and not –1, as we would have liked."
+  },
+  "8": {
+    "en": "With the INV command, however, F can be converted into 1 — or rather, all numbers into the corresponding negative numbers."
+  },
+  "9": {
+    "en": "In the calculation 7 – 8 the result is F, and at the same time the CARRY FLAG is set. Through this we can use the BRC command to jump to another part of the program, in which F is converted into 1. For this the following algorithm is applied:"
+  },
+  "10": {
+    "en": "F = binary 1111. The binary number is first inverted, so the result is 0000. If the value 1 is added to this, we get binary 0001. According to the binary-system table, the decimal result is 1. This also works with all other numbers, e.g.: 3 – 7 = C (calculated in hexadecimal, as the computer does it). The result should actually be –4. With our new way of calculating, the following results:"
+  },
+  "11": {
+    "en": "<div><table><tr><td>C has the binary number</td><td style=\"font-family:monospace;padding-left:9mm\">1100</td></tr><tr><td>inverted gives</td><td style=\"font-family:monospace;padding-left:9mm\">0011</td></tr><tr><td>+ 1 added =</td><td style=\"font-family:monospace;padding-left:9mm\">0100 (or decimal 4)</td></tr></table></div>"
+  },
+  "12": {
+    "en": "Subtraction with negative results indicated"
+  },
+  "13": {
+    "en": "We enter the following program:"
+  },
+  "14": {
+    "en": "<table class=\"codes boxed\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td>00</td><td>F08</td><td>CLEAR</td><td></td></tr><tr><td>01</td><td>F10</td><td>DISP 1,0</td><td></td></tr><tr><td>02</td><td>FF0</td><td>KIN 0</td><td>Input into register 0</td></tr><tr><td>03</td><td>FF1</td><td>KIN 1</td><td>Input into register 1</td></tr><tr><td>04</td><td>610</td><td>SUB 1,0</td><td>Reg. 0 – Reg. 1 = Reg. 0</td></tr><tr><td>05</td><td>D07</td><td>BRC 07</td><td>If carry, jump to 07</td></tr><tr><td>06</td><td>C01</td><td>GOTO 01</td><td></td></tr><tr><td>07</td><td>F80</td><td>INV 0</td><td>Register 0 is inverted</td></tr><tr><td>08</td><td>510</td><td>ADDI 1,0</td><td>1 is added to register 0</td></tr><tr><td>09</td><td>C01</td><td>GOTO 01</td><td></td></tr></table>"
+  }
+}

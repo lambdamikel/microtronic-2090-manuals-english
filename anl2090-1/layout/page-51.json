@@ -1,0 +1,1070 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        133,
+        111,
+        1197,
+        645
+      ],
+      "fragments": [
+        [
+          133,
+          111,
+          1197,
+          645
+        ]
+      ],
+      "lines": [
+        [
+          133,
+          111,
+          1197,
+          645
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        137,
+        1735,
+        930,
+        1798
+      ],
+      "fragments": [
+        [
+          137,
+          1735,
+          930,
+          1798
+        ]
+      ],
+      "lines": [
+        [
+          137,
+          1735,
+          930,
+          1798
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        137,
+        1818,
+        1198,
+        1914
+      ],
+      "fragments": [
+        [
+          137,
+          1818,
+          1198,
+          1914
+        ]
+      ],
+      "lines": [
+        [
+          137,
+          1818,
+          1198,
+          1914
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        120,
+        1920,
+        1224,
+        2474
+      ],
+      "fragments": [
+        [
+          120,
+          1920,
+          1224,
+          2474
+        ]
+      ],
+      "lines": [
+        [
+          120,
+          1920,
+          1224,
+          2474
+        ]
+      ],
+      "text": "",
+      "font_pt": 7.4
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        137,
+        2485,
+        1212,
+        3386
+      ],
+      "fragments": [
+        [
+          137,
+          2485,
+          1212,
+          3386
+        ]
+      ],
+      "lines": [
+        [
+          137,
+          2485,
+          1212,
+          3386
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1254,
+        101,
+        2320,
+        228
+      ],
+      "fragments": [
+        [
+          1254,
+          101,
+          2320,
+          228
+        ]
+      ],
+      "lines": [
+        [
+          1254,
+          101,
+          2320,
+          228
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        240,
+        2330,
+        1252
+      ],
+      "fragments": [
+        [
+          1248,
+          240,
+          2330,
+          1252
+        ]
+      ],
+      "lines": [
+        [
+          1248,
+          240,
+          2330,
+          1252
+        ]
+      ],
+      "text": "",
+      "font_pt": 7.4
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1224,
+        1262,
+        2329,
+        1482
+      ],
+      "fragments": [
+        [
+          1224,
+          1262,
+          2329,
+          1482
+        ]
+      ],
+      "lines": [
+        [
+          1224,
+          1262,
+          2329,
+          1482
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1263,
+        1495,
+        2322,
+        1588
+      ],
+      "fragments": [
+        [
+          1263,
+          1495,
+          2322,
+          1588
+        ]
+      ],
+      "lines": [
+        [
+          1263,
+          1495,
+          2322,
+          1588
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1264,
+        1600,
+        2327,
+        1820
+      ],
+      "fragments": [
+        [
+          1264,
+          1600,
+          2327,
+          1820
+        ]
+      ],
+      "lines": [
+        [
+          1264,
+          1600,
+          2327,
+          1820
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1265,
+        1830,
+        2329,
+        2130
+      ],
+      "fragments": [
+        [
+          1265,
+          1830,
+          2329,
+          2130
+        ]
+      ],
+      "lines": [
+        [
+          1265,
+          1830,
+          2329,
+          2130
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1265,
+        2163,
+        2250,
+        2298
+      ],
+      "fragments": [
+        [
+          1265,
+          2163,
+          2250,
+          2298
+        ]
+      ],
+      "lines": [
+        [
+          1265,
+          2163,
+          2250,
+          2298
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1266,
+        2420,
+        2210,
+        2548
+      ],
+      "fragments": [
+        [
+          1266,
+          2420,
+          2210,
+          2548
+        ]
+      ],
+      "lines": [
+        [
+          1266,
+          2420,
+          2210,
+          2548
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1268,
+        2580,
+        1900,
+        2636
+      ],
+      "fragments": [
+        [
+          1268,
+          2580,
+          1900,
+          2636
+        ]
+      ],
+      "lines": [
+        [
+          1268,
+          2580,
+          1900,
+          2636
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1281,
+        2660,
+        2300,
+        3386
+      ],
+      "fragments": [
+        [
+          1281,
+          2660,
+          2300,
+          3386
+        ]
+      ],
+      "lines": [
+        [
+          1281,
+          2660,
+          2300,
+          3386
+        ]
+      ],
+      "text": "",
+      "font_pt": 7.4
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        133,
+        111,
+        1196,
+        359
+      ],
+      "text": "Am Ende des Anleitungsbuches finden wir eine Zusammenfas- sung aller Befehle. Dort wird auch beschrieben, wann das CAR- RY- und ZERO-FLAG gesetzt werden. Auch auf dem Buch-Le- sezeichen sind alle Befehle mit Kurzerklärung vorhanden, wo- durch man für Programmierversuche alle notwendigen Anga- ben zur Verfügung hat.",
+      "lines": [
+        [
+          133,
+          111,
+          1195,
+          152
+        ],
+        [
+          134,
+          153,
+          1195,
+          196
+        ],
+        [
+          135,
+          194,
+          1195,
+          235
+        ],
+        [
+          134,
+          236,
+          1195,
+          273
+        ],
+        [
+          134,
+          277,
+          1196,
+          317
+        ],
+        [
+          136,
+          323,
+          525,
+          359
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        382,
+        1197,
+        627
+      ],
+      "text": "Übrigens, wenn wir das Weck-Uhren-Programm, welches wir (siehe Seite 46/47) unter Adresse EO eingegeben haben, durch Herausziehen des Netzgerätes aus der Steckdose inzwi- schen noch nicht gelöscht haben, können wir uns jetzt mit HALT - NEXT - EO-RUN die genaue Uhrzeit anzeigen lassen, bzw. eine neue Weck-Zeit eingeben.",
+      "lines": [
+        [
+          135,
+          382,
+          1196,
+          425
+        ],
+        [
+          136,
+          424,
+          1192,
+          468
+        ],
+        [
+          135,
+          465,
+          1197,
+          504
+        ],
+        [
+          135,
+          506,
+          1195,
+          546
+        ],
+        [
+          136,
+          548,
+          1194,
+          586
+        ],
+        [
+          137,
+          593,
+          764,
+          627
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        1827,
+        1198,
+        1907
+      ],
+      "text": "Um langwierigen Erklärungen aus dem Wege zu gehen, geben wir nach HALT - NEXT - 00 folgendes Programm ein:",
+      "lines": [
+        [
+          138,
+          1827,
+          1198,
+          1869
+        ],
+        [
+          137,
+          1869,
+          1061,
+          1907
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        2489,
+        1207,
+        2774
+      ],
+      "text": "Nach HALT - NEXT - 00 - RUN erscheint aufdem Display O0. Wir geben 2 ein. Dies wird auf dem Display angezeigt - die LED am Ausgang 2 leuchtet. Wir geben nochmals 2 ein - das Display zeigt D - die bisherige LED erlischt und die drei anderen LED’'s leuchten. Wir geben 6 ein - die zwei mittleren LED’s leuchten. Wir wiederholen die Zifferneingabe 6 - die beiden äußeren LED’s leuchten.",
+      "lines": [
+        [
+          142,
+          2489,
+          1207,
+          2526
+        ],
+        [
+          143,
+          2531,
+          1204,
+          2574
+        ],
+        [
+          142,
+          2573,
+          1206,
+          2615
+        ],
+        [
+          142,
+          2614,
+          1206,
+          2656
+        ],
+        [
+          144,
+          2655,
+          1205,
+          2696
+        ],
+        [
+          141,
+          2698,
+          1205,
+          2735
+        ],
+        [
+          144,
+          2745,
+          412,
+          2774
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        2803,
+        1209,
+        2887
+      ],
+      "text": "Nun geben wir O ein - alle LED’s erlöschen - abermalige O Ein- gabe zeigt auf dem Display F - alle LED’s leuchten.",
+      "lines": [
+        [
+          144,
+          2803,
+          1209,
+          2845
+        ],
+        [
+          144,
+          2846,
+          1028,
+          2887
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        143,
+        2909,
+        1209,
+        3027
+      ],
+      "text": "Soeben geht uns ein Licht auf. Die Eingabe O entspricht dem dualen Wert 0000. Bei abermaliger 0 Eingabe wird Fangezeigt = dual 1111. Wir haben also die dualen Werte umgekehrt.",
+      "lines": [
+        [
+          145,
+          2909,
+          1207,
+          2949
+        ],
+        [
+          145,
+          2949,
+          1209,
+          2988
+        ],
+        [
+          143,
+          2991,
+          1147,
+          3027
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        3056,
+        1212,
+        3381
+      ],
+      "text": "in vorstehendem Programm kann bei Adresse 02 eine Zahl in das Register 0 eingegeben werden (z.B. 2). Durch den folgen- den DOT-Befehl wird der eingegebene Wert an die Ausgänge weitergegeben (also 0010). Wird erneuteine Taste betätigt folgt bei Adresse 05 der neue INV-Befehl, (Eine Abkürzung aus „in- verse”, was soviel bedeutet wie „umgekehrt”). Durch den INV- Befehl werden die einzelnen Dual-Stellen im Register 0 umge- kehrt.",
+      "lines": [
+        [
+          146,
+          3056,
+          1208,
+          3095
+        ],
+        [
+          145,
+          3097,
+          1211,
+          3139
+        ],
+        [
+          145,
+          3140,
+          1209,
+          3178
+        ],
+        [
+          145,
+          3180,
+          1210,
+          3222
+        ],
+        [
+          147,
+          3221,
+          1212,
+          3260
+        ],
+        [
+          145,
+          3262,
+          1212,
+          3303
+        ],
+        [
+          147,
+          3305,
+          1212,
+          3341
+        ],
+        [
+          147,
+          3353,
+          242,
+          3381
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1254,
+        101,
+        2315,
+        221
+      ],
+      "text": "Wir können dies mit allen Zahlen und Buchstaben (am besten der Reihe nach) durchprobieren und erhalten dann folgende Tabelle:",
+      "lines": [
+        [
+          1254,
+          101,
+          2314,
+          138
+        ],
+        [
+          1256,
+          142,
+          2315,
+          184
+        ],
+        [
+          1254,
+          191,
+          1390,
+          221
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1267,
+        2319,
+        1311
+      ],
+      "text": "Was bringt uns dieser Umkehr-Effekt? Wir erinnern uns noch",
+      "lines": [
+        [
+          1260,
+          1267,
+          2319,
+          1311
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1224,
+        1310,
+        2324,
+        1348
+      ],
+      "text": "! andie ersten Subtraktions-Programme, die nicht zur vollen Be-",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        1351,
+        2324,
+        1474
+      ],
+      "text": "friedigung ausgeführt wurden, weil keine negativen Ergebnisse dargestellt wurden. Bei der Subtraktion 7-8 war das ErgebnisF und nicht -1 wie wir es gerne gehabt hätten.",
+      "lines": [
+        [
+          1261,
+          1351,
+          2322,
+          1394
+        ],
+        [
+          1262,
+          1392,
+          2324,
+          1436
+        ],
+        [
+          1264,
+          1436,
+          2024,
+          1474
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        1498,
+        2322,
+        1583
+      ],
+      "text": "Mit dem INV-Befehl läßt sich das F aber in 1 bzw. alle Zahlen in die entsprechenden negativen Zahlen umwandeln.",
+      "lines": [
+        [
+          1264,
+          1498,
+          2322,
+          1537
+        ],
+        [
+          1263,
+          1541,
+          2140,
+          1583
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        1605,
+        2327,
+        1814
+      ],
+      "text": "BeiderRechnung 7-8 ist dasErgebnis F, wobeigleichzeitig das CARRY-FLAG gesetzt wird. Hierdurch können wir mit dem BRC-Befehl zu einem anderen Programm-Teil springen, in wel- chem Fin 1 umgewandelt wird. Hierfür wird folgender Algorith- mus angewandt:",
+      "lines": [
+        [
+          1264,
+          1605,
+          2324,
+          1646
+        ],
+        [
+          1264,
+          1646,
+          2323,
+          1689
+        ],
+        [
+          1265,
+          1688,
+          2327,
+          1726
+        ],
+        [
+          1264,
+          1729,
+          2327,
+          1771
+        ],
+        [
+          1266,
+          1778,
+          1551,
+          1814
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        1835,
+        2329,
+        2123
+      ],
+      "text": "F=dual 1111. DieDual-Zahl wird zunächst invertiert, folglich ist das Ergebnis 0000. Wird hierzu der Wert 1 addiert, ergibt sich dual 0001. Gemäß Tabelle Dual-System ist das dezimale Ergebnis 1. Dies funktioniert auch mit allen anderen Zahlen, z.B.:3-7=C (hexadezimal gerechnet, wie dies vom Computer ausgeführt wird). Eigentlich sollte das Ergebnis -4 sein. Mit unserer neuen Rechenart ergibt sich folgendes:",
+      "lines": [
+        [
+          1266,
+          1835,
+          2326,
+          1874
+        ],
+        [
+          1265,
+          1876,
+          2324,
+          1921
+        ],
+        [
+          1266,
+          1918,
+          2327,
+          1957
+        ],
+        [
+          1266,
+          1960,
+          2327,
+          2004
+        ],
+        [
+          1266,
+          2002,
+          2329,
+          2044
+        ],
+        [
+          1266,
+          2042,
+          2328,
+          2087
+        ],
+        [
+          1268,
+          2086,
+          2098,
+          2123
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1267,
+        2173,
+        1609,
+        2288
+      ],
+      "text": "C hat die Dual-Zahl invertiert ergibt sich + 1 addiert =",
+      "lines": [
+        [
+          1267,
+          2173,
+          1602,
+          2205
+        ],
+        [
+          1269,
+          2214,
+          1609,
+          2251
+        ],
+        [
+          1267,
+          2258,
+          1497,
+          2288
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1266,
+        2429,
+        2194,
+        2537
+      ],
+      "text": "Subtraktion mit Angabe von negativen Ergebnissen",
+      "lines": [
+        [
+          1266,
+          2429,
+          2194,
+          2479
+        ],
+        [
+          1268,
+          2488,
+          1567,
+          2537
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1268,
+        2587,
+        1895,
+        2628
+      ],
+      "text": "Wir geben folgendes Programm ein:",
+      "lines": [
+        [
+          1268,
+          2587,
+          1895,
+          2628
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1281,
+        2669,
+        2292,
+        3371
+      ],
+      "text": "Adresse | Eingabe- | Mnemonic | Erklärungen Befehl 00 F08 CLEAR 01 F10 DISP 1,0 02 FFO KIN O Eingabe in Register O 03 FFi1 KIN 1 Eingabe in Register 1 04 610 SUB 1,0 ‚Reg. 0 - Reg. 1=Reg.O 05 D07 BRC 07 |Wenn Übertrag Sprung nach 07 06 c01 GOTO 01 07 F80 INVO Register O wird invertiert 08 510 ADD! 1,0 |1 wird zu Register O hin- zuaddiert 09 Cc01 GOTO 01",
+      "lines": [
+        [
+          1281,
+          2669,
+          2068,
+          2709
+        ],
+        [
+          1460,
+          2715,
+          1574,
+          2745
+        ],
+        [
+          1283,
+          2766,
+          1781,
+          2800
+        ],
+        [
+          1283,
+          2819,
+          1809,
+          2854
+        ],
+        [
+          1284,
+          2867,
+          2237,
+          2907
+        ],
+        [
+          1284,
+          2921,
+          2226,
+          2968
+        ],
+        [
+          1284,
+          2973,
+          2290,
+          3013
+        ],
+        [
+          1285,
+          3022,
+          2266,
+          3066
+        ],
+        [
+          1867,
+          3070,
+          2005,
+          3099
+        ],
+        [
+          1286,
+          3125,
+          1820,
+          3160
+        ],
+        [
+          1286,
+          3173,
+          2292,
+          3213
+        ],
+        [
+          1286,
+          3227,
+          2289,
+          3266
+        ],
+        [
+          1866,
+          3271,
+          2027,
+          3300
+        ],
+        [
+          1287,
+          3325,
+          1821,
+          3371
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

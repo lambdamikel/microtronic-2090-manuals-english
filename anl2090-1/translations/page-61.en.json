@@ -1,0 +1,54 @@
+{
+  "0": {
+    "de": "",
+    "en": "compared with register 0, and that all &bdquo;1-bits&rdquo; are gathered together in register 0.\n\nThe OR command is an &bdquo;OR command&rdquo;, which means: the comparison result yields a &bdquo;1-bit&rdquo; if a &bdquo;1-bit&rdquo; is present in one register <b>or</b> a &bdquo;1-bit&rdquo; is present in a second register.\n\n<b>Single bits can also be manipulated with the AND command</b>\n\nA second command for &bdquo;bit manipulation&rdquo; is the AND command. Whereas the preceding OR command influenced the &bdquo;1-bits&rdquo;, with the AND command we can influence the &bdquo;0-bits&rdquo;.\n\nFor better understanding, after HALT – NEXT – 00 we enter the following program:"
+  },
+  "1": {
+    "de": "",
+    "en": "<table class=\"timer\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td class=\"a\">00</td><td class=\"c\">F02</td><td class=\"m\">DISOUT</td><td>switch off the display</td></tr><tr><td class=\"a\">01</td><td class=\"c\">111</td><td class=\"m\">MOVI 1,1</td><td>store constant value 1 in register 1</td></tr><tr><td class=\"a\">02</td><td class=\"c\">FD0</td><td class=\"m\">DIN 0</td><td>Data in</td></tr><tr><td class=\"a\">03</td><td class=\"c\">210</td><td class=\"m\">AND 1,0</td><td>logical AND (and)</td></tr><tr><td class=\"a\">04</td><td class=\"c\">FE0</td><td class=\"m\">DOT 0</td><td>Data out</td></tr><tr><td class=\"a\">05</td><td class=\"c\">C00</td><td class=\"m\">GOTO 00</td><td>jump back to address 00</td></tr></table>"
+  },
+  "2": {
+    "de": "",
+    "en": "Resistors, keys and battery (without the piezo buzzer) are connected to the computer board as in the last experiment.\n\nProgram start: HALT – NEXT – 00 – RUN\n\nNo display on the readout. No LED lights. If we press the red key G, the LED at output 1 lights. If we press key H, no LED lights.\n\nWith this experiment it seems we are not dealing with any interesting test?\n\nAppearances deceive, for here too we have triggered an important logical operation that we should understand.\n\nIf we compare the short program with the preceding experiment, then we have only changed the MOVI command at address 01, in that we now store the constant value 1 in register 1. At address 03 we have inserted the new AND command, which, similarly to the preceding OR command, again compares registers 1 and 0. Through the MOVI command with the value 1 we again get binary 0001, which is why an LED ought actually to light at output 1. Why is this not the case?\n\nThe AND command produces the following situation:"
+  },
+  "3": {
+    "de": "",
+    "en": "<table class=\"boxed\"><tr><th style=\"text-align:right\">Outputs no.</th><th></th><th>4</th><th>3</th><th>2</th><th>1</th></tr><tr><td style=\"text-align:right\">In register 1, through MOVI, value 1</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:right\">no red key pressed: in register 0 value 0</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td></tr><tr><td style=\"text-align:right\">The AND command produces in register 0</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td></tr></table>"
+  },
+  "4": {
+    "de": "",
+    "en": "The AND command produces value 0 in register 0 (binary 0000), so no voltage is present at any output, an LED cannot light.\n\nIf we press key G, the following results:"
+  },
+  "5": {
+    "de": "",
+    "en": "<table class=\"boxed\"><tr><th style=\"text-align:right\">Outputs no.</th><th></th><th>4</th><th>3</th><th>2</th><th>1</th></tr><tr><td style=\"text-align:right\">In register 1, through MOVI, value 1</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:right\">red key G produces value 1 in register 0</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:right\">The AND command produces in register 0</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">1</td></tr></table>"
+  },
+  "6": {
+    "de": "",
+    "en": "The preceding table shows that under output no. 1 a &bdquo;1-bit&rdquo; stands twice, one above the other, and the AND command takes the value 1 into register 0: the LED at output no. 1 lights."
+  },
+  "7": {
+    "de": "",
+    "en": "If we now press the red key H, it becomes clear to us how the AND command works:"
+  },
+  "8": {
+    "de": "",
+    "en": "<table class=\"boxed\"><tr><th style=\"text-align:right\">Outputs no.</th><th></th><th>4</th><th>3</th><th>2</th><th>1</th></tr><tr><td style=\"text-align:right\">In register 1, through MOVI, value 1</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:right\">red key H produces value 2 in register 0</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">0</td></tr><tr><td style=\"text-align:right\">The AND command produces in register 0</td><td>=</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td><td style=\"text-align:center\">0</td></tr></table>"
+  },
+  "9": {
+    "de": "",
+    "en": "The AND command compares whether the &bdquo;1-bits&rdquo; each stand at the same position (one above the other in the preceding tables). In the last example the &bdquo;1-bits&rdquo; stand offset (at output 2 and at output 1) and the AND command gives value 0 in register 0. All outputs remain &bdquo;low&rdquo;. Pressing the red key H has no effect (it is suppressed) and because of the value 0 (binary 0000) no LED can light.\n\nThe <b>AND command</b> is an &bdquo;<b>AND command</b>&rdquo;, for it produces only: <b>1 and 1 = 1</b>. The preceding <b>OR command</b>, by contrast, produces: 0 <b>or</b> 1 = 1.\n\nWith the AND command we can suppress a &bdquo;1-bit&rdquo; at an output; i.e. an output that would normally be &bdquo;high&rdquo; can be made &bdquo;low&rdquo;. This can be of great importance in a program, for example when we make internal use of the clock program – e.g. when we take a signal from the TAKT/CLOCK output that is to be suppressed at certain times.\n\nWe can try this out by making a connecting lead from TAKT/CLOCK to input no. 2. Normally the LED at output no. 2 would now blink in the same rhythm as the TAKT LED. The AND command, however, suppresses the signal coming from TAKT/CLOCK.\n\nIf we now change the AND command at address 03, by entering the OR command from the preceding experiment (HALT – NEXT – 03, enter command code A10, key NEXT, and restart the program with HALT – NEXT – 00 – RUN), the situation changes: at output 1 the LED lights continuously. At output 2 the TAKT signal is transmitted – the LED blinks."
+  },
+  "10": {
+    "de": "",
+    "en": "Does a bit have a value?"
+  },
+  "11": {
+    "de": "",
+    "en": "We can surely answer this question with yes, since in the last experiments we got to know the differences between &bdquo;0-bit&rdquo; and &bdquo;1-bit&rdquo;. Is a &bdquo;1-bit&rdquo; worth more than a &bdquo;0-bit&rdquo;?\n\nWhat is decisive is at which position (at which outputs) the &bdquo;0-bits&rdquo; and &bdquo;1-bits&rdquo; stand. The 4 outputs namely have different values:"
+  },
+  "12": {
+    "de": "",
+    "en": "<table class=\"boxed\"><tr><th style=\"text-align:right\">The outputs no.</th><th>4</th><th>3</th><th>2</th><th>1</th></tr><tr><td style=\"text-align:right\"><b>have the values</b></td><td style=\"text-align:center\"><b>8</b></td><td style=\"text-align:center\"><b>4</b></td><td style=\"text-align:center\"><b>2</b></td><td style=\"text-align:center\"><b>1</b></td></tr></table>"
+  }
+}

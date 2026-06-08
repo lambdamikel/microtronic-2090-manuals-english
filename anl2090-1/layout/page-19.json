@@ -1,0 +1,1329 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        1256,
+        97,
+        2319,
+        507
+      ],
+      "fragments": [
+        [
+          1256,
+          97,
+          2319,
+          507
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          97,
+          2318,
+          130
+        ],
+        [
+          1258,
+          139,
+          2318,
+          177
+        ],
+        [
+          1257,
+          180,
+          2318,
+          219
+        ],
+        [
+          1257,
+          221,
+          2318,
+          257
+        ],
+        [
+          1257,
+          262,
+          2316,
+          297
+        ],
+        [
+          1258,
+          303,
+          2318,
+          341
+        ],
+        [
+          1256,
+          345,
+          2316,
+          383
+        ],
+        [
+          1257,
+          386,
+          2317,
+          425
+        ],
+        [
+          1257,
+          427,
+          2319,
+          466
+        ],
+        [
+          1260,
+          468,
+          2158,
+          507
+        ]
+      ],
+      "text": "Der ADD-Befehl hat den Beiehls-Code 4sd. 4 ist für den Com- puter der Befehi zum Addieren. Für s erinnern wir uns an sour- ce-register = Quell-Register. Hierfür wird ein beliebiges Regi- ster verwendet. d ist das zweite Register, welches addiert wer- den soll. d steht wieder für destination, also Ziel-Register, weil in diesem Register das Ergebnis steht. Ein in diesem Register vorher eingegebener Wert wird durch das neu hinzuaddierte Ergebnis gelöscht. Es wird also immer nur das letzte Ergebnis angezeigt. Im vorangegangenen Programm haben wirfürs das Register 1 eingegeben und für das d das Register 0."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        134,
+        102,
+        1195,
+        948
+      ],
+      "fragments": [
+        [
+          135,
+          102,
+          1195,
+          304
+        ],
+        [
+          136,
+          331,
+          1195,
+          535
+        ],
+        [
+          135,
+          561,
+          1193,
+          641
+        ],
+        [
+          134,
+          669,
+          1195,
+          948
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          102,
+          1192,
+          141
+        ],
+        [
+          137,
+          143,
+          1195,
+          181
+        ],
+        [
+          137,
+          185,
+          1195,
+          223
+        ],
+        [
+          137,
+          226,
+          1195,
+          263
+        ],
+        [
+          137,
+          269,
+          765,
+          304
+        ],
+        [
+          136,
+          331,
+          1191,
+          369
+        ],
+        [
+          136,
+          373,
+          1192,
+          408
+        ],
+        [
+          136,
+          414,
+          1193,
+          448
+        ],
+        [
+          137,
+          455,
+          1195,
+          491
+        ],
+        [
+          136,
+          499,
+          424,
+          535
+        ],
+        [
+          136,
+          561,
+          1193,
+          598
+        ],
+        [
+          135,
+          603,
+          1039,
+          641
+        ],
+        [
+          136,
+          669,
+          1195,
+          705
+        ],
+        [
+          135,
+          710,
+          1195,
+          748
+        ],
+        [
+          135,
+          751,
+          1195,
+          789
+        ],
+        [
+          134,
+          792,
+          1195,
+          830
+        ],
+        [
+          135,
+          833,
+          1193,
+          871
+        ],
+        [
+          136,
+          875,
+          1195,
+          910
+        ],
+        [
+          136,
+          919,
+          282,
+          948
+        ]
+      ],
+      "text": "Was passiert, wenn wir 5 und 5 eingeben? Das Ergebnis ist A. Der Computer ist vom Dezimalen- zum Hexadezimalen-Zah- lenbereich gekommen. Das ist richtig, denn 5+5=10, und wir können in der vorangegangenen Tabelle ablesen, daß die dezi- male 10 ein hexadezimales A ergibt.  Für den Computer gibt es keinen Unterschied, ob er mit Zahlen oder Buchstaben rechnet. Probieren wir es aus und geben ein: B+2=D. Der hexadezimale Wert B ist eine dezimale 11+2 = hexadezimal D was der dezimalen Zahl 13 entspricht. (Verglei- che mit Tabelle).  Interessant wird jetzt die Addition von 9 + 9. Das Display zeigt als Ergebnis 2! Hat sich der Computer verrechnet?  Der Computer hat richtig gerechnet - unser Additions-Pro- gramm ist jedoch nicht vollständig — er kann mit diesem Pro- gramm nur 1-stellig rechnen. Sein hexadezimaler Zahlenum- fang besitzt 16 Ziffern, der höchste hexadezimale Wert F ent- spricht dem dezimalen Wert 15. Zur Anzeige von 16 oder eines höheren Wertes, müßte der Computer eine zweite Stelle dazu- nehmen."
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1260,
+        1315,
+        2000,
+        1358
+      ],
+      "fragments": [
+        [
+          1260,
+          1315,
+          2000,
+          1358
+        ]
+      ],
+      "lines": [
+        [
+          1260,
+          1315,
+          2000,
+          1358
+        ]
+      ],
+      "text": "Der rasende Automatik-Zähler"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1259,
+        1454,
+        2328,
+        3380
+      ],
+      "fragments": [
+        [
+          1259,
+          1454,
+          2328,
+          3380
+        ]
+      ],
+      "lines": [
+        [
+          1259,
+          1454,
+          2328,
+          3380
+        ]
+      ],
+      "text": "Wie üblich, bringen wir den Computer auf den Programm- Anfang: HALT - NEXT - 00.  Adresse Eingabe Befehlskürzel Befehls-Code (Mnemnonic) 00 F10 DISP 1,0 01 510 ADD! 1,0 02 C00 GOTO 00  Programm-Start: HALT - NEXT - 00 - RUN  Der Computer zählt so schnell, daß wir auf dem Display keine Zahlen erkennen. Die beiden LED’s (Carry- und Zero-Flags) neben dem Display blinken.  Bevor wir den Zählvorgang künstlich verlangsamen, wollen wir das kleine Programm untersuchen. Neu ist der ABDDI-Befehl. Er ist ebenfalls ein Additions-Befehl. Der Unterschied zum vorher gelernten ADD-Befehl, der zwei unterschiedliche Werte addiert, arbeitet der ADDI-Befehl mit einem konstanten Wert. Der ADDI-Befehl hat den Befehls-Code 5nd. 5 befiehlt die Addition. Für n wird ein konstanter Additionswert eingegeben (in unserem Programm-Beispiel die Ziffer 1). Dieser konstante Wert wird zum Register d (destination-register/Ziel-register) hinzuaddiert. ADD! ist die Abkürzung für das englische add immediate.  Nun wollen wir einmal in „Zeitlupe” sehen, wie unser Pro- gramm arbeitet. Wir stoppen das Programm mit HALT und ge- hen mit NEXT 00 an den Programm-Anfang. Anstelle derbisher üblichen RUN-Taste, betätigen wir jetzt nochmals die HALT- und dann die STEP-Taste. Das Programm wird jetzt schrittwei- se gestartet, d. h. daß wir mit der STEP-Taste jeden einzelnen Programm-Schritt bei der Arbeit verfolgen können.  Bei jeder STEP-Tasten Betätigung wird die Adresse und der Befehls-Code angezeigt, der als nächstes abgearbeitet wird. Wird erneut die STEP-Taste betätigt, wird der zuvor angezeigte Befehl ausgeführt, gleichzeitig wird der nächste Befehl ange- zeigt. Durch immer wieder erneute Betätigung der STEP-Taste können wir sehen, wie sich der Register-Inhalt jeweils um den Wert 1 erhöht. Wenn wir mit der STEP-Taste solange weiter- zählen, bis wir über die Buchstaben A-B-C-D-E den Wert F überspringen (d. h. daß der Zählvorgang wieder bei O beginnt), leuchtet das Carry-Flag neben dem Display auf. Ein Übertrag hat stattgefunden. Das ebenfalls aufleuchtende Zero-Flag soll uns momentan noch nicht interessieren."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        133,
+        1649,
+        1199,
+        3380
+      ],
+      "fragments": [
+        [
+          133,
+          1649,
+          1199,
+          3380
+        ]
+      ],
+      "lines": [
+        [
+          133,
+          1649,
+          1199,
+          3380
+        ]
+      ],
+      "text": "Dezimal gerechnet ergibt 9+ 9 = 18. Hexadezimal lautet das Ergebnis 12 (siehe Tabelle). Da dem Computer gesagt wurde, daß er nur eine Stelle anzeigen soll, bringt er das Ergebnis der letzten Stelle, nämlich 2. Er hat sich jedoch gemerkt, daß ein „Übertrag” stattgefunden hat und zeigt dies durch die auf- leuchtende obere LED neben dem Display an.  Diese LED leuchtet immer dann auf, wenn der Computer einen Übertrag machen muß, d. h. wenn sich z. B. durch Addition ein höherer Wert als das hexadezimale F ergibt. Diese Leuchtdio- de wird als Carry-Flag bezeichnet und bedeutet für den Com- puter eine Übertrag-Markierung. Der Computer bringt gewis- sermaßen ein Signal, mit welchem die zweite Stelle bei einem Übertrag angesteuert werden kann.  Wir wollen unser kleines Additions-Programm etwas genauer betrachten:  Adresse Erklärungen"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        135,
+        102,
+        1195,
+        304
+      ],
+      "text": "Was passiert, wenn wir 5 und 5 eingeben? Das Ergebnis ist A. Der Computer ist vom Dezimalen- zum Hexadezimalen-Zah- lenbereich gekommen. Das ist richtig, denn 5+5=10, und wir können in der vorangegangenen Tabelle ablesen, daß die dezi- male 10 ein hexadezimales A ergibt.",
+      "lines": [
+        [
+          135,
+          102,
+          1192,
+          141
+        ],
+        [
+          137,
+          143,
+          1195,
+          181
+        ],
+        [
+          137,
+          185,
+          1195,
+          223
+        ],
+        [
+          137,
+          226,
+          1195,
+          263
+        ],
+        [
+          137,
+          269,
+          765,
+          304
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        331,
+        1195,
+        535
+      ],
+      "text": "Für den Computer gibt es keinen Unterschied, ob er mit Zahlen oder Buchstaben rechnet. Probieren wir es aus und geben ein: B+2=D. Der hexadezimale Wert B ist eine dezimale 11+2 = hexadezimal D was der dezimalen Zahl 13 entspricht. (Verglei- che mit Tabelle).",
+      "lines": [
+        [
+          136,
+          331,
+          1191,
+          369
+        ],
+        [
+          136,
+          373,
+          1192,
+          408
+        ],
+        [
+          136,
+          414,
+          1193,
+          448
+        ],
+        [
+          137,
+          455,
+          1195,
+          491
+        ],
+        [
+          136,
+          499,
+          424,
+          535
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        561,
+        1193,
+        641
+      ],
+      "text": "Interessant wird jetzt die Addition von 9 + 9. Das Display zeigt als Ergebnis 2! Hat sich der Computer verrechnet?",
+      "lines": [
+        [
+          136,
+          561,
+          1193,
+          598
+        ],
+        [
+          135,
+          603,
+          1039,
+          641
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        669,
+        1195,
+        948
+      ],
+      "text": "Der Computer hat richtig gerechnet - unser Additions-Pro- gramm ist jedoch nicht vollständig — er kann mit diesem Pro- gramm nur 1-stellig rechnen. Sein hexadezimaler Zahlenum- fang besitzt 16 Ziffern, der höchste hexadezimale Wert F ent- spricht dem dezimalen Wert 15. Zur Anzeige von 16 oder eines höheren Wertes, müßte der Computer eine zweite Stelle dazu- nehmen.",
+      "lines": [
+        [
+          136,
+          669,
+          1195,
+          705
+        ],
+        [
+          135,
+          710,
+          1195,
+          748
+        ],
+        [
+          135,
+          751,
+          1195,
+          789
+        ],
+        [
+          134,
+          792,
+          1195,
+          830
+        ],
+        [
+          135,
+          833,
+          1193,
+          871
+        ],
+        [
+          136,
+          875,
+          1195,
+          910
+        ],
+        [
+          136,
+          919,
+          282,
+          948
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        339,
+        1002,
+        632,
+        1031
+      ],
+      "text": "HEXADEZIMAL",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        133,
+        1649,
+        1195,
+        1892
+      ],
+      "text": "Dezimal gerechnet ergibt 9+ 9 = 18. Hexadezimal lautet das Ergebnis 12 (siehe Tabelle). Da dem Computer gesagt wurde, daß er nur eine Stelle anzeigen soll, bringt er das Ergebnis der letzten Stelle, nämlich 2. Er hat sich jedoch gemerkt, daß ein „Übertrag” stattgefunden hat und zeigt dies durch die auf- leuchtende obere LED neben dem Display an.",
+      "lines": [
+        [
+          135,
+          1649,
+          1193,
+          1686
+        ],
+        [
+          134,
+          1690,
+          1192,
+          1728
+        ],
+        [
+          133,
+          1731,
+          1195,
+          1768
+        ],
+        [
+          135,
+          1773,
+          1192,
+          1816
+        ],
+        [
+          134,
+          1814,
+          1195,
+          1852
+        ],
+        [
+          135,
+          1857,
+          946,
+          1892
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1920,
+        1199,
+        2207
+      ],
+      "text": "Diese LED leuchtet immer dann auf, wenn der Computer einen Übertrag machen muß, d. h. wenn sich z. B. durch Addition ein höherer Wert als das hexadezimale F ergibt. Diese Leuchtdio- de wird als Carry-Flag bezeichnet und bedeutet für den Com- puter eine Übertrag-Markierung. Der Computer bringt gewis- sermaßen ein Signal, mit welchem die zweite Stelle bei einem Übertrag angesteuert werden kann.",
+      "lines": [
+        [
+          138,
+          1920,
+          1197,
+          1963
+        ],
+        [
+          137,
+          1961,
+          1196,
+          2000
+        ],
+        [
+          138,
+          2003,
+          1199,
+          2039
+        ],
+        [
+          136,
+          2044,
+          1199,
+          2087
+        ],
+        [
+          137,
+          2086,
+          1199,
+          2124
+        ],
+        [
+          136,
+          2127,
+          1196,
+          2171
+        ],
+        [
+          137,
+          2171,
+          750,
+          2207
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        2230,
+        1164,
+        2302
+      ],
+      "text": "Wir wollen unser kleines Additions-Programm etwas genauer betrachten:",
+      "lines": [
+        [
+          136,
+          2230,
+          1164,
+          2264
+        ],
+        [
+          137,
+          2273,
+          334,
+          2302
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        566,
+        2346,
+        717,
+        2416
+      ],
+      "text": "Befehls- Kürzel",
+      "lines": [
+        [
+          566,
+          2346,
+          717,
+          2375
+        ],
+        [
+          566,
+          2388,
+          679,
+          2416
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        364,
+        2347,
+        515,
+        2459
+      ],
+      "text": "Eingabe Befehls- Code",
+      "lines": [
+        [
+          364,
+          2347,
+          512,
+          2381
+        ],
+        [
+          364,
+          2388,
+          515,
+          2417
+        ],
+        [
+          364,
+          2430,
+          458,
+          2459
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        150,
+        2346,
+        975,
+        2380
+      ],
+      "text": "Adresse Erklärungen",
+      "lines": [
+        [
+          150,
+          2346,
+          975,
+          2380
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        754,
+        2481,
+        1158,
+        2652
+      ],
+      "text": "Anzeige-Befehl Eingabe-Befehl: Einge- gebener Wert in Regi- ster 1 abspeichern",
+      "lines": [
+        [
+          754,
+          2481,
+          1016,
+          2517
+        ],
+        [
+          756,
+          2534,
+          1158,
+          2570
+        ],
+        [
+          755,
+          2575,
+          1141,
+          2611
+        ],
+        [
+          755,
+          2617,
+          1084,
+          2652
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        755,
+        2670,
+        1192,
+        2747
+      ],
+      "text": "Ergebnis von Adresse 01 anzeigen",
+      "lines": [
+        [
+          756,
+          2670,
+          1192,
+          2706
+        ],
+        [
+          755,
+          2712,
+          909,
+          2747
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        754,
+        2765,
+        1147,
+        2924
+      ],
+      "text": "Eingabe-Befehl: Den zweiten eingegebenen Wert in Register O speichern",
+      "lines": [
+        [
+          756,
+          2765,
+          1113,
+          2800
+        ],
+        [
+          755,
+          2806,
+          1147,
+          2841
+        ],
+        [
+          754,
+          2848,
+          1070,
+          2883
+        ],
+        [
+          755,
+          2889,
+          926,
+          2924
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        755,
+        2941,
+        1184,
+        3142
+      ],
+      "text": "Additions-Befehl: Addie- re den Inhalt von Regi- ster 1 + Register 0. Er- gebnis in Register O speichern",
+      "lines": [
+        [
+          755,
+          2941,
+          1184,
+          2971
+        ],
+        [
+          756,
+          2983,
+          1159,
+          3018
+        ],
+        [
+          755,
+          3025,
+          1164,
+          3059
+        ],
+        [
+          755,
+          3066,
+          1108,
+          3101
+        ],
+        [
+          755,
+          3108,
+          926,
+          3142
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        754,
+        3160,
+        1177,
+        3361
+      ],
+      "text": "Sprung-Befehl: Auf Pro- gramm Anfang springen und dort durch den Be- fehl DISP 1,0 Ergebnis anzeigen",
+      "lines": [
+        [
+          755,
+          3160,
+          1177,
+          3195
+        ],
+        [
+          755,
+          3201,
+          1175,
+          3237
+        ],
+        [
+          756,
+          3243,
+          1175,
+          3273
+        ],
+        [
+          754,
+          3284,
+          1149,
+          3319
+        ],
+        [
+          754,
+          3326,
+          909,
+          3361
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        151,
+        2766,
+        659,
+        2797
+      ],
+      "text": "03 FFO KINO",
+      "lines": [
+        [
+          151,
+          2766,
+          659,
+          2797
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1256,
+        97,
+        2319,
+        507
+      ],
+      "text": "Der ADD-Befehl hat den Beiehls-Code 4sd. 4 ist für den Com- puter der Befehi zum Addieren. Für s erinnern wir uns an sour- ce-register = Quell-Register. Hierfür wird ein beliebiges Regi- ster verwendet. d ist das zweite Register, welches addiert wer- den soll. d steht wieder für destination, also Ziel-Register, weil in diesem Register das Ergebnis steht. Ein in diesem Register vorher eingegebener Wert wird durch das neu hinzuaddierte Ergebnis gelöscht. Es wird also immer nur das letzte Ergebnis angezeigt. Im vorangegangenen Programm haben wirfürs das Register 1 eingegeben und für das d das Register 0.",
+      "lines": [
+        [
+          1258,
+          97,
+          2318,
+          130
+        ],
+        [
+          1258,
+          139,
+          2318,
+          177
+        ],
+        [
+          1257,
+          180,
+          2318,
+          219
+        ],
+        [
+          1257,
+          221,
+          2318,
+          257
+        ],
+        [
+          1257,
+          262,
+          2316,
+          297
+        ],
+        [
+          1258,
+          303,
+          2318,
+          341
+        ],
+        [
+          1256,
+          345,
+          2316,
+          383
+        ],
+        [
+          1257,
+          386,
+          2317,
+          425
+        ],
+        [
+          1257,
+          427,
+          2319,
+          466
+        ],
+        [
+          1260,
+          468,
+          2158,
+          507
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1315,
+        2000,
+        1358
+      ],
+      "text": "Der rasende Automatik-Zähler",
+      "lines": [
+        [
+          1260,
+          1315,
+          2000,
+          1358
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1259,
+        1454,
+        2324,
+        1535
+      ],
+      "text": "Wie üblich, bringen wir den Computer auf den Programm- Anfang: HALT - NEXT - 00.",
+      "lines": [
+        [
+          1259,
+          1454,
+          2324,
+          1493
+        ],
+        [
+          1260,
+          1498,
+          1752,
+          1535
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1564,
+        1607,
+        1599
+      ],
+      "text": "Wir programmieren:",
+      "lines": [
+        [
+          1260,
+          1564,
+          1607,
+          1599
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1305,
+        1629,
+        2248,
+        1841
+      ],
+      "text": "Adresse Eingabe Befehlskürzel Befehls-Code (Mnemnonic) 00 F10 DISP 1,0 01 510 ADD! 1,0 02 C00 GOTO 00",
+      "lines": [
+        [
+          1305,
+          1629,
+          2248,
+          1667
+        ],
+        [
+          1661,
+          1671,
+          2242,
+          1707
+        ],
+        [
+          1306,
+          1725,
+          2165,
+          1758
+        ],
+        [
+          1306,
+          1766,
+          2167,
+          1799
+        ],
+        [
+          1306,
+          1807,
+          2180,
+          1841
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1875,
+        2025,
+        1914
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN",
+      "lines": [
+        [
+          1260,
+          1875,
+          2025,
+          1914
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        1939,
+        2321,
+        2060
+      ],
+      "text": "Der Computer zählt so schnell, daß wir auf dem Display keine Zahlen erkennen. Die beiden LED’s (Carry- und Zero-Flags) neben dem Display blinken.",
+      "lines": [
+        [
+          1261,
+          1939,
+          2321,
+          1977
+        ],
+        [
+          1259,
+          1981,
+          2319,
+          2017
+        ],
+        [
+          1261,
+          2024,
+          1738,
+          2060
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        2086,
+        2324,
+        2533
+      ],
+      "text": "Bevor wir den Zählvorgang künstlich verlangsamen, wollen wir das kleine Programm untersuchen. Neu ist der ABDDI-Befehl. Er ist ebenfalls ein Additions-Befehl. Der Unterschied zum vorher gelernten ADD-Befehl, der zwei unterschiedliche Werte addiert, arbeitet der ADDI-Befehl mit einem konstanten Wert. Der ADDI-Befehl hat den Befehls-Code 5nd. 5 befiehlt die Addition. Für n wird ein konstanter Additionswert eingegeben (in unserem Programm-Beispiel die Ziffer 1). Dieser konstante Wert wird zum Register d (destination-register/Ziel-register) hinzuaddiert. ADD! ist die Abkürzung für das englische add immediate.",
+      "lines": [
+        [
+          1261,
+          2086,
+          2324,
+          2124
+        ],
+        [
+          1260,
+          2127,
+          2324,
+          2166
+        ],
+        [
+          1261,
+          2168,
+          2324,
+          2202
+        ],
+        [
+          1260,
+          2210,
+          2322,
+          2250
+        ],
+        [
+          1260,
+          2251,
+          2322,
+          2290
+        ],
+        [
+          1262,
+          2292,
+          2322,
+          2327
+        ],
+        [
+          1260,
+          2334,
+          2322,
+          2370
+        ],
+        [
+          1261,
+          2376,
+          2323,
+          2416
+        ],
+        [
+          1260,
+          2417,
+          2321,
+          2455
+        ],
+        [
+          1261,
+          2458,
+          2322,
+          2495
+        ],
+        [
+          1260,
+          2504,
+          1447,
+          2533
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        2566,
+        2327,
+        2853
+      ],
+      "text": "Nun wollen wir einmal in „Zeitlupe” sehen, wie unser Pro- gramm arbeitet. Wir stoppen das Programm mit HALT und ge- hen mit NEXT 00 an den Programm-Anfang. Anstelle derbisher üblichen RUN-Taste, betätigen wir jetzt nochmals die HALT- und dann die STEP-Taste. Das Programm wird jetzt schrittwei- se gestartet, d. h. daß wir mit der STEP-Taste jeden einzelnen Programm-Schritt bei der Arbeit verfolgen können.",
+      "lines": [
+        [
+          1261,
+          2566,
+          2326,
+          2602
+        ],
+        [
+          1261,
+          2606,
+          2326,
+          2647
+        ],
+        [
+          1262,
+          2647,
+          2326,
+          2685
+        ],
+        [
+          1262,
+          2689,
+          2326,
+          2727
+        ],
+        [
+          1262,
+          2730,
+          2327,
+          2767
+        ],
+        [
+          1261,
+          2772,
+          2324,
+          2811
+        ],
+        [
+          1262,
+          2814,
+          2151,
+          2853
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        2876,
+        2328,
+        3365
+      ],
+      "text": "Bei jeder STEP-Tasten Betätigung wird die Adresse und der Befehls-Code angezeigt, der als nächstes abgearbeitet wird. Wird erneut die STEP-Taste betätigt, wird der zuvor angezeigte Befehl ausgeführt, gleichzeitig wird der nächste Befehl ange- zeigt. Durch immer wieder erneute Betätigung der STEP-Taste können wir sehen, wie sich der Register-Inhalt jeweils um den Wert 1 erhöht. Wenn wir mit der STEP-Taste solange weiter- zählen, bis wir über die Buchstaben A-B-C-D-E den Wert F überspringen (d. h. daß der Zählvorgang wieder bei O beginnt), leuchtet das Carry-Flag neben dem Display auf. Ein Übertrag hat stattgefunden. Das ebenfalls aufleuchtende Zero-Flag soll uns momentan noch nicht interessieren.",
+      "lines": [
+        [
+          1261,
+          2876,
+          2327,
+          2916
+        ],
+        [
+          1261,
+          2918,
+          2324,
+          2956
+        ],
+        [
+          1260,
+          2959,
+          2325,
+          2995
+        ],
+        [
+          1261,
+          3001,
+          2327,
+          3039
+        ],
+        [
+          1260,
+          3042,
+          2325,
+          3081
+        ],
+        [
+          1262,
+          3083,
+          2324,
+          3120
+        ],
+        [
+          1260,
+          3125,
+          2328,
+          3159
+        ],
+        [
+          1261,
+          3167,
+          2328,
+          3204
+        ],
+        [
+          1263,
+          3209,
+          2326,
+          3247
+        ],
+        [
+          1262,
+          3249,
+          2325,
+          3286
+        ],
+        [
+          1262,
+          3290,
+          2325,
+          3329
+        ],
+        [
+          1262,
+          3333,
+          1974,
+          3365
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

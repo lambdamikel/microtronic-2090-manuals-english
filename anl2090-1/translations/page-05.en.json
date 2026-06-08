@@ -1,0 +1,18 @@
+{
+  "0": {
+    "de": "Start frei zum ersten Probelauf!",
+    "en": "Ready for the First Test Run!"
+  },
+  "1": {
+    "de": "Der Computer testet sich selbst —  das Prüfprogramm",
+    "en": "The Computer Tests Itself — The Test Program"
+  },
+  "2": {
+    "de": "Wir stecken zunächst einmal das Netzgerät in die Steckdose. … Es bleibt uns nichts anderes übrig…",
+    "en": "First, we plug the power supply into the wall socket. Immediately, the dashboard display shows two zeros, a dark position, and then three zeros. An LED on the computer board (next to the label \"Takt/Clock\") starts blinking. We won't notice any further reaction at first. Our computer is ready to accept \"commands\" from us — it is waiting for us to tell it what to do.\n\nOur microcomputer is prepared to check itself and verify that all its functions work correctly. This self-test gives us the assurance that nothing was damaged in transit.\n\nWe should by no means start pressing keys randomly: our computer expects logical commands, not nonsense. Should we have already produced \"nonsense\" before reading these lines, the computer will lock out the attempt — it will not react to further key presses.\n\nNothing remains but to inform the computer that we have just stopped our nonsense activity. For this we briefly press the green RESET key on the computer board. The computer will immediately confirm via its display that it wants to work with us again (display: <span class=\"led\">00 000</span>)."
+  },
+  "3": {
+    "de": "Für den Selbsttest müssen einige Kabelverbindungen…",
+    "en": "For the self-test, a few cable connections must be made. Following the diagram, the bare (stripped) wire ends are inserted into the sockets on the rear of the board and held by a pressed-on yellow plastic plug. We make sure that the wires are not pushed too far into the socket, because only the bare wire end produces the desired contact in the socket. The four required cables each run"
+  }
+}

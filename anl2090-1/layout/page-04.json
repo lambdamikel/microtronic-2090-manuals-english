@@ -1,0 +1,865 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        152,
+        94,
+        723,
+        186
+      ],
+      "fragments": [
+        [
+          152,
+          94,
+          723,
+          186
+        ]
+      ],
+      "lines": [
+        [
+          154,
+          94,
+          544,
+          140
+        ],
+        [
+          152,
+          147,
+          723,
+          186
+        ]
+      ],
+      "text": "Der Computer - das unbekannte Wesen"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1273,
+        907,
+        2337,
+        1779
+      ],
+      "fragments": [
+        [
+          1275,
+          907,
+          2336,
+          981
+        ],
+        [
+          1273,
+          1014,
+          2336,
+          1343
+        ],
+        [
+          1275,
+          1368,
+          2337,
+          1487
+        ],
+        [
+          1273,
+          1515,
+          2336,
+          1638
+        ],
+        [
+          1275,
+          1664,
+          2333,
+          1697
+        ],
+        [
+          1273,
+          1705,
+          2336,
+          1779
+        ]
+      ],
+      "lines": [
+        [
+          1275,
+          907,
+          2336,
+          940
+        ],
+        [
+          1275,
+          953,
+          1388,
+          981
+        ],
+        [
+          1274,
+          1014,
+          2332,
+          1050
+        ],
+        [
+          1273,
+          1055,
+          2332,
+          1095
+        ],
+        [
+          1275,
+          1097,
+          2335,
+          1133
+        ],
+        [
+          1275,
+          1138,
+          2332,
+          1177
+        ],
+        [
+          1275,
+          1179,
+          2336,
+          1213
+        ],
+        [
+          1274,
+          1220,
+          2336,
+          1259
+        ],
+        [
+          1275,
+          1262,
+          2336,
+          1301
+        ],
+        [
+          1274,
+          1307,
+          1474,
+          1343
+        ],
+        [
+          1275,
+          1368,
+          2337,
+          1403
+        ],
+        [
+          1277,
+          1410,
+          2335,
+          1446
+        ],
+        [
+          1276,
+          1452,
+          2047,
+          1487
+        ],
+        [
+          1273,
+          1515,
+          2333,
+          1550
+        ],
+        [
+          1275,
+          1557,
+          2336,
+          1592
+        ],
+        [
+          1274,
+          1610,
+          1345,
+          1638
+        ],
+        [
+          1275,
+          1664,
+          2333,
+          1697
+        ],
+        [
+          1273,
+          1705,
+          2336,
+          1742
+        ],
+        [
+          1276,
+          1749,
+          1797,
+          1779
+        ]
+      ],
+      "text": "Nun wollen wir dieses unbekannte Wesen näher kennen- lernen.  Hätten wir anstelle des Computers z. B. einen jungen Hund angeschafft, ergebe sich folgende Situation: Hund und Mensch müssen lernen, sich gegenseitig zu verstehen. Jeder hat eine eigene Sprache, die der anderer nicht verstehen kann. Also wird Herrchen vermutlich versuchen herauszufin- den, was sein neuer Freund versteht, auf welche „Befehle” er reagiert - oder nicht reagiert, oder vielleicht auch falsch rea- gieren wird.  Auch wir müssen herausfinden, auf welche Befehle unser neuer Freund, der Mikro-Computer, gehorchen wird, um all das auszuführen, was wir von ihm erwarten.  Wenn wir in seine tiefsten Geheimnisse eindringen möchten, müssen wir mit ihm arbeiten, uns intensiv mit ihm beschäfti- gen.  Dafür werden wir ein technisch raffiniertes Abenteuer erleben,  wie dies vor wenigen Jahren, vor allem für den „Hausge- brauch” noch undenkbar war."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        149,
+        911,
+        1215,
+        1937
+      ],
+      "fragments": [
+        [
+          153,
+          911,
+          1214,
+          1111
+        ],
+        [
+          152,
+          1143,
+          1214,
+          1262
+        ],
+        [
+          152,
+          1290,
+          1215,
+          1447
+        ],
+        [
+          150,
+          1480,
+          1213,
+          1678
+        ],
+        [
+          149,
+          1710,
+          1209,
+          1866
+        ],
+        [
+          151,
+          1900,
+          917,
+          1937
+        ]
+      ],
+      "lines": [
+        [
+          155,
+          911,
+          1211,
+          945
+        ],
+        [
+          153,
+          953,
+          1214,
+          989
+        ],
+        [
+          155,
+          994,
+          1214,
+          1033
+        ],
+        [
+          154,
+          1036,
+          1214,
+          1076
+        ],
+        [
+          153,
+          1080,
+          434,
+          1111
+        ],
+        [
+          152,
+          1143,
+          1214,
+          1180
+        ],
+        [
+          153,
+          1185,
+          1211,
+          1221
+        ],
+        [
+          153,
+          1228,
+          646,
+          1262
+        ],
+        [
+          152,
+          1290,
+          1215,
+          1327
+        ],
+        [
+          154,
+          1332,
+          972,
+          1370
+        ],
+        [
+          152,
+          1373,
+          1213,
+          1409
+        ],
+        [
+          154,
+          1416,
+          464,
+          1447
+        ],
+        [
+          150,
+          1480,
+          1213,
+          1518
+        ],
+        [
+          153,
+          1521,
+          1213,
+          1559
+        ],
+        [
+          153,
+          1562,
+          1213,
+          1600
+        ],
+        [
+          153,
+          1604,
+          1210,
+          1641
+        ],
+        [
+          151,
+          1649,
+          1081,
+          1678
+        ],
+        [
+          151,
+          1710,
+          1209,
+          1745
+        ],
+        [
+          150,
+          1751,
+          1209,
+          1783
+        ],
+        [
+          151,
+          1793,
+          1209,
+          1831
+        ],
+        [
+          149,
+          1834,
+          957,
+          1866
+        ],
+        [
+          151,
+          1900,
+          917,
+          1937
+        ]
+      ],
+      "text": "Man sieht es ihm nicht an - und dennoch steht vor uns ein technisches Wunder unserer Zeit. Ein richtig funktionierender Mikro-Computer, dem wir über seine Tastatur Befehle ein- geben, damit er auf Knopfdruck diese „programmierten” Be- fehle bearbeitet.  Wenn wir ihn richtig bedienen, wird er uns die tollsten Kunst- stücke vorführen. Seine Möglichkeiten, uns in Erstaunen zu versetzen, sind faszinierend.  Wir werden Zeuge enormer Leistungen sein, die unser Mikro- Computer vor unseren Augen vollbringen wird. Vielleicht wundern wir uns über das „bißchen Elektronik”, was da vor uns steht?  Vor wenigen Jahren hätte man mit diesem „bißchen Elektro- nik” noch einen ganzen Schrank gefüllt. Heute ist die Elektro- nik auf mikroskopische Größenordnungen geschrumpft. Wo- bei ihre Leistungsfähigkeit astronomische Möglichkeiten erreicht hat. .  Können wir uns vorstellen, daß alleine in dem ca. 5 cm langen schwarzen IC-Block mit den 40 silbernen Anschlußbeinchen (auf der Platine unter der rauchglasfarbigen Abdeckhaube) ca. 35.000 Transisitor-Funktionen enthalten sind?  Ein gigantisches elektronisches Schaltwerk."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1275,
+        2391,
+        2338,
+        2454
+      ],
+      "fragments": [
+        [
+          1275,
+          2391,
+          2338,
+          2454
+        ]
+      ],
+      "lines": [
+        [
+          1275,
+          2391,
+          2338,
+          2454
+        ]
+      ],
+      "text": "Übrigens, das ist „BUSCHI”, das BUSCH-Maskottchen, Erdemonstriert auf sei- ne Weise, wie er sich die Funktion eines Computer vorstellt."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        152,
+        94,
+        723,
+        186
+      ],
+      "text": "Der Computer - das unbekannte Wesen",
+      "lines": [
+        [
+          154,
+          94,
+          544,
+          140
+        ],
+        [
+          152,
+          147,
+          723,
+          186
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        151,
+        511,
+        642,
+        590
+      ],
+      "text": "Eine Hand voll Elektronik ? Unbegrenzte Möglichkeiten!",
+      "lines": [
+        [
+          153,
+          511,
+          635,
+          546
+        ],
+        [
+          151,
+          552,
+          642,
+          590
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        153,
+        911,
+        1214,
+        1111
+      ],
+      "text": "Man sieht es ihm nicht an - und dennoch steht vor uns ein technisches Wunder unserer Zeit. Ein richtig funktionierender Mikro-Computer, dem wir über seine Tastatur Befehle ein- geben, damit er auf Knopfdruck diese „programmierten” Be- fehle bearbeitet.",
+      "lines": [
+        [
+          155,
+          911,
+          1211,
+          945
+        ],
+        [
+          153,
+          953,
+          1214,
+          989
+        ],
+        [
+          155,
+          994,
+          1214,
+          1033
+        ],
+        [
+          154,
+          1036,
+          1214,
+          1076
+        ],
+        [
+          153,
+          1080,
+          434,
+          1111
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        152,
+        1143,
+        1214,
+        1262
+      ],
+      "text": "Wenn wir ihn richtig bedienen, wird er uns die tollsten Kunst- stücke vorführen. Seine Möglichkeiten, uns in Erstaunen zu versetzen, sind faszinierend.",
+      "lines": [
+        [
+          152,
+          1143,
+          1214,
+          1180
+        ],
+        [
+          153,
+          1185,
+          1211,
+          1221
+        ],
+        [
+          153,
+          1228,
+          646,
+          1262
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        152,
+        1290,
+        1215,
+        1447
+      ],
+      "text": "Wir werden Zeuge enormer Leistungen sein, die unser Mikro- Computer vor unseren Augen vollbringen wird. Vielleicht wundern wir uns über das „bißchen Elektronik”, was da vor uns steht?",
+      "lines": [
+        [
+          152,
+          1290,
+          1215,
+          1327
+        ],
+        [
+          154,
+          1332,
+          972,
+          1370
+        ],
+        [
+          152,
+          1373,
+          1213,
+          1409
+        ],
+        [
+          154,
+          1416,
+          464,
+          1447
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        150,
+        1480,
+        1213,
+        1678
+      ],
+      "text": "Vor wenigen Jahren hätte man mit diesem „bißchen Elektro- nik” noch einen ganzen Schrank gefüllt. Heute ist die Elektro- nik auf mikroskopische Größenordnungen geschrumpft. Wo- bei ihre Leistungsfähigkeit astronomische Möglichkeiten erreicht hat. .",
+      "lines": [
+        [
+          150,
+          1480,
+          1213,
+          1518
+        ],
+        [
+          153,
+          1521,
+          1213,
+          1559
+        ],
+        [
+          153,
+          1562,
+          1213,
+          1600
+        ],
+        [
+          153,
+          1604,
+          1210,
+          1641
+        ],
+        [
+          151,
+          1649,
+          1081,
+          1678
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        149,
+        1710,
+        1209,
+        1866
+      ],
+      "text": "Können wir uns vorstellen, daß alleine in dem ca. 5 cm langen schwarzen IC-Block mit den 40 silbernen Anschlußbeinchen (auf der Platine unter der rauchglasfarbigen Abdeckhaube) ca. 35.000 Transisitor-Funktionen enthalten sind?",
+      "lines": [
+        [
+          151,
+          1710,
+          1209,
+          1745
+        ],
+        [
+          150,
+          1751,
+          1209,
+          1783
+        ],
+        [
+          151,
+          1793,
+          1209,
+          1831
+        ],
+        [
+          149,
+          1834,
+          957,
+          1866
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        151,
+        1900,
+        917,
+        1937
+      ],
+      "text": "Ein gigantisches elektronisches Schaltwerk.",
+      "lines": [
+        [
+          151,
+          1900,
+          917,
+          1937
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1275,
+        907,
+        2336,
+        981
+      ],
+      "text": "Nun wollen wir dieses unbekannte Wesen näher kennen- lernen.",
+      "lines": [
+        [
+          1275,
+          907,
+          2336,
+          940
+        ],
+        [
+          1275,
+          953,
+          1388,
+          981
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1273,
+        1014,
+        2336,
+        1343
+      ],
+      "text": "Hätten wir anstelle des Computers z. B. einen jungen Hund angeschafft, ergebe sich folgende Situation: Hund und Mensch müssen lernen, sich gegenseitig zu verstehen. Jeder hat eine eigene Sprache, die der anderer nicht verstehen kann. Also wird Herrchen vermutlich versuchen herauszufin- den, was sein neuer Freund versteht, auf welche „Befehle” er reagiert - oder nicht reagiert, oder vielleicht auch falsch rea- gieren wird.",
+      "lines": [
+        [
+          1274,
+          1014,
+          2332,
+          1050
+        ],
+        [
+          1273,
+          1055,
+          2332,
+          1095
+        ],
+        [
+          1275,
+          1097,
+          2335,
+          1133
+        ],
+        [
+          1275,
+          1138,
+          2332,
+          1177
+        ],
+        [
+          1275,
+          1179,
+          2336,
+          1213
+        ],
+        [
+          1274,
+          1220,
+          2336,
+          1259
+        ],
+        [
+          1275,
+          1262,
+          2336,
+          1301
+        ],
+        [
+          1274,
+          1307,
+          1474,
+          1343
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1275,
+        1368,
+        2337,
+        1487
+      ],
+      "text": "Auch wir müssen herausfinden, auf welche Befehle unser neuer Freund, der Mikro-Computer, gehorchen wird, um all das auszuführen, was wir von ihm erwarten.",
+      "lines": [
+        [
+          1275,
+          1368,
+          2337,
+          1403
+        ],
+        [
+          1277,
+          1410,
+          2335,
+          1446
+        ],
+        [
+          1276,
+          1452,
+          2047,
+          1487
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1273,
+        1515,
+        2336,
+        1638
+      ],
+      "text": "Wenn wir in seine tiefsten Geheimnisse eindringen möchten, müssen wir mit ihm arbeiten, uns intensiv mit ihm beschäfti- gen.",
+      "lines": [
+        [
+          1273,
+          1515,
+          2333,
+          1550
+        ],
+        [
+          1275,
+          1557,
+          2336,
+          1592
+        ],
+        [
+          1274,
+          1610,
+          1345,
+          1638
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1275,
+        1664,
+        2333,
+        1697
+      ],
+      "text": "Dafür werden wir ein technisch raffiniertes Abenteuer erleben,",
+      "lines": [
+        [
+          1275,
+          1664,
+          2333,
+          1697
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1273,
+        1705,
+        2336,
+        1779
+      ],
+      "text": "wie dies vor wenigen Jahren, vor allem für den „Hausge- brauch” noch undenkbar war.",
+      "lines": [
+        [
+          1273,
+          1705,
+          2336,
+          1742
+        ],
+        [
+          1276,
+          1749,
+          1797,
+          1779
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1275,
+        2391,
+        2338,
+        2454
+      ],
+      "text": "Übrigens, das ist „BUSCHI”, das BUSCH-Maskottchen, Erdemonstriert auf sei- ne Weise, wie er sich die Funktion eines Computer vorstellt.",
+      "lines": [],
+      "kind": "body"
+    }
+  ]
+}

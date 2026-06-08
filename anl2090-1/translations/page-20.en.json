@@ -1,0 +1,38 @@
+{
+  "0": {
+    "de": "Bisher haben wir den Computer beauftragt…",
+    "en": "So far we've asked the computer to add the value 1 each time. What do we change if we want it to add 2 each time?\n\nThe <b>ADDI</b> command always adds a constant. Our previous code was <b>510</b>. If we change address 01 to <b>520</b> (leaving everything else unchanged), counting speeds up considerably — the computer now counts 2-4-6-8-A… in hex on the rightmost display position. If we entered code <b>550</b> at address 01, the constant 5 would be added.\n\nFor this program change we don't have to re-enter the whole program — we jump directly to the address we want to change: <b>HALT – NEXT – 01</b>. The computer shows address 01 and the existing code 510. Entering the new code, e.g. 520, overwrites the old command and NEXT stores it. Programming finished: HALT – NEXT – 00. Start: RUN.\n\nOur computer knowledge has now reached a point where, shortly, we'll develop our own first program. But we probably haven't yet fully grasped the relationship between the command code (stored in the large program memory) and the registers (stored in the small register memories). We'll learn the connection quickly if we imagine aborting the previous 3-digit counter with HALT at some arbitrary point. The display might show, for example:"
+  },
+  "1": {
+    "de": "Ein 2-stelliger Automatik-Zähler",
+    "en": "A 2-Digit Automatic Counter"
+  },
+  "2": {
+    "de": "Der jetzt folgende Automatik-Zähler addiert auf 2 Stellen…",
+    "en": "The following automatic counter adds across 2 positions. After HALT – NEXT – 00, we enter the new program:\n\n<table class=\"codes boxed\"><tr><th>Addr</th><th>Code</th><th>Mnemonic</th><th>Description</th></tr><tr><td>00</td><td>F20</td><td>DISP 2,0</td><td>display 2 positions</td></tr><tr><td>01</td><td>510</td><td>ADDI 1,0</td><td>add constant 1</td></tr><tr><td>02</td><td>FB1</td><td>ADC 1</td><td>add carry to 2nd position</td></tr><tr><td>03</td><td>C00</td><td>GOTO 00</td><td>back to address 00</td></tr></table>\n\nStart: HALT – NEXT – 00 – RUN.\n\nOn the last display position the same fast counting as in the previous experiment happens. On the 2nd position, however, we can clearly follow the hexadecimal count from 0 to F.\n\nThe program is almost identical to the previous one. At address 02 we've added the new <b>ADC</b> command (<i>add carry</i>). The new \"add-CARRY\" command captures the carry, so the 2nd position is now displayed. Recall that the Carry-Flag LED beside the display lights whenever the computer skips past the highest single-digit \"digit\" F — i.e. whenever a carry to a second position is needed."
+  },
+  "3": {
+    "de": "Wie wir uns erinnern, stehen uns 16 verschiedene Register zur Verfügung…",
+    "en": "Recall that 16 different registers are available. So that we and the computer can tell them apart, the running hex numbering 0–F is used. For our 3-digit automatic counter we only used 3 of the 16 registers: register Nos. 0, 1 and 2. All the other registers stayed unused by this program."
+  },
+  "4": {
+    "de": "Ein 3-stelliger Automatik-Zähler",
+    "en": "A 3-Digit Automatic Counter"
+  },
+  "5": {
+    "de": "Wir wollen einen 3-stelligen Zähler programmieren…",
+    "en": "Let's program a 3-digit counter (HALT NEXT 00), entering:\n\n<table class=\"codes boxed\"><tr><th>Addr</th><th>Code</th><th>Mnem.</th><th>Description</th></tr><tr><td>00</td><td>F30</td><td>DISP 3,0</td><td>display 3 positions</td></tr><tr><td>01</td><td>510</td><td>ADDI 1,0</td><td>add constant 1</td></tr><tr><td>02</td><td>FB1</td><td>ADC 1</td><td>carry to 2nd position</td></tr><tr><td>03</td><td>FB2</td><td>ADC 2</td><td>carry to 3rd position</td></tr><tr><td>04</td><td>C00</td><td>GOTO 00</td><td>back to address 00</td></tr></table>\n\nProgram start: HALT – NEXT – 00 – RUN.\n\nThe right display position counts at the same fast pace as before. On the middle position we follow the hex count 0–F; once it reaches F, the next carry propagates to the leftmost position."
+  },
+  "6": {
+    "de": "3-digit counter explanation table",
+    "en": "<table class=\"codes boxed\"><tr><th>Addr</th><th>Code</th><th>Explanation</th></tr><tr><td>00</td><td>F30</td><td>display 3 positions starting at register 0 (F30)</td></tr><tr><td>01</td><td>510</td><td>add constant 1 (510) and store the result in register 0 (510)</td></tr><tr><td>02</td><td>FB1</td><td>capture carry (from register 0) and propagate into register 1 (FB1)</td></tr><tr><td>03</td><td>FB2</td><td>capture carry (from register 1) and propagate into register 2 (FB2)</td></tr><tr><td>04</td><td>C00</td><td>jump back to address 00 — display the current result there, keep counting; the loop repeats</td></tr></table>"
+  },
+  "7": {
+    "de": "Übertrag auf die mittlere Stelle…",
+    "en": "Carry to the middle position. Since the middle position also reaches its highest value F after a while, the carry propagates to the leftmost display position.\n\nComparing to the previous program, we see we only changed the DISP command at address 00 from F20 to F30 (so 3 positions are shown) and at address 03 we added another <b>ADC</b> command so the carry is also registered on the 3rd position."
+  },
+  "8": {
+    "de": "springen, dort bisheriges Ergebnis anzeigen…",
+    "en": "Imagine that at program start all 3 positions show 0. Register 0 (rightmost position) contains 0, as do register 1 (middle) and register 2 (left). At address 01…"
+  }
+}

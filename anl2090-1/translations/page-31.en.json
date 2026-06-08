@@ -1,0 +1,18 @@
+{
+  "0": {
+    "de": "Damit wir nun endgültig begreifen, was in den Registern geschieht…",
+    "en": "To finally grasp what happens in the registers, let's look at the following illustration for the addition 5 + 7 = 12:"
+  },
+  "1": {
+    "de": "Da wir jetzt wissen, was sich in den Registern abspielt…",
+    "en": "Now that we know what's happening in the registers, no further explanation should be needed for the flow chart of our 2-digit decimal calculator shown alongside."
+  },
+  "2": {
+    "de": "5+7=12 walkthrough table",
+    "en": "<table class=\"codes boxed\" style=\"font-size:7.5pt;line-height:1.1\"><tr><th>Addr.</th><th>Input<br>command</th><th colspan=\"3\">What happens in<br>the registers</th><th>Explanation</th></tr><tr><th></th><th></th><th>R 2</th><th>R 1</th><th>R 0</th><th></th></tr><tr><td>00</td><td>CLEAR</td><td>0</td><td>0</td><td>0</td><td>Clear all registers — content set to 0</td></tr><tr><td>01</td><td>DISP 1,0</td><td>0</td><td>0</td><td><b>0</b></td><td>Display 1 position — register 0 (value 0)</td></tr><tr><td>02</td><td>KIN 0</td><td>0</td><td>0</td><td><b>5</b></td><td>Enter & display value 5 in register 0</td></tr><tr><td>03</td><td>KIN 1</td><td>0</td><td>7</td><td><b>5</b></td><td>Enter (no display) value 7 in register 1</td></tr><tr><td>04</td><td>ADD 0,1</td><td>0</td><td>7+</td><td><b>5</b></td><td>Add contents of register 0 and 1</td></tr><tr><td></td><td></td><td>0</td><td>=C</td><td><b>5</b></td><td>Result in register 1: hex \"C\"</td></tr><tr><td>05</td><td>BRC 09</td><td>0</td><td>C</td><td><b>5</b></td><td>Result \"C\" is not greater than \"F\" — continue at 06</td></tr><tr><td>06</td><td>CMPI 9,1</td><td>0</td><td>C</td><td><b>5</b></td><td>Compare: is result \"C\" greater than \"9\"? — yes / no?</td></tr><tr><td>07</td><td>BRC 09</td><td>0</td><td>C</td><td><b>5</b></td><td>Since \"yes\", jump to address 09</td></tr><tr><td>08</td><td>GOTO 0B</td><td>0</td><td>C</td><td><b>5</b></td><td>Skipped</td></tr><tr><td>09</td><td>ADDI 6,1</td><td>0</td><td>+6</td><td><b>5</b></td><td>Add constant \"6\" to \"C\" in register 1</td></tr><tr><td></td><td></td><td>0</td><td>(1)2</td><td><b>5</b></td><td>Intermediate result, Carry-Flag from overflow</td></tr><tr><td>0A</td><td>ADDI 1,2</td><td>1</td><td>2</td><td><b>5</b></td><td>In register 2 the constant 1 is added (to previous 0)</td></tr><tr><td>0B</td><td>DISP 2,1</td><td><b>1</b></td><td><b>2</b></td><td>5</td><td>Display 2 positions from register 1 (regs 1 and 2) = result = 12</td></tr><tr><td>0C</td><td>KIN 0</td><td><b>1</b></td><td><b>2</b></td><td>5</td><td>Wait — result stays visible until new input</td></tr><tr><td>0D</td><td>GOTO 00</td><td>1</td><td>2</td><td>5</td><td>Jump back to address 00</td></tr><tr><td>00</td><td>CLEAR</td><td>0</td><td>0</td><td>0</td><td>See program start</td></tr></table>"
+  },
+  "3": {
+    "de": "00 ICLEAR | 0 0 0 …",
+    "en": "Numbers on a black background appear on the display. We may wonder why register 0's value 5 stays shown for so long in this table. In reality the entire sequence between address 04 and 0C runs in a fraction of a second."
+  }
+}

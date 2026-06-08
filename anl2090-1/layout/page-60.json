@@ -1,0 +1,1459 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        118,
+        100,
+        1189,
+        1762
+      ],
+      "fragments": [
+        [
+          118,
+          100,
+          1189,
+          1762
+        ]
+      ],
+      "lines": [
+        [
+          118,
+          100,
+          1189,
+          1762
+        ]
+      ],
+      "text": "Außer den 4-Bit-Mikroprozessoren gibt s auch 8-Bit-Mikropro- zessoren. Diese haben einen 8-Bit breiten Daten-Bus und kön- nen gleichzeitig z. B. 2-stellige hexadezimale Ziffern in einem Arbeitsgang verarbeiten. Hierdurch wird die Arbeitsgeschwin- digkeit des Mikroprozessors verdoppelt. 8-Bit-Mikroprozesso- ren werden vor allem in EDV-Anlagen eingesetzt, weil dort durch denhohen Datenanfalleine höhere Arbeitsgeschwindig- keit erforderlich ist.  Außerdem gibt es noch 16-Bit-Mikroprozessoren, die in Groß- Rechen-Anlagen eingesetzt werden, um die dort anfallenden enormen Datenmengen mit höchster Geschwindigkeit zu ver- arbeiten. 32-Bit-Mikroprozessoren für noch höhere Anforde- rungen sind in der Entwicklung.  Man kann nicht sagen, daß ein 8-Bit-Mikroprozessors durch seine höhere Arbeitsgeschwindigkeit besser ist als ein 4-Bit- Prozessor. Es kommt letztlich darauf an, was durch den Mikro- prozessor-Einsatz erreicht werden soll. Auch das Preis-/Lei- stungsverhältnis ist ausschlaggebend für die Auswahl eines entsprechenden Prozessors.  Der 4-Bit-Mikroprozessor hat für uns vor allem den Vorteil, daß seine Arbeitsweise noch halbwegs darstellbar und übersicht- lich ist.  Und was sind Bytes?  Ein Byte hat 8Bits. 4 Bits reichen aus für die 16 einstelligen he- xadezimalen Möglichkeiten, Acht Bits (also ein Byte) sinderfor- derlich, wenn das gesamte Alphabet mit Groß- und Kleinbuch- staben, allen Zahlen und Zeichen darzustellen sind. Mit einem Byte ergeben sich bereits 256 verschiedenartige Darstellungs- möglichkeiten.  Es ist auch üblich, Speicherkapazitäten nicht in Bit sondern in Byte anzugeben. In unserem Mikroprozessor z. B. stehen für das Monitor-Programm (Betriebssystem) 4096 Bytes (32.768 Bits) zur Verfügung. Außerdem ist im Mikroprozessor ein RAM- Speicher mit 64 Bytes (512 Bits) vorhanden. Über den Mikro- prozessor wird ein externer RAM-Speicher angesteuert (zur Ein- und Ausgabe der Programm-Schritte) mit einer Kapazität von 512 Bytes (4.096 Bits.)."
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1251,
+        101,
+        2298,
+        138
+      ],
+      "fragments": [
+        [
+          1251,
+          101,
+          2298,
+          138
+        ]
+      ],
+      "lines": [
+        [
+          1251,
+          101,
+          2298,
+          138
+        ]
+      ],
+      "text": "Nach HALT - NEXT - 00 geben wir folgendes Programm ein:"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1242,
+        655,
+        2309,
+        1810
+      ],
+      "fragments": [
+        [
+          1242,
+          655,
+          2309,
+          1810
+        ]
+      ],
+      "lines": [
+        [
+          1242,
+          655,
+          2309,
+          1810
+        ]
+      ],
+      "text": "Adresse | Befehls- | Mnemonic | Erklärungen Eingabe 00 FO2 DISOUT Anzeige ausschalten 01 181 MOVI 8,1 | konstanten Wert 8 in Register 1 speichern 02 FDO DINO Data in 03 A10 OR 1,0 logisches „Oder” 04 FEO DOTO Data out 05 c00 GOTO 00 ‚ Rücksprung  Programm-Start: HALT - NEXT - 00 - RUN.  Das ZERO-Flag neben dem Display flackert, die rechte LED am Ausgang 4 leuchtet. Betätigen wir die rote Taste G leuchtet zu- sätzlich die LED am Ausgang 1. Betätigen wir die rote Taste H leuchtet die LED am Ausgang 2 zusätzlich zurLED am Ausgang 4. Werden beide roten Tasten betätigt, leuchten zusätzlich zur LED am Ausgang 4 die beiden LED’s an den Ausgängen 1 und 2.  Durch Betätigung einer roten Taste haben wir also jeweils nur ein einzelnes Bit am entsprechenden Ausgang geändert. Die Änderung einzelner Bits nennt man auch „logische Operatio- nen”, Hierfür steht uns der OR-Befehl zur Verfügung.  Betrachten wir uns das Programm:  Mit dem DISOUT-Befehl wird das Display abgeschaltet. Mit dem MOVI-Befehl bringen wir den konstanten Wert 8 in Regi- ster 1. Der Wert 8 ergibt dual 1000. Der folgende OR-Befehl stellt fest, daß in Register 1 der Wert 8 vorhanden ist. Dieser Wert wird durch den OR-Befehl an das Register 0 weitergege- ben und gelangt durch den DOT-Befehl an den Daten-Aus- gang: Die LED am Ausgang 4 leuchtet.  Durch die rote Taste G bringen wir über Adresse 02 den kon- stanten Wert 1 (dual 000 1) in das Register 0. Der wieder folgen- de OR-Befehl vergleicht nun die dualen Werte in Register 1 und in Register O und faßt alle Bits mit dem Wert 1 zusammen. Dies kann folgendermaßen dargestellt werden."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1238,
+        2091,
+        2304,
+        2340
+      ],
+      "fragments": [
+        [
+          1238,
+          2091,
+          2304,
+          2340
+        ]
+      ],
+      "lines": [
+        [
+          1238,
+          2091,
+          2304,
+          2340
+        ]
+      ],
+      "text": "Durch den OR-Befehl wurden also die „1-Bits” in den beiden Registern zusammengefaßt, wodurch 2 Ausgänge „high” wur- den und die LED’s an den Ausgängen 4 und 1 leuchten.  Durch die rote Taste H bringen wir den Wert 2 in Register O und es ergibt sich folgendes:  Ausgänge Nr. Im Register 1 Wert 8 = Im Register 0 durch Taste H Wert 2 = OR-Befehl faßt zusammen =  Jetzt leüchten die LED’s an den Ausgängen 4 und 2.  Bei gleichzeitiger Betätigung der roten Tasten G und H:"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        109,
+        2248,
+        1178,
+        3363
+      ],
+      "fragments": [
+        [
+          117,
+          2248,
+          654,
+          2357
+        ],
+        [
+          113,
+          2419,
+          1178,
+          2985
+        ],
+        [
+          112,
+          3021,
+          1174,
+          3139
+        ],
+        [
+          109,
+          3168,
+          1175,
+          3363
+        ]
+      ],
+      "lines": [
+        [
+          117,
+          2248,
+          654,
+          2357
+        ],
+        [
+          116,
+          2419,
+          1176,
+          2455
+        ],
+        [
+          116,
+          2460,
+          1178,
+          2496
+        ],
+        [
+          117,
+          2502,
+          1176,
+          2538
+        ],
+        [
+          116,
+          2543,
+          1175,
+          2579
+        ],
+        [
+          114,
+          2584,
+          1176,
+          2622
+        ],
+        [
+          114,
+          2626,
+          1175,
+          2663
+        ],
+        [
+          114,
+          2667,
+          1175,
+          2704
+        ],
+        [
+          115,
+          2708,
+          1175,
+          2745
+        ],
+        [
+          115,
+          2749,
+          1174,
+          2787
+        ],
+        [
+          113,
+          2791,
+          1175,
+          2827
+        ],
+        [
+          114,
+          2832,
+          1174,
+          2868
+        ],
+        [
+          113,
+          2873,
+          1174,
+          2911
+        ],
+        [
+          113,
+          2915,
+          1173,
+          2951
+        ],
+        [
+          113,
+          2956,
+          274,
+          2985
+        ],
+        [
+          113,
+          3021,
+          1173,
+          3057
+        ],
+        [
+          112,
+          3062,
+          1174,
+          3100
+        ],
+        [
+          112,
+          3103,
+          742,
+          3139
+        ],
+        [
+          110,
+          3168,
+          1172,
+          3206
+        ],
+        [
+          111,
+          3210,
+          1175,
+          3245
+        ],
+        [
+          110,
+          3251,
+          1175,
+          3287
+        ],
+        [
+          109,
+          3292,
+          1175,
+          3328
+        ],
+        [
+          109,
+          3333,
+          664,
+          3363
+        ]
+      ],
+      "text": "Wir verändern einzeine Bits: Logische Operationen  Beim vorangegangenen Reaktionstest haben wir erfahren, wie die Ein- und Ausgänge des Computers verwendet werden kön- nen. Fürjeden der 4 Eingänge benötigen wir 1 Bit, wobei dieses Bitentweder 0 oder 1 sein kann. Die „O-Bit” oder „1-Bit” können wir über den Mikroprozessor an die Ausgänge bringen. Mit einem „1-Bit” ergibt sich am entsprechenden Ausgang eine Spannung: LED leuchtet oder Piezo-Summer tönt. Mit „O-Bit” ist keine Spannung am Ausgang vorhanden: LED leuchtet nicht, Summer bleibt stumm. Wenn wir am Ausgang 4 eine LED zum leuchten bringen wollen, benötigen wir dual 1000, d.h.daß im entsprechenden Register der Wert 8 vorhanden sein muß. Soll die LED am Ausgang 1 leuchten, benötigen wir dual 0001, d. h. daß im entsprechenden Register der Wert 1 vorhanden sein muß.  Inder Praxiskommt es häufigvor, daßwirvon den 4Bits, diez.B. an den 4 Ausgängen vorhanden sind, ein einzelnes Bit (also einen Ausgang) verändern möchten.  Zum besseren Verständnis werden wir ein kleines Programm eingeben. Die Taster und Widerstände bleiben wie beim Reak- tionstest an der Computer-Platine angeschlossen. Die Zulei- tung zum Piezo-Summer wird unterbrochen, damit sein fort- währendes Summen nicht stört."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1236,
+        3085,
+        2303,
+        3369
+      ],
+      "fragments": [
+        [
+          1236,
+          3085,
+          2303,
+          3369
+        ]
+      ],
+      "lines": [
+        [
+          1238,
+          3085,
+          2303,
+          3120
+        ],
+        [
+          1237,
+          3126,
+          2300,
+          3161
+        ],
+        [
+          1238,
+          3168,
+          2302,
+          3203
+        ],
+        [
+          1237,
+          3209,
+          2303,
+          3244
+        ],
+        [
+          1238,
+          3251,
+          2303,
+          3286
+        ],
+        [
+          1238,
+          3292,
+          2300,
+          3327
+        ],
+        [
+          1236,
+          3333,
+          2303,
+          3369
+        ]
+      ],
+      "text": "Die LED’s an den Ausgängen 4, 2 und 1 leuchten. Der OR-Be- fehlist also ebenfalls ein Vergleichs-Befehl, welcher die *1-Bit” in 2 verschiedenen Registern vergleicht und die „1-Bits” zu- sammenfaßt. Der pauschale Befehls-Code lautet As@. Wir erin- nern uns: s= Queli-Register und d= Ziel-Register. Im vorste- henden Programm-Beispiel haben wir den Code eingegeben: A10, was bedeutet, daß das Register 1 mit dem Register O ver-"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1242,
+        176,
+        2309,
+        634
+      ],
+      "fragments": [
+        [
+          1242,
+          176,
+          2309,
+          634
+        ]
+      ],
+      "lines": [
+        [
+          1242,
+          176,
+          2309,
+          634
+        ]
+      ],
+      "text": "[recovered]",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1238,
+        1816,
+        2326,
+        2080
+      ],
+      "fragments": [
+        [
+          1238,
+          1816,
+          2326,
+          2080
+        ]
+      ],
+      "lines": [
+        [
+          1238,
+          1816,
+          2326,
+          2080
+        ]
+      ],
+      "text": "[recovered]",
+      "font_pt": 9.5
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1220,
+        2346,
+        2330,
+        2612
+      ],
+      "fragments": [
+        [
+          1220,
+          2346,
+          2330,
+          2612
+        ]
+      ],
+      "lines": [
+        [
+          1220,
+          2346,
+          2330,
+          2612
+        ]
+      ],
+      "text": "[recovered]",
+      "font_pt": 9.5
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1220,
+        2752,
+        2330,
+        3056
+      ],
+      "fragments": [
+        [
+          1220,
+          2752,
+          2330,
+          3056
+        ]
+      ],
+      "lines": [
+        [
+          1220,
+          2752,
+          2330,
+          3056
+        ]
+      ],
+      "text": "[recovered]",
+      "font_pt": 9.5
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1238,
+        2618,
+        2304,
+        2752
+      ],
+      "fragments": [
+        [
+          1238,
+          2618,
+          2304,
+          2752
+        ]
+      ],
+      "lines": [
+        [
+          1238,
+          2618,
+          2304,
+          2752
+        ]
+      ],
+      "text": "[recovered]"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        126,
+        100,
+        1189,
+        418
+      ],
+      "text": "Außer den 4-Bit-Mikroprozessoren gibt s auch 8-Bit-Mikropro- zessoren. Diese haben einen 8-Bit breiten Daten-Bus und kön- nen gleichzeitig z. B. 2-stellige hexadezimale Ziffern in einem Arbeitsgang verarbeiten. Hierdurch wird die Arbeitsgeschwin- digkeit des Mikroprozessors verdoppelt. 8-Bit-Mikroprozesso- ren werden vor allem in EDV-Anlagen eingesetzt, weil dort durch denhohen Datenanfalleine höhere Arbeitsgeschwindig- keit erforderlich ist.",
+      "lines": [
+        [
+          126,
+          100,
+          1189,
+          135
+        ],
+        [
+          127,
+          141,
+          1189,
+          171
+        ],
+        [
+          129,
+          182,
+          1185,
+          218
+        ],
+        [
+          126,
+          223,
+          1189,
+          259
+        ],
+        [
+          127,
+          265,
+          1189,
+          301
+        ],
+        [
+          128,
+          306,
+          1186,
+          341
+        ],
+        [
+          126,
+          347,
+          1189,
+          383
+        ],
+        [
+          127,
+          389,
+          457,
+          418
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        453,
+        1188,
+        654
+      ],
+      "text": "Außerdem gibt es noch 16-Bit-Mikroprozessoren, die in Groß- Rechen-Anlagen eingesetzt werden, um die dort anfallenden enormen Datenmengen mit höchster Geschwindigkeit zu ver- arbeiten. 32-Bit-Mikroprozessoren für noch höhere Anforde- rungen sind in der Entwicklung.",
+      "lines": [
+        [
+          125,
+          453,
+          1187,
+          488
+        ],
+        [
+          127,
+          494,
+          1184,
+          530
+        ],
+        [
+          126,
+          535,
+          1188,
+          571
+        ],
+        [
+          126,
+          577,
+          1188,
+          612
+        ],
+        [
+          127,
+          618,
+          671,
+          654
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        683,
+        1187,
+        925
+      ],
+      "text": "Man kann nicht sagen, daß ein 8-Bit-Mikroprozessors durch seine höhere Arbeitsgeschwindigkeit besser ist als ein 4-Bit- Prozessor. Es kommt letztlich darauf an, was durch den Mikro- prozessor-Einsatz erreicht werden soll. Auch das Preis-/Lei- stungsverhältnis ist ausschlaggebend für die Auswahl eines entsprechenden Prozessors.",
+      "lines": [
+        [
+          126,
+          683,
+          1183,
+          718
+        ],
+        [
+          125,
+          724,
+          1187,
+          760
+        ],
+        [
+          126,
+          765,
+          1187,
+          800
+        ],
+        [
+          126,
+          807,
+          1187,
+          843
+        ],
+        [
+          125,
+          849,
+          1185,
+          884
+        ],
+        [
+          125,
+          890,
+          622,
+          925
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        955,
+        1186,
+        1067
+      ],
+      "text": "Der 4-Bit-Mikroprozessor hat für uns vor allem den Vorteil, daß seine Arbeitsweise noch halbwegs darstellbar und übersicht- lich ist.",
+      "lines": [
+        [
+          126,
+          955,
+          1184,
+          990
+        ],
+        [
+          124,
+          996,
+          1186,
+          1032
+        ],
+        [
+          126,
+          1038,
+          243,
+          1067
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        122,
+        1107,
+        504,
+        1142
+      ],
+      "text": "Und was sind Bytes?",
+      "lines": [
+        [
+          122,
+          1107,
+          504,
+          1142
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        1172,
+        1184,
+        1415
+      ],
+      "text": "Ein Byte hat 8Bits. 4 Bits reichen aus für die 16 einstelligen he- xadezimalen Möglichkeiten, Acht Bits (also ein Byte) sinderfor- derlich, wenn das gesamte Alphabet mit Groß- und Kleinbuch- staben, allen Zahlen und Zeichen darzustellen sind. Mit einem Byte ergeben sich bereits 256 verschiedenartige Darstellungs- möglichkeiten.",
+      "lines": [
+        [
+          122,
+          1172,
+          1184,
+          1209
+        ],
+        [
+          121,
+          1214,
+          1183,
+          1251
+        ],
+        [
+          122,
+          1255,
+          1183,
+          1291
+        ],
+        [
+          121,
+          1297,
+          1179,
+          1331
+        ],
+        [
+          122,
+          1338,
+          1183,
+          1375
+        ],
+        [
+          122,
+          1380,
+          371,
+          1415
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        118,
+        1445,
+        1182,
+        1771
+      ],
+      "text": "Es ist auch üblich, Speicherkapazitäten nicht in Bit sondern in Byte anzugeben. In unserem Mikroprozessor z. B. stehen für das Monitor-Programm (Betriebssystem) 4096 Bytes (32.768 Bits) zur Verfügung. Außerdem ist im Mikroprozessor ein RAM- Speicher mit 64 Bytes (512 Bits) vorhanden. Über den Mikro- prozessor wird ein externer RAM-Speicher angesteuert (zur Ein- und Ausgabe der Programm-Schritte) mit einer Kapazität von 512 Bytes (4.096 Bits.).",
+      "lines": [
+        [
+          121,
+          1445,
+          1179,
+          1480
+        ],
+        [
+          121,
+          1486,
+          1182,
+          1522
+        ],
+        [
+          121,
+          1528,
+          1180,
+          1564
+        ],
+        [
+          121,
+          1569,
+          1182,
+          1610
+        ],
+        [
+          120,
+          1611,
+          1182,
+          1647
+        ],
+        [
+          121,
+          1652,
+          1182,
+          1689
+        ],
+        [
+          120,
+          1694,
+          1180,
+          1730
+        ],
+        [
+          118,
+          1735,
+          586,
+          1771
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        117,
+        2248,
+        654,
+        2357
+      ],
+      "text": "Wir verändern einzeine Bits: Logische Operationen",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        113,
+        2419,
+        1178,
+        2985
+      ],
+      "text": "Beim vorangegangenen Reaktionstest haben wir erfahren, wie die Ein- und Ausgänge des Computers verwendet werden kön- nen. Fürjeden der 4 Eingänge benötigen wir 1 Bit, wobei dieses Bitentweder 0 oder 1 sein kann. Die „O-Bit” oder „1-Bit” können wir über den Mikroprozessor an die Ausgänge bringen. Mit einem „1-Bit” ergibt sich am entsprechenden Ausgang eine Spannung: LED leuchtet oder Piezo-Summer tönt. Mit „O-Bit” ist keine Spannung am Ausgang vorhanden: LED leuchtet nicht, Summer bleibt stumm. Wenn wir am Ausgang 4 eine LED zum leuchten bringen wollen, benötigen wir dual 1000, d.h.daß im entsprechenden Register der Wert 8 vorhanden sein muß. Soll die LED am Ausgang 1 leuchten, benötigen wir dual 0001, d. h. daß im entsprechenden Register der Wert 1 vorhanden sein muß.",
+      "lines": [
+        [
+          116,
+          2419,
+          1176,
+          2455
+        ],
+        [
+          116,
+          2460,
+          1178,
+          2496
+        ],
+        [
+          117,
+          2502,
+          1176,
+          2538
+        ],
+        [
+          116,
+          2543,
+          1175,
+          2579
+        ],
+        [
+          114,
+          2584,
+          1176,
+          2622
+        ],
+        [
+          114,
+          2626,
+          1175,
+          2663
+        ],
+        [
+          114,
+          2667,
+          1175,
+          2704
+        ],
+        [
+          115,
+          2708,
+          1175,
+          2745
+        ],
+        [
+          115,
+          2749,
+          1174,
+          2787
+        ],
+        [
+          113,
+          2791,
+          1175,
+          2827
+        ],
+        [
+          114,
+          2832,
+          1174,
+          2868
+        ],
+        [
+          113,
+          2873,
+          1174,
+          2911
+        ],
+        [
+          113,
+          2915,
+          1173,
+          2951
+        ],
+        [
+          113,
+          2956,
+          274,
+          2985
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        112,
+        3021,
+        1174,
+        3139
+      ],
+      "text": "Inder Praxiskommt es häufigvor, daßwirvon den 4Bits, diez.B. an den 4 Ausgängen vorhanden sind, ein einzelnes Bit (also einen Ausgang) verändern möchten.",
+      "lines": [
+        [
+          113,
+          3021,
+          1173,
+          3057
+        ],
+        [
+          112,
+          3062,
+          1174,
+          3100
+        ],
+        [
+          112,
+          3103,
+          742,
+          3139
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        109,
+        3168,
+        1175,
+        3363
+      ],
+      "text": "Zum besseren Verständnis werden wir ein kleines Programm eingeben. Die Taster und Widerstände bleiben wie beim Reak- tionstest an der Computer-Platine angeschlossen. Die Zulei- tung zum Piezo-Summer wird unterbrochen, damit sein fort- währendes Summen nicht stört.",
+      "lines": [
+        [
+          110,
+          3168,
+          1172,
+          3206
+        ],
+        [
+          111,
+          3210,
+          1175,
+          3245
+        ],
+        [
+          110,
+          3251,
+          1175,
+          3287
+        ],
+        [
+          109,
+          3292,
+          1175,
+          3328
+        ],
+        [
+          109,
+          3333,
+          664,
+          3363
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        101,
+        2298,
+        138
+      ],
+      "text": "Nach HALT - NEXT - 00 geben wir folgendes Programm ein:",
+      "lines": [
+        [
+          1251,
+          101,
+          2298,
+          138
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1264,
+        181,
+        2204,
+        618
+      ],
+      "text": "Adresse | Befehls- | Mnemonic | Erklärungen Eingabe 00 FO2 DISOUT Anzeige ausschalten 01 181 MOVI 8,1 | konstanten Wert 8 in Register 1 speichern 02 FDO DINO Data in 03 A10 OR 1,0 logisches „Oder” 04 FEO DOTO Data out 05 c00 GOTO 00 ‚ Rücksprung",
+      "lines": [
+        [
+          1264,
+          181,
+          2050,
+          217
+        ],
+        [
+          1443,
+          223,
+          1589,
+          258
+        ],
+        [
+          1265,
+          275,
+          2203,
+          311
+        ],
+        [
+          1265,
+          328,
+          2203,
+          362
+        ],
+        [
+          1842,
+          370,
+          2204,
+          405
+        ],
+        [
+          1264,
+          423,
+          1960,
+          453
+        ],
+        [
+          1264,
+          476,
+          2137,
+          512
+        ],
+        [
+          1264,
+          529,
+          1987,
+          560
+        ],
+        [
+          1264,
+          582,
+          2052,
+          618
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        661,
+        1998,
+        696
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN.",
+      "lines": [
+        [
+          1249,
+          661,
+          1998,
+          696
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1246,
+        726,
+        2309,
+        1003
+      ],
+      "text": "Das ZERO-Flag neben dem Display flackert, die rechte LED am Ausgang 4 leuchtet. Betätigen wir die rote Taste G leuchtet zu- sätzlich die LED am Ausgang 1. Betätigen wir die rote Taste H leuchtet die LED am Ausgang 2 zusätzlich zurLED am Ausgang 4. Werden beide roten Tasten betätigt, leuchten zusätzlich zur LED am Ausgang 4 die beiden LED’s an den Ausgängen 1 und 2.",
+      "lines": [
+        [
+          1248,
+          726,
+          2306,
+          761
+        ],
+        [
+          1246,
+          767,
+          2309,
+          803
+        ],
+        [
+          1247,
+          809,
+          2304,
+          844
+        ],
+        [
+          1248,
+          850,
+          2305,
+          887
+        ],
+        [
+          1248,
+          891,
+          2308,
+          927
+        ],
+        [
+          1248,
+          933,
+          2305,
+          969
+        ],
+        [
+          1246,
+          975,
+          1273,
+          1003
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        1039,
+        2308,
+        1199
+      ],
+      "text": "Durch Betätigung einer roten Taste haben wir also jeweils nur ein einzelnes Bit am entsprechenden Ausgang geändert. Die Änderung einzelner Bits nennt man auch „logische Operatio- nen”, Hierfür steht uns der OR-Befehl zur Verfügung.",
+      "lines": [
+        [
+          1247,
+          1039,
+          2308,
+          1075
+        ],
+        [
+          1246,
+          1080,
+          2305,
+          1120
+        ],
+        [
+          1244,
+          1122,
+          2308,
+          1158
+        ],
+        [
+          1247,
+          1163,
+          2156,
+          1199
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1246,
+        1228,
+        1845,
+        1264
+      ],
+      "text": "Betrachten wir uns das Programm:",
+      "lines": [
+        [
+          1246,
+          1228,
+          1845,
+          1264
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1242,
+        1293,
+        2307,
+        1577
+      ],
+      "text": "Mit dem DISOUT-Befehl wird das Display abgeschaltet. Mit dem MOVI-Befehl bringen wir den konstanten Wert 8 in Regi- ster 1. Der Wert 8 ergibt dual 1000. Der folgende OR-Befehl stellt fest, daß in Register 1 der Wert 8 vorhanden ist. Dieser Wert wird durch den OR-Befehl an das Register 0 weitergege- ben und gelangt durch den DOT-Befehl an den Daten-Aus- gang: Die LED am Ausgang 4 leuchtet.",
+      "lines": [
+        [
+          1246,
+          1293,
+          2305,
+          1329
+        ],
+        [
+          1245,
+          1335,
+          2307,
+          1371
+        ],
+        [
+          1244,
+          1377,
+          2304,
+          1412
+        ],
+        [
+          1244,
+          1418,
+          2307,
+          1453
+        ],
+        [
+          1242,
+          1459,
+          2307,
+          1496
+        ],
+        [
+          1245,
+          1501,
+          2307,
+          1536
+        ],
+        [
+          1244,
+          1542,
+          1911,
+          1577
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1243,
+        1607,
+        2307,
+        1808
+      ],
+      "text": "Durch die rote Taste G bringen wir über Adresse 02 den kon- stanten Wert 1 (dual 000 1) in das Register 0. Der wieder folgen- de OR-Befehl vergleicht nun die dualen Werte in Register 1 und in Register O und faßt alle Bits mit dem Wert 1 zusammen. Dies kann folgendermaßen dargestellt werden.",
+      "lines": [
+        [
+          1244,
+          1607,
+          2306,
+          1643
+        ],
+        [
+          1243,
+          1649,
+          2307,
+          1685
+        ],
+        [
+          1244,
+          1690,
+          2303,
+          1726
+        ],
+        [
+          1244,
+          1731,
+          2304,
+          1767
+        ],
+        [
+          1244,
+          1772,
+          1960,
+          1808
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1240,
+        2091,
+        2304,
+        2209
+      ],
+      "text": "Durch den OR-Befehl wurden also die „1-Bits” in den beiden Registern zusammengefaßt, wodurch 2 Ausgänge „high” wur- den und die LED’s an den Ausgängen 4 und 1 leuchten.",
+      "lines": [
+        [
+          1241,
+          2091,
+          2300,
+          2126
+        ],
+        [
+          1241,
+          2132,
+          2304,
+          2169
+        ],
+        [
+          1240,
+          2173,
+          2209,
+          2209
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1239,
+        2256,
+        2300,
+        2333
+      ],
+      "text": "Durch die rote Taste H bringen wir den Wert 2 in Register O und es ergibt sich folgendes:",
+      "lines": [
+        [
+          1240,
+          2256,
+          2300,
+          2293
+        ],
+        [
+          1239,
+          2297,
+          1667,
+          2333
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1255,
+        2383,
+        2000,
+        2573
+      ],
+      "text": "Ausgänge Nr. Im Register 1 Wert 8 = Im Register 0 durch Taste H Wert 2 = OR-Befehl faßt zusammen =",
+      "lines": [
+        [
+          1764,
+          2383,
+          1999,
+          2419
+        ],
+        [
+          1257,
+          2437,
+          2000,
+          2472
+        ],
+        [
+          1256,
+          2490,
+          2000,
+          2525
+        ],
+        [
+          1255,
+          2543,
+          1988,
+          2573
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        2627,
+        2149,
+        2665
+      ],
+      "text": "Jetzt leüchten die LED’s an den Ausgängen 4 und 2.",
+      "lines": [
+        [
+          1238,
+          2627,
+          2149,
+          2665
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1241,
+        2713,
+        2201,
+        2748
+      ],
+      "text": "Bei gleichzeitiger Betätigung der roten Tasten G und H:",
+      "lines": [
+        [
+          1241,
+          2713,
+          2201,
+          2748
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1236,
+        3085,
+        2303,
+        3369
+      ],
+      "text": "Die LED’s an den Ausgängen 4, 2 und 1 leuchten. Der OR-Be- fehlist also ebenfalls ein Vergleichs-Befehl, welcher die *1-Bit” in 2 verschiedenen Registern vergleicht und die „1-Bits” zu- sammenfaßt. Der pauschale Befehls-Code lautet As@. Wir erin- nern uns: s= Queli-Register und d= Ziel-Register. Im vorste- henden Programm-Beispiel haben wir den Code eingegeben: A10, was bedeutet, daß das Register 1 mit dem Register O ver-",
+      "lines": [
+        [
+          1238,
+          3085,
+          2303,
+          3120
+        ],
+        [
+          1237,
+          3126,
+          2300,
+          3161
+        ],
+        [
+          1238,
+          3168,
+          2302,
+          3203
+        ],
+        [
+          1237,
+          3209,
+          2303,
+          3244
+        ],
+        [
+          1238,
+          3251,
+          2303,
+          3286
+        ],
+        [
+          1238,
+          3292,
+          2300,
+          3327
+        ],
+        [
+          1236,
+          3333,
+          2303,
+          3369
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

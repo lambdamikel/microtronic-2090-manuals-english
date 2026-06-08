@@ -1,0 +1,972 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        108,
+        30,
+        1210,
+        215
+      ],
+      "fragments": [
+        [
+          108,
+          30,
+          1210,
+          215
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          30,
+          1210,
+          215
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        410,
+        1210,
+        1185
+      ],
+      "fragments": [
+        [
+          108,
+          410,
+          1210,
+          1185
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          410,
+          1210,
+          1185
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        108,
+        1505,
+        1210,
+        1690
+      ],
+      "fragments": [
+        [
+          108,
+          1505,
+          1210,
+          1690
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          1505,
+          1210,
+          1690
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        1820,
+        1210,
+        2310
+      ],
+      "fragments": [
+        [
+          108,
+          1820,
+          1210,
+          2310
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          1820,
+          1210,
+          2310
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1236,
+        30,
+        2340,
+        145
+      ],
+      "fragments": [
+        [
+          1236,
+          30,
+          2340,
+          145
+        ]
+      ],
+      "lines": [
+        [
+          1236,
+          30,
+          2340,
+          145
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1236,
+        335,
+        2340,
+        2860
+      ],
+      "fragments": [
+        [
+          1236,
+          335,
+          2340,
+          2860
+        ]
+      ],
+      "lines": [
+        [
+          1236,
+          335,
+          2340,
+          2860
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        129,
+        103,
+        1186,
+        203
+      ],
+      "text": "Mit Cassetten-Recorder oder Tonbandgerät Computer-Programme speichern",
+      "lines": [
+        [
+          131,
+          103,
+          1186,
+          153
+        ],
+        [
+          129,
+          156,
+          925,
+          203
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        126,
+        419,
+        1186,
+        570
+      ],
+      "text": "Im 2. Teil des Anleitungsbuches ergeben sich teilweise sehr lange Programme, welche neu eingegeben werden müssen, wenn die Netzstrom-Versorgung zum Computer unterbrochen wird.",
+      "lines": [
+        [
+          128,
+          419,
+          1186,
+          455
+        ],
+        [
+          128,
+          460,
+          1184,
+          497
+        ],
+        [
+          126,
+          501,
+          1183,
+          537
+        ],
+        [
+          126,
+          542,
+          204,
+          570
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        606,
+        1183,
+        725
+      ],
+      "text": "Da auch die Speicher-Kapazität auf 256 Programm-Schritte begrenzt ist, wird durch Eingabe eines sehr langen Programms ein anderes Programm gelöscht.",
+      "lines": [
+        [
+          127,
+          606,
+          1183,
+          644
+        ],
+        [
+          127,
+          648,
+          1183,
+          686
+        ],
+        [
+          125,
+          689,
+          685,
+          725
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        123,
+        754,
+        1185,
+        1163
+      ],
+      "text": "Durch das in Vorbereitung befindliche Cassetten-Interface kann der Inhalt des Programm-Speichers auf eine Cassette oder Tonband überspielt werden. Auf diese Weise ist es mög- lich ein umfangreiches Programm-Archiv anzulegen und außerhalb des Computers zu speichern. Diese „ausgelager- ten” Programme können jederzeit mit Hilfe des Cassetten- Interface wieder in den Programm-Speicher zurückgespielt werden und stehen damit „auf Abruf” für eine erneute Pro- gramm-Abarbeitung zur Verfügung. Das Aus- oder Einspielen der Programme wird innerhalb weniger Minuten durchgeführt.",
+      "lines": [
+        [
+          126,
+          754,
+          1182,
+          790
+        ],
+        [
+          126,
+          795,
+          1182,
+          831
+        ],
+        [
+          124,
+          837,
+          1184,
+          875
+        ],
+        [
+          125,
+          877,
+          1181,
+          916
+        ],
+        [
+          123,
+          919,
+          1182,
+          957
+        ],
+        [
+          123,
+          961,
+          1183,
+          996
+        ],
+        [
+          124,
+          1001,
+          1181,
+          1040
+        ],
+        [
+          123,
+          1041,
+          1185,
+          1077
+        ],
+        [
+          123,
+          1083,
+          1182,
+          1121
+        ],
+        [
+          123,
+          1123,
+          1181,
+          1163
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1515,
+        1163,
+        1616
+      ],
+      "text": "Das Microtronic-Computersystem wird zum Sprach-Computer",
+      "lines": [
+        [
+          118,
+          1515,
+          1163,
+          1565
+        ],
+        [
+          116,
+          1568,
+          548,
+          1616
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        113,
+        1831,
+        1176,
+        2033
+      ],
+      "text": "Ein Zusatz-Modul, mit weichem ein Ausbau zum sprechenden Computer möglich wird, befindet sich ebenfalls in Vorberei- tung. Ähnlich wie beim Cassetten-Interface werden solche Zu- satz-Ausrüstungen durch leicht herstellbare Steckverbindun- gen durchgeführt.",
+      "lines": [
+        [
+          115,
+          1831,
+          1172,
+          1870
+        ],
+        [
+          114,
+          1873,
+          1176,
+          1913
+        ],
+        [
+          113,
+          1914,
+          1176,
+          1949
+        ],
+        [
+          114,
+          1956,
+          1175,
+          1992
+        ],
+        [
+          113,
+          1997,
+          421,
+          2033
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        113,
+        2062,
+        1175,
+        2142
+      ],
+      "text": "Erfragen Sie bitte zu gegebener Zeit beim einschlägigen Fach- handel oder direkt bei uns die Liefermöglichkeiten.",
+      "lines": [
+        [
+          113,
+          2062,
+          1175,
+          2101
+        ],
+        [
+          114,
+          2103,
+          990,
+          2142
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        110,
+        2168,
+        1174,
+        2289
+      ],
+      "text": "Wenn sie uns die dem Computersystem beigegebene Regi- strierungs-Karte übersenden, erhalten Sie automatisch Infor- mationen über alle Zusatz-Einrichtungen.",
+      "lines": [
+        [
+          110,
+          2168,
+          1174,
+          2209
+        ],
+        [
+          112,
+          2209,
+          1174,
+          2245
+        ],
+        [
+          113,
+          2251,
+          825,
+          2289
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        107,
+        1877,
+        155
+      ],
+      "text": "Technische Beschreibung",
+      "lines": [
+        [
+          1250,
+          107,
+          1877,
+          155
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1245,
+        422,
+        2002,
+        521
+      ],
+      "text": "Mikroprozessor: 4-bit Prozessor TMS 1600 Taktfrequenz: 500 kHz",
+      "lines": [
+        [
+          1249,
+          422,
+          2002,
+          457
+        ],
+        [
+          1245,
+          487,
+          1651,
+          521
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1246,
+        552,
+        2306,
+        668
+      ],
+      "text": "Speicher: im Mikroprozessor integriertes ROM mit 4096 Bytes Monitorprogramm, und RAM mit 64 Bytes sowie externes RAM mit 512 Bytes.",
+      "lines": [
+        [
+          1246,
+          552,
+          2306,
+          588
+        ],
+        [
+          1247,
+          593,
+          2304,
+          628
+        ],
+        [
+          1247,
+          634,
+          1482,
+          668
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        698,
+        2307,
+        899
+      ],
+      "text": "Befehlssatz: Speziell entwickelter microtronic-Befehlssatz mit über 40 Einzelbefehlen, den eigentlichen Mikroprozessor- befehlen ähnlich aufgebaut. Durch die komplexeren Einzelbe- fehle (z. B. Displaybefehl, Multiplikations-Divisionsbefehle usw.) wird das Programmieren wesentlich vereinfacht.",
+      "lines": [
+        [
+          1247,
+          698,
+          2305,
+          733
+        ],
+        [
+          1247,
+          740,
+          2307,
+          776
+        ],
+        [
+          1246,
+          781,
+          2307,
+          817
+        ],
+        [
+          1244,
+          822,
+          2305,
+          858
+        ],
+        [
+          1246,
+          864,
+          2176,
+          899
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1544,
+        929,
+        2061,
+        1042
+      ],
+      "text": "16 Hexadezimal-Tasten 8 Funktionstasten 2 freie Sonderfunktionstasten",
+      "lines": [
+        [
+          1544,
+          929,
+          1948,
+          959
+        ],
+        [
+          1551,
+          971,
+          1857,
+          1000
+        ],
+        [
+          1551,
+          1012,
+          2061,
+          1042
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        929,
+        1408,
+        959
+      ],
+      "text": "Tastatur:",
+      "lines": [
+        [
+          1244,
+          929,
+          1408,
+          959
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1243,
+        1075,
+        2307,
+        1236
+      ],
+      "text": "Display-Anzeige: 6-stellige Siebensegment-Muiltifunktionsan- zeige. 2 LED’s zur Anzeige von Carry- und Zero-Flags. 4 LED’s für Zustandsanzeige derDatenausgänge. 1 LED zur Takt-Funk- tionsanzeige.",
+      "lines": [
+        [
+          1245,
+          1075,
+          2307,
+          1113
+        ],
+        [
+          1243,
+          1117,
+          2306,
+          1155
+        ],
+        [
+          1243,
+          1159,
+          2307,
+          1196
+        ],
+        [
+          1243,
+          1200,
+          1469,
+          1236
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1240,
+        1265,
+        2303,
+        1424
+      ],
+      "text": "Ausgang: 4-Bit-Datenausgang zur direkten Ansteuerung von IC’s, Transistoren, BUSCH-micro-electronic Schaltrelais 5964 usw. (kein zusätzliches Interface notwendig). Pegel 5 V, TTL - kompatibel",
+      "lines": [
+        [
+          1240,
+          1265,
+          2302,
+          1304
+        ],
+        [
+          1242,
+          1305,
+          2303,
+          1340
+        ],
+        [
+          1244,
+          1348,
+          2015,
+          1386
+        ],
+        [
+          1242,
+          1389,
+          1717,
+          1424
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1242,
+        1454,
+        2302,
+        1575
+      ],
+      "text": "Eingang: 4-Bit-Dateneingang zur direkten Ansteuerung durch IC’s, Transistoren usw. (kein zusätzliches Interface notwendig, überlastgeschützt). Pegel 5 V (max. 9 V), TTL-Kompatibel.",
+      "lines": [
+        [
+          1243,
+          1454,
+          2301,
+          1491
+        ],
+        [
+          1242,
+          1495,
+          2302,
+          1533
+        ],
+        [
+          1242,
+          1538,
+          2227,
+          1575
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1240,
+        1600,
+        2303,
+        1714
+      ],
+      "text": "Normbuchsen: 2 Buchsen für handelsübliche Stereo-Über- spielkabel für Cassettenrecorder und externe Geräte-An- schlüsse.",
+      "lines": [
+        [
+          1241,
+          1600,
+          2303,
+          1635
+        ],
+        [
+          1240,
+          1644,
+          2303,
+          1678
+        ],
+        [
+          1240,
+          1685,
+          1401,
+          1714
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1239,
+        1751,
+        2302,
+        1868
+      ],
+      "text": "integrierter Taktgenerator: 1 Hz Quarzgesteuerter Taktgene- rator zur Steuerung von Uhren oder zeitabhängigen Schaltun- gen.",
+      "lines": [
+        [
+          1240,
+          1751,
+          2302,
+          1789
+        ],
+        [
+          1240,
+          1791,
+          2302,
+          1830
+        ],
+        [
+          1239,
+          1840,
+          1309,
+          1868
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        1898,
+        2298,
+        1937
+      ],
+      "text": "Signaltongeber: Piezo-Summer durch Programmierung",
+      "lines": [
+        [
+          1238,
+          1898,
+          2298,
+          1937
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        1940,
+        1453,
+        1968
+      ],
+      "text": "ansteuerbar.",
+      "lines": [
+        [
+          1238,
+          1940,
+          1453,
+          1968
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1236,
+        2005,
+        2301,
+        2157
+      ],
+      "text": "Integrierte Festprogramme: Digital-Uhr (mit Stunden-, Minu- ten- und Sekunden-Leuchtanzeige), Zufallsgenerator, Interfa- ce-Steuerung, Hexadezimal-/Dezimal-Converter, Nimm-Spiel u.a.",
+      "lines": [
+        [
+          1238,
+          2005,
+          2301,
+          2042
+        ],
+        [
+          1236,
+          2045,
+          2301,
+          2083
+        ],
+        [
+          1236,
+          2086,
+          2299,
+          2126
+        ],
+        [
+          1238,
+          2136,
+          1305,
+          2157
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1236,
+        2195,
+        2301,
+        2314
+      ],
+      "text": "Stromversorgung: Eingebautes Netzgerät 220/10 Volt, Si- cherheitstransformator mit Spannungsregelung nach VDE- Vorschriften geprüft.",
+      "lines": [
+        [
+          1237,
+          2195,
+          2301,
+          2232
+        ],
+        [
+          1237,
+          2237,
+          2301,
+          2274
+        ],
+        [
+          1236,
+          2278,
+          1587,
+          2314
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1235,
+        2343,
+        2301,
+        2503
+      ],
+      "text": "Im Preis enthaltenes Zubehör: Umfangreiches Anleitungs- buch, Programmierformulare, sowie einige Elektronik-Elemen- te auf BUSCH-Steckbausteinen montiert, zum Aufbau einfa- cher Peripherie-Schaltungen.",
+      "lines": [
+        [
+          1237,
+          2343,
+          2301,
+          2381
+        ],
+        [
+          1238,
+          2384,
+          2301,
+          2421
+        ],
+        [
+          1235,
+          2425,
+          2300,
+          2461
+        ],
+        [
+          1236,
+          2467,
+          1748,
+          2503
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1235,
+        2533,
+        2299,
+        2653
+      ],
+      "text": "Zusätzliche Erweitungsmöglichkeit: microtronic-Cassetten- Interface Nr. 2095 für die direkte Programmspeicherung mit handelsüblichem Cassetten-Recorder oder Tonbandgerät.",
+      "lines": [
+        [
+          1235,
+          2533,
+          2299,
+          2569
+        ],
+        [
+          1236,
+          2573,
+          2298,
+          2612
+        ],
+        [
+          1237,
+          2615,
+          2252,
+          2653
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1234,
+        2680,
+        2299,
+        2798
+      ],
+      "text": "Zum schnellen Aufbau elektronischer Peripherie-Geräte wer- den die BUSCH Electronic-Studios 2060, 2070 bzw. 2075 empfohlen. Bitte Prospekte anfordern.",
+      "lines": [
+        [
+          1234,
+          2680,
+          2299,
+          2716
+        ],
+        [
+          1234,
+          2721,
+          2296,
+          2757
+        ],
+        [
+          1234,
+          2762,
+          1891,
+          2798
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

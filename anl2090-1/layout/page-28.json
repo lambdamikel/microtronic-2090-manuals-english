@@ -1,0 +1,396 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        120,
+        103,
+        794,
+        257
+      ],
+      "fragments": [
+        [
+          120,
+          103,
+          794,
+          257
+        ]
+      ],
+      "lines": [
+        [
+          120,
+          103,
+          794,
+          159
+        ],
+        [
+          120,
+          165,
+          617,
+          212
+        ],
+        [
+          120,
+          217,
+          377,
+          257
+        ]
+      ],
+      "text": "Der Programm-Ablaufplan - Das Flußdiagramm - Flow Chart"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        116,
+        427,
+        1181,
+        1330
+      ],
+      "fragments": [
+        [
+          116,
+          427,
+          1181,
+          1330
+        ]
+      ],
+      "lines": [
+        [
+          116,
+          427,
+          1181,
+          1330
+        ]
+      ],
+      "text": "Drei Bezeichnungen für das gleiche Objekt - wir können uns aussuchen, was uns am besten gefällt.  Computer-Programme werden bei zunehmender Länge immer unübersichtlicher. Schon das letzte Programm ist nicht mehr ganz einfach zu übersehen. Damit auch sehr große Pro- gramme verständlich dargestellt werden können, wurden Sinnbilder entwickelt, die sich zu einem Programm-Ablaufplan zusammenfügen lassen.  Nachstehend finden wir den Programm-Ablaufplan mit ent- sprechenden Erklärungen für den zuletzt programmierten De- zimal-Zähler.  Durch diesen Programm-Ablaufplan wird die Funktion des Programmes wesentlich übersichtlicher. Wir müssen jetzt le- diglich den Sinnbildern von oben nach unten folgen und bei den Verzweigungen (bei den Programm-Sprüngen) denLinien in Pfeilrichtung nachgehen."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1238,
+        883,
+        2302,
+        1330
+      ],
+      "fragments": [
+        [
+          1238,
+          883,
+          2302,
+          1330
+        ]
+      ],
+      "lines": [
+        [
+          1238,
+          883,
+          2302,
+          1330
+        ]
+      ],
+      "text": "Dieser Programm-Ablaufplan kann nochmals vereinfacht dar- gestellt werden, ohne daß deshalb die Übersichtlichkeit beein- trächtigt wird. Wir müssen uns lediglich die Bedeutung der Symbole und einige Kurzbezeichnungen merken.  Dieses vereinfachte flow-chart oder Flußdiagramm oder Pro- gramm-Ablaufplan sieht dann folgendermaßen aus:"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        120,
+        103,
+        794,
+        257
+      ],
+      "text": "Der Programm-Ablaufplan - Das Flußdiagramm - Flow Chart",
+      "lines": [
+        [
+          120,
+          103,
+          794,
+          159
+        ],
+        [
+          120,
+          165,
+          617,
+          212
+        ],
+        [
+          120,
+          217,
+          377,
+          257
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        119,
+        427,
+        1179,
+        504
+      ],
+      "text": "Drei Bezeichnungen für das gleiche Objekt - wir können uns aussuchen, was uns am besten gefällt.",
+      "lines": [
+        [
+          120,
+          427,
+          1179,
+          463
+        ],
+        [
+          119,
+          469,
+          801,
+          504
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        118,
+        531,
+        1180,
+        774
+      ],
+      "text": "Computer-Programme werden bei zunehmender Länge immer unübersichtlicher. Schon das letzte Programm ist nicht mehr ganz einfach zu übersehen. Damit auch sehr große Pro- gramme verständlich dargestellt werden können, wurden Sinnbilder entwickelt, die sich zu einem Programm-Ablaufplan zusammenfügen lassen.",
+      "lines": [
+        [
+          118,
+          531,
+          1178,
+          568
+        ],
+        [
+          119,
+          571,
+          1178,
+          608
+        ],
+        [
+          119,
+          613,
+          1180,
+          651
+        ],
+        [
+          118,
+          654,
+          1176,
+          692
+        ],
+        [
+          118,
+          695,
+          1176,
+          732
+        ],
+        [
+          118,
+          739,
+          538,
+          774
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        803,
+        1181,
+        915
+      ],
+      "text": "Nachstehend finden wir den Programm-Ablaufplan mit ent- sprechenden Erklärungen für den zuletzt programmierten De- zimal-Zähler.",
+      "lines": [
+        [
+          120,
+          803,
+          1181,
+          839
+        ],
+        [
+          119,
+          845,
+          1181,
+          880
+        ],
+        [
+          119,
+          886,
+          337,
+          915
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        950,
+        1179,
+        1152
+      ],
+      "text": "Durch diesen Programm-Ablaufplan wird die Funktion des Programmes wesentlich übersichtlicher. Wir müssen jetzt le- diglich den Sinnbildern von oben nach unten folgen und bei den Verzweigungen (bei den Programm-Sprüngen) denLinien in Pfeilrichtung nachgehen.",
+      "lines": [
+        [
+          118,
+          950,
+          1177,
+          986
+        ],
+        [
+          118,
+          991,
+          1179,
+          1028
+        ],
+        [
+          117,
+          1033,
+          1175,
+          1069
+        ],
+        [
+          116,
+          1074,
+          1175,
+          1111
+        ],
+        [
+          118,
+          1116,
+          594,
+          1152
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1501,
+        503,
+        1537
+      ],
+      "text": "Programm-Ablaufplan",
+      "lines": [
+        [
+          116,
+          1501,
+          503,
+          1537
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1238,
+        883,
+        2301,
+        1044
+      ],
+      "text": "Dieser Programm-Ablaufplan kann nochmals vereinfacht dar- gestellt werden, ohne daß deshalb die Übersichtlichkeit beein- trächtigt wird. Wir müssen uns lediglich die Bedeutung der Symbole und einige Kurzbezeichnungen merken.",
+      "lines": [
+        [
+          1240,
+          883,
+          2301,
+          923
+        ],
+        [
+          1239,
+          925,
+          2301,
+          962
+        ],
+        [
+          1238,
+          966,
+          2301,
+          1003
+        ],
+        [
+          1239,
+          1008,
+          2105,
+          1044
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1239,
+        1071,
+        2302,
+        1151
+      ],
+      "text": "Dieses vereinfachte flow-chart oder Flußdiagramm oder Pro- gramm-Ablaufplan sieht dann folgendermaßen aus:",
+      "lines": [
+        [
+          1240,
+          1071,
+          2302,
+          1107
+        ],
+        [
+          1239,
+          1113,
+          2144,
+          1151
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1432,
+        1499,
+        1886,
+        1576
+      ],
+      "text": "Programm-Ablaufplan, vereinfachte Darstellung",
+      "lines": [
+        [
+          1432,
+          1499,
+          1843,
+          1534
+        ],
+        [
+          1433,
+          1541,
+          1886,
+          1576
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        939,
+        3343,
+        1115,
+        3370
+      ],
+      "text": "weiterzählen).",
+      "lines": [
+        [
+          939,
+          3343,
+          1115,
+          3370
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "page_size_px": [
+    2480,
+    3507
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        1558,
+        944,
+        2352,
+        1004
+      ],
+      "fragments": [
+        [
+          1558,
+          944,
+          2352,
+          1004
+        ]
+      ],
+      "lines": [
+        [
+          1558,
+          944,
+          2352,
+          1004
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1565,
+        1081,
+        2350,
+        1352
+      ],
+      "fragments": [
+        [
+          1565,
+          1081,
+          2350,
+          1352
+        ]
+      ],
+      "lines": [
+        [
+          1565,
+          1081,
+          2350,
+          1352
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1566,
+        2984,
+        2322,
+        3206
+      ],
+      "fragments": [
+        [
+          1566,
+          2984,
+          2322,
+          3206
+        ]
+      ],
+      "lines": [
+        [
+          1566,
+          2984,
+          2322,
+          3206
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        1566,
+        965,
+        2340,
+        1018
+      ],
+      "text": "Mehr wissen als andere!",
+      "lines": [
+        [
+          1566,
+          965,
+          2340,
+          1018
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        452,
+        780,
+        825,
+        847
+      ],
+      "text": "In Zusammenarbeit mit dem Elektronik-Magazin",
+      "lines": [
+        [
+          454,
+          780,
+          806,
+          807
+        ],
+        [
+          452,
+          816,
+          825,
+          847
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1564,
+        1101,
+        2343,
+        1363
+      ],
+      "text": "BUSCH Electronic-Studios zeigen die gesamte Elektronik-Palette. Vom einfachen Stromkreis, über Blinkschaltungen bis zum Mikrocomputer.",
+      "lines": [
+        [
+          1566,
+          1101,
+          2343,
+          1153
+        ],
+        [
+          1565,
+          1156,
+          2278,
+          1210
+        ],
+        [
+          1564,
+          1209,
+          2180,
+          1262
+        ],
+        [
+          1566,
+          1261,
+          2165,
+          1315
+        ],
+        [
+          1564,
+          1314,
+          2030,
+          1363
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1565,
+        2991,
+        2302,
+        3200
+      ],
+      "text": "Man kann klein beginnen, z. B. mit dem Compact-Studio 2060, mit ca. 40 interessanten Experi- menten und Geräteschaltungen.",
+      "lines": [],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,1251 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        108,
+        1205,
+        480
+      ],
+      "fragments": [
+        [
+          135,
+          108,
+          1205,
+          480
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          108,
+          1205,
+          480
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        135,
+        570,
+        1205,
+        685
+      ],
+      "fragments": [
+        [
+          135,
+          570,
+          1205,
+          685
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          570,
+          1205,
+          685
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        700,
+        1205,
+        1800
+      ],
+      "fragments": [
+        [
+          135,
+          700,
+          1205,
+          1800
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          700,
+          1205,
+          1800
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        135,
+        1928,
+        1205,
+        2040
+      ],
+      "fragments": [
+        [
+          135,
+          1928,
+          1205,
+          2040
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          1928,
+          1205,
+          2040
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        2512,
+        1205,
+        2850
+      ],
+      "fragments": [
+        [
+          135,
+          2512,
+          1205,
+          2850
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          2512,
+          1205,
+          2850
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        2855,
+        1205,
+        3198
+      ],
+      "fragments": [
+        [
+          135,
+          2855,
+          1205,
+          3198
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          2855,
+          1205,
+          3198
+        ]
+      ],
+      "text": "",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        3210,
+        1205,
+        3372
+      ],
+      "fragments": [
+        [
+          135,
+          3210,
+          1205,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          3210,
+          1205,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        100,
+        2334,
+        1645
+      ],
+      "fragments": [
+        [
+          1258,
+          100,
+          2334,
+          1645
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          100,
+          2334,
+          1645
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1258,
+        1848,
+        2334,
+        1958
+      ],
+      "fragments": [
+        [
+          1258,
+          1848,
+          2334,
+          1958
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          1848,
+          2334,
+          1958
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        2030,
+        2334,
+        3372
+      ],
+      "fragments": [
+        [
+          1258,
+          2030,
+          2334,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          2030,
+          2334,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        138,
+        113,
+        1199,
+        483
+      ],
+      "text": "Jeder Programm-Schritt wird durch das Betriebs-System ge- steuert und vom Mikroprozessor bearbeitet, bzw. ausgewertet. Die von uns eingegebenen Befehls-Codes sind für den Prozes- sor nichts anderes, als auszuwertende Daten. Ein Eingabe-Be- fehl bewirkt, daß verschiedene Einzel-Befehle abgearbeitet werden. Das im ROM-Speicher vorhandene Betriebs-System ist ein „Übersetzungs-Programm”, welches die von uns einge- gebenen Befehle in eine für den Mikroprozessor verständliche Sprache übersetzt und bearbeitet.",
+      "lines": [
+        [
+          138,
+          113,
+          1197,
+          153
+        ],
+        [
+          139,
+          155,
+          1195,
+          192
+        ],
+        [
+          140,
+          195,
+          1198,
+          235
+        ],
+        [
+          140,
+          236,
+          1198,
+          274
+        ],
+        [
+          139,
+          277,
+          1196,
+          316
+        ],
+        [
+          139,
+          318,
+          1195,
+          364
+        ],
+        [
+          141,
+          360,
+          1199,
+          400
+        ],
+        [
+          140,
+          400,
+          1197,
+          443
+        ],
+        [
+          140,
+          445,
+          731,
+          483
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        575,
+        1081,
+        678
+      ],
+      "text": "Der Befehls-Satz ist eine Programmier- Sprache!",
+      "lines": [
+        [
+          138,
+          575,
+          1081,
+          622
+        ],
+        [
+          136,
+          631,
+          354,
+          678
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        723,
+        1198,
+        971
+      ],
+      "text": "Bei einem Programmlauf holt sich derMikroprozessor nachein- ander unsere eingegebenen Befehle aus dem RAM-Speicher. Durch Vergleichen erkennt er den Befehls-Code, z.B. daß eine Addition durchzuführen ist. Im ROM-Speicher steht für jeden Befehl ein Unterprogramm zur Verfügung, welches beim Ver- gleichen abgearbeitet wird.",
+      "lines": [
+        [
+          138,
+          723,
+          1197,
+          763
+        ],
+        [
+          137,
+          765,
+          1194,
+          803
+        ],
+        [
+          138,
+          806,
+          1195,
+          845
+        ],
+        [
+          137,
+          847,
+          1194,
+          884
+        ],
+        [
+          138,
+          888,
+          1198,
+          927
+        ],
+        [
+          138,
+          933,
+          605,
+          971
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        995,
+        1199,
+        1407
+      ],
+      "text": "Dieses Unterprogramm arbeitet mit der eigentlichen „Mikro- prozessor-Sprache”. Unsere Befehls-Codes, mit welchen wir gelernt haben zu addieren, multiplizieren, dividieren oderWerte auf dem Display anzuzeigen, benötigen zur Ausführung eine ganze Reihe einzeiner Mikroprozessor-Befehle. Der Microtro- nic-Befehls-Satz erleichtert die Programmierung, weil durch wenige Eingabe-Werte teilweise sehr umfangreiche Unterpro- gramme oder ganze Programmteile innerhalb des Mikropro- zessors angesprochen werden. Der Befehis-Satz ist eine Pro- grammier-Sprache.",
+      "lines": [
+        [
+          139,
+          995,
+          1198,
+          1033
+        ],
+        [
+          139,
+          1035,
+          1197,
+          1076
+        ],
+        [
+          138,
+          1077,
+          1196,
+          1118
+        ],
+        [
+          138,
+          1118,
+          1196,
+          1157
+        ],
+        [
+          138,
+          1160,
+          1199,
+          1201
+        ],
+        [
+          140,
+          1201,
+          1194,
+          1238
+        ],
+        [
+          137,
+          1243,
+          1199,
+          1283
+        ],
+        [
+          139,
+          1284,
+          1199,
+          1325
+        ],
+        [
+          138,
+          1325,
+          1199,
+          1365
+        ],
+        [
+          139,
+          1370,
+          471,
+          1407
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        1432,
+        1200,
+        1797
+      ],
+      "text": "Der Microtonic-Befehls-Satz kann bereits alseine „höhere Pro- grammier-Sprache” bezeichnet werden. Trotzdem hat der Mic- rotronic-Befehls-Satz eine Ähnlichkeit mit der eigentlichen „Mikroprozessor-Sprache”, Dies ist ein großer Vorteil, wenn z. B. ein Mikroprozessor zu programmieren ist, der nicht über ein so komfortables Betriebs-System verfügt wie in unserem Falle. Eine gedankliche Umstellung ist leicht möglich, weil wir die prinzipielle Logik und Arbeitsweise eines Mikroprozessors durch den Mierotronic-Befehls-Satz bereits kennen.",
+      "lines": [
+        [
+          139,
+          1432,
+          1200,
+          1467
+        ],
+        [
+          139,
+          1473,
+          1200,
+          1515
+        ],
+        [
+          140,
+          1514,
+          1196,
+          1550
+        ],
+        [
+          140,
+          1556,
+          1197,
+          1596
+        ],
+        [
+          140,
+          1597,
+          1197,
+          1636
+        ],
+        [
+          139,
+          1638,
+          1198,
+          1675
+        ],
+        [
+          140,
+          1679,
+          1198,
+          1719
+        ],
+        [
+          141,
+          1722,
+          1199,
+          1761
+        ],
+        [
+          139,
+          1764,
+          1039,
+          1797
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        1932,
+        995,
+        2034
+      ],
+      "text": "Es gibt verschiedene Programmier- Sprachen",
+      "lines": [
+        [
+          140,
+          1932,
+          995,
+          1981
+        ],
+        [
+          139,
+          1988,
+          369,
+          2034
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        141,
+        2519,
+        1205,
+        2719
+      ],
+      "text": "Bei größeren Computern mit hoher Speicher-Kapazität kann auch die Programmier-Sprache noch komfortabler und damit leicht erlernbar ausgelegt werden. Es gibt verschiedene höhe- re Programmier-Sprachen wie z. B. BASIC, PASCAL, COBOL USW.",
+      "lines": [
+        [
+          141,
+          2519,
+          1201,
+          2559
+        ],
+        [
+          141,
+          2560,
+          1203,
+          2600
+        ],
+        [
+          142,
+          2601,
+          1205,
+          2641
+        ],
+        [
+          143,
+          2643,
+          1204,
+          2684
+        ],
+        [
+          143,
+          2697,
+          216,
+          2719
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        2768,
+        1205,
+        2842
+      ],
+      "text": "Eine Programmierung in BASIC würde folgendermaßen aus- sehen:",
+      "lines": [
+        [
+          141,
+          2768,
+          1205,
+          2806
+        ],
+        [
+          141,
+          2813,
+          258,
+          2842
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        155,
+        2891,
+        1161,
+        3177
+      ],
+      "text": "Eingabe-Befehle | Erklärungen 10 : INPUT A Einen Wert in Speicher A übernehmen 20:B=A*A AxA=B 30 : PRINTB B wird über Bildschirm oder Drucker ausgegeben 40 : END Ende des Programmes",
+      "lines": [
+        [
+          155,
+          2891,
+          695,
+          2928
+        ],
+        [
+          156,
+          2939,
+          1161,
+          2976
+        ],
+        [
+          155,
+          2996,
+          656,
+          3029
+        ],
+        [
+          155,
+          3045,
+          1131,
+          3082
+        ],
+        [
+          487,
+          3090,
+          701,
+          3126
+        ],
+        [
+          156,
+          3143,
+          886,
+          3177
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        142,
+        3222,
+        1207,
+        3385
+      ],
+      "text": "Ein Vorteil ergibt sich, weil bestimmte Schlüsselwörter (z. B. INPUT, PRINT etc.) direkt programmiert werden, während wir dem viel kleineren Mikrocomputer einen verschlüsselten Code eingeben.",
+      "lines": [
+        [
+          142,
+          3222,
+          1205,
+          3261
+        ],
+        [
+          142,
+          3263,
+          1207,
+          3302
+        ],
+        [
+          142,
+          3304,
+          1205,
+          3342
+        ],
+        [
+          142,
+          3350,
+          310,
+          3385
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        106,
+        2322,
+        722
+      ],
+      "text": "Da auch Groß-Computer mit Mikroprozessoren arbeiten, muß die höhere Programmier-Sprache durch ein sehr umfangrei- ches Übersetzungs-Programm in die Mikroprozessor-Sprache zurückverwandelt werden. Der erforderliche Aufwand steigt beträchtlich. Es ist nicht nureine vollständige Tastatur mit allen Buchstaben, Zahlen und Zeichen erforderlich. Die Überwa- chung der Tastatur, die Umsetzung aller Buchstaben und Zei- chen in für Mikroprozessoren verständliche Daten und das Übersetzungs-Programm in Mikroprozessor-Befehle, benöti- gen eine hohe Speicher-Kapazität. Daß die umfangreichen Übersetzungen trotz rasanter Arbeitweise der Mikroprozesso- ren Zeit benötigen, ist einleuchtend. Deshalb werden mitunter auch größere EDV-Anlagen direkt in der Maschinen-Sprache (Mikroprozessor-Sprache) programmiert, wenn z. B. zeitkriti- sche Aufgaben zu lösen sind.",
+      "lines": [
+        [
+          1258,
+          106,
+          2317,
+          144
+        ],
+        [
+          1258,
+          147,
+          2320,
+          191
+        ],
+        [
+          1258,
+          188,
+          2318,
+          227
+        ],
+        [
+          1258,
+          229,
+          2318,
+          264
+        ],
+        [
+          1259,
+          271,
+          2317,
+          310
+        ],
+        [
+          1259,
+          312,
+          2321,
+          349
+        ],
+        [
+          1258,
+          353,
+          2321,
+          393
+        ],
+        [
+          1259,
+          394,
+          2319,
+          439
+        ],
+        [
+          1259,
+          435,
+          2321,
+          475
+        ],
+        [
+          1259,
+          476,
+          2318,
+          521
+        ],
+        [
+          1259,
+          517,
+          2321,
+          557
+        ],
+        [
+          1260,
+          559,
+          2321,
+          597
+        ],
+        [
+          1259,
+          599,
+          2319,
+          640
+        ],
+        [
+          1261,
+          641,
+          2322,
+          682
+        ],
+        [
+          1260,
+          685,
+          1767,
+          722
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        746,
+        2323,
+        946
+      ],
+      "text": "Bei Groß-Computern, die mit der gleichen Programm-Sprache arbeiten, können die Programme ausgetauscht werden. Ein Computer, der z.B. PASCAL versteht, kann Programme über- nehmen, die auf einem anderen Computerin PASCAL eingege- ben worden sind.",
+      "lines": [
+        [
+          1260,
+          746,
+          2320,
+          785
+        ],
+        [
+          1259,
+          787,
+          2319,
+          826
+        ],
+        [
+          1260,
+          829,
+          2322,
+          869
+        ],
+        [
+          1261,
+          870,
+          2323,
+          909
+        ],
+        [
+          1262,
+          916,
+          1556,
+          946
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        976,
+        2324,
+        1217
+      ],
+      "text": "interessant ist es noch, daß es Alternativen gibt, eine höhere Programmier-Sprache in die Mikroprozessor Maschinen- Sprache zu übersetzen. Ein „Interpreter” ist ein Übersetzungs- Programm, um eine Programmier-Sprache in die Maschinen- Sprache zu übersetzen und die einzelnen übersetzten Befehle sofort auszuführen.",
+      "lines": [
+        [
+          1261,
+          976,
+          2321,
+          1013
+        ],
+        [
+          1262,
+          1017,
+          2323,
+          1058
+        ],
+        [
+          1261,
+          1059,
+          2324,
+          1099
+        ],
+        [
+          1262,
+          1100,
+          2324,
+          1141
+        ],
+        [
+          1261,
+          1141,
+          2322,
+          1182
+        ],
+        [
+          1261,
+          1187,
+          1592,
+          1217
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1247,
+        2322,
+        1411
+      ],
+      "text": "Der ROM-Speicher im Microtronic-Computersystem arbeitet ebenfalls als interpreter. Ein Microtronic-Befehl wird aus dem Speicher geholt, übersetzt und ausgeführt. Erst dann wird der nächste Befehl in gleicher Weise abgearbeitet.",
+      "lines": [
+        [
+          1260,
+          1247,
+          2320,
+          1287
+        ],
+        [
+          1260,
+          1289,
+          2318,
+          1328
+        ],
+        [
+          1260,
+          1330,
+          2322,
+          1371
+        ],
+        [
+          1261,
+          1373,
+          2065,
+          1411
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        1435,
+        2324,
+        1641
+      ],
+      "text": "„Compiler” ist ein Übersetzungs-Programm, mit welchem alle Befehle einer höheren Programmier-Sprache zunächst in die Maschinen-Sprache übersetzt werden. Die Maschinen-Spra- chen-Übersetzung wird gespeichert und erstdannwird dasge- samte übersetzte Programm ausgeführt.",
+      "lines": [
+        [
+          1261,
+          1435,
+          2321,
+          1478
+        ],
+        [
+          1261,
+          1478,
+          2321,
+          1516
+        ],
+        [
+          1261,
+          1519,
+          2324,
+          1565
+        ],
+        [
+          1261,
+          1561,
+          2324,
+          1600
+        ],
+        [
+          1261,
+          1604,
+          1955,
+          1641
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        1853,
+        2258,
+        1950
+      ],
+      "text": "Beschreibung der Microtronic-Funktions- Tasten",
+      "lines": [
+        [
+          1262,
+          1853,
+          2258,
+          1903
+        ],
+        [
+          1259,
+          1912,
+          1422,
+          1950
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1260,
+        2037,
+        2326,
+        2196
+      ],
+      "text": "HALT Ende einer Funktion oder Programm-Stop. Wird mit der HALT- Taste ein laufendes Programm angehalten, erscheint auf dem Display die Programm-Adresse und der Befehis-Code.",
+      "lines": [
+        [
+          1262,
+          2037,
+          1360,
+          2066
+        ],
+        [
+          1262,
+          2071,
+          2326,
+          2110
+        ],
+        [
+          1260,
+          2113,
+          2322,
+          2152
+        ],
+        [
+          1263,
+          2155,
+          2203,
+          2196
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        2237,
+        2328,
+        2400
+      ],
+      "text": "Die HALT-Taste ist immer zu betätigen, wenn von einer Funktion auf eine andere Funktion gewechselt wird! Die HALT-Taste schließt die vorangegangene Funktion ab - eine neue Funktion kann begonnen werden.",
+      "lines": [
+        [
+          1263,
+          2237,
+          2328,
+          2274
+        ],
+        [
+          1264,
+          2278,
+          2325,
+          2315
+        ],
+        [
+          1263,
+          2319,
+          2325,
+          2358
+        ],
+        [
+          1265,
+          2364,
+          1940,
+          2400
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        2451,
+        2330,
+        2732
+      ],
+      "text": "NEXT Wird zur Programmierung, bzw. Program m-Änderung benötigt. Durch Betätigung der NEXT-Taste wird der nächste Befehl aus dem Programm-Speicher geholt und angezeigt. Dieser ange- zeigte Befehl kann durch Neueingabe geändert werden. Damit ein Befehl im Programm-Speicher gespeichert wird, muß nach der Befehis-Eingabe die NEXT-Taste betätigt werden.",
+      "lines": [
+        [
+          1264,
+          2451,
+          1363,
+          2480
+        ],
+        [
+          1263,
+          2480,
+          2326,
+          2526
+        ],
+        [
+          1265,
+          2527,
+          2327,
+          2567
+        ],
+        [
+          1264,
+          2569,
+          2330,
+          2609
+        ],
+        [
+          1264,
+          2609,
+          2328,
+          2651
+        ],
+        [
+          1265,
+          2650,
+          2326,
+          2691
+        ],
+        [
+          1265,
+          2693,
+          2186,
+          2732
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        2757,
+        2331,
+        2922
+      ],
+      "text": "Wird zuerst die HALT-Taste und dann die NEXT-Taste betätigt, will der Computer wissen, welcher Befeh! als nächstes ange- zeigt oder bearbeitet werden soll. Esist die 2-stellige Adressen- Nr. einzugeben.",
+      "lines": [
+        [
+          1264,
+          2757,
+          2328,
+          2793
+        ],
+        [
+          1264,
+          2799,
+          2331,
+          2839
+        ],
+        [
+          1265,
+          2840,
+          2331,
+          2882
+        ],
+        [
+          1266,
+          2887,
+          1535,
+          2922
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1266,
+        2971,
+        2334,
+        3376
+      ],
+      "text": "BKP (Break Point - Haltepunkt) wird zur Programm-Austestung be- nötigt. Mit HALT, BKP und der 2-stelligen Adresse wird die Hal- tepunkt-Adresse eingegeben. Wird das Programm (mit RUN) abgearbeitet, ergibt sich ein Stop bei der Haltepunkt-Adresse. Das Display zeigt die Stop-Adresse und den Befehls-Code. Mit der REG-Taste können nun Register-Werte geändert oder mit der STEP-Taste das Programm ab dieser Stelle in Einzel-Schrit- ten weiterbearbeitet werden. Eine Programm-Fortsetzung ist mit RUN möglich.",
+      "lines": [
+        [
+          1267,
+          2971,
+          1340,
+          2999
+        ],
+        [
+          1268,
+          3005,
+          2333,
+          3048
+        ],
+        [
+          1268,
+          3046,
+          2333,
+          3088
+        ],
+        [
+          1266,
+          3087,
+          2329,
+          3130
+        ],
+        [
+          1268,
+          3129,
+          2331,
+          3171
+        ],
+        [
+          1268,
+          3170,
+          2332,
+          3211
+        ],
+        [
+          1268,
+          3211,
+          2332,
+          3250
+        ],
+        [
+          1268,
+          3252,
+          2334,
+          3292
+        ],
+        [
+          1267,
+          3294,
+          2333,
+          3331
+        ],
+        [
+          1270,
+          3341,
+          1568,
+          3376
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

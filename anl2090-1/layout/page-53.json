@@ -1,0 +1,692 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        1258,
+        112,
+        1835,
+        148
+      ],
+      "fragments": [
+        [
+          1258,
+          112,
+          1835,
+          148
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          112,
+          1835,
+          148
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        137,
+        117,
+        1199,
+        700
+      ],
+      "fragments": [
+        [
+          137,
+          117,
+          1199,
+          700
+        ]
+      ],
+      "lines": [
+        [
+          137,
+          117,
+          1199,
+          700
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1259,
+        175,
+        2322,
+        650
+      ],
+      "fragments": [
+        [
+          1259,
+          175,
+          2322,
+          650
+        ]
+      ],
+      "lines": [
+        [
+          1259,
+          175,
+          2322,
+          650
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1262,
+        852,
+        2332,
+        2675
+      ],
+      "fragments": [
+        [
+          1262,
+          852,
+          2332,
+          2675
+        ]
+      ],
+      "lines": [
+        [
+          1262,
+          852,
+          2332,
+          2675
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        137,
+        117,
+        1199,
+        356
+      ],
+      "text": "Wir können 2-stellige Zahlen voneinander abziehen. Zum Bei- spiel: 81— 23. Wir geben ein: 81. Dann Taste A als ©) Taste be- tätigen, dann Eingabe 23 und Taste B als © Taste betätigen. Wir erhalten das Ergebnis 58. Mit der Taste C kann das Ergeb- nis gelöscht und anschließend eine neue Aufgabe eingegeben werden.",
+      "lines": [
+        [
+          137,
+          117,
+          1199,
+          154
+        ],
+        [
+          138,
+          152,
+          1199,
+          197
+        ],
+        [
+          137,
+          193,
+          1196,
+          238
+        ],
+        [
+          137,
+          241,
+          1199,
+          278
+        ],
+        [
+          139,
+          282,
+          1195,
+          321
+        ],
+        [
+          137,
+          327,
+          273,
+          356
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        388,
+        1196,
+        507
+      ],
+      "text": "Wenn wir von 15 z. B. 17 abziehen, ergibt sich das negative Ergebnis 2. Negative Ergebnisse werden durch Aufleuchten des CARRY-FLAGS kenntlich gemacht.",
+      "lines": [
+        [
+          137,
+          388,
+          1196,
+          424
+        ],
+        [
+          138,
+          429,
+          1195,
+          467
+        ],
+        [
+          138,
+          472,
+          817,
+          507
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        531,
+        1199,
+        692
+      ],
+      "text": "Zur Besseren Übersicht wurde dieses Programm zunächst nur 2-stellig ausgelegt. Beim später folgenden Taschenrechner- Programm mit allen Rechenarten, wirdauch die Subtraktion auf 6 Stellen erweitert.",
+      "lines": [
+        [
+          137,
+          531,
+          1198,
+          571
+        ],
+        [
+          138,
+          576,
+          1199,
+          614
+        ],
+        [
+          139,
+          617,
+          1198,
+          656
+        ],
+        [
+          138,
+          661,
+          459,
+          692
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1061,
+        2826,
+        1208,
+        2904
+      ],
+      "text": "25 Carry-Flag setzen",
+      "lines": [
+        [
+          1180,
+          2826,
+          1208,
+          2846
+        ],
+        [
+          1061,
+          2855,
+          1183,
+          2879
+        ],
+        [
+          1084,
+          2885,
+          1161,
+          2904
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1258,
+        112,
+        1835,
+        148
+      ],
+      "text": "Wie arbeitet dieses Programm?",
+      "lines": [
+        [
+          1258,
+          112,
+          1835,
+          148
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1259,
+        175,
+        2321,
+        297
+      ],
+      "text": "Zum besseren Verständnis vergleichen wir wieder die Pro- gramm-Tabelle und den Programm-Ablaufplan (bei jedem Symbol wird auch die Adressen-Nummer angegeben).",
+      "lines": [
+        [
+          1259,
+          175,
+          2321,
+          212
+        ],
+        [
+          1260,
+          217,
+          2317,
+          257
+        ],
+        [
+          1260,
+          258,
+          2204,
+          297
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        323,
+        2321,
+        526
+      ],
+      "text": "Von Adresse 00 bis OD werden die zurechnenden Werte einge- geben (Eingabe-Routine). Bei Adresse O2.erkennen wir einen neuen BefehiRSC (von „reset carry”). DieserBefehlsorgt dafür, daß das CARRY-FLAG in jedem Fall zurückgesetzt wird, es sei denn, daß sich ein negatives Ergebnis einstellt.",
+      "lines": [
+        [
+          1259,
+          323,
+          2321,
+          358
+        ],
+        [
+          1261,
+          364,
+          2318,
+          404
+        ],
+        [
+          1260,
+          405,
+          2317,
+          444
+        ],
+        [
+          1259,
+          446,
+          2317,
+          484
+        ],
+        [
+          1259,
+          488,
+          2069,
+          526
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        552,
+        2322,
+        633
+      ],
+      "text": "Folgendes Rechenbeispiel erklärt die Subtraktion mit positi- vem Ergebnis:",
+      "lines": [
+        [
+          1262,
+          552,
+          2322,
+          592
+        ],
+        [
+          1260,
+          597,
+          1506,
+          633
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        852,
+        2325,
+        1305
+      ],
+      "text": "Das Programm bringt eine dezimale Ergebnis-Anzeige, der Computerführt die Aufgabe jedoch hexadezimal durch. Wie bei der Addition, werden zuerst die beiden letzten Stellen subtra- hiert:1—-3=E. Es ergibt sich also ein negatives Zwischener- gebnis, wodurch das CARRY-FLAG gesetzt wird. Das hexade- zimale E solldezimal dargestellt werden. Wir erinnern uns an die Addition: Wurde beim Zusammenzählen die Ziffer 9 überschrit- ten, kommen wir durch ABC... in den Hexadezimal-Bereich, das CARRY-FLAG wurde gesetzt, d. h. der konstante Wert 6 mußte hinzuaddiert werden, um wieder die dezimale Darstel- lung zu erreichen. Ähnliches ergibt sich bei der Subtraktion.",
+      "lines": [
+        [
+          1262,
+          852,
+          2323,
+          892
+        ],
+        [
+          1262,
+          893,
+          2320,
+          933
+        ],
+        [
+          1262,
+          935,
+          2324,
+          973
+        ],
+        [
+          1263,
+          976,
+          2324,
+          1014
+        ],
+        [
+          1262,
+          1017,
+          2324,
+          1058
+        ],
+        [
+          1262,
+          1058,
+          2322,
+          1096
+        ],
+        [
+          1262,
+          1100,
+          2324,
+          1135
+        ],
+        [
+          1262,
+          1141,
+          2322,
+          1180
+        ],
+        [
+          1262,
+          1183,
+          2323,
+          1220
+        ],
+        [
+          1264,
+          1224,
+          2325,
+          1267
+        ],
+        [
+          1264,
+          1265,
+          2304,
+          1305
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        1330,
+        2329,
+        1992
+      ],
+      "text": "Sobald beim Rückwärtszählen der Wert O unterschritten wird, rechnet der Computer hexadezimal rückwärts weiter und ermittelt bei vorstehender Aufgabe das negative Ergebnis E. Durch den Übertrag (CARRY-FLAG wird gesetzt) muß nun ebenfalls wieder der konstante Wert 6 abgezogen werden: E— 6 = 8, was auch auf dem Display angezeigt wird. Nun müssen noch die vorderen Stellen 8— 2 subtrahiert werden. Der Com- puter hat sich jedoch durch das CARRY-FLAG den negativen Übertrag gemerkt, weshalb zunächst von 8 der negative Über- tragswert 1 abgezogen wird: Zwischenergebnis 7. Jetzt erfolgt die eigentliche Subtraktion: 7—2=5.Das jetztaufdem Display angezeigte Gesamtergebnis 58 ist positiv, weilder bei Adresse 02 vorhandene neue RSC-Befehl dafür gesorgt hat, daß das durch das negative Zwischenergebnis (Subtraktion der beiden letzten Stellen) ausgelöste CARRY-FLAG sofort wieder zurück- gesetzt wird.",
+      "lines": [
+        [
+          1263,
+          1330,
+          2322,
+          1364
+        ],
+        [
+          1265,
+          1371,
+          2322,
+          1410
+        ],
+        [
+          1263,
+          1413,
+          2323,
+          1457
+        ],
+        [
+          1264,
+          1455,
+          2323,
+          1493
+        ],
+        [
+          1264,
+          1495,
+          2325,
+          1531
+        ],
+        [
+          1264,
+          1537,
+          2323,
+          1576
+        ],
+        [
+          1265,
+          1578,
+          2327,
+          1613
+        ],
+        [
+          1266,
+          1619,
+          2323,
+          1665
+        ],
+        [
+          1265,
+          1661,
+          2327,
+          1701
+        ],
+        [
+          1263,
+          1702,
+          2325,
+          1743
+        ],
+        [
+          1264,
+          1744,
+          2327,
+          1784
+        ],
+        [
+          1264,
+          1785,
+          2325,
+          1826
+        ],
+        [
+          1265,
+          1827,
+          2326,
+          1863
+        ],
+        [
+          1265,
+          1868,
+          2325,
+          1907
+        ],
+        [
+          1266,
+          1909,
+          2329,
+          1950
+        ],
+        [
+          1265,
+          1955,
+          1481,
+          1992
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        2016,
+        2330,
+        2176
+      ],
+      "text": "Hätten wirz.B. durch die Subtraktion 16—28=-12 ein negatives Ergebnis erhalten, müßte dieses durch ein nichtverlöschendes CARRY-FLAG angezeigt werden. Hierfür ist im Programm unter Adresse 25 der Befehl STC enthalten („set carry”).",
+      "lines": [
+        [
+          1266,
+          2016,
+          2327,
+          2051
+        ],
+        [
+          1266,
+          2057,
+          2328,
+          2098
+        ],
+        [
+          1266,
+          2099,
+          2330,
+          2137
+        ],
+        [
+          1265,
+          2141,
+          2139,
+          2176
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1266,
+        2205,
+        2331,
+        2405
+      ],
+      "text": "Das Programm ist auf dem Ablaufpian in 3 Stufen dargestellt. Auf der linken Seite ergibt sich die Eingabe-Routine. In der Mit- te wird die eigentliche Subtraktion ausgeführt und aufderrech- ten Seite erfolgt die Umwandlung, wenn ein Ergebnis negativ wird.",
+      "lines": [
+        [
+          1267,
+          2205,
+          2327,
+          2245
+        ],
+        [
+          1266,
+          2246,
+          2331,
+          2285
+        ],
+        [
+          1266,
+          2288,
+          2331,
+          2327
+        ],
+        [
+          1266,
+          2329,
+          2330,
+          2368
+        ],
+        [
+          1266,
+          2376,
+          1345,
+          2405
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1267,
+        2436,
+        2332,
+        2557
+      ],
+      "text": "Für die negative Umwandlung sehen wir im letzten Drittel der Programm-Tabelle, genauso wie im Ablaufplan, den INV-Be- fehl, mit welchem duale Werte umgekehrt werden können.",
+      "lines": [
+        [
+          1269,
+          2436,
+          2331,
+          2475
+        ],
+        [
+          1269,
+          2477,
+          2332,
+          2517
+        ],
+        [
+          1267,
+          2519,
+          2277,
+          2557
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        2583,
+        2328,
+        2662
+      ],
+      "text": "Der Computer führt eine Subtraktion mit negativem Ergebnis sehr umständlich aus. Die Rechenaufgabe soll lauten:",
+      "lines": [
+        [
+          1266,
+          2583,
+          2328,
+          2625
+        ],
+        [
+          1265,
+          2626,
+          2203,
+          2662
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

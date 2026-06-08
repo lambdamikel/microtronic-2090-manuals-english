@@ -1,0 +1,1016 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        108,
+        55,
+        1210,
+        170
+      ],
+      "fragments": [
+        [
+          108,
+          55,
+          1210,
+          170
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          55,
+          1210,
+          170
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        415,
+        1210,
+        1330
+      ],
+      "fragments": [
+        [
+          135,
+          415,
+          1210,
+          1330
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          415,
+          1210,
+          1330
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        1440,
+        1210,
+        3372
+      ],
+      "fragments": [
+        [
+          135,
+          1440,
+          1210,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          1440,
+          1210,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        90,
+        2340,
+        3372
+      ],
+      "fragments": [
+        [
+          1258,
+          90,
+          2340,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          90,
+          2340,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        141,
+        109,
+        1106,
+        166
+      ],
+      "text": "Die Microtronic-Einzel-Befehle",
+      "lines": [
+        [
+          141,
+          109,
+          1106,
+          166
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        139,
+        425,
+        1196,
+        507
+      ],
+      "text": "Bei den nachfolgend beschriebenen Befehlen ergeben sich u. a. folgende Abkürzungen:",
+      "lines": [
+        [
+          140,
+          425,
+          1196,
+          464
+        ],
+        [
+          139,
+          471,
+          582,
+          507
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        530,
+        1200,
+        690
+      ],
+      "text": "d= destination Register oder Ziel-Register. Fürdkann eine he- xadezimale Zahl als Register-Adresse eingesetzt werden. Das d-Register enthält nach Durchführung des Befehls das Ergeb- nis.",
+      "lines": [
+        [
+          139,
+          530,
+          1200,
+          570
+        ],
+        [
+          139,
+          572,
+          1198,
+          611
+        ],
+        [
+          139,
+          613,
+          1200,
+          654
+        ],
+        [
+          141,
+          661,
+          195,
+          690
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        719,
+        1200,
+        843
+      ],
+      "text": "s= source Register oder Quell-Register. Fürs kann eine hexa- dezimale Zahl als Register-Adresse eingesetzt werden. Das s- Register bleibt nach Ausführung des Befehis unverändert.",
+      "lines": [
+        [
+          140,
+          719,
+          1200,
+          759
+        ],
+        [
+          139,
+          761,
+          1200,
+          799
+        ],
+        [
+          140,
+          802,
+          1142,
+          843
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        867,
+        1201,
+        989
+      ],
+      "text": "n=Konstante. Fürn kann eine hexadezimale Zahl als konstan- terWerteingesetztwerden. Der konstante Wert wird durch Aus- führung des Befehis nicht verändert.",
+      "lines": [
+        [
+          140,
+          867,
+          1201,
+          902
+        ],
+        [
+          139,
+          907,
+          1201,
+          947
+        ],
+        [
+          140,
+          951,
+          769,
+          989
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        140,
+        1013,
+        1202,
+        1096
+      ],
+      "text": "aa = 2-stellige hexadezimale Adresse bei Sprung- und Ver- zweigungs-Befehlen.",
+      "lines": [
+        [
+          140,
+          1013,
+          1202,
+          1053
+        ],
+        [
+          140,
+          1059,
+          499,
+          1096
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        140,
+        1120,
+        1202,
+        1325
+      ],
+      "text": "Bei den Beschreibungen für das CARRY- bzw. ZERO-FLAG wird 0 angegeben, wenn das Flag zurückgesetzt wird (LED am Ausgang leuchtet nicht) und 1 wenn dasFlag gesetzt wird (LED am Ausgang leuchtet). Die Flag-Angaben beziehen sich immer auf den Zeitpunkt sofort nach Durchführung des Befehls.",
+      "lines": [
+        [
+          141,
+          1120,
+          1199,
+          1159
+        ],
+        [
+          140,
+          1162,
+          1198,
+          1201
+        ],
+        [
+          140,
+          1203,
+          1199,
+          1244
+        ],
+        [
+          141,
+          1244,
+          1202,
+          1285
+        ],
+        [
+          141,
+          1285,
+          1126,
+          1325
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        130,
+        2290,
+        413
+      ],
+      "text": "ADD! = 5nd (add immediate) Funktion: n+d=d. Die Konstante n wird zum Inhalt von daddiert. _ Carry-Flag: 0 wenn kein Übertrag vorhanden ist , 1 wenn ein Übertrag vorhanden ist (Überlauf) Zero-Flag: O0, wenn Inhalt vond = 1bisF 1, wenn Inhalt vond=0O",
+      "lines": [
+        [
+          1257,
+          130,
+          1836,
+          167
+        ],
+        [
+          1259,
+          169,
+          2290,
+          205
+        ],
+        [
+          1464,
+          214,
+          1708,
+          253
+        ],
+        [
+          1258,
+          251,
+          2118,
+          294
+        ],
+        [
+          1467,
+          291,
+          2258,
+          329
+        ],
+        [
+          1258,
+          334,
+          1996,
+          375
+        ],
+        [
+          1467,
+          376,
+          1896,
+          413
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        459,
+        2320,
+        579
+      ],
+      "text": "SUB = 6sd (Subtraktion) Funktion: d—n=d. Der Inhalt von s wird vom Inhalt von d abgezogen.",
+      "lines": [
+        [
+          1262,
+          459,
+          1778,
+          496
+        ],
+        [
+          1262,
+          498,
+          2320,
+          534
+        ],
+        [
+          1466,
+          544,
+          1665,
+          579
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        577,
+        2272,
+        742
+      ],
+      "text": "Carry-Flag: 0 wenn kein Übertrag vorhanden ist 1 wenn ein Übertrag vorhanden ist (Unterlauf) Zero-Flag: OD, wenn Inhalt vond = 1bisF 1, wenn Inhalt vond=0O",
+      "lines": [
+        [
+          1261,
+          577,
+          2096,
+          623
+        ],
+        [
+          1470,
+          619,
+          2272,
+          658
+        ],
+        [
+          1261,
+          663,
+          1999,
+          703
+        ],
+        [
+          1470,
+          705,
+          1899,
+          742
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        795,
+        2295,
+        1079
+      ],
+      "text": "SUBI = 7/nd (sub immediate) Funktion: d—-n=d. Die Konstante n wird vom Inhalt von d abgezogen. Carry-Flag: 0 wenn kein Übertrag vorhanden ist 1 wenn ein Übertrag vorhandenn ist (Unterlauf) Zero-Flag: 0, wenn Inhalt vond=1bisF 1, wenn Inhalt vond = 0",
+      "lines": [
+        [
+          1261,
+          795,
+          1849,
+          832
+        ],
+        [
+          1262,
+          834,
+          2291,
+          870
+        ],
+        [
+          1465,
+          880,
+          1712,
+          919
+        ],
+        [
+          1261,
+          918,
+          2097,
+          960
+        ],
+        [
+          1470,
+          957,
+          2295,
+          996
+        ],
+        [
+          1261,
+          1001,
+          2000,
+          1040
+        ],
+        [
+          1470,
+          1043,
+          1900,
+          1079
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        1135,
+        1461,
+        1206
+      ],
+      "text": "CMP = 8sd Funktion:",
+      "lines": [
+        [
+          1262,
+          1135,
+          1461,
+          1165
+        ],
+        [
+          1263,
+          1176,
+          1420,
+          1206
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1263,
+        1133,
+        2311,
+        1494
+      ],
+      "text": "(compare) Die Inhalte der Register werden miteinander verglichen. Beide Registerinhalte bleiben unve- rändert. Die Flags werden entsprechend ge- setzt. Für s und d sind die entsprechenden Re- gister einzusetzen. Carry-Flag: O wenn Inhalt von s größer oder gleich dem In- haltvond (s>d) 1 wenn Inhalt von s kleiner als Inhalt von d",
+      "lines": [
+        [
+          1563,
+          1133,
+          1736,
+          1169
+        ],
+        [
+          1468,
+          1169,
+          2245,
+          1207
+        ],
+        [
+          1467,
+          1211,
+          2300,
+          1251
+        ],
+        [
+          1469,
+          1252,
+          2249,
+          1291
+        ],
+        [
+          1468,
+          1293,
+          2311,
+          1329
+        ],
+        [
+          1468,
+          1339,
+          1793,
+          1375
+        ],
+        [
+          1263,
+          1375,
+          2303,
+          1417
+        ],
+        [
+          1470,
+          1421,
+          1777,
+          1457
+        ],
+        [
+          1468,
+          1460,
+          2205,
+          1494
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        2149,
+        1175,
+        2432
+      ],
+      "text": "MOVI = ind (move immediate) Funktion: Die Konstante n wird in d gespeichert. (Beispiel: 112 = Durch den Befehl 1 wird kon- stanter Wert 1 in Register 2 gespeichert) Carry-Flag: unverändert Zero-Flag: O0, wenn Inhalt vond=1bisF 1, wenn Inhalt vond=0",
+      "lines": [
+        [
+          146,
+          2149,
+          757,
+          2186
+        ],
+        [
+          146,
+          2188,
+          1029,
+          2224
+        ],
+        [
+          352,
+          2229,
+          1175,
+          2269
+        ],
+        [
+          351,
+          2270,
+          1061,
+          2308
+        ],
+        [
+          145,
+          2316,
+          558,
+          2352
+        ],
+        [
+          144,
+          2355,
+          885,
+          2393
+        ],
+        [
+          354,
+          2397,
+          785,
+          2432
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        2487,
+        346,
+        2558
+      ],
+      "text": "AND = 2sd Funktion:",
+      "lines": [
+        [
+          144,
+          2487,
+          346,
+          2517
+        ],
+        [
+          146,
+          2529,
+          303,
+          2558
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        144,
+        2487,
+        1164,
+        2727
+      ],
+      "text": "(and) logische UND-Verknüpfung des Inhaltes von s mit dem Inhalt von d. Carry-Flag: 0, wird immer zurückgesetzt Zero-Flag: 0, wenn Inhait vond = 1bisF 1, wenn Inhalt vond=0",
+      "lines": [
+        [
+          432,
+          2487,
+          516,
+          2522
+        ],
+        [
+          352,
+          2525,
+          1164,
+          2563
+        ],
+        [
+          352,
+          2569,
+          721,
+          2598
+        ],
+        [
+          145,
+          2609,
+          846,
+          2646
+        ],
+        [
+          144,
+          2650,
+          885,
+          2688
+        ],
+        [
+          354,
+          2692,
+          785,
+          2727
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        146,
+        2781,
+        1192,
+        3022
+      ],
+      "text": "ANDI = Ind (and immediate) Funktion: logische UND-Verknüpfung der Konstante n mit dem Inhalt von d. Carry-Flag: 0, wird immer zurückgesetzt. Zero-Flag: OD, wenn Inhalt vond= 1bisF 1, wenn Inhalt vond =0O",
+      "lines": [
+        [
+          147,
+          2781,
+          684,
+          2818
+        ],
+        [
+          147,
+          2817,
+          1192,
+          2859
+        ],
+        [
+          352,
+          2864,
+          656,
+          2894
+        ],
+        [
+          146,
+          2904,
+          857,
+          2943
+        ],
+        [
+          146,
+          2944,
+          888,
+          2984
+        ],
+        [
+          356,
+          2986,
+          787,
+          3022
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        146,
+        3072,
+        1209,
+        3184
+      ],
+      "text": "ADD = 4sd (Addition) Funktion: s+d=d. Der inhalt von s wird zum Inhalt von d addiert.",
+      "lines": [
+        [
+          146,
+          3072,
+          597,
+          3108
+        ],
+        [
+          148,
+          3108,
+          1209,
+          3144
+        ],
+        [
+          354,
+          3155,
+          482,
+          3184
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        3189,
+        1173,
+        3354
+      ],
+      "text": "Carry-Flag: 0 wenn kein Übertrag vorhanden ist _ 1 wenn ein Übertrag vorhandenn ist (Überlauf) Zero-Flag: 0, wenn Inhalt von d= 1 bis F 1, wenn Inhalt vond=0",
+      "lines": [
+        [
+          147,
+          3189,
+          1034,
+          3235
+        ],
+        [
+          357,
+          3231,
+          1173,
+          3270
+        ],
+        [
+          147,
+          3275,
+          889,
+          3315
+        ],
+        [
+          357,
+          3318,
+          789,
+          3354
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1477,
+        2124,
+        2273,
+        2165
+      ],
+      "text": "1 wenn n gleich dem Registerinhalt d (n # d)",
+      "lines": [
+        [
+          1477,
+          2124,
+          2273,
+          2165
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1268,
+        2220,
+        2298,
+        2456
+      ],
+      "text": "OR = Asd (or) Funktion: logische Oder-Verknüpfung des Inhaltes von d mit dem Inhalt von s. Carry-Flag: O wird zurückgesetzt Zero-Flag: 0 wenn Inhalt vond = 1bisF 1 wenn Inhalt vond=0",
+      "lines": [
+        [
+          1269,
+          2220,
+          1587,
+          2255
+        ],
+        [
+          1269,
+          2256,
+          2298,
+          2296
+        ],
+        [
+          1476,
+          2301,
+          1842,
+          2331
+        ],
+        [
+          1269,
+          2342,
+          1839,
+          2379
+        ],
+        [
+          1268,
+          2382,
+          2000,
+          2421
+        ],
+        [
+          1478,
+          2424,
+          1901,
+          2456
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1271,
+        2647,
+        2110,
+        2699
+      ],
+      "text": "Sprung- und Verzweigungsbefehle",
+      "lines": [
+        [
+          1271,
+          2647,
+          2110,
+          2699
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1272,
+        2709,
+        2301,
+        2790
+      ],
+      "text": "Auf den beiden letzten Stellen des Eingabe-Codes (aa) werden die anzuspringenden Adressen eingegeben.",
+      "lines": [
+        [
+          1272,
+          2709,
+          2301,
+          2746
+        ],
+        [
+          1272,
+          2751,
+          2241,
+          2790
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1270,
+        2854,
+        2333,
+        3343
+      ],
+      "text": "CALL = Baa Funktion: Sprung aus einem Hauptprogramm in ein Unter- programm msit der Startadresse aa. Das Unter- programm ist mit dem RET (F07)-Befehl abzu- schließen. Wichtig: In einem Unterprogramm darf kein CALL-Befehl vorhanden sein, weil sonst eine „Endlosschleife” entsteht. Mit anderen Sprung- befehlen kann jedoch in ein anderes Unterpro- gramm gesprungen werden. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          1270,
+          2854,
+          1492,
+          2883
+        ],
+        [
+          1270,
+          2887,
+          2333,
+          2928
+        ],
+        [
+          1477,
+          2928,
+          2321,
+          2970
+        ],
+        [
+          1477,
+          2969,
+          2291,
+          3011
+        ],
+        [
+          1476,
+          3017,
+          1650,
+          3046
+        ],
+        [
+          1475,
+          3051,
+          2236,
+          3093
+        ],
+        [
+          1477,
+          3093,
+          2268,
+          3129
+        ],
+        [
+          1478,
+          3134,
+          2312,
+          3176
+        ],
+        [
+          1479,
+          3176,
+          2310,
+          3215
+        ],
+        [
+          1478,
+          3220,
+          1972,
+          3259
+        ],
+        [
+          1272,
+          3264,
+          1686,
+          3302
+        ],
+        [
+          1271,
+          3305,
+          1687,
+          3343
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

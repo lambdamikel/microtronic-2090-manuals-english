@@ -1,0 +1,624 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        110,
+        100,
+        1200,
+        3372
+      ],
+      "fragments": [
+        [
+          110,
+          100,
+          1200,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          110,
+          100,
+          1200,
+          3372
+        ]
+      ],
+      "text": "Programm-Start übernommen - eineZeit-Berichtigungkönnte nicht mehr erfolgen. Logisch: Nachdem das Programm nicht mehr zur Adresse 00 kommt, werden auch die sich jede Sekun- de ändernden Zeit-Befehle nicht mehr in die Register A bis F übernommen - die Zeit bleibt stehen.  Probieren wir es aus. Mit HALT - NEXT - 02 sind wir auf der Rücksprung-Adresse. Der dort befindliche Rücksprung-Be- fehl COO wird geändert in CO1. Dann NEXT-Taste (damit der geänderte Befehl zum Programm-Speicher übertragen wird) und neuer Programm-Start mit HALT - NEXT. - 00 - RUN. Es wird nur noch der Zeitpunkt der Programm-Änderung ange- zeigt, obwohl die Uhr intern weiterläuft.  Das vorstehende Programm soll erweitert werden. Wirmöchten erreichen, daß der (bei GND und AUSGANG 1) angeschlosse- ne Piezo-Summer zu jeder vollen Minute eine Sekunde lang summt. Hierfür müssen wir wissen, wie die Zeitwerte in denein- zeinen Registern aufgeteilt sind:  Register: F E D C B A 10-er Stunden | 10-er Minuten | 10-er Sekunden Stunden Minuten Sekunden  Wenn der Summer jede Minute ausgelöst werden soll, ist es zweckmäßig, die Auslösung immer dann vorzunehmen, wenn die Sekundenstelle (Register A) und die 10-er Sekundenstelle (RegisterB) den Wert Oerreichen. Außerdem soll der Summton nur solange anhalten (1 Sekunde), wennin den RegisternB und A gleichzeitig der Zeitwert O vorhanden ist.  Nach HALT - NEXT - 00 folgendes Programm eingeben:",
+      "font_pt": 7.0
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1256,
+        102,
+        1928,
+        149
+      ],
+      "fragments": [
+        [
+          1256,
+          102,
+          1928,
+          149
+        ]
+      ],
+      "lines": [
+        [
+          1256,
+          102,
+          1928,
+          149
+        ]
+      ],
+      "text": "Der Computer als Weck-Uhr"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        918,
+        2320,
+        3372
+      ],
+      "fragments": [
+        [
+          1248,
+          918,
+          2320,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1248,
+          918,
+          2320,
+          3372
+        ]
+      ],
+      "text": "Bei diesem Experiment werden wir wieder den TIME-Befehl in ein neu einzugebendes Programm integrieren, um die intern im Computer mitlaufende Uhrzeit in unseren Programm-Ablauf einzubeziehen.  Vorsorglich soll noch einmal darauf hingewiesen werden, daß TAKT/CLOCK mit EINGANG 4 auf der Computer-Platine ver- bunden sein muß.  Falls die Uhrzeit noch nicht eingegeben wurde, bitte mit HALT - PGM - 3 eingeben. Alsdann HALT und das folgende Programm wie üblich nach HALT - NEXT - 00 eingeben.",
+      "font_pt": 6.5
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        119,
+        3212,
+        1186,
+        3365
+      ],
+      "fragments": [
+        [
+          119,
+          3212,
+          1186,
+          3365
+        ]
+      ],
+      "lines": [
+        [
+          119,
+          3212,
+          1186,
+          3248
+        ],
+        [
+          120,
+          3253,
+          1183,
+          3288
+        ],
+        [
+          120,
+          3295,
+          1185,
+          3330
+        ],
+        [
+          119,
+          3336,
+          421,
+          3365
+        ]
+      ],
+      "text": "abgeschaltet sind. Erst wenn bei Adresse 08 auch im Register B der Wert O vorhanden ist, wird über die Adresse OA der Befehl DOT 1 ausgeführt. Die Ausgänge und damit auch der Summer schalten sich ein."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        3234,
+        2311,
+        3370
+      ],
+      "fragments": [
+        [
+          1249,
+          3234,
+          2157,
+          3272
+        ],
+        [
+          1248,
+          3293,
+          2311,
+          3370
+        ]
+      ],
+      "lines": [
+        [
+          1249,
+          3234,
+          2157,
+          3272
+        ],
+        [
+          1249,
+          3293,
+          2311,
+          3329
+        ],
+        [
+          1248,
+          3334,
+          2310,
+          3370
+        ]
+      ],
+      "text": "Nicht vergessen, den Piezo-Summer anzuschließen.  Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt 0000. Wir geben jetzt Stunden und Minuten als Weck-Zeit ein."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        133,
+        102,
+        1193,
+        296
+      ],
+      "text": "Programm-Start übernommen - eineZeit-Berichtigungkönnte nicht mehr erfolgen. Logisch: Nachdem das Programm nicht mehr zur Adresse 00 kommt, werden auch die sich jede Sekun- de ändernden Zeit-Befehle nicht mehr in die Register A bis F übernommen - die Zeit bleibt stehen.",
+      "lines": [
+        [
+          135,
+          102,
+          1191,
+          137
+        ],
+        [
+          135,
+          143,
+          1191,
+          179
+        ],
+        [
+          135,
+          184,
+          1193,
+          219
+        ],
+        [
+          133,
+          225,
+          1193,
+          260
+        ],
+        [
+          134,
+          267,
+          778,
+          296
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        130,
+        331,
+        1192,
+        615
+      ],
+      "text": "Probieren wir es aus. Mit HALT - NEXT - 02 sind wir auf der Rücksprung-Adresse. Der dort befindliche Rücksprung-Be- fehl COO wird geändert in CO1. Dann NEXT-Taste (damit der geänderte Befehl zum Programm-Speicher übertragen wird) und neuer Programm-Start mit HALT - NEXT. - 00 - RUN. Es wird nur noch der Zeitpunkt der Programm-Änderung ange- zeigt, obwohl die Uhr intern weiterläuft.",
+      "lines": [
+        [
+          133,
+          331,
+          1191,
+          361
+        ],
+        [
+          132,
+          372,
+          1192,
+          409
+        ],
+        [
+          130,
+          414,
+          1191,
+          449
+        ],
+        [
+          131,
+          455,
+          1187,
+          491
+        ],
+        [
+          132,
+          496,
+          1189,
+          536
+        ],
+        [
+          130,
+          537,
+          1191,
+          572
+        ],
+        [
+          130,
+          579,
+          800,
+          615
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        643,
+        1190,
+        843
+      ],
+      "text": "Das vorstehende Programm soll erweitert werden. Wirmöchten erreichen, daß der (bei GND und AUSGANG 1) angeschlosse- ne Piezo-Summer zu jeder vollen Minute eine Sekunde lang summt. Hierfür müssen wir wissen, wie die Zeitwerte in denein- zeinen Registern aufgeteilt sind:",
+      "lines": [
+        [
+          130,
+          643,
+          1187,
+          678
+        ],
+        [
+          130,
+          683,
+          1190,
+          720
+        ],
+        [
+          130,
+          725,
+          1187,
+          762
+        ],
+        [
+          129,
+          766,
+          1190,
+          801
+        ],
+        [
+          128,
+          807,
+          684,
+          843
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        883,
+        1183,
+        994
+      ],
+      "text": "Register: F E D C B A 10-er Stunden | 10-er Minuten | 10-er Sekunden Stunden Minuten Sekunden",
+      "lines": [
+        [
+          147,
+          883,
+          1071,
+          918
+        ],
+        [
+          287,
+          923,
+          1183,
+          954
+        ],
+        [
+          288,
+          965,
+          1029,
+          994
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        1044,
+        1190,
+        1286
+      ],
+      "text": "Wenn der Summer jede Minute ausgelöst werden soll, ist es zweckmäßig, die Auslösung immer dann vorzunehmen, wenn die Sekundenstelle (Register A) und die 10-er Sekundenstelle (RegisterB) den Wert Oerreichen. Außerdem soll der Summton nur solange anhalten (1 Sekunde), wennin den RegisternB und A gleichzeitig der Zeitwert O vorhanden ist.",
+      "lines": [
+        [
+          130,
+          1044,
+          1190,
+          1080
+        ],
+        [
+          130,
+          1085,
+          1189,
+          1121
+        ],
+        [
+          130,
+          1126,
+          1190,
+          1163
+        ],
+        [
+          131,
+          1168,
+          1188,
+          1204
+        ],
+        [
+          131,
+          1209,
+          1188,
+          1246
+        ],
+        [
+          128,
+          1251,
+          865,
+          1286
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        1315,
+        1104,
+        1351
+      ],
+      "text": "Nach HALT - NEXT - 00 folgendes Programm eingeben:",
+      "lines": [
+        [
+          128,
+          1315,
+          1104,
+          1351
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1256,
+        102,
+        1928,
+        149
+      ],
+      "text": "Der Computer als Weck-Uhr",
+      "lines": [
+        [
+          1256,
+          102,
+          1928,
+          149
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1353,
+        353,
+        1516,
+        394
+      ],
+      "text": "Wecker ”",
+      "lines": [
+        [
+          1353,
+          353,
+          1516,
+          394
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1251,
+        925,
+        2314,
+        1078
+      ],
+      "text": "Bei diesem Experiment werden wir wieder den TIME-Befehl in ein neu einzugebendes Programm integrieren, um die intern im Computer mitlaufende Uhrzeit in unseren Programm-Ablauf einzubeziehen.",
+      "lines": [
+        [
+          1252,
+          925,
+          2312,
+          960
+        ],
+        [
+          1251,
+          966,
+          2311,
+          1002
+        ],
+        [
+          1252,
+          1007,
+          2314,
+          1043
+        ],
+        [
+          1251,
+          1049,
+          1509,
+          1078
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        1114,
+        2316,
+        1227
+      ],
+      "text": "Vorsorglich soll noch einmal darauf hingewiesen werden, daß TAKT/CLOCK mit EINGANG 4 auf der Computer-Platine ver- bunden sein muß.",
+      "lines": [
+        [
+          1251,
+          1114,
+          2314,
+          1150
+        ],
+        [
+          1251,
+          1155,
+          2316,
+          1190
+        ],
+        [
+          1253,
+          1197,
+          1560,
+          1227
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        1261,
+        2312,
+        1379
+      ],
+      "text": "Falls die Uhrzeit noch nicht eingegeben wurde, bitte mit HALT - PGM - 3 eingeben. Alsdann HALT und das folgende Programm wie üblich nach HALT - NEXT - 00 eingeben.",
+      "lines": [
+        [
+          1252,
+          1261,
+          2312,
+          1297
+        ],
+        [
+          1252,
+          1302,
+          2311,
+          1339
+        ],
+        [
+          1250,
+          1344,
+          2033,
+          1379
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        3212,
+        1186,
+        3365
+      ],
+      "text": "abgeschaltet sind. Erst wenn bei Adresse 08 auch im Register B der Wert O vorhanden ist, wird über die Adresse OA der Befehl DOT 1 ausgeführt. Die Ausgänge und damit auch der Summer schalten sich ein.",
+      "lines": [
+        [
+          119,
+          3212,
+          1186,
+          3248
+        ],
+        [
+          120,
+          3253,
+          1183,
+          3288
+        ],
+        [
+          120,
+          3295,
+          1185,
+          3330
+        ],
+        [
+          119,
+          3336,
+          421,
+          3365
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        3234,
+        2157,
+        3272
+      ],
+      "text": "Nicht vergessen, den Piezo-Summer anzuschließen.",
+      "lines": [
+        [
+          1249,
+          3234,
+          2157,
+          3272
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1248,
+        3293,
+        2311,
+        3370
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt 0000. Wir geben jetzt Stunden und Minuten als Weck-Zeit ein.",
+      "lines": [
+        [
+          1249,
+          3293,
+          2311,
+          3329
+        ],
+        [
+          1248,
+          3334,
+          2310,
+          3370
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

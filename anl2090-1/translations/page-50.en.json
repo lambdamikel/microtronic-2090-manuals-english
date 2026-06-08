@@ -1,0 +1,65 @@
+{
+  "0": {
+    "en": "Self-programming a slow running light"
+  },
+  "1": {
+    "en": "<b>Task:</b> The previous running-light program is to be revised so that the running speed becomes considerably slower, so that the display can be followed as well.\n\n<b>Proposed solutions:</b> Our knowledge has by now advanced so far that several possibilities present themselves for carrying out the task, such as:"
+  },
+  "2": {
+    "en": "1. We could achieve the reduced speed using the TAKT/CLOCK pulse together with a wait loop (see also the TIMER program).\n\n2. The computer could count internally (from 0 to F), whereby the output LED is only advanced when the counter produces a carry (CARRY FLAG)."
+  },
+  "3": {
+    "en": "We enter our program ideas into the following table:"
+  },
+  "4": {
+    "en": "<table class=\"boxed\"><tr><th>Address</th><th>Command<br>entry</th><th>Mnemonic</th><th>Explanations</th></tr><tr><td>00</td><td></td><td></td><td></td></tr><tr><td>01</td><td></td><td></td><td></td></tr><tr><td>02</td><td></td><td></td><td></td></tr><tr><td>03</td><td></td><td></td><td></td></tr><tr><td>04</td><td></td><td></td><td></td></tr><tr><td>05</td><td></td><td></td><td></td></tr><tr><td>06</td><td></td><td></td><td></td></tr><tr><td>07</td><td></td><td></td><td></td></tr><tr><td>08</td><td></td><td></td><td></td></tr><tr><td>09</td><td></td><td></td><td></td></tr><tr><td>0A</td><td></td><td></td><td></td></tr><tr><td>0B</td><td></td><td></td><td></td></tr></table>"
+  },
+  "5": {
+    "en": "When the entered program runs flawlessly, we can compare it with the following proposed solutions. It may well be that a perfectly working program was entered which does not match our proposed solutions, because “many roads lead to Rome”. We will also find later that for some programming tasks several solutions arise."
+  },
+  "6": {
+    "en": "If we have decided on proposed solution 1, the TAKT/CLOCK output must, as usual, be connected to INPUT 4."
+  },
+  "7": {
+    "en": "Proposed solution no. 1"
+  },
+  "8": {
+    "en": "<table class=\"codes boxed\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td>00</td><td>110</td><td>MOVI 1,0</td><td></td></tr><tr><td>01</td><td>F10</td><td>DISP 1,0</td><td></td></tr><tr><td>02</td><td>FD1</td><td>DIN 1</td><td></td></tr><tr><td>03</td><td>812</td><td>CMP 1,2</td><td></td></tr><tr><td>04</td><td>E02</td><td>BRZ 02</td><td rowspan=\"3\">Wait loop; for explanation see Timer (synchronisation with TAKT/CLOCK)</td></tr><tr><td>05</td><td>012</td><td>MOV 1,2</td></tr><tr><td>06</td><td>902</td><td>CMPI 0,2</td></tr><tr><td>07</td><td>E02</td><td>BRZ 02</td><td></td></tr><tr><td>08</td><td>FA0</td><td>SHL 0</td><td></td></tr><tr><td>09</td><td>FB0</td><td>ADC 0</td><td rowspan=\"2\">corresponds to the program “small running light”</td></tr><tr><td>0A</td><td>FE0</td><td>DOT 0</td></tr><tr><td>0B</td><td>C02</td><td>GOTO 02</td><td></td></tr></table>"
+  },
+  "9": {
+    "en": "Proposed solution no. 2"
+  },
+  "10": {
+    "en": "<table class=\"codes boxed\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td>00</td><td>110</td><td>MOVI 1,0</td><td></td></tr><tr><td>01</td><td>F10</td><td>DISP 1,0</td><td></td></tr><tr><td>02</td><td>511</td><td>ADDI 1,1</td><td></td></tr><tr><td>03</td><td>D05</td><td>BRC 05</td><td rowspan=\"2\">Time delay via a counting loop</td></tr><tr><td>04</td><td>C01</td><td>GOTO 01</td></tr><tr><td>05</td><td>FA0</td><td>SHL 0</td><td></td></tr><tr><td>06</td><td>FB0</td><td>ADC 0</td><td rowspan=\"2\">corresponds to the program “small running light”</td></tr><tr><td>07</td><td>FE0</td><td>DOT 0</td></tr><tr><td>08</td><td>C01</td><td>GOTO 01</td><td></td></tr></table>"
+  },
+  "11": {
+    "en": "Shifting right by halving?"
+  },
+  "12": {
+    "en": "With the SHL command we can double a register value, thereby influencing the binary outputs (shifting them to the left). The opposite command to this is SHR (from the English “shift right”), which halves the values present in a register, thereby achieving a binary shift to the right."
+  },
+  "13": {
+    "en": "So that we can follow the way the new command works on the display, we enter the following program:"
+  },
+  "14": {
+    "en": "<table class=\"codes boxed\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td>00</td><td>F08</td><td>CLEAR</td><td>Clear all registers</td></tr><tr><td>01</td><td>F10</td><td>DISP 1,0</td><td>Display register 0</td></tr><tr><td>02</td><td>FF0</td><td>KIN 0</td><td>Wait for input</td></tr><tr><td>03</td><td>F90</td><td>SHR 0</td><td>Halve the (binary) value of register 0</td></tr><tr><td>04</td><td>C01</td><td>GOTO 01</td><td>Jump to address 01</td></tr></table>"
+  },
+  "15": {
+    "en": "We start the program. The display shows 0. We enter 8, the display shows the halved value 4. With the entry 6, 3 appears. Since we work with only one digit (one register), we cannot enter the 2-digit decimal value 14, but we can enter the hexadecimal E: result 7."
+  },
+  "16": {
+    "en": "If we enter 9, the result should be 4.5. This, however, is not possible with a single-digit display; the computer rounds down and shows 4 as the result."
+  },
+  "17": {
+    "en": "Since the SHR command works in exactly the opposite way to the SHL command, we establish: if we enter 8, we again have binary 1000. Through halving, this gives 4, i.e. binary 0100. If we enter 5 (binary 0101), halving and rounding down gives 2 (binary 0010). Before halving, the value 5 (binary 0101) contained the value 1 twice. When halving — and the binary shift to the right associated with it — the rightmost 1 is “lost”. This sets the CARRY FLAG. We can follow this with all number entries not divisible by 2."
+  },
+  "18": {
+    "en": "If we enter 0, the ZERO FLAG lights up, and with the entry 1 (which through halving likewise gives 0) the CARRY and ZERO FLAGs light. We should store this in our memory for now."
+  },
+  "19": {
+    "en": "Perhaps we are surprised that the LEDs at the outputs do not react to the entries. Are we really surprised?"
+  },
+  "20": {
+    "en": "Since we did not provide a DOT command in our small program, the outputs are logically not addressed either. We can, however, easily make up for this by entering the DOT command “FE0” there with HALT – NEXT – 04. After NEXT we now enter the jump-back command “C01” at address 05, and restart with HALT – NEXT – 00 – RUN: with the entry 2, halving = 1 (binary 0001), the LED at output 1 lights. The entry 4 produces halving = 2 (0010), LED output 2 lights. The entry 6 produces halving = 3 (0011), the LEDs at outputs 1 and 2 light."
+  }
+}

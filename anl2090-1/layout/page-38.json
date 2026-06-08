@@ -1,0 +1,791 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        1261,
+        106,
+        2327,
+        1910
+      ],
+      "fragments": [
+        [
+          1261,
+          106,
+          2327,
+          1910
+        ]
+      ],
+      "lines": [
+        [
+          1261,
+          106,
+          2327,
+          1910
+        ]
+      ],
+      "text": "Durch den Befehl DIN O wird in das Register O der Wert gela- den, welcher am Eingang als Spannung anliegt. Ist z. B. am „Takt/Clock” eine Spannung vorhanden, dann erkennt der Computer an der Eingangsbuchse Nr. 1 die wechseinden „Zu- stände”: Spannung vorhanden - keine Spannung vorhanden - Spannung vorhanden ... Im Zeitpunkt „Spannung vorhan- den” ergibt sich der duale Wert 0001, welcherin das Register O geladen wird. Durch den folgenden Befehl DOT O0 wird dieser Wert auf den Ausgang gebracht.  Wir können nun die Verbindungsleitung von der Buchse Takt/Clock an einen anderen Eingang legen oder sämtliche Eingangsbuchsen mit Takt/Clock verbinden - es werden immer die entsprechenden LED’s an den Ausgängen mitblin- ken.  Wir erkennen, daß wir ein Eingangs-Signal durch eine entspre- chende Programmierung an einen oder mehrere Ausgänge bringen können und es leuchtet uns ein, daß der Computer hierdurch Steuerungsaufgaben übernehmen kann. Diese Möglichkeiten werden wir bei späteren Experimenten noch weiter ausbauen."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        109,
+        1201,
+        266
+      ],
+      "fragments": [
+        [
+          140,
+          109,
+          1201,
+          266
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          109,
+          1201,
+          266
+        ]
+      ],
+      "text": "Betrachten wir uns doch noch einmal die nachstehende Ta- belle, in welcher die hexadezimalen Werte O0 bis F und die dualen Werte gegenübergestellt sind."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        130,
+        282,
+        1155,
+        1100
+      ],
+      "fragments": [
+        [
+          130,
+          282,
+          1155,
+          1100
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          282,
+          1155,
+          1100
+        ]
+      ],
+      "text": "Binäre Tabelle: Tasten-Wert 0-F -> Dual (LEDs 4 3 2 1); ganze Tabelle als englische Tabelle neu gesetzt",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        142,
+        293,
+        401,
+        363
+      ],
+      "fragments": [
+        [
+          142,
+          293,
+          401,
+          363
+        ]
+      ],
+      "lines": [
+        [
+          144,
+          293,
+          401,
+          328
+        ],
+        [
+          142,
+          334,
+          361,
+          363
+        ]
+      ],
+      "text": "Eingegebener Tasten-Wert"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        131,
+        1156,
+        1202,
+        3357
+      ],
+      "fragments": [
+        [
+          131,
+          1156,
+          1202,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          131,
+          1156,
+          1202,
+          3357
+        ]
+      ],
+      "text": "Wir sehen bei F den dualen Wert 1111. Wenn nur eine LED blin- ken soll, ergibt sich bei 8 der duale Wert 1000. Also verändern wir den Befehl MOVI FO in MOVI 80, d.h. wirgeben unter Adres- se 00 (statt bisher 1F0) neu ein: 180.  Nach dem Programm-Start wird nur noch die rechte Leucht- diode am Ausgang Nr. 4 der Computer-Platine blinken. Der am Ausgang 1 angeschlossene Piezo-Summer ist verstummt.  Dies ist logisch, weil ja der Ausgang Nr. 1 kein Signal erhält und somit auch der Piezo-Summer keine Betriebsspannung hat. Nun möchten wir erreichen, daß ebenfalls nureine LED blinkt — und daß der Piezo-Summer wieder „piepst”. Was ist zu tun? Da wir hierfür ein Signal am Ausgang Nr. 1 benötigen, sehen wir aus der Tabelle, daß wir den Tastenwert 1 eingeben müs- sen. Also ändern wir bei Adresse 00 den bisher eingegebenen Befehl „180” in „110”. Wir denken daran, daß wir nach einer neuen Befehls-Eingabe zuerst die NEXT-Taste betätigen und erst dann den Programm-Start wie üblich mit HALT - NEXT - 00 - RUN beginnen. Jetzt blinkt nur noch die linke LED, der Summer „piepst”.  Wir erkennen, daß wir durch entsprechende Programmierung des Computers die 4 Ausgangsleitungen ansteuern können, wobei wir später durch entsprechende Anschlüsse an diesen Ausgängen noch zu überraschenden Effekten kommen. An den Ausgangsbuchsen sollten wir jedoch zunächst nur Bau- elemente anschließen, die innerhalb unserer Experimente auf- geführt werden.  Außer den 4 Ausgängen hat unser Microtronic-Computer noch 4 Eingänge, die mit dem DIN-Befehl (data in) angespro- chen werden.  Wir verbinden die Buchse „Takt/Clock” mit dem „Eingang 1”. Der Piezo-Summer kann angeschlossen bleiben.  Wir geben das folgende kurze Programm ein:  Adresse Eingabe- |Befehl- Befehl Mnemonic 00 FDO DIN O 01 FEO DOTO 02 C00 GOTO 00  Vor dem Programm-Start sollte der Piezo-Sommer ange- schlossen werden und es darf nur die Verbindungsleitung zwi- schen „Eingang 1” und „Takt/Clock” bestehen. Alle übrigen Aus- und Eingänge sind nicht miteinander verbunden.  Nachdem Programm-Start wird die LED am Ausgang 1 im glei- chen Takt wie die LED an „Takt/Clock” blinken. Der Piezo- Summer bringt ebenfalls einen im Takt unterbrochenen Ton."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        140,
+        109,
+        1201,
+        227
+      ],
+      "text": "Betrachten wir uns doch noch einmal die nachstehende Ta- belle, in welcher die hexadezimalen Werte O0 bis F und die dualen Werte gegenübergestellt sind.",
+      "lines": [
+        [
+          141,
+          109,
+          1201,
+          139
+        ],
+        [
+          142,
+          150,
+          1199,
+          185
+        ],
+        [
+          140,
+          192,
+          794,
+          227
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        557,
+        289,
+        1153,
+        403
+      ],
+      "text": "Dual-System dargestellt durch Leuchtdioden an den Ausgängen: 4321",
+      "lines": [
+        [
+          558,
+          289,
+          1099,
+          326
+        ],
+        [
+          559,
+          331,
+          1153,
+          365
+        ],
+        [
+          557,
+          374,
+          680,
+          403
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        142,
+        293,
+        401,
+        363
+      ],
+      "text": "Eingegebener Tasten-Wert",
+      "lines": [
+        [
+          144,
+          293,
+          401,
+          328
+        ],
+        [
+          142,
+          334,
+          361,
+          363
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        304,
+        429,
+        339,
+        827
+      ],
+      "text": "+- Dezimal-System —",
+      "lines": [
+        [
+          304,
+          429,
+          339,
+          827
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        140,
+        1156,
+        1202,
+        1316
+      ],
+      "text": "Wir sehen bei F den dualen Wert 1111. Wenn nur eine LED blin- ken soll, ergibt sich bei 8 der duale Wert 1000. Also verändern wir den Befehl MOVI FO in MOVI 80, d.h. wirgeben unter Adres- se 00 (statt bisher 1F0) neu ein: 180.",
+      "lines": [
+        [
+          140,
+          1156,
+          1202,
+          1186
+        ],
+        [
+          143,
+          1197,
+          1199,
+          1233
+        ],
+        [
+          140,
+          1239,
+          1202,
+          1274
+        ],
+        [
+          141,
+          1280,
+          790,
+          1316
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1345,
+        1199,
+        1465
+      ],
+      "text": "Nach dem Programm-Start wird nur noch die rechte Leucht- diode am Ausgang Nr. 4 der Computer-Platine blinken. Der am Ausgang 1 angeschlossene Piezo-Summer ist verstummt.",
+      "lines": [
+        [
+          138,
+          1345,
+          1199,
+          1381
+        ],
+        [
+          137,
+          1387,
+          1195,
+          1423
+        ],
+        [
+          136,
+          1428,
+          1196,
+          1465
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1493,
+        1199,
+        1985
+      ],
+      "text": "Dies ist logisch, weil ja der Ausgang Nr. 1 kein Signal erhält und somit auch der Piezo-Summer keine Betriebsspannung hat. Nun möchten wir erreichen, daß ebenfalls nureine LED blinkt — und daß der Piezo-Summer wieder „piepst”. Was ist zu tun? Da wir hierfür ein Signal am Ausgang Nr. 1 benötigen, sehen wir aus der Tabelle, daß wir den Tastenwert 1 eingeben müs- sen. Also ändern wir bei Adresse 00 den bisher eingegebenen Befehl „180” in „110”. Wir denken daran, daß wir nach einer neuen Befehls-Eingabe zuerst die NEXT-Taste betätigen und erst dann den Programm-Start wie üblich mit HALT - NEXT - 00 - RUN beginnen. Jetzt blinkt nur noch die linke LED, der Summer „piepst”.",
+      "lines": [
+        [
+          137,
+          1493,
+          1195,
+          1530
+        ],
+        [
+          136,
+          1534,
+          1188,
+          1569
+        ],
+        [
+          137,
+          1576,
+          1196,
+          1611
+        ],
+        [
+          138,
+          1617,
+          1196,
+          1653
+        ],
+        [
+          137,
+          1658,
+          1195,
+          1695
+        ],
+        [
+          136,
+          1700,
+          1199,
+          1735
+        ],
+        [
+          136,
+          1741,
+          1195,
+          1777
+        ],
+        [
+          137,
+          1783,
+          1198,
+          1820
+        ],
+        [
+          138,
+          1824,
+          1195,
+          1861
+        ],
+        [
+          136,
+          1865,
+          1196,
+          1903
+        ],
+        [
+          137,
+          1907,
+          1198,
+          1944
+        ],
+        [
+          136,
+          1951,
+          442,
+          1985
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        2013,
+        1199,
+        2299
+      ],
+      "text": "Wir erkennen, daß wir durch entsprechende Programmierung des Computers die 4 Ausgangsleitungen ansteuern können, wobei wir später durch entsprechende Anschlüsse an diesen Ausgängen noch zu überraschenden Effekten kommen. An den Ausgangsbuchsen sollten wir jedoch zunächst nur Bau- elemente anschließen, die innerhalb unserer Experimente auf- geführt werden.",
+      "lines": [
+        [
+          136,
+          2013,
+          1196,
+          2049
+        ],
+        [
+          137,
+          2055,
+          1196,
+          2091
+        ],
+        [
+          136,
+          2096,
+          1196,
+          2131
+        ],
+        [
+          135,
+          2138,
+          1196,
+          2174
+        ],
+        [
+          136,
+          2179,
+          1199,
+          2215
+        ],
+        [
+          136,
+          2220,
+          1199,
+          2255
+        ],
+        [
+          136,
+          2263,
+          408,
+          2299
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        2327,
+        1199,
+        2439
+      ],
+      "text": "Außer den 4 Ausgängen hat unser Microtronic-Computer noch 4 Eingänge, die mit dem DIN-Befehl (data in) angespro- chen werden.",
+      "lines": [
+        [
+          135,
+          2327,
+          1199,
+          2363
+        ],
+        [
+          138,
+          2369,
+          1199,
+          2405
+        ],
+        [
+          136,
+          2410,
+          371,
+          2439
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        2475,
+        1195,
+        2551
+      ],
+      "text": "Wir verbinden die Buchse „Takt/Clock” mit dem „Eingang 1”. Der Piezo-Summer kann angeschlossen bleiben.",
+      "lines": [
+        [
+          134,
+          2475,
+          1195,
+          2510
+        ],
+        [
+          135,
+          2516,
+          994,
+          2551
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        2581,
+        936,
+        2617
+      ],
+      "text": "Wir geben das folgende kurze Programm ein:",
+      "lines": [
+        [
+          135,
+          2581,
+          936,
+          2617
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        149,
+        2652,
+        781,
+        2884
+      ],
+      "text": "Adresse Eingabe- |Befehl- Befehl Mnemonic 00 FDO DIN O 01 FEO DOTO 02 C00 GOTO 00",
+      "lines": [
+        [
+          149,
+          2652,
+          724,
+          2687
+        ],
+        [
+          376,
+          2690,
+          781,
+          2733
+        ],
+        [
+          151,
+          2747,
+          694,
+          2778
+        ],
+        [
+          151,
+          2800,
+          708,
+          2830
+        ],
+        [
+          151,
+          2853,
+          762,
+          2884
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        2929,
+        1202,
+        3089
+      ],
+      "text": "Vor dem Programm-Start sollte der Piezo-Sommer ange- schlossen werden und es darf nur die Verbindungsleitung zwi- schen „Eingang 1” und „Takt/Clock” bestehen. Alle übrigen Aus- und Eingänge sind nicht miteinander verbunden.",
+      "lines": [
+        [
+          136,
+          2929,
+          1202,
+          2965
+        ],
+        [
+          137,
+          2971,
+          1201,
+          3006
+        ],
+        [
+          137,
+          3012,
+          1198,
+          3048
+        ],
+        [
+          136,
+          3053,
+          1090,
+          3089
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        131,
+        3118,
+        1196,
+        3237
+      ],
+      "text": "Nachdem Programm-Start wird die LED am Ausgang 1 im glei- chen Takt wie die LED an „Takt/Clock” blinken. Der Piezo- Summer bringt ebenfalls einen im Takt unterbrochenen Ton.",
+      "lines": [
+        [
+          132,
+          3118,
+          1196,
+          3154
+        ],
+        [
+          131,
+          3159,
+          1196,
+          3195
+        ],
+        [
+          134,
+          3201,
+          1193,
+          3237
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        106,
+        2324,
+        472
+      ],
+      "text": "Durch den Befehl DIN O wird in das Register O der Wert gela- den, welcher am Eingang als Spannung anliegt. Ist z. B. am „Takt/Clock” eine Spannung vorhanden, dann erkennt der Computer an der Eingangsbuchse Nr. 1 die wechseinden „Zu- stände”: Spannung vorhanden - keine Spannung vorhanden - Spannung vorhanden ... Im Zeitpunkt „Spannung vorhan- den” ergibt sich der duale Wert 0001, welcherin das Register O geladen wird. Durch den folgenden Befehl DOT O0 wird dieser Wert auf den Ausgang gebracht.",
+      "lines": [
+        [
+          1263,
+          106,
+          2324,
+          141
+        ],
+        [
+          1262,
+          147,
+          2321,
+          183
+        ],
+        [
+          1263,
+          188,
+          2324,
+          225
+        ],
+        [
+          1262,
+          230,
+          2324,
+          266
+        ],
+        [
+          1262,
+          270,
+          2321,
+          307
+        ],
+        [
+          1262,
+          312,
+          2324,
+          349
+        ],
+        [
+          1262,
+          353,
+          2322,
+          390
+        ],
+        [
+          1262,
+          394,
+          2324,
+          432
+        ],
+        [
+          1261,
+          436,
+          1830,
+          472
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        500,
+        2327,
+        695
+      ],
+      "text": "Wir können nun die Verbindungsleitung von der Buchse Takt/Clock an einen anderen Eingang legen oder sämtliche Eingangsbuchsen mit Takt/Clock verbinden - es werden immer die entsprechenden LED’s an den Ausgängen mitblin- ken.",
+      "lines": [
+        [
+          1263,
+          500,
+          2324,
+          535
+        ],
+        [
+          1262,
+          541,
+          2324,
+          576
+        ],
+        [
+          1265,
+          583,
+          2323,
+          619
+        ],
+        [
+          1265,
+          624,
+          2327,
+          659
+        ],
+        [
+          1265,
+          667,
+          1333,
+          695
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        729,
+        2325,
+        966
+      ],
+      "text": "Wir erkennen, daß wir ein Eingangs-Signal durch eine entspre- chende Programmierung an einen oder mehrere Ausgänge bringen können und es leuchtet uns ein, daß der Computer hierdurch Steuerungsaufgaben übernehmen kann. Diese Möglichkeiten werden wir bei späteren Experimenten noch weiter ausbauen.",
+      "lines": [
+        [
+          1261,
+          729,
+          2325,
+          765
+        ],
+        [
+          1262,
+          770,
+          2323,
+          807
+        ],
+        [
+          1263,
+          811,
+          2325,
+          849
+        ],
+        [
+          1263,
+          853,
+          2323,
+          889
+        ],
+        [
+          1263,
+          894,
+          2321,
+          931
+        ],
+        [
+          1261,
+          937,
+          1557,
+          966
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        108,
+        1212,
+        752
+      ],
+      "fragments": [
+        [
+          140,
+          108,
+          1212,
+          752
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          108,
+          1212,
+          752
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        756,
+        1212,
+        1230
+      ],
+      "fragments": [
+        [
+          140,
+          756,
+          1212,
+          1230
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          756,
+          1212,
+          1230
+        ]
+      ],
+      "text": "",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        1236,
+        1212,
+        2300
+      ],
+      "fragments": [
+        [
+          140,
+          1236,
+          1212,
+          2300
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          1236,
+          1212,
+          2300
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        138,
+        2330,
+        1216,
+        2678
+      ],
+      "fragments": [
+        [
+          138,
+          2330,
+          1216,
+          2678
+        ]
+      ],
+      "lines": [
+        [
+          138,
+          2330,
+          1216,
+          2678
+        ]
+      ],
+      "text": "",
+      "font_pt": 9.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        2682,
+        1212,
+        2854
+      ],
+      "fragments": [
+        [
+          140,
+          2682,
+          1212,
+          2854
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          2682,
+          1212,
+          2854
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        138,
+        2856,
+        1218,
+        3188
+      ],
+      "fragments": [
+        [
+          138,
+          2856,
+          1218,
+          3188
+        ]
+      ],
+      "lines": [
+        [
+          138,
+          2856,
+          1218,
+          3188
+        ]
+      ],
+      "text": "",
+      "font_pt": 9.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        3192,
+        1212,
+        3372
+      ],
+      "fragments": [
+        [
+          140,
+          3192,
+          1212,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          3192,
+          1212,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1260,
+        100,
+        2336,
+        188
+      ],
+      "fragments": [
+        [
+          1260,
+          100,
+          2336,
+          188
+        ]
+      ],
+      "lines": [
+        [
+          1260,
+          100,
+          2336,
+          188
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        191,
+        2336,
+        506
+      ],
+      "fragments": [
+        [
+          1258,
+          191,
+          2336,
+          506
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          191,
+          2336,
+          506
+        ]
+      ],
+      "text": "",
+      "font_pt": 9.6
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1260,
+        512,
+        2336,
+        1832
+      ],
+      "fragments": [
+        [
+          1260,
+          512,
+          2336,
+          1832
+        ]
+      ],
+      "lines": [
+        [
+          1260,
+          512,
+          2336,
+          1832
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1264,
+        2186,
+        1900,
+        2244
+      ],
+      "fragments": [
+        [
+          1264,
+          2186,
+          1900,
+          2244
+        ]
+      ],
+      "lines": [
+        [
+          1264,
+          2186,
+          1900,
+          2244
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1264,
+        2912,
+        2342,
+        3240
+      ],
+      "fragments": [
+        [
+          1264,
+          2912,
+          2342,
+          3240
+        ]
+      ],
+      "lines": [
+        [
+          1264,
+          2912,
+          2342,
+          3240
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1262,
+        3244,
+        2342,
+        3372
+      ],
+      "fragments": [
+        [
+          1262,
+          3244,
+          2342,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1262,
+          3244,
+          2342,
+          3372
+        ]
+      ],
+      "text": "",
+      "font_pt": 7.4
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        143,
+        111,
+        1205,
+        185
+      ],
+      "text": "glichen wird, und daß alle „1-Bits” in Register U zusammenge- faßt werden.",
+      "lines": [
+        [
+          143,
+          111,
+          1205,
+          150
+        ],
+        [
+          143,
+          155,
+          353,
+          185
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        143,
+        214,
+        1205,
+        334
+      ],
+      "text": "Der OR-Befehl ist ein „ODER-Befehl” was besagt: Das Ver- gleichsergebnis ergibt „1-Bit”, wenn in einem Register ein „1- Bit” oder in einem zweiten Register ein „1-Bit” vorhanden ist.",
+      "lines": [
+        [
+          144,
+          214,
+          1205,
+          252
+        ],
+        [
+          143,
+          256,
+          1205,
+          297
+        ],
+        [
+          144,
+          297,
+          1193,
+          334
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        143,
+        362,
+        1177,
+        438
+      ],
+      "text": "Auch mit dem AND-Befehl können einzelne Bits manipu- liert werden",
+      "lines": [
+        [
+          143,
+          362,
+          1177,
+          396
+        ],
+        [
+          145,
+          408,
+          359,
+          438
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        143,
+        467,
+        1205,
+        625
+      ],
+      "text": "Ein zweiter Befehl für die „Bit-Manipulierung” ist der AND-Be- fehl. Während der vorangegangene OR-Befehl die „1-Bits” beeinflußt hat, können wir mit dem AND-Befehl die „O-Bits” beeinflussen.",
+      "lines": [
+        [
+          144,
+          467,
+          1205,
+          505
+        ],
+        [
+          143,
+          508,
+          1202,
+          547
+        ],
+        [
+          145,
+          549,
+          1202,
+          587
+        ],
+        [
+          145,
+          596,
+          371,
+          625
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        143,
+        656,
+        1204,
+        737
+      ],
+      "text": "Zum besseren Verständnis geben wir nach HALT - NEXT - 00 folgendes Programm ein:",
+      "lines": [
+        [
+          143,
+          656,
+          1204,
+          693
+        ],
+        [
+          143,
+          700,
+          577,
+          737
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        158,
+        777,
+        1161,
+        1212
+      ],
+      "text": "Adresse | Eingabe- | Mnemonic | Erklärungen Befehl 00 FO2 DISOUT Anzeige ausschalten 01 111 MOVI 1,1 | konstanten Wert 1 in Register1 speichern 02 FDO DINO Data in 03 210 AND 1,0 |logisches AND (UND) 04 FEO DOTO Data out 065 |coo GOTO 00 | Rücksprung Adresse 00",
+      "lines": [
+        [
+          158,
+          777,
+          944,
+          813
+        ],
+        [
+          338,
+          819,
+          453,
+          848
+        ],
+        [
+          160,
+          869,
+          1098,
+          905
+        ],
+        [
+          160,
+          923,
+          1050,
+          958
+        ],
+        [
+          739,
+          964,
+          1130,
+          1000
+        ],
+        [
+          160,
+          1018,
+          856,
+          1051
+        ],
+        [
+          160,
+          1070,
+          1110,
+          1107
+        ],
+        [
+          160,
+          1125,
+          883,
+          1157
+        ],
+        [
+          160,
+          1174,
+          1161,
+          1212
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        1257,
+        1208,
+        1372
+      ],
+      "text": "Widerstände, Taster und Batterie (ohne Piezo-Summer) sind wie beim letzten Versuch an derComputer-Platine angeschlos- sen.",
+      "lines": [
+        [
+          144,
+          1257,
+          1204,
+          1294
+        ],
+        [
+          144,
+          1298,
+          1208,
+          1334
+        ],
+        [
+          146,
+          1351,
+          214,
+          1372
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        1423,
+        887,
+        1461
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN",
+      "lines": [
+        [
+          147,
+          1423,
+          887,
+          1461
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        1505,
+        1205,
+        1620
+      ],
+      "text": "Keine Anzeige auf dem Display. Keine LED leuchtet. Betätigen wir die rote Taste G leuchtet die LED am Ausgang 1. Betätigen wir die Taste H leuchtet keine LED.",
+      "lines": [
+        [
+          146,
+          1505,
+          1205,
+          1543
+        ],
+        [
+          144,
+          1546,
+          1205,
+          1582
+        ],
+        [
+          144,
+          1590,
+          746,
+          1620
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        1653,
+        1209,
+        1727
+      ],
+      "text": "Bei diesem Experiment scheint es sich um keinen interessan- ten Versuch zu handeln?",
+      "lines": [
+        [
+          146,
+          1653,
+          1209,
+          1689
+        ],
+        [
+          144,
+          1696,
+          578,
+          1727
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        1758,
+        1206,
+        1838
+      ],
+      "text": "Der Schein trügt, denn wir haben wieder eine wichtige logische Operation ausgelöst, die wir verstehen sollten.",
+      "lines": [
+        [
+          146,
+          1758,
+          1206,
+          1800
+        ],
+        [
+          145,
+          1801,
+          945,
+          1838
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        1865,
+        1210,
+        2228
+      ],
+      "text": "Wenn wir das Kurz-Programm mit dem vorangegangenen Ex- periment vergleichen, dann haben wir lediglich bei Adresse 01 den MOVI-Befehl geändert, indem wir jetzt den konstanten Wert 1 in das Register 1 speichern. Auf Adresse 03 haben wir den neuen AND-Befehl eingefügt, welcher ähnlich wie der vor- angegangene OR-Befehl wieder die Register 1 und O ver- gleicht. Durch den MOVI-Befehl mit dem Wert 1 ergibt sich wie- der dual 0001, weshalb eigentlich am Ausgang 1 eine LED leuchten müßte. Warum ist dies nicht der Fall?",
+      "lines": [
+        [
+          145,
+          1865,
+          1209,
+          1902
+        ],
+        [
+          147,
+          1907,
+          1200,
+          1945
+        ],
+        [
+          146,
+          1949,
+          1206,
+          1985
+        ],
+        [
+          145,
+          1989,
+          1209,
+          2027
+        ],
+        [
+          146,
+          2031,
+          1209,
+          2068
+        ],
+        [
+          145,
+          2072,
+          1210,
+          2111
+        ],
+        [
+          146,
+          2113,
+          1209,
+          2152
+        ],
+        [
+          146,
+          2155,
+          1207,
+          2192
+        ],
+        [
+          147,
+          2196,
+          950,
+          2228
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        146,
+        2279,
+        1079,
+        2316
+      ],
+      "text": "Durch den AND-Befehl ergibt sich folgende Situation:",
+      "lines": [
+        [
+          146,
+          2279,
+          1079,
+          2316
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        148,
+        2661,
+        1210,
+        2777
+      ],
+      "text": "Der AND-Befehl bewirkt in Register 0 den Wert O (dual 0000) somit ist an keinem Ausgang eine Spannung vorhanden, eine LED kann nicht leuchten.",
+      "lines": [
+        [
+          148,
+          2661,
+          1208,
+          2698
+        ],
+        [
+          148,
+          2702,
+          1210,
+          2740
+        ],
+        [
+          149,
+          2746,
+          581,
+          2777
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        2827,
+        1086,
+        2864
+      ],
+      "text": "Wenn wir die Taste G betätigen, ergibt sich folgendes:",
+      "lines": [
+        [
+          147,
+          2827,
+          1086,
+          2864
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        163,
+        2900,
+        1185,
+        3180
+      ],
+      "text": "AusgängeNr. | 413) 2|1 im Register 1 steht durch MOVI der Wert 1 =0:0!0,1 Rote Taste G bewirkt in Register O den Wert 1 = 0/0/0|1 Der AND-Befehl bwirkt in Register O =/0/0/0",
+      "lines": [
+        [
+          671,
+          2900,
+          1183,
+          2937
+        ],
+        [
+          163,
+          2956,
+          710,
+          2994
+        ],
+        [
+          163,
+          2994,
+          1185,
+          3030
+        ],
+        [
+          163,
+          3052,
+          525,
+          3083
+        ],
+        [
+          164,
+          3089,
+          1185,
+          3130
+        ],
+        [
+          163,
+          3142,
+          1119,
+          3180
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        145,
+        3214,
+        1212,
+        3371
+      ],
+      "text": "Vorstehende Tabelle zeigt, daß unter AusgangNr. 1 zweimalein „1-Bit” untereinander steht und der AND-Befehl übernimmt den Wert 1 in das Register 0: Die LED am AusgangNr. 1 leuch- tet.",
+      "lines": [
+        [
+          145,
+          3214,
+          1208,
+          3252
+        ],
+        [
+          147,
+          3255,
+          1210,
+          3294
+        ],
+        [
+          146,
+          3296,
+          1212,
+          3335
+        ],
+        [
+          145,
+          3344,
+          196,
+          3371
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        102,
+        2326,
+        178
+      ],
+      "text": "Betätigen wir nun die rote Taste H wird uns deutlich, wie der AND-Befehl arbeitet:",
+      "lines": [
+        [
+          1266,
+          102,
+          2326,
+          142
+        ],
+        [
+          1264,
+          147,
+          1623,
+          178
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1282,
+        210,
+        2306,
+        488
+      ],
+      "text": "AusgängeN. 413, 2)|1 In Register 1 steht durch MOV! der Wert 1 =!0/0/0|1 Rote Taste H bewirkt in Register O den Wert 2 =-=!0/0!1)0 Der AND-Befehl bewirkt nRegisterr0 =|0/0/0/0",
+      "lines": [
+        [
+          1787,
+          210,
+          2298,
+          247
+        ],
+        [
+          1282,
+          265,
+          1816,
+          304
+        ],
+        [
+          1282,
+          305,
+          2300,
+          339
+        ],
+        [
+          1282,
+          361,
+          1641,
+          392
+        ],
+        [
+          1283,
+          398,
+          2306,
+          439
+        ],
+        [
+          1283,
+          451,
+          2306,
+          488
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        526,
+        2327,
+        811
+      ],
+      "text": "Der AND-Befehl vergleicht, ob die „1-Bits” jeweils an der glei- chen Stelle (in vorstehenden Tabellen untereinander) stehen. Beim letzten Beispiel stehen die „1-Bits” versetzt (am Ausgang 2 undam Ausgang 1) und der AND-BefehlgibtinRegisterOden Wert 0. Alle Ausgänge bleiben „low”. Der Druck auf die rote Ta- ste H bleibt ohne Auswirkung (er wird unterdrückt) und durch den Wert O (dual 0000) kann keine LED leuchten.",
+      "lines": [
+        [
+          1266,
+          526,
+          2327,
+          563
+        ],
+        [
+          1265,
+          567,
+          2324,
+          605
+        ],
+        [
+          1266,
+          609,
+          2323,
+          645
+        ],
+        [
+          1266,
+          650,
+          2323,
+          687
+        ],
+        [
+          1264,
+          691,
+          2327,
+          729
+        ],
+        [
+          1266,
+          732,
+          2323,
+          769
+        ],
+        [
+          1265,
+          774,
+          2114,
+          811
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        839,
+        2326,
+        954
+      ],
+      "text": "Der AND-Befehlistein „UND-Befehl, denn erbewirkt: und 1= 1. Der vorangegangene OR-Befehl bewirkt dagegen: 0 oder 1 =1.",
+      "lines": [
+        [
+          1266,
+          839,
+          2326,
+          876
+        ],
+        [
+          1267,
+          880,
+          2318,
+          917
+        ],
+        [
+          1264,
+          926,
+          1332,
+          954
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        986,
+        2328,
+        1266
+      ],
+      "text": "Mit dem AND-Befehi können wir an einem Ausgang ein „1-Bit” unterdrücken, bzw. ein Ausgang der normalerweise „high” sein müßte, kann „low” gemacht werden. Dies kann bei einem Pro- gramm von großer Bedeutung sein, wenn wir z. B. intern das Uhren-Programm mitverwenden. Z. B., wenn wir vom Ausgang TAKT/CLOCK ein Signal übernehmen, welches zu bestimmten Zeiten unterdrückt werden soll.",
+      "lines": [
+        [
+          1267,
+          986,
+          2325,
+          1021
+        ],
+        [
+          1267,
+          1027,
+          2324,
+          1064
+        ],
+        [
+          1268,
+          1069,
+          2328,
+          1106
+        ],
+        [
+          1266,
+          1110,
+          2326,
+          1149
+        ],
+        [
+          1266,
+          1151,
+          2324,
+          1189
+        ],
+        [
+          1264,
+          1192,
+          2324,
+          1229
+        ],
+        [
+          1265,
+          1235,
+          1802,
+          1266
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        1299,
+        2329,
+        1500
+      ],
+      "text": "Wir können das ausprobieren, indem wir von TAKT/CLOCK eine Verbindungsleitung zum Eingang Nr. 2 herstellen. Norma- lerweise müßte jetzt am Ausgang Nr. 2 die LED im gleichen Takt blinken wie die TAKT-LED. Der AND-Befehlunterdrückt jedoch das von TAKT/CLOCK kommende Signal.",
+      "lines": [
+        [
+          1265,
+          1299,
+          2327,
+          1335
+        ],
+        [
+          1266,
+          1340,
+          2329,
+          1378
+        ],
+        [
+          1267,
+          1381,
+          2326,
+          1419
+        ],
+        [
+          1267,
+          1423,
+          2324,
+          1457
+        ],
+        [
+          1266,
+          1464,
+          1982,
+          1500
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        1526,
+        2330,
+        1810
+      ],
+      "text": "Ändern wir jetzt auf Adresse 03 den AND-Befehl, indem wir aus dem vorangegangenen Experiment den OR-Befehl eingeben (HALT - NEXT - 03, Befehls-Code A10 eingeben, Taste NEXT und mitHALT- NEXT -00-RUN das Programmwieder starten) ändert sich die Situation: Auf Ausgang 1 leuchtet die LED stän- dig. Auf den Ausgang 2 wird das TAKT-Signal übertragen - die LED blinkt.",
+      "lines": [
+        [
+          1265,
+          1526,
+          2327,
+          1566
+        ],
+        [
+          1266,
+          1570,
+          2325,
+          1609
+        ],
+        [
+          1268,
+          1611,
+          2328,
+          1651
+        ],
+        [
+          1268,
+          1653,
+          2325,
+          1689
+        ],
+        [
+          1266,
+          1695,
+          2330,
+          1731
+        ],
+        [
+          1267,
+          1736,
+          2327,
+          1775
+        ],
+        [
+          1268,
+          1781,
+          1449,
+          1810
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1269,
+        2193,
+        1823,
+        2235
+      ],
+      "text": "Hat ein Bit einen Wert?",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1269,
+        2920,
+        2336,
+        3083
+      ],
+      "text": "Wir können diese Frage sicherlich mit ja beantworten, weil wir bei den letzten Experimenten die Unterschiede zwischen „O- Bit” und „1-Bit” kennenlernten. Ist ein „1-Bit” mehr wert als ein „O-Bit”?",
+      "lines": [
+        [
+          1269,
+          2920,
+          2335,
+          2957
+        ],
+        [
+          1271,
+          2961,
+          2336,
+          2998
+        ],
+        [
+          1271,
+          3003,
+          2332,
+          3041
+        ],
+        [
+          1271,
+          3047,
+          1405,
+          3083
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1270,
+        3109,
+        2336,
+        3224
+      ],
+      "text": "Entscheidend ist es, an welcher Stelle (an weichen Ausgän- gen) die „O-Bits” und „1-Bits” stehen. Die 4 Ausgänge haben nämlich unterschiedliche Werte:",
+      "lines": [
+        [
+          1271,
+          3109,
+          2336,
+          3145
+        ],
+        [
+          1270,
+          3150,
+          2332,
+          3189
+        ],
+        [
+          1272,
+          3193,
+          1834,
+          3224
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

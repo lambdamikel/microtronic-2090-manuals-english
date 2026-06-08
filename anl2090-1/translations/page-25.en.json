@@ -1,0 +1,18 @@
+{
+  "0": {
+    "de": "Programm-Eingabe „Mondlandung”",
+    "en": "Program Entry &mdash; \"Moon Landing\""
+  },
+  "1": {
+    "de": "Mit HALT - NEXT - 00 zum Programm-Anfang gehen…",
+    "en": "Press HALT – NEXT – 00 to go to the program start, then enter the command codes from the table. Don't forget to press NEXT after each command entry."
+  },
+  "2": {
+    "de": "Damit das Spielende auch akustisch wahrgenommen werden kann…",
+    "en": "So that the end of the game can also be heard, you must connect the piezo buzzer (see also page 7). When the last command has been entered and NEXT pressed once more, go as usual with HALT – NEXT – 00 to the program start and start with RUN. The display must now show the message <span class=\"led\">A0 500</span>. If the computer doesn't show this (or shows nothing at all), an error has crept into the program entry. Remember that we can check the entered program. Go again with HALT – NEXT – 00 to the program start and we see at address 00 the first entered command F02. Pressing NEXT shows each subsequent command. If we spot an error, press C/CE twice to delete the wrong command, then enter the correct one. HALT – NEXT – 00 and RUN restarts the program. If the right message still doesn't appear, the whole program must be checked and corrected as described."
+  },
+  "3": {
+    "de": "Wichtige Information bezüglich Netzstromanschluß",
+    "en": "<p><b>Important information about the power supply connection!</b></p>\n\nFor the first time we have invested significant effort in storing a longer program in our computer. If we want to show our \"Moon Landing\" to a friend, the power-supply cable must not be interrupted: <b>the power supply must NOT be unplugged</b> or the stored program is lost. Apart from the permanently installed programs in the computer, the entered data are no longer present.\n\nWhen we can leave the computer plugged in continuously (e.g. for several days at a time), and have not interrupted the power, we can also let our computer run as a digital LED clock in idle time. We remember that for the clock, Input 4 must be connected to Takt/Clock. The computer uses about 4 W — in 24 hours less than a 100 W…"
+  }
+}

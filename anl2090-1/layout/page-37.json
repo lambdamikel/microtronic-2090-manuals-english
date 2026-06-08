@@ -1,0 +1,546 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        1253,
+        108,
+        2312,
+        256
+      ],
+      "fragments": [
+        [
+          1253,
+          108,
+          2312,
+          182
+        ],
+        [
+          1253,
+          217,
+          1572,
+          256
+        ]
+      ],
+      "lines": [
+        [
+          1253,
+          108,
+          2312,
+          145
+        ],
+        [
+          1253,
+          152,
+          1462,
+          182
+        ],
+        [
+          1253,
+          217,
+          1572,
+          256
+        ]
+      ],
+      "text": "Der Computer macht sich durch seine Ein- und Ausgänge bemerkbar!  DIN und DOT"
+    },
+    {
+      "kind": "title",
+      "one_line": true,
+      "bbox": [
+        134,
+        111,
+        1107,
+        147
+      ],
+      "fragments": [
+        [
+          134,
+          111,
+          1107,
+          147
+        ]
+      ],
+      "lines": [
+        [
+          134,
+          111,
+          1107,
+          147
+        ]
+      ],
+      "text": "Programm-Lösung: Automatischer Rückwärts-Zähler"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1251,
+        732,
+        2317,
+        3357
+      ],
+      "fragments": [
+        [
+          1251,
+          732,
+          2317,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          1251,
+          732,
+          2317,
+          3357
+        ]
+      ],
+      "text": "Im Kapitel „Dezimal — Hexadezimal — Dual” haben wir den DOT- Befehl (data out) kennengelernt. Mit diesem Befehl haben wir die Möglichkeit, einen Register-Wert an die 4 Ausgänge zu bringen und den dualen Zahlenwert durch die LED’s anzuzei- gen.  Hierfür geben wir folgendes Programm ein:  Adresse | Eingabe- | Mne- Erklärungen Befehl monic 00 1F0 MOVI FO |F in Register O laden 01 FEO DOTO RO auf Ausgang legen 02 100 MOVI 00 |O in RO laden 03 FEO DOT O RO auf Ausgang legen 04 c00 GOTO 00: Sprung zum Programm-Anfang  Bevor wir das Programm in Betrieb nehmen, schließen wir noch den Piezo-Summer an. (C) Leitung an die Platinen-An- schlußbuchse GND, @&) Leitung an den Ausgang Nr. 1). Programm-Start mit HALT -— NEXT - 00 - RUN!  Alle 4 LED’s an den Ausgangsleitungen blinken — der Piezo- Summer gibt einen unterbrochenen Ton.  Die Funktionen des Programmes: Zuerst wird durch den MOVI-Befehl ein konstanter Wert in Register O geladen. Wenn wir mit der Tabelle des dualen Zahlen-Systems vergleichen, steilen wir fest, daß der hexadezimale Wert F durch 1111 dual dargestellt wird. Mit dem nächsten Befehl wird der Inhalt des Registers 0 auf die Ausgänge gebracht. Da im Register O der Wert F (dual 1111) steht leuchten alle 4 LED’s und der Signaiton- geber summt.  Durch den folgenden Befehl MOVI 00 wird in dasRegisterO der Wert O geladen, was der dualen Darstellung 0000 entspricht. Durch den nächsten DOT-Befehl wird dieses duale Ergebnis auf die Ausgänge gebracht, d. h. die LED’s werden abgeschal- tet - der Signaltongeber verstummt. Durch den Sprung zum Programm-Anfang wiederholt sich dieses Spiel in schnellem Wechsel.  Nun sollten wir ein bißchen experimentieren. Anstelle von 4 Leuchtdioden soll nur eine LED blinken - was ist zu tun?"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        120,
+        170,
+        1198,
+        1010
+      ],
+      "fragments": [
+        [
+          120,
+          170,
+          1198,
+          1010
+        ]
+      ],
+      "lines": [
+        [
+          120,
+          170,
+          1198,
+          1010
+        ]
+      ],
+      "text": "Programm-Listing: Automatischer Rückwärts-Zähler (Adressen 00-0D)"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        134,
+        111,
+        1107,
+        147
+      ],
+      "text": "Programm-Lösung: Automatischer Rückwärts-Zähler",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        385,
+        1173,
+        774,
+        1253
+      ],
+      "text": "Automatischer I",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        382,
+        1248,
+        703,
+        1281
+      ],
+      "text": "Rückwärtszöäöhler",
+      "lines": [
+        [
+          382,
+          1248,
+          703,
+          1281
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        694,
+        1292,
+        743,
+        1399
+      ],
+      "text": "V",
+      "lines": [
+        [
+          694,
+          1292,
+          743,
+          1399
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1253,
+        108,
+        2312,
+        182
+      ],
+      "text": "Der Computer macht sich durch seine Ein- und Ausgänge bemerkbar!",
+      "lines": [
+        [
+          1253,
+          108,
+          2312,
+          145
+        ],
+        [
+          1253,
+          152,
+          1462,
+          182
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1253,
+        217,
+        1572,
+        256
+      ],
+      "text": "DIN und DOT",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1251,
+        732,
+        2313,
+        935
+      ],
+      "text": "Im Kapitel „Dezimal — Hexadezimal — Dual” haben wir den DOT- Befehl (data out) kennengelernt. Mit diesem Befehl haben wir die Möglichkeit, einen Register-Wert an die 4 Ausgänge zu bringen und den dualen Zahlenwert durch die LED’s anzuzei- gen.",
+      "lines": [
+        [
+          1252,
+          732,
+          2313,
+          769
+        ],
+        [
+          1252,
+          773,
+          2313,
+          811
+        ],
+        [
+          1252,
+          815,
+          2309,
+          852
+        ],
+        [
+          1253,
+          856,
+          2313,
+          893
+        ],
+        [
+          1251,
+          907,
+          1321,
+          935
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        980,
+        2007,
+        1017
+      ],
+      "text": "Hierfür geben wir folgendes Programm ein:",
+      "lines": [
+        [
+          1252,
+          980,
+          2007,
+          1017
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1268,
+        1049,
+        2207,
+        1433
+      ],
+      "text": "Adresse | Eingabe- | Mne- Erklärungen Befehl monic 00 1F0 MOVI FO |F in Register O laden 01 FEO DOTO RO auf Ausgang legen 02 100 MOVI 00 |O in RO laden 03 FEO DOT O RO auf Ausgang legen 04 c00 GOTO 00: Sprung zum Programm-Anfang",
+      "lines": [
+        [
+          1268,
+          1049,
+          2030,
+          1085
+        ],
+        [
+          1445,
+          1088,
+          1738,
+          1132
+        ],
+        [
+          1268,
+          1143,
+          2181,
+          1178
+        ],
+        [
+          1268,
+          1196,
+          2207,
+          1231
+        ],
+        [
+          1268,
+          1249,
+          2052,
+          1282
+        ],
+        [
+          1268,
+          1302,
+          2207,
+          1337
+        ],
+        [
+          1268,
+          1356,
+          2034,
+          1391
+        ],
+        [
+          1824,
+          1397,
+          2136,
+          1433
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        1475,
+        2316,
+        1637
+      ],
+      "text": "Bevor wir das Programm in Betrieb nehmen, schließen wir noch den Piezo-Summer an. (C) Leitung an die Platinen-An- schlußbuchse GND, @&) Leitung an den Ausgang Nr. 1). Programm-Start mit HALT -— NEXT - 00 - RUN!",
+      "lines": [
+        [
+          1254,
+          1475,
+          2315,
+          1512
+        ],
+        [
+          1254,
+          1514,
+          2316,
+          1556
+        ],
+        [
+          1253,
+          1558,
+          2225,
+          1600
+        ],
+        [
+          1255,
+          1600,
+          2083,
+          1637
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1254,
+        1665,
+        2317,
+        1743
+      ],
+      "text": "Alle 4 LED’s an den Ausgangsleitungen blinken — der Piezo- Summer gibt einen unterbrochenen Ton.",
+      "lines": [
+        [
+          1254,
+          1665,
+          2317,
+          1701
+        ],
+        [
+          1255,
+          1707,
+          1958,
+          1743
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        1771,
+        2317,
+        2099
+      ],
+      "text": "Die Funktionen des Programmes: Zuerst wird durch den MOVI-Befehl ein konstanter Wert in Register O geladen. Wenn wir mit der Tabelle des dualen Zahlen-Systems vergleichen, steilen wir fest, daß der hexadezimale Wert F durch 1111 dual dargestellt wird. Mit dem nächsten Befehl wird der Inhalt des Registers 0 auf die Ausgänge gebracht. Da im Register O der Wert F (dual 1111) steht leuchten alle 4 LED’s und der Signaiton- geber summt.",
+      "lines": [
+        [
+          1254,
+          1771,
+          2313,
+          1807
+        ],
+        [
+          1254,
+          1812,
+          2313,
+          1848
+        ],
+        [
+          1252,
+          1853,
+          2313,
+          1889
+        ],
+        [
+          1253,
+          1895,
+          2313,
+          1931
+        ],
+        [
+          1253,
+          1936,
+          2314,
+          1975
+        ],
+        [
+          1254,
+          1977,
+          2316,
+          2016
+        ],
+        [
+          1252,
+          2019,
+          2317,
+          2057
+        ],
+        [
+          1253,
+          2064,
+          1491,
+          2099
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        2125,
+        2317,
+        2406
+      ],
+      "text": "Durch den folgenden Befehl MOVI 00 wird in dasRegisterO der Wert O geladen, was der dualen Darstellung 0000 entspricht. Durch den nächsten DOT-Befehl wird dieses duale Ergebnis auf die Ausgänge gebracht, d. h. die LED’s werden abgeschal- tet - der Signaltongeber verstummt. Durch den Sprung zum Programm-Anfang wiederholt sich dieses Spiel in schnellem Wechsel.",
+      "lines": [
+        [
+          1253,
+          2125,
+          2316,
+          2163
+        ],
+        [
+          1251,
+          2166,
+          2314,
+          2205
+        ],
+        [
+          1253,
+          2207,
+          2314,
+          2243
+        ],
+        [
+          1253,
+          2249,
+          2317,
+          2287
+        ],
+        [
+          1252,
+          2290,
+          2313,
+          2329
+        ],
+        [
+          1254,
+          2332,
+          2313,
+          2371
+        ],
+        [
+          1251,
+          2377,
+          1408,
+          2406
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1253,
+        2439,
+        2314,
+        2511
+      ],
+      "text": "Nun sollten wir ein bißchen experimentieren. Anstelle von 4 Leuchtdioden soll nur eine LED blinken - was ist zu tun?",
+      "lines": [
+        [
+          1253,
+          2439,
+          2314,
+          2474
+        ],
+        [
+          1254,
+          2479,
+          2268,
+          2511
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

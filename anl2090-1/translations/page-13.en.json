@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "Durch Betätigung der Taste HALT…",
+    "en": "By pressing <b>HALT</b> we can abort program execution. The computer then shows the address (command number) and the command code at which the program was interrupted. If we press <b>RUN</b>, the program continues from where it was interrupted.\n\nIf our program doesn't work correctly, we can check that we entered all the commands properly:\n\n<ul><li>Function key <b>HALT</b></li><li>Function key <b>NEXT</b></li><li>Digit keys <b>00</b></li></ul>\n\nThe display shows the first entered command: <span class=\"led\">00 F08</span>. Each further press of NEXT shows the next command, e.g. <span class=\"led\">01 01D</span>.\n\nThis way we can step through the whole program with the NEXT key. If the display shows a wrong command, we simply type the correct digit/letter keys and the corrected command replaces it. Press <b>RUN</b> to resume automatic execution.\n\nBy the way, if we keep pressing NEXT, we'll notice commands shown that we never entered. We'll explain that later."
+  },
+  "1": {
+    "de": "Der Computer soll automatisch zählen",
+    "en": "The Computer Counts Automatically"
+  },
+  "2": {
+    "de": "Um das Seelenleben unseres Computers weiter kennenzulernen…",
+    "en": "To explore our computer's inner life further, we'll feed it a new program.\n\n<b>Task:</b> the computer should count automatically from 0 to 99, then start over — until we abort the program.\n\nFrom our first programming attempt we know how to prepare the computer for program entry: <b>HALT</b>, <b>NEXT</b>, <b>0</b>, <b>0</b>.\n\nThe table below shows which command codes to enter; press <b>NEXT</b> after each one. The leftmost column shows the address (command number) — the computer numbers them automatically.\n\n<table class=\"codes\"><tr><th>Addr</th><th>Code</th><th>Press</th></tr><tr><td>00</td><td>F08</td><td>NEXT</td></tr><tr><td>01</td><td>01D</td><td>NEXT</td></tr><tr><td>02</td><td>02E</td><td>NEXT</td></tr><tr><td>03</td><td>F03</td><td>NEXT</td></tr><tr><td>04</td><td>F2D</td><td>NEXT</td></tr><tr><td>05</td><td>1FF</td><td>NEXT</td></tr><tr><td>06</td><td>71F</td><td>NEXT</td></tr><tr><td>07</td><td>E09</td><td>NEXT</td></tr><tr><td>08</td><td>C06</td><td>NEXT</td></tr><tr><td>09</td><td>511</td><td>NEXT</td></tr><tr><td>0A</td><td>FB2</td><td>NEXT</td></tr><tr><td>0B</td><td>962</td><td>NEXT</td></tr><tr><td>0C</td><td>E0E</td><td>NEXT</td></tr><tr><td>0D</td><td>C01</td><td>NEXT</td></tr><tr><td>0E</td><td>941</td><td>NEXT</td></tr><tr><td>0F</td><td>E00</td><td>NEXT</td></tr><tr><td>10</td><td>C01</td><td>NEXT</td></tr></table>\n\nProgramming is now finished. Never forget to press NEXT after each command code — NEXT tells the computer to store the command just entered.\n\nA wrong entry can be corrected by pressing <b>C/CE</b> twice, then entering the correct command. If too much went wrong, abort programming (HALT, NEXT, 0, 0) and start over.\n\nProgram execution should now begin at last. We know we're done programming — the computer doesn't. Tell it: <b>HALT</b>, <b>NEXT</b>, <b>0</b>, <b>0</b>. Then start: <b>RUN</b>.\n\nThe display shows two positions; the computer counts from 00 to 99, then starts again at 00."
+  },
+  "3": {
+    "de": "Die Funktionstasten des Computers",
+    "en": "The Computer's Function Keys"
+  },
+  "4": {
+    "de": "Neben den 16 kleineren Ziffern-/Buchstabentasten…",
+    "en": "In addition to the 16 smaller digit/letter keys, our computer has 8 larger function (or control) keys. We've already met four:\n\n<b>HALT key:</b> lets us interrupt whatever the computer is doing at any time. It enters a waiting state until another function key is pressed.\n\n<b>NEXT key:</b> selects a specific address (command number) — e.g. \"NEXT 00\" jumps to the start of the program. During programming, pressing NEXT pushes the entered command code into memory and at the same time advances the address by one.\n\n<b>RUN key:</b> starts a program already loaded into the computer. The computer goes to work.\n\n<b>PGM key:</b> calls up the programs permanently stored in the computer (e.g. PGM 0 = test program, PGM 7 = Nim game, etc.)."
+  }
+}

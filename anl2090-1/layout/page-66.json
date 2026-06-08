@@ -1,0 +1,1183 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        118,
+        98,
+        1194,
+        348
+      ],
+      "fragments": [
+        [
+          118,
+          98,
+          1194,
+          348
+        ]
+      ],
+      "lines": [
+        [
+          118,
+          98,
+          1194,
+          348
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        128,
+        400,
+        640,
+        485
+      ],
+      "fragments": [
+        [
+          128,
+          400,
+          640,
+          485
+        ]
+      ],
+      "lines": [
+        [
+          128,
+          400,
+          640,
+          485
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        645,
+        350,
+        1180,
+        418
+      ],
+      "fragments": [
+        [
+          645,
+          350,
+          1180,
+          418
+        ]
+      ],
+      "lines": [
+        [
+          645,
+          350,
+          1180,
+          418
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1244,
+        103,
+        2319,
+        1693
+      ],
+      "fragments": [
+        [
+          1244,
+          103,
+          2319,
+          1693
+        ]
+      ],
+      "lines": [
+        [
+          1244,
+          103,
+          2319,
+          1693
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        114,
+        1438,
+        1192,
+        2422
+      ],
+      "fragments": [
+        [
+          114,
+          1438,
+          1192,
+          2422
+        ]
+      ],
+      "lines": [
+        [
+          114,
+          1438,
+          1192,
+          2422
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        112,
+        2513,
+        792,
+        2578
+      ],
+      "fragments": [
+        [
+          112,
+          2513,
+          792,
+          2578
+        ]
+      ],
+      "lines": [
+        [
+          112,
+          2513,
+          792,
+          2578
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        798,
+        2514,
+        1388,
+        2562
+      ],
+      "fragments": [
+        [
+          798,
+          2514,
+          1388,
+          2562
+        ]
+      ],
+      "lines": [
+        [
+          798,
+          2514,
+          1388,
+          2562
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1500,
+        2086,
+        2288,
+        2210
+      ],
+      "fragments": [
+        [
+          1500,
+          2086,
+          2288,
+          2210
+        ]
+      ],
+      "lines": [
+        [
+          1500,
+          2086,
+          2288,
+          2210
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        134,
+        102,
+        1194,
+        344
+      ],
+      "text": "Die Abbildung zeigt einen einfachen Programm-Ablaufplan wie die Gewinnzahl gesucht, und evtl. gefunden werden kann. Rechts daneben finden wir eine Darstellung, wie der Computer das Programm abarbeitet. DerEinfachheit halbergehen wir da- von aus, daß zu Beginn dieses „Suchlaufs” eine Häufchen- größe (HFG) von 7 Hölzchen noch vorhanden ist.",
+      "lines": [
+        [
+          137,
+          102,
+          1192,
+          138
+        ],
+        [
+          135,
+          143,
+          1192,
+          179
+        ],
+        [
+          136,
+          184,
+          1194,
+          221
+        ],
+        [
+          135,
+          225,
+          1194,
+          262
+        ],
+        [
+          134,
+          267,
+          1194,
+          302
+        ],
+        [
+          134,
+          307,
+          977,
+          344
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        649,
+        378,
+        1076,
+        517
+      ],
+      "text": "So arbeitet der Computer das Programm ab Z.B. beginnend mit einer noch vorhandenen Häufchengröße (HFG) von 7 Hölzchen, maximal (MAX)",
+      "lines": [
+        [
+          649,
+          378,
+          971,
+          403
+        ],
+        [
+          649,
+          406,
+          871,
+          430
+        ],
+        [
+          650,
+          434,
+          1016,
+          459
+        ],
+        [
+          650,
+          462,
+          1076,
+          489
+        ],
+        [
+          650,
+          491,
+          1026,
+          517
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        133,
+        419,
+        464,
+        472
+      ],
+      "text": "Programmablaufplan „Suchlauf für Gewinnzahl”",
+      "lines": [
+        [
+          134,
+          419,
+          397,
+          444
+        ],
+        [
+          133,
+          447,
+          464,
+          472
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        201,
+        519,
+        1163,
+        1250
+      ],
+      "text": "3 Hölzchen dürfen weggenommen werden. HFG feststellen FR (Wieviel Hötzchen HFG=7 HFG ist immer noch 7 sind noch de) . MAX=3 MAX ist jetzt 3--1 also 2 we um MAX 7-3=4 7-2=5 verkleinern FG HFG 4 ist Gewinn- w keine Gewinnzahl | Ja- HFGS5 ist Gewinnzahl also MAX neue HFG 5 ist nicht 1 auf Display anzeigen MAX =3 um 1 3-1=2 verkleinern",
+      "lines": [
+        [
+          650,
+          519,
+          1163,
+          545
+        ],
+        [
+          250,
+          569,
+          299,
+          588
+        ],
+        [
+          212,
+          596,
+          968,
+          623
+        ],
+        [
+          201,
+          619,
+          1127,
+          639
+        ],
+        [
+          216,
+          642,
+          1150,
+          674
+        ],
+        [
+          953,
+          682,
+          964,
+          743
+        ],
+        [
+          224,
+          744,
+          1002,
+          790
+        ],
+        [
+          207,
+          777,
+          336,
+          797
+        ],
+        [
+          269,
+          865,
+          775,
+          907
+        ],
+        [
+          226,
+          894,
+          326,
+          914
+        ],
+        [
+          260,
+          900,
+          1010,
+          940
+        ],
+        [
+          880,
+          937,
+          1051,
+          957
+        ],
+        [
+          936,
+          966,
+          984,
+          986
+        ],
+        [
+          698,
+          1024,
+          1020,
+          1055
+        ],
+        [
+          667,
+          1053,
+          1123,
+          1083
+        ],
+        [
+          670,
+          1185,
+          771,
+          1205
+        ],
+        [
+          240,
+          1202,
+          760,
+          1233
+        ],
+        [
+          202,
+          1230,
+          332,
+          1250
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        1331,
+        973,
+        1387
+      ],
+      "text": "HFG = Häufchengröße (Wieviel Hölzchen stehen noch zur Verfügung?) MAX == maximal dürften 3 Hölzchen genommen werden.",
+      "lines": [
+        [
+          127,
+          1331,
+          973,
+          1360
+        ],
+        [
+          126,
+          1359,
+          787,
+          1387
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        123,
+        1443,
+        1187,
+        1597
+      ],
+      "text": "Aus der rechten Darstellung ersehen wir, daß der Computer den Programm-Ablaufplan durchläuft, alsdann zurückspringt, wobei er MAX für seine interne Berechnung von ursprünglich 3 auf 2 Stück reduziert.",
+      "lines": [
+        [
+          124,
+          1443,
+          1187,
+          1480
+        ],
+        [
+          125,
+          1485,
+          1184,
+          1523
+        ],
+        [
+          123,
+          1526,
+          1184,
+          1564
+        ],
+        [
+          123,
+          1567,
+          492,
+          1597
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        1627,
+        1184,
+        1711
+      ],
+      "text": "Der erste Teil unserer Überlegungen wie man ein solches Nimm-Spiel programmieren könnte ist damit erledigt.",
+      "lines": [
+        [
+          124,
+          1627,
+          1184,
+          1669
+        ],
+        [
+          124,
+          1673,
+          1043,
+          1711
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        122,
+        1738,
+        1186,
+        1898
+      ],
+      "text": "Schön wär's - wir haben jedoch noch eine Kleinigkeit verges- sen. Wir fragten nämlich im Programm-Ablaufplan, ob die HFG (Häufchengröße) eine Gewinnzahl ist. Kennt der Computer be- reits die möglichen Gewinnzahlen?",
+      "lines": [
+        [
+          123,
+          1738,
+          1186,
+          1777
+        ],
+        [
+          122,
+          1780,
+          1182,
+          1817
+        ],
+        [
+          124,
+          1821,
+          1185,
+          1858
+        ],
+        [
+          123,
+          1863,
+          730,
+          1898
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        120,
+        1928,
+        1185,
+        2004
+      ],
+      "text": "Erkennt sich nicht - leider! Also müssen wir ihm helfen. Es bie- ten sich 2 Möglichkeiten an:",
+      "lines": [
+        [
+          122,
+          1928,
+          1185,
+          1959
+        ],
+        [
+          120,
+          1969,
+          612,
+          2004
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        2034,
+        1184,
+        2152
+      ],
+      "text": "Wir könnten dem Computer eine Liste mit allen möglichen Ge- winnzahlen eingeben. Hierfür wäre jedoch sehr viel Platz im Programm-Speicher erforderlich.",
+      "lines": [
+        [
+          119,
+          2034,
+          1184,
+          2072
+        ],
+        [
+          119,
+          2075,
+          1180,
+          2112
+        ],
+        [
+          121,
+          2117,
+          692,
+          2152
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        117,
+        2181,
+        1183,
+        2417
+      ],
+      "text": "Obwohl es umständlich erscheint, istes einfacher den Compu- ter die Gewinnzahlen selbstberechnen zu lassen. Also machen wir uns Gedanken, wie ein weiterer Programm-Ablaufplan aus- sehen könnte: „Berechnung der Gewinnzahlen” wobei ein Vergleich vorzusehen ist, obdieHFG (Häufchengröße) eine Ge- winnzahl ist.",
+      "lines": [
+        [
+          120,
+          2181,
+          1183,
+          2220
+        ],
+        [
+          118,
+          2223,
+          1180,
+          2255
+        ],
+        [
+          118,
+          2264,
+          1183,
+          2302
+        ],
+        [
+          119,
+          2306,
+          1179,
+          2343
+        ],
+        [
+          118,
+          2347,
+          1182,
+          2386
+        ],
+        [
+          117,
+          2389,
+          326,
+          2417
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        117,
+        2519,
+        689,
+        2595
+      ],
+      "text": "Programmablaufplan für „Gewinnzahlenberechnung”",
+      "lines": [
+        [
+          119,
+          2519,
+          497,
+          2554
+        ],
+        [
+          117,
+          2559,
+          689,
+          2595
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        245,
+        2725,
+        404,
+        2816
+      ],
+      "text": "Die erste Gewinnzahl ist „1”",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        479,
+        2749,
+        829,
+        2787
+      ],
+      "text": "Gewinnzahl (GZ) = 1",
+      "lines": [
+        [
+          479,
+          2749,
+          829,
+          2787
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        232,
+        2971,
+        408,
+        3027
+      ],
+      "text": "die HFG eine Gewinnzahl",
+      "lines": [
+        [
+          232,
+          2971,
+          408,
+          2994
+        ],
+        [
+          240,
+          3003,
+          399,
+          3027
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        802,
+        2521,
+        1349,
+        2557
+      ],
+      "text": "So soll der Computer rechnen",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        240,
+        3138,
+        2083,
+        3296
+      ],
+      "text": "Die neue 1 Neue Gewinn- Gewinnzahl zahl ermitteln: = vorherige GZ=1+3+1=5 GZ=5+3+1=9 GZ=9+3+1=13 vorherige Gewinnzahl Gewinnzahl + MAX +1 +MAX+ 1",
+      "lines": [
+        [
+          261,
+          3138,
+          2083,
+          3180
+        ],
+        [
+          241,
+          3172,
+          2081,
+          3208
+        ],
+        [
+          240,
+          3208,
+          2048,
+          3236
+        ],
+        [
+          241,
+          3237,
+          2063,
+          3273
+        ],
+        [
+          246,
+          3273,
+          2053,
+          3296
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1254,
+        103,
+        2319,
+        339
+      ],
+      "text": "Wir wissen, daß die Gewinnzahlen 1, 5, 9 oder 13 sind. Wir wis- sen auch, wie die Gewinnzahlen errechnet werden können, wenn am Ende 1 Hölzchen für den Verlierer übrigbleiben soll, 3 maximal weggenommen werden dürfen und wenn man selbst (oder der Computer) ebenfalls 1 Hölzchen wegnimmt:1+3+1 =5 usw.",
+      "lines": [
+        [
+          1255,
+          103,
+          2319,
+          138
+        ],
+        [
+          1256,
+          144,
+          2316,
+          180
+        ],
+        [
+          1255,
+          186,
+          2316,
+          221
+        ],
+        [
+          1257,
+          227,
+          2317,
+          262
+        ],
+        [
+          1257,
+          268,
+          2309,
+          304
+        ],
+        [
+          1254,
+          311,
+          1401,
+          339
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1254,
+        375,
+        2314,
+        450
+      ],
+      "text": "Also machen wir uns einen kleinen Programm-Ablaufplan und vermerken daneben wie der Computer rechnen soll:",
+      "lines": [
+        [
+          1254,
+          375,
+          2314,
+          411
+        ],
+        [
+          1254,
+          416,
+          2159,
+          450
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        481,
+        2315,
+        716
+      ],
+      "text": "Nebenstehende Darstellung zeigt uns, daß wir auch diese Auf- gabe erfolgreich lösen können. Wenn wir uns die Darstellung allerdings etwas genauer betrachten, müssen wir feststellen, daß wir eine „Endlos-Programm-Schleife” entwickelt haben, in weicher der Computer bis in alle Ewigkeit Gewinnzahlen ermit- teln wird.",
+      "lines": [
+        [
+          1253,
+          481,
+          2315,
+          516
+        ],
+        [
+          1252,
+          522,
+          2311,
+          559
+        ],
+        [
+          1252,
+          563,
+          2312,
+          599
+        ],
+        [
+          1252,
+          604,
+          2311,
+          640
+        ],
+        [
+          1251,
+          645,
+          2314,
+          681
+        ],
+        [
+          1251,
+          687,
+          1404,
+          716
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        751,
+        2314,
+        863
+      ],
+      "text": "Was können wirtun, um aus dieserEndlos-Schleife wieder her- auszukommen, wenn genügend Gewinnzahlen berechnet wur- den?",
+      "lines": [
+        [
+          1250,
+          751,
+          2314,
+          785
+        ],
+        [
+          1251,
+          793,
+          2314,
+          828
+        ],
+        [
+          1251,
+          834,
+          1337,
+          863
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1248,
+        899,
+        2312,
+        1093
+      ],
+      "text": "Wir müssen dem Computer die Gelegenheit geben zu zählen, wie oft er die Gewinnzahlen schon berechnet hat. Wir bauen in das Programm einen „Zähler” ein, bei welchem jedesmal der Wert 1 hinzuaddiert wird, sobald der Computer wieder eine neue Gewinnzahl ermittelt hat.",
+      "lines": [
+        [
+          1249,
+          899,
+          2310,
+          935
+        ],
+        [
+          1250,
+          940,
+          2310,
+          971
+        ],
+        [
+          1250,
+          981,
+          2312,
+          1017
+        ],
+        [
+          1248,
+          1023,
+          2310,
+          1057
+        ],
+        [
+          1251,
+          1064,
+          1772,
+          1093
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        1129,
+        2312,
+        1241
+      ],
+      "text": "Der vorangegangene Programm-Ablaufplan „Gewinnzahlen- Berechnung” wird wie folgt durch einen zusätzlichen „Zähler” erweitert.",
+      "lines": [
+        [
+          1250,
+          1129,
+          2312,
+          1164
+        ],
+        [
+          1252,
+          1170,
+          2309,
+          1206
+        ],
+        [
+          1249,
+          1211,
+          1405,
+          1241
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        1275,
+        2309,
+        1677
+      ],
+      "text": "Wir haben den „Zähler” in den bisherigen Programm-Ablauf- plan für die Gewinnzahlen-Berechnung dazwischengescho- ben. Wenn die Häufchengröße (HFG) nicht gleichzeitig auch eine Gewinnzahl ist, Kommt das Programm zum „Zähler”.Beije- der neuen Gewinnzahl-Ermittlung wird im Zähler der Wert 1 so- lange hinzuaddiert, bis der hexadezimale Wert Fübersprungen wird. Hierdurch ergibt sich ein Übertrag des Zählers (CARRY- FLAG wird gesetzt) und der neue Zählerstand ist 0. Durch den Übertrag (CARRY-FLAG) können wir die „Zähl-Schleife” durch einen BRZ-Befehl oder durch einen BRC-Befehl verlassen.",
+      "lines": [
+        [
+          1244,
+          1275,
+          2309,
+          1311
+        ],
+        [
+          1247,
+          1316,
+          2309,
+          1352
+        ],
+        [
+          1247,
+          1357,
+          2305,
+          1394
+        ],
+        [
+          1245,
+          1398,
+          2308,
+          1435
+        ],
+        [
+          1245,
+          1440,
+          2308,
+          1475
+        ],
+        [
+          1246,
+          1481,
+          2305,
+          1521
+        ],
+        [
+          1244,
+          1523,
+          2308,
+          1559
+        ],
+        [
+          1245,
+          1564,
+          2305,
+          1600
+        ],
+        [
+          1245,
+          1599,
+          2304,
+          1641
+        ],
+        [
+          1244,
+          1647,
+          2263,
+          1677
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1775,
+        2091,
+        2281,
+        2206
+      ],
+      "text": "Programmablaufplan „Gewinnzahlenberechnung” mit „Zähler”",
+      "lines": [
+        [
+          1777,
+          2091,
+          2154,
+          2127
+        ],
+        [
+          1775,
+          2131,
+          2281,
+          2169
+        ],
+        [
+          1775,
+          2171,
+          1992,
+          2206
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1905,
+        2288,
+        2064,
+        2379
+      ],
+      "text": "Die erste Gewinnzahl ist „1”",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1867,
+        2711,
+        2098,
+        2862
+      ],
+      "text": "Zähler: Wert 1 weiter- zählen wenn eine Gewinnzahl berechnet wurde",
+      "lines": [
+        [
+          1932,
+          2711,
+          2027,
+          2733
+        ],
+        [
+          1888,
+          2743,
+          2073,
+          2765
+        ],
+        [
+          1894,
+          2775,
+          2065,
+          2797
+        ],
+        [
+          1868,
+          2807,
+          2091,
+          2830
+        ],
+        [
+          1867,
+          2839,
+          2098,
+          2862
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        108,
+        30,
+        1210,
+        255
+      ],
+      "fragments": [
+        [
+          108,
+          30,
+          1210,
+          255
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          30,
+          1210,
+          255
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        395,
+        1210,
+        1565
+      ],
+      "fragments": [
+        [
+          108,
+          395,
+          1210,
+          1565
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          395,
+          1210,
+          1565
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        108,
+        1860,
+        1210,
+        1995
+      ],
+      "fragments": [
+        [
+          108,
+          1860,
+          1210,
+          1995
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          1860,
+          1210,
+          1995
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        2150,
+        1210,
+        2770
+      ],
+      "fragments": [
+        [
+          108,
+          2150,
+          1210,
+          2770
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          2150,
+          1210,
+          2770
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1258,
+        30,
+        2340,
+        165
+      ],
+      "fragments": [
+        [
+          1258,
+          30,
+          2340,
+          165
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          30,
+          2340,
+          165
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        395,
+        2340,
+        3290
+      ],
+      "fragments": [
+        [
+          1258,
+          395,
+          2340,
+          3290
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          395,
+          2340,
+          3290
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        134,
+        111,
+        1011,
+        212
+      ],
+      "text": "Verzeichnis der Einzelteile des Microtronic-Computersystems 2090",
+      "lines": [
+        [
+          134,
+          111,
+          886,
+          154
+        ],
+        [
+          138,
+          164,
+          1011,
+          212
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        813,
+        425,
+        1196,
+        455
+      ],
+      "text": "Einzelbestell-Nummer",
+      "lines": [
+        [
+          813,
+          425,
+          1196,
+          455
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        466,
+        1201,
+        2637
+      ],
+      "text": "1 Anleitungsbuch, 1. Teil 20900 1 Anleitungsbuch, 2. Teil 20901 20 Programm-Tabellen (zum Selbstprogrammieren) 20904 1 Armaturenboard fertig bestückt mit Computer- Tastatur, 2 Sondertasten mit angeschlossenen Tasterbausteinen, 2 Überspiel-Buchsen mit an- geschlossenen Überspiel-Bausteinen, rote Filter-Glasscheibe 20905 1 Computer-Platine mit sämtl. Bauelementen 20906 1 Steckernetzgerät 220/10 V, 250 mA 20907 1 Baustein: Piezo-Summer 20908 1 Baustein: NPN-Transistor 20611 1 Baustein: Widerstand 47 Q 20682 1 Baustein: Widerstand 1 KQ 20685 2 Bausteine: Widerstand 4,7k OD 20687 1 Baustein: Batteriehalter 20780 2 schwarze Steckplatten 180 x 180 mm 20782 1 Gehäuse-Unterteil 20796 1 Abdeckhaube, rauchglasfarbig 20798 22 Kabel-Abschnitte: 7 rot - 4 cm lang 3 grün - 6 cm lang 6 gelb - 10 cm lang 1 braun - 18 cm lang 5 grau - 35 cm lang 32 Stück gelbe Plastikstecker Ergänzungsmöglichkeiten {nicht im Lieferumfang enthalten) Niedervolt-Schaltrelais (für Experimente im Be- reich 9-16 V, z. B. Modellbahn-Steuerungen usw.) 5964 Netzstrom-Schaltgerät: Mit dem Computer 220 V Netzstrom schalten (ca. Januar 1982 lieferbar) 2087 Cassetten-Interface für Programm-Über- spielung auf Tonband oder Cassetten-Recorder (voraussichtlich ab März 82 lieferbar) 2095 C-MOS-RAM mit Vorwiderstand, für Programm- Speicherung mit Batterie-Betrieb 20910",
+      "lines": [
+        [
+          140,
+          466,
+          1195,
+          505
+        ],
+        [
+          140,
+          507,
+          1188,
+          546
+        ],
+        [
+          137,
+          548,
+          1195,
+          588
+        ],
+        [
+          140,
+          591,
+          988,
+          627
+        ],
+        [
+          170,
+          632,
+          990,
+          673
+        ],
+        [
+          170,
+          673,
+          1004,
+          715
+        ],
+        [
+          172,
+          715,
+          918,
+          753
+        ],
+        [
+          174,
+          754,
+          1194,
+          788
+        ],
+        [
+          140,
+          795,
+          1195,
+          835
+        ],
+        [
+          140,
+          837,
+          1195,
+          875
+        ],
+        [
+          140,
+          878,
+          1195,
+          913
+        ],
+        [
+          140,
+          919,
+          1189,
+          954
+        ],
+        [
+          140,
+          960,
+          1195,
+          995
+        ],
+        [
+          141,
+          1002,
+          1195,
+          1036
+        ],
+        [
+          137,
+          1043,
+          1195,
+          1080
+        ],
+        [
+          141,
+          1084,
+          1196,
+          1118
+        ],
+        [
+          138,
+          1126,
+          1195,
+          1165
+        ],
+        [
+          141,
+          1167,
+          1196,
+          1201
+        ],
+        [
+          141,
+          1208,
+          1196,
+          1247
+        ],
+        [
+          138,
+          1293,
+          831,
+          1328
+        ],
+        [
+          527,
+          1334,
+          863,
+          1371
+        ],
+        [
+          527,
+          1375,
+          881,
+          1412
+        ],
+        [
+          530,
+          1417,
+          907,
+          1452
+        ],
+        [
+          528,
+          1458,
+          884,
+          1495
+        ],
+        [
+          138,
+          1501,
+          664,
+          1537
+        ],
+        [
+          140,
+          1880,
+          768,
+          1929
+        ],
+        [
+          139,
+          1931,
+          760,
+          1970
+        ],
+        [
+          140,
+          2195,
+          1011,
+          2233
+        ],
+        [
+          141,
+          2235,
+          1201,
+          2273
+        ],
+        [
+          140,
+          2301,
+          1031,
+          2339
+        ],
+        [
+          140,
+          2341,
+          1200,
+          2380
+        ],
+        [
+          139,
+          2402,
+          873,
+          2445
+        ],
+        [
+          140,
+          2449,
+          982,
+          2489
+        ],
+        [
+          141,
+          2489,
+          1199,
+          2530
+        ],
+        [
+          140,
+          2556,
+          979,
+          2591
+        ],
+        [
+          140,
+          2595,
+          1201,
+          2637
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        2660,
+        1203,
+        2743
+      ],
+      "text": "Für evtl. Bestellungen fordern Sie bitte kostenloses Bestellfor- mular (mit Preisangaben) an.",
+      "lines": [
+        [
+          141,
+          2660,
+          1203,
+          2700
+        ],
+        [
+          142,
+          2706,
+          643,
+          2743
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1255,
+        103,
+        1780,
+        145
+      ],
+      "text": "Sachwort-Verzeichnis",
+      "lines": [
+        [
+          1255,
+          103,
+          1780,
+          145
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1257,
+        415,
+        2319,
+        541
+      ],
+      "text": "Adresse: Bezeichnung für eine Speichereinheit, in welcher bestimmte Daten abgelegt sind, z. B. Befehle im Programm- Speicher, Inhalte von Registern, usw.",
+      "lines": [
+        [
+          1257,
+          415,
+          2318,
+          455
+        ],
+        [
+          1259,
+          457,
+          2319,
+          497
+        ],
+        [
+          1258,
+          502,
+          1908,
+          541
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        563,
+        2320,
+        687
+      ],
+      "text": "Akkumulator (ACC, accumulator): Das „Haupt-Register” eines Mikroprozessors. Im Akkumulator steht nach einer Re- chen-Operation das Ergebnis.",
+      "lines": [
+        [
+          1258,
+          563,
+          2316,
+          604
+        ],
+        [
+          1258,
+          604,
+          2320,
+          645
+        ],
+        [
+          1259,
+          648,
+          1785,
+          687
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        709,
+        2317,
+        833
+      ],
+      "text": "Algorithmus: Festgelegte Reihenfolge von Rechen-Schritten, um ein bestimmtes Ergebnis zu erzielen, z. B. um bei Spielen eine Gewinnposition zu erreichen.",
+      "lines": [
+        [
+          1258,
+          709,
+          2317,
+          752
+        ],
+        [
+          1260,
+          751,
+          2317,
+          791
+        ],
+        [
+          1259,
+          795,
+          1854,
+          833
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        857,
+        2321,
+        983
+      ],
+      "text": "ALU (arithmetik and logic unit) :Rechenwerk, Teil eines Mikro- prozessors oder eines Computers, in welchem die Rechenvor- gänge, Vergleiche usw. ausgeführt werden.",
+      "lines": [
+        [
+          1259,
+          857,
+          2321,
+          900
+        ],
+        [
+          1261,
+          899,
+          2321,
+          941
+        ],
+        [
+          1260,
+          941,
+          2014,
+          983
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1004,
+        2319,
+        1089
+      ],
+      "text": "Befehl: Anweisung für den Computer eine entsprechende Operation auszuführen.",
+      "lines": [
+        [
+          1260,
+          1004,
+          2319,
+          1045
+        ],
+        [
+          1260,
+          1051,
+          1666,
+          1089
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        1111,
+        2322,
+        1439
+      ],
+      "text": "Befehls-Satz (instruction set): Summe aller Befehle, die von einem Computer ausgeführt werden können. Wichtige Be- fehlsarten eines Befehls-Satzes sind: 1. Aritnmetische und logische Befehle (z. B. ADD, SUB, AND USW.) 2. Befehle zur Steuerung des Programm-Ablaufes (z.B. GOTO, HALT usw.) 3. Befehle zum Datentransport (z. B. MOV usw.)",
+      "lines": [
+        [
+          1261,
+          1111,
+          2319,
+          1152
+        ],
+        [
+          1261,
+          1152,
+          2322,
+          1193
+        ],
+        [
+          1260,
+          1196,
+          1917,
+          1230
+        ],
+        [
+          1264,
+          1235,
+          2320,
+          1274
+        ],
+        [
+          1310,
+          1284,
+          1395,
+          1319
+        ],
+        [
+          1261,
+          1318,
+          2202,
+          1357
+        ],
+        [
+          1308,
+          1365,
+          1633,
+          1399
+        ],
+        [
+          1262,
+          1402,
+          2100,
+          1439
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        1464,
+        2325,
+        1631
+      ],
+      "text": "Betriebs-System (Monitor-Programm) : Steuer-Programm für die wichtigsten Grundaufgaben eines Computers, wie z.B. Ta- statur-Eingaben überwachen, Werte anzeigen, Speicher-Ver- waltung usw.",
+      "lines": [
+        [
+          1262,
+          1464,
+          2324,
+          1506
+        ],
+        [
+          1262,
+          1506,
+          2325,
+          1548
+        ],
+        [
+          1262,
+          1547,
+          2325,
+          1589
+        ],
+        [
+          1261,
+          1597,
+          1487,
+          1631
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        1655,
+        2322,
+        1732
+      ],
+      "text": "Bit (binary digit): Kleinste Speicher-Einheit eines Computers, bzw. einer EDV.",
+      "lines": [
+        [
+          1263,
+          1655,
+          2322,
+          1698
+        ],
+        [
+          1264,
+          1701,
+          1533,
+          1732
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        1765,
+        1742,
+        1803
+      ],
+      "text": "Byte: 8 Bit ergeben 1 Byte.",
+      "lines": [
+        [
+          1263,
+          1765,
+          1742,
+          1803
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        1825,
+        2326,
+        2071
+      ],
+      "text": "Bus: Verbindungsleitung, welche gleichzeitig (bzw. nachein- ander) für mehrere angeschlossene Komponenten verwendet wird. Der „Adress-Bus” dient der Übermittlung von Adressen (z. B. welche Adressen von weichem Speicher-Baustein an den Computer übermittelt werden sollen). Der Daten-Bus dient zur Daten-Übertragung.",
+      "lines": [
+        [
+          1263,
+          1825,
+          2326,
+          1866
+        ],
+        [
+          1263,
+          1867,
+          2324,
+          1909
+        ],
+        [
+          1262,
+          1908,
+          2323,
+          1949
+        ],
+        [
+          1265,
+          1949,
+          2323,
+          1993
+        ],
+        [
+          1263,
+          1991,
+          2325,
+          2036
+        ],
+        [
+          1264,
+          2037,
+          1775,
+          2071
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        2097,
+        2328,
+        2264
+      ],
+      "text": "Carry-Flag: Ein vom Mikroprozessor erzeugtes Signal, wel- ches dann entsteht, wenn sich bei Rechen-Operationen ein Übertrag ergibt, oder wenn zwei zu vergleichende Ziffern ungleich sind.",
+      "lines": [
+        [
+          1264,
+          2097,
+          2328,
+          2140
+        ],
+        [
+          1264,
+          2139,
+          2325,
+          2186
+        ],
+        [
+          1265,
+          2180,
+          2325,
+          2222
+        ],
+        [
+          1266,
+          2227,
+          1508,
+          2264
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        2286,
+        2329,
+        2409
+      ],
+      "text": "Chip: Ein Silizium-Plättchen, nur wenige qmm groß, welches durch ein spezielles Verfahren (Diffusion) eine komplette eiek- tronische Schaltung enthält.",
+      "lines": [
+        [
+          1265,
+          2286,
+          2327,
+          2329
+        ],
+        [
+          1265,
+          2328,
+          2329,
+          2369
+        ],
+        [
+          1265,
+          2373,
+          1760,
+          2409
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        2435,
+        2331,
+        2725
+      ],
+      "text": "CPU (central processing unit): Zentrai-Einheit eines Compu- ters. Die CPU umfaßt ein Rechenwerk (ALU), eine zentrale Ablaufsteuerung, den Programm-Zähler und verschiedene Register. Die CPU ist das eigentliche „Gehirn” eines Compu- ters. Die moderne Technik hat es ermöglicht, eine gesamte CPU auf einem winzigen Halbleiter-Chip zu integrieren. Ein CPU-Chip wird auch als Mikroprozessor bezeichnet.",
+      "lines": [
+        [
+          1266,
+          2435,
+          2330,
+          2478
+        ],
+        [
+          1265,
+          2476,
+          2327,
+          2513
+        ],
+        [
+          1265,
+          2517,
+          2329,
+          2558
+        ],
+        [
+          1267,
+          2559,
+          2331,
+          2601
+        ],
+        [
+          1266,
+          2601,
+          2328,
+          2637
+        ],
+        [
+          1266,
+          2641,
+          2328,
+          2681
+        ],
+        [
+          1267,
+          2684,
+          2192,
+          2725
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1267,
+        2747,
+        2332,
+        2831
+      ],
+      "text": "Destination-Register: Ziel-Register, in welchem die Ergebnis- se abgespeichert werden. (siehe auch Source-Register).",
+      "lines": [
+        [
+          1268,
+          2747,
+          2332,
+          2788
+        ],
+        [
+          1267,
+          2789,
+          2269,
+          2831
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1267,
+        2854,
+        2333,
+        2977
+      ],
+      "text": "Dezimal-Korrektor (dezimal adjustment): Notwendige Pro- gramm-Schritte, um aus hexadezimalen Berechnungen ein dezimales Ergebnis zu erhalten.",
+      "lines": [
+        [
+          1268,
+          2854,
+          2333,
+          2895
+        ],
+        [
+          1267,
+          2895,
+          2330,
+          2938
+        ],
+        [
+          1268,
+          2941,
+          1827,
+          2977
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1269,
+        3001,
+        2334,
+        3126
+      ],
+      "text": "Dezimal-System: Zahlen-System bestehend aus den Ziffern O bis 9. Übliches Zahlen-System für allgemeine Rechenauf- gaben.",
+      "lines": [
+        [
+          1269,
+          3001,
+          2332,
+          3048
+        ],
+        [
+          1269,
+          3042,
+          2334,
+          3081
+        ],
+        [
+          1269,
+          3091,
+          1384,
+          3126
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1268,
+        3149,
+        2332,
+        3267
+      ],
+      "text": "Display: Vorrichtung zur Anzeige von Zahlen, Buchstaben und Zeichen, z. B. Leuchtziffern-Anzeige, Flüssigkristall-Anzeige, Bildschirm usw.",
+      "lines": [
+        [
+          1269,
+          3149,
+          2331,
+          3191
+        ],
+        [
+          1268,
+          3190,
+          2332,
+          3230
+        ],
+        [
+          1270,
+          3238,
+          1545,
+          3267
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        128,
+        86,
+        900,
+        135
+      ],
+      "fragments": [
+        [
+          128,
+          86,
+          900,
+          135
+        ]
+      ],
+      "lines": [
+        [
+          128,
+          86,
+          900,
+          135
+        ]
+      ],
+      "text": "Programm: 6-stellige Addition"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1245,
+        620,
+        2315,
+        1455
+      ],
+      "fragments": [
+        [
+          1245,
+          620,
+          2315,
+          1455
+        ]
+      ],
+      "lines": [
+        [
+          1245,
+          620,
+          2315,
+          1455
+        ]
+      ],
+      "text": "Programm-Eingabe beendet: HALT - NEXT - 00 - RUN ... (right-column prose; listing + flow chart left as graphics)"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        130,
+        152,
+        1235,
+        3358
+      ],
+      "fragments": [
+        [
+          130,
+          152,
+          1235,
+          3358
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          152,
+          1235,
+          3358
+        ]
+      ],
+      "text": "Programm-Listing links (Adressen 00-34)"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1242,
+        152,
+        2305,
+        600
+      ],
+      "fragments": [
+        [
+          1242,
+          152,
+          2305,
+          600
+        ]
+      ],
+      "lines": [
+        [
+          1242,
+          152,
+          2305,
+          600
+        ]
+      ],
+      "text": "Programm-Listing rechts (Adressen 35-3B)"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        128,
+        93,
+        679,
+        128
+      ],
+      "text": "Programm: 6-stellige Addition",
+      "lines": [],
+      "kind": "title"
+    }
+  ]
+}

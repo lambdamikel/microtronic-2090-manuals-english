@@ -1,0 +1,712 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        131,
+        94,
+        911,
+        136
+      ],
+      "fragments": [
+        [
+          131,
+          94,
+          911,
+          136
+        ]
+      ],
+      "lines": [
+        [
+          131,
+          94,
+          911,
+          136
+        ]
+      ],
+      "text": "Programm-Änderung: Computer-Weck-Uhr"
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1253,
+        100,
+        2079,
+        135
+      ],
+      "fragments": [
+        [
+          1253,
+          100,
+          2079,
+          135
+        ]
+      ],
+      "lines": [
+        [
+          1253,
+          100,
+          2079,
+          135
+        ]
+      ],
+      "text": "Berichtigtes Programm: Computer-Weck-Uhr"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        120,
+        2024,
+        1185,
+        3357
+      ],
+      "fragments": [
+        [
+          120,
+          2024,
+          1185,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          120,
+          2024,
+          1185,
+          3357
+        ]
+      ],
+      "text": "Nach Programm-Eingabe starten wir mit: HALT - NEXT -EO - RUN. Das Display zeigt jetzt wieder 0000. Weck-Zeit eingeben - Taste A - der Computer wird sich nach der eingestellten Zeit melden. Wir haben jetzt die zuerst beschriebene Weck-Uhr Variation. Auch hier können wir wieder bei der letzten Adresse den Befehls-Code (der jetzt mit CED vorhanden ist) ändern auf CE2, um die beschriebene zweite Weck-Uhr Variation zu ha- ben.  Sollte das Programm nicht einwandfrei laufen, haben wir beim Programmieren einen Fehler gemacht. Wir springen zum Pro- gramm-Anfang mit HALT - NEXT - EO und vergleichen durch Betätigung der NEXT-Taste, ob die eingegebenen Befehie mit der nachfolgenden Tabelle übereinstimmen. Bei evtl. Fehlern den geänderten Befehl eingeben - nicht vergessen die NEXT- Taste zu betätigen."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1244,
+        2261,
+        2312,
+        3369
+      ],
+      "fragments": [
+        [
+          1251,
+          2261,
+          2171,
+          2309
+        ],
+        [
+          1248,
+          2354,
+          2311,
+          2473
+        ],
+        [
+          1245,
+          2501,
+          2311,
+          2826
+        ],
+        [
+          1246,
+          2854,
+          2312,
+          3133
+        ],
+        [
+          1244,
+          3168,
+          2311,
+          3369
+        ]
+      ],
+      "lines": [
+        [
+          1251,
+          2261,
+          2171,
+          2309
+        ],
+        [
+          1248,
+          2354,
+          2310,
+          2389
+        ],
+        [
+          1248,
+          2395,
+          2311,
+          2431
+        ],
+        [
+          1248,
+          2437,
+          2083,
+          2473
+        ],
+        [
+          1247,
+          2501,
+          2310,
+          2538
+        ],
+        [
+          1246,
+          2543,
+          2311,
+          2579
+        ],
+        [
+          1245,
+          2584,
+          2308,
+          2615
+        ],
+        [
+          1247,
+          2625,
+          2311,
+          2663
+        ],
+        [
+          1246,
+          2667,
+          2311,
+          2705
+        ],
+        [
+          1246,
+          2707,
+          2308,
+          2746
+        ],
+        [
+          1245,
+          2749,
+          2311,
+          2787
+        ],
+        [
+          1246,
+          2791,
+          2096,
+          2826
+        ],
+        [
+          1247,
+          2854,
+          2310,
+          2891
+        ],
+        [
+          1247,
+          2895,
+          2309,
+          2933
+        ],
+        [
+          1246,
+          2937,
+          2310,
+          2973
+        ],
+        [
+          1247,
+          2978,
+          2312,
+          3015
+        ],
+        [
+          1247,
+          3020,
+          2312,
+          3056
+        ],
+        [
+          1247,
+          3061,
+          2309,
+          3096
+        ],
+        [
+          1247,
+          3104,
+          1368,
+          3133
+        ],
+        [
+          1247,
+          3168,
+          2311,
+          3205
+        ],
+        [
+          1246,
+          3210,
+          2308,
+          3246
+        ],
+        [
+          1247,
+          3251,
+          2308,
+          3282
+        ],
+        [
+          1246,
+          3292,
+          2311,
+          3328
+        ],
+        [
+          1244,
+          3334,
+          2047,
+          3369
+        ]
+      ],
+      "text": "Immer neue Möglichkeiten mit 0 und 1  Es muß noch einmalerwähnt werden, daß alle Computer nur mit den beiden Zuständen „Spannung vorhanden” = Wert 1 oder „keine Spannung vorhanden” = Wert O arbeiten.  Um bei der vorangegangenen Weck-Uhr den Piezo-Summer zum Tönenzubringen war esnotwendig, die Ausgänge zu „akti- vieren”. Hierfür haben wir bei Adresse 0C den Wert Fineinem Register gespeichert (mit MOVI F,6 wurde der Wert Fin das Re- gister & geschoben) und wir haben diesen Wert F am Pro- gramm-Ende (bei Adresse 1B) mit dem DOT-Befehl auf die Ausgänge geschaltet. Deran einem der Ausgänge angeschlos- sene Piezo-Summer wurde zum Tönen gebracht.  Später möchten wir eine Schalt-Uhr programmieren, die gleichzeitig oder nacheinander verschiedenartige Geräte ansteuert. Dazu ist es notwendig, daß wir nicht alle Ausgänge gleichzeitig, sondern daß wir die 4 Ausgänge unabhängig von- einander ansteuern (aktivieren) können, Hierfür gibt es ver- schiedene Befehle, die wir kennen und verstehen lernen sollten.  Mit folgendem Programm werden die 4 Ausgänge nacheinan- der angesteuert, wodurch die an jedem Ausgang vorhandenen LEDs nacheinander aufleuchten und sofort wieder verlöschen. Es entsteht der Eindruck eines sich bewegenden Lichtpunk- tes, weshalb man hierzu auch „Lauflicht” sagt."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        120,
+        144,
+        1200,
+        1824
+      ],
+      "fragments": [
+        [
+          120,
+          144,
+          1200,
+          1824
+        ]
+      ],
+      "lines": [
+        [
+          120,
+          144,
+          1200,
+          1824
+        ]
+      ],
+      "text": "[left table: old address -> new address fill-in template]",
+      "font_pt": 7.4
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        120,
+        1840,
+        1190,
+        2015
+      ],
+      "fragments": [
+        [
+          120,
+          1840,
+          1190,
+          2015
+        ]
+      ],
+      "lines": [
+        [
+          120,
+          1840,
+          1190,
+          2015
+        ]
+      ],
+      "text": "Nachdem wir unser Programm und alle Sprung-Befehle unter Beruecksichtigung der neuen Adressen umgeschrieben haben, wollen wir die Eingabe vornehmen: HALT - NEXT - E0 (anstelle 00 wie sonst ueblich)!"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        144,
+        2328,
+        2025
+      ],
+      "fragments": [
+        [
+          1248,
+          144,
+          2328,
+          2025
+        ]
+      ],
+      "lines": [
+        [
+          1248,
+          144,
+          2328,
+          2025
+        ]
+      ],
+      "text": "[right table: corrected program Computer-Weck-Uhr E0..FC]",
+      "font_pt": 8.8
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        131,
+        94,
+        911,
+        136
+      ],
+      "text": "Programm-Änderung: Computer-Weck-Uhr",
+      "lines": [
+        [
+          131,
+          94,
+          911,
+          136
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1253,
+        100,
+        2079,
+        135
+      ],
+      "text": "Berichtigtes Programm: Computer-Weck-Uhr",
+      "lines": [
+        [
+          1253,
+          100,
+          2079,
+          135
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        120,
+        2024,
+        1185,
+        2346
+      ],
+      "text": "Nach Programm-Eingabe starten wir mit: HALT - NEXT -EO - RUN. Das Display zeigt jetzt wieder 0000. Weck-Zeit eingeben - Taste A - der Computer wird sich nach der eingestellten Zeit melden. Wir haben jetzt die zuerst beschriebene Weck-Uhr Variation. Auch hier können wir wieder bei der letzten Adresse den Befehls-Code (der jetzt mit CED vorhanden ist) ändern auf CE2, um die beschriebene zweite Weck-Uhr Variation zu ha- ben.",
+      "lines": [
+        [
+          123,
+          2024,
+          1183,
+          2061
+        ],
+        [
+          123,
+          2066,
+          1183,
+          2102
+        ],
+        [
+          120,
+          2107,
+          1182,
+          2143
+        ],
+        [
+          123,
+          2148,
+          1185,
+          2185
+        ],
+        [
+          121,
+          2190,
+          1183,
+          2222
+        ],
+        [
+          122,
+          2230,
+          1185,
+          2268
+        ],
+        [
+          122,
+          2273,
+          1185,
+          2309
+        ],
+        [
+          123,
+          2317,
+          194,
+          2346
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        120,
+        2379,
+        1184,
+        2663
+      ],
+      "text": "Sollte das Programm nicht einwandfrei laufen, haben wir beim Programmieren einen Fehler gemacht. Wir springen zum Pro- gramm-Anfang mit HALT - NEXT - EO und vergleichen durch Betätigung der NEXT-Taste, ob die eingegebenen Befehie mit der nachfolgenden Tabelle übereinstimmen. Bei evtl. Fehlern den geänderten Befehl eingeben - nicht vergessen die NEXT- Taste zu betätigen.",
+      "lines": [
+        [
+          120,
+          2379,
+          1180,
+          2415
+        ],
+        [
+          121,
+          2421,
+          1184,
+          2457
+        ],
+        [
+          120,
+          2462,
+          1179,
+          2498
+        ],
+        [
+          121,
+          2503,
+          1182,
+          2539
+        ],
+        [
+          120,
+          2545,
+          1181,
+          2580
+        ],
+        [
+          120,
+          2586,
+          1184,
+          2622
+        ],
+        [
+          121,
+          2628,
+          448,
+          2663
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        2261,
+        2171,
+        2309
+      ],
+      "text": "Immer neue Möglichkeiten mit 0 und 1",
+      "lines": [
+        [
+          1251,
+          2261,
+          2171,
+          2309
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1248,
+        2354,
+        2311,
+        2473
+      ],
+      "text": "Es muß noch einmalerwähnt werden, daß alle Computer nur mit den beiden Zuständen „Spannung vorhanden” = Wert 1 oder „keine Spannung vorhanden” = Wert O arbeiten.",
+      "lines": [
+        [
+          1248,
+          2354,
+          2310,
+          2389
+        ],
+        [
+          1248,
+          2395,
+          2311,
+          2431
+        ],
+        [
+          1248,
+          2437,
+          2083,
+          2473
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1245,
+        2501,
+        2311,
+        2826
+      ],
+      "text": "Um bei der vorangegangenen Weck-Uhr den Piezo-Summer zum Tönenzubringen war esnotwendig, die Ausgänge zu „akti- vieren”. Hierfür haben wir bei Adresse 0C den Wert Fineinem Register gespeichert (mit MOVI F,6 wurde der Wert Fin das Re- gister & geschoben) und wir haben diesen Wert F am Pro- gramm-Ende (bei Adresse 1B) mit dem DOT-Befehl auf die Ausgänge geschaltet. Deran einem der Ausgänge angeschlos- sene Piezo-Summer wurde zum Tönen gebracht.",
+      "lines": [
+        [
+          1247,
+          2501,
+          2310,
+          2538
+        ],
+        [
+          1246,
+          2543,
+          2311,
+          2579
+        ],
+        [
+          1245,
+          2584,
+          2308,
+          2615
+        ],
+        [
+          1247,
+          2625,
+          2311,
+          2663
+        ],
+        [
+          1246,
+          2667,
+          2311,
+          2705
+        ],
+        [
+          1246,
+          2707,
+          2308,
+          2746
+        ],
+        [
+          1245,
+          2749,
+          2311,
+          2787
+        ],
+        [
+          1246,
+          2791,
+          2096,
+          2826
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1246,
+        2854,
+        2312,
+        3133
+      ],
+      "text": "Später möchten wir eine Schalt-Uhr programmieren, die gleichzeitig oder nacheinander verschiedenartige Geräte ansteuert. Dazu ist es notwendig, daß wir nicht alle Ausgänge gleichzeitig, sondern daß wir die 4 Ausgänge unabhängig von- einander ansteuern (aktivieren) können, Hierfür gibt es ver- schiedene Befehle, die wir kennen und verstehen lernen sollten.",
+      "lines": [
+        [
+          1247,
+          2854,
+          2310,
+          2891
+        ],
+        [
+          1247,
+          2895,
+          2309,
+          2933
+        ],
+        [
+          1246,
+          2937,
+          2310,
+          2973
+        ],
+        [
+          1247,
+          2978,
+          2312,
+          3015
+        ],
+        [
+          1247,
+          3020,
+          2312,
+          3056
+        ],
+        [
+          1247,
+          3061,
+          2309,
+          3096
+        ],
+        [
+          1247,
+          3104,
+          1368,
+          3133
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        3168,
+        2311,
+        3369
+      ],
+      "text": "Mit folgendem Programm werden die 4 Ausgänge nacheinan- der angesteuert, wodurch die an jedem Ausgang vorhandenen LEDs nacheinander aufleuchten und sofort wieder verlöschen. Es entsteht der Eindruck eines sich bewegenden Lichtpunk- tes, weshalb man hierzu auch „Lauflicht” sagt.",
+      "lines": [
+        [
+          1247,
+          3168,
+          2311,
+          3205
+        ],
+        [
+          1246,
+          3210,
+          2308,
+          3246
+        ],
+        [
+          1247,
+          3251,
+          2308,
+          3282
+        ],
+        [
+          1246,
+          3292,
+          2311,
+          3328
+        ],
+        [
+          1244,
+          3334,
+          2047,
+          3369
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

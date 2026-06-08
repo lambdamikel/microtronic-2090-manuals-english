@@ -1,0 +1,34 @@
+{
+  "0": {
+    "de": "",
+    "en": "<b>The CALL command, command code: Baa</b>\nCALL can be translated from the English as &bdquo;call&rdquo;. It is the address call for the jump into a subprogram. The command code is <b>Baa</b>, where for <b>aa</b> the start address of the subprogram is entered.\n\n<b>The RET command, command code F07</b>\nRET comes from the English <b>ret</b>urn and can be translated as &bdquo;back&rdquo;. With the command entry F07, the jump back from the subprogram takes place automatically to the program address following next after the CALL command.\n\nA subprogram will be shown to us in the next chapter."
+  },
+  "1": {
+    "de": "",
+    "en": "How is a computer game programmed?"
+  },
+  "2": {
+    "de": "",
+    "en": "<b>Example: The Nim game</b>\nIn our first computer experiences we got to know the Nim game. Since the programming of such games is very interesting, we want to examine the Nim game program more closely for once.\n\nAs is known, the Nim game is stored as a permanent program in the microprocessor. With HALT – PGM – 7 we can load the Nim game into the program memory accessible to us.\n\n<b>Attention:</b> Loading the Nim game over erases other programs present in our program memory up to address 44.\n\nWith HALT – NEXT – 00 we go to the program start, and we can now view the program with the NEXT key and compare it with the program table of this chapter.\n\nIf we ourselves want to program and develop such a program, we must at the start occupy ourselves with the &bdquo;game theory&rdquo;."
+  },
+  "3": {
+    "de": "",
+    "en": "The Nim game is a simple but nonetheless interesting game for 2 people. In the so-called &bdquo;game theory&rdquo; this game is designated as a &bdquo;two-person zero-sum game with complete information and optimal strategy&rdquo;.\n\n&bdquo;Zero-sum game&rdquo; means that there is fundamentally one winner and one loser. A draw is not possible.\n\n&bdquo;Complete information&rdquo; means that there are, for example, no hidden cards; rather both players have the same information throughout the entire playing time.\n\n&bdquo;Optimal strategy&rdquo; means that there is a way for the player that must fundamentally lead to the goal. This makes it relatively easy to develop a program for such a game.\n\nThe main difficulty is to find the &bdquo;optimal strategy&rdquo;. For this Nim game the strategy is still relatively easy to find. With the game &bdquo;Nim-2&rdquo; planned in the second part of the instruction book, finding an optimal strategy is already quite difficult."
+  },
+  "4": {
+    "de": "",
+    "en": "<b>How do we find the &bdquo;optimal strategy&rdquo;?</b>\nFor this it is necessary to break a game down into individual game sections. It is even best to begin the considerations at the end of the game. For our considerations we assume that the two players A and B play against each other, and that A is to win. At the start of the game a heap of 15 matches is to be available. At most 3 or at least 1 match may be taken away at a time.\n\nSince player B is to lose, B must take away the last match. Player A must arrange his strategy so that B, at his second-to-last move, finds at most 4 matches but at least 2 matches. Player A will thus try to leave 5 matches over after his move. If B then takes away 3 matches, 2 remain"
+  },
+  "5": {
+    "de": "",
+    "en": "left over, A takes 1 and B loses with the last match. Or B takes 1 away from the 5 matches; of the 4 remaining, A takes 3 and B loses with the last match.\n\nThus the digit 5 is a winning number. The player who, after his move, leaves 5 matches has already won. The next following winning number is 1, for whoever can leave the last match over wins. The difference between the winning numbers 5 and 1 is 4. If we add the difference number 4 to the winning number 5, 9 results as the next winning number. Whoever leaves 9 matches over and knows the game strategy – will win. The next winning number results from 9 and 4 = 13.\n\nThe winning numbers that player A must try to reach are thus 13 – 9 – 5 – 1. One can break these winning numbers down:\n\n<div style=\"margin:1.6mm 0;font-family:&#39;Courier New&#39;,monospace;font-size:9.5pt;line-height:1.45\">05 = 4 + 1<br>09 = 2 &times; 4 + 1<br>13 = 3 &times; 4 + 1</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "The number 4 also has an origin: at minimum <b>1</b> match, at maximum <b>3</b> matches may be taken away: 3 + 1 = 4.\n\nOne can also calculate the winning number with the help of a formula.\n\nFor this we denote the winning number with <b>GZ</b>, the maximum with <b>MAX</b> and the minimum with <b>MIN</b>:\n\n<div style=\"margin:1.6mm 0;font-family:&#39;Courier New&#39;,monospace;font-size:9.5pt;line-height:1.45\"><b>GZ</b> = 0 &times; (<b>MAX</b> + <b>MIN</b>) + 1</div>\n\nWith this formula, other winning numbers can also be determined, e.g. when at most 6 matches and at least 1 match can be taken:\n\n<div style=\"margin:1.6mm 0;font-family:&#39;Courier New&#39;,monospace;font-size:9.5pt;line-height:1.45\"><b>GZ</b> = 0 &times; (6 + 1) + 1 = <b>1</b><br><b>GZ</b> = 1 &times; (6 + 1) + 1 = <b>8</b><br><b>GZ</b> = 2 &times; (6 + 1) + 1 = <b>15</b><br><b>GZ</b> = 3 &times; (6 + 1) + 1 = <b>22</b> etc.</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "During such a game, no one will carry out such calculations. If, however, such a game is to be played against the computer, it must be helped to carry out the correct calculations.\n\nFor the development of such a program one expediently begins with the most difficult part of the program, by first sketching a program flow chart. So we must first consider once how the computer can find a winning number.\n\nStarting from the fact that at most 15 matches are available on the heap, and that at most 3 or at least 1 match may be taken away, we expediently let the computer work according to the following scheme:\n\nIt takes (for its internal fast calculations) the maximum permissible number (3). If no winning number is reached by this, the maximum value is reduced by 1 unit, i.e. the computer calculates whether it reaches a winning number with 2. If not, the value is reduced once more by 1, and either a winning number is now found, or the minimum take-away value is reached. This method has the advantage that the computer, if it finds no winning number, always takes only 1 match from the available heap and thus delays the game, in order to perhaps reach the winning number on its next move."
+  }
+}

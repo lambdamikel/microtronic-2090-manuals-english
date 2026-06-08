@@ -1,0 +1,42 @@
+{
+  "0": {
+    "de": "",
+    "en": "memory registers 0 to 3. If a remainder arises, the ZERO LED lights up at the same time as the result display. This gives an indication that a remainder is present. With a result display without remainder, the ZERO LED does not light. The ZERO flag can be used to query the program as to whether a remainder is present.\n\nWith some division tasks (e.g. 9999 : 1) the computing time amounts to several seconds. During this time the display switches off, but we recognize from the continuously lit ZERO LED that the computer is working."
+  },
+  "1": {
+    "de": "",
+    "en": "<b>How does the microprocessor carry out the division?</b>\nA division is a repeated subtraction, i.e. the division is carried out step by step.\n\nExample: 18 : 6 = 18 – 6 – 6 – 6 = 3 &times; 6"
+  },
+  "2": {
+    "de": "",
+    "en": "No wonder the computer needs several seconds for the task 9999 : 1. Nevertheless it is astonishing at what speed 9999 –1 –1 –1 … etc. is calculated.\n\nIn division too, besides the working registers and memory registers, the auxiliary registers available in the operating system are drawn upon. In the aforementioned task 9999 : 1, not only is the value 1 subtracted 9999 times, but in the auxiliary register the value 1 is also added 9999 times, so that at the end, through various manipulations within the microprocessor, we can read off the result 9999.\n\nWe do have to wait a while (about 8 seconds) for the result, but in this time the microprocessor carries out (through the necessary subtracting and adding) 19,998 computing operations. That is 2,500 computing operations per second. During the computing time the microprocessor does not drive the display (hence, despite the DISP command, no display). During the computing time it also does not scan the keyboard, which is why we can press the HALT key without the computer reacting to it."
+  },
+  "3": {
+    "de": "",
+    "en": "At 2,500 computing operations per second, the microprocessor temporarily suspends all its other work in order to reach the result as quickly as possible. This also leads, for example, to the clock time receiving no clock pulse during such long arithmetic operations and thus running a few seconds slow. It must, however, be borne in mind that the division 9999 : 1 requires the longest time. With the division 9999 : 2, logically only half the time (about 4 seconds) is required, and the division time for the usual normal tasks is negligible.\n\nThe DIV command brings us, in programming, just like the MULT command, a great relief."
+  },
+  "4": {
+    "de": "",
+    "en": "The last 4 commands –<br>then we can do everything!"
+  },
+  "5": {
+    "de": "",
+    "en": "<b>The HALT command, command code F00</b>\nBesides the HALT function key, we can also build a HALT command directly into a program. The entry code is F00. If this command is present within a program, the program is stopped at this point. The display shows the address at which the HALT command F00 was entered. To continue the program, the STEP key must first be pressed and then the RUN key.\n\nThe HALT command can for example be present in a program as a &bdquo;wait command&rdquo;, but it can also be used for testing out a new program."
+  },
+  "6": {
+    "de": "",
+    "en": "The NOP command, command code F01"
+  },
+  "7": {
+    "de": "",
+    "en": "The NOP command (no operation) has no functions whatsoever. The NOP command is a command that executes no command!\n\nWhat is the point of this command, then?\n\nWhen we create longer programs ourselves and are not sure whether, after a first program test, further commands may still have to be inserted, the NOP command can be a good help. We can, namely, enter a few NOP commands at points in the program that seem critical to us. We then have the possibility later of making the possibly missing command entries in place of the NOP commands, without the whole program having to be re-entered for that reason. Since the NOP commands are without function, it does not disturb a later program run if a few unused NOP commands stand in between, because these are simply skipped – as if they were not present.\n\nWith our Microtronic computer system, everything has been thought of."
+  },
+  "8": {
+    "de": "",
+    "en": "Jumping into a subprogram with CALL!"
+  },
+  "9": {
+    "de": "",
+    "en": "With longer programs it is possible that the same calculations have to be carried out at different points in the program. So that these same program steps do not have to be inserted several times at the different points in the program, we use a so-called &bdquo;subprogram&rdquo; for identical program steps:\n\nThe main program is processed by the computer as usual. As soon as the address with the CALL command appears, a jump to the subprogram takes place, which can for example stand at the end of the main program in the program memory.\n\nCALL is thus, similarly to GOTO, a jump command, except that with the CALL command its address is stored in the microprocessor.\n\nThe subprogram is likewise processed normally, until at the end of the subprogram the command RET (return) appears. Through RET a jump back to the main program takes place. Since the microprocessor has registered the address of the CALL command, the address following the CALL command is automatically addressed in the main program, and the main program can be processed further. With every CALL command the CALL address is stored anew in the microprocessor, which makes it possible to jump to the subprogram from various points of the main program. In the same way it is possible to jump back from the subprogram again and again to the various points of the main program.\n\nWith CALL, various (several) subprograms can also be addressed, whereby, however, a jump back to the main program with RET is first required. A jump from one subprogram directly to another is not possible.\n\nSubprograms are also called &bdquo;subroutines&rdquo;. Through such a subroutine a program can be kept shorter, because the repetition of recurring identical program steps is not necessary."
+  }
+}

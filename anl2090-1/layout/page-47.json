@@ -1,0 +1,952 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        1262,
+        109,
+        2331,
+        3357
+      ],
+      "fragments": [
+        [
+          1262,
+          109,
+          2331,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          1262,
+          109,
+          2331,
+          3357
+        ]
+      ],
+      "text": "Der Computer zeigt wieder die genaue Uhrzeit einschließlich Sekunden. Sobald die eingestellte Weck-Zeit erreicht wird, meldet sich der Summer. Das Display zeigt jetzt nur noch die eingegebenen Weck-Zeit mit Stunden und Minuten. Dieser Zu- stand bleibt solange erhalten, bis wir eine neue Weck-Zeit ein- geben (wobei die bisher angezeigte Zeit gelöscht wird). Dann Taste A betätigen. Der Summer wird abgeschaltet und die lau- fende Uhrzeit einschließlich Sekunden wieder angezeigt.  Soll die eingestellte Zeit nicht geändert werden, müssen wir eine Minute warten. Sobald wir dann Taste A betätigen, wird wieder die laufende Uhrzeiteinschließlich Sekunden angezeigt und der Computer meldet sich am nächsten Tag zur gleichen Zeit.  Wenn wir die Programm-Tabelle und den Programm-Ablauf- plan (bei welchem wieder die Adressen jeweils rechts neben den Symbolen angegeben sind) vergleichen, sollten uns die Funktionen dieses Programmes keine Schwierigkeiten berei- ten.  Wenn wir unseren Computer im Dauerbetrieb weiterlaufen las- sen möchten, können wir das Weck-Uhren-Programm z. B. auch auf die letzten Adressen des Programm-Speichers brin- gen. Hierdurch hätten wir die Möglichkeit bei Adresse 00 be- ginnend, weitere Programme einzugeben und nebenher den Computer als Weck-Uhr einzusetzen. Auf welcher Adresse müßten wir in diesem Fall mit der Programm-Eingabe begin- nen?  Wir vergleichen mit der Tabelle „Gegenüberstellung dezima- les/hexadezimales Zahlen-System” auf Seite 17, bzw. auf dem Buch-Lesezeichen. Bei der letzten Dezimal-Zahl 255 steht he- xadezimal FF. FF ist die letzte belegbare Programm-Adresse. 29 Schritte rückwärts gezählt, kämen wir auf die E3. Zweck- mäßigerweise beginnen wir jedoch bei EO. Können wir das glei- che Programm statt auf 00 beginnend auch bei der Adresse EO beginnend eingeben?  Wenn wir uns die Programm-Tabelle ansehen, sollten wir eigentlich schnell zu der Erkenntnis kommen, daß durch die vielen Sprung-Befehle eine Programm-Änderung notwendig wird.  Den ersten Sprung-Befehl haben wir auf der bisherigen Adres- se 05. Durch den Befehls-Code DOB sind wir bisher zur Adres- se OB gesprungen. Würden wir diesen Befehls-Code belassen, „springen wir weit aus unserem Programm heraus”. Welche Überlegungen sind notwendig? Welche Befehls-Codes müs- sen geändert werden?  Das gesamte Programm ist neu zu überdenken. Hierfür hilft nachstehende Tabelle mit Angabe der bisherigen Adressen- Nummern und der zukünftigen neuen Adressen, beginnendbei EO bis FC. Beieinigen Adressen ist ein * angegeben. Bei diesen Adressen sind Überlegungen notwendig, ob der bisherige Be- fehls-Code unverändert übernommen werden kann?  Bevor wir mit der Programmierung beginnen, schreiben wir das geänderte Programm in die Tabelle. Bei den neuen Adressen EO bis einschließlich EA können wir die unveränderten Einga- be-Befehle übernehmen (EO = F08 usw.) Bei der Adresse E5 kommt ein Sprung-Befehl, welcher in unserem bisherigen Pro- gramm mit DOB stand, (da ein Sprung nach Adresse OB auszu- führen war). Die alte Adresse OB heißt für unsere neue Program- mierung EB. Logischerweise muß der bisherige Befehls-Code DOB in DEB geändert werden. Die nächste überlegungsbedürf- tige neue Adresse ist EA. Was ist zu ändern?"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        143,
+        111,
+        1207,
+        900
+      ],
+      "fragments": [
+        [
+          143,
+          111,
+          1207,
+          900
+        ]
+      ],
+      "lines": [
+        [
+          143,
+          111,
+          1207,
+          900
+        ]
+      ],
+      "text": "Damit sich keine zu lange Wartezeit ergibt, nurwenig später als momentane Zeit eingeben. Beispiel: Es ist jetzt 9.45 Uhr, also geben wir ein 9.48 Uhr (0948). Taste A- der Computer zeigt die genaue Uhrzeit einschließlich Sekunden. Sobald die einge- stellte Weck-Zeit erreicht ist, ertönt der Summer, welcher sich nach einer Minute automatisch wieder abschaltet.  Wenn wir an diesem Programm nichts ändern, wird sich der Computer täglich um die gleiche Zeit wieder melden. Wir kön- nen jedoch auch mit HALT - NEXT - 00 - RUN das Programm neu starten und eine andere Zeit eingeben.  Eine zweite interessante Programm-Variation ergibt sich, wenn wir den letzten Befehl unter Adresse 1C, welcher mit dem Be- fehls-Code COD (also Rücksprung zu Adresse OD eingegeben war) in CO2 (Rücksprung zur Programm-Adresse 02) ändern. Wir probieren es aus: HALT - NEXT - 1C, den geänderten Be- fehl CO2 eingeben, NEXT-Taste betätigen und mitHALT - NEXT - 00 zum Programm-Anfang zurückgehen. Starten mit RUN — neue Weck-Zeit eingeben. Taste A betätigen."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        143,
+        111,
+        1204,
+        348
+      ],
+      "text": "Damit sich keine zu lange Wartezeit ergibt, nurwenig später als momentane Zeit eingeben. Beispiel: Es ist jetzt 9.45 Uhr, also geben wir ein 9.48 Uhr (0948). Taste A- der Computer zeigt die genaue Uhrzeit einschließlich Sekunden. Sobald die einge- stellte Weck-Zeit erreicht ist, ertönt der Summer, welcher sich nach einer Minute automatisch wieder abschaltet.",
+      "lines": [
+        [
+          144,
+          111,
+          1202,
+          148
+        ],
+        [
+          145,
+          153,
+          1202,
+          189
+        ],
+        [
+          143,
+          194,
+          1201,
+          231
+        ],
+        [
+          143,
+          235,
+          1204,
+          273
+        ],
+        [
+          143,
+          277,
+          1200,
+          311
+        ],
+        [
+          145,
+          318,
+          1005,
+          348
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        371,
+        1206,
+        530
+      ],
+      "text": "Wenn wir an diesem Programm nichts ändern, wird sich der Computer täglich um die gleiche Zeit wieder melden. Wir kön- nen jedoch auch mit HALT - NEXT - 00 - RUN das Programm neu starten und eine andere Zeit eingeben.",
+      "lines": [
+        [
+          144,
+          371,
+          1205,
+          407
+        ],
+        [
+          145,
+          412,
+          1206,
+          449
+        ],
+        [
+          147,
+          454,
+          1202,
+          490
+        ],
+        [
+          147,
+          495,
+          889,
+          530
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        144,
+        559,
+        1207,
+        884
+      ],
+      "text": "Eine zweite interessante Programm-Variation ergibt sich, wenn wir den letzten Befehl unter Adresse 1C, welcher mit dem Be- fehls-Code COD (also Rücksprung zu Adresse OD eingegeben war) in CO2 (Rücksprung zur Programm-Adresse 02) ändern. Wir probieren es aus: HALT - NEXT - 1C, den geänderten Be- fehl CO2 eingeben, NEXT-Taste betätigen und mitHALT - NEXT - 00 zum Programm-Anfang zurückgehen. Starten mit RUN — neue Weck-Zeit eingeben. Taste A betätigen.",
+      "lines": [
+        [
+          147,
+          559,
+          1204,
+          595
+        ],
+        [
+          145,
+          600,
+          1207,
+          634
+        ],
+        [
+          145,
+          642,
+          1204,
+          678
+        ],
+        [
+          145,
+          683,
+          1204,
+          720
+        ],
+        [
+          144,
+          724,
+          1206,
+          760
+        ],
+        [
+          144,
+          765,
+          1206,
+          801
+        ],
+        [
+          146,
+          807,
+          1204,
+          843
+        ],
+        [
+          146,
+          849,
+          922,
+          884
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        377,
+        1073,
+        492,
+        1103
+      ],
+      "text": "START",
+      "lines": [
+        [
+          377,
+          1073,
+          492,
+          1103
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        319,
+        1200,
+        540,
+        1310
+      ],
+      "text": "Reg. löschen Ausgänge ausschalten",
+      "lines": [
+        [
+          319,
+          1200,
+          540,
+          1235
+        ],
+        [
+          342,
+          1241,
+          515,
+          1276
+        ],
+        [
+          325,
+          1281,
+          531,
+          1310
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        377,
+        1958,
+        422,
+        1975
+      ],
+      "text": "ge Ga",
+      "lines": [
+        [
+          377,
+          1958,
+          422,
+          1966
+        ],
+        [
+          377,
+          1968,
+          418,
+          1975
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        384,
+        2004,
+        609,
+        2063
+      ],
+      "text": "OD TIME",
+      "lines": [
+        [
+          562,
+          2004,
+          609,
+          2032
+        ],
+        [
+          384,
+          2035,
+          468,
+          2063
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        861,
+        2108,
+        1202,
+        2303
+      ],
+      "text": "- Vergleich ob 10er Stunden der Uhrzeit gleich 10er Stunden - der Weckzeit",
+      "lines": [
+        [
+          861,
+          2108,
+          1114,
+          2144
+        ],
+        [
+          899,
+          2149,
+          1126,
+          2179
+        ],
+        [
+          901,
+          2190,
+          1202,
+          2226
+        ],
+        [
+          900,
+          2232,
+          1126,
+          2262
+        ],
+        [
+          861,
+          2273,
+          1122,
+          2303
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        908,
+        2421,
+        1121,
+        2492
+      ],
+      "text": "Vergleich der Stunden",
+      "lines": [
+        [
+          908,
+          2421,
+          1066,
+          2457
+        ],
+        [
+          910,
+          2463,
+          1121,
+          2492
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        909,
+        2676,
+        1195,
+        2748
+      ],
+      "text": "Vergleich der 10er Minuten",
+      "lines": [
+        [
+          909,
+          2676,
+          1067,
+          2712
+        ],
+        [
+          910,
+          2718,
+          1195,
+          2748
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        910,
+        2922,
+        1114,
+        2994
+      ],
+      "text": "Vergleich der Minuten",
+      "lines": [
+        [
+          910,
+          2922,
+          1067,
+          2958
+        ],
+        [
+          910,
+          2964,
+          1114,
+          2994
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        694,
+        3219,
+        876,
+        3288
+      ],
+      "text": "schalten Summer aus)",
+      "lines": [
+        [
+          731,
+          3219,
+          876,
+          3248
+        ],
+        [
+          694,
+          3260,
+          873,
+          3288
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        417,
+        3321,
+        850,
+        3374
+      ],
+      "text": "Ic 1A",
+      "lines": [
+        [
+          417,
+          3321,
+          850,
+          3374
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        317,
+        3218,
+        501,
+        3287
+      ],
+      "text": "schalten (Summer ein)",
+      "lines": [
+        [
+          356,
+          3218,
+          501,
+          3247
+        ],
+        [
+          317,
+          3258,
+          498,
+          3287
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1266,
+        109,
+        2330,
+        434
+      ],
+      "text": "Der Computer zeigt wieder die genaue Uhrzeit einschließlich Sekunden. Sobald die eingestellte Weck-Zeit erreicht wird, meldet sich der Summer. Das Display zeigt jetzt nur noch die eingegebenen Weck-Zeit mit Stunden und Minuten. Dieser Zu- stand bleibt solange erhalten, bis wir eine neue Weck-Zeit ein- geben (wobei die bisher angezeigte Zeit gelöscht wird). Dann Taste A betätigen. Der Summer wird abgeschaltet und die lau- fende Uhrzeit einschließlich Sekunden wieder angezeigt.",
+      "lines": [
+        [
+          1271,
+          109,
+          2326,
+          146
+        ],
+        [
+          1270,
+          151,
+          2328,
+          187
+        ],
+        [
+          1271,
+          192,
+          2328,
+          227
+        ],
+        [
+          1266,
+          232,
+          2327,
+          269
+        ],
+        [
+          1266,
+          273,
+          2327,
+          310
+        ],
+        [
+          1270,
+          315,
+          2327,
+          354
+        ],
+        [
+          1268,
+          357,
+          2330,
+          394
+        ],
+        [
+          1269,
+          398,
+          2251,
+          434
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        462,
+        2327,
+        657
+      ],
+      "text": "Soll die eingestellte Zeit nicht geändert werden, müssen wir eine Minute warten. Sobald wir dann Taste A betätigen, wird wieder die laufende Uhrzeiteinschließlich Sekunden angezeigt und der Computer meldet sich am nächsten Tag zur gleichen Zeit.",
+      "lines": [
+        [
+          1266,
+          462,
+          2327,
+          498
+        ],
+        [
+          1266,
+          503,
+          2324,
+          538
+        ],
+        [
+          1265,
+          544,
+          2325,
+          579
+        ],
+        [
+          1268,
+          585,
+          2324,
+          621
+        ],
+        [
+          1265,
+          629,
+          1336,
+          657
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        691,
+        2326,
+        888
+      ],
+      "text": "Wenn wir die Programm-Tabelle und den Programm-Ablauf- plan (bei welchem wieder die Adressen jeweils rechts neben den Symbolen angegeben sind) vergleichen, sollten uns die Funktionen dieses Programmes keine Schwierigkeiten berei- ten.",
+      "lines": [
+        [
+          1263,
+          691,
+          2326,
+          729
+        ],
+        [
+          1266,
+          733,
+          2323,
+          771
+        ],
+        [
+          1265,
+          774,
+          2323,
+          811
+        ],
+        [
+          1265,
+          815,
+          2326,
+          852
+        ],
+        [
+          1263,
+          861,
+          1325,
+          888
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1266,
+        922,
+        2329,
+        1242
+      ],
+      "text": "Wenn wir unseren Computer im Dauerbetrieb weiterlaufen las- sen möchten, können wir das Weck-Uhren-Programm z. B. auch auf die letzten Adressen des Programm-Speichers brin- gen. Hierdurch hätten wir die Möglichkeit bei Adresse 00 be- ginnend, weitere Programme einzugeben und nebenher den Computer als Weck-Uhr einzusetzen. Auf welcher Adresse müßten wir in diesem Fall mit der Programm-Eingabe begin- nen?",
+      "lines": [
+        [
+          1266,
+          922,
+          2329,
+          958
+        ],
+        [
+          1267,
+          964,
+          2326,
+          999
+        ],
+        [
+          1268,
+          1005,
+          2329,
+          1041
+        ],
+        [
+          1267,
+          1046,
+          2329,
+          1083
+        ],
+        [
+          1267,
+          1088,
+          2326,
+          1125
+        ],
+        [
+          1267,
+          1129,
+          2327,
+          1166
+        ],
+        [
+          1268,
+          1171,
+          2329,
+          1206
+        ],
+        [
+          1269,
+          1213,
+          1353,
+          1242
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1266,
+        1277,
+        2329,
+        1605
+      ],
+      "text": "Wir vergleichen mit der Tabelle „Gegenüberstellung dezima- les/hexadezimales Zahlen-System” auf Seite 17, bzw. auf dem Buch-Lesezeichen. Bei der letzten Dezimal-Zahl 255 steht he- xadezimal FF. FF ist die letzte belegbare Programm-Adresse. 29 Schritte rückwärts gezählt, kämen wir auf die E3. Zweck- mäßigerweise beginnen wir jedoch bei EO. Können wir das glei- che Programm statt auf 00 beginnend auch bei der Adresse EO beginnend eingeben?",
+      "lines": [
+        [
+          1266,
+          1277,
+          2329,
+          1315
+        ],
+        [
+          1268,
+          1319,
+          2325,
+          1354
+        ],
+        [
+          1267,
+          1360,
+          2329,
+          1391
+        ],
+        [
+          1266,
+          1402,
+          2326,
+          1437
+        ],
+        [
+          1266,
+          1443,
+          2329,
+          1479
+        ],
+        [
+          1268,
+          1485,
+          2329,
+          1521
+        ],
+        [
+          1267,
+          1526,
+          2327,
+          1563
+        ],
+        [
+          1268,
+          1568,
+          1646,
+          1605
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1265,
+        1632,
+        2329,
+        1788
+      ],
+      "text": "Wenn wir uns die Programm-Tabelle ansehen, sollten wir eigentlich schnell zu der Erkenntnis kommen, daß durch die vielen Sprung-Befehle eine Programm-Änderung notwendig wird.",
+      "lines": [
+        [
+          1265,
+          1632,
+          2329,
+          1668
+        ],
+        [
+          1266,
+          1674,
+          2327,
+          1714
+        ],
+        [
+          1265,
+          1715,
+          2326,
+          1752
+        ],
+        [
+          1266,
+          1759,
+          1344,
+          1788
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        1821,
+        2328,
+        2066
+      ],
+      "text": "Den ersten Sprung-Befehl haben wir auf der bisherigen Adres- se 05. Durch den Befehls-Code DOB sind wir bisher zur Adres- se OB gesprungen. Würden wir diesen Befehls-Code belassen, „springen wir weit aus unserem Programm heraus”. Welche Überlegungen sind notwendig? Welche Befehls-Codes müs- sen geändert werden?",
+      "lines": [
+        [
+          1265,
+          1821,
+          2328,
+          1858
+        ],
+        [
+          1264,
+          1862,
+          2328,
+          1895
+        ],
+        [
+          1264,
+          1904,
+          2325,
+          1942
+        ],
+        [
+          1265,
+          1945,
+          2326,
+          1988
+        ],
+        [
+          1265,
+          1987,
+          2328,
+          2024
+        ],
+        [
+          1264,
+          2029,
+          1655,
+          2066
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        2093,
+        2329,
+        2332
+      ],
+      "text": "Das gesamte Programm ist neu zu überdenken. Hierfür hilft nachstehende Tabelle mit Angabe der bisherigen Adressen- Nummern und der zukünftigen neuen Adressen, beginnendbei EO bis FC. Beieinigen Adressen ist ein * angegeben. Bei diesen Adressen sind Überlegungen notwendig, ob der bisherige Be- fehls-Code unverändert übernommen werden kann?",
+      "lines": [
+        [
+          1265,
+          2093,
+          2326,
+          2132
+        ],
+        [
+          1266,
+          2135,
+          2328,
+          2171
+        ],
+        [
+          1265,
+          2177,
+          2325,
+          2213
+        ],
+        [
+          1266,
+          2218,
+          2325,
+          2260
+        ],
+        [
+          1263,
+          2259,
+          2329,
+          2296
+        ],
+        [
+          1263,
+          2301,
+          2180,
+          2332
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        2365,
+        2331,
+        2775
+      ],
+      "text": "Bevor wir mit der Programmierung beginnen, schreiben wir das geänderte Programm in die Tabelle. Bei den neuen Adressen EO bis einschließlich EA können wir die unveränderten Einga- be-Befehle übernehmen (EO = F08 usw.) Bei der Adresse E5 kommt ein Sprung-Befehl, welcher in unserem bisherigen Pro- gramm mit DOB stand, (da ein Sprung nach Adresse OB auszu- führen war). Die alte Adresse OB heißt für unsere neue Program- mierung EB. Logischerweise muß der bisherige Befehls-Code DOB in DEB geändert werden. Die nächste überlegungsbedürf- tige neue Adresse ist EA. Was ist zu ändern?",
+      "lines": [
+        [
+          1265,
+          2365,
+          2326,
+          2402
+        ],
+        [
+          1264,
+          2407,
+          2325,
+          2444
+        ],
+        [
+          1265,
+          2448,
+          2328,
+          2483
+        ],
+        [
+          1265,
+          2490,
+          2326,
+          2527
+        ],
+        [
+          1265,
+          2531,
+          2329,
+          2568
+        ],
+        [
+          1266,
+          2572,
+          2331,
+          2609
+        ],
+        [
+          1263,
+          2614,
+          2329,
+          2649
+        ],
+        [
+          1265,
+          2655,
+          2326,
+          2692
+        ],
+        [
+          1265,
+          2697,
+          2329,
+          2733
+        ],
+        [
+          1262,
+          2738,
+          2042,
+          2775
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,1288 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        55,
+        1210,
+        3372
+      ],
+      "fragments": [
+        [
+          108,
+          55,
+          1210,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          55,
+          1210,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1236,
+        55,
+        2340,
+        3372
+      ],
+      "fragments": [
+        [
+          1236,
+          55,
+          2340,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1236,
+          55,
+          2340,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        126,
+        145,
+        747,
+        303
+      ],
+      "text": "GOTO = Caa Funktion: Sprung zur Adresse aa Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          128,
+          145,
+          366,
+          174
+        ],
+        [
+          129,
+          185,
+          747,
+          220
+        ],
+        [
+          128,
+          227,
+          541,
+          262
+        ],
+        [
+          126,
+          268,
+          541,
+          303
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        126,
+        358,
+        330,
+        428
+      ],
+      "text": "BRC = Daa Funktion:",
+      "lines": [
+        [
+          126,
+          358,
+          330,
+          387
+        ],
+        [
+          126,
+          399,
+          284,
+          428
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        123,
+        357,
+        1124,
+        557
+      ],
+      "text": "(branch if carry, Verzweige wenn carry) Sprung zur Adresse aa, wenn das Carry-Flag gesetzt (1) ist. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          415,
+          357,
+          1099,
+          396
+        ],
+        [
+          331,
+          398,
+          1124,
+          435
+        ],
+        [
+          331,
+          440,
+          577,
+          476
+        ],
+        [
+          124,
+          481,
+          538,
+          516
+        ],
+        [
+          123,
+          522,
+          537,
+          557
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        609,
+        324,
+        679
+      ],
+      "text": "BRZ = Eaa Funktion:",
+      "lines": [
+        [
+          126,
+          609,
+          324,
+          638
+        ],
+        [
+          126,
+          650,
+          283,
+          679
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        123,
+        609,
+        1184,
+        809
+      ],
+      "text": "(branch if zero, Verzweige wenn zero) Sprung zur Adresse aa, wenn das Zero-Flag ge- setzt (1) ist. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          410,
+          609,
+          1067,
+          647
+        ],
+        [
+          330,
+          650,
+          1184,
+          687
+        ],
+        [
+          330,
+          692,
+          534,
+          728
+        ],
+        [
+          124,
+          733,
+          537,
+          768
+        ],
+        [
+          123,
+          774,
+          537,
+          809
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        120,
+        901,
+        601,
+        941
+      ],
+      "text": "Ein-Adress-Befehle:",
+      "lines": [
+        [
+          120,
+          901,
+          601,
+          941
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        120,
+        963,
+        1014,
+        999
+      ],
+      "text": "Die letzte Stelle des Eingabe-Codes ist variabel.",
+      "lines": [
+        [
+          120,
+          963,
+          1014,
+          999
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        118,
+        1047,
+        1172,
+        1247
+      ],
+      "text": "MAS = F7d (move Arbeitsregister in Speicherregister) Funktion: Der Inhalt des Arbeitsregisters d wird im Spei- cherregister innerhalb der gleichen Adresse ge- speichert. Der Inhalt von d bleibt unverändert Carry-Flag: unverändert",
+      "lines": [
+        [
+          120,
+          1047,
+          1142,
+          1084
+        ],
+        [
+          120,
+          1088,
+          1144,
+          1124
+        ],
+        [
+          324,
+          1129,
+          1172,
+          1166
+        ],
+        [
+          323,
+          1170,
+          1122,
+          1205
+        ],
+        [
+          118,
+          1212,
+          530,
+          1247
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1253,
+        1152,
+        1408
+      ],
+      "text": "Zero-Flag: unverändert INV = Föd (inverse) Funktion: Der Inhalt von d wird dual invertiert. Aus 1 wird",
+      "lines": [
+        [
+          116,
+          1253,
+          529,
+          1288
+        ],
+        [
+          118,
+          1337,
+          530,
+          1372
+        ],
+        [
+          118,
+          1377,
+          1152,
+          1408
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        117,
+        1419,
+        704,
+        1496
+      ],
+      "text": "0, bzw. aus O wird 1. Carry-Flag: O0, wird zurückgesetzt.",
+      "lines": [
+        [
+          322,
+          1419,
+          684,
+          1452
+        ],
+        [
+          117,
+          1460,
+          704,
+          1496
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1502,
+        1098,
+        1737
+      ],
+      "text": "Zero-Flag: 0, wenn Inhalt vond = 1 bis F 1, wenn Inhalt vond=0O SHR = F9d (shift right) Funktion: Der Inhalt von d wird (dual) nach rechts ge- schoben.",
+      "lines": [
+        [
+          115,
+          1502,
+          856,
+          1537
+        ],
+        [
+          325,
+          1543,
+          755,
+          1577
+        ],
+        [
+          116,
+          1624,
+          589,
+          1661
+        ],
+        [
+          118,
+          1666,
+          1098,
+          1703
+        ],
+        [
+          322,
+          1708,
+          480,
+          1737
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        114,
+        1749,
+        1158,
+        1865
+      ],
+      "text": "Carry-Flag: wird mit dem „herausgeschobenen’” Bit geladen Zero-Flag: O0, wenn Inhalt von d= 1 bis F 1, wenn Inhalt vond=0O",
+      "lines": [
+        [
+          116,
+          1749,
+          1158,
+          1785
+        ],
+        [
+          114,
+          1790,
+          856,
+          1825
+        ],
+        [
+          324,
+          1832,
+          754,
+          1865
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        1915,
+        316,
+        1985
+      ],
+      "text": "SHL = FAd Funktion:",
+      "lines": [
+        [
+          115,
+          1915,
+          316,
+          1944
+        ],
+        [
+          116,
+          1956,
+          273,
+          1985
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        113,
+        1915,
+        1155,
+        2155
+      ],
+      "text": "(shift left) Der Inhalt von d wird (dual) nach links gescho- ben. Carry-Flag: wird mit dem „herausgeschobenen” Bit geladen Zero-Flag: 0, wenn Inhalt von d= 1 bis F 1, wenn Inhalt vond=0",
+      "lines": [
+        [
+          402,
+          1915,
+          561,
+          1951
+        ],
+        [
+          320,
+          1956,
+          1153,
+          1993
+        ],
+        [
+          320,
+          1997,
+          391,
+          2025
+        ],
+        [
+          114,
+          2038,
+          1155,
+          2074
+        ],
+        [
+          113,
+          2080,
+          854,
+          2115
+        ],
+        [
+          322,
+          2121,
+          753,
+          2155
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        111,
+        2205,
+        1118,
+        2486
+      ],
+      "text": "ADC = FBd (add carry) Funktion: Der Inhalt des Carry-Flag (0 oder 1) wird zum Inhalt von d addiert. Carry-Flag: 0 wenn kein Übertrag vorhanden ist , 1 wenn ein Übertrag vorhanden ist (Überlauf) Zero-Flag: 0, wenn Inhalt von d= 1 bis F 1, wenn Inhalt vond= 0",
+      "lines": [
+        [
+          112,
+          2205,
+          593,
+          2241
+        ],
+        [
+          114,
+          2245,
+          1118,
+          2283
+        ],
+        [
+          318,
+          2287,
+          667,
+          2327
+        ],
+        [
+          112,
+          2328,
+          975,
+          2370
+        ],
+        [
+          321,
+          2370,
+          1112,
+          2408
+        ],
+        [
+          111,
+          2411,
+          853,
+          2446
+        ],
+        [
+          319,
+          2453,
+          751,
+          2486
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        109,
+        2535,
+        1116,
+        2817
+      ],
+      "text": "SUBC = FCd (sub carry) Funktion: Der Inhalt des Carry-Flag (0 oder 1) wird vom Inhalt des Registers d abgezogen. Carry-Flag: 0 wenn kein Übertrag vorhanden ist 1 wenn ein Übertrag vorhanden ist (Überlauf) Zero-Flag: 0, wenn Inhalt von d= 1 bis F 1, wenn Inhalt von d= 0",
+      "lines": [
+        [
+          111,
+          2535,
+          616,
+          2572
+        ],
+        [
+          112,
+          2577,
+          1116,
+          2614
+        ],
+        [
+          316,
+          2617,
+          917,
+          2658
+        ],
+        [
+          110,
+          2659,
+          973,
+          2701
+        ],
+        [
+          318,
+          2701,
+          1111,
+          2738
+        ],
+        [
+          109,
+          2742,
+          850,
+          2777
+        ],
+        [
+          318,
+          2783,
+          749,
+          2817
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        113,
+        2916,
+        750,
+        2962
+      ],
+      "text": "Ein- und Ausgabe-Befehle",
+      "lines": [
+        [
+          113,
+          2916,
+          750,
+          2962
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        112,
+        2978,
+        1008,
+        3014
+      ],
+      "text": "Die letzte Stelle des Eingabe-Codes ist variabel.",
+      "lines": [
+        [
+          112,
+          2978,
+          1008,
+          3014
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        112,
+        3066,
+        304,
+        3137
+      ],
+      "text": "DIN = FDd Funktion:",
+      "lines": [
+        [
+          112,
+          3066,
+          304,
+          3095
+        ],
+        [
+          113,
+          3108,
+          270,
+          3137
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        110,
+        3066,
+        1163,
+        3347
+      ],
+      "text": "(data in) Die an den vier Eingängen vorhandene Informa- tion wird im Register d gespeichert. Wichtig: Auf richtige Beschaltung der Eingänge achten Carry-Flag: O wird zurückgesetzt Zero-Flag: 0, wenn Inhalt von d= 1 bis F 1, wenn Inhalt vond =0O",
+      "lines": [
+        [
+          390,
+          3066,
+          530,
+          3102
+        ],
+        [
+          317,
+          3107,
+          1163,
+          3142
+        ],
+        [
+          315,
+          3148,
+          945,
+          3183
+        ],
+        [
+          110,
+          3189,
+          1130,
+          3225
+        ],
+        [
+          111,
+          3231,
+          681,
+          3266
+        ],
+        [
+          110,
+          3272,
+          852,
+          3307
+        ],
+        [
+          319,
+          3313,
+          751,
+          3347
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1248,
+        147,
+        1448,
+        217
+      ],
+      "text": "DOT = FEs Funktion:",
+      "lines": [
+        [
+          1248,
+          147,
+          1448,
+          176
+        ],
+        [
+          1248,
+          188,
+          1405,
+          217
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1247,
+        147,
+        2298,
+        388
+      ],
+      "text": "(data out) Der Inhalt von s wird an die Ausgänge gebracht und der Wert dual durch die 4 LEDs angezeigt. Die Information bleibt an den Ausgängen bis zum nächsten DOT-Befehl stehen. Carry-Flag: O0, wird zurückgesetzt",
+      "lines": [
+        [
+          1532,
+          147,
+          1696,
+          183
+        ],
+        [
+          1453,
+          188,
+          2298,
+          224
+        ],
+        [
+          1453,
+          229,
+          2283,
+          266
+        ],
+        [
+          1453,
+          270,
+          2236,
+          307
+        ],
+        [
+          1451,
+          311,
+          2053,
+          341
+        ],
+        [
+          1247,
+          353,
+          1822,
+          388
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1245,
+        394,
+        2254,
+        597
+      ],
+      "text": "Zero-Flag: 0, wenn Inhalt vond= 1 bisF 1, wenn Inhaltvond = 0 KIN = FFd (keyboard in) Funktion: KIN bewirkt eine Programmunterbrechung bis",
+      "lines": [
+        [
+          1245,
+          394,
+          1984,
+          429
+        ],
+        [
+          1454,
+          435,
+          1882,
+          468
+        ],
+        [
+          1246,
+          518,
+          1743,
+          554
+        ],
+        [
+          1247,
+          559,
+          2254,
+          597
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1243,
+        601,
+        2298,
+        840
+      ],
+      "text": "eine Ziffer über die Tastatur eingegeben wird. Der Wert dieser Ziffer (0 bis F) wird in d gespei- chert. Carry-Flag: O, wird zurückgesetzt Zero-Flag: 0, wenn Inhalt vond=1bisF 1, wenn Inhalt vond=0",
+      "lines": [
+        [
+          1451,
+          601,
+          2250,
+          638
+        ],
+        [
+          1451,
+          643,
+          2298,
+          680
+        ],
+        [
+          1450,
+          683,
+          1546,
+          713
+        ],
+        [
+          1245,
+          724,
+          1822,
+          760
+        ],
+        [
+          1243,
+          766,
+          1983,
+          801
+        ],
+        [
+          1453,
+          808,
+          1881,
+          840
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1243,
+        1061,
+        1609,
+        1108
+      ],
+      "text": "Anzeige-Befehl",
+      "lines": [
+        [
+          1243,
+          1061,
+          1609,
+          1108
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1244,
+        1124,
+        2259,
+        1194
+      ],
+      "text": "Die beiden letzten Stellen des Eingabe-Codes sind va- riabel.",
+      "lines": [
+        [
+          1245,
+          1124,
+          2259,
+          1160
+        ],
+        [
+          1244,
+          1165,
+          1353,
+          1194
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        1254,
+        2288,
+        1951
+      ],
+      "text": "DISP = Fns (display) Funktion: Der Inhalt von s wird in der rechten Anzeige- stelle angezeigt. n gibt an, wieviele Register (Stellen) angezeigt werden sollen. Beispiel: DISP 3,2 ergibt Eingabe-Code: F3 2 F = Befehl auf dem Display Werte anzuzeigen. 3 = 3 Register (oder 3 Stellen) auf dem Display anzeigen. 2 = Anzeige beginnt ab Register 2. Durch die vorgestellte 3 werden 3 Register also Reg. Nr. 2-3-4 angezeigt. n muß eine Zahl zwischen 1 und 6 sein.n+s darf höchstens F (15) sein. Überschreitet n den Wert F, werden die überzähligen Register mit Reg. O0 beginnend mitangezeigt. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          1242,
+          1254,
+          1677,
+          1291
+        ],
+        [
+          1243,
+          1295,
+          2243,
+          1332
+        ],
+        [
+          1447,
+          1337,
+          2220,
+          1373
+        ],
+        [
+          1449,
+          1378,
+          2041,
+          1415
+        ],
+        [
+          1448,
+          1419,
+          2256,
+          1455
+        ],
+        [
+          1448,
+          1461,
+          2266,
+          1497
+        ],
+        [
+          1446,
+          1502,
+          2288,
+          1539
+        ],
+        [
+          1446,
+          1544,
+          1609,
+          1579
+        ],
+        [
+          1446,
+          1585,
+          2265,
+          1621
+        ],
+        [
+          1445,
+          1627,
+          2268,
+          1663
+        ],
+        [
+          1446,
+          1668,
+          1728,
+          1703
+        ],
+        [
+          1447,
+          1709,
+          2263,
+          1749
+        ],
+        [
+          1445,
+          1751,
+          2266,
+          1787
+        ],
+        [
+          1445,
+          1793,
+          2223,
+          1828
+        ],
+        [
+          1447,
+          1834,
+          1993,
+          1869
+        ],
+        [
+          1239,
+          1875,
+          1651,
+          1910
+        ],
+        [
+          1238,
+          1916,
+          1651,
+          1951
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        1709,
+        1378,
+        1744
+      ],
+      "text": "Wichtig:",
+      "lines": [
+        [
+          1238,
+          1709,
+          1378,
+          1744
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1239,
+        2188,
+        1618,
+        2228
+      ],
+      "text": "Sonder-Befehle",
+      "lines": [
+        [
+          1239,
+          2188,
+          1618,
+          2228
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        2251,
+        2160,
+        2328
+      ],
+      "text": "Nicht veränderbarer Befehls-Code. Keine variable Eingabe-Möglichkeit",
+      "lines": [
+        [
+          1239,
+          2251,
+          2160,
+          2282
+        ],
+        [
+          1238,
+          2292,
+          1613,
+          2328
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        2393,
+        2281,
+        2717
+      ],
+      "text": "HALT = F00 Funktion: Das Programm wird angehalten. In der Anzeige erscheint die Halteadresse und der Code FOO. Ein erneuter Programmstart ist möglich, wenn zuerst die STEP und dann die RUN-Taste betä- tigt wird. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          1241,
+          2393,
+          1462,
+          2423
+        ],
+        [
+          1241,
+          2434,
+          2275,
+          2470
+        ],
+        [
+          1446,
+          2475,
+          2263,
+          2506
+        ],
+        [
+          1446,
+          2517,
+          2250,
+          2552
+        ],
+        [
+          1446,
+          2558,
+          2281,
+          2588
+        ],
+        [
+          1445,
+          2600,
+          1592,
+          2635
+        ],
+        [
+          1239,
+          2641,
+          1652,
+          2676
+        ],
+        [
+          1238,
+          2683,
+          1652,
+          2717
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        2772,
+        1435,
+        2843
+      ],
+      "text": "NOP = FO1 Funktion:",
+      "lines": [
+        [
+          1238,
+          2772,
+          1435,
+          2802
+        ],
+        [
+          1238,
+          2813,
+          1396,
+          2843
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1235,
+        2772,
+        2283,
+        3055
+      ],
+      "text": "(no operation) Es wird lediglich die Adresse um „1” erhöht. Der Befehl hat keine Funktion. Wird als „blinder Befehl” eingesetzt, der nachträglich durch an- dere Befehle ersetzt werden kann. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          1525,
+          2772,
+          1767,
+          2808
+        ],
+        [
+          1444,
+          2813,
+          2226,
+          2848
+        ],
+        [
+          1444,
+          2854,
+          2283,
+          2890
+        ],
+        [
+          1444,
+          2896,
+          2259,
+          2931
+        ],
+        [
+          1443,
+          2937,
+          2048,
+          2966
+        ],
+        [
+          1236,
+          2978,
+          1650,
+          3013
+        ],
+        [
+          1235,
+          3020,
+          1650,
+          3055
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1234,
+        3107,
+        2249,
+        3349
+      ],
+      "text": "DISOUT = FO2 (display out) Funktion: Das Display wird abgeschaltet. Hierdurch wird die Geschwindigkeit der Befehlsausführung erhöht. Carry-Flag: unverändert Zero-Flag: unverändert",
+      "lines": [
+        [
+          1235,
+          3107,
+          1800,
+          3144
+        ],
+        [
+          1235,
+          3149,
+          2249,
+          3185
+        ],
+        [
+          1441,
+          3191,
+          2206,
+          3226
+        ],
+        [
+          1441,
+          3232,
+          1562,
+          3261
+        ],
+        [
+          1235,
+          3273,
+          1649,
+          3308
+        ],
+        [
+          1234,
+          3314,
+          1649,
+          3349
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

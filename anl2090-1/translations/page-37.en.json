@@ -1,0 +1,18 @@
+{
+  "0": {
+    "de": "Der Computer macht sich durch seine Ein- und Ausgänge bemerkbar! DIN und DOT",
+    "en": "The Computer Makes Itself Known Through Its Inputs and Outputs! — DIN and DOT"
+  },
+  "1": {
+    "de": "Programm-Lösung: Automatischer Rückwärts-Zähler",
+    "en": "Program Solution: Automatic Backwards Counter"
+  },
+  "2": {
+    "de": "Im Kapitel „Dezimal — Hexadezimal — Dual” haben wir den DOT-Befehl…",
+    "en": "In the chapter \"Decimal — Hexadecimal — Binary\" we met the <b>DOT</b> command (<i>data out</i>). This lets us send a register value to the 4 outputs and display its binary representation via the LEDs.\n\nEnter the following program:\n\n<table class=\"codes boxed\"><tr><th>Addr</th><th>Code</th><th>Mnem.</th><th>Explanation</th></tr><tr><td>00</td><td>1F0</td><td>MOVI F,0</td><td>load F into register 0</td></tr><tr><td>01</td><td>FE0</td><td>DOT 0</td><td>send R0 to outputs</td></tr><tr><td>02</td><td>100</td><td>MOVI 0,0</td><td>load 0 into R0</td></tr><tr><td>03</td><td>FE0</td><td>DOT 0</td><td>send R0 to outputs</td></tr><tr><td>04</td><td>C00</td><td>GOTO 00</td><td>jump to program start</td></tr></table>\n\nBefore running, connect the piezo buzzer (<b>−</b> wire to GND on the board, <b>+</b> wire to output 1). Start with HALT – NEXT – 00 – RUN!\n\nAll 4 output LEDs blink — the piezo buzzer emits an interrupted tone.\n\n<b>How the program works:</b> first MOVI loads the constant F into register 0. From the binary table we see hex F = binary 1111. The next command moves register 0's contents to the outputs. Since register 0 is F (1111), all 4 LEDs light and the buzzer sounds.\n\nThen MOVI 0,0 loads 0 (binary 0000) into register 0. The next DOT sends 0000 to the outputs — LEDs off, buzzer silent. The jump to program start repeats this cycle rapidly.\n\nLet's experiment a bit. Instead of 4 LEDs we want only one to blink — what do we do?"
+  },
+  "3": {
+    "de": "Programm-Listing: Automatischer Rückwärts-Zähler (Adressen 00-0D)",
+    "en": "<table class=\"codes boxed lst threecol\"><tr><th>Addr</th><th>Code</th><th>Mnem.</th></tr><tr><td>00</td><td>F08</td><td>CLEAR</td></tr><tr><td>01</td><td>F21</td><td>DISP 2,1</td></tr><tr><td>02</td><td>710</td><td>SUBI 1,0</td></tr><tr><td>03</td><td>FC1</td><td>SUBC 1</td></tr><tr><td>04</td><td>991</td><td>CMPI 9,1</td></tr><tr><td>05</td><td>D07</td><td>BRC 07</td></tr><tr><td>06</td><td>C02</td><td>GOTO 02</td></tr><tr><td>07</td><td>761</td><td>SUBI 6,1</td></tr><tr><td>08</td><td>712</td><td>SUBI 1,2</td></tr><tr><td>09</td><td>992</td><td>CMPI 9,2</td></tr><tr><td>0A</td><td>D0C</td><td>BRC 0C</td></tr><tr><td>0B</td><td>C02</td><td>GOTO 02</td></tr><tr><td>0C</td><td>762</td><td>SUBI 6,2</td></tr><tr><td>0D</td><td>C02</td><td>GOTO 02</td></tr></table>"
+  }
+}

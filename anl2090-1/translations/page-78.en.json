@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "Storing computer programs with a cassette recorder or tape device"
+  },
+  "1": {
+    "de": "",
+    "en": "In the 2nd part of the instruction book, partly very long programs result, which must be newly entered if the mains power supply to the computer is interrupted.\n\nSince the memory capacity too is limited to 256 program steps, another program is erased by the entry of a very long program.\n\nThrough the cassette interface currently in preparation, the content of the program memory can be transferred onto a cassette or tape. In this way it is possible to set up an extensive program archive and to store it outside the computer. These &bdquo;outsourced&rdquo; programs can at any time be played back into the program memory with the help of the cassette interface, and are thus available &bdquo;on call&rdquo; for a renewed program execution. The playing out or in of the programs is carried out within a few minutes."
+  },
+  "2": {
+    "de": "",
+    "en": "The Microtronic computer system becomes a speech computer"
+  },
+  "3": {
+    "de": "",
+    "en": "An additional module, with which an expansion to a speaking computer becomes possible, is likewise in preparation. Similarly as with the cassette interface, such additional equipment is implemented through easily made plug connections.\n\nPlease inquire in due course at the relevant specialist trade or directly from us about the delivery possibilities.\n\nIf you send us the registration card enclosed with the computer system, you will automatically receive information about all additional facilities."
+  },
+  "4": {
+    "de": "",
+    "en": "Technical description"
+  },
+  "5": {
+    "de": "",
+    "en": "<b>Microprocessor:</b> 4-bit processor TMS 1600\n\n<b>Clock frequency:</b> 500 kHz\n\n<b>Memory:</b> ROM integrated in the microprocessor with 4096 bytes monitor program, and RAM with 64 bytes as well as external RAM with 512 bytes.\n\n<b>Instruction set:</b> Specially developed microtronic instruction set with over 40 individual commands, built up similarly to the actual microprocessor commands. Through the more complex individual commands (e.g. display command, multiplication/division commands, etc.), programming is substantially simplified.\n\n<b>Keyboard:</b> 16 hexadecimal keys, 8 function keys, 2 free special-function keys\n\n<b>Display:</b> 6-digit seven-segment multifunction display. 2 LEDs for displaying carry and zero flags. 4 LEDs for status display of the data outputs. 1 LED for clock-function display.\n\n<b>Output:</b> 4-bit data output for direct control of ICs, transistors, BUSCH micro-electronic switching relay 5964, etc. (no additional interface necessary). Level 5 V, TTL-compatible\n\n<b>Input:</b> 4-bit data input for direct control by ICs, transistors, etc. (no additional interface necessary, overload-protected). Level 5 V (max. 9 V), TTL-compatible.\n\n<b>Standard sockets:</b> 2 sockets for commercially available stereo transfer cables for cassette recorders and external device connections.\n\n<b>Integrated clock generator:</b> 1 Hz quartz-controlled clock generator for controlling clocks or time-dependent circuits.\n\n<b>Signal tone generator:</b> Piezo buzzer, controllable through programming.\n\n<b>Integrated fixed programs:</b> Digital clock (with hours, minutes and seconds light display), random generator, interface control, hexadecimal/decimal converter, Nim game, among others.\n\n<b>Power supply:</b> Built-in mains unit 220/10 volt, safety transformer with voltage regulation, tested according to VDE regulations.\n\n<b>Accessories included in the price:</b> Extensive instruction book, programming forms, as well as some electronic elements mounted on BUSCH plug-in modules, for building simple peripheral circuits.\n\n<b>Additional expansion possibility:</b> microtronic cassette interface no. 2095 for direct program storage with a commercially available cassette recorder or tape device.\n\nFor the quick construction of electronic peripheral devices, the BUSCH Electronic Studios 2060, 2070 or 2075 are recommended. Please request brochures."
+  }
+}

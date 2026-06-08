@@ -1,0 +1,1435 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        134,
+        106,
+        1130,
+        162
+      ],
+      "fragments": [
+        [
+          134,
+          106,
+          1130,
+          162
+        ]
+      ],
+      "lines": [
+        [
+          134,
+          106,
+          1130,
+          162
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        126,
+        172,
+        1200,
+        792
+      ],
+      "fragments": [
+        [
+          126,
+          172,
+          1200,
+          792
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          172,
+          1200,
+          792
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        126,
+        812,
+        1200,
+        1158
+      ],
+      "fragments": [
+        [
+          126,
+          812,
+          1200,
+          1158
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          812,
+          1200,
+          1158
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        126,
+        1165,
+        1200,
+        1512
+      ],
+      "fragments": [
+        [
+          126,
+          1165,
+          1200,
+          1512
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          1165,
+          1200,
+          1512
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        126,
+        1535,
+        1200,
+        1732
+      ],
+      "fragments": [
+        [
+          126,
+          1535,
+          1200,
+          1732
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          1535,
+          1200,
+          1732
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        2338,
+        1200,
+        2772
+      ],
+      "fragments": [
+        [
+          124,
+          2338,
+          1200,
+          2772
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          2338,
+          1200,
+          2772
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        124,
+        2998,
+        720,
+        3058
+      ],
+      "fragments": [
+        [
+          124,
+          2998,
+          720,
+          3058
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          2998,
+          720,
+          3058
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        124,
+        3105,
+        1200,
+        3372
+      ],
+      "fragments": [
+        [
+          124,
+          3105,
+          1200,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          124,
+          3105,
+          1200,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1252,
+        104,
+        2322,
+        176
+      ],
+      "fragments": [
+        [
+          1252,
+          104,
+          2322,
+          176
+        ]
+      ],
+      "lines": [
+        [
+          1252,
+          104,
+          2322,
+          176
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        182,
+        2330,
+        1660
+      ],
+      "fragments": [
+        [
+          1248,
+          182,
+          2330,
+          1660
+        ]
+      ],
+      "lines": [
+        [
+          1248,
+          182,
+          2330,
+          1660
+        ]
+      ],
+      "text": "",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        1642,
+        2332,
+        2642
+      ],
+      "fragments": [
+        [
+          1248,
+          1642,
+          2332,
+          2642
+        ]
+      ],
+      "lines": [
+        [
+          1248,
+          1642,
+          2332,
+          2642
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1248,
+        2668,
+        2332,
+        3372
+      ],
+      "fragments": [
+        [
+          1248,
+          2668,
+          2332,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          1248,
+          2668,
+          2332,
+          3372
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        137,
+        113,
+        1119,
+        152
+      ],
+      "text": "Wir möchten folgende Multiplikation ausführen: 27 x 426",
+      "lines": [
+        [
+          137,
+          113,
+          1119,
+          152
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        137,
+        178,
+        1196,
+        257
+      ],
+      "text": "Hierfür geben wir ein: Zahlen 27 dann Taste A, Zahlen 426 dann Taste B. Das Display zeigt das Ergebnis: 11502.",
+      "lines": [
+        [
+          139,
+          178,
+          1196,
+          218
+        ],
+        [
+          137,
+          221,
+          964,
+          257
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        298,
+        1200,
+        547
+      ],
+      "text": "Die Taste A entspricht der X)-Taste beim Taschenrechner. Mit B haben wir die ®-Taste und mit C können wir eine Eingabe und die Ergebnisse löschen. Wir sollten die zu multiplizieren- den Zahlen nicht zu schnell hintereinander eingeben, weil sonst die Gefahr besteht, daß einzelne Werte nicht im entspre- chenden Register abgespeichert werden.",
+      "lines": [
+        [
+          140,
+          298,
+          1197,
+          341
+        ],
+        [
+          139,
+          340,
+          1197,
+          383
+        ],
+        [
+          140,
+          384,
+          1200,
+          423
+        ],
+        [
+          139,
+          425,
+          1197,
+          461
+        ],
+        [
+          139,
+          467,
+          1200,
+          503
+        ],
+        [
+          139,
+          510,
+          854,
+          547
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        573,
+        1197,
+        776
+      ],
+      "text": "Wir geben jetzt eine Aufgabe ein, welche mit den 6 Stellen nicht mehrrechenbar ist, z.B.:276x3726. AufdemDisplay erscheint EEEEEE für Error. (Error bedeutet Fehler, der Computer hat nicht richtig gerechnet, weil die vorhandenen 6 Stellen für das größere Ergebnis nicht ausreichen).",
+      "lines": [
+        [
+          137,
+          573,
+          1197,
+          611
+        ],
+        [
+          140,
+          614,
+          1197,
+          649
+        ],
+        [
+          139,
+          655,
+          1197,
+          693
+        ],
+        [
+          139,
+          696,
+          1197,
+          734
+        ],
+        [
+          138,
+          739,
+          757,
+          776
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        823,
+        1199,
+        1148
+      ],
+      "text": "Programm-Beschreibung Die Befehle der Adressen 00 bis OE stellen wieder eine Einga- be-Routine dar, wie diese bereits bei der 6-stelligen Addition besprochen wurde. Unterschiede zu diesem früheren Pro- gramm bestehen darin, daß die Eingabe der zu multiplizieren- den Werte über das Register Nr. 6 (KIN 6) erfolgt, und daß diese eingegebenen Werte über die MOV-Befehle in die Register 0 bis 5 geschoben und dort auch angezeigt werden.",
+      "lines": [
+        [
+          139,
+          823,
+          597,
+          859
+        ],
+        [
+          139,
+          862,
+          1199,
+          897
+        ],
+        [
+          139,
+          903,
+          1196,
+          939
+        ],
+        [
+          139,
+          945,
+          1199,
+          982
+        ],
+        [
+          137,
+          986,
+          1199,
+          1024
+        ],
+        [
+          138,
+          1027,
+          1197,
+          1064
+        ],
+        [
+          137,
+          1069,
+          1197,
+          1107
+        ],
+        [
+          139,
+          1111,
+          1009,
+          1148
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        1175,
+        1200,
+        1501
+      ],
+      "text": "Bei Adresse OF haben wir den EXRL-Befehl, mit welchem die in den Arbeitsregistern stehenden Werte in die Speicherregister gebracht werden. Nach Tastendruck A wird die nächste Einga- be ebenfalls in die Arbeitsregister 0 bis 5 übernommen. Der MULT-Befehl multipliziert dezimal die ArbeitsregisterO bis5 mit den Werten, die vorher in die Speicherregistern O bis 5 ge- bracht wurden. Das Ergebnis wird in die Arbeitsregister Obis 5 übernommen und angezeigt.",
+      "lines": [
+        [
+          138,
+          1175,
+          1196,
+          1209
+        ],
+        [
+          138,
+          1216,
+          1199,
+          1253
+        ],
+        [
+          137,
+          1257,
+          1200,
+          1295
+        ],
+        [
+          138,
+          1299,
+          1199,
+          1335
+        ],
+        [
+          138,
+          1340,
+          1198,
+          1376
+        ],
+        [
+          137,
+          1382,
+          1200,
+          1417
+        ],
+        [
+          138,
+          1423,
+          1197,
+          1460
+        ],
+        [
+          139,
+          1466,
+          632,
+          1501
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1547,
+        1200,
+        1662
+      ],
+      "text": "Wie rechnet der Mikroprozessor mit dem MULT-Befehl? Eine Multiplikation ist nichts anderes als eine wiederholte Addi- tion.",
+      "lines": [
+        [
+          136,
+          1547,
+          1161,
+          1583
+        ],
+        [
+          137,
+          1588,
+          1200,
+          1625
+        ],
+        [
+          136,
+          1633,
+          208,
+          1662
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        203,
+        1821,
+        389,
+        1846
+      ],
+      "text": "2, Q Yun Ka Ne",
+      "lines": [
+        [
+          261,
+          1821,
+          269,
+          1829
+        ],
+        [
+          203,
+          1825,
+          389,
+          1846
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        424,
+        1822,
+        436,
+        1841
+      ],
+      "text": "AS",
+      "lines": [
+        [
+          424,
+          1822,
+          436,
+          1841
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        203,
+        1879,
+        442,
+        1914
+      ],
+      "text": "S SS: ZEN",
+      "lines": [
+        [
+          203,
+          1899,
+          212,
+          1914
+        ],
+        [
+          255,
+          1890,
+          263,
+          1907
+        ],
+        [
+          428,
+          1879,
+          442,
+          1914
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        316,
+        1957,
+        453,
+        1991
+      ],
+      "text": "INN, UN Ka",
+      "lines": [
+        [
+          325,
+          1957,
+          385,
+          1970
+        ],
+        [
+          316,
+          1961,
+          453,
+          1991
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        409,
+        2097,
+        477,
+        2129
+      ],
+      "text": "> ZEN",
+      "lines": [
+        [
+          409,
+          2109,
+          421,
+          2129
+        ],
+        [
+          467,
+          2097,
+          477,
+          2129
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        131,
+        2345,
+        1197,
+        2630
+      ],
+      "text": "Daß der Mikroprozessor für diese Rechen-Operation neben dem Arbeitsregister und dem Speicherregister auch noch ein Hilfsregister benötigt (weiches ebenfalls durch das Betriebs- System gesteuert wird) soll uns nur am Rande interessieren, weil der Prozessor die Aufgabe automatisch ausführt. Wir erkennenjedoch, daß durch den MULT-Befehl eine Menge Pro- grammierungsarbeit eingespart wird.",
+      "lines": [
+        [
+          133,
+          2345,
+          1193,
+          2380
+        ],
+        [
+          133,
+          2386,
+          1193,
+          2422
+        ],
+        [
+          133,
+          2427,
+          1197,
+          2464
+        ],
+        [
+          132,
+          2469,
+          1194,
+          2506
+        ],
+        [
+          131,
+          2510,
+          1196,
+          2546
+        ],
+        [
+          132,
+          2551,
+          1197,
+          2588
+        ],
+        [
+          132,
+          2593,
+          767,
+          2630
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        133,
+        2675,
+        1197,
+        2753
+      ],
+      "text": "Der MULT-Befehl hat den Eingabe-Code FOB, wobei keine va- riablen Register anzugeben sind.",
+      "lines": [
+        [
+          133,
+          2675,
+          1197,
+          2711
+        ],
+        [
+          133,
+          2718,
+          699,
+          2753
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        131,
+        3008,
+        415,
+        3047
+      ],
+      "text": "Die Division",
+      "lines": [
+        [
+          131,
+          3008,
+          415,
+          3047
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        132,
+        3115,
+        1198,
+        3277
+      ],
+      "text": "Das Gegenstück zur Multiplikation ist die Division. Auch hierfür hat das Betriebssystem unseres Mikroprozessors den spe- ziellen DIV-Befehl mit dem Befehls-Code FOC. Auch für diesen Befehls-Code gibt es keine variablen Registerangaben.",
+      "lines": [
+        [
+          133,
+          3115,
+          1198,
+          3153
+        ],
+        [
+          133,
+          3157,
+          1198,
+          3194
+        ],
+        [
+          132,
+          3198,
+          1194,
+          3230
+        ],
+        [
+          132,
+          3240,
+          1090,
+          3277
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        131,
+        3304,
+        1194,
+        3381
+      ],
+      "text": "Auch die Division wird sofort dezimal ausgeführt, sie ist jedoch aus internen Gründen auf vier Stellen begrenzt.",
+      "lines": [
+        [
+          131,
+          3304,
+          1194,
+          3340
+        ],
+        [
+          132,
+          3347,
+          951,
+          3381
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        111,
+        2315,
+        185
+      ],
+      "text": "Nach HALT - NEXT - 00 geben wir das Divisions-Programm ein:",
+      "lines": [
+        [
+          1258,
+          111,
+          2315,
+          147
+        ],
+        [
+          1258,
+          157,
+          1319,
+          185
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1270,
+        217,
+        2313,
+        1615
+      ],
+      "text": "Adresse | Eingabe-| Mnemonic | Erklärungen Befehl 00 FO8 CLEAR 01 F40 DISP 4,0 02 FF6 KIN 6 03 9A6 CMPI A,6 04 EOD BRZ OD 05 9B6 CMPI B,6 06 EOF BRZOF 07 DOO BRC 00 Eingabe-Routine 08 023 MOV 2,3 09 012 MOV 1,2 0A 001 MOV 0,1 OB 060 MOV 6,0 00 co2 GOTO 02 OD FOD EXRL Arbeitsregister - Speicherregister tauschen OE c00 GOTO 00 | Rücksprung für 2. Eingabe OF FOC DIV Division ausführen 10 E12 BRZ 12 wenn Rest, dann Sprung nach 12 11 Cco2 GOTO 02 | Rücksprung für Ergebnisanzeige 12 FF6 KIN 6 Warten f. Restwertanzeige 13 FOD EXRL Arbeitsregister - Speicherregister tauschen 14 co2 GOTO 02 | Rücksprung für Restwertanzeige",
+      "lines": [
+        [
+          1270,
+          217,
+          2055,
+          254
+        ],
+        [
+          1449,
+          260,
+          1564,
+          289
+        ],
+        [
+          1271,
+          312,
+          1755,
+          344
+        ],
+        [
+          1271,
+          365,
+          1783,
+          399
+        ],
+        [
+          1271,
+          418,
+          1728,
+          450
+        ],
+        [
+          1271,
+          471,
+          1793,
+          504
+        ],
+        [
+          1271,
+          525,
+          1768,
+          556
+        ],
+        [
+          1271,
+          577,
+          1794,
+          611
+        ],
+        [
+          1271,
+          631,
+          1765,
+          662
+        ],
+        [
+          1271,
+          682,
+          2173,
+          717
+        ],
+        [
+          1271,
+          737,
+          1782,
+          770
+        ],
+        [
+          1272,
+          790,
+          1782,
+          823
+        ],
+        [
+          1272,
+          843,
+          1777,
+          876
+        ],
+        [
+          1272,
+          896,
+          1783,
+          929
+        ],
+        [
+          1272,
+          949,
+          1798,
+          981
+        ],
+        [
+          1272,
+          1001,
+          2137,
+          1036
+        ],
+        [
+          1851,
+          1042,
+          2312,
+          1078
+        ],
+        [
+          1272,
+          1095,
+          2310,
+          1131
+        ],
+        [
+          1272,
+          1149,
+          2170,
+          1182
+        ],
+        [
+          1274,
+          1203,
+          2041,
+          1236
+        ],
+        [
+          1852,
+          1243,
+          2224,
+          1279
+        ],
+        [
+          1275,
+          1295,
+          2059,
+          1340
+        ],
+        [
+          1851,
+          1338,
+          2196,
+          1373
+        ],
+        [
+          1275,
+          1391,
+          2305,
+          1426
+        ],
+        [
+          1275,
+          1444,
+          2138,
+          1479
+        ],
+        [
+          1852,
+          1485,
+          2313,
+          1521
+        ],
+        [
+          1275,
+          1539,
+          2060,
+          1574
+        ],
+        [
+          1851,
+          1580,
+          2196,
+          1615
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        1649,
+        2319,
+        1724
+      ],
+      "text": "Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: 0000.",
+      "lines": [
+        [
+          1259,
+          1649,
+          2319,
+          1688
+        ],
+        [
+          1259,
+          1695,
+          1351,
+          1724
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        1773,
+        2299,
+        1810
+      ],
+      "text": "Wir wollen zunächst folgende Aufgabe durchführen: 625 :5.",
+      "lines": [
+        [
+          1257,
+          1773,
+          2299,
+          1810
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        1838,
+        2320,
+        1960
+      ],
+      "text": "Hierfür nehmen wir folgende Eingaben vor: Zahlen 625 dann Taste A, Zahl 5, dann Taste B. Auf dem Display erscheint das Ergebnis: 125.",
+      "lines": [
+        [
+          1259,
+          1838,
+          2319,
+          1875
+        ],
+        [
+          1257,
+          1879,
+          2320,
+          1916
+        ],
+        [
+          1259,
+          1924,
+          1501,
+          1960
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        2003,
+        2322,
+        2084
+      ],
+      "text": "Die Taste A wird als Divisions-Taste verwendet. Taste-B ist wie- der die ©-Taste. Mit Taste C haben wir die Lösch-Taste.",
+      "lines": [
+        [
+          1260,
+          2003,
+          2322,
+          2036
+        ],
+        [
+          1259,
+          2041,
+          2250,
+          2084
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        2128,
+        1955,
+        2165
+      ],
+      "text": "Als nächste Aufgabe rechnen wir: 19:5.",
+      "lines": [
+        [
+          1258,
+          2128,
+          1955,
+          2165
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        2191,
+        2323,
+        2308
+      ],
+      "text": "Das Display zeigt als Ergebnis: 0003. Das richtige Ergebnis müßte jedoch korrekt 3,8 sein. Rechnet unser Computer falsch?",
+      "lines": [
+        [
+          1260,
+          2191,
+          2321,
+          2230
+        ],
+        [
+          1261,
+          2233,
+          2323,
+          2272
+        ],
+        [
+          1258,
+          2278,
+          1383,
+          2308
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        2339,
+        2323,
+        2626
+      ],
+      "text": "Wir wollen das Ergebnis mit Taste C löschen, das Display zeigt jedoch an: 0004. Jetzt sehen wir, daß der Computer eigentlich richtig gerechnet hat: 19:5 = 3 Rest 4. Der Computer arbeitet nur mit ganzen Zahlen, Werte hinter dem Komma werden nicht weitergerechnet, sondern es wird der Restwert angezeigt. Bei erneuter Betätigung der Taste C wird der Restwert gelöscht - eine neue Aufgabe kann durchgeführt werden.",
+      "lines": [
+        [
+          1258,
+          2339,
+          2322,
+          2377
+        ],
+        [
+          1257,
+          2380,
+          2320,
+          2420
+        ],
+        [
+          1261,
+          2422,
+          2322,
+          2462
+        ],
+        [
+          1261,
+          2463,
+          2322,
+          2503
+        ],
+        [
+          1259,
+          2505,
+          2322,
+          2544
+        ],
+        [
+          1260,
+          2546,
+          2323,
+          2584
+        ],
+        [
+          1260,
+          2589,
+          2067,
+          2626
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        2677,
+        1719,
+        2713
+      ],
+      "text": "Programm-Beschreibung",
+      "lines": [
+        [
+          1258,
+          2677,
+          1719,
+          2713
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        2735,
+        2324,
+        2897
+      ],
+      "text": "Bei den Adressen 00 bis 0C haben wir wieder eine Eingabe- Routine, die jedoch gegenüber der Multiplikation einige Pro- gramm-Schritte weniger hat, weil die Division nur 4-stellig aus- geführt wird und damit weniger MOV-Befehle notwendig sind.",
+      "lines": [
+        [
+          1260,
+          2735,
+          2323,
+          2770
+        ],
+        [
+          1259,
+          2777,
+          2324,
+          2813
+        ],
+        [
+          1259,
+          2818,
+          2324,
+          2855
+        ],
+        [
+          1257,
+          2858,
+          2319,
+          2897
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1256,
+        2923,
+        2322,
+        3085
+      ],
+      "text": "Bei Adresse OD werden durch den EXRL-Befehl die Werte der Arbeitsregister und Speicherregister ausgetauscht. Der Divi- dent gelangt in die Speicherregister O bis 3, der Divisor stehtin den Arbeitsregistern O bis 3 (Divident : Divisor = Ergebnis).",
+      "lines": [
+        [
+          1258,
+          2923,
+          2322,
+          2955
+        ],
+        [
+          1256,
+          2964,
+          2322,
+          3003
+        ],
+        [
+          1258,
+          3006,
+          2319,
+          3044
+        ],
+        [
+          1258,
+          3047,
+          2277,
+          3085
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1257,
+        3112,
+        2323,
+        3275
+      ],
+      "text": "Zu beachten ist, daß bei der Division die Arbeits- und Speicher- registerNr. Aund5 den WertO haben müssen, wasbeiunserem vorstehenden Programm-Beispiel durch den CLEAR-Befehl am Programm-Anfang bewirkt wird.",
+      "lines": [
+        [
+          1257,
+          3112,
+          2323,
+          3148
+        ],
+        [
+          1259,
+          3154,
+          2319,
+          3192
+        ],
+        [
+          1257,
+          3194,
+          2320,
+          3232
+        ],
+        [
+          1258,
+          3237,
+          1869,
+          3275
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        3301,
+        2323,
+        3376
+      ],
+      "text": "Nach erfolgter Division steht das Ergebnis in den Arbeitsregi- stern O bis 3 und falls ein Rest vorhanden ist, steht dieserinden",
+      "lines": [
+        [
+          1258,
+          3301,
+          2323,
+          3339
+        ],
+        [
+          1258,
+          3342,
+          2320,
+          3376
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

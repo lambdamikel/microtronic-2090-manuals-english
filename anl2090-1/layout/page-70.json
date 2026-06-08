@@ -1,0 +1,1371 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        108,
+        100,
+        1192,
+        2340
+      ],
+      "fragments": [
+        [
+          108,
+          100,
+          1192,
+          2340
+        ]
+      ],
+      "lines": [
+        [
+          108,
+          100,
+          1192,
+          2340
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1662,
+        713,
+        2279,
+        740
+      ],
+      "fragments": [
+        [
+          1662,
+          713,
+          2279,
+          740
+        ]
+      ],
+      "lines": [
+        [
+          1662,
+          713,
+          2279,
+          740
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        866,
+        2312,
+        1140
+      ],
+      "fragments": [
+        [
+          1240,
+          866,
+          2312,
+          1140
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          866,
+          2312,
+          1140
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1230,
+        1930,
+        2302,
+        2095
+      ],
+      "fragments": [
+        [
+          1230,
+          1930,
+          2302,
+          2095
+        ]
+      ],
+      "lines": [
+        [
+          1230,
+          1930,
+          2302,
+          2095
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1225,
+        2898,
+        2302,
+        3380
+      ],
+      "fragments": [
+        [
+          1225,
+          2898,
+          2302,
+          3380
+        ]
+      ],
+      "lines": [
+        [
+          1225,
+          2898,
+          2302,
+          3380
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        100,
+        3140,
+        1175,
+        3375
+      ],
+      "fragments": [
+        [
+          100,
+          3140,
+          1175,
+          3375
+        ]
+      ],
+      "lines": [
+        [
+          100,
+          3140,
+          1175,
+          3375
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        129,
+        105,
+        1190,
+        345
+      ],
+      "text": "Alle 128 Register stellen einen RAM-Speicher dar. RAM (aus dem englischen „random access memory) bedeutet einen „Schreib- und Lese-Speicher mit ständigem Zugriff”, weil wir jederzeit Daten in das RAM einspeichern oder herausholen (auslesen) können. Den RAM-Speicher kann man auch als RAM-Register bezeichnen.",
+      "lines": [
+        [
+          132,
+          105,
+          1189,
+          143
+        ],
+        [
+          132,
+          146,
+          1187,
+          183
+        ],
+        [
+          133,
+          187,
+          1190,
+          224
+        ],
+        [
+          129,
+          228,
+          1187,
+          263
+        ],
+        [
+          132,
+          269,
+          1188,
+          305
+        ],
+        [
+          131,
+          310,
+          594,
+          345
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        129,
+        375,
+        1190,
+        576
+      ],
+      "text": "Der „Akkumulator” (Abkürzung ACC) ist ebenfalls ein speziel- les Register, in welchem alle Berechnungen durchgeführt wer- den. Nach Ausführung einer Berechnung steht das Ergebnis zunächst im Akkumulator und wird von dort aus zu verschiede- nen anderen Registern weitergegeben.",
+      "lines": [
+        [
+          131,
+          375,
+          1190,
+          412
+        ],
+        [
+          131,
+          416,
+          1189,
+          454
+        ],
+        [
+          130,
+          457,
+          1187,
+          495
+        ],
+        [
+          129,
+          499,
+          1189,
+          530
+        ],
+        [
+          130,
+          540,
+          800,
+          576
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        604,
+        1187,
+        887
+      ],
+      "text": "Das „Rechenwerk” des Mikroprozessors ist die sogenannte ALU („arithmetic logic unit”), welches auch mit Arithmetik und Logikeinheit übersetzt werden kann. In der ALU werden Be- rechnungen, logische Verknüpfungen, Vergleiche usw. ausge- führt. An der ALU sind auch die „Zustands-Signale” ange- schlossen. Dort werden die „Zustände” der CARRY-und ZERO- FLAGS gespeichert.",
+      "lines": [
+        [
+          129,
+          604,
+          1185,
+          642
+        ],
+        [
+          127,
+          646,
+          1184,
+          682
+        ],
+        [
+          128,
+          686,
+          1187,
+          722
+        ],
+        [
+          129,
+          728,
+          1187,
+          766
+        ],
+        [
+          126,
+          769,
+          1187,
+          807
+        ],
+        [
+          127,
+          810,
+          1186,
+          846
+        ],
+        [
+          127,
+          851,
+          472,
+          887
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        917,
+        1186,
+        1029
+      ],
+      "text": "Der „Programm-Zähler” PC (program counter) zählt die ausge- führten Befehle und liefert jeweils die Adresse für den nächsten auszuführenden Befehl.",
+      "lines": [
+        [
+          126,
+          917,
+          1186,
+          955
+        ],
+        [
+          124,
+          957,
+          1182,
+          993
+        ],
+        [
+          125,
+          999,
+          533,
+          1029
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        123,
+        1063,
+        1185,
+        1348
+      ],
+      "text": "Die Befehle stehen in einem ROM Speicher (read only memo- ry). Aus dem ROM-Speicher können Daten ausgelesen wer- den, es können jedoch keine neuen Daten eingespeichert wer- den. Der ROM-Speicher unseres Mikroprozessors enthält das Monitor-Programm (Betriebs-System) des Computers und alle hierfür erforderlichen Daten sind fest programmiert (nicht ver- änderbar).",
+      "lines": [
+        [
+          125,
+          1063,
+          1185,
+          1102
+        ],
+        [
+          125,
+          1105,
+          1184,
+          1143
+        ],
+        [
+          124,
+          1147,
+          1184,
+          1184
+        ],
+        [
+          123,
+          1187,
+          1182,
+          1225
+        ],
+        [
+          124,
+          1229,
+          1182,
+          1267
+        ],
+        [
+          124,
+          1270,
+          1184,
+          1309
+        ],
+        [
+          123,
+          1311,
+          297,
+          1348
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        122,
+        1377,
+        1183,
+        1490
+      ],
+      "text": "Der Mikroprozessor enthält außerdem ein „Befehls-Register” (instruction register) für eine Zwischenspeicherung eines mo- mentan auszuführenden Befehls.",
+      "lines": [
+        [
+          122,
+          1377,
+          1180,
+          1415
+        ],
+        [
+          123,
+          1418,
+          1183,
+          1456
+        ],
+        [
+          122,
+          1459,
+          690,
+          1490
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        118,
+        1524,
+        1182,
+        1891
+      ],
+      "text": "Das Befehis-Register arbeitet direkt mit der „Befehls-Dekodie- rung” (instruction decoder) zusammen. Der jeweilige Befehl wird ausgewertet und die hieraus resultierenden Erkenntnisse an die „zentrale Ablaufsteuerung” weitergeleitet. Die zentrale Ablaufsteuerung kontrolliert den gesamten Datenverkehr, die Befehlsausführung usw. innerhalb des Mikroprozessors und gibt über die „Eingabe-/Ausgabe-Verwaltung” die entspre- chenden Kommandos, auch an die angeschlossenen Kompo- nenten wie z. B. Display usw. weiter.",
+      "lines": [
+        [
+          121,
+          1524,
+          1182,
+          1561
+        ],
+        [
+          121,
+          1565,
+          1179,
+          1604
+        ],
+        [
+          119,
+          1607,
+          1180,
+          1642
+        ],
+        [
+          119,
+          1648,
+          1179,
+          1686
+        ],
+        [
+          118,
+          1689,
+          1179,
+          1727
+        ],
+        [
+          119,
+          1730,
+          1178,
+          1769
+        ],
+        [
+          119,
+          1772,
+          1181,
+          1811
+        ],
+        [
+          119,
+          1813,
+          1181,
+          1853
+        ],
+        [
+          120,
+          1855,
+          739,
+          1891
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        116,
+        1920,
+        1180,
+        2123
+      ],
+      "text": "Alle Einheiten des Mikroprozessors sind durch einen internen Daten-Bus miteinander verbunden. Am internen Daten-Bus ist wiederum der externe Daten-Bus angeschlossen, durch wel- chen die übrigen Computer-Komponenten angesteuert wer- den. (Siehe auch Blockschaltbild eines Mikroprozessors).",
+      "lines": [
+        [
+          116,
+          1920,
+          1178,
+          1957
+        ],
+        [
+          118,
+          1961,
+          1178,
+          1994
+        ],
+        [
+          116,
+          2002,
+          1180,
+          2040
+        ],
+        [
+          117,
+          2044,
+          1180,
+          2082
+        ],
+        [
+          117,
+          2085,
+          1116,
+          2123
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        115,
+        2144,
+        1179,
+        2297
+      ],
+      "text": "Die folgenden 4 Darstellungen zeigen, was im Mikroprozessor vor sich geht, wenn z. B, innerhalb eines Programms durch einen Vergleichs-Befehl zwei Zahlen miteinander verglichen werden sollen.",
+      "lines": [
+        [
+          117,
+          2144,
+          1179,
+          2183
+        ],
+        [
+          115,
+          2185,
+          1175,
+          2224
+        ],
+        [
+          116,
+          2227,
+          1175,
+          2267
+        ],
+        [
+          115,
+          2268,
+          363,
+          2297
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        695,
+        2387,
+        852,
+        2401
+      ],
+      "text": "externer Datenbus",
+      "lines": [
+        [
+          695,
+          2387,
+          852,
+          2401
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        163,
+        2455,
+        1148,
+        2607
+      ],
+      "text": "Ä INTERNER DATENBUS ) Befehls- \\ ae! register PO ALU Programm-",
+      "lines": [
+        [
+          163,
+          2455,
+          1148,
+          2488
+        ],
+        [
+          188,
+          2538,
+          942,
+          2573
+        ],
+        [
+          188,
+          2568,
+          929,
+          2586
+        ],
+        [
+          372,
+          2585,
+          964,
+          2607
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        168,
+        2619,
+        749,
+        2688
+      ],
+      "text": "Rechen- Befehls- werk y dekadierung",
+      "lines": [
+        [
+          357,
+          2619,
+          428,
+          2634
+        ],
+        [
+          188,
+          2641,
+          749,
+          2674
+        ],
+        [
+          168,
+          2671,
+          273,
+          2688
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1044,
+        2571,
+        1136,
+        2628
+      ],
+      "text": "ROM Programm- speicher",
+      "lines": [
+        [
+          1070,
+          2571,
+          1110,
+          2585
+        ],
+        [
+          1044,
+          2590,
+          1136,
+          2608
+        ],
+        [
+          1054,
+          2611,
+          1126,
+          2628
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        516,
+        2567,
+        778,
+        2609
+      ],
+      "text": "ACC Register Akkumulator! {RAM}",
+      "lines": [
+        [
+          551,
+          2567,
+          778,
+          2585
+        ],
+        [
+          516,
+          2583,
+          768,
+          2609
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        359,
+        2780,
+        445,
+        2818
+      ],
+      "text": "Zustands- signale",
+      "lines": [
+        [
+          359,
+          2780,
+          445,
+          2795
+        ],
+        [
+          372,
+          2801,
+          431,
+          2818
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        520,
+        2939,
+        612,
+        2997
+      ],
+      "text": "Eingang - Ausgang - Verwaltung",
+      "lines": [
+        [
+          526,
+          2939,
+          608,
+          2957
+        ],
+        [
+          522,
+          2960,
+          611,
+          2977
+        ],
+        [
+          520,
+          2980,
+          612,
+          2997
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1167,
+        2414,
+        1178,
+        2991
+      ],
+      "text": "en ud",
+      "lines": [
+        [
+          1167,
+          2414,
+          1178,
+          2991
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        670,
+        2968,
+        779,
+        2983
+      ],
+      "text": "ADRESSBUS",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        958,
+        2988,
+        1174,
+        3060
+      ],
+      "text": "Blockschaitbild eines MICROPROZESSORS !",
+      "lines": [
+        [
+          958,
+          2988,
+          1138,
+          3004
+        ],
+        [
+          958,
+          3001,
+          1174,
+          3060
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        105,
+        3147,
+        1170,
+        3219
+      ],
+      "text": "1. Der eingegebene Befehl muß eine fortlaufende Adres- sen-Nr. erhalten:",
+      "lines": [
+        [
+          107,
+          3147,
+          1170,
+          3183
+        ],
+        [
+          105,
+          3189,
+          410,
+          3219
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        103,
+        3253,
+        1169,
+        3370
+      ],
+      "text": "Die zentrale Ablaufsteuerung aktiviert den Programm-Zähler, die für diesen Befehl gültige Adressen-Nr. zum Programm- Speicher zu übermitteln.",
+      "lines": [
+        [
+          104,
+          3253,
+          1166,
+          3292
+        ],
+        [
+          103,
+          3294,
+          1169,
+          3335
+        ],
+        [
+          103,
+          3335,
+          526,
+          3370
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1662,
+        713,
+        2279,
+        740
+      ],
+      "text": "Verwaltung Blockschaltbild eines",
+      "lines": [
+        [
+          1662,
+          713,
+          2279,
+          740
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1244,
+        873,
+        2309,
+        1114
+      ],
+      "text": "2. Der Befehl wird aus dem Programm-Speicher geholt: Die zentrale Ablaufsteuerung beauftragt das ROM den näch- sten Befehl auf den internen Daten-Bus zu legen. Der Befehl wird vom Befehls-Register übernommen und zwischengespei- chert. Gleichzeitig wird im Programm-Zähler eine Stelle weiter- gezählt.",
+      "lines": [
+        [
+          1246,
+          873,
+          2309,
+          914
+        ],
+        [
+          1246,
+          914,
+          2308,
+          953
+        ],
+        [
+          1245,
+          955,
+          2305,
+          995
+        ],
+        [
+          1244,
+          996,
+          2308,
+          1037
+        ],
+        [
+          1244,
+          1037,
+          2307,
+          1075
+        ],
+        [
+          1244,
+          1079,
+          1375,
+          1114
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1505,
+        1242,
+        2280,
+        1403
+      ],
+      "text": "INTERNER DATENBUS )) | ACC Register PC ROM ALU Akkumutator {RAM} Programm- DO Progranım-",
+      "lines": [
+        [
+          1692,
+          1242,
+          2280,
+          1283
+        ],
+        [
+          1586,
+          1278,
+          2242,
+          1378
+        ],
+        [
+          1505,
+          1371,
+          2268,
+          1403
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        2023,
+        1397,
+        2258,
+        1414
+      ],
+      "text": "zähler speicher",
+      "lines": [
+        [
+          2023,
+          1397,
+          2258,
+          1414
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1491,
+        1408,
+        1561,
+        1442
+      ],
+      "text": "Rechen- werk",
+      "lines": [
+        [
+          1491,
+          1408,
+          1561,
+          1422
+        ],
+        [
+          1506,
+          1429,
+          1545,
+          1442
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1494,
+        1569,
+        1578,
+        1607
+      ],
+      "text": "Zustands- signale",
+      "lines": [
+        [
+          1494,
+          1569,
+          1578,
+          1584
+        ],
+        [
+          1506,
+          1589,
+          1565,
+          1607
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1655,
+        1727,
+        1746,
+        1785
+      ],
+      "text": "Eingang - Ausgang - Verwaltung",
+      "lines": [
+        [
+          1660,
+          1727,
+          1742,
+          1745
+        ],
+        [
+          1656,
+          1748,
+          1745,
+          1765
+        ],
+        [
+          1655,
+          1768,
+          1746,
+          1785
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1330,
+        1737,
+        1544,
+        1769
+      ],
+      "text": "Zentrale Ablaufsieberung",
+      "lines": [
+        [
+          1330,
+          1737,
+          1544,
+          1769
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1808,
+        1755,
+        1915,
+        1769
+      ],
+      "text": "ADRESSBUS",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2091,
+        1775,
+        2307,
+        1847
+      ],
+      "text": "Blockschaltbild eines MICROPROZESSORS |",
+      "lines": [
+        [
+          2091,
+          1775,
+          2270,
+          1791
+        ],
+        [
+          2091,
+          1788,
+          2307,
+          1847
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1235,
+        1936,
+        2299,
+        2057
+      ],
+      "text": "3. Der Befehl muß dekodiert werden: Der Befehls-Dekodie- rer dekodiert den im Befehls-Register stehenden Befehl und übermittelt ihn an die zentrale Ablaufsteuerung.",
+      "lines": [
+        [
+          1235,
+          1936,
+          2299,
+          1970
+        ],
+        [
+          1236,
+          1977,
+          2297,
+          2015
+        ],
+        [
+          1236,
+          2019,
+          2087,
+          2057
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1999,
+        2321,
+        2265,
+        2389
+      ],
+      "text": "PC ROM Programm- [N Programm- zähler speicher",
+      "lines": [
+        [
+          2030,
+          2321,
+          2239,
+          2348
+        ],
+        [
+          1999,
+          2341,
+          2265,
+          2371
+        ],
+        [
+          2020,
+          2361,
+          2255,
+          2389
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1296,
+        2409,
+        1402,
+        2446
+      ],
+      "text": "Befehls- geködierung",
+      "lines": [
+        [
+          1316,
+          2409,
+          1384,
+          2423
+        ],
+        [
+          1296,
+          2429,
+          1402,
+          2446
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2045,
+        2418,
+        2051,
+        2428
+      ],
+      "text": "K",
+      "lines": [
+        [
+          2045,
+          2418,
+          2051,
+          2428
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1652,
+        2697,
+        1743,
+        2755
+      ],
+      "text": "Eingang - Ausgang - Verwaltung",
+      "lines": [
+        [
+          1657,
+          2697,
+          1739,
+          2714
+        ],
+        [
+          1653,
+          2717,
+          1742,
+          2734
+        ],
+        [
+          1652,
+          2737,
+          1743,
+          2755
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1806,
+        2724,
+        1914,
+        2738
+      ],
+      "text": "ADRESSBUS",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2088,
+        2744,
+        2274,
+        2787
+      ],
+      "text": "Blockschalibild eines MICROPROZESSORS",
+      "lines": [
+        [
+          2088,
+          2744,
+          2268,
+          2760
+        ],
+        [
+          2088,
+          2772,
+          2274,
+          2787
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1230,
+        2903,
+        2298,
+        3190
+      ],
+      "text": "4. Der Befehl muß ausgeführt werden: Die zentrale Ablauf- steuerung beauftragt das Rechenwerk, die zwei Zahlen (Werte) zu vergleichen. Gleichzeitig wird der Akkumulator und ein ent- sprechendes Register im RAM aktiviert, um dem Rechenwerk die zu vergleichenden Zahlen bereit zu stellen. Das Rechen- werk (ALU) sorgt dafür, daß die entsprechenden Zustands- Signale (CARRY- oder ZERO-FLAGS) gesetzt werden.",
+      "lines": [
+        [
+          1233,
+          2903,
+          2298,
+          2940
+        ],
+        [
+          1232,
+          2945,
+          2293,
+          2986
+        ],
+        [
+          1232,
+          2986,
+          2297,
+          3023
+        ],
+        [
+          1232,
+          3027,
+          2296,
+          3064
+        ],
+        [
+          1232,
+          3068,
+          2297,
+          3104
+        ],
+        [
+          1230,
+          3110,
+          2297,
+          3147
+        ],
+        [
+          1231,
+          3151,
+          2163,
+          3190
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1229,
+        3216,
+        2296,
+        3375
+      ],
+      "text": "Zur Ausführung eines einzigen Befehls waren 4 Funktions- schritte notwendig. Die meiste Zeit war der Mikroprozessor mit der Verwaltung seiner Einheiten und mit dem Datentransport beschäftigt.",
+      "lines": [
+        [
+          1229,
+          3216,
+          2296,
+          3253
+        ],
+        [
+          1230,
+          3257,
+          2294,
+          3296
+        ],
+        [
+          1230,
+          3299,
+          2294,
+          3338
+        ],
+        [
+          1230,
+          3340,
+          1430,
+          3375
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

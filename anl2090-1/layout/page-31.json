@@ -1,0 +1,548 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        105,
+        1198,
+        240
+      ],
+      "fragments": [
+        [
+          135,
+          105,
+          1198,
+          240
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          105,
+          1198,
+          240
+        ]
+      ],
+      "text": "Damit wir nun endgültig begreifen, was in den Registern ge- schieht, betrachten wir uns zu dem Beispiel der Addition 5+7 = 12 die nachfolgende Darstellung:"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1256,
+        105,
+        2318,
+        280
+      ],
+      "fragments": [
+        [
+          1256,
+          105,
+          2318,
+          280
+        ]
+      ],
+      "lines": [
+        [
+          1256,
+          105,
+          2318,
+          280
+        ]
+      ],
+      "text": "Da wir jetzt wissen, was sich in den Registern abspielt, sollte für das ebenfalls noch dargestellte Fluß-Diagramm zu unse- rem 2-stelligen dezimalen Rechner keine besonderen Erklä- rungen notwendig sein."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        125,
+        290,
+        1200,
+        2980
+      ],
+      "fragments": [
+        [
+          125,
+          290,
+          1200,
+          2980
+        ]
+      ],
+      "lines": [
+        [
+          125,
+          290,
+          1200,
+          2980
+        ]
+      ],
+      "text": "5+7=12 walkthrough table"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        121,
+        3030,
+        1186,
+        3360
+      ],
+      "fragments": [
+        [
+          121,
+          3030,
+          1186,
+          3360
+        ]
+      ],
+      "lines": [
+        [
+          121,
+          3030,
+          1186,
+          3360
+        ]
+      ],
+      "text": "00 ICLEAR |0 0 0 Siehe Programm-Anfang  Die Zahlen auf schwarzem Grund werden auf dem Display angezeigt. Wir wundern uns vielleicht, daß beim Register O der eingegebene Wert 5 sehr lange in dieser Tabelle als angezeig- ter Wert dargestellt wird. In Wirklichkeit läuft das ganze Spiel zwischen Adresse 04 und 0C im Bruchteil einer Sekunde ab."
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        135,
+        105,
+        1198,
+        224
+      ],
+      "text": "Damit wir nun endgültig begreifen, was in den Registern ge- schieht, betrachten wir uns zu dem Beispiel der Addition 5+7 = 12 die nachfolgende Darstellung:",
+      "lines": [
+        [
+          138,
+          105,
+          1198,
+          141
+        ],
+        [
+          137,
+          146,
+          1196,
+          182
+        ],
+        [
+          135,
+          187,
+          755,
+          224
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        433,
+        439,
+        959,
+        515
+      ],
+      "text": "Was passiert in | Erklärungen den Registern",
+      "lines": [
+        [
+          433,
+          439,
+          959,
+          475
+        ],
+        [
+          434,
+          480,
+          689,
+          515
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        751,
+        574,
+        1161,
+        646
+      ],
+      "text": "Alle Register löschen = Inhalt Wert O",
+      "lines": [
+        [
+          751,
+          574,
+          1161,
+          611
+        ],
+        [
+          752,
+          616,
+          969,
+          646
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        747,
+        1875,
+        1099,
+        1951
+      ],
+      "text": "konstante Wert 1 (zu bisher 0) addiert",
+      "lines": [
+        [
+          748,
+          1875,
+          1099,
+          1911
+        ],
+        [
+          747,
+          1916,
+          1034,
+          1951
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        745,
+        1969,
+        1162,
+        2129
+      ],
+      "text": "2 Stellen ab Register 1 (also Register 1 und 2) anzeigen = Ergebnis = 12",
+      "lines": [
+        [
+          746,
+          1969,
+          1113,
+          2005
+        ],
+        [
+          745,
+          2011,
+          1162,
+          2047
+        ],
+        [
+          745,
+          2052,
+          941,
+          2088
+        ],
+        [
+          746,
+          2094,
+          985,
+          2129
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        142,
+        1962,
+        658,
+        2013
+      ],
+      "text": "oB DSP2 WM BE 5",
+      "lines": [
+        [
+          142,
+          1962,
+          658,
+          2013
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        744,
+        2147,
+        1175,
+        2265
+      ],
+      "text": "Warten - Ergebnis bleibt sichtbar, bis neue Ein- gabe erfolgt",
+      "lines": [
+        [
+          744,
+          2147,
+          1175,
+          2183
+        ],
+        [
+          745,
+          2189,
+          1138,
+          2223
+        ],
+        [
+          744,
+          2230,
+          951,
+          2265
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        743,
+        2325,
+        941,
+        2354
+      ],
+      "text": "Adresse 00",
+      "lines": [
+        [
+          743,
+          2325,
+          941,
+          2354
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        140,
+        2377,
+        1171,
+        2413
+      ],
+      "text": "00 ICLEAR |0 0 0 Siehe Programm-Anfang",
+      "lines": [
+        [
+          140,
+          2377,
+          1171,
+          2413
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        121,
+        2465,
+        1186,
+        2661
+      ],
+      "text": "Die Zahlen auf schwarzem Grund werden auf dem Display angezeigt. Wir wundern uns vielleicht, daß beim Register O der eingegebene Wert 5 sehr lange in dieser Tabelle als angezeig- ter Wert dargestellt wird. In Wirklichkeit läuft das ganze Spiel zwischen Adresse 04 und 0C im Bruchteil einer Sekunde ab.",
+      "lines": [
+        [
+          123,
+          2465,
+          1185,
+          2501
+        ],
+        [
+          122,
+          2507,
+          1186,
+          2543
+        ],
+        [
+          122,
+          2548,
+          1186,
+          2585
+        ],
+        [
+          121,
+          2589,
+          1183,
+          2625
+        ],
+        [
+          122,
+          2631,
+          1183,
+          2661
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1256,
+        105,
+        2318,
+        265
+      ],
+      "text": "Da wir jetzt wissen, was sich in den Registern abspielt, sollte für das ebenfalls noch dargestellte Fluß-Diagramm zu unse- rem 2-stelligen dezimalen Rechner keine besonderen Erklä- rungen notwendig sein.",
+      "lines": [
+        [
+          1258,
+          105,
+          2316,
+          141
+        ],
+        [
+          1256,
+          147,
+          2318,
+          182
+        ],
+        [
+          1258,
+          187,
+          2318,
+          224
+        ],
+        [
+          1258,
+          229,
+          1665,
+          265
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1787,
+        455,
+        1901,
+        484
+      ],
+      "text": "START",
+      "lines": [
+        [
+          1787,
+          455,
+          1901,
+          484
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1251,
+        576,
+        1931,
+        1890
+      ],
+      "text": "00 CLEAR 01 DISP1.0 02 KINO 038 KINI RO u.R1 04 ADD 0,1 addieren 05 BRC09 Übertrag 06 CMPIY,1 ' 07 BRC09 Nein 08 _GOTOO0B 09 ADDI6,/I UREE 0A ADDI1,2 addieren Ergebnis 0B DISP2,1 anzeige in Ri u.R2 0C KINO Eingabe in 0D GOTO00 RO",
+      "lines": [
+        [
+          1256,
+          576,
+          1492,
+          606
+        ],
+        [
+          1255,
+          616,
+          1516,
+          647
+        ],
+        [
+          1255,
+          657,
+          1462,
+          687
+        ],
+        [
+          1255,
+          698,
+          1452,
+          728
+        ],
+        [
+          1771,
+          785,
+          1908,
+          814
+        ],
+        [
+          1254,
+          811,
+          1916,
+          856
+        ],
+        [
+          1253,
+          957,
+          1916,
+          1025
+        ],
+        [
+          1253,
+          1136,
+          1680,
+          1170
+        ],
+        [
+          1252,
+          1156,
+          1703,
+          1206
+        ],
+        [
+          1252,
+          1217,
+          1532,
+          1247
+        ],
+        [
+          1254,
+          1361,
+          1923,
+          1431
+        ],
+        [
+          1253,
+          1422,
+          1918,
+          1472
+        ],
+        [
+          1763,
+          1589,
+          1911,
+          1625
+        ],
+        [
+          1252,
+          1627,
+          1921,
+          1666
+        ],
+        [
+          1765,
+          1671,
+          1907,
+          1700
+        ],
+        [
+          1251,
+          1818,
+          1931,
+          1854
+        ],
+        [
+          1251,
+          1859,
+          1864,
+          1890
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "Wir wollen den Computer einmal programmieren…",
+    "en": "Let's program the computer to wait until we press a digit key, then display the value of that key.\n\nEvery program entry begins with: <b>HALT NEXT 0 0</b>. The two trailing zeros tell the computer that the first command code is stored at address 00, and that the address number should auto-increment for each subsequent command. For this to happen, NEXT must be pressed after each command code. We can see this when we enter the following three command codes:\n\n<table class=\"codes\"><tr><th>Addr</th><th>Code</th></tr><tr><td>00</td><td>F10</td></tr><tr><td>01</td><td>FF0</td></tr><tr><td>02</td><td>C00</td></tr></table>\n\nOur mini-program is just these three addresses 00–02. Don't forget the NEXT key after the last command either. The computer now needs to know that programming is finished, so: <b>HALT NEXT 0 0</b>. HALT terminated programming, and NEXT 00 jumped back to the program start. It's now waiting for our next decision: we give it <b>RUN</b>. The computer checks the commands — but nothing happens. Correct: we told it to wait for a digit/letter key, then display that value. So press <b>5</b> — display shows 5. Press <b>F</b> — display shows F. And so on.\n\nWhat do the three commands do?\n\n<b>First command F10</b> — <i>Display</i> command: \"Show a particular value at a particular position.\"\n\n<b>Second command FF0</b> — <i>Wait-and-Input</i> command: \"Wait until a digit/letter key is pressed; store the value of that key (e.g. digit 1) in a register so it's retained after the key is released.\"\n\n<b>Third command C00</b> — <i>Jump</i> command: \"Jump back to the start of the program (address 00).\"\n\nAll quite simple and logical. We must get into the habit of thinking logically."
+  },
+  "1": {
+    "de": "Etwas über Speicher und Adressen",
+    "en": "A Little About Memory and Addresses"
+  },
+  "2": {
+    "de": "Wir haben bei unseren ersten Programmier-Versuchen gesehen…",
+    "en": "In our first programming attempts we saw that we give the computer commands (command codes) it can understand. They are stored in its \"memory\"."
+  },
+  "3": {
+    "de": "Damit der Computer die im Speicher abgestellten Befehle wiederfindet…",
+    "en": "So that the computer can find the commands stored in memory again, each command code (3 digits or letters) has a consecutive numbering called an <b>address</b>. Memory is comparable to a card-index box, in which the individual cards (with the command codes) are filed. To make the cards easy to find, they are numbered consecutively (with the address number).\n\nWith <b>HALT – NEXT – 00</b>, we tell the computer to look up the first entered command, which received address 00 automatically during programming. If we then press <b>RUN</b>, the computer knows it must execute the program starting from the first address. From now on we'll use the word <i>address</i> instead of <i>command number</i>."
+  },
+  "4": {
+    "de": "Wir lernen die ersten Befehle",
+    "en": "Learning the First Commands"
+  },
+  "5": {
+    "de": "Ein Computer macht nichts von alleine…",
+    "en": "A computer does nothing on its own. Everything it does must be taught to it by entering commands. Since it cannot think, we must think for it — and we must remember to teach it even the simplest things. If we type a number on the keyboard, it doesn't yet know that it should display that number."
+  }
+}

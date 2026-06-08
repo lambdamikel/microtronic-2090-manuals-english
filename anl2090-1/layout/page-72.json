@@ -1,0 +1,1147 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        130,
+        104,
+        1192,
+        278
+      ],
+      "fragments": [
+        [
+          130,
+          104,
+          1192,
+          278
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          104,
+          1192,
+          278
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        128,
+        286,
+        1190,
+        378
+      ],
+      "fragments": [
+        [
+          128,
+          286,
+          1190,
+          378
+        ]
+      ],
+      "lines": [
+        [
+          128,
+          286,
+          1190,
+          378
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        114,
+        1256,
+        1186,
+        1885
+      ],
+      "fragments": [
+        [
+          114,
+          1256,
+          1186,
+          1885
+        ]
+      ],
+      "lines": [
+        [
+          114,
+          1256,
+          1186,
+          1885
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1235,
+        108,
+        2316,
+        1292
+      ],
+      "fragments": [
+        [
+          1235,
+          108,
+          2316,
+          1292
+        ]
+      ],
+      "lines": [
+        [
+          1235,
+          108,
+          2316,
+          1292
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1235,
+        1396,
+        2316,
+        1512
+      ],
+      "fragments": [
+        [
+          1235,
+          1396,
+          2316,
+          1512
+        ]
+      ],
+      "lines": [
+        [
+          1235,
+          1396,
+          2316,
+          1512
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1235,
+        1550,
+        2316,
+        2032
+      ],
+      "fragments": [
+        [
+          1235,
+          1550,
+          2316,
+          2032
+        ]
+      ],
+      "lines": [
+        [
+          1235,
+          1550,
+          2316,
+          2032
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1230,
+        2788,
+        2304,
+        3382
+      ],
+      "fragments": [
+        [
+          1230,
+          2788,
+          2304,
+          3382
+        ]
+      ],
+      "lines": [
+        [
+          1230,
+          2788,
+          2304,
+          3382
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        130,
+        110,
+        1191,
+        269
+      ],
+      "text": "Ein spezielles C-MOS-RAM ist auch für unseren Microtro- nic-Computer lieferbar, damit die im Computer eingegebe- nen Programme auch nach dem Abschalten des Netzstroms nicht verloren gehen.",
+      "lines": [
+        [
+          131,
+          110,
+          1191,
+          145
+        ],
+        [
+          131,
+          152,
+          1188,
+          189
+        ],
+        [
+          130,
+          193,
+          1188,
+          227
+        ],
+        [
+          130,
+          234,
+          494,
+          269
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        292,
+        1187,
+        370
+      ],
+      "text": "Das auf der Computer-Platine aufgesteckte RAM kann leicht gegen ein C-MOS-RAM ausgetauscht werden.",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        120,
+        1307,
+        1183,
+        1467
+      ],
+      "text": "dem Mikroprozessor zu finden ist. Das RAM ist auf einem mit der Platine verlöteten Sockel aufgesteckt. Es kann (durch Da- zwischenschieben eines kleinen Schraubenziehers) angeho- ben und gegen das C-MOS-RAM ausgetauscht werden.",
+      "lines": [
+        [
+          120,
+          1307,
+          1181,
+          1342
+        ],
+        [
+          120,
+          1349,
+          1183,
+          1385
+        ],
+        [
+          120,
+          1390,
+          1183,
+          1427
+        ],
+        [
+          121,
+          1432,
+          1094,
+          1467
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        119,
+        1490,
+        1182,
+        1651
+      ],
+      "text": "Ein speziell für das Microtronic-Computersystem geeignetes C-MOS-RAM kann mit beigefügter Ersatzteil-Preisliste unter der Bestellnummer 20910 (gegen Einzahlung des Betrags auf Postscheck-Konto) angefordert werden.",
+      "lines": [
+        [
+          120,
+          1490,
+          1180,
+          1527
+        ],
+        [
+          120,
+          1532,
+          1181,
+          1569
+        ],
+        [
+          119,
+          1574,
+          1182,
+          1610
+        ],
+        [
+          120,
+          1615,
+          814,
+          1651
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        118,
+        1674,
+        1182,
+        1869
+      ],
+      "text": "Die 9V-Batterie kann dann die Spannungsversorgung des C- MOS-RAMS für viele Wochen übernehmen. Unter Zwischen- schaltung eines 2,2 K OD Widerstandes (siehe Abbildung) wird die Batterie angeschlossen. Die Verbindungsleitungen dürfen nicht vertauscht werden.",
+      "lines": [
+        [
+          120,
+          1674,
+          1181,
+          1711
+        ],
+        [
+          120,
+          1715,
+          1182,
+          1745
+        ],
+        [
+          119,
+          1757,
+          1178,
+          1793
+        ],
+        [
+          118,
+          1799,
+          1178,
+          1835
+        ],
+        [
+          120,
+          1840,
+          545,
+          1869
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        2452,
+        1126,
+        3350
+      ],
+      "text": "GND Ausgänge/Outputs Reset Eingänge/inputs Takt/Clock Uin \\NGND 1234 Tasteı 2 3 A iHz vw oO 0 000 ‚0000 [®) 0000 o : 8 B Mikroprozessor g z B ge RB g 5 ä H oO T c D E F | NEXT REG 554321 BE ES ER 6) 8 9 L) B BKP _STEP DE DB EN I . 4 5 6 7 RUN HALT Eu ES IE BE Ei Ei ® Carry Flag Display 0 i 2 3 CICE PGM @ Zero-Flag Anzeige = & e ] = =",
+      "lines": [
+        [
+          162,
+          2452,
+          1126,
+          2483
+        ],
+        [
+          176,
+          2480,
+          1112,
+          2505
+        ],
+        [
+          176,
+          2506,
+          891,
+          2533
+        ],
+        [
+          239,
+          2546,
+          891,
+          2569
+        ],
+        [
+          687,
+          2855,
+          695,
+          2882
+        ],
+        [
+          604,
+          2884,
+          696,
+          2910
+        ],
+        [
+          292,
+          2897,
+          696,
+          2949
+        ],
+        [
+          602,
+          2940,
+          696,
+          2964
+        ],
+        [
+          602,
+          2964,
+          695,
+          2977
+        ],
+        [
+          601,
+          2978,
+          694,
+          2999
+        ],
+        [
+          184,
+          3073,
+          1049,
+          3117
+        ],
+        [
+          306,
+          3104,
+          1061,
+          3140
+        ],
+        [
+          187,
+          3144,
+          1055,
+          3198
+        ],
+        [
+          603,
+          3174,
+          1061,
+          3210
+        ],
+        [
+          194,
+          3223,
+          1055,
+          3240
+        ],
+        [
+          602,
+          3244,
+          1060,
+          3279
+        ],
+        [
+          137,
+          3289,
+          1051,
+          3311
+        ],
+        [
+          137,
+          3313,
+          1059,
+          3350
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1248,
+        114,
+        2314,
+        313
+      ],
+      "text": "Vor dem Herausziehen des Netzgeräts aus der Steckdose ist die grüneRESET-Taste auf dem Computer-Platine ca. 10 Se- kunden niederzudrücken. Auch während und nach dem Her- ausziehen des Netzgeräts dieRESET-Tastenoch ca. 10 Sekun- den in Druckstellung halten.",
+      "lines": [
+        [
+          1250,
+          114,
+          2314,
+          149
+        ],
+        [
+          1252,
+          154,
+          2314,
+          189
+        ],
+        [
+          1252,
+          195,
+          2313,
+          226
+        ],
+        [
+          1248,
+          237,
+          2311,
+          272
+        ],
+        [
+          1248,
+          278,
+          1730,
+          313
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        337,
+        2313,
+        496
+      ],
+      "text": "Der Programm-Speicher wird nun durch die Batterie-Span- nung betriebsbereit gehalten, während alle übrigen Computer- Funktionen abgeschaltet sind. Es kann also mit Batteriebetrieb nicht weitergearbeitet werden.",
+      "lines": [
+        [
+          1251,
+          337,
+          2313,
+          373
+        ],
+        [
+          1251,
+          378,
+          2312,
+          414
+        ],
+        [
+          1251,
+          419,
+          2310,
+          459
+        ],
+        [
+          1251,
+          461,
+          1771,
+          496
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1248,
+        520,
+        2310,
+        719
+      ],
+      "text": "Vor dem Einstecken des Netzgeräts in die Steckdose ist erneut die RESET-Taste ca. 10 Sekunden lang zu drücken, dann (bei gedrückter RESET-Taste) das Netzgerät einstecken. Nach dem Einstecken die RESET-Taste noch ca. 10 Sekunden in Druckstellung halten.",
+      "lines": [
+        [
+          1248,
+          520,
+          2310,
+          555
+        ],
+        [
+          1249,
+          560,
+          2309,
+          596
+        ],
+        [
+          1249,
+          601,
+          2309,
+          638
+        ],
+        [
+          1250,
+          643,
+          2308,
+          673
+        ],
+        [
+          1250,
+          684,
+          1654,
+          719
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1247,
+        743,
+        2310,
+        896
+      ],
+      "text": "Batterie-Anschlüsse entfernen und der Computer ist wieder wie üblich einsatzbereit. Ein kurzer Programm-Test wird es uns beweisen, daß die eingegebenen Programme noch vorhanden sind.",
+      "lines": [
+        [
+          1249,
+          743,
+          2310,
+          778
+        ],
+        [
+          1247,
+          784,
+          2309,
+          819
+        ],
+        [
+          1249,
+          826,
+          2308,
+          861
+        ],
+        [
+          1248,
+          867,
+          1326,
+          896
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1245,
+        926,
+        2311,
+        1285
+      ],
+      "text": "Die Betätigung der RESET-Taste kurz vor und während der Netzstromunterbrechung (bzw. während der Netzstromein- schaltng) ist unbedingt erforderlich, damit keine Daten der ein- gegebenen Programme verloren gehen. Sollte durch falsche Betätigung der RESET-Taste ein Programm nicht einwandfrei funktionieren (was sich vor allem bei den ersten und letzten Adressen des Programm-Speichers auswirken könnte), müß- ten einzelne Korrekturen in der bekannten Weise durchgeführt werden.",
+      "lines": [
+        [
+          1249,
+          926,
+          2310,
+          961
+        ],
+        [
+          1248,
+          967,
+          2310,
+          1002
+        ],
+        [
+          1247,
+          1008,
+          2311,
+          1044
+        ],
+        [
+          1247,
+          1050,
+          2308,
+          1085
+        ],
+        [
+          1247,
+          1091,
+          2307,
+          1127
+        ],
+        [
+          1246,
+          1132,
+          2307,
+          1167
+        ],
+        [
+          1245,
+          1173,
+          2310,
+          1210
+        ],
+        [
+          1246,
+          1215,
+          2308,
+          1251
+        ],
+        [
+          1245,
+          1257,
+          1380,
+          1285
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1242,
+        1403,
+        2163,
+        1502
+      ],
+      "text": "Das ROM ist der Dolmetscher unseres Mikroprozessors",
+      "lines": [
+        [
+          1242,
+          1403,
+          2163,
+          1443
+        ],
+        [
+          1242,
+          1456,
+          1644,
+          1502
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1241,
+        1556,
+        2304,
+        1673
+      ],
+      "text": "Der ROM-Speicher mit dem Betriebs-System und der RAM- Speicher mit den von uns eingegebenen Programmen arbeiten im Mikroprozessor „Hand in Hand”.",
+      "lines": [
+        [
+          1242,
+          1556,
+          2304,
+          1591
+        ],
+        [
+          1241,
+          1597,
+          2301,
+          1633
+        ],
+        [
+          1242,
+          1639,
+          1849,
+          1673
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1239,
+        1704,
+        2304,
+        1987
+      ],
+      "text": "Wenn der Computer ein eingegebenes Programm abarbeitet, geschieht folgendes: Sobald wir die RUN-Taste betätigen, wird im ROM-Speicher dessen Programm gestartet. Der Mikropro- zessor erhält den Befehl, den ersten Programm-Schritt (die unter Adresse 00 gespeicherte Eingabe) aus dem RAM-Spei- cher zu holen, der über den Daten-Bus im Akkumulator (ALU) zwischengespeichert wird,",
+      "lines": [
+        [
+          1239,
+          1704,
+          2301,
+          1739
+        ],
+        [
+          1240,
+          1745,
+          2300,
+          1782
+        ],
+        [
+          1241,
+          1786,
+          2304,
+          1822
+        ],
+        [
+          1239,
+          1828,
+          2301,
+          1865
+        ],
+        [
+          1241,
+          1869,
+          2303,
+          1905
+        ],
+        [
+          1240,
+          1911,
+          2299,
+          1948
+        ],
+        [
+          1239,
+          1952,
+          1699,
+          1987
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1726,
+        2003,
+        1858,
+        2017
+      ],
+      "text": "Daten von RAM",
+      "lines": [
+        [
+          1726,
+          2003,
+          1858,
+          2017
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1826,
+        2041,
+        1981,
+        2054
+      ],
+      "text": "externer Datenbus",
+      "lines": [
+        [
+          1826,
+          2041,
+          1981,
+          2054
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1289,
+        2107,
+        1882,
+        2145
+      ],
+      "text": "[4 © INTERNER DATENBUS",
+      "lines": [
+        [
+          1289,
+          2107,
+          1882,
+          2145
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2023,
+        2259,
+        2258,
+        2284
+      ],
+      "text": "zähler speicher",
+      "lines": [
+        [
+          2023,
+          2259,
+          2258,
+          2284
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1300,
+        2296,
+        2054,
+        2345
+      ],
+      "text": "werk R . Befehls- f' % dekodierung",
+      "lines": [
+        [
+          1505,
+          2296,
+          1738,
+          2310
+        ],
+        [
+          1319,
+          2304,
+          2054,
+          2329
+        ],
+        [
+          1300,
+          2328,
+          1405,
+          2345
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1493,
+        2437,
+        1579,
+        2474
+      ],
+      "text": "Zustands- signale",
+      "lines": [
+        [
+          1493,
+          2437,
+          1579,
+          2451
+        ],
+        [
+          1506,
+          2457,
+          1565,
+          2474
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1537,
+        2519,
+        1575,
+        2568
+      ],
+      "text": "Ir",
+      "lines": [
+        [
+          1537,
+          2519,
+          1575,
+          2568
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1263,
+        2612,
+        1544,
+        2637
+      ],
+      "text": "L. Zentrale Ablaulstederung",
+      "lines": [
+        [
+          1263,
+          2612,
+          1544,
+          2637
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1585,
+        2594,
+        1746,
+        2639
+      ],
+      "text": "Eingang r. IT Ausgang",
+      "lines": [
+        [
+          1660,
+          2594,
+          1743,
+          2613
+        ],
+        [
+          1585,
+          2615,
+          1746,
+          2639
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2092,
+        2641,
+        2278,
+        2683
+      ],
+      "text": "Blockschaltbild eines MICROPROZESSORS",
+      "lines": [
+        [
+          2092,
+          2641,
+          2272,
+          2656
+        ],
+        [
+          2092,
+          2669,
+          2278,
+          2683
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1236,
+        2797,
+        2301,
+        2956
+      ],
+      "text": "Beginnt ein Befehlz.B. mit der Zahl 4, erkennt der Mikroprozes- sor durch Vergleichen, daß es sich hier um einen ADD-Befehl handelt und es erfolgt im ROM-Speicher ein Programm- Sprung um den ADD-Befehl auszuführen.",
+      "lines": [
+        [
+          1237,
+          2797,
+          2301,
+          2833
+        ],
+        [
+          1236,
+          2838,
+          2298,
+          2874
+        ],
+        [
+          1237,
+          2879,
+          2301,
+          2916
+        ],
+        [
+          1236,
+          2921,
+          1954,
+          2956
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1234,
+        2986,
+        2298,
+        3062
+      ],
+      "text": "Wie alle Eingabe-Befehle beinhaltet auch z.B. der ADD-Befehl mehrere Einzel-Befehle an den Mikroprozessor:",
+      "lines": [
+        [
+          1234,
+          2986,
+          2298,
+          3021
+        ],
+        [
+          1237,
+          3027,
+          2065,
+          3062
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1238,
+        3092,
+        2300,
+        3169
+      ],
+      "text": "1. Die beiden zu addierenden Register werden in den Akku- mulator (ALU) und in ein zweites Hilfs-Register geladen.",
+      "lines": [
+        [
+          1238,
+          3092,
+          2300,
+          3127
+        ],
+        [
+          1295,
+          3133,
+          2260,
+          3169
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1235,
+        3198,
+        2296,
+        3269
+      ],
+      "text": "2. Die Addition wird durchgeführt. Das Ergebnis steht im Akkumulator.",
+      "lines": [
+        [
+          1235,
+          3198,
+          2296,
+          3234
+        ],
+        [
+          1292,
+          3239,
+          1520,
+          3269
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1234,
+        3305,
+        2296,
+        3381
+      ],
+      "text": "3. Das Ergebnis wird zum Ziel-Register (Destination-Register) weitergegeben.",
+      "lines": [
+        [
+          1234,
+          3305,
+          2296,
+          3341
+        ],
+        [
+          1292,
+          3346,
+          1558,
+          3381
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "0": {
+    "de": "",
+    "en": "Every program step is controlled by the operating system and processed, or evaluated, by the microprocessor. The command codes entered by us are, for the processor, nothing other than data to be evaluated. An entry command causes various individual commands to be executed. The operating system present in the ROM memory is a &bdquo;translation program&rdquo;, which translates the commands entered by us into a language intelligible to the microprocessor and processes them."
+  },
+  "1": {
+    "de": "",
+    "en": "The instruction set is a programming language!"
+  },
+  "2": {
+    "de": "",
+    "en": "During a program run, the microprocessor fetches our entered commands one after another from the RAM memory. By comparison it recognizes the command code, e.g. that an addition is to be carried out. In the ROM memory a subprogram is available for each command, which is executed during the comparison.\n\nThis subprogram works with the actual &bdquo;microprocessor language&rdquo;. Our command codes, with which we have learned to add, multiply, divide or display values on the display, require for their execution a whole series of individual microprocessor commands. The Microtronic instruction set facilitates programming, because through few input values sometimes very extensive subprograms or whole program parts within the microprocessor are addressed. The instruction set is a programming language.\n\nThe Microtronic instruction set can already be designated as a &bdquo;higher programming language&rdquo;. Nevertheless the Microtronic instruction set has a similarity with the actual &bdquo;microprocessor language&rdquo;. This is a great advantage when, e.g., a microprocessor is to be programmed which does not have such a comfortable operating system as in our case. A mental switch-over is easily possible, because we already know the basic logic and working method of a microprocessor through the Microtronic instruction set."
+  },
+  "3": {
+    "de": "",
+    "en": "There are various programming languages"
+  },
+  "4": {
+    "de": "",
+    "en": "In larger computers with high memory capacity, the programming language can be designed even more comfortably and thus easily learnable. There are various higher programming languages such as e.g. BASIC, PASCAL, COBOL, etc.\n\nA programming in BASIC would look as follows:"
+  },
+  "5": {
+    "de": "",
+    "en": "<table class=\"boxed\"><tr><th>Input commands</th><th>Explanations</th></tr><tr><td><b>10 : INPUT A</b></td><td>Take a value into memory A</td></tr><tr><td><b>20 : B = A * A</b></td><td>A &times; A = B</td></tr><tr><td><b>30 : PRINT B</b></td><td>B is output via screen or printer</td></tr><tr><td><b>40 : END</b></td><td>End of the program</td></tr></table>"
+  },
+  "6": {
+    "de": "",
+    "en": "An advantage results because certain keywords (e.g. INPUT, PRINT, etc.) are programmed directly, whereas we enter an encoded code into the much smaller microcomputer."
+  },
+  "7": {
+    "de": "",
+    "en": "Since large computers too work with microprocessors, the higher programming language must be converted back into the microprocessor language by a very extensive translation program. The necessary effort rises considerably. Not only is a complete keyboard with all letters, numbers and characters required. The monitoring of the keyboard, the conversion of all letters and characters into data intelligible to microprocessors, and the translation program into microprocessor commands, require a high memory capacity. That the extensive translations require time despite the rapid working method of the microprocessors is evident. Therefore larger data-processing installations too are sometimes programmed directly in the machine language (microprocessor language), e.g. when time-critical tasks are to be solved.\n\nIn large computers that work with the same program language, the programs can be exchanged. A computer that understands e.g. PASCAL can take over programs that were entered in PASCAL on another computer.\n\nIt is also interesting that there are alternatives for translating a higher programming language into the microprocessor machine language. An &bdquo;interpreter&rdquo; is a translation program for translating a programming language into the machine language and executing the individual translated commands immediately.\n\nThe ROM memory in the Microtronic computer system likewise works as an interpreter. A Microtronic command is fetched from the memory, translated and executed. Only then is the next command processed in the same way.\n\n&bdquo;Compiler&rdquo; is a translation program with which all commands of a higher programming language are first translated into the machine language. The machine-language translation is stored, and only then is the entire translated program executed."
+  },
+  "8": {
+    "de": "",
+    "en": "Description of the Microtronic function keys"
+  },
+  "9": {
+    "de": "",
+    "en": "<b>HALT</b>\nEnd of a function or program stop. If a running program is stopped with the HALT key, the program address and the command code appear on the display.\n\n<b>The HALT key must always be pressed when switching from one function to another function!</b> The HALT key concludes the preceding function – a new function can be begun.\n\n<b>NEXT</b>\nRequired for programming, or program modification. By pressing the NEXT key, the next command is fetched from the program memory and displayed. This displayed command can be changed by new entry. So that a command is stored in the program memory, the NEXT key must be pressed after the command entry.\n\nIf first the HALT key and then the NEXT key are pressed, the computer wants to know which command is to be displayed or processed next. The 2-digit address number is to be entered.\n\n<b>BKP</b>\n(Break Point) is required for program testing. With HALT, BKP and the 2-digit address, the breakpoint address is entered. If the program is processed (with RUN), a stop results at the breakpoint address. The display shows the stop address and the command code. With the REG key, register values can now be changed, or with the STEP key the program can be processed further from this point in single steps. A program continuation is possible with RUN."
+  }
+}

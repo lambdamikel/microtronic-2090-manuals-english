@@ -1,0 +1,260 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        140,
+        113,
+        1200,
+        421
+      ],
+      "fragments": [
+        [
+          140,
+          113,
+          1200,
+          421
+        ]
+      ],
+      "lines": [
+        [
+          140,
+          113,
+          1200,
+          421
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        130,
+        452,
+        1205,
+        795
+      ],
+      "fragments": [
+        [
+          130,
+          452,
+          1205,
+          795
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          452,
+          1205,
+          795
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        130,
+        800,
+        1208,
+        1812
+      ],
+      "fragments": [
+        [
+          130,
+          800,
+          1208,
+          1812
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          800,
+          1208,
+          1812
+        ]
+      ],
+      "text": "",
+      "font_pt": 7.4
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        130,
+        1834,
+        1205,
+        3375
+      ],
+      "fragments": [
+        [
+          130,
+          1834,
+          1205,
+          3375
+        ]
+      ],
+      "lines": [
+        [
+          130,
+          1834,
+          1205,
+          3375
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1262,
+        107,
+        2323,
+        421
+      ],
+      "fragments": [
+        [
+          1262,
+          107,
+          2323,
+          421
+        ]
+      ],
+      "lines": [
+        [
+          1262,
+          107,
+          2323,
+          421
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        438,
+        2330,
+        3362
+      ],
+      "fragments": [
+        [
+          1250,
+          438,
+          2330,
+          3362
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          438,
+          2330,
+          3362
+        ]
+      ],
+      "text": "",
+      "font_pt": 8.1
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        140,
+        113,
+        1200,
+        315
+      ],
+      "text": "Der Computer stellt uns immer wieder vor neue Denksport- Aufgaben. Eine Aufforderung, unser logisches Denkvermö- gen unterBeweis zu stellen. Wirsoliten erkennen, daßes ge- nau diese Herausforderung ist, welche den Umgang mit einem Computer so interessant macht.",
+      "lines": [
+        [
+          142,
+          113,
+          1200,
+          151
+        ],
+        [
+          140,
+          154,
+          1200,
+          193
+        ],
+        [
+          141,
+          195,
+          1200,
+          235
+        ],
+        [
+          142,
+          236,
+          1200,
+          273
+        ],
+        [
+          141,
+          279,
+          850,
+          315
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        107,
+        2323,
+        349
+      ],
+      "text": "automatisch einspielen. Ist dies geschehen sehen wir, daß der letzte Programm-Schritt die Adresse 44 angezeigt wird. Mit HALT - NEXT - 00 springen wir zum Programm-Anfang und starten wie üblich mit RUN. Wenn wirjetztnochmals das Nimm- Spiel spielen, kommt uns zum Bewußtsein, welche Gedanken- arbeit in einem solchen Programm-Ablauf enthalten ist.",
+      "lines": [
+        [
+          1262,
+          107,
+          2323,
+          144
+        ],
+        [
+          1263,
+          148,
+          2321,
+          186
+        ],
+        [
+          1262,
+          189,
+          2320,
+          226
+        ],
+        [
+          1262,
+          230,
+          2323,
+          266
+        ],
+        [
+          1262,
+          271,
+          2323,
+          310
+        ],
+        [
+          1262,
+          312,
+          2214,
+          349
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "0": {
+    "de": "",
+    "en": "The illustration shows a simple program flow chart of how the winning number can be searched for and possibly found. To the right of it we find a representation of how the computer works through the program. For simplicity we assume that at the beginning of this &bdquo;search run&rdquo; a heap size (HFG) of 7 matches is still present."
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"text-align:left;font-size:8.5pt;line-height:1.12\"><b>Program flow chart<br>&bdquo;Search for winning number&rdquo;</b></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"text-align:left;font-size:8.5pt;line-height:1.12\"><b>How the computer works<br>through the program</b></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "We know that the winning numbers are 1, 5, 9 or 13. We also know how the winning numbers can be calculated when, at the end, 1 match is to remain for the loser, at most 3 may be taken away, and when one (or the computer) likewise takes 1 match away: 1 + 3 + 1 = 5 etc.\n\nSo we make ourselves a small program flow chart and note beside it how the computer is to calculate:\n\nThe adjacent representation shows us that we can also solve this task successfully. If, however, we look at the representation somewhat more closely, we must note that we have developed an &bdquo;endless program loop&rdquo;, in which the computer will determine winning numbers for all eternity.\n\nWhat can we do to get out of this endless loop again, once enough winning numbers have been calculated?\n\nWe must give the computer the opportunity to count how often it has already calculated the winning numbers. We build into the program a &bdquo;counter&rdquo;, to which each time the value 1 is added as soon as the computer has determined a new winning number.\n\nThe preceding program flow chart &bdquo;winning-number calculation&rdquo; is extended as follows by an additional &bdquo;counter&rdquo;.\n\nWe have inserted the &bdquo;counter&rdquo; into the previous program flow chart for the winning-number calculation. If the heap size (HFG) is not at the same time also a winning number, the program comes to the &bdquo;counter&rdquo;. With each new winning-number determination, the value 1 is added in the counter until the hexadecimal value F is exceeded. This produces a carry of the counter (CARRY FLAG is set) and the new counter reading is 0. By means of the carry (CARRY FLAG) we can leave the &bdquo;counting loop&rdquo; via a BRZ command or via a BRC command."
+  },
+  "4": {
+    "de": "",
+    "en": "From the right-hand representation we see that the computer runs through the program flow chart, then jumps back, whereby it reduces MAX for its internal calculation from originally 3 to 2 units.\n\nThe first part of our considerations on how one might program such a Nim game is thus done.\n\nThat would be nice – but we have still forgotten one small thing. We asked, namely, in the program flow chart whether the HFG (heap size) is a winning number. Does the computer already know the possible winning numbers?\n\nIt does not – unfortunately! So we must help it. Two possibilities present themselves:\n\nWe could enter into the computer a list of all possible winning numbers. For this, however, a great deal of space would be required in the program memory.\n\nAlthough it appears cumbersome, it is simpler to let the computer calculate the winning numbers itself. So we consider what a further program flow chart might look like: &bdquo;calculation of the winning numbers&rdquo;, whereby a comparison is to be provided for as to whether the HFG (heap size) is a winning number."
+  },
+  "5": {
+    "de": "",
+    "en": "<b>Program flow chart for<br>&bdquo;Winning-number calculation&rdquo;</b>"
+  },
+  "6": {
+    "de": "",
+    "en": "<b>How the computer should calculate</b>"
+  },
+  "7": {
+    "de": "",
+    "en": "<b>Program flow chart &bdquo;Winning-number calculation&rdquo;<br>with &bdquo;counter&rdquo;</b>"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "Durch den Befehl DIN O wird in das Register O der Wert geladen…",
+    "en": "The <b>DIN 0</b> command loads the value present as voltage on the input into register 0. If e.g. \"Takt/Clock\" is feeding a voltage, the computer sees alternating states at input 1: voltage present – no voltage – voltage present … When voltage is present we get binary 0001, which is loaded into register 0. The next DOT 0 sends that value to the outputs.\n\nWe can move the wire from Takt/Clock to a different input, or connect all 4 input sockets to Takt/Clock — the corresponding output LEDs will always blink along.\n\nWe see that an input signal can, via suitable programming, be routed to one or more outputs — so the computer can take on control tasks. We'll expand on this in later experiments."
+  },
+  "1": {
+    "de": "Betrachten wir uns doch noch einmal die nachstehende Tabelle…",
+    "en": "Let's once more look at the table below, in which the hex values 0 – F and the corresponding binary values are juxtaposed."
+  },
+  "2": {
+    "de": "Dual-System dargestellt durch Leuchtdioden an den Ausgängen: 4 3 2 1 (ganze Tabelle)",
+    "en": "<table class=\"hexbin\"><tr><th>Entered key value</th><th>4</th><th>3</th><th>2</th><th>1</th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td></tr><tr><td>3</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>4</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>5</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>6</td><td>0</td><td>1</td><td>1</td><td>0</td></tr><tr><td>7</td><td>0</td><td>1</td><td>1</td><td>1</td></tr><tr><td>8</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr class=\"decend\"><td>9</td><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>A</td><td>1</td><td>0</td><td>1</td><td>0</td></tr><tr><td>B</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>C</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><td>D</td><td>1</td><td>1</td><td>0</td><td>1</td></tr><tr><td>E</td><td>1</td><td>1</td><td>1</td><td>0</td></tr><tr><td>F</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></table>\n\n<div class=\"hexnote\">0–9: decimal system · 0–F: hexadecimal system</div>"
+  },
+  "3": {
+    "de": "Eingegebener Tasten-Wert",
+    "en": ""
+  },
+  "4": {
+    "de": "Wir sehen bei F den dualen Wert 1111…",
+    "en": "We see at F the binary value 1111. To make only one LED blink, we want binary 1000 — i.e. 8. So change MOVI F,0 to MOVI 8,0: enter at address 00 the new code <b>180</b> (instead of 1F0).\n\nAfter program start only the rightmost LED at output 4 of the board blinks. The piezo buzzer (connected at output 1) is silent — output 1 receives no signal, so the buzzer has no voltage.\n\nNow we want again only one LED to blink, but with the buzzer beeping. We need a signal at output 1, so the table tells us we need key value 1. Change address 00 from <b>180</b> to <b>110</b>. Remember: press NEXT after the new command, then start as usual with HALT – NEXT – 00 – RUN. Now only the leftmost LED blinks and the buzzer beeps.\n\nWe can drive the 4 output lines via suitable programming, and later — with appropriate connections — we'll get surprising effects. But at first, only connect components that appear in our experiments.\n\nIn addition to the 4 outputs, the Microtronic also has 4 inputs, addressed via the <b>DIN</b> command (<i>data in</i>).\n\nConnect Takt/Clock to Input 1. Leave the buzzer connected.\n\nEnter this short program:\n\n<table class=\"codes boxed\"><tr><th>Addr</th><th>Code</th><th>Mnem.</th></tr><tr><td>00</td><td>FD0</td><td>DIN 0</td></tr><tr><td>01</td><td>FE0</td><td>DOT 0</td></tr><tr><td>02</td><td>C00</td><td>GOTO 00</td></tr></table>\n\nBefore starting, the buzzer should be connected and only the wire from Input 1 to Takt/Clock should be there. All other inputs/outputs are unconnected.\n\nAfter starting, the LED at output 1 blinks in the same rhythm as the Takt/Clock LED. The buzzer emits a tone that's interrupted in the same rhythm."
+  }
+}

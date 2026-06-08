@@ -1,0 +1,20 @@
+{
+  "0": {
+    "en": "Put into operation with HALT – NEXT – 00 – RUN. The display shows 0. We now enter, for example, 8 and 5. The display shows 3. The computer has calculated 8 – 5 = 3.\n\nEntry 7 – 8 = –1 (the minus sign is not set for the moment, because nothing was provided for this in our program entry).\n\nThe program function is in principle the same as described in the chapter “Subtracting”; only that, through the newly inserted INV command, “negative” decimal results can now also be obtained."
+  },
+  "1": {
+    "en": "Decimal subtraction with minus display"
+  },
+  "2": {
+    "en": "We can already see from the following program table that a considerably greater programming effort results, simply because we now want to calculate not in the hexadecimal range but in the 2-digit decimal range. In addition, a negative result is to be made identifiable."
+  },
+  "3": {
+    "en": "After HALT – NEXT – 00 we enter the program:"
+  },
+  "4": {
+    "en": "<table class=\"codes boxed\"><tr><th>Addr.</th><th>Entry<br>code</th><th>Mnemonic</th><th>Explanation</th></tr><tr><td>00</td><td>F08</td><td>CLEAR</td><td>clear all registers</td></tr><tr><td>01</td><td>F21</td><td>DISP 2,1</td><td>display Reg. 1 and Reg. 2</td></tr><tr><td>02</td><td>F0A</td><td>RSC</td><td>reset carry flag (LED off)</td></tr><tr><td>03</td><td>FF0</td><td>KIN 0</td><td>input into Reg. 0</td></tr><tr><td>04</td><td>9A0</td><td>CMPI A,0</td><td>entered value A?</td></tr><tr><td>05</td><td>E0C</td><td>BRZ 0C</td><td>then jump and re-store the numbers</td></tr><tr><td>06</td><td>9B0</td><td>CMPI B,0</td><td>entered value B?</td></tr><tr><td>07</td><td>E0E</td><td>BRZ 0E</td><td>then jump to the subtraction</td></tr><tr><td>08</td><td>D00</td><td>BRC 00</td><td>greater than B, clear all registers (jump to 00)</td></tr><tr><td>09</td><td>012</td><td>MOV 1,2</td><td rowspan=\"2\">shift the registers one position further</td></tr><tr><td>0A</td><td>001</td><td>MOV 0,1</td></tr><tr><td>0B</td><td>C03</td><td>GOTO 03</td><td></td></tr><tr><td>0C</td><td>F0F</td><td>EXRA</td><td>swap registers</td></tr><tr><td>0D</td><td>C03</td><td>GOTO 03</td><td></td></tr><tr><td>0E</td><td>619</td><td>SUB 1,9</td><td>subtract the two right-hand digits</td></tr><tr><td>0F</td><td>D11</td><td>BRC 11</td><td>carry?</td></tr><tr><td>10</td><td>C14</td><td>GOTO 14</td><td></td></tr><tr><td>11</td><td>769</td><td>SUBI 6,9</td><td>decimal adjustment</td></tr><tr><td>12</td><td>71A</td><td>SUBI 1,A</td><td>subtract carry from the left digit (Reg. A)</td></tr><tr><td>13</td><td>D18</td><td>BRC 18</td><td>carry? jump to 18</td></tr><tr><td>14</td><td>62A</td><td>SUB 2,A</td><td>subtract the two left-hand digits</td></tr><tr><td>15</td><td>D19</td><td>BRC 19</td><td>carry? yes, jump to 19</td></tr><tr><td>16</td><td>F0F</td><td>EXRA</td><td>swap registers, to bring the result to the display</td></tr><tr><td>17</td><td>C02</td><td>GOTO 02</td><td></td></tr><tr><td>18</td><td>62A</td><td>SUB 2,A</td><td>subtract the two left-hand digits</td></tr><tr><td>19</td><td>76A</td><td>SUBI 6,A</td><td>decimal correction</td></tr><tr><td>1A</td><td>F89</td><td>INV 9</td><td>invert Reg. 9</td></tr><tr><td>1B</td><td>769</td><td>SUBI 6,9</td><td>decimal correction</td></tr><tr><td>1C</td><td>F8A</td><td>INV A</td><td>invert Reg. A</td></tr><tr><td>1D</td><td>76A</td><td>SUBI 6,A</td><td>decimal correction</td></tr><tr><td>1E</td><td>519</td><td>ADDI 1,9</td><td>add 1 to Reg. 9</td></tr><tr><td>1F</td><td>999</td><td>CMPI 9,9</td><td>carry?</td></tr><tr><td>20</td><td>D22</td><td>BRC 22</td><td>yes, jump to 22</td></tr><tr><td>21</td><td>C24</td><td>GOTO 24</td><td></td></tr><tr><td>22</td><td>569</td><td>ADDI 6,9</td><td>decimal correction</td></tr><tr><td>23</td><td>51A</td><td>ADDI 1,A</td><td></td></tr><tr><td>24</td><td>F0F</td><td>EXRA</td><td>swap registers, to bring the result to the display</td></tr><tr><td>25</td><td>F09</td><td>STC</td><td>set carry flag (minus display)</td></tr><tr><td>26</td><td>C03</td><td>GOTO 03</td><td>jump to 03</td></tr></table>"
+  },
+  "5": {
+    "en": "Program start: HALT – NEXT – 00 – RUN. The display shows:"
+  }
+}

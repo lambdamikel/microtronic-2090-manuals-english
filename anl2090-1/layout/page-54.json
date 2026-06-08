@@ -1,0 +1,489 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        102,
+        1194,
+        224
+      ],
+      "fragments": [
+        [
+          135,
+          102,
+          1194,
+          224
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          102,
+          1194,
+          224
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        125,
+        238,
+        2325,
+        1668
+      ],
+      "fragments": [
+        [
+          125,
+          238,
+          2325,
+          1585
+        ]
+      ],
+      "lines": [
+        [
+          125,
+          238,
+          2325,
+          1585
+        ]
+      ],
+      "text": "",
+      "font_pt": 10.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        125,
+        1592,
+        2325,
+        1668
+      ],
+      "fragments": [
+        [
+          125,
+          1592,
+          2325,
+          1668
+        ]
+      ],
+      "lines": [
+        [
+          125,
+          1592,
+          2325,
+          1668
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        126,
+        1705,
+        1191,
+        3360
+      ],
+      "fragments": [
+        [
+          126,
+          1705,
+          1191,
+          3360
+        ]
+      ],
+      "lines": [
+        [
+          126,
+          1705,
+          1191,
+          3360
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        1706,
+        2315,
+        2032
+      ],
+      "fragments": [
+        [
+          1250,
+          1706,
+          2315,
+          2032
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          1706,
+          2315,
+          2032
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1250,
+        2079,
+        1700,
+        2120
+      ],
+      "fragments": [
+        [
+          1250,
+          2079,
+          1700,
+          2120
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          2079,
+          1700,
+          2120
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1245,
+        2126,
+        2312,
+        3078
+      ],
+      "fragments": [
+        [
+          1245,
+          2126,
+          2312,
+          3078
+        ]
+      ],
+      "lines": [
+        [
+          1245,
+          2126,
+          2312,
+          3078
+        ]
+      ],
+      "text": "",
+      "font_pt": 6.7
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        135,
+        102,
+        1194,
+        220
+      ],
+      "text": "Folgende Darstellung zeigt uns die einzelnen Rechenschritte wie sie vom Computer hexadezimal und gleichzeitig auch dual ausgeführt werden, bis das dezimale Ergebnis angezeigt wird:",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        129,
+        1705,
+        166,
+        1734
+      ],
+      "text": "ist",
+      "lines": [
+        [
+          129,
+          1705,
+          166,
+          1734
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        177,
+        1705,
+        1191,
+        1741
+      ],
+      "text": "es ein Wunder, daß trotz dieser umständlichen Rechnungs-",
+      "lines": [
+        [
+          177,
+          1705,
+          1191,
+          1741
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        127,
+        1746,
+        929,
+        1782
+      ],
+      "text": "weise das richtige Ergebnis zustande kommt?",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        1811,
+        1188,
+        1883
+      ],
+      "text": "Es ist reine Computer-Logik, die für uns schwer verständlich ist. Wirmüssen deshalb solcheRechenkunststücke auch nicht",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        129,
+        1894,
+        165,
+        1923
+      ],
+      "text": "im",
+      "lines": [
+        [
+          129,
+          1894,
+          165,
+          1923
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        182,
+        1894,
+        1188,
+        1929
+      ],
+      "text": "Kopf behalten. Aber es ist nicht uninteressant zu wissen,",
+      "lines": [
+        [
+          182,
+          1894,
+          1188,
+          1929
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        127,
+        1935,
+        1189,
+        2012
+      ],
+      "text": "was z.B. ineinem Taschenrechner in Sekundenbruchteilen vor sich geht.",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        126,
+        2042,
+        1190,
+        2155
+      ],
+      "text": "Um die Computer-Logik zu verstehen, wollen wir die zuletzt ge- lernten und etwas schwierigen Rechenoperationen noch- einmal zusammenfassen:",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        171,
+        2190,
+        1189,
+        2599
+      ],
+      "text": "Mikroprozessoren arbeiten hexadezimal. Um ein korrektes dezimales Ergebnis zu erhalten, muß eine Dezimal-Korrek- tur durchgeführt werden, sobald der Computer hexadezi- male Ergebnisse (A-B-C-D-E-F) erbringt. Bei der Addition ist die Dezimal-Korrektur notwendig, sobald ein Ergebnis größer als 9 ist. In diesem Fall wird der Wert 6 hinzuaddiert. Bei der Subtraktion wird die Dezimal-Korrektur ausgeführt, wenn der Wert O unterschritten wird, wobei dann der Wert 6 abgezogen wird. Eine Dezimal-Korrektur bewirkt immer einen Übertrag zum nächsten Register (zurnächsten Stelle).",
+      "lines": [
+        [
+          175,
+          2190,
+          1187,
+          2225
+        ],
+        [
+          173,
+          2231,
+          1188,
+          2267
+        ],
+        [
+          172,
+          2272,
+          1189,
+          2308
+        ],
+        [
+          174,
+          2314,
+          1187,
+          2350
+        ],
+        [
+          173,
+          2355,
+          1187,
+          2391
+        ],
+        [
+          172,
+          2397,
+          1186,
+          2432
+        ],
+        [
+          173,
+          2437,
+          1186,
+          2474
+        ],
+        [
+          171,
+          2479,
+          1186,
+          2514
+        ],
+        [
+          171,
+          2521,
+          1188,
+          2560
+        ],
+        [
+          172,
+          2562,
+          1186,
+          2599
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        147,
+        2627,
+        1188,
+        2663
+      ],
+      "text": ". Ist das Gesamtergebnis einer Subtraktion negativ, muß die-",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        169,
+        2668,
+        1188,
+        2951
+      ],
+      "text": "ses negative Ergebnis invertiert werden, um zu einem kor- rekten negativen Dezimal-Ergebnis zu kommen. Hierzu wer- den alle Register invertiert, dann wird sofort die vorerwähn- te Dezimal-Korrektur durchgeführt (Wert 6 abziehen), wobei anschließend zu jedem Register der konstante Wert 1 hin- zuaddiert werden muß. Erst dann ist das korrekte nega- tive Ergebnis erreicht.",
+      "lines": [
+        [
+          171,
+          2668,
+          1188,
+          2704
+        ],
+        [
+          172,
+          2710,
+          1187,
+          2745
+        ],
+        [
+          170,
+          2751,
+          1187,
+          2786
+        ],
+        [
+          169,
+          2792,
+          1185,
+          2829
+        ],
+        [
+          170,
+          2833,
+          1187,
+          2869
+        ],
+        [
+          170,
+          2875,
+          1187,
+          2911
+        ],
+        [
+          169,
+          2916,
+          547,
+          2951
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        1706,
+        2315,
+        2024
+      ],
+      "text": "Die Dezimal-Korrektur nach dem Invertieren ist notwendig, weil die Invertierung hexadezimal vorgenommen wird. So wird z.B. der vor dem Invertieren vorhandene dezimale Wert 3 durch die Invertierung zum hexadezimalen C. Durch die Dezimal-Korrek- tur wird von C der konstante Wert 6 abgezogen, d.h.C—6=6. Der Wert 6 wiederum ist das dezimale Inverse von 3. Die nach- folgende Tabelle zeigt uns von jedem Wert den dezimal und hexadezimal invertierten Wert.",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        2079,
+        1535,
+        2110
+      ],
+      "text": "inverse-Tabelle",
+      "lines": [
+        [
+          1250,
+          2079,
+          1535,
+          2110
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

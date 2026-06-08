@@ -1,0 +1,640 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        115,
+        104,
+        1200,
+        1418
+      ],
+      "fragments": [
+        [
+          115,
+          104,
+          1200,
+          1418
+        ]
+      ],
+      "lines": [
+        [
+          115,
+          104,
+          1200,
+          1418
+        ]
+      ],
+      "text": "",
+      "font_pt": 8.8
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1246,
+        104,
+        2320,
+        900
+      ],
+      "fragments": [
+        [
+          1246,
+          104,
+          2320,
+          900
+        ]
+      ],
+      "lines": [
+        [
+          1246,
+          104,
+          2320,
+          900
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1246,
+        1000,
+        2320,
+        1430
+      ],
+      "fragments": [
+        [
+          1246,
+          1000,
+          2320,
+          1430
+        ]
+      ],
+      "lines": [
+        [
+          1246,
+          1000,
+          2320,
+          1430
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        140,
+        122,
+        1178,
+        1403
+      ],
+      "text": "Eingabe- Mnemonic | Erklärungen Adresse | Befehl 30 0D1 MOVD,1 |Reg. D>Reg. 1 neu berechnete 31 0E2 MOVE,2 |Reg. E>Reg. 2 Haufengröße 32 F41 DISP 4,1 Reg. 1- Reg. 4 anzeigen 33 902 CMPI 0,2 |Reg. 2=0? 34 DO09 BRC 09 Nein, Sprung nach 09 35 911 CMPI 1,1 |Reg.1= 1? 36 E38 BRZ 38 Ja, Sprung nach 38 37 C09 GOTO 09 |Nein, Sprung nach 09 38 1E2 MOVI E,2 | Spielende - Computer hat gewonnen 39 1E3 MOVI E,3 3A 1F5 MOVIF, 5 3B FE5 DOT5 3C 105 MOVI 0,5 Leuchtdioden an den 3D FE5 DOT5 Ausgängen blinken 3E C3A GOTO 3A 3F 01D MOV 1,D | Unterprogramm: Reg. 1 — Reg D 40 02E MOV 2E Reg. 2 > Reg. E 41 FO4 DZHX DEZziffer>HEXziffer Umwandlung 42 64D SUB 4,D |Reg.D— Reg. 4 Reg. D 43 FCE SUB CE | Übertrag von Reg. E abziehen 44 FO7 RET Rücksprung in das Hauptprogramm",
+      "lines": [
+        [
+          325,
+          122,
+          932,
+          158
+        ],
+        [
+          146,
+          163,
+          442,
+          192
+        ],
+        [
+          147,
+          209,
+          1178,
+          257
+        ],
+        [
+          147,
+          269,
+          1140,
+          310
+        ],
+        [
+          147,
+          326,
+          1064,
+          364
+        ],
+        [
+          146,
+          379,
+          894,
+          416
+        ],
+        [
+          146,
+          428,
+          1017,
+          474
+        ],
+        [
+          146,
+          485,
+          887,
+          522
+        ],
+        [
+          145,
+          539,
+          986,
+          575
+        ],
+        [
+          145,
+          591,
+          1016,
+          629
+        ],
+        [
+          145,
+          644,
+          852,
+          681
+        ],
+        [
+          723,
+          687,
+          1077,
+          724
+        ],
+        [
+          144,
+          739,
+          666,
+          773
+        ],
+        [
+          144,
+          792,
+          675,
+          827
+        ],
+        [
+          143,
+          845,
+          617,
+          875
+        ],
+        [
+          143,
+          897,
+          1036,
+          935
+        ],
+        [
+          142,
+          947,
+          1007,
+          983
+        ],
+        [
+          142,
+          1000,
+          673,
+          1045
+        ],
+        [
+          141,
+          1057,
+          1168,
+          1096
+        ],
+        [
+          142,
+          1111,
+          1173,
+          1149
+        ],
+        [
+          141,
+          1164,
+          1175,
+          1202
+        ],
+        [
+          141,
+          1217,
+          1092,
+          1255
+        ],
+        [
+          141,
+          1264,
+          1119,
+          1308
+        ],
+        [
+          140,
+          1324,
+          964,
+          1362
+        ],
+        [
+          718,
+          1366,
+          927,
+          1403
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        258,
+        2595,
+        391,
+        2644
+      ],
+      "text": "Subroutine HF - MAX",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        258,
+        2723,
+        393,
+        2800
+      ],
+      "text": "HEX — DEZ RD -Ri RE>R2",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        709,
+        2566,
+        864,
+        2632
+      ],
+      "text": "(Gubroutins, HF - MAX/",
+      "lines": [
+        [
+          709,
+          2566,
+          864,
+          2628
+        ],
+        [
+          729,
+          2602,
+          864,
+          2632
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        710,
+        3166,
+        862,
+        3249
+      ],
+      "text": "Übertrag von RE subtrahieren",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1254,
+        110,
+        2317,
+        468
+      ],
+      "text": "Wenn wir uns mit den jetzt gewonnenen Erkenntnissen den Ablaufplan ansehen und mit der Programm-Tabelle verglei- chen, wird uns vielleicht manches noch etwas schwierig erscheinen. Hierbei sollten wir bedenken, daß dieses Pro- gramm-Beispiel vomEntwickler sehrkritisch bearbeitetwurde. Nachdem es sich um ein Fest-Programm handelt, wurden die einzelnen Programmschritte auf das kleinstmögliche Maß ge- kürzt, um mit möglichst wenig Speicher-Kapazität auszukom- men.",
+      "lines": [
+        [
+          1255,
+          110,
+          2314,
+          146
+        ],
+        [
+          1255,
+          151,
+          2317,
+          190
+        ],
+        [
+          1256,
+          192,
+          2314,
+          232
+        ],
+        [
+          1255,
+          233,
+          2317,
+          269
+        ],
+        [
+          1255,
+          275,
+          2313,
+          310
+        ],
+        [
+          1255,
+          316,
+          2314,
+          352
+        ],
+        [
+          1254,
+          357,
+          2316,
+          396
+        ],
+        [
+          1255,
+          399,
+          2316,
+          435
+        ],
+        [
+          1255,
+          447,
+          1334,
+          468
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        505,
+        2315,
+        747
+      ],
+      "text": "Wenn wir selbst programmieren, soliten wir auch wissen, daß z.B. ein derartiges Nimm-Spiel zu den fortgeschritteneren Pro- grammierungs-Aufgaben gehört. Für das Selbst programmie- ren sollten wir mit möglichst einfachen Aufgaben beginnen, bis die ersten Erfahrungen mit der richtigen Verwendung der ein- zelnen Befehls-Codes gesammelt wurden.",
+      "lines": [
+        [
+          1252,
+          505,
+          2313,
+          542
+        ],
+        [
+          1253,
+          546,
+          2315,
+          582
+        ],
+        [
+          1253,
+          587,
+          2314,
+          625
+        ],
+        [
+          1254,
+          629,
+          2312,
+          666
+        ],
+        [
+          1252,
+          669,
+          2314,
+          707
+        ],
+        [
+          1252,
+          711,
+          1982,
+          747
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1246,
+        775,
+        2309,
+        893
+      ],
+      "text": "Es ist oft schwierig Programm-Abiäufe zu beschreiben. Einfa- cheristes, selbsterdachte Programm-Aufgaben in die Compu- ter-Logik umzusetzen.",
+      "lines": [
+        [
+          1248,
+          775,
+          2309,
+          811
+        ],
+        [
+          1248,
+          816,
+          2309,
+          854
+        ],
+        [
+          1246,
+          858,
+          1630,
+          893
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1248,
+        1005,
+        1720,
+        1039
+      ],
+      "text": "Programm-Beschreibung:",
+      "lines": [
+        [
+          1248,
+          1005,
+          1720,
+          1039
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1246,
+        1070,
+        2310,
+        1312
+      ],
+      "text": "Bei Adresse 03 bis 05 ergibt sich die Eingabe der Häufchen- größe (z.B. 15) und von MAX (wieviel Hölzchen maximal wegge- nommen werden dürfen: z. B. 3). MAX wird in den Registern 4 und 5 gespeichert. Außerdem wird derWert MAX+ 1 inRegister 6 gespeichert, weil dies für die Gewinnzahlen-Ermittlung not- wendig ist.",
+      "lines": [
+        [
+          1249,
+          1070,
+          2310,
+          1106
+        ],
+        [
+          1248,
+          1112,
+          2310,
+          1149
+        ],
+        [
+          1249,
+          1153,
+          2307,
+          1190
+        ],
+        [
+          1249,
+          1194,
+          2309,
+          1232
+        ],
+        [
+          1248,
+          1236,
+          2309,
+          1273
+        ],
+        [
+          1246,
+          1277,
+          1428,
+          1312
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1247,
+        1342,
+        2306,
+        1418
+      ],
+      "text": "In Register 4 wird die Anzahl der wegzunehmenden Hölzchen des Mitspielers übernommen.",
+      "lines": [
+        [
+          1247,
+          1342,
+          2306,
+          1378
+        ],
+        [
+          1247,
+          1383,
+          1758,
+          1418
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1365,
+        1467,
+        1531,
+        1684
+      ],
+      "text": "1 Änzeige ausschalten une ron",
+      "lines": [
+        [
+          1449,
+          1467,
+          1458,
+          1493
+        ],
+        [
+          1381,
+          1538,
+          1507,
+          1569
+        ],
+        [
+          1386,
+          1573,
+          1531,
+          1594
+        ],
+        [
+          1402,
+          1602,
+          1466,
+          1625
+        ],
+        [
+          1365,
+          1623,
+          1505,
+          1684
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1384,
+        1904,
+        1516,
+        1954
+      ],
+      "text": "Subroutine HF — MAX",
+      "lines": [
+        [
+          1384,
+          1904,
+          1516,
+          1925
+        ],
+        [
+          1393,
+          1934,
+          1515,
+          1954
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1376,
+        2744,
+        1517,
+        2822
+      ],
+      "text": "RA=RA+R6E Übertrag zu RB",
+      "lines": [
+        [
+          1376,
+          2744,
+          1517,
+          2771
+        ],
+        [
+          1394,
+          2773,
+          1497,
+          2798
+        ],
+        [
+          1409,
+          2802,
+          1480,
+          2822
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

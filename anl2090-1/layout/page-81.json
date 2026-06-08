@@ -1,0 +1,1062 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        110,
+        25,
+        1205,
+        108
+      ],
+      "fragments": [
+        [
+          110,
+          25,
+          1205,
+          108
+        ]
+      ],
+      "lines": [
+        [
+          110,
+          25,
+          1205,
+          108
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        110,
+        118,
+        1205,
+        305
+      ],
+      "fragments": [
+        [
+          110,
+          118,
+          1205,
+          305
+        ]
+      ],
+      "lines": [
+        [
+          110,
+          118,
+          1205,
+          305
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        110,
+        395,
+        1205,
+        3372
+      ],
+      "fragments": [
+        [
+          110,
+          395,
+          1205,
+          3372
+        ]
+      ],
+      "lines": [
+        [
+          110,
+          395,
+          1205,
+          3372
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        405,
+        2360,
+        1660
+      ],
+      "fragments": [
+        [
+          1240,
+          405,
+          2360,
+          1660
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          405,
+          2360,
+          1660
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        1780,
+        2360,
+        1990
+      ],
+      "fragments": [
+        [
+          1240,
+          1780,
+          2360,
+          1990
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          1780,
+          2360,
+          1990
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        2060,
+        2360,
+        3385
+      ],
+      "fragments": [
+        [
+          1240,
+          2060,
+          2360,
+          3385
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          2060,
+          2360,
+          3385
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        133,
+        112,
+        698,
+        167
+      ],
+      "text": "Inhaltsverzeichnis",
+      "lines": [
+        [
+          133,
+          112,
+          698,
+          167
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        129,
+        195,
+        1189,
+        296
+      ],
+      "text": "Anleitungsbuch: Erster Teil Einführung in die Mikroprozessor- und Computer-Technik",
+      "lines": [
+        [
+          129,
+          195,
+          791,
+          245
+        ],
+        [
+          130,
+          254,
+          1189,
+          296
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        131,
+        444,
+        1199,
+        2218
+      ],
+      "text": "Der Computer - das unbekannte Wesen 3 Start frei zum ersten Probelauf 4 Der Computer testet sich selbst - das Prüfprogramm 4 Ein guter Vergleich: Computer - Mensch? 6 Der Computer als Spiele-Partner: Das Nimm-Spiel 7 Der Computer wird zur Digital-Leucht-Uhr 8 Die ersten Computer-Kenntnisse 9 Computer-Programm - was ist das eigentlich? 10 Unser erstes Programm: Ein elektronischer Würfel 10 Der Computer soll automatisch zählen 12 Etwas über Speicher und Adressen 13 Wir lernen die ersten Befehle 13 Was sind „Register”? 14 Wie kann der Computer mehrere Stellen anzeigen 14 Mnemonics - und anderes Computer-chinesisch 15 Dezimal - hexadezimal - dual 16 Der Computer lernt rechnen 17 Der rasende Automatik-Zähler 18 Ein 2-stelliger Automatik-Zähler 19 Ein 3-stelliger Automatik-Zähler 19 Unser erstes selbst programmiertes Programm 20 Wir wollen Register-Inhalte löschen 21 Wir „verschieben” Register-Werte 22 „Die Mondlandung” - ein interessantes Computer-Spiel 23 Probieren und experimentieren?! 25 Vergleichen — ein wichtiger Befehl! 25 Der Programm-Ablaufplan (Fluß-Diagramm, flow chart) 27 Aufgabe für ein selbst zu entwickelndes Programm 28 2-stelliger dezimaler Rechner 29 Wir löschen den gesamten Programm-Speicher! 31 6-stellige Addition - wie beim Taschenrechner! 31 Software und Hardware 34 Bus-Verbindungen für den Datentransport? 34 Nach Addition folgt Subtraktion 35 DIN und DOT 36 Timer - der Computer als Zeit-Schalter 38 Kontroll-Hilfe: Die Funktions-Taste BKP 41 Der Zufalls-Generator 41 Der Zufalls-Generator ermittelt Lottozahlen 42 Die Basis der Zahlen-Systeme 42 Umwandlung: Hexadezimal in dezimal und umgekehrt 43 Das Microtronic Betriebs-System 43 Was bewirkt das Monitor-Programm des Mikro-",
+      "lines": [
+        [
+          132,
+          444,
+          1187,
+          484
+        ],
+        [
+          131,
+          485,
+          1187,
+          520
+        ],
+        [
+          132,
+          526,
+          1187,
+          566
+        ],
+        [
+          132,
+          567,
+          1188,
+          609
+        ],
+        [
+          132,
+          609,
+          1188,
+          649
+        ],
+        [
+          133,
+          650,
+          1188,
+          690
+        ],
+        [
+          133,
+          691,
+          1188,
+          730
+        ],
+        [
+          132,
+          733,
+          1189,
+          773
+        ],
+        [
+          132,
+          775,
+          1189,
+          813
+        ],
+        [
+          133,
+          816,
+          1187,
+          854
+        ],
+        [
+          134,
+          857,
+          1188,
+          895
+        ],
+        [
+          131,
+          899,
+          1188,
+          932
+        ],
+        [
+          131,
+          939,
+          1190,
+          979
+        ],
+        [
+          131,
+          980,
+          1191,
+          1019
+        ],
+        [
+          134,
+          1021,
+          1191,
+          1058
+        ],
+        [
+          134,
+          1062,
+          1192,
+          1098
+        ],
+        [
+          134,
+          1104,
+          1192,
+          1144
+        ],
+        [
+          135,
+          1145,
+          1192,
+          1181
+        ],
+        [
+          135,
+          1186,
+          1192,
+          1227
+        ],
+        [
+          135,
+          1227,
+          1192,
+          1269
+        ],
+        [
+          135,
+          1269,
+          1193,
+          1308
+        ],
+        [
+          133,
+          1310,
+          1187,
+          1351
+        ],
+        [
+          133,
+          1352,
+          1192,
+          1393
+        ],
+        [
+          136,
+          1393,
+          1193,
+          1435
+        ],
+        [
+          136,
+          1434,
+          1194,
+          1474
+        ],
+        [
+          134,
+          1476,
+          1194,
+          1518
+        ],
+        [
+          137,
+          1517,
+          1194,
+          1559
+        ],
+        [
+          135,
+          1558,
+          1194,
+          1601
+        ],
+        [
+          136,
+          1600,
+          1195,
+          1642
+        ],
+        [
+          134,
+          1641,
+          1189,
+          1682
+        ],
+        [
+          137,
+          1683,
+          1189,
+          1725
+        ],
+        [
+          136,
+          1724,
+          1195,
+          1760
+        ],
+        [
+          137,
+          1765,
+          1196,
+          1806
+        ],
+        [
+          137,
+          1807,
+          1196,
+          1847
+        ],
+        [
+          138,
+          1848,
+          1197,
+          1884
+        ],
+        [
+          136,
+          1890,
+          1197,
+          1929
+        ],
+        [
+          138,
+          1931,
+          1191,
+          1967
+        ],
+        [
+          139,
+          1972,
+          1191,
+          2008
+        ],
+        [
+          138,
+          2014,
+          1197,
+          2049
+        ],
+        [
+          139,
+          2055,
+          1197,
+          2094
+        ],
+        [
+          139,
+          2096,
+          1198,
+          2138
+        ],
+        [
+          139,
+          2138,
+          1199,
+          2176
+        ],
+        [
+          137,
+          2181,
+          975,
+          2218
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        137,
+        2221,
+        1207,
+        3378
+      ],
+      "text": "prozessors? 44 Time - der Zeit-Befehli! 44 Der Computer als Weck-Uhr 45 Immer neue Möglichkeiten mit O und 1 47 Die Funktions-Tasten REG und STEP 48 Selbst-Programmierung eines langsamen Lauflichts 49 Durch Halbieren nach rechts verschieben? 49 Aus O wird 1 - aus 1 wird O! 50 Subtraktion mit Angabe von negativen Ergebnissen 50 Dezimale Subtraktion mit Minus-Anzeige 51 Mit „high” und „low” an die Computer-Eingänge 54 Reaktions-Test für 2 Personen 55 Die „Rucksack-Programmierung” 56 Reaktionstest Programm „de luxe” 57 Bei Netzstrom-Unterbrechung die eingegebenen Programme im Programm-Speicher halten 58 „Bit” und „Byte” 58 Logische Operationen 59 Hat ein Bit einen Wert? 60 Arbeits-Register - Speicher-Register 61 Die Multiplikation 61 Die Division 62 Die letzten 4 Befehle - dann können wir alles! 63 Mit CALL in ein Unterprogramm springen! 63 Wie wird ein Computer-Spiel programmiert? 64 Wir programmieren selbst! 68 Das „Innenleben” eines Computers 68 Speicher und Speicher-Möglichkeiten 70",
+      "lines": [
+        [
+          180,
+          2221,
+          1199,
+          2263
+        ],
+        [
+          137,
+          2262,
+          1200,
+          2298
+        ],
+        [
+          140,
+          2303,
+          1199,
+          2344
+        ],
+        [
+          140,
+          2345,
+          1200,
+          2385
+        ],
+        [
+          140,
+          2386,
+          1200,
+          2422
+        ],
+        [
+          140,
+          2428,
+          1201,
+          2469
+        ],
+        [
+          140,
+          2469,
+          1201,
+          2504
+        ],
+        [
+          139,
+          2510,
+          1202,
+          2546
+        ],
+        [
+          141,
+          2552,
+          1202,
+          2592
+        ],
+        [
+          141,
+          2593,
+          1195,
+          2630
+        ],
+        [
+          142,
+          2634,
+          1202,
+          2676
+        ],
+        [
+          141,
+          2675,
+          1202,
+          2711
+        ],
+        [
+          142,
+          2717,
+          1203,
+          2758
+        ],
+        [
+          142,
+          2759,
+          1203,
+          2798
+        ],
+        [
+          142,
+          2801,
+          998,
+          2838
+        ],
+        [
+          182,
+          2841,
+          1203,
+          2882
+        ],
+        [
+          143,
+          2882,
+          1204,
+          2924
+        ],
+        [
+          143,
+          2923,
+          1205,
+          2965
+        ],
+        [
+          143,
+          2965,
+          1205,
+          3000
+        ],
+        [
+          141,
+          3006,
+          1198,
+          3047
+        ],
+        [
+          143,
+          3047,
+          1198,
+          3088
+        ],
+        [
+          144,
+          3088,
+          1204,
+          3124
+        ],
+        [
+          144,
+          3129,
+          1206,
+          3165
+        ],
+        [
+          144,
+          3171,
+          1205,
+          3210
+        ],
+        [
+          142,
+          3212,
+          1206,
+          3253
+        ],
+        [
+          142,
+          3253,
+          1206,
+          3295
+        ],
+        [
+          144,
+          3295,
+          1206,
+          3335
+        ],
+        [
+          144,
+          3337,
+          1207,
+          3378
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        435,
+        2304,
+        513
+      ],
+      "text": "Mit Batterie und C-MOS-RAM Programme speichern 71 Das ROM ist der Dolmetscher unseres Mikroprozessors 71",
+      "lines": [
+        [
+          1252,
+          435,
+          2304,
+          472
+        ],
+        [
+          1253,
+          475,
+          2304,
+          513
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        516,
+        2314,
+        893
+      ],
+      "text": "Der Befehls-Satz ist eine Programmier-Sprache! 72 Es gibt verschiedene Programmier-Sprachen 72 Beschreibung der Microtronic Funktions-Tasten 72 Der Microtronic Befehls-Satz 73 Die Microtronic Einzel-Befehle 74 Mit Cassetten-Recorder Programme speichern 77 Technische Beschreibung 77 Bauelemente-Verzeichnis 78 Sachwort-Verzeichnis 78",
+      "lines": [
+        [
+          1253,
+          516,
+          2310,
+          555
+        ],
+        [
+          1253,
+          557,
+          2310,
+          601
+        ],
+        [
+          1253,
+          598,
+          2311,
+          640
+        ],
+        [
+          1254,
+          639,
+          2312,
+          677
+        ],
+        [
+          1254,
+          681,
+          2312,
+          719
+        ],
+        [
+          1255,
+          722,
+          2312,
+          761
+        ],
+        [
+          1252,
+          763,
+          2313,
+          803
+        ],
+        [
+          1255,
+          804,
+          2313,
+          852
+        ],
+        [
+          1254,
+          847,
+          2314,
+          893
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        1838,
+        1961,
+        1889
+      ],
+      "text": "Anleitungsbuch: Zweiter Teil",
+      "lines": [
+        [
+          1258,
+          1838,
+          1961,
+          1889
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1259,
+        1900,
+        2314,
+        1983
+      ],
+      "text": "Eine interessante Auswahi großer Computer-Programme (Siehe separates Anleitungsbuch)",
+      "lines": [
+        [
+          1259,
+          1900,
+          2314,
+          1937
+        ],
+        [
+          1261,
+          1942,
+          1876,
+          1983
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1258,
+        2070,
+        1572,
+        2106
+      ],
+      "text": "Computer-Spiele",
+      "lines": [
+        [
+          1258,
+          2070,
+          1572,
+          2106
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1257,
+        2135,
+        2151,
+        2289
+      ],
+      "text": "Tic-Tac-Toe See-Schlacht Code-Brecher (Denk- und Geschicklichkeits-Spiel) Nimm 2",
+      "lines": [
+        [
+          1257,
+          2135,
+          1469,
+          2165
+        ],
+        [
+          1259,
+          2176,
+          1500,
+          2206
+        ],
+        [
+          1259,
+          2211,
+          2151,
+          2252
+        ],
+        [
+          1260,
+          2260,
+          1390,
+          2289
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        2319,
+        2095,
+        2360
+      ],
+      "text": "Computer-Funktionen mit Decoder-Aufgaben",
+      "lines": [
+        [
+          1260,
+          2319,
+          2095,
+          2360
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        2389,
+        1756,
+        2460
+      ],
+      "text": "Morse-Decoder Widerstands-Code-Decoder",
+      "lines": [
+        [
+          1261,
+          2389,
+          1536,
+          2419
+        ],
+        [
+          1259,
+          2428,
+          1756,
+          2460
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        2495,
+        1728,
+        2532
+      ],
+      "text": "Computer-Berechnungen",
+      "lines": [
+        [
+          1261,
+          2495,
+          1728,
+          2532
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        2555,
+        2217,
+        2761
+      ],
+      "text": "Taschenrechner-Programm mit 4 Grundrechenarten Sinus-Berechnung (etwas für Mathematiker) Berechnung der Tage zwischen zwei Daten Aus eingegebenen Daten einen Wochentag berechnen Berechnung des persönlichen Bio-Rhythmus",
+      "lines": [
+        [
+          1260,
+          2555,
+          2170,
+          2594
+        ],
+        [
+          1262,
+          2597,
+          2033,
+          2636
+        ],
+        [
+          1263,
+          2639,
+          2012,
+          2678
+        ],
+        [
+          1261,
+          2679,
+          2217,
+          2720
+        ],
+        [
+          1263,
+          2721,
+          2052,
+          2761
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        2785,
+        2137,
+        2827
+      ],
+      "text": "Computer-Funktionen mit Peripherie-Elektronik",
+      "lines": [
+        [
+          1263,
+          2785,
+          2137,
+          2827
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1264,
+        2849,
+        2326,
+        2928
+      ],
+      "text": "Für diese Experimente sind zusätzliche BUSCH-Schaltrelais, bzw. BUSCH-Electronic-Studios erforderlich.",
+      "lines": [
+        [
+          1264,
+          2849,
+          2326,
+          2890
+        ],
+        [
+          1265,
+          2892,
+          2046,
+          2928
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        2961,
+        2293,
+        3370
+      ],
+      "text": "Anschluß von Relais Der Computer als Schaltuhr (viele Variationsmöglichkeiten) Computer-Orgel Der komponierende Computer Reaktionszeit-Meßgerät Der Computer zählt Personen und Gegenstände Daten-Übertragung Der Computer zählt Frequenzen Digital-Voltmeter Computergesteuerte Modelleisenbahn",
+      "lines": [
+        [
+          1263,
+          2961,
+          1616,
+          2992
+        ],
+        [
+          1266,
+          2998,
+          2293,
+          3039
+        ],
+        [
+          1264,
+          3045,
+          1545,
+          3081
+        ],
+        [
+          1266,
+          3084,
+          1796,
+          3121
+        ],
+        [
+          1266,
+          3127,
+          1680,
+          3161
+        ],
+        [
+          1266,
+          3163,
+          2103,
+          3209
+        ],
+        [
+          1266,
+          3210,
+          1602,
+          3244
+        ],
+        [
+          1267,
+          3250,
+          1820,
+          3286
+        ],
+        [
+          1267,
+          3293,
+          1557,
+          3329
+        ],
+        [
+          1266,
+          3329,
+          1935,
+          3370
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

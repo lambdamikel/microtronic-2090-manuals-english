@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-size:21pt;line-height:1.18\"><b>Instruction book<br>Part 1</b></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-size:12.5pt;font-style:italic;color:#222;line-height:1.25\">The microprocessor – an electronic adventure, understandable for everyone.</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"background:#bd2c3b;color:#ffffff;margin:-2mm;padding:1mm 3mm;min-height:18mm;display:flex;align-items:center;font-size:17pt;line-height:1.2;font-weight:700\"><div>Programming – Experimenting – learning playfully<br>how a computer works.</div></div>"
+  }
+}

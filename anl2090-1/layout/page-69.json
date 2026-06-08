@@ -1,0 +1,810 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        104,
+        1208,
+        800
+      ],
+      "fragments": [
+        [
+          135,
+          104,
+          1208,
+          800
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          104,
+          1208,
+          800
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        884,
+        1208,
+        992
+      ],
+      "fragments": [
+        [
+          135,
+          884,
+          1208,
+          992
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          884,
+          1208,
+          992
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        135,
+        1030,
+        1208,
+        1905
+      ],
+      "fragments": [
+        [
+          135,
+          1030,
+          1208,
+          1905
+        ]
+      ],
+      "lines": [
+        [
+          135,
+          1030,
+          1208,
+          1905
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        103,
+        2322,
+        727
+      ],
+      "fragments": [
+        [
+          1258,
+          103,
+          2322,
+          727
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          103,
+          2322,
+          727
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "title",
+      "bbox": [
+        1258,
+        744,
+        2322,
+        812
+      ],
+      "fragments": [
+        [
+          1258,
+          744,
+          2322,
+          812
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          744,
+          2322,
+          812
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1258,
+        836,
+        2322,
+        1196
+      ],
+      "fragments": [
+        [
+          1258,
+          836,
+          2322,
+          1196
+        ]
+      ],
+      "lines": [
+        [
+          1258,
+          836,
+          2322,
+          1196
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        2038,
+        1486,
+        2322,
+        1675
+      ],
+      "fragments": [
+        [
+          2038,
+          1486,
+          2322,
+          1675
+        ]
+      ],
+      "lines": [
+        [
+          2038,
+          1486,
+          2322,
+          1675
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1262,
+        1672,
+        2325,
+        1912
+      ],
+      "fragments": [
+        [
+          1262,
+          1672,
+          2325,
+          1912
+        ]
+      ],
+      "lines": [
+        [
+          1262,
+          1672,
+          2325,
+          1912
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1893,
+        3193,
+        2288,
+        3294
+      ],
+      "fragments": [
+        [
+          1893,
+          3193,
+          2288,
+          3294
+        ]
+      ],
+      "lines": [
+        [
+          1893,
+          3193,
+          2288,
+          3294
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        140,
+        109,
+        1202,
+        561
+      ],
+      "text": "Anschließend erfolgt die Kontrolle, ob der Spieler die zulässige Hölzchenzahl (1 bis3) eingegeben hat. Mogelt der Spieler, wird das Programm durch HALT gestoppt. Andernfalls wird im Unter-Programm „Subtraktion” (bei Adresse 3F) die eingege- bene Zahl von der Häufchengröße abgezogen. Die Subtraktion erfolgt hexadezimal in den Registern D und E. Hier ergibt sich auch die Umwandiung der hexadezimalen Werte in dezimale Zahlen. Anschließend erfolgt der Vergleich, ob die Häufchen- größe mittlerweile den Wert Ziffer 1 erreicht hat, wenn ja: Com- puter hatverloren, wenn nein:Der Computeristam Zugund das Programm wird bei Adresse 1A fortgesetzt.",
+      "lines": [
+        [
+          140,
+          109,
+          1198,
+          148
+        ],
+        [
+          142,
+          150,
+          1198,
+          190
+        ],
+        [
+          141,
+          191,
+          1198,
+          232
+        ],
+        [
+          141,
+          233,
+          1201,
+          272
+        ],
+        [
+          142,
+          274,
+          1198,
+          312
+        ],
+        [
+          141,
+          315,
+          1197,
+          356
+        ],
+        [
+          141,
+          356,
+          1199,
+          395
+        ],
+        [
+          140,
+          397,
+          1202,
+          436
+        ],
+        [
+          141,
+          438,
+          1202,
+          480
+        ],
+        [
+          143,
+          480,
+          1200,
+          520
+        ],
+        [
+          142,
+          524,
+          880,
+          561
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        140,
+        585,
+        1202,
+        791
+      ],
+      "text": "Während der Computer versucht das Ergebnis auszurechnen, bleibt die momentane Häufchengröße solange in den Regi- stern 1 und 2 gespeichert, bis er sich entschlossen hat, wieviel Hölzchen er wegzunehmen gedenkt, womit die neue Häuf- chengröße ermittelt wird.",
+      "lines": [
+        [
+          140,
+          585,
+          1199,
+          624
+        ],
+        [
+          143,
+          627,
+          1202,
+          664
+        ],
+        [
+          141,
+          668,
+          1200,
+          707
+        ],
+        [
+          142,
+          709,
+          1202,
+          749
+        ],
+        [
+          142,
+          754,
+          570,
+          791
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        139,
+        894,
+        786,
+        985
+      ],
+      "text": "Jetzt wird es spannend: Wir programmieren selbst!",
+      "lines": [
+        [
+          139,
+          894,
+          576,
+          928
+        ],
+        [
+          139,
+          936,
+          786,
+          985
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        1037,
+        1204,
+        1241
+      ],
+      "text": "Alle Befehle und Funktionen unseres Microtronic-Computer- systems haben wir kennengelernt. Auch die wesentlichsten Programmiermöglichkeiten wurden behandelt. Der Zeitpunkt ist gekommen, um mit dem Selbst-Programmieren endgültig zu beginnen.",
+      "lines": [
+        [
+          141,
+          1037,
+          1204,
+          1071
+        ],
+        [
+          142,
+          1078,
+          1200,
+          1116
+        ],
+        [
+          144,
+          1119,
+          1202,
+          1158
+        ],
+        [
+          143,
+          1161,
+          1201,
+          1199
+        ],
+        [
+          142,
+          1205,
+          362,
+          1241
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        140,
+        1267,
+        1205,
+        1428
+      ],
+      "text": "Hierbei wird das Buchlesezeichen unser wichtigster Helfer werden. Alle Befehle und Befehls-Möglichkeiten sind aufge- führt und wir finden dort auch die wichtigsten Umrechnungs- Tabellen der Zahlen-Systeme.",
+      "lines": [
+        [
+          143,
+          1267,
+          1203,
+          1302
+        ],
+        [
+          141,
+          1308,
+          1204,
+          1344
+        ],
+        [
+          141,
+          1349,
+          1205,
+          1385
+        ],
+        [
+          140,
+          1393,
+          662,
+          1428
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        1456,
+        1205,
+        1701
+      ],
+      "text": "Alle Einzel-Befehle und deren Funktionen sind am Ende des 1. Teils des Anleitungsbuches noch einmal ausführlich beschrie- ben. Diese Zusammenfassung sollten wir beim Selbst-Pro- grammieren noch einmal durchlesen. Dabei werden wir noch viele interessante Hinweise (auch über CARRY- und ZERO- FLAG) erhalten.",
+      "lines": [
+        [
+          141,
+          1456,
+          1202,
+          1488
+        ],
+        [
+          141,
+          1497,
+          1205,
+          1535
+        ],
+        [
+          144,
+          1539,
+          1205,
+          1575
+        ],
+        [
+          143,
+          1579,
+          1201,
+          1619
+        ],
+        [
+          142,
+          1621,
+          1205,
+          1658
+        ],
+        [
+          143,
+          1665,
+          409,
+          1701
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        1727,
+        1206,
+        1890
+      ],
+      "text": "Wenn wir an den Computer Ein- oder Ausgängen eine zusätzli- che Elektronik anschließen möchten, sind hierfür die BUSCH- Electronic-Kästen 2060, 2065, 2070 und 2075 speziell ge- eignet. Für solche hochinteressanten Experimente sind elek-",
+      "lines": [
+        [
+          141,
+          1727,
+          1205,
+          1764
+        ],
+        [
+          143,
+          1768,
+          1205,
+          1804
+        ],
+        [
+          143,
+          1810,
+          1206,
+          1846
+        ],
+        [
+          143,
+          1851,
+          1206,
+          1890
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1258,
+        103,
+        2322,
+        512
+      ],
+      "text": "tronische Grundkenntnisse erforderlich, die uns mit den ge- nannten BUSCH-Electronic-Studios vermittelt werden. Im zweiten Teil des Anleitungsbuches sindmehrere Programmein Verbindung mit zusätzlich aufgebauten elektronischen Schal- tungen enthalten, wodurch wir viele Anregungen erhalten, wie eine Peripherie Elektronik eingesetzt werden kann. Wir sollten jedoch immer beachten, daß niemals die volle 9 V Batterie- Spannung an den Eingängen oder Ausgängen des Computers angeschlossen wird. Die Batterie-Spannung muß durch ent- sprechende Widerstände reduziert werden.",
+      "lines": [
+        [
+          1259,
+          103,
+          2322,
+          138
+        ],
+        [
+          1261,
+          144,
+          2318,
+          177
+        ],
+        [
+          1260,
+          186,
+          2318,
+          222
+        ],
+        [
+          1259,
+          227,
+          2322,
+          265
+        ],
+        [
+          1259,
+          268,
+          2319,
+          307
+        ],
+        [
+          1260,
+          309,
+          2318,
+          347
+        ],
+        [
+          1258,
+          350,
+          2322,
+          390
+        ],
+        [
+          1260,
+          392,
+          2320,
+          430
+        ],
+        [
+          1260,
+          433,
+          2322,
+          472
+        ],
+        [
+          1261,
+          474,
+          2007,
+          512
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        750,
+        2112,
+        801
+      ],
+      "text": "Das „Innenileben” eines Computers",
+      "lines": [
+        [
+          1262,
+          750,
+          2112,
+          801
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        843,
+        2323,
+        960
+      ],
+      "text": "Nachdem wir einen Teil der Möglichkeiten unseres Microtro- nic-Computersystems kennen, interessiert uns sicherlich auch das Innenleben eines Mikrocomputers.",
+      "lines": [
+        [
+          1261,
+          843,
+          2323,
+          879
+        ],
+        [
+          1262,
+          883,
+          2318,
+          922
+        ],
+        [
+          1261,
+          927,
+          2030,
+          960
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1261,
+        1010,
+        1965,
+        1044
+      ],
+      "text": "Seele und Gehirn: Der Mikroprozessor",
+      "lines": [
+        [
+          1261,
+          1010,
+          1965,
+          1044
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1262,
+        1067,
+        2323,
+        1190
+      ],
+      "text": "Der Mikroprozessor ist ein hochkomplexes elektronisches Schalt- und Speicherwerk, mit mehreren Funktionseinheiten. Er hat eine ganze Reihe von Registern, um Daten zu speichern.",
+      "lines": [
+        [
+          1263,
+          1067,
+          2323,
+          1106
+        ],
+        [
+          1262,
+          1109,
+          2318,
+          1147
+        ],
+        [
+          1263,
+          1150,
+          2322,
+          1190
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        2046,
+        1553,
+        2317,
+        1641
+      ],
+      "text": "Unscheinbarer schwarzer IC-Block: Der Mikro-Prozessor",
+      "lines": [
+        [
+          2046,
+          1553,
+          2249,
+          1576
+        ],
+        [
+          2046,
+          1586,
+          2314,
+          1608
+        ],
+        [
+          2047,
+          1618,
+          2317,
+          1641
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1262,
+        1679,
+        2325,
+        1884
+      ],
+      "text": "Unser Mikroprozessor hat 128 Register. Durch die verschiede- nen Befehls-Codes können wir jedoch nur 32 dieser Register (16 Arbeits- und 16 Speicher-Register) verwenden. Die verblei- benden 96 Register sind für interne Berechnungen des PProzes- sors notwendig.",
+      "lines": [
+        [
+          1262,
+          1679,
+          2324,
+          1718
+        ],
+        [
+          1263,
+          1720,
+          2324,
+          1757
+        ],
+        [
+          1263,
+          1761,
+          2325,
+          1803
+        ],
+        [
+          1264,
+          1804,
+          2325,
+          1842
+        ],
+        [
+          1263,
+          1849,
+          1535,
+          1884
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1343,
+        1971,
+        1663,
+        2001
+      ],
+      "text": "externer Datenbus",
+      "lines": [
+        [
+          1343,
+          1971,
+          1663,
+          2001
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

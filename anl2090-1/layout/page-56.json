@@ -1,0 +1,1016 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        1251,
+        109,
+        1950,
+        191
+      ],
+      "fragments": [
+        [
+          1251,
+          109,
+          1950,
+          191
+        ]
+      ],
+      "lines": [
+        [
+          1251,
+          109,
+          1580,
+          138
+        ],
+        [
+          1254,
+          152,
+          1950,
+          191
+        ]
+      ],
+      "text": "Wer ist schneller? Reaktionstest für 2 Personen"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1251,
+        389,
+        2315,
+        681
+      ],
+      "fragments": [
+        [
+          1251,
+          389,
+          2315,
+          681
+        ]
+      ],
+      "lines": [
+        [
+          1251,
+          389,
+          2315,
+          681
+        ]
+      ],
+      "text": "Die Anordnung der Taster und Widerstände aus dem vorange- gangenen Experiment bleiben unverändert. Mit dem folgenden Programm kommen wir zu einem interessanten Reaktionstest, bei welchem der Computer ermittelt, weiche der beiden Tasten G und H zuerst betätigt wurde.  Nach HALT - NEXT - 00 Programm-Eingabe vornehmen:"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        123,
+        1898,
+        1190,
+        2975
+      ],
+      "fragments": [
+        [
+          123,
+          1898,
+          1190,
+          3357
+        ]
+      ],
+      "lines": [
+        [
+          123,
+          1898,
+          1190,
+          3357
+        ]
+      ],
+      "text": "erscheint ebenfalls Ziffer 1. Wenn wiranschließend die Taste H niederdrücken, leuchtet die LED am Ausgang 2 und auch das Display meldet 2. Werden beide Tasten betätigt, leuchten auch beide LED’san den Ausgängen 1 und 2 und das Display meldet 3.  Programm-Beschreibung:  Es handelt sich um ein Grundsatz-Experiment, damit wirfür die folgenden Programme die durch die Tasten G und H ausgelö- sten Signale besser verstehen. Sobald wir Taste G betätigen, wird der Eingang 1 „high”, weil eine Spannung vorhanden ist. Alle übrigen Ausgänge sind „low”, weil dort die Spannung fehlt. Durch den DIN-Befehl wird die Dualzahl 0001 (Wert 1) in das Register O übernommen und durch den DOT-Befehl auf den entsprechenden Ausgang gebracht.  Wird Taster H betätigt, wird der Eingang 2 „high” und die Dual- zahl0010 (Wert 2) indasRegisterO übernommen und ebenfalls durch den DOT-Befehl auf den entsprechenden Ausgang ge- bracht. Werden beide Taster betätigt, ergibt sich dual 0011, wo- durch der Wert 3 in Register O gespeichert und angezeigt wird.  Durch die Taster G und H können zusätzliche Informationen in den Registern gespeichert und durch entsprechende Befehle weiter verarbeitet werden. Einige dieser Möglichkeiten zeigen die folgenden Programme."
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1249,
+        1930,
+        2316,
+        3377
+      ],
+      "fragments": [
+        [
+          1251,
+          1930,
+          2288,
+          2049
+        ],
+        [
+          1250,
+          2078,
+          2316,
+          2527
+        ],
+        [
+          1249,
+          2556,
+          2315,
+          2881
+        ],
+        [
+          1251,
+          2929,
+          1711,
+          2964
+        ],
+        [
+          1249,
+          2986,
+          2315,
+          3147
+        ],
+        [
+          1249,
+          3175,
+          2316,
+          3377
+        ]
+      ],
+      "lines": [
+        [
+          1253,
+          1930,
+          2288,
+          1966
+        ],
+        [
+          1254,
+          1971,
+          2240,
+          2006
+        ],
+        [
+          1251,
+          2013,
+          2214,
+          2049
+        ],
+        [
+          1253,
+          2078,
+          2316,
+          2114
+        ],
+        [
+          1251,
+          2119,
+          2312,
+          2155
+        ],
+        [
+          1252,
+          2160,
+          2316,
+          2196
+        ],
+        [
+          1251,
+          2202,
+          2313,
+          2238
+        ],
+        [
+          1251,
+          2243,
+          2313,
+          2279
+        ],
+        [
+          1250,
+          2285,
+          2316,
+          2320
+        ],
+        [
+          1252,
+          2326,
+          2313,
+          2362
+        ],
+        [
+          1253,
+          2367,
+          2316,
+          2403
+        ],
+        [
+          1253,
+          2409,
+          2312,
+          2445
+        ],
+        [
+          1251,
+          2450,
+          2313,
+          2486
+        ],
+        [
+          1251,
+          2491,
+          2146,
+          2527
+        ],
+        [
+          1252,
+          2556,
+          2313,
+          2591
+        ],
+        [
+          1251,
+          2597,
+          2312,
+          2633
+        ],
+        [
+          1251,
+          2639,
+          2315,
+          2669
+        ],
+        [
+          1250,
+          2680,
+          2315,
+          2716
+        ],
+        [
+          1249,
+          2721,
+          2315,
+          2757
+        ],
+        [
+          1250,
+          2763,
+          2313,
+          2799
+        ],
+        [
+          1250,
+          2804,
+          2312,
+          2840
+        ],
+        [
+          1250,
+          2845,
+          2225,
+          2881
+        ],
+        [
+          1251,
+          2929,
+          1711,
+          2964
+        ],
+        [
+          1250,
+          2986,
+          2315,
+          3023
+        ],
+        [
+          1249,
+          3027,
+          2313,
+          3063
+        ],
+        [
+          1250,
+          3068,
+          2315,
+          3105
+        ],
+        [
+          1250,
+          3111,
+          1714,
+          3147
+        ],
+        [
+          1250,
+          3175,
+          2311,
+          3210
+        ],
+        [
+          1250,
+          3216,
+          2311,
+          3252
+        ],
+        [
+          1249,
+          3257,
+          2316,
+          3294
+        ],
+        [
+          1250,
+          3298,
+          2313,
+          3334
+        ],
+        [
+          1250,
+          3340,
+          2313,
+          3377
+        ]
+      ],
+      "text": "Bevor wir das Programm starten, muß noch der Piezo-Sum- mer an den Anschlüssen der Computer-Platine GND und AUSGANG 4 angeschlossen werden (siehe Abbildung).  Programm-Start mit HALT - NEXT - 00 - RUN. Nach einer ge- wissen Zeit ertönt der Piezo- Summer. Gleichzeitig leuchten alle 4LED’s an den Ausgängen. Wird jetzt zuerst die TasteG be- tätigt, verstummt der Summer und es leuchtet nurnoch die LED am Ausgang 1. Der gleiche Effekt ergibt sich, wenn zuerst die Taste H betätigt wird, es leuchtet dann jedoch die LED am Aus- gang 2. Werden beide Tasten exakt zur gleichen Zeit betätigt, leuchten beide LED’s. Durch Betätigen einer beliebigen Zah- len- oder Buchstaben-Taste, wird der beschriebene Vorgang erneut ausgelöst, wobei die Wartezeit bis zum Ertönen des Summers unterschiedlich kurz oder lang sein kann.  Für einen Reaktionstest wird jedem der beiden Mitspieler eine rote Taste zugeordnet. Alsdann den Zeitablaufdurch Betätigen einer Buchstaben- oder Zahlen-Taste starten. Sobald der Summer ertönt, kann jeder derMitspieler seine rote Taste betä- tigen. Die entsprechende Ausgangs-LED zeigt an, welche Ta- ste zuerst betätigt wurde. Wenn beide Testpersonen exakt gleich schnell sind, leuchten beide LED’s. Test-Wiederholung durch Betätigung einer Zahlen- oder Buchstaben-Taste.  Programm-Beschreibung:  Indiesem Programm wird bei Adresse 03 der Zufalis-Generator verwendet. Eine „Zeitschleife” auf den Adressen 04 bis 07 schließt sich an. Hierdurch ergibt sich eine zufällige und unter- schiedlich lange Wartezeit.  Nehmen wir an, daß durch den Befeh!RND (Zufalls-Generator) z.B. der Wert E in das Register D übernommen (gespeichert) wird. Durch den folgenden ADD!-Befehl wird der Wert 1 inRegi- sterC addiert. Durch den CLEAR-Befehi am Programm-Anfang steht in Register C zunächst lediglich der Wert O, weshalb in"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        128,
+        1024,
+        1190,
+        1270
+      ],
+      "fragments": [
+        [
+          128,
+          1024,
+          1190,
+          1270
+        ]
+      ],
+      "lines": [
+        [
+          128,
+          1024,
+          1190,
+          1270
+        ]
+      ],
+      "text": "[redrawn table]"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        128,
+        1296,
+        1190,
+        1416
+      ],
+      "fragments": [
+        [
+          128,
+          1296,
+          1190,
+          1416
+        ]
+      ],
+      "lines": [
+        [
+          128,
+          1296,
+          1190,
+          1416
+        ]
+      ],
+      "text": "[redrawn table]"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        125,
+        1438,
+        1188,
+        1752
+      ],
+      "fragments": [
+        [
+          125,
+          1438,
+          1188,
+          1752
+        ]
+      ],
+      "lines": [
+        [
+          125,
+          1438,
+          1188,
+          1752
+        ]
+      ],
+      "text": "[redrawn table]",
+      "font_pt": 6.7
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        123,
+        1770,
+        1190,
+        1896
+      ],
+      "fragments": [
+        [
+          123,
+          1770,
+          1190,
+          1896
+        ]
+      ],
+      "lines": [
+        [
+          123,
+          1770,
+          1190,
+          1896
+        ]
+      ],
+      "text": "[redrawn table]"
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1247,
+        697,
+        2315,
+        1888
+      ],
+      "fragments": [
+        [
+          1247,
+          697,
+          2315,
+          1888
+        ]
+      ],
+      "lines": [
+        [
+          1247,
+          697,
+          2315,
+          1888
+        ]
+      ],
+      "text": "[redrawn table]",
+      "font_pt": 9.5
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        1251,
+        109,
+        1950,
+        191
+      ],
+      "text": "Wer ist schneller? Reaktionstest für 2 Personen",
+      "lines": [
+        [
+          1251,
+          109,
+          1580,
+          138
+        ],
+        [
+          1254,
+          152,
+          1950,
+          191
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1251,
+        389,
+        2315,
+        590
+      ],
+      "text": "Die Anordnung der Taster und Widerstände aus dem vorange- gangenen Experiment bleiben unverändert. Mit dem folgenden Programm kommen wir zu einem interessanten Reaktionstest, bei welchem der Computer ermittelt, weiche der beiden Tasten G und H zuerst betätigt wurde.",
+      "lines": [
+        [
+          1253,
+          389,
+          2315,
+          425
+        ],
+        [
+          1252,
+          431,
+          2311,
+          467
+        ],
+        [
+          1253,
+          472,
+          2311,
+          508
+        ],
+        [
+          1253,
+          513,
+          2311,
+          548
+        ],
+        [
+          1251,
+          555,
+          1777,
+          590
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1252,
+        637,
+        2239,
+        673
+      ],
+      "text": "Nach HALT - NEXT - 00 Programm-Eingabe vornehmen:",
+      "lines": [
+        [
+          1252,
+          637,
+          2239,
+          673
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        127,
+        1898,
+        1188,
+        2095
+      ],
+      "text": "erscheint ebenfalls Ziffer 1. Wenn wiranschließend die Taste H niederdrücken, leuchtet die LED am Ausgang 2 und auch das Display meldet 2. Werden beide Tasten betätigt, leuchten auch beide LED’san den Ausgängen 1 und 2 und das Display meldet 3.",
+      "lines": [
+        [
+          127,
+          1898,
+          1188,
+          1929
+        ],
+        [
+          129,
+          1939,
+          1188,
+          1975
+        ],
+        [
+          128,
+          1980,
+          1186,
+          2017
+        ],
+        [
+          129,
+          2022,
+          1188,
+          2058
+        ],
+        [
+          127,
+          2066,
+          154,
+          2095
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        128,
+        2147,
+        586,
+        2183
+      ],
+      "text": "Programm-Beschreibung:",
+      "lines": [
+        [
+          128,
+          2147,
+          586,
+          2183
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        125,
+        2211,
+        1190,
+        2537
+      ],
+      "text": "Es handelt sich um ein Grundsatz-Experiment, damit wirfür die folgenden Programme die durch die Tasten G und H ausgelö- sten Signale besser verstehen. Sobald wir Taste G betätigen, wird der Eingang 1 „high”, weil eine Spannung vorhanden ist. Alle übrigen Ausgänge sind „low”, weil dort die Spannung fehlt. Durch den DIN-Befehl wird die Dualzahl 0001 (Wert 1) in das Register O übernommen und durch den DOT-Befehl auf den entsprechenden Ausgang gebracht.",
+      "lines": [
+        [
+          127,
+          2211,
+          1187,
+          2246
+        ],
+        [
+          126,
+          2252,
+          1190,
+          2289
+        ],
+        [
+          127,
+          2293,
+          1187,
+          2330
+        ],
+        [
+          126,
+          2335,
+          1187,
+          2371
+        ],
+        [
+          125,
+          2376,
+          1187,
+          2413
+        ],
+        [
+          127,
+          2418,
+          1188,
+          2453
+        ],
+        [
+          127,
+          2459,
+          1186,
+          2496
+        ],
+        [
+          126,
+          2501,
+          751,
+          2537
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        124,
+        2565,
+        1190,
+        2765
+      ],
+      "text": "Wird Taster H betätigt, wird der Eingang 2 „high” und die Dual- zahl0010 (Wert 2) indasRegisterO übernommen und ebenfalls durch den DOT-Befehl auf den entsprechenden Ausgang ge- bracht. Werden beide Taster betätigt, ergibt sich dual 0011, wo- durch der Wert 3 in Register O gespeichert und angezeigt wird.",
+      "lines": [
+        [
+          124,
+          2565,
+          1190,
+          2601
+        ],
+        [
+          125,
+          2606,
+          1188,
+          2643
+        ],
+        [
+          126,
+          2648,
+          1190,
+          2683
+        ],
+        [
+          127,
+          2689,
+          1190,
+          2725
+        ],
+        [
+          124,
+          2729,
+          1185,
+          2765
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        123,
+        2794,
+        1185,
+        2954
+      ],
+      "text": "Durch die Taster G und H können zusätzliche Informationen in den Registern gespeichert und durch entsprechende Befehle weiter verarbeitet werden. Einige dieser Möglichkeiten zeigen die folgenden Programme.",
+      "lines": [
+        [
+          125,
+          2794,
+          1185,
+          2824
+        ],
+        [
+          124,
+          2835,
+          1185,
+          2872
+        ],
+        [
+          123,
+          2877,
+          1185,
+          2913
+        ],
+        [
+          124,
+          2919,
+          578,
+          2954
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        1930,
+        2288,
+        2049
+      ],
+      "text": "Bevor wir das Programm starten, muß noch der Piezo-Sum- mer an den Anschlüssen der Computer-Platine GND und AUSGANG 4 angeschlossen werden (siehe Abbildung).",
+      "lines": [
+        [
+          1253,
+          1930,
+          2288,
+          1966
+        ],
+        [
+          1254,
+          1971,
+          2240,
+          2006
+        ],
+        [
+          1251,
+          2013,
+          2214,
+          2049
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1250,
+        2078,
+        2316,
+        2527
+      ],
+      "text": "Programm-Start mit HALT - NEXT - 00 - RUN. Nach einer ge- wissen Zeit ertönt der Piezo- Summer. Gleichzeitig leuchten alle 4LED’s an den Ausgängen. Wird jetzt zuerst die TasteG be- tätigt, verstummt der Summer und es leuchtet nurnoch die LED am Ausgang 1. Der gleiche Effekt ergibt sich, wenn zuerst die Taste H betätigt wird, es leuchtet dann jedoch die LED am Aus- gang 2. Werden beide Tasten exakt zur gleichen Zeit betätigt, leuchten beide LED’s. Durch Betätigen einer beliebigen Zah- len- oder Buchstaben-Taste, wird der beschriebene Vorgang erneut ausgelöst, wobei die Wartezeit bis zum Ertönen des Summers unterschiedlich kurz oder lang sein kann.",
+      "lines": [
+        [
+          1253,
+          2078,
+          2316,
+          2114
+        ],
+        [
+          1251,
+          2119,
+          2312,
+          2155
+        ],
+        [
+          1252,
+          2160,
+          2316,
+          2196
+        ],
+        [
+          1251,
+          2202,
+          2313,
+          2238
+        ],
+        [
+          1251,
+          2243,
+          2313,
+          2279
+        ],
+        [
+          1250,
+          2285,
+          2316,
+          2320
+        ],
+        [
+          1252,
+          2326,
+          2313,
+          2362
+        ],
+        [
+          1253,
+          2367,
+          2316,
+          2403
+        ],
+        [
+          1253,
+          2409,
+          2312,
+          2445
+        ],
+        [
+          1251,
+          2450,
+          2313,
+          2486
+        ],
+        [
+          1251,
+          2491,
+          2146,
+          2527
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        2556,
+        2315,
+        2881
+      ],
+      "text": "Für einen Reaktionstest wird jedem der beiden Mitspieler eine rote Taste zugeordnet. Alsdann den Zeitablaufdurch Betätigen einer Buchstaben- oder Zahlen-Taste starten. Sobald der Summer ertönt, kann jeder derMitspieler seine rote Taste betä- tigen. Die entsprechende Ausgangs-LED zeigt an, welche Ta- ste zuerst betätigt wurde. Wenn beide Testpersonen exakt gleich schnell sind, leuchten beide LED’s. Test-Wiederholung durch Betätigung einer Zahlen- oder Buchstaben-Taste.",
+      "lines": [
+        [
+          1252,
+          2556,
+          2313,
+          2591
+        ],
+        [
+          1251,
+          2597,
+          2312,
+          2633
+        ],
+        [
+          1251,
+          2639,
+          2315,
+          2669
+        ],
+        [
+          1250,
+          2680,
+          2315,
+          2716
+        ],
+        [
+          1249,
+          2721,
+          2315,
+          2757
+        ],
+        [
+          1250,
+          2763,
+          2313,
+          2799
+        ],
+        [
+          1250,
+          2804,
+          2312,
+          2840
+        ],
+        [
+          1250,
+          2845,
+          2225,
+          2881
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1251,
+        2929,
+        1711,
+        2964
+      ],
+      "text": "Programm-Beschreibung:",
+      "lines": [
+        [
+          1251,
+          2929,
+          1711,
+          2964
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        2986,
+        2315,
+        3147
+      ],
+      "text": "Indiesem Programm wird bei Adresse 03 der Zufalis-Generator verwendet. Eine „Zeitschleife” auf den Adressen 04 bis 07 schließt sich an. Hierdurch ergibt sich eine zufällige und unter- schiedlich lange Wartezeit.",
+      "lines": [
+        [
+          1250,
+          2986,
+          2315,
+          3023
+        ],
+        [
+          1249,
+          3027,
+          2313,
+          3063
+        ],
+        [
+          1250,
+          3068,
+          2315,
+          3105
+        ],
+        [
+          1250,
+          3111,
+          1714,
+          3147
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1249,
+        3175,
+        2316,
+        3377
+      ],
+      "text": "Nehmen wir an, daß durch den Befeh!RND (Zufalls-Generator) z.B. der Wert E in das Register D übernommen (gespeichert) wird. Durch den folgenden ADD!-Befehl wird der Wert 1 inRegi- sterC addiert. Durch den CLEAR-Befehi am Programm-Anfang steht in Register C zunächst lediglich der Wert O, weshalb in",
+      "lines": [
+        [
+          1250,
+          3175,
+          2311,
+          3210
+        ],
+        [
+          1250,
+          3216,
+          2311,
+          3252
+        ],
+        [
+          1249,
+          3257,
+          2316,
+          3294
+        ],
+        [
+          1250,
+          3298,
+          2313,
+          3334
+        ],
+        [
+          1250,
+          3340,
+          2313,
+          3377
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "Der Programm-Ablaufplan - Das Flußdiagramm - Flow Chart",
+    "en": "The Program Flow Chart"
+  },
+  "1": {
+    "de": "Drei Bezeichnungen für das gleiche Objekt…",
+    "en": "Three names for the same thing — pick the one you like best.\n\nComputer programs become harder to follow as they grow longer. Even the last program is no longer trivial to scan. To make even very large programs understandable, symbols were developed that can be assembled into a <b>program flow chart</b>.\n\nBelow is the flow chart with explanations for our last-programmed decimal counter.\n\nThe flow chart makes the program's function much clearer. We simply follow the symbols from top to bottom and, at branches (the jumps), follow the lines in the arrow's direction."
+  },
+  "2": {
+    "de": "Dieser Programm-Ablaufplan kann nochmals vereinfacht dargestellt werden…",
+    "en": "This flow chart can be simplified further without losing clarity. We only need to remember the meaning of the symbols and a few short labels.\n\nThe simplified flow chart / Flußdiagramm / flow chart then looks like this:"
+  }
+}
