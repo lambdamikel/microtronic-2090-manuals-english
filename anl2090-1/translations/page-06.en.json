@@ -5,6 +5,6 @@
   },
   "1": {
     "de": "Left column body…",
-    "en": "…from the numbered output sockets to the numbered input sockets, with output No. 1 connected to input No. 1, No. 2 to No. 2, and so on. Swapped wires lead to an error message from the computer. (See illustration below.)\n\nWe must also know that our computer requires a steady power supply — the grounded wall socket used to plug in the power supply must not have a wobbly contact, otherwise no program execution is possible.\n\nNow we give the computer the command to start its test program. To do this we press (with a short, light tap) the HALT key, then the PGM key. If we now press the 0 key, the first part of the automatic test program begins. On the display, in succession:"
+    "en": "from the numbered output sockets to the numbered input sockets, with output No. 1 connected to input No. 1, No. 2 to No. 2, and so on. Swapped wires lead to an error message from the computer. (See illustration below.)\n\nWe must also know that our computer requires a steady power supply — the grounded wall socket used to plug in the power supply must not have a wobbly contact, otherwise no program execution is possible.\n\nNow we give the computer the command to start its test program. To do this we press (with a short, light tap) the HALT key, then the PGM key. If we now press the 0 key, the first part of the automatic test program begins. On the display, in succession:"
   }
 }

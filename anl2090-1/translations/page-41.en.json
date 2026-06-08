@@ -5,7 +5,7 @@
   },
   "1": {
     "de": "gister 6 übertragen. Somit stehen in den beiden Registern R5 und R6 die gleichen Werte, nämlich 1.",
-    "en": "…transferred into register 6. Both registers R5 and R6 now hold the same value, namely 1."
+    "en": "transferred into register 6. Both registers R5 and R6 now hold the same value, namely 1."
   },
   "2": {
     "de": "Der folgende Vergleichs-Befehl fragt …",

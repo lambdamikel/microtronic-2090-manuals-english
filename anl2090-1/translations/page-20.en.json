@@ -33,6 +33,6 @@
   },
   "8": {
     "de": "springen, dort bisheriges Ergebnis anzeigen…",
-    "en": "Imagine that at program start all 3 positions show 0. Register 0 (rightmost position) contains 0, as do register 1 (middle) and register 2 (left). At address 01…"
+    "en": "Imagine that at program start all 3 positions show 0. Register 0 (rightmost position) contains 0, as do register 1 (middle) and register 2 (left). At address 01"
   }
 }
