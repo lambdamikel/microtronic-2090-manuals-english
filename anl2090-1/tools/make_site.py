@@ -32,7 +32,19 @@ HEADER_CSS = """
   .toc a:hover{text-decoration:underline}
   .toc .pg{color:#888;white-space:nowrap}
   @media(max-width:760px){.toc ol{columns:1}}
+  .dl{display:flex;flex-wrap:wrap;gap:.5rem;margin:.4rem 0 1rem}
+  .dl a{display:inline-block;background:#2a2a2a;border:1px solid #555;border-radius:6px;
+    padding:.4rem .7rem;color:#eee;text-decoration:none;font-size:.85rem}
+  .dl a:hover{background:#3a3a3a;border-color:#888}
 </style>
+"""
+
+DOWNLOADS = """
+<div class="dl">
+  <a href="Busch_Microtronic_2090_Manual_EN.pdf">&#128214; Manual &mdash; PDF (82&nbsp;pp)</a>
+  <a href="Busch_Microtronic_2090_Program_Tables_EN.pdf">&#128209; Program Tables &mdash; PDF</a>
+  <a href="program-tables.html">&#8599; Program Tables (HTML)</a>
+</div>
 """
 
 NOTICE = """
@@ -69,7 +81,7 @@ def build_header(contents):
             + '<h1>Busch Microtronic 2090 &mdash; Computer System Manual (English)</h1>'
             + '<p class="lead">Programming &ndash; Experimenting &ndash; learning playfully '
               'how a computer works.</p>'
-            + NOTICE + toc + '</div>\n')
+            + DOWNLOADS + NOTICE + toc + '</div>\n')
 
 def main():
     path = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "index.html")

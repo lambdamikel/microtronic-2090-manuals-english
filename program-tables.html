@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Microtronic Computer System — English Translation</title>
+<style>
+  :root {
+    --red: #d2232a;
+    --yellow: #FFDB4F;
+    --ink: #111;
+    --rule: #222;
+    --grid: #777;
+  }
+  html, body { margin: 0; padding: 0; background: #555; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--ink); }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 14mm 12mm 12mm;
+    margin: 12mm auto;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    box-sizing: border-box;
+    font-size: 8.6pt;
+    line-height: 1.2;
+  }
+  .page.yellow { background: var(--yellow); }
+
+  /* Banner uses the real wordmark image extracted from the source PDF */
+  .banner {
+    margin: -14mm -12mm 6mm;
+    display: block;
+    line-height: 0;
+  }
+  .banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  h2 { font-size: 12pt; margin: 4mm 0 1.5mm; }
+  h3 { font-size: 10pt; margin: 3mm 0 1mm; }
+  p  { margin: 0 0 2mm; text-align: justify; }
+  ul { margin: 0 0 2mm 4mm; padding: 0; }
+  li { margin-bottom: .5mm; }
+
+  .cols { column-count: 2; column-gap: 6mm; column-rule: 0; }
+  .cols > * { break-inside: avoid; }
+
+  table { border-collapse: collapse; width: 100%; font-size: 8pt; }
+  th, td { border: 1px solid var(--grid); padding: .6mm 1.2mm; vertical-align: top; }
+  th { background: #ececec; text-align: left; font-weight: 700; }
+  table.tight td, table.tight th { padding: .3mm .8mm; }
+  table.numsys { font-size: 7pt; line-height: 1.05; }
+  table.numsys td, table.numsys th { padding: .1mm .6mm; }
+  table.center td, table.center th { text-align: center; }
+
+  .ins { line-height: 1.05; }
+  .ins th, .ins td { font-size: 7pt; padding: .1mm .7mm; }
+  .ins .mn { font-weight: 700; background: #ececec; }
+  .ins code { font-family: "Courier New", monospace; }
+
+  .keyrow { display: grid; grid-template-columns: 18mm 1fr; gap: 1mm 2mm; margin-bottom: 1mm; }
+  .keyrow b { color: #000; }
+
+  .pgmlist { columns: 1; }
+  .pgmlist .row { display: flex; justify-content: space-between; border-bottom: 1px dotted #999; padding: .4mm 0; }
+
+  .hexgrid { font-size: 6pt; line-height: 1.05; }
+  .hexgrid td, .hexgrid th { padding: 0 .5mm; text-align: center; }
+
+  .footer-busch {
+    display: flex; align-items: center; gap: 3mm; margin-top: 4mm;
+  }
+  .busch-logo-img { height: 16mm; width: auto; display: block; }
+  .busch-logo-img.big { height: 28mm; }
+  .yellow-footer {
+    display: block;          /* override the flex from .footer-busch */
+    text-align: center;
+    margin-top: 8mm;
+  }
+  .yellow-footer img { margin: 0 auto; }
+  .addr { font-size: 9pt; line-height: 1.2; }
+
+  /* Page 3 yellow programmer-notes layout */
+  .notes-page {
+    text-align: center;
+  }
+  .notes-page .body {
+    text-align: left;
+    max-width: 110mm;
+    margin: 12mm auto;
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+  .notes-page .body h2 { text-align: left; }
+  .notes-page hr { border: none; border-top: 1px solid #111; margin: 3mm 0 5mm; }
+  .notes-page .term { font-weight: 700; }
+  .notes-page .order { margin-top: 12mm; font-weight: 700; font-size: 11pt; }
+
+  /* Page 4 blank form */
+  .formbox { border: 1.2px solid #000; padding: 2mm; }
+  .formbox .title { text-align: center; font-weight: 700; font-size: 12pt; margin-bottom: 2mm; }
+  .formbox .meta { display: flex; justify-content: space-between; gap: 6mm; font-size: 9pt; margin-bottom: 2mm; }
+  .formbox .meta .field { flex: 1; border-bottom: 1px solid #000; padding-bottom: .5mm; }
+  .reg-table th, .reg-table td { text-align: center; height: 5mm; }
+  .prog-table { font-size: 8pt; }
+  .prog-table th { background: #ececec; }
+  .prog-table td { height: 3.4mm; }
+  .prog-table .addrcol { width: 9mm; text-align: center; background: #fafafa; font-weight: 700; }
+  .prog-table tr.blkstart td { border-top: 0.6mm solid #000; }
+
+  @page { size: A4; margin: 0; }
+  @media print {
+    html, body { background: #fff; margin: 0; padding: 0; }
+    .page {
+      box-sizing: border-box;
+      box-shadow: none;
+      margin: 0;
+      width: 210mm;
+      height: 296mm;            /* 1mm under A4 to dodge sub-pixel rounding */
+      min-height: 0;             /* override the screen rule */
+      page-break-after: always;
+      break-after: page;
+      overflow: hidden;          /* clip rather than spill onto a second sheet */
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page:last-child { page-break-after: auto; break-after: auto; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============== PAGE 1 ============== -->
+<section class="page">
+  <header class="banner">
+    <img src="assets/banner-red.png" alt="microtronic computer-system">
+  </header>
+
+  <div class="cols">
+
+    <h2>Quick-Start Information</h2>
+    <p>After plugging the power supply into a 220 V outlet, the computer is ready to operate. The display (LED display) shows: <b>00 000</b>. The power supply is VDE-approved. It is a safety transformer that converts the 220 V mains voltage into the 10 V operating voltage required by the computer.</p>
+
+    <h2>Built-in Programs</h2>
+    <p>A number of easily accessible built-in programs are stored in the computer. They are called up by pressing the function keys (on the right-hand side of the dashboard panel): <b>HALT &ndash; PGM &ndash; 0</b> (or by entering the corresponding number). To understand the built-in-program functions you should consult the matching pages of the instruction manual:</p>
+    <ul>
+      <li>* PGM 0 = Test program (see page 4&ndash;6)</li>
+      <li>** PGM 1 = Load program from cassette into computer (see note)</li>
+      <li>** PGM 2 = Load program from computer onto cassette (see note)</li>
+      <li>* PGM 3 = Enter time of day (page 8&ndash;9)</li>
+      <li>* PGM 4 = Display time of day (page 8&ndash;9)</li>
+      <li>PGM 5 = Delete self-programmed programs (page 31)</li>
+      <li>PGM 6 = Write NOP into every program-memory address (page 63)</li>
+      <li>* PGM 7 = "Nim" game (page 7&ndash;8)</li>
+    </ul>
+    <p>* These programs are suitable as demonstration programs.</p>
+    <p>** If PGM 1 or PGM 2 are started without an attached interface, the computer must be re-activated for operation with the RESET key (see page 4).</p>
+    <p>To select a different built-in program, first press <b>HALT</b>, then <b>PGM</b>, and finally the program number.</p>
+
+    <h2>Interesting and Easily Programmable Demonstration Programs</h2>
+    <p>The corresponding instructions from the manual must be programmed (entered). Programming always starts with the keys <b>HALT &ndash; NEXT</b> followed by pressing the number key <b>00</b> twice. Then the input instructions are entered with the number and letter keys. An instruction always consists of a 3-digit code, e.g. F05. After each instruction entry the <b>NEXT</b> key must be pressed. The next instruction is then accepted. The "address" (shown by the two left-most digits of the display) automatically increments after every instruction entry (from 00 to 01, etc.).</p>
+
+    <div class="pgmlist">
+      <div class="row"><span>Electronic die</span><span>Page 10&ndash;11</span></div>
+      <div class="row"><span>Automatic counter</span><span>12</span></div>
+      <div class="row"><span>"The Moon Landing"</span><span>23&ndash;24</span></div>
+      <div class="row"><span>Timer &mdash; computer as time switch</span><span>38&ndash;39</span></div>
+      <div class="row"><span>Lotto-number generator</span><span>42</span></div>
+      <div class="row"><span>Computer as alarm clock</span><span>45&ndash;46</span></div>
+      <div class="row"><span>Reaction test for two persons</span><span>55</span></div>
+      <div class="row"><span>Reaction test "de luxe"</span><span>55&ndash;57</span></div>
+      <div class="row"><span>Arithmetic program "Multiplication"</span><span>61</span></div>
+      <div class="row"><span>Arithmetic program "Division"</span><span>62</span></div>
+      <div class="row"><span>Tic-Tac-Toe (board game)</span><span>Manual, Pt. 2</span></div>
+      <div class="row"><span>Sea battle</span><span>Manual, Pt. 2</span></div>
+      <div class="row"><span>Code breaker</span><span>Manual, Pt. 2</span></div>
+      <div class="row"><span>"Nim 2"</span><span>Manual, Pt. 2</span></div>
+      <div class="row"><span>Morse-code decoder</span><span>Manual, Pt. 2</span></div>
+    </div>
+
+    <h2>Function-Key Short Description</h2>
+    <p style="font-size:8pt">(detailed description see page 72&ndash;73)</p>
+    <div class="keyrow"><b>HALT</b><span>Cancel program execution</span></div>
+    <div class="keyrow"><b>NEXT</b><span>Displays the next instruction in program memory. The instruction can be modified and, after pressing NEXT again, stored back in program memory.</span></div>
+    <div class="keyrow"><b>BKP</b><span>Break-point (consult page 72)</span></div>
+    <div class="keyrow"><b>REG</b><span>Inspection &amp; modification key for the working registers</span></div>
+    <div class="keyrow"><b>C/CE</b><span>Clear key for incorrectly entered instructions</span></div>
+    <div class="keyrow"><b>RUN</b><span>Program-start key (in combination with HALT &ndash; NEXT and entry of the start address, e.g. B 00)</span></div>
+    <div class="keyrow"><b>STEP</b><span>Single-step key for stepwise checking of program execution</span></div>
+    <div class="keyrow"><b>PGM</b><span>Call-up key for the built-in programs</span></div>
+
+    <p><b>Number and digit keys:</b> 1&ndash;9 and A&ndash;F &mdash; entry keys for programming and value input.</p>
+    <p><b style="color:var(--red)">Red function keys G and H:</b> Special-purpose keys for connecting input signals.</p>
+    <p><b style="color:#1a8a1a">Green RESET key:</b> Located on the computer circuit board; re-activates the operating system after faulty programming.</p>
+
+    <h3>Comparison Decimal &harr; Hexadecimal</h3>
+    <table class="hexgrid">
+      <thead><tr><th>Dec</th><th>Hex</th><th>Dec</th><th>Hex</th><th>Dec</th><th>Hex</th><th>Dec</th><th>Hex</th></tr></thead>
+      <tbody id="hex"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============== PAGE 2 ============== -->
+<section class="page">
+  <h2 style="font-size:14pt; margin:0 0 1mm">Bookmark</h2>
+  <h2 style="font-size:13pt; margin:0 0 3mm">Quick-Reference Information for Programming</h2>
+
+  <h3>The Microtronic Instruction Set <span style="font-weight:400;font-size:8pt">(see also instruction manual page 74 to 76)</span></h3>
+
+  <table class="ins tight">
+    <thead>
+      <tr>
+        <th>Mnemonic</th><th>Code</th><th>Description</th><th>Meaning</th><th>Page</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="mn">MOV</td><td><code>0 s d</code></td><td>s into d</td><td>Move contents of register s into register d</td><td>22</td></tr>
+      <tr><td class="mn">MOVI</td><td><code>1 n d</code></td><td>n into d</td><td>Move constant n into register d</td><td>33</td></tr>
+      <tr><td class="mn">AND</td><td><code>2 s d</code></td><td>s AND d = d</td><td>Logical AND operation</td><td>59&ndash;60</td></tr>
+      <tr><td class="mn">ANDI</td><td><code>3 n d</code></td><td>n AND d = d</td><td>Logical AND with a constant</td><td>59&ndash;60</td></tr>
+      <tr><td class="mn">ADD</td><td><code>4 s d</code></td><td>s &oplus; d = d</td><td>Add register contents; result in d</td><td>18&ndash;21</td></tr>
+      <tr><td class="mn">ADDI</td><td><code>5 n d</code></td><td>n &oplus; d = d</td><td>Add constant n to reg. d; result in d</td><td>19&ndash;21</td></tr>
+      <tr><td class="mn">SUB</td><td><code>6 s d</code></td><td>d &ominus; s = d</td><td>Subtract register contents; result in d</td><td>35</td></tr>
+      <tr><td class="mn">SUBI</td><td><code>7 n d</code></td><td>d &ominus; n = d</td><td>Subtract constant n; result in d</td><td>35</td></tr>
+      <tr><td class="mn">CMP</td><td><code>8 s d</code></td><td>Compare s, d</td><td>Compare contents of register s with register d</td><td>74</td></tr>
+      <tr><td class="mn">CMPI</td><td><code>9 n d</code></td><td>Compare n, d</td><td>Compare constant n with register d</td><td>26</td></tr>
+      <tr><td class="mn">OR</td><td><code>A s d</code></td><td>s OR d = d</td><td>Logical OR operation</td><td>59&ndash;60</td></tr>
+      <tr><td class="mn">CALL</td><td><code>B a a</code></td><td>Jump to subroutine a a</td><td>Jump to subroutine beginning at address a a</td><td>63&ndash;64</td></tr>
+      <tr><td class="mn">GOTO</td><td><code>C a a</code></td><td>Jump a a</td><td>Jump to any address a a</td><td>14&ndash;15</td></tr>
+      <tr><td class="mn">BRC</td><td><code>D a a</code></td><td>Carry-jump a a</td><td>Jump to a a if carry-flag set</td><td>26</td></tr>
+      <tr><td class="mn">BRZ</td><td><code>E a a</code></td><td>Zero-jump a a</td><td>Jump to a a if zero-flag set</td><td>33</td></tr>
+      <tr><td class="mn">MAS</td><td><code>F 7 d</code></td><td>A-Reg. &rarr; S-Reg.</td><td>Copy working register d into memory register d</td><td>61</td></tr>
+      <tr><td class="mn">INV</td><td><code>F 8 d</code></td><td>Invert d</td><td>Invert the contents of register d</td><td>50</td></tr>
+      <tr><td class="mn">SHR</td><td><code>F 9 d</code></td><td>Shift d right</td><td>Shift register d binarily right</td><td>49</td></tr>
+      <tr><td class="mn">SHL</td><td><code>F A d</code></td><td>Shift d left</td><td>Shift register d binarily left</td><td>48</td></tr>
+      <tr><td class="mn">ADC</td><td><code>F B d</code></td><td>d &oplus; C = d</td><td>Set carry-flag adds "1" to register d</td><td>19&ndash;21</td></tr>
+      <tr><td class="mn">SUBC</td><td><code>F C d</code></td><td>d &ominus; C = d</td><td>Set carry-flag subtracts "1" from register d</td><td>35</td></tr>
+      <tr><td class="mn">DIN</td><td><code>F D d</code></td><td>Data in</td><td>Store input data into register d</td><td>37</td></tr>
+      <tr><td class="mn">DOT</td><td><code>F E s</code></td><td>Data out</td><td>Output data from register s</td><td>36</td></tr>
+      <tr><td class="mn">KIN</td><td><code>F F d</code></td><td>Key value</td><td>Wait for key entry; store value in register d</td><td>14&ndash;15</td></tr>
+      <tr><td class="mn">DISP</td><td><code>F n s</code></td><td>Display on</td><td>Show n digits starting at register s</td><td>14&ndash;15</td></tr>
+      <tr><td class="mn">HALT</td><td><code>F 0 0</code></td><td>Program stop</td><td>Resume halted program with STEP key</td><td>63</td></tr>
+      <tr><td class="mn">NOP</td><td><code>F 0 1</code></td><td>No operation</td><td>An instruction code may be inserted later</td><td>63</td></tr>
+      <tr><td class="mn">DISOUT</td><td><code>F 0 2</code></td><td>Display off</td><td>Switch display off (for faster execution)</td><td>14&ndash;15</td></tr>
+      <tr><td class="mn">HXDZ</td><td><code>F 0 3</code></td><td>Hex &rarr; Dec</td><td>Convert hex to decimal in register D-E-F</td><td>43</td></tr>
+      <tr><td class="mn">DZHX</td><td><code>F 0 4</code></td><td>Dec &rarr; Hex</td><td>Convert decimal to hex in register D-E-F</td><td>43</td></tr>
+      <tr><td class="mn">RND</td><td><code>F 0 5</code></td><td>Random generator</td><td>Random numbers in registers D-E-F</td><td>41</td></tr>
+      <tr><td class="mn">TIME</td><td><code>F 0 6</code></td><td>Clock time</td><td>Copy time of day into registers A-B-C-D-E-F</td><td>44&ndash;45</td></tr>
+      <tr><td class="mn">RET</td><td><code>F 0 7</code></td><td>Return</td><td>Return from a subroutine</td><td>63&ndash;64</td></tr>
+      <tr><td class="mn">CLEAR</td><td><code>F 0 8</code></td><td>Clear registers</td><td>Set all register values to "0"</td><td>21</td></tr>
+      <tr><td class="mn">STC</td><td><code>F 0 9</code></td><td>Set carry</td><td>Set carry-flag (value 1)</td><td>52</td></tr>
+      <tr><td class="mn">RSC</td><td><code>F 0 A</code></td><td>Reset carry</td><td>Reset a set carry-flag (0)</td><td>52</td></tr>
+      <tr><td class="mn">MULT</td><td><code>F 0 B</code></td><td>Multiplication</td><td>Multiplication performed in registers 0&ndash;5</td><td>61&ndash;62</td></tr>
+      <tr><td class="mn">DIV</td><td><code>F 0 C</code></td><td>Division</td><td>Division performed in registers 0&ndash;3 (reg. 4 &amp; 5 = "0")</td><td>62&ndash;63</td></tr>
+      <tr><td class="mn">EXRL</td><td><code>F 0 D</code></td><td>Exchange A/S 0&ndash;7</td><td>Swap working regs 0&ndash;7 with memory regs 0&ndash;7</td><td>61</td></tr>
+      <tr><td class="mn">EXRM</td><td><code>F 0 E</code></td><td>Exchange A/S 8&ndash;F</td><td>Swap working regs 8&ndash;F with memory regs 8&ndash;F</td><td>61</td></tr>
+      <tr><td class="mn">EXRA</td><td><code>F 0 F</code></td><td>Exchange 0&ndash;7 / 8&ndash;F</td><td>Swap working regs 0&ndash;7 with working regs 8&ndash;F</td><td>33</td></tr>
+    </tbody>
+  </table>
+
+  <table class="tight" style="margin-top:2mm">
+    <tr><td>For <b>d</b> the register number is entered. Register d holds the result after instruction execution.</td><td style="width:8mm; text-align:center">15</td></tr>
+    <tr><td>For <b>s</b> the register number is entered. Register s is not modified by instruction execution.</td><td style="text-align:center">16</td></tr>
+    <tr><td>For <b>n</b> a constant (the same in all operations) value is entered.</td><td style="text-align:center">74</td></tr>
+    <tr><td>For <b>a a</b> the jump address (address number to jump to) is entered.</td><td style="text-align:center">15/74</td></tr>
+  </table>
+
+  <div style="display:grid; grid-template-columns: 1.1fr 1fr; gap: 4mm; margin-top: 4mm;">
+    <div>
+      <h3 style="text-align:center; background:#ececec; padding:1mm; border:1px solid #777; margin:0">The Number Systems</h3>
+      <table class="tight center numsys">
+        <thead><tr><th>Decimal</th><th>Hex</th><th>Binary</th><th>Inverted bin / hex</th></tr></thead>
+        <tbody>
+          <tr><td>0</td><td>0</td><td>0000</td><td>1111 &nbsp; F</td></tr>
+          <tr><td>1</td><td>1</td><td>0001</td><td>1110 &nbsp; E</td></tr>
+          <tr><td>2</td><td>2</td><td>0010</td><td>1101 &nbsp; D</td></tr>
+          <tr><td>3</td><td>3</td><td>0011</td><td>1100 &nbsp; C</td></tr>
+          <tr><td>4</td><td>4</td><td>0100</td><td>1011 &nbsp; B</td></tr>
+          <tr><td>5</td><td>5</td><td>0101</td><td>1010 &nbsp; A</td></tr>
+          <tr><td>6</td><td>6</td><td>0110</td><td>1001 &nbsp; 9</td></tr>
+          <tr><td>7</td><td>7</td><td>0111</td><td>1000 &nbsp; 8</td></tr>
+          <tr><td>8</td><td>8</td><td>1000</td><td>0111 &nbsp; 7</td></tr>
+          <tr><td>9</td><td>9</td><td>1001</td><td>0110 &nbsp; 6</td></tr>
+          <tr><td>10</td><td>A</td><td>1010</td><td>0101 &nbsp; 5</td></tr>
+          <tr><td>11</td><td>B</td><td>1011</td><td>0100 &nbsp; 4</td></tr>
+          <tr><td>12</td><td>C</td><td>1100</td><td>0011 &nbsp; 3</td></tr>
+          <tr><td>13</td><td>D</td><td>1101</td><td>0010 &nbsp; 2</td></tr>
+          <tr><td>14</td><td>E</td><td>1110</td><td>0001 &nbsp; 1</td></tr>
+          <tr><td>15</td><td>F</td><td>1111</td><td>0000 &nbsp; 0</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:7.5pt; margin-top:1.5mm">The binary system is represented by the LEDs at the 4 outputs: <b>4 3 2 1</b>. The 4 outputs have the values <b>8 4 2 1</b>.</p>
+    </div>
+    <div>
+      <h3 style="text-align:center; background:#ececec; padding:1mm; border:1px solid #777; margin:0">Symbols for Flowcharts</h3>
+      <table class="tight">
+        <tr><td style="width:18mm; text-align:center"><span style="display:inline-block; width:14mm; height:5mm; border:1px solid #000"></span></td><td>General operation</td></tr>
+        <tr><td style="text-align:center"><svg width="16mm" height="8mm" viewBox="0 0 40 20" style="display:inline-block;vertical-align:middle"><polygon points="20,1 39,10 20,19 1,10" fill="none" stroke="#000" stroke-width="1"/></svg></td><td>Branching</td></tr>
+        <tr><td style="text-align:center"><span style="display:inline-block; width:14mm; height:5mm; border:1px solid #000; border-left-width:3px; border-right-width:3px;"></span></td><td>Subroutine</td></tr>
+        <tr><td style="text-align:center"><span style="display:inline-block; width:14mm; height:5mm; border:1px solid #000; transform: skewX(-15deg);"></span></td><td>Input / Output</td></tr>
+        <tr><td style="text-align:center"><span style="display:inline-block; width:14mm; height:5mm; border:1px solid #000; border-radius:3mm"></span></td><td>Start or end of a program</td></tr>
+        <tr><td style="text-align:center"><span style="display:inline-block; width:5mm; height:5mm; border:1px solid #000; border-radius:50%"></span></td><td>Connector to other program parts</td></tr>
+        <tr><td colspan="2" style="font-size:8pt">&gt; means: greater &nbsp;&nbsp; &lt; means: smaller &nbsp;&nbsp; = means: equal value</td></tr>
+      </table>
+      <div class="footer-busch">
+        <img class="busch-logo-img" src="assets/busch-hex.png" alt="BUSCH">
+        <div class="addr"><b>BUSCH GmbH</b><br>Postfach 1360<br>D-6806 Viernheim</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PAGE 3 (yellow notes) ============== -->
+<section class="page yellow notes-page">
+  <header class="banner">
+    <img src="assets/banner-outline.png" alt="microtronic computer-system">
+  </header>
+
+  <div class="body">
+    <h2>Notes for Microtronic Programmers</h2>
+    <h3 style="margin-top:-2mm">on Using the Program Tables</h3>
+    <p>The enclosed program lists are for the development of self-designed programs.</p>
+    <hr>
+
+    <p><span class="term">Register allocation:</span> It is important to keep track of the registers required by a program and their contents.</p>
+
+    <p><span class="term">Jump target:</span> Entry for short labels indicating at which addresses special program parts begin that are jumped to from another program part.</p>
+
+    <p><span class="term">Address-Nr.:</span> It is practical to start a program at address 00. When programming, the computer automatically assigns the further address numberings. The address number is given to 2 hex digits, and it is recommended that the address number be supplemented, e.g. 10, 1F, etc.</p>
+
+    <p><span class="term">Input instruction code:</span> The instruction codes to be programmed are entered in this column.</p>
+
+    <p><span class="term">Mnemonic (Befehls-K&uuml;rzel):</span> Noting the mnemonic, such as MOV, GOTO etc., is advisable so that, in case of troubleshooting, the program is clearer.</p>
+
+    <p><span class="term">Jump-to:</span> Here it can be indicated by a short label from where individual program jumps are made.</p>
+
+    <p><span class="term">Explanations:</span> Important lines of thought can be recorded in this column.</p>
+
+    <p>The bookmark (in the manual) is an important helper containing all necessary quick-reference information.</p>
+
+    <p style="font-style:italic; margin-top:4mm">Have fun programming and experimenting.</p>
+  </div>
+
+  <div class="footer-busch yellow-footer">
+    <img class="busch-logo-img big" src="assets/busch-hex-yellow.png" alt="BUSCH">
+  </div>
+  <div class="order">Nr. 20904</div>
+</section>
+
+<!-- ============== PAGE 4 (blank form) ============== -->
+<section class="page">
+  <div class="formbox">
+    <div class="title">Program List for Microtronic Computer System 2090</div>
+    <div class="meta">
+      <div class="field">Program name:</div>
+      <div class="field" style="flex:0 0 40mm">Sheet no.:</div>
+    </div>
+    <div class="meta">
+      <div class="field">Programmer:</div>
+      <div class="field" style="flex:0 0 40mm">Date:</div>
+    </div>
+
+    <h3 style="text-align:center; margin:3mm 0 1mm">Register allocation</h3>
+    <table class="reg-table tight">
+      <thead><tr><th style="width:24mm">Register-Nr.</th>
+        <th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th>
+        <th>8</th><th>9</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th></tr></thead>
+      <tbody><tr><td>Register contents</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody>
+    </table>
+
+    <table class="prog-table tight" style="margin-top:3mm">
+      <thead><tr>
+        <th style="width:18mm">Jump target</th>
+        <th class="addrcol">Addr.</th>
+        <th style="width:14mm">Input code</th>
+        <th style="width:18mm">Mnemonic</th>
+        <th style="width:18mm">Jump to</th>
+        <th>Explanations</th>
+      </tr></thead>
+      <tbody id="formrows"></tbody>
+    </table>
+  </div>
+  <p style="font-size:7.5pt; margin-top:2mm">BUSCH GmbH + Co. KG, Viernheim / W.-Germany &mdash; Order no. 20904</p>
+</section>
+
+<script>
+  // Fill 0-255 dec/hex grid into 4 columns of 64 rows.
+  const hex = document.getElementById('hex');
+  if (hex) {
+    for (let r = 0; r < 64; r++) {
+      const tr = document.createElement('tr');
+      for (let c = 0; c < 4; c++) {
+        const n = c * 64 + r;
+        tr.insertAdjacentHTML('beforeend',
+          `<td>${n}</td><td>${n.toString(16).toUpperCase().padStart(2,'0')}</td>`);
+      }
+      hex.appendChild(tr);
+    }
+  }
+
+  // Fill blank-form rows: 3 blocks of 16 addresses 0-F.
+  const rows = document.getElementById('formrows');
+  if (rows) {
+    const addrs = '0123456789ABCDEF';
+    for (let blk = 0; blk < 3; blk++) {
+      for (let i = 0; i < 16; i++) {
+        const cls = (blk > 0 && i === 0) ? ' class="blkstart"' : '';
+        rows.insertAdjacentHTML('beforeend',
+          `<tr${cls}><td></td><td class="addrcol">${addrs[i]}</td><td></td><td></td><td></td><td></td></tr>`);
+      }
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -9,8 +9,9 @@ program listings are preserved exactly as in the German original.
 
 | | |
 |---|---|
-| 📖 **PDF** | **[Busch_Microtronic_2090_Manual_EN.pdf](Busch_Microtronic_2090_Manual_EN.pdf)** — full 82‑page manual, A4 |
-| 🌐 **Online (HTML)** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/>** — read in your browser, with a clickable table of contents |
+| 📖 **Manual — PDF** | **[Busch_Microtronic_2090_Manual_EN.pdf](Busch_Microtronic_2090_Manual_EN.pdf)** — full 82‑page manual (Part 1), A4 |
+| 🌐 **Manual — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/>** — read in your browser, with a clickable table of contents |
+| 📑 **Program Tables / quick reference** | the bookmark insert (Busch Nr. 20904): **[PDF](Busch_Microtronic_2090_Program_Tables_EN.pdf)** · **[HTML](https://lambdamikel.github.io/microtronic-2090-manuals-english/program-tables.html)** — instruction set, function keys, number‑system conversion tables |
 
 ## Copyright & permission
 
