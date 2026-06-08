@@ -25,18 +25,19 @@
       "lines": [
         [
           1265,
-          98,
-          2078,
-          146
+          100,
+          2090,
+          156
         ],
         [
           1265,
-          152,
-          1654,
-          199
+          156,
+          1700,
+          206
         ]
       ],
-      "text": "Der Computer als Spiele-Partner: Das Nimm-Spiel"
+      "text": "Der Computer als Spiele-Partner: Das Nimm-Spiel",
+      "mask_lines": true
     },
     {
       "kind": "body",

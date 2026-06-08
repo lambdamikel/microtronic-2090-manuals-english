@@ -12,14 +12,14 @@
         93,
         115,
         1175,
-        3357
+        2540
       ],
       "fragments": [
         [
           93,
           115,
           1175,
-          3357
+          2540
         ]
       ],
       "lines": [
@@ -27,7 +27,7 @@
           93,
           115,
           1175,
-          3357
+          2540
         ]
       ],
       "text": "Nach welchen Kriterien arbeitet unser Programm? Um länger Programme zu erklären, istes zweckmäßig, daß Ge- samt-Programm in mehrere kleine Einzel-Programme aufzu- teilen.  Bei unserer 6-stelligen Addition stellen die Programm-Schritte der Adressen 00 bis 11 ein Unterprogramm dar - wir bezeich- nen es als „Eingabe-Routine”. Das eigentliche Rechen-Pro- gramm ist in den Befehlen der Adressen 12 bis 3B enthalten. Bei den nun folgenden Erklärungen sollten wir zweckmäßiger- weise die Programm-Tabelle (mit den einzelnen Befehlen) und den Programm-Ablaufplan (Fluß-Diagramm) vergleichen.  Bei der Betrachtung des Programm-Ablaufplanes fallen uns zunächst die eingekreisten Zahlen (T) auf. Diese Kreise ma- chen den Programm-Ablaufplan übersichtlicher. Bei „START” sehen wir die eingekreiste Ziffer (D mit einem Pfeil und im Pro- gramm-Ablaufplan weiter unten sehen wir einen Pfeil, der auf die eingekreiste Ziffer (D zeigt. Hierdurch werden sich über- kreuzende Linien beim Programm-Ablaufplan vermieden, denn die weiter unten stehende (T) bedeuted lediglich, daß sich an dieser Programm-Stelie ein Sprung zu der am Pro- gramm-Anfang stehenden (T) ergibt. Außerdem ist es beach- tenswert, daß zur Abkürzung des Wortes Register lediglich ein R geschrieben wird. (R1 Inhalt des Registers Nr. 1). Die kleinen Pfeile (>) bedeuten, daß Zahlen bzw. Daten, von einem Register in ein anderes Register zu bewegen sind. R5 — R6 bedeutet, daß der Inhalt vom Register Nr. 5 im Register Nr. 6 gespeichert wird.  Nun wollen wir das Programm untersuchen, zunächst die bei Adresse 00 beginnende „Eingabe-Routine”. Durch den CLEAR-Befeh! werden alle Register gelöscht. Der Befehl DISP 6,1 bewirkt, daß die Register Nr. 1 bis 6 auf dem Display ange- zeigt werden.  Mit KIN O kann eine (zu addierende) Zahl in das Register O ein- gegeben werden. Wenn wir weder die Tasten A,B oder C betä- tigen (die wir als &-Taste, &-Taste oder Lösch-Taste ver- wenden) werden die Befehle bei den Adressen 03 bis einschl. 08 übersprungen, d. h., der eingegebene Zahlenwert erreicht die MOV-Befehle bei den Adressen 09 bis OE. Der im Register 0 zunächst eingegebene Zahienwert wird also z.B. bei Adres- se OE von Register O in Register Nr. 1 geschoben. Da wir sechs MOV-Befehle haben, können wir bis zu maximal sechs (zu addierende) Zahlen eingeben, welche durch die MOV-Befehle nacheinander von Register O in Register 1 von dort nach Regi- ster 2 usw. weitergeschoben werden. Haben wir z. B. drei ver- schiedene Zahlen eingegeben, wandern diese von Register 0 in die Register Nr. 1,2 und 3. Sie werden durch den DISP-Be- fehl angezeigt. Betätigen wir nun die Taste A, steht als letzte Eingabe der Wert A in Register 0. Bei Adresse 03 haben wir den Befehl CMPI A,O. Dieser Vergleichs-Befehl registriert, ob im Register Nr. O0 der Wert A vorhanden ist. Wir erinnern uns, daß wir mit CMPI einen Übertrag veranlassen können, wodurch das Carry-Signal ausgelöst wird. Der CMP| hat eine weitere Eigenschaft: Er kann auch vergleichen, ob zwei gleiche Werte vorhanden sind. CMPI A,0 sagt: vergleiche, ob in Register Nr. O der Wert A vorhanden ist. Nachdem wir die Taste A betätigt ha- ben, steht der Wert A in Register 0, was vom Vergleichs-Befehl"

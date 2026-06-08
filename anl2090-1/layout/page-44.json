@@ -24,19 +24,20 @@
       ],
       "lines": [
         [
-          1260,
-          102,
-          2222,
-          149
+          1257,
+          100,
+          2230,
+          150
         ],
         [
           1257,
-          155,
-          1435,
-          201
+          150,
+          1460,
+          206
         ]
       ],
-      "text": "Umwandlung: Dezimal- in Hexadezimal- System"
+      "text": "Umwandlung: Dezimal- in Hexadezimal- System",
+      "mask_lines": true
     },
     {
       "kind": "body",

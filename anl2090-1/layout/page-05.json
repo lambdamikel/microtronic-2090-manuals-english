@@ -258,44 +258,14 @@
         1240,
         401,
         2305,
-        745
+        720
       ],
       "fragments": [
         [
           1240,
           401,
           2305,
-          440
-        ],
-        [
-          1244,
-          442,
-          1820,
-          518
-        ],
-        [
-          1820,
-          443,
-          2305,
-          515
-        ],
-        [
-          1242,
-          525,
-          2305,
-          678
-        ],
-        [
-          1243,
-          690,
-          1819,
-          725
-        ],
-        [
-          1824,
-          690,
-          2302,
-          745
+          720
         ]
       ],
       "lines": [
@@ -303,55 +273,7 @@
           1240,
           401,
           2305,
-          440
-        ],
-        [
-          1244,
-          442,
-          1804,
-          471
-        ],
-        [
-          1244,
-          483,
-          1820,
-          518
-        ],
-        [
-          1820,
-          443,
-          2303,
-          481
-        ],
-        [
-          1825,
-          485,
-          2305,
-          515
-        ],
-        [
-          1242,
-          525,
-          2305,
-          678
-        ],
-        [
-          1243,
-          690,
-          1819,
-          725
-        ],
-        [
-          1824,
-          690,
-          2302,
-          725
-        ],
-        [
-          1885,
-          731,
-          1905,
-          745
+          720
         ]
       ],
       "text": "Für den Selbsttest müssen einige Kabelverbindungen herge-  stelit werden. Hierzu werden die den blanken (abisolierten) Drahte  Kabel gemäß Abbildung mit nden in die Buchsen an der  hinteren Platinen-Seite eingesteckt und durch einen aufge- drückten gelben Plastikstecker gehalten. Wir achten darauf, daß die Drähte nicht zu weit in die Buchse eingesteckt werden, weil nur das blanke Drahtende den erwünschten Kontakt in  der Buchse ergibt. Die vier notwe  ndigen Kabel führen jeweils EN"

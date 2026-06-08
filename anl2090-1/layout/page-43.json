@@ -411,14 +411,14 @@
         1274,
         2327,
         2343,
-        2840
+        2822
       ],
       "fragments": [
         [
           1274,
           2327,
           2343,
-          2840
+          2822
         ]
       ],
       "lines": [
@@ -426,7 +426,7 @@
           1274,
           2327,
           2343,
-          2840
+          2822
         ]
       ],
       "text": "Etwas für Mathematiker: Die Basis der Zahlen-Systeme  Nachdem der Computer hexadezimal rechnet, für uns jedoch Rechnungen im dezimalen Zahlen-System angenehmer sind, sollten einige Gedanken über die verschiedenen Zahlen-Sy- steme nicht uninteressant sein.  Wie bekannt, hat unser Dezimal-System die 10 Ziffern O-1-2-3- 4-5-6-7-8-9. Jede Zahl dieses Zahlen-Systems läßt sich durch ein Vielfaches einer Zehnerpotenz ausdrücken."
