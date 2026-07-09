@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14pt;font-weight:700;line-height:1.12;padding-top:12px\">Microtronic Programming Contest</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;line-height:1.12;padding-top:12px\">Conditions of participation for the<br>BUSCH Microtronic Program Contest</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.04;\">The purpose of the Microtronic computer system is to master the possibilities of microcomputer technology and to arrive at ever new ideas and programs.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.04;\">In order to coordinate the exchange of experience, it is planned to hold a contest under the motto:</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.04;font-weight:bold;text-align:left;\">&bdquo;The most interesting program suggestions<br>for the Microtronic computer system&ldquo;</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.04;\">Submissions are possible at any time. The program suggestions awarded a prize by BUSCH will be published in future Microtronic program books. Every program that comes to publication is rewarded by payment of a prize of DM&nbsp;100.&ndash;.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.04;\">Eligible to participate are all users of a Microtronic computer system, with the exception of employees of the company BUSCH GmbH.</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;\">The program suggestions to be submitted must be new, i.e. they should not represent modified variations of already published programs, and they should fall within the scope of the following 3 categories:</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;font-weight:bold;text-align:left;\">1. Program suggestions which can be carried out with the Microtronic computer system without additional accessories.</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;\">For the functioning of these programs, only the Microtronic computer and the supplementary parts contained in the 2090 box may be used.</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;font-weight:bold;text-align:left;\">2. Program suggestions using additional BUSCH Electronic components.</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;\">For these program functions, all the individual parts of the BUSCH Electronic Studios, BUSCH switching relays and the supplementary elements coming further onto the market from BUSCH may be used.</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;font-weight:bold;text-align:left;\">3. Program suggestions using generally purchasable components.</p><p style=\"margin:0.38em 0 0;font-size:10.5pt;line-height:1.04;\">For these program functions, general, standard components available everywhere may be included. The purchase price (general retail price) of the additionally necessary parts should not exceed the amount of DM&nbsp;80.&ndash;.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.04;\">The programs submitted for a contest entry should be laid out in the manner of the Microtronic program listings.</p><p style=\"margin:0.42em 0 0;font-size:10.5pt;line-height:1.04;\">A short functional description is required, necessary program explanations, and for larger programs a program flow chart.</p><p style=\"margin:0.42em 0 0;font-size:10.5pt;line-height:1.04;\">If additional electronic components are needed, the inclusion of a circuit and construction plan is necessary.</p><p style=\"margin:0.42em 0 0;font-size:10.5pt;line-height:1.04;\">Please address your program suggestions to:</p><p style=\"margin:0.42em 0 0;font-size:10.5pt;line-height:1.04;\">BUSCH GmbH &amp; Co. KG<br>Microtronic Contest Department<br>P.O. Box 1360<br>6806 Viernheim/W-Germany</p></div>"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">Now connect the piezo buzzer (see fig. below). Then start the program: HALT &ndash; NEXT &ndash; 00 &ndash; RUN</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.98;text-align:justify;font-weight:400\">The display shows: <b>09</b>. This means the computer places its first playing stone on field 9. We help it by placing a red marker on field 9.</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.98;text-align:justify;font-weight:400\">We place a white stone on field 3 and enter the digit <b>3</b>. The display now shows: <b>34</b>. The computer thus confirms it has registered our field 3, and that it wants its own red stone on field 4.</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.98;text-align:justify;font-weight:400\">So the computer cannot complete the diagonal row of stones, we place a white stone on field 8 (enter <b>8</b>). The display reports: <b>81</b> &ndash; the computer wants a red stone on field 1.</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.98;text-align:justify;font-weight:400\">We place our white stone, say, on field 6 (enter <b>6</b>). The display reports: <b>CC65</b> and an interrupted buzzing tone sounds.</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.98;text-align:justify;font-weight:400\">The message <b>CC65</b> means the computer will place its next red stone on field 5, so that 3 red stones now form a diagonal row. The computer has won.</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">As soon as any number key is pressed, a new game can begin, with the computer again placing its first stone on field 9.</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">Should we manage to force a &bdquo;draw&ldquo;, the display reports <b>EE</b> and twice the digit we last entered. This would also have been the digit the computer needed for a win. Since neither player can complete a row, the game ends in a &bdquo;draw&ldquo;. A continuous tone sounds until a new game is started by pressing a number key.</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">We will find it is impossible to win against the computer. A &bdquo;draw&ldquo; is the best result we can achieve.</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left;font-weight:700\">This is of interest to the programmer:</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">The computer's actual calculations are carried out in a subprogram (from address 2B to address 39). This subroutine &bdquo;BERE&ldquo; (CALCULATION) is also shown in the program flow chart. The subroutine &bdquo;BERE&ldquo; is called from addresses 0C, 11 or 23.</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">First, the value of register D is stored into register C. Then the computer calculates the following formula:</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left;font-weight:700\">RC (Register C) = RC &ndash; 8 &times; ((RD &ndash; 1) : 8)</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify;font-weight:400\">The value in register D is reduced by 1 and divided by 8. Suppose register D holds the value 4; reduced by 1, this leaves 3. 3 &divide; 8 gives 0 remainder 3. The remainder is not needed in the following calculations, so the next step gives 8 &times; 0 = 0. Since register C held the value 4 and 0 is subtracted, 4 remains. This clever formula ensures that a field between 1 and 9 is always occupied, preferably in a row or a diagonal.</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.12;text-align:justify\"><p style=\"margin:0 0 3mm\">Comparing the program table with the program flow chart shows us the individual functions.</p><p style=\"margin:0\">In the program table, the &bdquo;Label&ldquo; column marks the addresses at which the jumped-to program parts or subroutines begin. The &bdquo;Jump to&ldquo; column likewise marks the addresses at which the jumps begin.</p></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;line-height:1.05;text-align:left;font-weight:700\">Program flow chart = Tic-Tac-Toe</div>"
+  }
+}

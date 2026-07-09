@@ -1,0 +1,30 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program flow charts:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;text-align:left;line-height:1.12\">Calculating the days<br>between two dates</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;text-align:left;line-height:1.12\">Calculating<br>a weekday</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;text-align:left;line-height:1.12\">Calculating<br>the biorhythm</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">An important note for programmers!</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:0.96\">The greatest programming effort is required for calculating the &bdquo;factor&ldquo; (see also the program flow chart). To keep the programming effort as low as possible, several subroutines are used that we have already met in other programs. These subroutines are therefore not listed again in the program flow chart. For the sake of completeness, however, they shall be mentioned briefly:</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The subroutine <b>SUB</b> performs a 5-digit subtraction. Registers 0 to 4 are subtracted from registers 8 to C. The result is left in registers 8 to C. All calculations are carried out in decimal. Decimal subtraction was discussed in the &bdquo;pocket calculator&ldquo; program.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The subroutine <b>ADD</b> adds registers 0 to 4 to registers 8 to C. The subroutine ADD performs a 5-digit decimal addition.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The subroutine <b>SUBI</b> adds 1 to a number present in registers 0 to 3.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The subroutine <b>ADD 2</b> adds registers 4 and 5 in decimal to registers 1 and 2.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The subroutine <b>MOVI 0</b> clears registers 0 to 5.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The subroutine <b>MOV J</b> (move-years) brings the year values temporarily stored in registers 6, 7, E, and F into registers 0 to 3.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The program section <b>INT</b> calculates the formula part INT(3/4 &times; (INT(Years &divide; 100) + 1)).</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">The individual formula segments of the INT program section are calculated one after another and added to or subtracted from registers 8 to C. As the result of these calculations, registers 8 to C then hold the factor, which can be processed further by the following program.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:0.96\">The subroutines <b>ADD</b> (5-digit decimal addition) and <b>SUB</b> (5-digit decimal subtraction) can be used for a wide variety of programs you develop yourself.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">We entered the subroutine ADD in the program &bdquo;Calculating the days between two dates&ldquo; from address BC to address DE. The subroutine SUB begins at address DF and ends at FF.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:0.96\">Both subroutines are located at the end of the program memory and can be called at any time (provided the computer is not disconnected from mains power). We recall that with the CALL command we can jump from a program into a subroutine. With the command CALL BC we reach the subroutine ADD; with the command CALL DF, the subroutine SUB.</p></div>"
+  }
+}

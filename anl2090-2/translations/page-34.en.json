@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;line-height:1.12\"><div style=\"font-size:11pt;font-weight:700\">A program especially for mathematicians:</div><div style=\"font-size:15.5pt;font-weight:700\">Sine Calculation</div></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Sine Calculation</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:6.5pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Label</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:6.5pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Adr.</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:6.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Code</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:6.5pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Jump to</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;line-height:1.0\"><div style=\"text-align:justify;\">For mathematical calculations, trigonometric functions (angle functions) such as sine, cosine or tangent are often needed.</div><div style=\"text-align:justify;margin-top:.4em;\">There are technical/scientific pocket calculators that solve such calculations at the press of a button. These pocket calculators too usually contain a microprocessor that can only add and perhaps just barely multiply. Therefore the sine calculation must be derived from additions, multiplications, etc.</div><div style=\"text-align:justify;margin-top:.4em;\">For those interested in mathematics, it is certainly not uninteresting to learn how, for example, a pocket calculator performs a simple sine calculation.</div><div style=\"text-align:justify;margin-top:.4em;\">After HALT &ndash; NEXT &ndash; 00 we enter the following program:</div></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;line-height:1.0\"><div style=\"text-align:justify;\">Program start with HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows: 00.</div><div style=\"text-align:justify;margin-top:.4em;\">The sine of an angle of 20&deg; is to be calculated. For this, 20 is entered. After a brief calculation, the display shows: 3415. Since our calculator works without a decimal place, this result means: 0.3415. It is expedient to enter the examples for the program test, so that the correct result can be checked. If the computer does not produce the aforementioned result, the program entry must be checked and, if necessary, corrected.</div><div style=\"text-align:justify;margin-top:.4em;\">Before entering a new calculation, press any number key; the display shows 00 again. A new calculation can be carried out. Since a 2-digit entry is required, for a sine calculation of 5&deg; the two-digit entry 05 must be made. In this case the display shows: 0870, i.e. 0.0870.</div><div style=\"text-align:justify;margin-top:.4em;\">We should also note that the entered angle must not be greater than 45&deg;, because calculations going beyond 45&deg; are no longer carried out correctly.</div></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.0\"><div style=\"text-align:justify;\">Before we deal with the actual program sequence, we must know how a sine function can be calculated through additions, multiplications, etc.</div><div style=\"text-align:justify;margin-top:.4em;\">The angle functions can be calculated with the help of so-called &bdquo;series&ldquo;. The series for calculating a sine has the following formula:</div><div style=\"text-align:justify;margin-top:.4em;\"><i>[Translator&rsquo;s note: in the German original the decimal separator is a comma, e.g. the figures show 0,3415 for 0.3415.]</i></div></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;line-height:1.0\"><div style=\"text-align:justify;\">A sine to be calculated becomes the more accurate the more terms the series to be calculated has. So that the program does not become too elaborate, the series was terminated after the third term (boxed formula).</div><div style=\"text-align:justify;margin-top:.4em;\">For an example, let us calculate the sine of the angle of 20&deg;. However, we cannot insert &bdquo;20&ldquo; directly for &bdquo;x&ldquo; in this formula. First the angle must be converted into radians, by multiplying &bdquo;20&ldquo; by the number &bdquo;&pi;&ldquo; (3.1415) and then dividing by the number 180:</div></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;line-height:1.0\"><div style=\"text-align:justify;\">20&deg; corresponds to a radian measure of 0.349</div><div style=\"text-align:justify;margin-top:.4em;\">0.349 can now be inserted into the &bdquo;series&ldquo;. In order to make it easier for non-mathematicians too to follow these calculations, the calculations are carried out step by step in the following representation:</div></div>"
+  }
+}

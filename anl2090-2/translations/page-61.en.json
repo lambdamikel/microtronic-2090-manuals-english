@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Principle of data transmission</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Data transmission with only three lines</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.1;text-align:left\"><p style=\"margin:0;font-size:11pt;line-height:1.1\">(BUSCH Digital Studio 2075 required)</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.1;text-align:left\"><p style=\"margin:0;font-size:10.5pt;line-height:1.1\">We enter the program as usual:</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.03\">The circuit setup of the light barrier is familiar to us from instruction book 2065 or 2070. In addition, only the two 4.7 k&Omega; resistors have been inserted, in order to achieve the lowest possible current consumption of the battery.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">By means of the command DIN 0, the input value is stored in register 0. With ANDI 3,0, the third and fourth binary digit (i.e. at inputs 3 and 4) are set to 0, so that, for example, a clock connected to input 4 (if we happen to be running the clock program alongside) does not destroy the subsequent comparisons.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">Then a comparison is made as to whether the same value is present in registers 0 and 3. If &bdquo;yes&ldquo;, the input value has not changed and a jump back to address 02 occurs. If &bdquo;no&ldquo;, the input value is stored in registers 0 and 3. By means of the compare command CMPI it is determined: the value 1 is in register 0, i.e. the light barrier was not interrupted, and a jump to address 02 occurs. If the register content is greater than 1, the red button H was pressed, and a jump to address 00 occurs, to clear all registers. Otherwise, register 0 gives the value 0, i.e. the light barrier was interrupted. In the following decimal counter program, the interruption is counted as value 1.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">Why does an interrupted light barrier give the value 0 in register 0?</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">The electronic circuit is designed so that, with an uninterrupted light barrier, a small voltage is present at input 1 of the computer &mdash; the input is &bdquo;high&ldquo;. With an interrupted light barrier (when the lamp on the circuit lights up), no voltage is present at the computer input. This gives a &bdquo;low&ldquo;, i.e. the value 0, which is stored in register 0.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">For the many interesting experiments with electronic peripheral circuits, appropriate basic knowledge is a prerequisite. The BUSCH Electronic Studios explain a broad palette of electronic possibilities which, in conjunction with the computer, lead to ever-new applications.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">In practice, it is often necessary to transmit data from one data-processing system (EDV) to another.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">With the IC counter module from the Digital Studio 2075, we can make a register content of our computer visible on the large 7-segment display of the counter module. There are two possibilities for data transmission:</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Address</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;text-align:center;line-height:1.0;padding-top:2px\">Code</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Mnemonic</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  }
+}

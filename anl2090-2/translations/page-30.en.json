@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.06\">To demonstrate the program function clearly, the addition of two numbers is shown in a part of the program flow chart. Example: the numbers 24 and 32 are to be added:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;display:flex\"><div style=\"width:13mm;flex:none\">1.</div><div style=\"flex:1;text-align:justify\">Entry of the first number, e.g. the number value 2. Since the entered number is not greater than 9, and index register 7 has the value 0, the number value (2) entered in register 6 is stored in register 0. At the same time, registers 1 to 5 are set to zero. Index register 7 is now loaded with the value 8.</div></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;display:flex\"><div style=\"width:13mm;flex:none\">2.</div><div style=\"flex:1;text-align:justify\">The second number entry (e.g. 4) is entered. Since index register 7 has meanwhile received the value 8, the query takes place: &bdquo;Is the content of register 7 greater than 4?&ldquo; &ndash; &bdquo;Yes&ldquo; &ndash; thus a jump occurs and the entered number values are shifted one place to the left on the display.</div></div>"
+  }
+}

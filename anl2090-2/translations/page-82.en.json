@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;line-height:1.06\">Supplementary pack<br>IC amplifier technology</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:15pt;font-weight:700;line-height:1.05\">2072</div><div style=\"font-size:9pt;line-height:1.1;white-space:nowrap\">from 12 years</div></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:left\">Ideal as a supplement to the Electronic Studios 2065, 2070 and 2090.</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify\">This add-on box &bdquo;IC amplifier technology&ldquo; brings power and the hi-fi super sound!<br><br><b>Device circuits:</b> The detailed instruction book with over 50 illustrations and construction plans shows 30 sound-generating extension circuits for broadcast receivers with hi-fi sound, phono amplifier with power output stage, electronic organ, spinet and Hawaiian guitar, rhythm device, intercom systems, hi-fi mono amplifier with treble and bass control, hi-fi stereo amplifier, telephone amplifier, vibrato organ with light control, reverb effects, electronic interval-signal generator, sound transmission by light, etc. A genuine 2-channel hi-fi stereo amplifier is possible by using 2 &times; 2072.<br><br><b>Contents:</b> On a special module with an integrated board, a high-quality AF power amplifier is built, consisting of an amplifier IC, several electrolytic capacitors, disc capacitors, resistors and a trimmer potentiometer for tuning. With the connection socket also included, playback to large external loudspeakers (hi-fi boxes) is also possible.</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:14pt;font-weight:700;line-height:1.05\">Digital-Technik<br>2075</div><div style=\"font-size:10pt;font-weight:700;line-height:1.12;margin-top:3px\">Basic set</div><div style=\"font-size:10pt;line-height:1.12\">from 14 years</div></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:left\">Expandable with the Electronic Studios 2070 and 2090.</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.3pt;line-height:1.05;text-align:justify\">The &bdquo;Digital-Technik&ldquo; studio explains the fundamentals of calculator and computer technology. An independent experimentation kit and at the same time a supplementary kit.<br><br>The core is an IC counter module with a 7-segment illuminated-digit display and an integrated circuit with over 350 transistor functions. This IC (a so-called 4-bit counter-latch-decoder) contains, besides a counter, a memory and a decoder for driving the illuminated display.<br><br>Digital electronics is conquering ever more fields of application. The best-known examples of this new technology are computers and pocket calculators. However, digital technology is used just as much in consumer electronics &ndash; in televisions and large receivers &ndash; as in digital clocks or for the program control of washing machines. The latest technical marvel, the microprocessor (see 2090), likewise works according to the basic rules of digital technology.</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;line-height:1.02;text-align:justify\"><b>Device circuits:</b> The detailed instruction book with over 100 illustrations and circuit diagrams brings 30 highly interesting experiments, such as the principle of the digital clock, programmable counter, electronic roulette with illuminated display, memory circuit, digital memory, electronic calculator, digital stopwatch, opto-electronic adder, frequency meter, principle of the synthesizer, opto-acoustic counter, digital-to-analog converter, digital voltmeter, electronic music box, etc.<br><br>The Digital-Technik studio is at the same time a recommendable preliminary stage to the Microtronic computer system 2090.<br><br><b>Contents:</b> Over 60 individual parts, including a high-quality IC counter module with illuminated display, IC gate module, as well as resistors, electrolytic capacitors, capacitors, light-emitting diode, push-buttons, battery holder, cable and clamp plugs.</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14pt;font-weight:700;line-height:1.06\">Low-current<br>special relay 5964</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify\">This relay can be driven by a minimal control current (8&ndash;16 V, 50 mA) of the Electronic Studio circuits or by the computer 2090, and switches (in conjunction with, for example, a railway transformer) up to 8 A at 16 V. Ideal for experiments with light-, sound- and time-dependent circuits with the model railway. Also usable in conjunction with the BUSCH IR light barrier / timer 5961 (see the BUSCH model-railway accessories catalogue).</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;line-height:1.06\">Mains-power switching<br>unit 2087</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;line-height:1.0;text-align:justify\">for all Electronic Studios and the computer 2090.<br><br>The switching unit is controlled by the circuits built with the Electronic Studios using the experimentation low voltage (6&ndash;9 V), and triggers, via a relay, switching operations in the lighting mains (220 V, max. 1000 watts). For example, switching radios, tape recorders, warning systems, fan heaters, etc. on and off. The high-current side is completely encapsulated and separated from the low-current side, and can therefore be operated absolutely safely even by laypeople and children. Tested according to VDE regulations. Detailed instructions with wiring examples.</div>"
+  }
+}

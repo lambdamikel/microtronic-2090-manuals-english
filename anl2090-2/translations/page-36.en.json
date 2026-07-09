@@ -1,0 +1,54 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">Our Sine-Calculation program can also be &bdquo;rebuilt&ldquo; for other trigonometric-function calculations. Here are a few suggestions:</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">The COSINE function can likewise be calculated with the aid of a &bdquo;series&ldquo;:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">Note that &bdquo;x&ldquo; must be the angle converted into radians. Most pocket calculators can internally compute only angles from 0&deg; to 45&deg; of a sine or cosine. To find the sine of 60&deg;, for instance, the calculator computes the cosine of 90&deg; minus 60&deg;, i.e. of 30&deg;. This is possible because the following relationship holds:</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">or</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">Through this simple trick, a good deal of computational work can be saved.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">The TANGENT function can be obtained by computing the sine and cosine and then dividing the two results by each other:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">Through such considerations and manipulations, the microprocessor can and must perform enormous computational feats.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">It is no problem to calculate the days that fall, say, between the 3rd and the 17th of a month. It becomes harder when we want to know how many days lie between 5 March 1981 and 24 December 1985.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">For calculating these days, the following program helps us, automatically taking any leap years into account. The calculations are based on the Gregorian calendar.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">Before we start programming, the entire program memory should be cleared, because the &bdquo;day calculation&ldquo; is the first part of a super-program that is completed by the two following chapters. Note also that after address 5C we continue the second program part at address 88. The two parts are later completed by the Bio-Rhythm program.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">Clearing the program memory: HALT &ndash; PGM &ndash; 5.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">After HALT &ndash; NEXT &ndash; 00, carry out the programming very carefully:</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:16pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Cosine and Tangent Calculations</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;line-height:1.14\"><div style=\"font-size:12.5pt;font-weight:700\">A three-part super-program!</div><div style=\"font-size:12.5pt;font-weight:700\">Part 1:</div><div style=\"font-size:16.5pt;font-weight:700\">Calculating the days between two dates</div></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Calculating the days between 2 dates</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Label</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Adr.</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.0\">Code</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Jump to</div>"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:15pt;line-height:1.1\">Concept and logic:</div><div style=\"font-size:17pt;font-weight:700;font-style:italic;line-height:1.05;white-space:nowrap\">The electronic experimentation system from</div></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;text-align:right;padding-top:12px\">In collaboration with the electronics magazine</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify;\"><b>Modern industrial components. . .</b><br>From the simple resistor through capacitors, diodes, photocells, transistors, loudspeakers, etc. up to the IC and microprocessor.</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify;\"><b>. . . mounted on BUSCH electronic modules</b><br>Ready to install and function-tested. Understandable for everyone thanks to component labelling and circuit diagram.</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;line-height:1.05;text-align:justify;\"><b>Perfect experimentation technique . . .</b><br>For building the circuit, place the modules on the plug-in board and wire them with absolutely reliable contact using the protected BUSCH lead-clamping technique.</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;line-height:1.1\">Compact-Studio<br>2060</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:left;\"><b>Basic set</b><br>from 10 &ndash; 12 years</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:left;\">Expandable with the Electronic Studios 2061, 2070, 2090.</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify;\">Start experimenting immediately without prior knowledge! The inexpensive starter pack for those who want to try it out first and expand it further later.<br><br>A detailed instruction book with over 120 illustrations and circuit diagrams shows, understandably for everyone, the construction and function of 40 interesting experiments and device circuits.</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.2pt;line-height:1.05;text-align:justify;\"><b>Device circuits:</b> From the simple electric circuit to the basic light-organ circuit. Among others: rain-warning system, voltage tester, alarm systems, dimmer circuit, automatic time and delay circuits, flashing-light circuits, electronic two-tone horn, siren wailing, tone generators, acoustic step detector, capacitive proximity detector, remote-controlled electronic relay, AF sound amplifier, Morse-code generator, electronic mini-organ.</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify;\"><b>Contents:</b> The pack contains everything necessary to begin, such as: mini loudspeaker box, electronic modules with transistors, potentiometer, capacitors, resistors, push-buttons, light bulb, battery holder, plug-in board, cable, stripped cable pieces in various lengths, clamp plugs, etc. (approx. 100 individual parts).</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;line-height:1.12\">Supplementary pack<br>Power supply<br>2059</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:left;\">Suitable for all Electronic Studios.</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.05;text-align:justify;\">For everyone who experiments for longer or uses assembled device circuits (e.g. clock radios) in continuous operation, the purchase of the special power supply 2059 is recommended. The plug-in module of the power supply is used within the circuits in the same way as the otherwise usual battery module. The device saves batteries and always ensures the correctly dosed voltage.<br><br>The power supply 2059 is a compact, double-insulated safety transformer. The integrated electronic stabilization ensures uniform voltage output with hum filtering (important for radio experiments).<br><br>Input (primary) 220 V AC.<br>Output (secondary) 9 V DC, maximum 200 mA.<br>Short-circuit-proof, tested according to VDE guidelines.</div>"
+  }
+}

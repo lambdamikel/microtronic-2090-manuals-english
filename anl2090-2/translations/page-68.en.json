@@ -1,0 +1,34 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.03\">If any number key is then pressed, the frequency measurement reappears on the display, and we can check whether the set frequency number &bdquo;20&ldquo; is still correct. As soon as the red button G is pressed again, the next reaction-time measurement begins.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\"><b>If the red button G is not pressed before the signal tone sounds</b>, or button H is pressed prematurely, an interrupted signal tone sounds to demonstrate that the measurement was not carried out correctly. Incorrect measurements are not counted and are also not included in the calculation of the average time.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">False readings (wrong times) can occur if the reaction time of a test subject amounts to several seconds (which hopefully does not apply in our case).</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">In the previous experiment, &bdquo;Frequency meter&ldquo;, we determined the limit frequency of our computer. This can be around 30 Hz (sometimes even 40 or 50 Hz).</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">At the moment, our reaction-time meter is set to 20 Hz. The accuracy is thus 1/20 second. If our computer has a limit frequency of 30 or 40 or perhaps even 50 Hz, an even more precise reaction-time measurement results, because we can then operate with 1/30, 1/40 or 1/50 seconds.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">At a limit value of 30 Hz, a program change at address 44 is required. The existing command MOVI 2,0 (entry 120) is to be changed to MOVI 3,0 (entry 130). The multivibrator is to be adjusted so that the display shows exactly &bdquo;30&ldquo;.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.03\">If our limit frequency was at or above 40 Hz, the MOVI command is changed to the entry 140. The multivibrator is to be adjusted so that exactly &bdquo;40&ldquo; is shown on the display. At 50 Hz, the MOVI entry is 150 and the display must show &bdquo;50&ldquo;.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">Up to address 1A, the program is structured similarly to the previous &bdquo;frequency counter&ldquo;. However, the SHL commands were replaced by ANDI commands, so that no nonsense can arise in the wait loops when a red button is pressed.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">The subtraction of the two &bdquo;times of day&ldquo; is carried out in the subroutine &bdquo;<b>SUB</b>&ldquo;.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">After the &bdquo;frequency counter&ldquo; program part follows the query as to whether the red button G is pressed. If &bdquo;yes&ldquo;, the value 5 is loaded into register 8.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">With the RND command (random generator) and the corresponding subtractions, a random waiting time until the start of the signal tone results. Then it is checked whether the red button G was pressed and whether button H was not yet pressed. By means of the command DIN F, the value resulting at the 4 inputs is taken into register F, and by means of the command ANDI 6,F (binary: 0110), the signals at inputs 1 and 4 are cleared. The value 2 (binary: 0010) is then still present in register F if only button G was pressed. If this is not the case, the outputs are switched on and off several times (a rapidly interrupted signal tone as a demonstration that the button operation was not carried out correctly). Otherwise, the continuous tone is switched on by means of the command MOVI F,F and DOT F, and the first &bdquo;time of day&ldquo; is taken over. In a wait loop, the pressing of button H is awaited. Then the second &bdquo;time of day&ldquo; is likewise taken over.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">Connect the piezo buzzer. Start the program.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">The computer first works as a frequency counter. With the potentiometer knob, the frequency is set until the display shows exactly 20 Hz. In case of any fluctuations in the reading, it must be readjusted until exactly 20 is shown.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">With this program, we are able to measure our reaction time very precisely. Perhaps it is interesting to repeat a measurement under unfavorable conditions (lack of sleep, alcohol consumption) as well.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">We press the red button G and hold it down until the computer signals with the randomly starting signal tone. Now the red button H must be pressed as quickly as possible. The display shows the reaction time with 3 digits. The left display digit shows the seconds, the middle one the 1/10 seconds, and the right display digit the 1/100 seconds. &bdquo;040&ldquo; therefore means 0.4 seconds.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">5 reaction-time measurements in succession are provided for, which is why the red button G is pressed again until the start of the signal tone. The switch to the red button H brings the second measurement.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">After the fifth measurement, the display shows: EE XXX. For &bdquo;X&ldquo;, 3 numbers are displayed &ndash; an average value of the five reaction-time measurements.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Address</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:700;text-align:center;line-height:1.0;padding-top:2px\">Code</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Mne-<br>monic</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  }
+}

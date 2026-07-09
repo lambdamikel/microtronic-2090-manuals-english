@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;font-size:13pt;line-height:1.3;color:#111;text-decoration:underline\">Errata in the Microtronic Instruction Book, Part 2</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;font-size:13pt;line-height:1.3;color:#111;text-decoration:underline\">On page 44: Timer with two switch-on and switch-off times.</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;font-size:13pt;line-height:1.3;color:#111\">The input command at address 57 must correctly read: 529 (instead of D29).</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;font-size:13pt;line-height:1.3;color:#111;text-decoration:underline\">Page 62: Computer counts frequencies</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;font-size:13pt;line-height:1.3;color:#111\">The program printed in the book ends at address 1B. It must be extended as follows:</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;font-size:13pt;line-height:1.3;color:#111\">Please excuse the oversight.</div>"
+  }
+}

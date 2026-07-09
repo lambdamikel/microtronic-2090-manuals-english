@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;text-align:right;padding-top:52px\">Second expansion stage &ndash; model-railway control</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.04;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.04\">Without changing the entire electrical wiring, our small layout can also be run in &bdquo;manual operation&ldquo; at any time. In this case we stop the program at address 25 with HALT &ndash; NEXT &ndash; 25 &ndash; RUN. Track blocks 2 and 3 are now no longer monitored, but are permanently switched on. For the point setting, any number key can be pressed.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.04\">If the green RESET key on the computer board is pressed, all outputs are switched off immediately. This blocks track blocks 2 and 3. The RESET key can be used as an &bdquo;emergency-stop key&ldquo;.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.04\">Even with this small and simple layout, the manifold possibilities of a computer control can be recognized, which with the means customary up to now (block-post control, etc.) are not achievable with this precision. As with all automated function sequences, care must be taken that, for example, all wagon couplings work perfectly, so that no unforeseen breakdowns occur due to wagons that have come to a standstill.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.04\">Our small model-railway layout becomes even more interesting when it is completed by an additional outer loop.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">With additional track material and two further pairs of points, the layout is built up as shown in the figure. The inner loop corresponds unchanged to the previous setup. All light-barrier and relay connections remain in place. It is only necessary to ensure that the light barrier L1 is arranged to the right of the newly inserted point.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">Since we still have one computer output free, we can set up a &bdquo;stopping point&ldquo; on the new outer loop in the station area, which is driven by a further relay via the 4th computer output. This outer loop is intended for long-distance trains, which only occasionally stop at the station for a certain time and then automatically continue. To achieve this, the already entered program is completed from address 2C. Additional program entry after HALT &ndash; NEXT &ndash; 2C:</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Additional program: model-railway control, 2nd stage</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:left;line-height:1.04;padding:2px 0 0 6px\">Address</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:700;text-align:left;line-height:1.04;padding:2px 0 0 6px\">Code</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:left;line-height:1.04;padding:2px 0 0 6px\">Mnemonic</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:left;line-height:1.04;padding:2px 0 0 6px\">Explanations</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;text-align:left;line-height:1.1;white-space:nowrap;padding:2px 0 0 6px\">Stop time at station, outer loop</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;text-align:left;line-height:1.1;white-space:nowrap;padding:2px 0 0 6px\">Stop before station, inner loop</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">Before we start the program, the following changes must be made to the first program part: with HALT &ndash; NEXT &ndash; 06 make the first command change, and then move on with the NEXT key to the next address to be changed, and after the last command change do not forget to press the NEXT key once more:</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">At address 06, change the command entry to <b>E2C</b> (BRZ 2C)<br>At address 15, change the command entry to <b>B35</b> (CALL 35)<br>At address 1D, change the command entry to <b>B35</b> (CALL 35)</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">All other functions remain unchanged. Program start with HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">On the outer loop, a fourth train can be operated either with the same running-current transformer with which the three other trains already run, or with an additional running-current transformer. On our layout, &bdquo;a busy hustle and bustle&ldquo; will now develop. Since the train on the outer loop only stops occasionally, the four trains running simultaneously create a fascinating impression for a layperson who does not know that it is a computer-controlled layout.</p><p style=\"margin:0.26em 0 0;font-size:10pt;line-height:1.0\">The stopping time of the express train on the outer loop is variable. It can be shortened if the command at address 2C is changed by entering 526 or 536 or 546, etc.</p></div>"
+  }
+}

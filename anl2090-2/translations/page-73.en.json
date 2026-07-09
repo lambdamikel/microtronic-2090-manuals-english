@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Program flow chart: Digital voltmeter.</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:15pt;font-weight:700;line-height:1.05;white-space:nowrap\">Computer-controlled model railway</div><div style=\"font-size:11pt;font-weight:700;line-height:1.1;margin-top:8px\">First expansion stage</div></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">It is essential to note:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.02\">The monitoring and control of a model-railway layout is an interesting application for our computer.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">Computer control offers great advantages over the relay circuits customary up to now: if, for example, the control sequence is to be changed, only a change to the computer program is necessary. A correctly executed &bdquo;hardware wiring&ldquo; remains in place unchanged. The computer takes over the fully automatic model-railway operation, and by means of a small additional program this automatic mode can be switched over to semi-automatic or manual operation. One can also intervene in automatic operation, for example when a point setting controlled by the computer is to be changed manually. This point changeover is registered by a computer input. The computer checks whether an &bdquo;accident&ldquo; could occur and diverts the possibly &bdquo;threatened&ldquo; train onto another track &ndash; the point in question can be set. If this is not possible, the planned point setting is held back until the endangered train has passed the possibly threatened spot. Only then is the manual point setting released.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">The control of so-called &bdquo;point routes&ldquo; can also be a task for the computer.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">Some model-railway enthusiasts are of the opinion that only a few connecting cables need be attached to the computer in order to achieve a fully automatically controlled model-railway operation. Now that we have in the meantime occupied ourselves intensively with the possibilities of a microcomputer, it is clear to us that various preparations must be made for such a conversion.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.02\">Since the computer works only with direct-current voltages and very small currents, in the following experiments no currents (voltages) from the railway transformer may reach the inputs or outputs of the computer. Points, track sections or other electrical items supplied by the railway transformer may therefore never be connected directly to the computer board.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">The danger is great that a careless connection will lead to the destruction of our valuable microcomputer. Thus the computer must be told, via its inputs, which tracks are occupied, in which directions the points are set, and so on. For this, no track contacts or the like may be connected to the computer. By &bdquo;interposing&ldquo; the special BUSCH relay 5964 and the BUSCH light barrier 5962, suitable aids are available to us for the computer-controlled model railway.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">First, some consideration is necessary as to how a model-railway layout is to be prepared for computer control. This is to be demonstrated on a simple track oval with a pair of points.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">On this circuit with a passing siding (station), three trains can run fully automatically and without accidents. While one train arrives at the station and stops there, the train waiting on the second track is released. The third train is on the &bdquo;line&ldquo;.</p></div>"
+  }
+}

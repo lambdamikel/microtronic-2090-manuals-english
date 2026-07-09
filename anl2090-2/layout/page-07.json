@@ -1,0 +1,1202 @@
+{
+  "page_size_px": [
+    2480,
+    3507
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        404,
+        1205,
+        498
+      ],
+      "fragments": [
+        [
+          86,
+          404,
+          1205,
+          498
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          404,
+          1205,
+          498
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        505,
+        1004,
+        700
+      ],
+      "fragments": [
+        [
+          86,
+          505,
+          1004,
+          700
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          505,
+          1004,
+          700
+        ]
+      ],
+      "text": "",
+      "tight_masks": [
+        [
+          1015,
+          695,
+          1110,
+          722
+        ],
+        [
+          1015,
+          907,
+          1110,
+          934
+        ],
+        [
+          1015,
+          1118,
+          1110,
+          1145
+        ],
+        [
+          1015,
+          1330,
+          1205,
+          1520
+        ]
+      ]
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        700,
+        1004,
+        930
+      ],
+      "fragments": [
+        [
+          86,
+          700,
+          1004,
+          930
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          700,
+          1004,
+          930
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        930,
+        1004,
+        1158
+      ],
+      "fragments": [
+        [
+          86,
+          930,
+          1004,
+          1158
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          930,
+          1004,
+          1158
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        1158,
+        1004,
+        1304
+      ],
+      "fragments": [
+        [
+          86,
+          1158,
+          1004,
+          1304
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          1158,
+          1004,
+          1304
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        1304,
+        1004,
+        1526
+      ],
+      "fragments": [
+        [
+          86,
+          1304,
+          1004,
+          1526
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          1304,
+          1004,
+          1526
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        1538,
+        1205,
+        1668
+      ],
+      "fragments": [
+        [
+          86,
+          1538,
+          1205,
+          1668
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          1538,
+          1205,
+          1668
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        1686,
+        1205,
+        2024
+      ],
+      "fragments": [
+        [
+          86,
+          1686,
+          1205,
+          2024
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          1686,
+          1205,
+          2024
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        2042,
+        1205,
+        2168
+      ],
+      "fragments": [
+        [
+          86,
+          2042,
+          1205,
+          2168
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          2042,
+          1205,
+          2168
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        2190,
+        1205,
+        2238
+      ],
+      "fragments": [
+        [
+          86,
+          2190,
+          1205,
+          2238
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          2190,
+          1205,
+          2238
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        2255,
+        1205,
+        2512
+      ],
+      "fragments": [
+        [
+          86,
+          2255,
+          1205,
+          2512
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          2255,
+          1205,
+          2512
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        2527,
+        1205,
+        2614
+      ],
+      "fragments": [
+        [
+          86,
+          2527,
+          1205,
+          2614
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          2527,
+          1205,
+          2614
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        2632,
+        1205,
+        2684
+      ],
+      "fragments": [
+        [
+          86,
+          2632,
+          1205,
+          2684
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          2632,
+          1205,
+          2684
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        86,
+        2699,
+        1205,
+        3080
+      ],
+      "fragments": [
+        [
+          86,
+          2699,
+          1205,
+          3080
+        ]
+      ],
+      "lines": [
+        [
+          86,
+          2699,
+          1205,
+          3080
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        400,
+        2405,
+        722
+      ],
+      "fragments": [
+        [
+          1240,
+          400,
+          2405,
+          722
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          400,
+          2405,
+          722
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1240,
+        832,
+        2230,
+        886
+      ],
+      "fragments": [
+        [
+          1240,
+          832,
+          2230,
+          886
+        ]
+      ],
+      "lines": [
+        [
+          1240,
+          832,
+          2230,
+          886
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        138,
+        408,
+        1196,
+        487
+      ],
+      "text": "Jetzt den Piezo-Summer (siehe Abb. unten) anschließen. Dann Programm-Start: HALT - NEXT - 00 - RUN",
+      "lines": [
+        [
+          138,
+          408,
+          1196,
+          444
+        ],
+        [
+          140,
+          450,
+          879,
+          487
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        515,
+        1187,
+        1312
+      ],
+      "text": "Das Display zeigt: 09. Dies bedeutet, daß der ıl Computer seinen ersten Spielstein auf Feld 9 setzt. Wir helfen ihm, indem wir eine rote Spiel- 8.04 marke auf Feld 9 ablegen. zlei5 Wir setzen einen weißen Stein auf Feld 3 und ge- ben die Ziffer 3 ein. Das Display zeigt jetzt: 34. 1]210 Hiermit bestätigt der Computer, daßerunserFeld slee 3 registriert hat, und daß er selbst seinen roten Stein auf Feld 4 wünscht. 7\\6|5 Damit der Computer die quer verlaufende Spiel- el21o stein-Reihe nicht auffüllen kann, setzen wireinen weißen Stein auf Ziffer 8 (8 eingeben). Das Dis- |O|@|® play meldet:81-DerComputermöchteeinenro- zlels ten Stein auf Feld 1 haben. Wir setzen z.B. unseren weißen Stein aufFeld 6 (6 ® 2|0 eingeben). Das Display meldet: CC65 und es olee ertönt ein unterbrochener Summton. olole",
+      "lines": [
+        [
+          139,
+          515,
+          1119,
+          557
+        ],
+        [
+          138,
+          556,
+          961,
+          592
+        ],
+        [
+          138,
+          587,
+          1180,
+          632
+        ],
+        [
+          139,
+          639,
+          1179,
+          675
+        ],
+        [
+          137,
+          704,
+          963,
+          739
+        ],
+        [
+          139,
+          741,
+          1185,
+          781
+        ],
+        [
+          138,
+          787,
+          1185,
+          828
+        ],
+        [
+          138,
+          828,
+          959,
+          865
+        ],
+        [
+          138,
+          860,
+          1178,
+          900
+        ],
+        [
+          138,
+          934,
+          1186,
+          984
+        ],
+        [
+          137,
+          975,
+          959,
+          1009
+        ],
+        [
+          136,
+          1010,
+          1185,
+          1052
+        ],
+        [
+          139,
+          1058,
+          1178,
+          1095
+        ],
+        [
+          136,
+          1100,
+          600,
+          1130
+        ],
+        [
+          136,
+          1163,
+          1185,
+          1198
+        ],
+        [
+          137,
+          1206,
+          1185,
+          1253
+        ],
+        [
+          137,
+          1247,
+          1187,
+          1312
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1312,
+        962,
+        1515
+      ],
+      "text": "Die Meldung CC65 besagt, daß der Computer seinen nächsten roten Stein aufdasFeld 5 abset- zen wird, wodurch jetzt 3 rote Steine in einer dia- gonalen Reihe angeordnet sind. Der Computer hat gewonnen.",
+      "lines": [
+        [
+          137,
+          1312,
+          962,
+          1349
+        ],
+        [
+          137,
+          1354,
+          962,
+          1384
+        ],
+        [
+          136,
+          1395,
+          962,
+          1431
+        ],
+        [
+          136,
+          1436,
+          962,
+          1474
+        ],
+        [
+          138,
+          1480,
+          389,
+          1515
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1542,
+        1196,
+        1657
+      ],
+      "text": "Sobald eine beliebige Zahlen-Taste betätigt wird, kann ein neues Spiel begonnen werden, wobei der Computer seinen ersten Stein wieder auf dem Feld 9 absetzt.",
+      "lines": [
+        [
+          136,
+          1542,
+          1196,
+          1579
+        ],
+        [
+          138,
+          1583,
+          1196,
+          1620
+        ],
+        [
+          136,
+          1626,
+          884,
+          1657
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        1689,
+        1200,
+        2017
+      ],
+      "text": "Sollte es uns gelingen, ein „Unentschieden” zu erkämpfen, meldet das Display: EE und zweimal die Ziffer, die wir als letztes eingegeben haben. Dies wäre auch die Ziffer gewesen, welche der Computer zu einem Sieg benötigt hätte. Nachdem keiner der Spieler eine fortlaufende Reihe erreichen kann, wird das Spiel mit „Unentschieden” abgebrochen. Es ertönt ein Dauer- ton solange, bis durch die Betätigung einer Zahlen-Taste ein neues Spiel beginnt.",
+      "lines": [
+        [
+          136,
+          1689,
+          1197,
+          1728
+        ],
+        [
+          137,
+          1731,
+          1197,
+          1769
+        ],
+        [
+          136,
+          1772,
+          1197,
+          1811
+        ],
+        [
+          136,
+          1814,
+          1199,
+          1852
+        ],
+        [
+          136,
+          1855,
+          1198,
+          1893
+        ],
+        [
+          136,
+          1898,
+          1200,
+          1935
+        ],
+        [
+          135,
+          1939,
+          1196,
+          1976
+        ],
+        [
+          137,
+          1982,
+          489,
+          2017
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        2045,
+        1200,
+        2164
+      ],
+      "text": "Wir werden feststellen, daß es unmöglich ist, gegen den Com- puter zu gewinnen. Ein „Unentschieden” ist die beste Möglich- keit, die von uns erreicht werden kann.",
+      "lines": [
+        [
+          134,
+          2045,
+          1200,
+          2082
+        ],
+        [
+          137,
+          2087,
+          1200,
+          2124
+        ],
+        [
+          137,
+          2130,
+          805,
+          2164
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        2195,
+        806,
+        2230
+      ],
+      "text": "Das interessiert den Programmierer:",
+      "lines": [
+        [
+          136,
+          2195,
+          806,
+          2230
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        134,
+        2258,
+        1200,
+        2503
+      ],
+      "text": "Die eigentlichen Berechnungen des Computers werden in einem Unterprogramm vorgenommen (von Adresse 2B bis Adresse 39). Diese Subroutine „BERE” (BERECHNUNG) ist auch im Programm-Ablaufplan dargestellt. Die Subroutine „BERE” wird von den Adressen 0OC oder 11 oder 23angesprun- gen.",
+      "lines": [
+        [
+          136,
+          2258,
+          1196,
+          2296
+        ],
+        [
+          135,
+          2300,
+          1198,
+          2336
+        ],
+        [
+          134,
+          2341,
+          1198,
+          2378
+        ],
+        [
+          134,
+          2382,
+          1197,
+          2420
+        ],
+        [
+          136,
+          2424,
+          1200,
+          2460
+        ],
+        [
+          135,
+          2475,
+          205,
+          2503
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        133,
+        2529,
+        1199,
+        2607
+      ],
+      "text": "Zunächst wird der Wert des Registers D ins Register C gespei- chert. Danach berechnet der Computer folgende Formel:",
+      "lines": [
+        [
+          133,
+          2529,
+          1199,
+          2566
+        ],
+        [
+          134,
+          2571,
+          1123,
+          2607
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        133,
+        2695,
+        1200,
+        3071
+      ],
+      "text": "Der Wert in Register D wird um den Wert 1 verkleinert und durch 8 dividiert. Angenommen, in Register D steht der Wert 4, wird dieser Wert um 1 vermindert, verbleiben 3. 3+-8 ergibt O Rest 3. Der Restwert wird bei den folgenden Berechnungen nicht be- nötigt, weshalb die folgende Berechnung: 8x 0 = 0 ergibt. Nachdem im Register C der Wert 4 vorhanden war, der Wert O abgezogen wird, bleiben 4 übrig. Durch diese intelligente For- mel wird sichergestellt, daß immer ein Feld zwischen 1 und 9 möglichst in einer Reihe oder in einer Diagonalen besetzt wird.",
+      "lines": [
+        [
+          134,
+          2695,
+          1195,
+          2738
+        ],
+        [
+          134,
+          2742,
+          1196,
+          2780
+        ],
+        [
+          133,
+          2784,
+          1196,
+          2820
+        ],
+        [
+          134,
+          2825,
+          1200,
+          2862
+        ],
+        [
+          135,
+          2866,
+          1196,
+          2904
+        ],
+        [
+          134,
+          2908,
+          1197,
+          2945
+        ],
+        [
+          133,
+          2950,
+          1200,
+          2987
+        ],
+        [
+          134,
+          2990,
+          1197,
+          3028
+        ],
+        [
+          134,
+          3032,
+          1196,
+          3071
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1254,
+        403,
+        2320,
+        443
+      ],
+      "text": "Der Vergleich Programm-Tabelle mit Programm-Ablaufplan",
+      "lines": [],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        447,
+        1868,
+        485
+      ],
+      "text": "zeigt uns die einzelnen Funktionen.",
+      "lines": [
+        [
+          1259,
+          447,
+          1868,
+          485
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        509,
+        2324,
+        715
+      ],
+      "text": "Bei der Programm-Tabelle wurden in der Spalte „Sprung-Ziel” kenntlich gemacht, bei welchen Adressen die angesprunge- nen Programm-Teile, bzw. Unter-Programme (Subroutine) be- ginnen. In der Spalte „Sprung nach” wurde ebenfalls kenntlich gemacht, bei welchen Adressen die Sprünge beginnen.",
+      "lines": [
+        [
+          1261,
+          509,
+          2320,
+          549
+        ],
+        [
+          1262,
+          551,
+          2323,
+          590
+        ],
+        [
+          1262,
+          592,
+          2324,
+          632
+        ],
+        [
+          1261,
+          633,
+          2319,
+          674
+        ],
+        [
+          1260,
+          675,
+          2224,
+          715
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1260,
+        838,
+        1934,
+        876
+      ],
+      "text": "Programm-Ablaufplan = Tic-Tac-Toe",
+      "lines": [
+        [
+          1260,
+          838,
+          1934,
+          876
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1337,
+        1005,
+        1485,
+        1054
+      ],
+      "text": "alle Register löschen",
+      "lines": [
+        [
+          1337,
+          1005,
+          1485,
+          1030
+        ],
+        [
+          1364,
+          1034,
+          1457,
+          1054
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1337,
+        1063,
+        1481,
+        1111
+      ],
+      "text": "Ausgänge ausschalten",
+      "lines": [
+        [
+          1350,
+          1063,
+          1469,
+          1087
+        ],
+        [
+          1337,
+          1092,
+          1481,
+          1111
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1351,
+        1233,
+        1477,
+        1254
+      ],
+      "text": "R8 und R9",
+      "lines": [
+        [
+          1351,
+          1233,
+          1477,
+          1254
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1360,
+        1267,
+        1466,
+        1282
+      ],
+      "text": "anzeigen",
+      "lines": [
+        [
+          1360,
+          1267,
+          1466,
+          1282
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1303,
+        2135,
+        2026,
+        2581
+      ],
+      "text": "anzeigen Subroutine „Unent- „BERE\" schieden” ur ( ENDE ) Ja DIV Nein RC R8 C»RA C»+RB",
+      "lines": [
+        [
+          1588,
+          2135,
+          1694,
+          2159
+        ],
+        [
+          1338,
+          2156,
+          1688,
+          2189
+        ],
+        [
+          1360,
+          2183,
+          2009,
+          2218
+        ],
+        [
+          1570,
+          2260,
+          1720,
+          2288
+        ],
+        [
+          1303,
+          2292,
+          1329,
+          2312
+        ],
+        [
+          1986,
+          2316,
+          2026,
+          2335
+        ],
+        [
+          1424,
+          2376,
+          1476,
+          2396
+        ],
+        [
+          1363,
+          2433,
+          1462,
+          2453
+        ],
+        [
+          1371,
+          2532,
+          1457,
+          2552
+        ],
+        [
+          1371,
+          2561,
+          1456,
+          2581
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1339,
+        2674,
+        1461,
+        2723
+      ],
+      "text": "anzeigen Como. hat",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1340,
+        2730,
+        2073,
+        2771
+      ],
+      "text": "gewonnen RC=RC-RO",
+      "lines": [
+        [
+          1340,
+          2730,
+          2073,
+          2771
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1963,
+        2828,
+        2042,
+        2848
+      ],
+      "text": "Return",
+      "lines": [
+        [
+          1963,
+          2828,
+          2042,
+          2848
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

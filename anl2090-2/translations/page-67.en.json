@@ -1,0 +1,42 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:12.5pt;font-weight:700;line-height:1.1\">A highly interesting experiment</div><div style=\"font-size:18pt;font-weight:700;line-height:1.05;margin-top:4px\">Reaction-time meter</div></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Reaction-time meter</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Connection of the astable multivibrator (from page 62) to the computer</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">to the astable multivibrator</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">The multivibrator (astable multivibrator) of the previous experiment remains in place unchanged. On the computer board, make the connections as shown in the figure. The plus and minus leads of the multivibrator to the computer board are also shown in the figure. The piezo buzzer is connected only after programming. The program is entered as usual.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.15;text-align:left\"><p style=\"margin:0;font-size:11pt;line-height:1.15\">Program continues &mdash;<br>please see next page!</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Address</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:700;text-align:center;line-height:1.0;padding-top:2px\">Code</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Mne-<br>monic</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.03\">minutes (without seconds). The piezo buzzer sounds as soon as the first switch-on time is reached. The buzzer can be silenced with the red button G. The red button has to be held down for about 1 second. During the first switch-on minute, however, the buzzer sounds again after one second &mdash; i.e. during the switch-on minute the red button must be held down continuously if the buzzer is not to sound. As soon as the next full minute is shown on the display, the buzzer can be switched off for good, or switched back on, with the red button G. This switch-on option, independent of the set time, is of interest for the following experiments.</p><p style=\"margin:0.4em 0 0;font-size:10.5pt;line-height:1.03\">When the first switch-on time has been turned off by pressing G, the computer signals again as soon as the second switch-on time is reached. The buzzer can now be silenced with the red button H, where again button H must be held down continuously during the set switching minute in order to stop the buzzing. After the switching minute has elapsed, button H likewise serves to switch the buzzer off or on for good.</p><p style=\"margin:0.4em 0 0;font-size:10.5pt;line-height:1.03\">At the first switch-on time, the LEDs at output 1 and 3 light up. At the second switch-on time, the LEDs at outputs 2 and 3 light up. With the red button G, outputs 1 and 3 can thus be switched on or off, and with button H outputs 2 and 3.</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Practical application: alarm clock with 2 alarm times</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.0\">Our timer clock is an ideal alarm clock for anyone who doesn&rsquo;t leap out of bed at the very first tone in the early morning.</p><p style=\"margin:0.28em 0 0;font-size:9.5pt;line-height:1.0\">Example: with button C, set the first alarm time to 06:30.</p><p style=\"margin:0.28em 0 0;font-size:9.5pt;line-height:1.0\">With button D, enter the first switch-off time 06:31. With button E, enter the second alarm time 06:45. With button F, enter the end of the second alarm time 07:00. Put the alarm clock into operation with button A.</p><p style=\"margin:0.28em 0 0;font-size:9.5pt;line-height:1.0\">The alarm goes off at 6:30 in the morning. It buzzes for one minute. Anyone who wants to sleep on must hold button G down between 6:30 and 6:31. If the buzzing doesn&rsquo;t disturb you, the alarm clock switches off by itself at 6:31. At 6:45 the second wake-up begins. If button H is not pressed, the alarm buzzes for 15 minutes and then switches off automatically. If the alarm times are not changed, the computer signals again at the set time the next morning.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Changing the switching times</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.03\">To change the switching times, both buttons G and H must be pressed at the same time. The display shows 0 again, and we can now use buttons C, D, E and F to display the set times, or change them by entering new ones. After finishing the display or the change, the corresponding letter button is pressed once more in each case. With button A, the timer clock is put back into operation.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">MW radio for connection to the timer clock</div>"
+  }
+}

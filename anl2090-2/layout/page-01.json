@@ -1,0 +1,141 @@
+{
+  "page_size_px": [
+    2480,
+    3507
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        1562,
+        832,
+        2300,
+        1012
+      ],
+      "fragments": [
+        [
+          1562,
+          832,
+          2300,
+          1012
+        ]
+      ],
+      "lines": [
+        [
+          1562,
+          832,
+          2300,
+          1012
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        60,
+        1062,
+        2420,
+        1330
+      ],
+      "fragments": [
+        [
+          60,
+          1062,
+          2420,
+          1330
+        ]
+      ],
+      "lines": [
+        [
+          60,
+          1062,
+          2420,
+          1330
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        156,
+        111,
+        2326,
+        310
+      ],
+      "text": "microtronic computer system",
+      "lines": [
+        [
+          156,
+          111,
+          2326,
+          310
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1559,
+        830,
+        2291,
+        1014
+      ],
+      "text": "Anleitungsbuch 2. Teil",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        146,
+        1130,
+        2334,
+        1307
+      ],
+      "text": "Programmieren - Experimentieren — spielend lernen wie ein Computer funktioniert.",
+      "lines": [
+        [
+          152,
+          1130,
+          2334,
+          1213
+        ],
+        [
+          146,
+          1225,
+          1401,
+          1307
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1568,
+        3146,
+        2221,
+        3221
+      ],
+      "text": "In Zusammenarbeit mit N dem Elektronik-Magazin",
+      "lines": [
+        [
+          1848,
+          3146,
+          2201,
+          3172
+        ],
+        [
+          1568,
+          3151,
+          2221,
+          3221
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

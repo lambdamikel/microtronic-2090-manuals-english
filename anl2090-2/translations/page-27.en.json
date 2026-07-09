@@ -1,0 +1,138 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap\">Color values of a resistor</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;white-space:nowrap\">Resistor color-code table</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:400;white-space:nowrap;text-align:center\">yellow</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:400;white-space:nowrap;text-align:center\">violet</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:400;white-space:nowrap;text-align:center\">black</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:400;white-space:nowrap;text-align:center\">gold</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.1\">(points to<br>the right)</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">On the computer board, a whole lot of resistors are arranged whose values can be calculated in this way. It is important that, on principle, 4 colors are always entered. For resistors that have only three color rings, black is entered as the fourth color.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If, for example, the display shows, after entering: yellow &ndash; blue &ndash; violet &ndash; silver: 00460B, then the designation B means that this is a resistor of 460 M&Omega; (megohms). One megohm is one million ohms.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The entry: red &ndash; orange &ndash; yellow &ndash; gold yields the result 230A. A means k&Omega; (kilohms), i.e. that the calculated resistance value is 230 k&Omega;. One kilohm is one thousand ohms.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap\">This is of interest to the programmer:</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The function of this program quickly becomes clear to us when we look at the resistor color-code table below. We see that the first and second rings each represent a certain value depending on the color. The third color ring indicates by how many zeros the values are to be supplemented.</p></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap\">Ring</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Gold</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Silver</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Black</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Brown</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Red</div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Orange</div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Yellow</div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Green</div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Blue</div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Violet</div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">Gray</div>"
+  },
+  "24": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;white-space:nowrap\">White</div>"
+  },
+  "25": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">(tolerance)</div>"
+  },
+  "26": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If we were to enter, for example, the color red three times, the result is <b>2200</b>. A resistor with the three color rings red thus has 2200 &Omega;.</p></div>"
+  },
+  "27": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If we enter, for example: yellow &ndash; violet &ndash; red &ndash; gold, then we have actually entered the values 4 &ndash; 7 &ndash; 2 &ndash; B. (For this observation, only the attached keypad mask would have to be removed.)</p></div>"
+  },
+  "28": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The display thus shows us the first two entered digits directly. For the third entered digit, the number of zeros must be determined, and only for the tolerance specification B must the corresponding values be determined.</p></div>"
+  },
+  "29": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The entry is made into registers 1 to 4. Registers 3 and 4 are displayed directly. Register 2 holds the number of zeros to be shown. The displayed values of registers 3 and 4 must therefore be shifted to the left on the display by the corresponding number of zeros. With the entry yellow &ndash; violet &ndash; red, the correct result is obtained immediately: 4700 &Omega;.</p></div>"
+  },
+  "30": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">So that the 6 display positions available on the display are sufficient, an A (kilo) is used for three zeros, or a B (mega) for six zeros. The displayed result is in registers 3 to 8.</p></div>"
+  },
+  "31": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The tolerance is determined by comparison and stored in registers E and F until it is displayed by pressing the arrow key again. See also the program flow chart.</p></div>"
+  },
+  "32": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The program example &bdquo;Resistance Code Calculation&ldquo; shows how, through logical reasoning, ideal problem solutions can be achieved with a very simple program.</p></div>"
+  },
+  "33": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;line-height:1.14;white-space:nowrap\">Program flow chart:<br>Resistance Code Calculation</div>"
+  }
+}

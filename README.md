@@ -1,16 +1,20 @@
 # Busch Microtronic 2090 — Computer System Manual (English)
 
-An English translation of the **Busch Microtronic 2090** *Computer System* instruction
-book (Part 1), the manual for Busch's 1981 4‑bit educational microcomputer kit. The English
-text is overlaid onto the original scanned pages, so the layout, figures, cartoons and
-program listings are preserved exactly as in the German original.
+An English translation of the **Busch Microtronic 2090** *Computer System* instruction book,
+the manual for Busch's 1981 4‑bit educational microcomputer kit. Both parts are included:
+**Part 1** (*Introduction to microprocessor and computer technology*, 82 pp) and **Part 2**
+(*An interesting selection of large computer programs*, 83 pp). The English text is overlaid
+onto the original scanned pages, so the layout, figures, cartoons and program listings are
+preserved exactly as in the German original.
 
 ## 📚 Read the manual
 
 | | |
 |---|---|
-| 📖 **Manual — PDF** | **[Busch_Microtronic_2090_Manual_EN.pdf](Busch_Microtronic_2090_Manual_EN.pdf)** — full 82‑page manual (Part 1), A4 |
-| 🌐 **Manual — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/>** — read in your browser, with a clickable table of contents |
+| 📖 **Part 1 — PDF** | **[Busch_Microtronic_2090_Manual_EN.pdf](Busch_Microtronic_2090_Manual_EN.pdf)** — full 82‑page manual (Part 1), A4 |
+| 🌐 **Part 1 — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/>** — read in your browser, with a clickable table of contents |
+| 📖 **Part 2 — PDF** | **[Busch_Microtronic_2090_Manual_Part2_EN.pdf](Busch_Microtronic_2090_Manual_Part2_EN.pdf)** — full 83‑page manual (Part 2), A4 |
+| 🌐 **Part 2 — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/part2.html>** — the large‑program collection, with a clickable table of contents |
 | 📑 **Program Tables / quick reference** | the bookmark insert (Busch Nr. 20904): **[PDF](Busch_Microtronic_2090_Program_Tables_EN.pdf)** · **[HTML](https://lambdamikel.github.io/microtronic-2090-manuals-english/program-tables.html)** — instruction set, function keys, number‑system conversion tables |
 
 ## Copyright & permission
@@ -34,11 +38,15 @@ See [COPYRIGHT.md](COPYRIGHT.md) for details.
 This English edition was produced by **Claude Opus 4.8** (Anthropic) running as an *agentic*
 coding assistant in Claude Code, directed page‑by‑page by Michael Wessel. Rather than
 re‑typesetting the book, the goal was to keep the original 1981 layout perfectly intact: for
-each of the 82 scanned pages the AI looked at the page image, translated the German, and wrote
-a precise overlay that masks the German with white and prints the English in its place — while
-leaving every figure, photograph, cartoon (with its hand‑lettered German speech bubbles) and
-circuit diagram untouched. Program listings and data tables were re‑drawn in English, and the
-red cover banners and the two‑column table of contents were rebuilt to match the originals.
+each of the 165 scanned pages across both parts the AI looked at the page image, translated
+the German, and wrote a precise overlay that masks the German with white and prints the
+English in its place — while leaving every figure, photograph, cartoon (with its
+hand‑lettered German speech bubbles) and circuit diagram untouched. Program listings and data
+tables were re‑drawn in English, and the red cover banners and the two‑column table of
+contents were rebuilt to match the originals. Part 2 added its own challenges — long two‑page
+machine‑code program listings with a translated "Explanation" column, model‑railway wiring
+schematics, flow charts (kept in German by design) and the BUSCH product‑catalogue back
+matter, including a white‑on‑red back‑cover advert.
 
 The work ran as a tight build‑and‑inspect loop. A small Python pipeline (extract layout →
 write the English JSON → auto‑fit tables → render HTML → PDF via headless Chrome) does the
@@ -61,20 +69,28 @@ The pipeline (in `anl2090-1/tools/`):
 | `check_graphics.py` | flag any figure/line accidentally covered by a text mask |
 | `make_site.py` | wrap the rendered HTML into this GitHub Pages site (lazy images, anchors, TOC) |
 
-Data lives alongside the tools: `anl2090-1/pages/` (scans), `anl2090-1/layout/` (block
-geometry), `anl2090-1/translations/` (the English text), `anl2090-1/contents.json` (TOC).
+Data lives alongside the tools in each part's folder (`anl2090-1/` for Part 1, `anl2090-2/`
+for Part 2): `pages/` (scans), `layout/` (block geometry), `translations/` (the English text),
+`contents.json` (TOC). Part 2 was built with the same pipeline plus a small
+`mark_text.py` / `page_build.py` "mark‑then‑translate" step: Michael marks the translatable
+text rectangles on each scan and the AI fills, translates and lays out the English overlay.
 
-Rebuild the site locally:
+Rebuild the sites locally:
 
 ```bash
+# Part 1
 python3 anl2090-1/tools/build_page_html.py --root anl2090-1 --pages 1-82 --out index.html
 python3 anl2090-1/tools/make_site.py index.html
+
+# Part 2
+python3 anl2090-2/tools/build_page_html.py --root anl2090-2 --pages 1-83 --out part2.html
+python3 anl2090-2/tools/make_site.py part2.html
 ```
 
 ## Roadmap
 
-- [x] **Part 1** — *Introduction to microprocessor and computer technology* (this manual)
-- [ ] **Part 2** — *An interesting selection of large computer programs*
+- [x] **Part 1** — *Introduction to microprocessor and computer technology*
+- [x] **Part 2** — *An interesting selection of large computer programs*
 - [ ] The **"Computerspiele"** (computer games) book
 
 ## Credits

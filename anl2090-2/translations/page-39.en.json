@@ -1,0 +1,42 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:17pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Calculating the Biorhythm</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Supplementary program: Biorhythm</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Label</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Adr.</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.0\">Code</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Mnemonic</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Jump to</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">The theory of biorhythm holds that in every person 3 different, constantly repeating cycles run their course, all beginning on the day of birth.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">The first cycle, also called the physical or bodily rhythm, has a length of 23 days. The second cycle, the psychic or emotional rhythm, has a length of 28 days. The third cycle, an intellectual rhythm, has a length of 33 days.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">Since the biorhythm assumes that a person's physical, emotional, and intellectual life runs in wave-like highs and lows that can be precisely delimited by the day, the &bdquo;better&ldquo; and &bdquo;worse&ldquo; days can be derived from the biorhythm.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">If we are in the first half of the biorhythm, we are in a good phase. In the second half of the rhythm, our intellectual and physical constitution is supposedly somewhat poorer.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">For an athlete the physical rhythm might be of primary interest, while for someone who works intellectually the intellectual rhythm can play a more essential role. In general, a person feels better the more rhythms are in the first half of their cycle.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">How far the controversial doctrine of biorhythm (by W. Flie&szlig; and H. R. Fr&uuml;h) is reliably applicable shall be left open. For the computer, determining the personal biorhythm gives rise to very manifold arithmetic operations.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">We can determine our biorhythmic constitution with the following program.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">The program already entered, &bdquo;Calculating the days between two dates&ldquo;, stays in place. However, from address 51 up to address 87 it is changed or extended.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:0.96\">We begin the modification programming after HALT &ndash; NEXT &ndash; 51:</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.99;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.99\">By entering this part of the program, our program memory is now &bdquo;filled&ldquo; from address 00 up to the last possible address FF.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.99;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.99\">Program start with HALT &ndash; NEXT &ndash; 00. The display shows: 000000.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:0.99\">As an example, we want to calculate the biorhythm of a person born on 2 July 1952. The calculation should show us whether better or worse cycle-days are to be expected on 24 December 1982.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:0.99\">As in the previous experiments, the birth year and month (195207) are entered first. After pressing key A, wait until the display shows 00, then enter the birthday (02 &ndash; the 0 must not be forgotten). The second date of interest now follows in the same way: first the year and month (198212) are entered. Press key A &ndash; wait until the display shows 00, then enter the day (24).</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:0.99\">Once we have entered the dates mentioned above, the display now shows E, as the digit for the physical rhythm.</p></div>"
+  }
+}

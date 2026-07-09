@@ -1,0 +1,62 @@
+{
+  "0": {
+    "de": "",
+    "en": "<table class=\"timer\"><tr><th style=\"white-space:nowrap\">Label</th><th style=\"white-space:nowrap\">Addr.</th><th style=\"white-space:nowrap\">Code</th><th style=\"white-space:nowrap\">Mnemonic</th><th style=\"white-space:nowrap\">Jump&nbsp;to</th></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">62</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;V3&ldquo;</td><td class=\"a\">63</td><td class=\"c\">8D4</td><td class=\"m\">CMP D,4</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">64</td><td class=\"c\">E66</td><td class=\"m\">BRZ 66</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">65</td><td class=\"c\">C68</td><td class=\"m\">GOTO 68</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">66</td><td class=\"c\">8E5</td><td class=\"m\">CMP E,5</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">67</td><td class=\"c\">E74</td><td class=\"m\">BRZ 74</td><td style=\"white-space:nowrap\">&bdquo;STC&ldquo;</td></tr><tr><td style=\"white-space:nowrap\">&bdquo;V2&ldquo;</td><td class=\"a\">68</td><td class=\"c\">8D2</td><td class=\"m\">CMP D,2</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">69</td><td class=\"c\">E6B</td><td class=\"m\">BRZ 6B</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6A</td><td class=\"c\">C6D</td><td class=\"m\">GOTO 6D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6B</td><td class=\"c\">8E3</td><td class=\"m\">CMP E,3</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6C</td><td class=\"c\">E74</td><td class=\"m\">BRZ 74</td><td style=\"white-space:nowrap\">&bdquo;STC&ldquo;</td></tr><tr><td style=\"white-space:nowrap\">&bdquo;V1&ldquo;</td><td class=\"a\">6D</td><td class=\"c\">8D0</td><td class=\"m\">CMP D,0</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6E</td><td class=\"c\">E70</td><td class=\"m\">BRZ 70</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6F</td><td class=\"c\">C72</td><td class=\"m\">GOTO 72</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">70</td><td class=\"c\">8E1</td><td class=\"m\">CMP E,1</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">71</td><td class=\"c\">E74</td><td class=\"m\">BRZ 74</td><td style=\"white-space:nowrap\">&bdquo;STC&ldquo;</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">72</td><td class=\"c\">F0A</td><td class=\"m\">RSC</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">73</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;STC&ldquo;</td><td class=\"a\">74</td><td class=\"c\">F09</td><td class=\"m\">STC</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">75</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr></table>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Reconnect the piezo buzzer, then start the program: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The display stays dark for 2 to 3 seconds. The computer is working, as can be seen from the blinking Carry and Zero flags. The display then shows: 00.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Meanwhile the computer has &mdash; invisibly to us &mdash; distributed the 4 ships across the playing field. The distribution is made using the random-number generator. The ships are therefore hidden in a different arrangement in every game. Let us assume that the ships are located at the positions marked with crosses on the playing plan (see fig.).</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We can enter two digits. The first digit applies only to the vertical playing-field numbers, the second digit to the horizontal playing-field numbers. As an example we enter 42. The computer responds with a short tone and shows 42. In our example this shot was not a hit.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If we were now to enter, for example, 15, the computer produces an interval tone and the display reports: AA15. The first ship has been sunk. If we then entered the same number combination once more, no hit would be reported at this point, because the ship has already been sunk.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">As soon as the fourth ship has also been hit, the computer reports back with the interval tone and 3 digits are shown on the display. We can read off how many attempts were needed to hit all 4 ships.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">After pressing any number key, 4 ships are hidden again, the display shows 00 once more, and a new game can begin.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700\">This is of interest to the programmer:</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We compare the description with the program flow chart and the program table.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The game is relatively easy to program, because there is no special winning strategy. First the ships must be distributed. Random numbers between 1 and 5 are stored in registers 0 to 7. The coordinates of the first ship are in registers 0 and 1, those of the second ship in registers 2 and 3, and so on.</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">By means of the <b>subroutines</b> designated <b>V1</b> (V = COMPARE), <b>V2</b> and <b>V3</b>, it is ensured that no square is occupied twice when the ships are distributed.</p></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The entered coordinates are then stored in registers 8 and 9. Comparison commands are used to check whether the entered coordinates match the coordinates of a hidden ship.</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">By means of the <b>subroutine RND</b> a random number is stored in registers D, E and F. The random numbers in registers D and E yield the coordinates of the hidden ships, which is why only the numbers between 1 and 5 are usable. Comparisons are used to check whether a random number of 0 or greater than 5 appears in these registers. If &bdquo;yes&ldquo;, the value 9 is added to register D (or the value 3 to register E) for as long as it takes until both random numbers have values between 1 and 5.</p></div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700\"><b>Flow chart Sea Battle</b> (see page 8)</div>"
+  }
+}

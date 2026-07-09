@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">BUSCH mains-power switching unit 2087</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Connecting the 2087 mains-power switching unit to a computer output</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">Since each computer output can be driven individually with appropriate programming, up to 4 relays can be connected. Each relay requires one 1 k&Omega; resistor and one transistor.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">Besides many other uses, the computer &mdash; together with BUSCH Electronic Studios and the 2087 switching unit &mdash; can, for example, simulate the presence of a house&rsquo;s occupants during a holiday absence. A photoresistor switches a light on at nightfall, which switches off again at dawn. A noise-sensitive circuit provides temporary extra lighting whenever a certain noise level is exceeded. Programmed as a timer, the computer can also handle two further on/off actions, with separate times settable. A secured door triggers an alarm tone as soon as the door is opened.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">The following program examples are meant only as suggestions. Listing and explaining every possible application would go beyond the scope of this instruction book. For owners of additional BUSCH Electronic Studios, countless possibilities open up.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.0\">This switching unit, too, can be driven with low current (6&ndash;9 volts). Via a relay it triggers switching operations in the 220 V mains lighting circuit (220 V, max. 1000 watts). With two resistors and a transistor (see figure), the unit is connected to a computer output.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.0\">The 2087 switching unit complies with the VDE regulations. It is completely safe to use, because the 220 V mains section is fully isolated from the low-current side.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.0\">The 2087 switching unit is an &bdquo;on/off switch&ldquo;. As soon as a small control voltage is present, the relay closes a 220 V circuit; this circuit is switched off again when the control voltage is interrupted. The relay is designed for 20 million switching operations and can run continuously. It switches radios, tape recorders, warning systems, fan heaters and all electrical devices rated up to 1000 watts on and off. If devices with a higher rating are switched, a considerable drop in switching capacity must be expected, so when connecting fan heaters and the like it is essential to ensure that the 1000-watt limit is not exceeded.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.0\">Up to 4 mains-power switching units 2087 can be connected to the computer outputs. Each unit requires two resistors and one transistor.</p></div>"
+  }
+}

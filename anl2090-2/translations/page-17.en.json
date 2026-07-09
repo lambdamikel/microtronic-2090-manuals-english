@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">With an &bdquo;unsafe position&ldquo; the result would not be 0000. This is to be shown likewise in binary with the pile sizes: 2 &ndash; 4 &ndash; 5:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"text-align:right\"><table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse;display:inline-table\"><tr><td style=\"text-align:left;white-space:nowrap;padding:.2mm .6mm .2mm 0;\"></td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">2</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">0010</td></tr><tr><td style=\"text-align:left;white-space:nowrap;padding:.2mm .6mm .2mm 0;\">+</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">4</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">0100</td></tr><tr><td style=\"text-align:left;white-space:nowrap;padding:.2mm .6mm .2mm 0;\">+</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">5</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;\">0101</td></tr><tr><td style=\"text-align:left;white-space:nowrap;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\"></td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\"></td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">binary</td><td style=\"text-align:right;white-space:nowrap;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0011</td></tr></table></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;white-space:nowrap\">An AND/OR combination yields</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">From the examples we see that with the binary values, an &bdquo;addition&ldquo; gives the following: 0 + 0 + 0 = 0. Or: 0 + 1 + 1 = 0. Or (see the third example with pile sizes 2 &ndash; 4 &ndash; 5): 1 + 0 + 0 = 1. Or: 0 + 0 + 1 = 1. Three times 0 added gives 0. A 0 and the digit 1 twice, added together, likewise gives 0. However, the digit 0 twice plus a 1 added together gives 1.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The binary digit positions were &bdquo;added without carry&ldquo;. An addition without carry is a so-called <b>XOR</b> (exclusive or) operation, which can be achieved by means of several AND and OR commands.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In a simplified program flow we have shown which arithmetic operations the computer must carry out in order to arrive at a &bdquo;safe position&ldquo;. To the right of the flow chart, the calculation examples are shown in decimal and binary. We assume that the three pile sizes have the values (number of matchsticks): 2 &nbsp; 4 &nbsp; 5.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">When skill level 1 was entered, it was easily possible to win against the computer. From the preceding presentation we know that the computer always tries to compute a &bdquo;safe position&ldquo; by forming &bdquo;pairs&ldquo;. If at skill level 3 we enter, for example, pile sizes for which a pair results (e.g. 0 6 6), it is no longer possible to win against the computer. Let us try it out!</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Insight: A &bdquo;safe position&ldquo; for the player against the computer cannot be reached if, already at the start of the game (or during the course of the game), the computer has reached a &bdquo;safe position&ldquo; through &bdquo;pair formation&ldquo;. As long as the computer does not reach a &bdquo;safe position&ldquo;, it makes a &bdquo;default move&ldquo; by taking only 1 matchstick from one of the three piles, in the hope that the opponent does not pay attention, so as to still reach a &bdquo;safe position&ldquo; during the course of play after all.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">To better understand the entire program flow, let us look at the program flow chart in individual sections.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.0;text-align:justify\"><p style=\"margin:0\">Figure 1 shows, on the left side, the entry of the skill level and the entry of the pile sizes. On the right side it is demonstrated what happens as soon as a player takes a matchstick from a pile. Above all it is checked whether the removed number of matchsticks is permissible at all (e.g. whether 0 is taken, or whether more matchsticks are taken from a pile than are present). Then the corresponding number of matchsticks is subtracted from the corresponding pile, and a jump to the <b>subroutine</b> (subprogram) &bdquo;GEW&ldquo; (= WIN-CHECK) takes place, where it is checked whether the player has won.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700\">&bdquo;Take 2&ldquo; Figure 1</div>"
+  }
+}

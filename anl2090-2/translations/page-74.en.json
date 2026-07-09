@@ -1,0 +1,98 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Circuit diagram: IR light-barrier amplifier</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Assembly plan: IR light-barrier amplifier</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Light-barrier amplifier symbol</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.03\">The circuit is divided, as shown in the figure, into three &bdquo;blocks&ldquo;. The computer must then check and calculate which track block is to be blocked or released and how the points are to be set.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.03\">All manufacturers of model railways offer easily realizable ways of dividing the track routes into individual block sections by means of appropriate insulating pieces.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.03\">The BUSCH light barriers No. 5962 are ideally suited for the &bdquo;monitoring&ldquo; of the individual track blocks. They are not only relatively inexpensive, but also provide the contactless data transmission required for the computer. A light barrier consists of a small infrared transmitter and receiver, which are mounted opposite each other on a track section to be monitored. When a train passes through, a signal is triggered which is evaluated by the computer. For this, a simple amplifier circuit consisting of one transistor and three resistors is required. Owners of a BUSCH Electronic Studio can easily build the circuit by using the corresponding BUSCH plug-in modules. Since all components are also available individually, they can be obtained from the BUSCH customer service. You will find a parts list at the end of this chapter.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:8.5pt;line-height:1.03\">Assembly plan of the amplifier circuit for light barriers. Several amplifier circuits can be built on one plug-in board and supplied from the same voltage source.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.03\">The small amplifier circuit (as per the figures) supplies the computer with a &bdquo;1&ldquo; signal (voltage present) when the light barrier is interrupted (train passing through), or a &bdquo;0&ldquo; signal when the light barrier is not interrupted. To simplify matters in the overall circuit diagram of the model layout, the small amplifier circuit is represented by the following symbol:</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.03\">Instead of the battery module, the BUSCH power-supply unit 2059 or BUSCH series regulator 8627 can also be used.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.03\">Running currents and points are switched with the BUSCH relay 5964. In the chapter &bdquo;Connection of relays&ldquo; it was shown how the relay 5964 can be driven by the computer by means of a simple transistor stage (1 resistor, 1 transistor).</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.03\">For the power supply of the light-barrier amplifier and for the simple transistor stage of the relay 5964, a 9 V battery block has been provided in each of the assembly plans. Instead of the battery module, the BUSCH power-supply unit 2059 can also be used, which likewise delivers a 9 V DC voltage (250 mA). For the relay, a DC control current of 9 V is required in every case. Under no circumstances may 9 V AC be connected. The light barriers work in a range of 5 to 9 V DC. The BUSCH series regulator No. 8627 is also suitable for this. When connected to an AC transformer of 12 to 16 V, this series regulator delivers a 5 V DC voltage.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;text-align:left;line-height:1.05;white-space:nowrap\">IR transmitter</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;text-align:left;line-height:1.05;white-space:nowrap\">IR receiver</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">green</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">grey</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">red</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">grey</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;line-height:1.0;white-space:nowrap;padding-left:8px\">input</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">grey</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">grey</div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">red</div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">green</div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">Connection<br>IR transmitter<br>(light case)</div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">Connection<br>IR transmitter<br>(dark case)</div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">to a<br>computer<br>input</div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:400;text-align:left;line-height:1.05;white-space:nowrap\">Connection to<br>computer GND &ominus;</div>"
+  }
+}

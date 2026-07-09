@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">Our calculation yields the result 0.3419, while the computer calculated 0.3415. This slight deviation arises from the computer's rounding up and down. Since the maximum deviation is only 0.3%, however, our computer's accuracy is sufficient for most applications.</p><p style=\"margin:0.24em 0 0;font-size:10.5pt;line-height:0.96\">From the examples above it is evident that many multiplications must be carried out. Since their result is always smaller than 1, decimal places would be needed. The microprocessor, however, is not designed for this. By rounding the multiplications up and down, the computation uses whole numbers, saving much programming work.</p><p style=\"margin:0.24em 0 0;font-size:10.5pt;line-height:0.96\">The angle values are entered into registers 0 and 1 and then converted to radians by multiplication with 174 (3.1415 : 180 = 0.0174).</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.96;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.96\">The result is stored in registers C to F. The first two digits (registers E and F) are multiplied, then divided by 6 and multiplied again with registers E and F. In this way we obtain the second term of the series: x<sup>3</sup> &divide; 6.</p><p style=\"margin:0.24em 0 0;font-size:10.5pt;line-height:0.96\">Next, registers C to F (the entered value in radians) are copied into registers 8 to B. Then the result of the last calculation is subtracted. The result of the second term (x<sup>3</sup> &divide; 6) is then again multiplied with registers E and F, divided by 20, and multiplied once more with E and F. In this way we obtain the third term of the series (x<sup>5</sup> &divide; 120).</p><p style=\"margin:0.24em 0 0;font-size:10.5pt;line-height:0.96\">This result is added to the one held in registers 8 to B; the total now stands in these registers and is displayed.</p><p style=\"margin:0.24em 0 0;font-size:10.5pt;line-height:0.96\">Note, too, that the calculation does not always continue with all the digits of a result; in part only the first two or three digits are used further.</p><p style=\"margin:0.24em 0 0;font-size:10.5pt;line-height:0.96\">The program flow chart contains some further explanations on the basic program function.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program flow chart: Sine Calculation</div>"
+  }
+}

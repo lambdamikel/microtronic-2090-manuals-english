@@ -1,0 +1,130 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;text-align:left;line-height:1.12\">Timer clock with two on- and off-switching times</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.1;text-align:left\"><p style=\"margin:0;font-size:11pt;line-height:1.1\">With the following program, two separate on- and off-switching times can be achieved. In this way, two different functions at different times are possible.</p><p style=\"margin:0.55em 0 0;font-size:11pt;line-height:1.1\">After HALT &ndash; NEXT &ndash; 00, enter the program:</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;text-align:left;line-height:1.1\">Program: Timer clock for two on- and off-times</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Label</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Adr.</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Code</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Mnemonic</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Jump to</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Explanations</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Clear working registers</div></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Swap working/memory registers</div></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Clear working registers</div></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Switch off outputs</div></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Display R8</div></div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Input into R8</div></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Swap memory/working registers</div></div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Swap working/memory registers</div></div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Swap memory/working registers</div></div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Swap working/memory registers</div></div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Subroutine &bdquo;S EIN&ldquo;</div></div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Entry of the switch-on time</div></div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Subroutine &bdquo;S AUS&ldquo;</div></div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Entry of the switch-off time</div></div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">10-hour comparison</div></div>"
+  },
+  "24": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">If outputs 1 and 2 are &bdquo;low&ldquo; (0), the zero flag is set, so output 3 also becomes &bdquo;low&ldquo;.</div></div>"
+  },
+  "25": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Evaluation of button G</div></div>"
+  },
+  "26": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Evaluation of button H</div></div>"
+  },
+  "27": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Clear clock pulse from R8</div></div>"
+  },
+  "28": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Entry of buttons G and H into R8</div></div>"
+  },
+  "29": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Timer-clock mode</div></div>"
+  },
+  "30": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Outputs switched off</div></div>"
+  },
+  "31": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Clock mode without switching function</div></div>"
+  }
+}

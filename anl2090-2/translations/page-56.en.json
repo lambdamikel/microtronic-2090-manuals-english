@@ -1,0 +1,70 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;text-align:left;line-height:1.12\">The composing computer (melody generator)</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;text-align:left;line-height:1.12\">Computer controls electronic music box</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: The composing computer</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Music box</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.1\">(Subroutine)</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.1\">(&bdquo;Sentimental Journey&ldquo;)</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.02\">The computer is to compose melodies on its own, with long and short, high and low tones. An interesting experiment, for which the same circuit setup as for the preceding mini-organ is used.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">Only a new programming is required. So that the computer's tone generation does not disturb us while programming, one of the connecting leads to the battery is disconnected. After HALT &ndash; NEXT &ndash; 00, enter the following program:</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.02\">Program start with HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows: 000000. Reconnect the connecting lead to the battery. As soon as a number or letter key is pressed, the computer composes random melody sequences.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">The program is stopped with HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The melody generator carries on working as soon as a number or a letter is entered. Ever-new melody variations result.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">Further variation possibilities arise by changing the DISP command at address 02. We change the entry F60 there to F10. Don't forget the NEXT key, then a new program start. Now completely different melody sequences result. We can change the DISP command several times, and again and again new variations result.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.02\">A very easily surveyable program. By means of the RND command, a random number is loaded into registers D to F, and to help chance along a little, the numeric value entered after program start is added into register D.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">The value in register D is responsible for the pitch. By counting the random number down in register E, the tone length is produced.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">The experimental setup also remains in place for the following experiment.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">In the preceding experiments we produced tones by pressing keys, or got the computer, with the help of the random generator, to compose melodies on its own.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">With this program we want to teach the computer to play &bdquo;proper melodies&ldquo; automatically. So that flawless tone sequences result, the circuit setup with the Electronic Studio 2070 (see page 53) is required. Anyone who owns the smaller Electronic Studio 2060 can obtain the two still-missing components via the BUSCH spare-parts service (see page 53 for this):</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\"><span style=\"display:inline-block;width:150px\">Order no. 20669</span>1 disc capacitor 100 nF<br><span style=\"display:inline-block;width:150px\">Order no. 20689</span>1 resistor 22 k&Omega;</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:8.5pt;line-height:1.0\">(Please transfer DM 3.50 incl. postage and packing to postal-cheque account Karlsruhe no. 57&nbsp;614-751, Busch GmbH &amp; Co. KG, and state the order numbers on the payee section).</p></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.02\">With the following program the computer, together with the connected electronic circuit, plays the three well-known melodies one after another: &bdquo;Sentimental Journey &ndash; H&auml;nschen klein &ndash; Du, Du liegst mir am Herzen&ldquo;.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">Before we begin the programming after HALT &ndash; NEXT &ndash; 00, the electronic circuit is put out of operation by disconnecting the battery cable.</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:400;text-align:center;line-height:1.0\">Address</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;text-align:center;line-height:1.0\">Code</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;text-align:center;line-height:1.0\">Addr.</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;text-align:center;line-height:1.0\">Code</div>"
+  }
+}

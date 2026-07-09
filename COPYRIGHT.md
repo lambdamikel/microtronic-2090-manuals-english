@@ -22,11 +22,12 @@ not assume you may redistribute the manual content commercially or relicense it;
 remain with Busch GmbH & Co. KG.
 
 ## This repository
-- **Manual content** (`anl2090-1/pages/`, `anl2090-1/translations/`, the rendered HTML/PDF):
-  derivative of the © Busch original; hosted by permission as above.
-- **Tooling** (`anl2090-1/tools/*.py`): written by the project author; you may reuse the code
-  freely (MIT‑style) — but the *data it renders* is the © Busch manual, governed by the
-  permission above.
+- **Manual content** (`anl2090-1/` for Part 1, `anl2090-2/` for Part 2 — the `pages/` scans,
+  `translations/`, and the rendered HTML/PDF): derivative of the © Busch original; hosted by
+  permission as above.
+- **Tooling** (`anl2090-1/tools/*.py`, `anl2090-2/tools/*.py`): written by the project author;
+  you may reuse the code freely (MIT‑style) — but the *data it renders* is the © Busch manual,
+  governed by the permission above.
 
 Not affiliated with or endorsed by Busch GmbH & Co. KG. If you are a rights holder and have
 any concern, please open an issue.

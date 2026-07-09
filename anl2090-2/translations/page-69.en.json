@@ -1,0 +1,6 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">In the subroutine &bdquo;SUB&ldquo;, the number of counted pulses (frequency measurement) is determined by subtracting the two times of day. At a frequency setting of 20 Hz, the measured pulse count is divided by 2, whereby the reaction time is determined. (At a frequency of 40 Hz it is divided by 4, etc. &ndash; command change at address 44).</p><p style=\"margin:0.28em 0 0;font-size:10.5pt;line-height:1.0\">The determined reaction time is added into the memory registers 8 to A, i.e. after five reaction-time measurements the total time is stored there.</p><p style=\"margin:0.28em 0 0;font-size:10.5pt;line-height:1.0\">The program waits until button G is pressed. Then the value 1 is subtracted from register 8 (in which the value 5 was present at the start) each time. The measurements are ended as soon as the value 0 is reached in register 8. The sum of the reaction times (in the memory registers 8 to A) is divided by 5, and the average reaction time is displayed.</p></div>"
+  }
+}

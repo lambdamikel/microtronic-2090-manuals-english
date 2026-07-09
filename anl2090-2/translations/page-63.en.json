@@ -1,0 +1,42 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;text-align:left;line-height:1.12\">Data transmission by the &bdquo;hand-shaking&ldquo; method</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Data transmission by &bdquo;hand-shaking&ldquo;</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">The following program serves to demonstrate this method; it is entered as usual:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">The IC counter module is connected to the computer as shown in the figure. We now need twice the number of transmission lines compared to the previous experiment.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">Start the program and enter a number. Compared to the previous experiment, it is displayed considerably faster on the IC counter module. If we now enter a letter, the counter module is &bdquo;at a loss&ldquo; &mdash; it counts on infinitely, because it cannot display letters.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">We see that a line runs from computer output no. 1 to the clock input of the counter module. The four outputs of the counter module (A, B, C, D) are connected to the four computer inputs. The four outputs of the counter module pass on the displayed number as binary values. These are taken into register 1 of the computer by means of the command DIN 1. The entered program compares this number with the number entered via the keyboard (in register 0), and if both are equal, the result has been reached. Otherwise, by means of the commands DOT 3 and DOT 2, the IC counter is incremented by one and the comparison is repeated until the result is reached. Thus a feedback from the IC counter to the computer results, by which a wrong data transmission is ruled out.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">The experiments show that, for example, ICs can be connected directly to the computer inputs and outputs. Since the ICs work with low voltages, no additional amplifier circuits are required for the control.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">Incidentally, our IC counter module too has a carry signal (a kind of carry flag) for controlling a second counter module. The output MAX is constantly &bdquo;high&ldquo; and only becomes &bdquo;low&ldquo; when the value 9 is reached, in order to become &bdquo;high&ldquo; again on the transition to 0. With this carry signal, a second counter module &mdash; or several &mdash; can be controlled.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Address</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;text-align:center;line-height:1.0;padding-top:2px\">Code</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Mnemonic</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  }
+}

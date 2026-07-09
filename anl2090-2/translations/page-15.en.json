@@ -1,0 +1,70 @@
+{
+  "0": {
+    "de": "",
+    "en": "<table class=\"timer ann\"><colgroup><col style=\"width:16%\"><col style=\"width:9%\"><col style=\"width:9%\"><col style=\"width:18%\"><col style=\"width:16%\"><col style=\"width:32%\"></colgroup><tr><th style=\"white-space:nowrap\">Label</th><th style=\"white-space:nowrap\">Adr.</th><th style=\"white-space:nowrap\">Code</th><th style=\"white-space:nowrap\">Mnemonic</th><th style=\"white-space:nowrap\">Jump&nbsp;to</th><th>Explanation</th></tr><tr><td style=\"white-space:nowrap\">&bdquo;SPGEW&ldquo;</td><td class=\"a\">4E</td><td class=\"c\">1F0</td><td class=\"m\">MOVI F,0</td><td style=\"white-space:nowrap\"></td><td rowspan=\"2\">Display: player has won</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">4F</td><td class=\"c\">FE1</td><td class=\"m\">DOT 1</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">50</td><td class=\"c\">519</td><td class=\"m\">ADDI 1,9</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">51</td><td class=\"c\">E54</td><td class=\"m\">BRZ 54</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">52</td><td class=\"c\">FE0</td><td class=\"m\">DOT 0</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">53</td><td class=\"c\">C4F</td><td class=\"m\">GOTO 4F</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">54</td><td class=\"c\">1E5</td><td class=\"m\">MOVI E,5</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">55</td><td class=\"c\">1E6</td><td class=\"m\">MOVI E,6</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">56</td><td class=\"c\">F61</td><td class=\"m\">DISP 6,1</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">57</td><td class=\"c\">FF0</td><td class=\"m\">KIN 0</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">58</td><td class=\"c\">C00</td><td class=\"m\">GOTO 00</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;CGEW&ldquo;</td><td class=\"a\">59</td><td class=\"c\">1F0</td><td class=\"m\">MOVI F,0</td><td style=\"white-space:nowrap\"></td><td rowspan=\"2\">Display: computer has won</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5A</td><td class=\"c\">FE0</td><td class=\"m\">DOT 0</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5B</td><td class=\"c\">C54</td><td class=\"m\">GOTO 54</td><td style=\"white-space:nowrap\"></td><td></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;GEW&ldquo;</td><td class=\"a\">5C</td><td class=\"c\">901</td><td class=\"m\">CMPI 0,1</td><td style=\"white-space:nowrap\"></td><td rowspan=\"6\">Subroutine &bdquo;GEW&ldquo; checks whether all three piles are zero</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5D</td><td class=\"c\">D64</td><td class=\"m\">BRC 64</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5E</td><td class=\"c\">902</td><td class=\"m\">CMPI 0,2</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5F</td><td class=\"c\">D64</td><td class=\"m\">BRC 64</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">60</td><td class=\"c\">903</td><td class=\"m\">CMPI 0,3</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">61</td><td class=\"c\">D64</td><td class=\"m\">BRC 64</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">62</td><td class=\"c\">F09</td><td class=\"m\">STC</td><td style=\"white-space:nowrap\"></td><td rowspan=\"2\">all piles zero: set carry flag</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">63</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">64</td><td class=\"c\">F0A</td><td class=\"m\">RSC</td><td style=\"white-space:nowrap\"></td><td rowspan=\"2\">otherwise reset carry flag</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">65</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;XOR&ldquo;</td><td class=\"a\">66</td><td class=\"c\">0EC</td><td class=\"m\">MOV E,C</td><td style=\"white-space:nowrap\"></td><td rowspan=\"7\">Subroutine &bdquo;XOR&ldquo;: registers D and E are added without carry. The result is in reg. D</td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">67</td><td class=\"c\">2DC</td><td class=\"m\">AND D,C</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">68</td><td class=\"c\">AED</td><td class=\"m\">OR E,D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">69</td><td class=\"c\">F8D</td><td class=\"m\">INV D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6A</td><td class=\"c\">ACD</td><td class=\"m\">OR C,D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6B</td><td class=\"c\">F8D</td><td class=\"m\">INV D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6C</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr></table>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Now the piezo buzzer should be connected as usual. Then start the program: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The display shows 0. The computer wants to know the skill level &ndash; we enter, for example, a 1. The display now shows: 000000.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">It must be specified how many matchsticks are to lie on the three piles. Example: pile no. 1 has 3 matchsticks (enter 3). Pile no. 2 has 4 matchsticks (enter 4) and pile no. 3 has 5 matchsticks (enter 5). The display now shows 000345.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We want to take 1 matchstick from the second pile (entry 2 1). The display should now show: 335 &ndash; but in fact the display shows: 334, because the computer has likewise taken 1 matchstick, namely from the third pile.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We now take the remaining 4 matchsticks from the third pile (entry 3 4). The display should read: 330. But after the computer likewise takes 1 matchstick from the second pile, the display actually shows: 320.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We now take 1 matchstick from the first pile (entry 1 1) and, taking into account that the computer simultaneously takes 1 matchstick from the second pile as well, the display shows: 210. Since the computer too can only ever take from one pile, we arrange things so that, after our removal, 1 matchstick remains on each of the remaining first and second piles.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">So we take 1 of the 2 matchsticks of the first pile away (entry 1 1). The computer takes the last remaining matchstick from the second pile, and the display shows: 100. Now that we can take the last matchstick, we are the winner; the display reports: EE0000, and the piezo buzzer sounds an interval tone, which is switched off automatically after a short time.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">As soon as any number key is pressed, 0 appears on the display again &ndash; a new game can begin.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We can choose a new skill level (entry: 1 or 2 or 3). The pile size to be entered now must be at least 1 or at most 9. On each move, any number of matchsticks may be taken, but always only from one pile. On the next move the removal can be made from a different pile. If the computer is to begin the game (to take the first matchsticks), after entering the pile size we enter: 00. The following 3-digit display then shows the three remaining pile sizes for our entry (as described).</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If the computer wins (because we have given it the chance to take the last matchstick(s)), the display likewise shows the message: EE0000. At the same time a continuous tone sounds until the start of the game is reached again by pressing a key. For a new start of the game, always enter the skill level first.</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If we make an incorrect entry (e.g. taking more matchsticks from a pile than there are), the computer notices that cheating has occurred &ndash; the program stops. We enter the pile number and the number of matchsticks to be removed once more (but without cheating). The program run can then be continued. Or restart the program with HALT &ndash; NEXT &ndash; 00.</p></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If we enter skill level 2 at the start of the game, we already have to concentrate a little more to win the game. If skill level 3 is entered, we will hardly succeed in beating the computer. Here it becomes very clear that, through intelligent programming, we can bring the computer to the point where it beats us with our own weapons. An interesting prospect &ndash; reminiscent, for example, of science-fiction films in which computers and robots programmed by humans defeated intelligent humankind.</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700\">This is of interest to the programmer:</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In the program table, the first column again marks the addresses at which the jump targets begin. In the second-to-last column (next to Explanations) the addresses can be recognized from which the jumps to the jump targets are made. For this, a few abbreviations are used:</p></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.9\"><b>&bdquo;-1&ldquo;</b> = carry out &bdquo;default move&ldquo;<br><b>&bdquo;CGEW?&ldquo;</b> = computer wins?<br><b>&bdquo;SPGEW&ldquo;</b> = player wins<br><b>&bdquo;XOR&ldquo;</b> = subroutine &bdquo;XOR&ldquo;<br><b>&bdquo;GEW&ldquo;</b> = subroutine win-calculation<br><b>&bdquo;E1&ldquo;</b>, <b>&bdquo;E2&ldquo;</b>, <b>&bdquo;E3&ldquo;</b> = entry of the skill level (1 or 2 or 3).<br><b>&bdquo;SCOMP&ldquo;</b> = computer&rsquo;s move</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:0.92;text-align:justify\"><p style=\"margin:0\">For the game &bdquo;Take 2&ldquo;, similar to the simple Nim-game version, there is an &bdquo;optimal winning strategy&ldquo; which allows either the player or the computer to win. There is no draw.</p></div>"
+  }
+}

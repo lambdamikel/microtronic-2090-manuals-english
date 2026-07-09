@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14pt;font-weight:700;white-space:nowrap\">Table: Bit Pattern</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">From address 97 onward, by shifting the binary values in register 2 to the left (SHL command), either a long or a short tone is generated. The number of tones is determined by counting down (reducing the values) in register 1.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The actual Morse tone is generated in the subroutines (SUB routine) &bdquo;&bull;&ldquo; and &bdquo;&ndash;&ldquo;. In addition, in these subroutines a &bdquo;random number&ldquo; arises in register A, depending on whether or not a signal (from TAKT/CLOCK) is present at the INPUT. This controls the irregular repetition of the Morse signs A and B.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The program part &bdquo;Auto&ldquo; (automatic Morse-sign generation) begins at address BE. The keyboard entry normally required is replaced by the generation of random numbers. The random number is generated in register D by adding register A. Since the value in register A is relatively random, a constantly changing random number results in register D, by which the entire Morse alphabet is sent in random order.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In this program the integrated random-number generator is not used. This has the following reason: the generation of the Morse signs requires a certain amount of time, during which the random-number generator counts on by a certain number of steps. This number of steps depends on the Morse-sign length. If one were to use the integrated random-number generator, the constant repetition of a certain letter sequence would result. By using a specially programmed random-number generator, which is controlled by the 1 Hz clock, such a repetition is almost ruled out.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We can try this out by removing the connecting lead TAKT/CLOCK to INPUT 4 and replacing the command ADD A,D (4AD) present at address CB with the RND command (F05). Now the computer will only send a certain letter sequence.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Why was a NOP command inserted at addresses 1D and 1E?</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">It was merely intended to demonstrate that, with such long programs, it is expedient to enter a few NOP commands now and then, because this gives the possibility of subsequently inserting a command that may have been forgotten during input, without having to re-enter the entire program.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Perhaps we are also surprised by the repetition of identical commands? This arises, for example, at the program locations &bdquo;&bull;&ldquo; and &bdquo;&ndash;&ldquo;. Here, each time, a jump is made to the corresponding subroutine that is responsible for generating a long or short tone. If, for example, for &bdquo;SOS&ldquo; three short &ndash; three long &ndash; three short tones result, the subroutine &bdquo;&bull;&ldquo; beginning at address D7 is jumped to three times in succession, then the subroutine &bdquo;&ndash;&ldquo; beginning at address E3 three times, and so on.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">This program can give us various hints for future program considerations, such as how, by using the binary values and reducing the binary digits, a large number of different signals can be generated. Such signals can be brought to the outputs and used for the most varied possibilities.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;line-height:1.15;white-space:nowrap\">Program flow chart:<br>Morse Code Decoder<br>(Morse Trainer)</div>"
+  }
+}

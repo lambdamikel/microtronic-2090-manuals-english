@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.15\">Program flow chart<br>Frequency counter</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.02\">At the same moment when the clock signal becomes &bdquo;low&ldquo; (0), the computer takes over the first time reading. With the second wait loop, it is achieved that the signal change to &bdquo;high&ldquo; and back again to &bdquo;low&ldquo; is waited for (exactly 1 second), in order to then take over and evaluate the second time reading.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">The two wait loops (sections A and B in the figure) are necessary in order to achieve a defined start of the measuring time. The individual program functions can be seen from the program flow chart. It is not the complete &bdquo;times of day&ldquo; that are subtracted from each other, but only the seconds. When subtracting the tens-of-seconds digit, the decimal correction, on the occurrence of a carry, is carried out by subtracting the hexadecimal value A (decimal 10), because the tens-of-seconds only go up to 5.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">The electronic construction of the multivibrator (also called an astable multivibrator) should be familiar from the experiments with the Electronic Studios 2065 or 2070. In our frequency-measuring experiment, the loudspeaker is operated with an additional transistor. This is necessary because the computer needs clean square-wave pulses for the counting process. If the loudspeaker were operated without the second transistor, the coil windings of the loudspeaker could severely distort the square-wave pulses.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.02\">The arrangement of the electronic multivibrator circuit also remains in place for the following experiment.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">Wait loop A: Is only exited when input 1 goes &bdquo;high&ldquo;. By means of the &bdquo;shift-left&ldquo; command, the pulses present at output 8 (the frequency to be measured) are shifted out of the register, so that only the TAKT/Clock pulse is processed.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">Wait loop B: Is only exited when input 1 goes &bdquo;low&ldquo;.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">Capture of the time into Reg. A&ndash;F</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">Storage of the time in Reg. 2&ndash;7</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">2 wait loops for a 1-second measuring time</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">Capture of the 2nd time</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10pt;line-height:1.05\">The seconds are subtracted from each other.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">Result (frequency is stored in registers 8 and 9 for display. Storage into registers 0 and 1 is necessary so that, after the EXRA command, the frequency display is retained.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">Clear all registers</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">Display R8 and R9</p></div>"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:24pt;line-height:1.12;font-weight:700;color:#111\">Instruction book<br>Part 2</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:12.5pt;line-height:1.14;font-weight:400;color:#111\">Introduction to<br>microprocessor technology.</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:12.5pt;line-height:1.14;font-weight:400;color:#111\">Programs for<br>experimenting<br>with the microcomputer.</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:11pt;line-height:1.2;font-weight:400;color:#111\">By J&ouml;rg Vallen</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:10.5pt;line-height:1.2;font-weight:400;color:#111\">Production and distribution:</div><div style=\"font-family:Helvetica,Arial,sans-serif;font-size:11pt;line-height:1.3;font-weight:700;color:#111\">BUSCH-Modellspielwaren<br>P.O. Box 1360<br>D-6806 Viernheim</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:9.5pt;line-height:1.2;font-weight:400;color:#111\">In cooperation with the</div><div style=\"font-family:Helvetica,Arial,sans-serif;font-size:10.5pt;line-height:1.3;font-weight:700;color:#111\">ELO-Magazin Franzis-Verlag<br>P.O. Box 370120<br>8000 Munich 37</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;font-size:10.5pt;line-height:1.3;font-weight:400;color:#111\">For some experiments,<br>additionally required:<br>A 9 V battery (IEC 6 F 22)<br>or power supply 2059</div>"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "page_size_px": [
+    2480,
+    3507
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        378,
+        120,
+        1958,
+        232
+      ],
+      "fragments": [
+        [
+          378,
+          120,
+          1958,
+          232
+        ]
+      ],
+      "lines": [
+        [
+          378,
+          120,
+          1958,
+          232
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        386,
+        318,
+        1912,
+        434
+      ],
+      "fragments": [
+        [
+          386,
+          318,
+          1912,
+          434
+        ]
+      ],
+      "lines": [
+        [
+          386,
+          318,
+          1912,
+          434
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        383,
+        516,
+        2480,
+        642
+      ],
+      "fragments": [
+        [
+          383,
+          516,
+          2480,
+          642
+        ]
+      ],
+      "lines": [
+        [
+          383,
+          516,
+          2480,
+          642
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        381,
+        716,
+        1332,
+        840
+      ],
+      "fragments": [
+        [
+          381,
+          716,
+          1332,
+          840
+        ]
+      ],
+      "lines": [
+        [
+          381,
+          716,
+          1332,
+          840
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        383,
+        920,
+        2160,
+        1122
+      ],
+      "fragments": [
+        [
+          383,
+          920,
+          2160,
+          1122
+        ]
+      ],
+      "lines": [
+        [
+          383,
+          920,
+          2160,
+          1122
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        381,
+        1824,
+        1334,
+        1942
+      ],
+      "fragments": [
+        [
+          381,
+          1824,
+          1334,
+          1942
+        ]
+      ],
+      "lines": [
+        [
+          381,
+          1824,
+          1334,
+          1942
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        0,
+        0,
+        2479,
+        9
+      ],
+      "text": "Du EEE EEE HTTTTTTEMETWETRTNTHTTERERNTETTETRTE NT a EEE EEE u LE LE EEE u",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        403,
+        127,
+        1926,
+        223
+      ],
+      "text": "Druckfehlerberichtigung im Nicrotronic-Anleitungsbuch 2. Tei]",
+      "lines": [
+        [
+          403,
+          127,
+          1926,
+          223
+        ]
+      ],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        401,
+        323,
+        1873,
+        441
+      ],
+      "text": "Auf Seite 44: Schaltuhr mit zwei Ein- und Ausschalt-Zeiten.",
+      "lines": [
+        [
+          401,
+          323,
+          1873,
+          441
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        394,
+        527,
+        2226,
+        839
+      ],
+      "text": "Der Eingabe-Befehl bei Adresse 57 muß richtig heißen: 529 (anstelle DQ9). Seite 62: Computer zähltFrenuenzen .",
+      "lines": [
+        [
+          402,
+          527,
+          2226,
+          635
+        ],
+        [
+          394,
+          693,
+          1460,
+          839
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        397,
+        927,
+        2206,
+        1122
+      ],
+      "text": "Das Im Buch ausgedruckte Programm endet bei Adresse IB, Es muß wie folgt ergänzt werden:",
+      "lines": [
+        [
+          399,
+          927,
+          2206,
+          1055
+        ],
+        [
+          397,
+          1033,
+          764,
+          1122
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        392,
+        1832,
+        1310,
+        1940
+      ],
+      "text": "Bitte entschuldigen Sie das Versehen,",
+      "lines": [
+        [
+          392,
+          1832,
+          1310,
+          1940
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

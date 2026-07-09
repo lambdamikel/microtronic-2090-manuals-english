@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Light-barrier circuit assembly</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">We can also use two light barriers, by slightly modifying the existing program and programming a second counter.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">If two light barriers are mounted next to each other &mdash; e.g. at the entrance of a building &mdash; it could be determined in the evening how many people have entered and left the building again. A compare command could check on which of the two light barriers a shadow was registered first, whereby the first shadow triggers an up-counting effect and the second shadow a down-counting effect. If a difference appears on the display, it would be possible to determine, for example, that a certain number of people are still in the building.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">On the basis of the knowledge acquired so far, it should be possible, with a little thought, to program suitable applications for light barriers yourself.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">With a slot-car racing track, for instance, the possibility arises &mdash; by incorporating the BUSCH relay 5964 &mdash; to automatically switch off the driving current for the cars at a certain preset number of laps, etc.</p></div>"
+  }
+}

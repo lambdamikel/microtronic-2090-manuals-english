@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;white-space:nowrap\">Program flow chart Sea Battle</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In the program table, the &bdquo;Label&ldquo; column has been used to indicate the addresses at which the referenced program sections &mdash; or subroutines &mdash; begin. In the &bdquo;Jump&nbsp;to&ldquo; column it has likewise been indicated at which addresses the jumps begin.</p></div>"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">As in the Nim game, there are &bdquo;winning numbers&ldquo; or &bdquo;safe positions&ldquo;. A typical example of these are the so-called &bdquo;pairs&ldquo;, as for instance with the display reading: 033 (33 = pair). In this example the game state would be: first pile 0, second pile 3 and third pile likewise 3. In this situation the opposing player has the following three options:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.18\">1. From 033, after removal: 032 or 023.<br>2. From 033, after removal: 031 or 013<br>3. From 033, after removal: 030 or 003</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">From the first and second options a new &bdquo;pair&ldquo; can again be formed. With the third option the player will win, because the opponent leaves only 3 matchsticks remaining on one pile, which remain for the last move (i.e. for the winner).</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">For the computer there is a relatively simple way to determine whether it has reached a winning position. We recall the chapter &bdquo;logical operations&ldquo;, in which it was demonstrated that with the AND and OR commands the individual bits within the binary number system can be changed.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Let us assume that the values 1 &ndash; 2 &ndash; 3 are still present on the three piles; represented in binary, this looks as follows:</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse\"><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\"></td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">1</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0001</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">+</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">2</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0010</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">+</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">3</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0011</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\"></td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\"></td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0000</td></tr></table>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;white-space:nowrap\">An AND/OR combination yields</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In the preceding example the columns of the individual binary numbers were &bdquo;added&ldquo; (without carry), which yields an overall result of 0000. The overall result 0000 means a &bdquo;safe position&ldquo;!</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Another example: the following matchsticks still remain on the three piles: 033. Represented in binary, the following situation results:</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse\"><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\"></td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0000</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">+</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">3</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0011</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">+</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">3</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0011</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\"></td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\"></td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">binary</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0000</td></tr></table>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;white-space:nowrap\">An AND/OR combination yields</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;line-height:1.12\">Simplified program flow chart for calculating a &bdquo;safe position&ldquo;</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt\"><b>HF</b> = pile size</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left\"><p style=\"margin:0\">At the start the piles are: 2 &ndash; 4 &ndash; 5, so HF 1 = 2 matchsticks, HF 2 = 4 matchsticks, HF 3 = 5 matchsticks.</p></div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:'Courier New',monospace;color:#111;font-size:10pt;line-height:1.3;white-space:pre\">Calculation examples:\n   Decimal  Binary</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse\"><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 1</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">2</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0010</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 2</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= +</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">4</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0100</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\">Result</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">6</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0110</td></tr></table>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left\"><p style=\"margin:0\"><b>No!</b> Since the result 6 is greater than HF 3 (5 matchsticks), continue calculating:</p></div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse\"><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 1</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">2</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0010</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 3</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= +</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">5</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0101</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\">Result</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">7</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0111</td></tr></table>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left\"><p style=\"margin:0\"><b>No!</b> Since the result 7 is greater than HF 2 (4 matchsticks), continue calculating:</p></div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse\"><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 2</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">4</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0100</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 3</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">= +</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">5</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0101</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\">Result</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">1</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0001</td></tr></table>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left\"><p style=\"margin:0\"><b>Yes!</b> The result 1 is greater than HF 1 (2 matchsticks). A safe position results if the computer takes one matchstick from HF 1, because then:</p></div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<table style=\"font-family:'Courier New',monospace;color:#111;font-size:9.5pt;line-height:1.08;border-collapse:collapse\"><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 1</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">1</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0001</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 2</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">4</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0100</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;\">HF 3</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">5</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;\">0101</td></tr><tr><td style=\"text-align:left;padding:.2mm .6mm .2mm 0;border-top:1.2px solid #111;\">Result</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">=</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">(1)0</td><td style=\"text-align:right;padding:.2mm 0 .2mm 1.6mm;border-top:1.2px solid #111;\">0000</td></tr></table>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-size:7pt;color:#111;line-height:1.0\">no carry</div>"
+  }
+}

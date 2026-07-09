@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Part 3:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:16.5pt;font-weight:700;text-align:left;line-height:1.12\">Computer experiments with additional electronic components</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;text-align:left;line-height:1.14\">Important to observe for circuit experiments:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.02\">The computer&rsquo;s capabilities are considerably expanded by additionally connected components. Such add-on circuits are called &bdquo;peripheral electronics&ldquo;.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.02\">When experimenting, <b>under no circumstances may voltages above 9 V DC</b> be used. Therefore always experiment only with the intended 9-volt battery or with the BUSCH power supply 2059 (which likewise delivers 9 volts DC). Voltages above 9 volts &mdash; and AC voltages in particular &mdash; can destroy individual computer elements.</p><p style=\"margin:0.42em 0 0;font-size:11pt;line-height:1.02\"><b>The computer outputs must never be connected directly to the plus or minus pole of a 9-volt voltage source (battery or power supply).</b></p><p style=\"margin:0.42em 0 0;font-size:11pt;line-height:1.02\">At the computer outputs, only small control voltages (maximum 15 mA) are available. Therefore only elements with low power requirements can be driven directly from the computer outputs, such as piezo buzzers, light-emitting diodes, transistors, ICs, and so on. With one transistor and 1 to 2 resistors, however, small amplifier circuits can very easily be built, through which other circuit parts can then also be controlled by the computer outputs. On the following pages, various connection options are demonstrated.</p><p style=\"margin:0.42em 0 0;font-size:11pt;line-height:1.02\">Since the computer inputs, too, need only small voltages for the input signals, using a series resistor is advisable in every case, because this considerably extends the life of the connected battery. On page 54 of the instruction book, Part 1, the arrangement of such series resistors (4.7 k&Omega;) in connection with the red keys was shown.</p></div>"
+  }
+}

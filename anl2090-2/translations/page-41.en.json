@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><p style=\"font-size:9.5pt;line-height:0.95;text-align:justify;margin:0\">If we again insert the factor calculated for the date 24 December 1982 into the formula above, the following calculation results:</p><div style=\"font-size:9.5pt;line-height:1.08;margin:0.42em 0 0\">Weekday = 724268 &minus; (INT(724268 &divide; 7) &times; 7).<br>Weekday = 724268 &minus; (INT(103466.8571) &times; 7).<br>Weekday = 724268 &minus; (103466 &times; 7).<br>Weekday = 724268 &minus; 724262 = 6<br>Weekday = a Friday (6 &minus; see weekday table).</div><p style=\"font-size:9.5pt;line-height:0.95;text-align:justify;margin:0.42em 0 0\">Although this calculation, too, is relatively easy to understand, it results in an elaborate program, because many computation steps have to be carried out. To simplify the program, the computer works with only 5 digits. In the factor 724268, the first digit (7) is not included in the calculation. However, we see from the representations of the weekday calculation that the first digit (7) does not change and therefore has no influence on the result.</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program flow chart: Factor calculation</div>"
+  }
+}

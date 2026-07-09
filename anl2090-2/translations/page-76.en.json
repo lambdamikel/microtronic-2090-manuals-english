@@ -1,0 +1,158 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">TAKT/CLOCK and an INPUT must be removed without fail, because otherwise program malfunctions arise. We enter the program according to the table:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Model-railway control, first expansion stage</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;font-weight:400;text-align:left;line-height:1.04;padding:2px 0 0 5px\">Adr.<br>No.</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:700;text-align:left;line-height:1.04;padding:2px 0 0 5px\">Code</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;font-weight:400;text-align:left;line-height:1.04;padding:2px 0 0 5px\">Mnemonic</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:left;line-height:1.04;padding:2px 0 0 5px\">Explanations</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Value of R1 to outputs</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Take over value of light barriers</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI 8,0 take over only value of L4</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">If L4 equals 0, then jump to address 08</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI B (1011) switch off block 3</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Take over value of light barriers</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI 1,0 take over only value of L1</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">If L1 equals 0, then jump to address 0F</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Store that L1 was interrupted</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI D (1101) switch off block 2</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By OR operation of 4 (0100)<br>release block 3</div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Was L1 interrupted?</div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Yes, then jump to 12</div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">No, then jump to 03</div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Determine whether the points (output 1)<br>are set to straight (0) or branch (1).</div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Take over value of light barrier</div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI 2,0 take over only value of L2</div>"
+  },
+  "24": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">If L2 equals 0, then jump to 03</div>"
+  },
+  "25": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI E (1110) set points<br>to &bdquo;straight&ldquo;</div>"
+  },
+  "26": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By OR operation of 2 (0010)<br>release block 2</div>"
+  },
+  "27": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Clear storage of L1</div>"
+  },
+  "28": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Jump to 03</div>"
+  },
+  "29": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Take over value of light barriers</div>"
+  },
+  "30": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By ANDI 4,0 take over only value of L3</div>"
+  },
+  "31": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">If L3 equals 0, then jump to address 03</div>"
+  },
+  "32": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">By OR operation of 1 (0001)<br>set points to branch</div>"
+  },
+  "33": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Jump to 19</div>"
+  },
+  "34": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.16;white-space:nowrap;padding:2px 0 0 6px\">Additional program for manual operation</div>"
+  },
+  "35": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">For fully automatic model-railway operation, the program is started with HALT &ndash; NEXT &ndash; 00 &ndash; RUN. Two trains expediently stand on the two tracks at the station (block 1); a third train stands opposite in block 3. Logically, no locomotives or wagons may stand on the points. After switching on the running current, fully automatic model-railway operation sets in. The display is switched off, because the computer must partly react (compute) very quickly.</p></div>"
+  },
+  "36": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Circuit diagram, second expansion stage, with an additional outer loop</div>"
+  },
+  "37": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8pt;line-height:1.12;white-space:nowrap\">Transformer for<br>running current</div>"
+  },
+  "38": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;line-height:1.12\">Computer<br>output&nbsp;4</div>"
+  }
+}

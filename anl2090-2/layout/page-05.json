@@ -1,0 +1,588 @@
+{
+  "page_size_px": [
+    2480,
+    3507
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        96,
+        406,
+        1196,
+        814
+      ],
+      "fragments": [
+        [
+          96,
+          406,
+          1196,
+          814
+        ]
+      ],
+      "lines": [
+        [
+          96,
+          406,
+          1196,
+          814
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        78,
+        998,
+        1208,
+        2935
+      ],
+      "fragments": [
+        [
+          78,
+          998,
+          1208,
+          2935
+        ]
+      ],
+      "lines": [
+        [
+          78,
+          998,
+          1208,
+          2935
+        ]
+      ],
+      "text": ""
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1250,
+        406,
+        2412,
+        1016
+      ],
+      "fragments": [
+        [
+          1250,
+          406,
+          2412,
+          1016
+        ]
+      ],
+      "lines": [
+        [
+          1250,
+          406,
+          2412,
+          1016
+        ]
+      ],
+      "text": ""
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        141,
+        414,
+        1202,
+        614
+      ],
+      "text": "Indiesem Teil des Anleitungsbuches wird aus der großen Palet- te der Anwendungsmöglichkeiten des Microtronic-Computer- systems eine kleine Programm-Auswahl demonstriert. Beiden Programm Erklärungen wird davon ausgegangen, daß der 1. Teil des Anleitungsbuches bereits durchgearbeitet wurde.",
+      "lines": [
+        [
+          143,
+          414,
+          1202,
+          450
+        ],
+        [
+          141,
+          455,
+          1202,
+          491
+        ],
+        [
+          141,
+          497,
+          1199,
+          532
+        ],
+        [
+          142,
+          538,
+          1202,
+          573
+        ],
+        [
+          144,
+          579,
+          1184,
+          614
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        141,
+        644,
+        1200,
+        803
+      ],
+      "text": "Durch die einleitenden Erklärungen ist es jedoch auch ohne detaillierte Computer-Kenntnisse möglich, die aufgeführten Programme einzugeben, um interessante Computer-Spiele und andere Möglichkeiten kennenzulernen.",
+      "lines": [
+        [
+          142,
+          644,
+          1200,
+          679
+        ],
+        [
+          142,
+          685,
+          1198,
+          720
+        ],
+        [
+          141,
+          726,
+          1199,
+          762
+        ],
+        [
+          142,
+          768,
+          891,
+          803
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        138,
+        1006,
+        1164,
+        1054
+      ],
+      "text": "Folgende Programme stehen zur Auswahl:",
+      "lines": [
+        [
+          138,
+          1006,
+          1164,
+          1054
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        135,
+        1088,
+        1198,
+        1908
+      ],
+      "text": "Computer-Spiele Seite Tic-Tac-Toe 4 See-Schlacht 6 Code-Brecher (Denk- und Geschicklichkeits-Spiel) 9 Nimm 2 12 Computer Funktionen mit Decoder-Aufgaben Morsezeichen-Decoder 18 Morse-Trainer 21 Widerstands-Code-Berechnung 24 Computer-Berechnungen Taschenrechner-Programm (mit sämtlichen Rechenoperationen) 26 Sinus-Berechnung (etwas für Mathematiker) 32 Berechnung der Tage zwischen zwei Daten 34 Aus eingegebenen Daten einen Wochentag berechnen 36 Berechnung des persönlichen Bio-Rhythmus 37",
+      "lines": [
+        [
+          139,
+          1088,
+          1198,
+          1132
+        ],
+        [
+          137,
+          1156,
+          1198,
+          1186
+        ],
+        [
+          138,
+          1194,
+          1198,
+          1237
+        ],
+        [
+          138,
+          1239,
+          1197,
+          1275
+        ],
+        [
+          139,
+          1280,
+          1197,
+          1310
+        ],
+        [
+          138,
+          1346,
+          965,
+          1381
+        ],
+        [
+          139,
+          1407,
+          1197,
+          1450
+        ],
+        [
+          138,
+          1448,
+          1191,
+          1494
+        ],
+        [
+          136,
+          1493,
+          1198,
+          1528
+        ],
+        [
+          137,
+          1559,
+          603,
+          1594
+        ],
+        [
+          135,
+          1623,
+          892,
+          1658
+        ],
+        [
+          138,
+          1661,
+          1197,
+          1705
+        ],
+        [
+          136,
+          1706,
+          1196,
+          1742
+        ],
+        [
+          137,
+          1747,
+          1197,
+          1784
+        ],
+        [
+          135,
+          1789,
+          889,
+          1825
+        ],
+        [
+          137,
+          1830,
+          1197,
+          1861
+        ],
+        [
+          137,
+          1873,
+          1196,
+          1908
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        1938,
+        1012,
+        1973
+      ],
+      "text": "Computer-Funktionen mit Peripherie-Elektronik",
+      "lines": [
+        [
+          136,
+          1938,
+          1012,
+          1973
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        136,
+        2002,
+        1189,
+        2074
+      ],
+      "text": "Für diese Experimente sind zusätzliche BUSCH-Schaltrelais, bzw. BUSCH-Electronic-Studios erforderlich.",
+      "lines": [
+        [
+          136,
+          2002,
+          1189,
+          2038
+        ],
+        [
+          137,
+          2044,
+          918,
+          2074
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        131,
+        2109,
+        1197,
+        2766
+      ],
+      "text": "Anschluß von Relais 42 Schaltuhr mit zwei Ein- und Ausschalt-Zeiten 44 Weck-Uhr mit zwei Weckzeiten 47 Wecker mit Schlummer-Radio 48 Weitere „Schaltuhr”-Möglichkeiten 48 Computer-Orgel 52 Der komponierende Computer 54 Computer steuert elektronische Spieluhr 54 Akustische Effekte für Computer-Spiele 56 Der Computer zählt Personen und Gegenstände 57 Daten-Ubertragung mit nur 3 Leitungen 59 Daten-Übertragung im „hand-shaking”-Verfahren 61 Der Computer zählt Frequenzen 62 Reaktionszeit-Meßgerät 65 Digital-Voltmeter 68 Computergesteuerte Modelleisenbahn 71",
+      "lines": [
+        [
+          134,
+          2109,
+          1196,
+          2139
+        ],
+        [
+          135,
+          2151,
+          1197,
+          2180
+        ],
+        [
+          133,
+          2192,
+          1196,
+          2222
+        ],
+        [
+          133,
+          2233,
+          1196,
+          2263
+        ],
+        [
+          133,
+          2275,
+          1196,
+          2311
+        ],
+        [
+          133,
+          2313,
+          1195,
+          2356
+        ],
+        [
+          135,
+          2358,
+          1196,
+          2393
+        ],
+        [
+          133,
+          2399,
+          1196,
+          2434
+        ],
+        [
+          132,
+          2440,
+          1196,
+          2475
+        ],
+        [
+          134,
+          2482,
+          1195,
+          2522
+        ],
+        [
+          134,
+          2523,
+          1195,
+          2564
+        ],
+        [
+          134,
+          2564,
+          1189,
+          2600
+        ],
+        [
+          133,
+          2606,
+          1195,
+          2642
+        ],
+        [
+          133,
+          2644,
+          1196,
+          2687
+        ],
+        [
+          133,
+          2685,
+          1195,
+          2728
+        ],
+        [
+          131,
+          2731,
+          1189,
+          2766
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        130,
+        2810,
+        1196,
+        2921
+      ],
+      "text": "Diese Programme dienen als Anregung wie der Computer für die verschiedensten Aufgaben immer wieder neu program- miert werden kann.",
+      "lines": [
+        [
+          131,
+          2810,
+          1196,
+          2844
+        ],
+        [
+          130,
+          2851,
+          1196,
+          2886
+        ],
+        [
+          130,
+          2892,
+          459,
+          2921
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1263,
+        412,
+        2138,
+        448
+      ],
+      "text": "Microtronic Computer-Anfänger bitte beachten:",
+      "lines": [
+        [
+          1263,
+          412,
+          2138,
+          448
+        ]
+      ],
+      "kind": "body"
+    },
+    {
+      "bbox": [
+        1259,
+        476,
+        2326,
+        1008
+      ],
+      "text": "Vor der Programmierung sind jeweils die Tasten HALT-NEXT - 00 zu betätigen. Dann die Befehls-Codes gemäß Programm- Tabelle eingeben. Nach jeder Befehls-Code Eingabe nicht ver- gessen, die NEXT-Taste zu betätigen. Nach Eingabe des letz- ten Befehls-Codes eines Programms nochmals die Taste NEXT, dann mit HALT-NEXT-00-RUN das Programm starten. Bei nicht einwandfreier Programm-Funktion nochmals mit HALT - NEXT -00 zum Programm-Anfang gehen und durch Be- tätigung der NEXT-Taste die eingegebenen Befehle mit der Programm-Tabelle vergleichen und notfalls korrigieren (neu eingeben). Nach durchgeführter Korrektur nicht vergessen die NEXT-Taste zu betätigen und dann mitHALT - NEXT -00-RUN das Programm erneut starten,",
+      "lines": [
+        [
+          1260,
+          476,
+          2323,
+          512
+        ],
+        [
+          1261,
+          518,
+          2326,
+          553
+        ],
+        [
+          1259,
+          559,
+          2325,
+          595
+        ],
+        [
+          1261,
+          600,
+          2325,
+          637
+        ],
+        [
+          1260,
+          641,
+          2323,
+          676
+        ],
+        [
+          1261,
+          683,
+          2322,
+          718
+        ],
+        [
+          1262,
+          724,
+          2323,
+          759
+        ],
+        [
+          1262,
+          765,
+          2325,
+          800
+        ],
+        [
+          1259,
+          807,
+          2325,
+          843
+        ],
+        [
+          1261,
+          847,
+          2322,
+          884
+        ],
+        [
+          1260,
+          889,
+          2323,
+          926
+        ],
+        [
+          1261,
+          931,
+          2320,
+          965
+        ],
+        [
+          1260,
+          974,
+          1773,
+          1008
+        ]
+      ],
+      "kind": "body"
+    }
+  ]
+}

@@ -41,7 +41,9 @@ HEADER_CSS = """
 
 DOWNLOADS = """
 <div class="dl">
-  <a href="Busch_Microtronic_2090_Manual_EN.pdf">&#128214; Manual &mdash; PDF (82&nbsp;pp)</a>
+  <a href="Busch_Microtronic_2090_Manual_EN.pdf">&#128214; Part&nbsp;1 &mdash; PDF (82&nbsp;pp)</a>
+  <a href="part2.html">&#8599; Part&nbsp;2 (online)</a>
+  <a href="Busch_Microtronic_2090_Manual_Part2_EN.pdf">&#128214; Part&nbsp;2 &mdash; PDF (83&nbsp;pp)</a>
   <a href="Busch_Microtronic_2090_Program_Tables_EN.pdf">&#128209; Program Tables &mdash; PDF</a>
   <a href="program-tables.html">&#8599; Program Tables (HTML)</a>
 </div>
@@ -78,7 +80,7 @@ def build_header(contents):
            + "".join(items) + "</ol></div>")
     return (HEADER_CSS
             + '<div class="site-header">'
-            + '<h1>Busch Microtronic 2090 &mdash; Computer System Manual (English)</h1>'
+            + '<h1>Busch Microtronic 2090 &mdash; Computer System Manual (English), Part&nbsp;1</h1>'
             + '<p class="lead">Programming &ndash; Experimenting &ndash; learning playfully '
               'how a computer works.</p>'
             + DOWNLOADS + NOTICE + toc + '</div>\n')

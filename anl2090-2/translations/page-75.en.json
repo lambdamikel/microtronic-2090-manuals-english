@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.02\">We need electromagnetic points with a stop function and <b>end cut-off.</b> The end cut-off is necessary because the points receive a longer switching pulse via the relays, which &ndash; in the case of points without end cut-off &ndash; can lead to overheating and, with prolonged use, to the destruction of the electromagnetic drive.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">Now we can carry out the wiring of our &ndash; for the time being still simple &ndash; model layout. We need four light barriers and three relays, which are to be wired according to the overall circuit diagram. We note that the cables responsible for the straight-ahead setting of the points lead to contact point 3 of relay No. 1, while the cables for the branch setting are to be connected to contact point 1. This is important because both points must be operated in unison, i.e. both points are set either to straight-ahead or to branch. Now we still need a computer program that takes over the monitoring and automatic control. The following prerequisites result from this:</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">A train passes light barrier 4 (L4). The track block No. 3 lying behind it must be switched off (de-energized), so that a possible second following train does not come too close to a train travelling ahead.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">A train passes light barrier 1 (L1). Track block 2 must be switched off. At the same time, track block 3 is released again. Depending on the point setting, light barriers 2 and 3 (L2 and L3) must be monitored until a train arrives. Light barriers 2 and 3 have the following task:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.02\">When a train arrives at the station, the two points must be switched over. When stop points (&bdquo;thinking&ldquo; points) are used, this switches off the running current of the incoming train and releases the opposite track. In addition, track block 2 must be switched on again.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">In order to be able to incorporate these considerations into a computer program, a whole series of so-called &bdquo;logical operations&ldquo; (ANDI or OR commands) are necessary, in order to address, of the 4 computer inputs or outputs, only the one that is required for the control of the respective situation.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">If, for example, the state of light barrier 4 (light barrier interrupted or light barrier free, i.e. &bdquo;1&ldquo; or &bdquo;0&ldquo;) is to be taken over, then all values of the 4 connected light barriers must be stored in a register by means of the DIN command. By means of the command ANDI 8, the current state of light barrier 4 can then be processed. The value of the 3 remaining inputs is briefly set to 0.</p><p style=\"margin:0.3em 0 0;font-size:10pt;line-height:1.02\">The explanations in the program table should be sufficient to understand the program. It works through the conditions formulated above one after the other. In register 0, the value of the light barriers is taken over. In register 1, it is stored which outputs are switched on or off. In register 2, an intermediate storage takes place if light barrier L1 was interrupted, until light barriers L2 or L3 are interrupted. It must be pointed out that the connecting lead &ndash; possibly present on the computer board from earlier experiments &ndash; between</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Overall circuit diagram, first expansion stage</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;text-align:center;white-space:nowrap\">Direction of travel</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;justify-content:center\"><div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;white-space:nowrap;transform:rotate(-90deg)\">Computer inputs</div></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;justify-content:center\"><div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;white-space:nowrap;transform:rotate(-90deg)\">Computer outputs</div></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;line-height:1.15;white-space:nowrap\">Transformer for<br>running current</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;line-height:1.15;white-space:nowrap\">Transformer for<br>points</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;text-align:center;line-height:1.05;white-space:nowrap\">Relay 1</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;text-align:center;line-height:1.05;white-space:nowrap\">Relay 2</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;text-align:center;line-height:1.05;white-space:nowrap\">Relay 3</div>"
+  }
+}

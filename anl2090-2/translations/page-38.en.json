@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:16pt;font-weight:700;text-align:left;line-height:1.12\">Calculating a weekday within any year</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program change: Calculating the weekday</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Weekday table</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program supplement: Weekday calculation</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Label</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Adr.</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.0\">Code</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Mnemonic</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">Jump to</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.99;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.99\">With this program we can, by entering a date, calculate which weekday (Sunday, Monday, etc.) it was at that time.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:0.99\">The program already entered must be changed at a few program steps from address 51 onward. We make the entry after HALT &ndash; NEXT &ndash; 51 by entering the new commands in place of the existing ones (entering a new command code erases the code entered before):</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.92;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:0.92\">After we have entered the last command at address 6D, the program is started again: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p><p style=\"margin:0.26em 0 0;font-size:10.5pt;line-height:0.92\">The display shows 000000 again.</p><p style=\"margin:0.26em 0 0;font-size:10.5pt;line-height:0.92\">First we want to test an easily verifiable date:</p><p style=\"margin:0.26em 0 0;font-size:10.5pt;line-height:0.92\">On which weekday does Christmas Eve fall in the year 1982?</p><p style=\"margin:0.26em 0 0;font-size:10.5pt;line-height:0.92\">As with the previous program, the date 24 December 1982 is again entered as follows: year and month (198212) &ndash; press key A &ndash; then the day (24). The display shows 6. From the weekday table we see that the number 6 is a Friday.</p><p style=\"margin:0.26em 0 0;font-size:10.5pt;line-height:0.92\">The program is designed so that weekday calculations can be made from 1 January 1918 up to 31 December 2189. If the entered dates lie before or after these years, the displayed results are wrong.</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.18;text-align:left\">0 = Saturday<br>1 = Sunday<br>2 = Monday<br>3 = Tuesday<br>4 = Wednesday<br>5 = Thursday<br>6 = Friday</div><p style=\"font-family:Helvetica,Arial,sans-serif;color:#111;margin:0.55em 0 0;font-size:10.5pt;line-height:1.0;text-align:justify\">The program is still needed for the following chapter, so please do not delete or change it.</p>"
+  }
+}

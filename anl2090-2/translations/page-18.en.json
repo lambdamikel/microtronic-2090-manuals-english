@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Figure 2 shows the calculation of the computer&rsquo;s moves. The flow chart is constructed similarly to that for the &bdquo;calculation of a safe position&ldquo;. Additionally, in this part of the program the queries are built in as to which skill level was chosen (register 8 = 1? or register 8 = 2?). If, for example, skill level 1 or 2 was entered, the computer does not</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">always make the &bdquo;optimal move&ldquo;, but rather a &bdquo;default move&ldquo;. The default move is calculated in program part &bdquo;-1&ldquo; at the program transition point &#9316;, by subtracting the value 1 from a register that does not have the value 0.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In Figure 2 we also recognize the reference to the subroutine &bdquo;XOR&ldquo;, in which the binary addition without carry is carried out.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Figure 3 shows the subprograms: subroutine &bdquo;GEW&ldquo; and &bdquo;XOR&ldquo;.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Regarding the subprogram &bdquo;XOR&ldquo; the following should also be noted: An &bdquo;addition without carry&ldquo; is a so-called XOR operation. By this it is achieved that the result of a binary digit to be added gives the value 1 only if either the one or the other digit of the binary numbers to be added is 1. If both digits to be added are 1, or both digits to be added are 0, then the result must also be 0. This was already explained at the beginning of the program description. The XOR operation is achieved in the subprogram by the successive logical commands <b>AND</b>, <b>OR</b> and <b>INV</b>.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap\">&bdquo;Take 2&ldquo; Figure 2</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap\">&bdquo;Take 2&ldquo; Figure 3</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:left\"><p style=\"margin:0\">For program specialists, the following table with the register assignment should also not be uninteresting:</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap\">Register assignment &bdquo;Take 2&ldquo;</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt\"><b>HF</b> = pile size</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<table style=\"border-collapse:collapse;table-layout:fixed;width:100%;font-family:Helvetica,Arial,sans-serif;font-size:8.5pt;line-height:1.05\"><colgroup><col style=\"width:16%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"><col style=\"width:5.25%\"></colgroup><tr><td colspan=\"17\" style=\"border:.18mm solid #111;padding:.8mm 1.4mm;font-weight:700;font-size:11.5pt\">Register assignment &bdquo;Take 2&ldquo;</td></tr><tr><td style=\"border:.18mm solid #111;padding:.5mm 1.2mm;text-align:left;vertical-align:middle;font-weight:700\">Register&nbsp;no.</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">0</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">1</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">2</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">3</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">4</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">5</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">6</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">7</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">8</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">9</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">A</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">B</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">C</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">D</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">E</td><td style=\"border:.18mm solid #111;padding:.5mm .4mm;text-align:center;vertical-align:middle;font-weight:700\">F</td></tr><tr><td style=\"border:.18mm solid #111;padding:.5mm 1.2mm;text-align:left;vertical-align:middle;font-weight:700\">Register&nbsp;content</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">HF 3</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">HF 2</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">HF 1</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">how many?</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">from which pile?</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">skill level</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">&bdquo;XOR&ldquo;</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">&bdquo;XOR&ldquo;</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">&bdquo;XOR&ldquo;</td><td style=\"border:.18mm solid #111;padding:.5mm .3mm;text-align:center;vertical-align:middle\">free</td></tr></table>"
+  }
+}

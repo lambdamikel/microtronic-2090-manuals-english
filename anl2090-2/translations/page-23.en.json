@@ -1,0 +1,102 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;white-space:nowrap\">Morse Trainer</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The preceding program &bdquo;Morse Code Decoder&ldquo; offers us the possibility of learning the Morse alphabet within a short time. Even if a learning effect is not desired, it is interesting to try out this program variation.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We press the key at the top left, &uarr;YZ. The display shows: 0. If we now press the key <b>OAB</b> twice, the computer automatically sends the Morse signs A and B in irregular order.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We abort the program with HALT and start again with NEXT &ndash; 00 &ndash; RUN. Press the arrow key again, then the key &bdquo;OAB&ldquo; and after that &bdquo;1CD&ldquo;. All 6 digits light up on the display and the computer repeats the Morse process of the letters A and B very slowly, which makes it possible to write the signs down. Conclusion: with an entry of 00 (key &bdquo;OAB&ldquo; twice) the signs are sent quickly. With the entry (key &bdquo;OAB&ldquo; and &bdquo;1CD&ldquo;) slow Morse signs result.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We abort the program once more and restart with HALT &ndash; NEXT &ndash; 00 &ndash; RUN, press the arrow key again, then &bdquo;1CD&ldquo; and either &bdquo;1CD&ldquo; again (1 = slow) or &bdquo;OAB&ldquo; (O = fast); the computer automatically sends the Morse signs A, B, C and D in irregular order.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If, after HALT &ndash; NEXT &ndash; 00 &ndash; RUN, we again press the arrow key, then &bdquo;2EF&ldquo; (and again 0 for fast or 1 for slow), the computer sends the letters A, B, C, D and F in irregular order.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">After HALT &ndash; NEXT &ndash; 00 &ndash; RUN we now press the arrow key twice in succession and additionally 0 for slow or 1 for fast. The computer now sends the entire Morse alphabet with letters, signs and numbers in irregular, random order. A Morse machine for arbitrarily long radio messages, whose content, because of the random sequence, will not always be meaningful. For learning the Morse alphabet, however, an excellent training device.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Should the computer stop the automatic Morse-sign playback by itself after some time, it has ended up in an &bdquo;endless loop&ldquo;, i.e. an error has crept in during programming. The entire program would have to be checked carefully once more.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap\">This is of interest to the programmer:</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">To convert all letters and numbers into Morse signs, various &bdquo;program tricks&ldquo; are necessary.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In the program table we have, at addresses 00 to 0D, the &bdquo;input routine&ldquo;. By querying whether, or which, letter key was pressed, a jump is made to the corresponding parts of the program. If no letter key was pressed, the entered value is a number (0 to 9) that is to be converted into Morse signs.</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The conversion is relatively easy to solve. For example, all the numbers from 0 to 9 consist of five Morse signs (short or long, i.e. dot or dash). The numbers 1 to 5 each begin with dots and are continued with dashes (e.g. 1 = &bdquo;&bull; &ndash; &ndash; &ndash; &ndash;&ldquo;, or once short and four times long).</p></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">For the numbers 1 to 5, the number of dots (short tones) is stored in register 1 (input register). In register 5 the number of dashes (long tones) is stored. The number of dashes (long tones) is 5 minus the input value. Example: the number 1. Five dashes minus the input value (key value) 1 gives four dashes and one dot. By jumping to the subroutine &bdquo;&bull;&ldquo; a short tone is generated and the value contained in register 1 is decreased by &bdquo;1&ldquo;. Then another short tone is generated, whereby again the value &bdquo;1&ldquo; is subtracted from</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">the content of register 1. This repeats until the content of register 1 has reached the value 0. After that, in the subroutine &bdquo;&ndash;&ldquo; a long tone is generated and the value in register 5 is likewise decreased by &bdquo;1&ldquo;. This process too repeats until the content of register 5 has reached the value 0. If, for example, the digit 3 was entered to generate the corresponding Morse sign, register 1 is responsible for the three dots (short tones) and register 5 for the two dashes (long tones).</p></div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">For the digits 6 to 9, at the beginning of the Morse sign there is in each case a dash (long tone) followed by a corresponding number of dots (short tones). In this case the total number of long tones is the entered value minus 5. For the number 7, for example, first two long tones and then three short tones must be generated.</p></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The &bdquo;decoding&ldquo; of letters becomes more difficult. Here too a trick can be applied. The longest Morse sign for letters consists of four &bdquo;tones&ldquo; (i.e. dots or dashes).</p></div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The tone sequence short or long (dot or dash) can be achieved by means of a binary number. Example: the Morse sign F = &bdquo;&bull; &bull; &ndash; &bull;&ldquo;</p></div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If we use a binary 0 for dots and a binary 1 for dashes, then for the Morse sign F the binary representation 0010 results, which corresponds to the binary number 2 (see the bit-pattern table).</p></div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">If the binary arrangement 0010 is shifted to the left by the SHL command, the first shift gives the carry flag 0, and for this a short tone (dot) must be generated. On the second shift to the left the carry flag is again 0. On the third shift a carry flag of 1 results (a long tone must be generated), and on the fourth shift to the left the carry flag becomes 0 again (i.e. a short tone).</p></div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The letter A has the Morse sign: &bdquo;&bull; &ndash;&ldquo;, and for this the binary arrangement 0100 (binary number 4) can be used. However, this binary arrangement may be shifted to the left only twice, because for the representation only one short and one long tone are needed.</p></div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">So we must convert the letters into a two-digit code. The first digit of the code indicates the number of tones, the second code digit the binary number (which is also called the &bdquo;bit pattern&ldquo;). The bit pattern (binary number) is used for the tone sequence (long or short). The letter A thus has the code <b>24</b> (2 = 2 tone sequences, 4 = binary number 4 = 0100). The letter F has the code <b>42</b> (4 = 4 tone sequences, 2 = binary number 2 = 0010).</p></div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The Morse sign F should be self-evident. The binary arrangement 0010 gives the Morse sign: &bdquo;&bull; &bull; &ndash; &bull;&ldquo;</p></div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Less self-evident is the method for the letter A. The binary arrangement 0100 gives a Morse sign &bdquo;&bull; &ndash; &bull; &bull;&ldquo;. An A, however, has the Morse sign &bdquo;&bull; &ndash;&ldquo; (i.e. that we have 2 dots too many).</p></div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">Here the two-digit code helps, in which the first digit states how many tones (short or long) are to be generated. For the Morse sign A, therefore, only the first two bits (0 and 1) are used.</p></div>"
+  },
+  "24": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The conversion of the letters into a corresponding code is handled by the program from address 2B. The binary number (bit pattern), from which the tone sequence long or short results, is stored in register 2. The number of tone sequences (regardless of whether short or long) is stored in register 1. The table &bdquo;bit pattern&ldquo; shows us how the letters of the alphabet are divided into a special code.</p></div>"
+  }
+}

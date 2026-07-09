@@ -1,0 +1,78 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;line-height:1.0;text-align:justify\"><p style=\"margin:0\">After this program change, the device must be recalibrated as described above. The measuring accuracy of our digital voltmeter is now already about 0.2 V. However, at voltages above 6 V there will still be certain display fluctuations.</p><p style=\"margin:0.30em 0 0;font-weight:bold\">Attention! The digital voltmeter can only be used for direct-current measurements up to 9 V. Alternating-current voltages are not displayed. Connecting alternating-current voltages of over 9 V to the measuring leads can lead to the destruction of components.</p><p style=\"margin:0.34em 0 0.02em;font-weight:bold;text-align:left\">How does the digital voltmeter work?</p><p style=\"margin:0\">Owners of the Electronic Studio &bdquo;Digital-Technik 2075&ldquo; are familiar with the principle of converting an analog voltage into a digital measurement result.</p><p style=\"margin:0.30em 0 0\">In our experiment, the astable multivibrator generates a frequency which is low at low voltage (slow crackling) and becomes higher as the voltage rises (fast crackling). The computer counts the frequencies and reports them on the display as the voltage measurement result.</p><p style=\"margin:0.30em 0 0\">Example: The frequency amounts to 20 Hz at a connected voltage of 9 V. The voltage at a frequency of only 10 Hz results from the following formula:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\"><div>U&nbsp;=&nbsp;<span style=\"display:inline-block;vertical-align:middle;text-align:center;margin:0 4px;font-size:0.78em;line-height:0.9\"><span style=\"display:block;border-bottom:1.3px solid;padding:0 4px\">9 V</span><span style=\"display:block\">20 Hz</span></span> &times; 10 Hz = 4.5 V</div><div style=\"font-size:9.5pt;margin:4px 0\">or at a frequency of 11 Hz:</div><div>U&nbsp;=&nbsp;<span style=\"display:inline-block;vertical-align:middle;text-align:center;margin:0 4px;font-size:0.78em;line-height:0.9\"><span style=\"display:block;border-bottom:1.3px solid;padding:0 4px\">9 V</span><span style=\"display:block\">20 Hz</span></span> &times; 11 Hz = 4.95 V (rounded up to 5 V).</div></div></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:9pt;line-height:1.0\">In our currently constructed experiment, the calculation is unfortunately not quite so simple, because the higher or lower frequency is not generated linearly in relation to the connected voltage. If, at a voltage of 9 V, the 20 Hz mentioned in the example are generated, then at a 5 V connection 11 Hz would have to be generated in order to arrive at a correct result. In reality, however, our astable multivibrator does not generate 11 Hz at a connected voltage of 5 V, but 12.5 Hz. If we were to apply the same formula again, we would arrive at the following (incorrect) result:</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\">U&nbsp;=&nbsp;<span style=\"display:inline-block;vertical-align:middle;text-align:center;margin:0 4px;font-size:0.78em;line-height:0.9\"><span style=\"display:block;border-bottom:1.3px solid;padding:0 4px\">9 V</span><span style=\"display:block\">20 Hz</span></span> &times; 12.5 Hz = 5.6 V (5 V would be correct)</div></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">For the conversion of the frequency into a voltage, we must find a different formula for the astable multivibrator that is available. Taking into account the non-linear frequency generation, the following formula was found through experiments:</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\">U&nbsp;=&nbsp;0.0067 &times; f<sup>2</sup> + 0.3160 &times; f</div></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">If the corresponding frequency, e.g. 20 Hz, is substituted for f, we arrive at the following result:</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\">U&nbsp;=&nbsp;0.0067 &times; 20 &times; 20 + 0.3160 &times; 20 = 9 V.</div></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">At 12.5 Hz the result is:</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\">U&nbsp;=&nbsp;0.0067 &times; 12.5 &times; 12.5 + 0.3160 &times; 12.5 = 5 V.</div></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">Since our computer cannot measure 12.5 Hz (but only either 12 or 13 Hz), a connected 5 V measuring voltage produces fluctuating display values between 4.7 and 5.2 V.</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">Up to address 1B, the same program section results as in the &bdquo;Frequency counter&ldquo;. The generated frequency is taken into registers A and B. These values move into registers 0 and 1 and are stored in the memory registers 0 and 1.</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">Then registers 0 and 1 are once again loaded with the contents of registers A and B, and the command MULT is executed. Registers 0 to 5 now contain the square of the frequency. This result is multiplied by 67 (instead of 0.0067 in our previously mentioned formula). The first three digits of this result (in registers 2, 3 and 4) are stored in registers D, E and F.</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">Registers A and B still contain the measured frequency values, which are now multiplied by 3160 (instead of 0.3160 in our formula).</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">The result is added into registers D, E and F.</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">The final result in registers E and F is transferred to registers 8 and 9 (or registers 0 and 1) for the result display.</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">The program sequence is to be presented clearly once more:</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<table style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;border-collapse:collapse;width:100%;table-layout:fixed\"><colgroup><col style=\"width:66%\"><col style=\"width:19%\"><col style=\"width:15%\"></colgroup><tr><td colspan=\"3\" style=\"padding:0\">1. Measure the frequency (e.g. 14 Hz)</td></tr><tr><td style=\"padding:0\">2. Square the frequency</td><td style=\"padding:0;text-align:right;white-space:nowrap;vertical-align:bottom\">14 &times; 14</td><td style=\"padding:0 0 0 12px;text-align:left;white-space:nowrap;vertical-align:bottom\">= 196</td></tr><tr><td style=\"padding:0\">3. Multiply the result by 67:</td><td style=\"padding:0;text-align:right;white-space:nowrap;vertical-align:bottom\">196 &times; 67</td><td style=\"padding:0 0 0 12px;text-align:left;white-space:nowrap;vertical-align:bottom\">= 13132</td></tr><tr><td style=\"padding:0\">4. Store the first three digits:</td><td style=\"padding:0;text-align:right;white-space:nowrap;vertical-align:bottom\"></td><td style=\"padding:0 0 0 12px;text-align:left;white-space:nowrap;vertical-align:bottom\">= 131</td></tr><tr><td style=\"padding:0\">5. Multiply the measured frequency<br>&nbsp;&nbsp;&nbsp;14 Hz by 3160:</td><td style=\"padding:0;text-align:right;white-space:nowrap;vertical-align:bottom\">14 &times; 3160</td><td style=\"padding:0 0 0 12px;text-align:left;white-space:nowrap;vertical-align:bottom\">= 44240</td></tr><tr><td style=\"padding:0\">6. Add the first three digits to the<br>&nbsp;&nbsp;&nbsp;result of 4:</td><td style=\"padding:0;text-align:right;white-space:nowrap;vertical-align:bottom\">131 + 442</td><td style=\"padding:0 0 0 12px;text-align:left;white-space:nowrap;vertical-align:bottom\">= 573</td></tr><tr><td colspan=\"3\" style=\"padding:0\">7. Display the first two digits</td></tr></table>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">We compare with the formula found earlier:</p></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\">U&nbsp;=&nbsp;0.0067 &times; 14<sup>2</sup> + 0.3160 &times; 14 = 5.737</div></div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">The computer's calculations agree with this formula. It would be pointless to display the result with 3 digits, because the frequency generated by the astable multivibrator is not accurate enough.</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">If the frequency is increased to 40 Hz (at 9 V), the formula changes as follows:</p></div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"height:100%;display:flex;align-items:center;font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05\"><div style=\"width:100%\">U&nbsp;=&nbsp;0.0025 &times; f<sup>2</sup> + 0.125 &times; f</div></div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:9.5pt;line-height:1.05\">This formula change was taken into account in the command changes given in parentheses.</p><p style=\"margin:0.26em 0 0;font-size:9.5pt;line-height:1.05\">A supplementary pack for exact measurement results is in preparation. This pack contains, among other things, a special A/D converter, temperature sensor, etc., in order to be able to carry out very accurate measurements of voltages, temperatures, light, and so on. By incorporating these measured values &ndash; which, for example, are reported by the computer to the outputs when values fall below or rise above set limits &ndash; many further application possibilities of the Microtronic computer system arise.</p></div>"
+  }
+}

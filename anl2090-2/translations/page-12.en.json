@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<table class=\"timer\"><tr><th style=\"white-space:nowrap\">Label</th><th style=\"white-space:nowrap\">Addr.</th><th style=\"white-space:nowrap\">Code</th><th style=\"white-space:nowrap\">Mnemonic</th><th style=\"white-space:nowrap\">Jump&nbsp;to</th></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5C</td><td class=\"c\">C27</td><td class=\"m\">GOTO 27</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5D</td><td class=\"c\">1E0</td><td class=\"m\">MOVI E,0</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5E</td><td class=\"c\">1E5</td><td class=\"m\">MOVI E,5</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">5F</td><td class=\"c\">F60</td><td class=\"m\">DISP 6,0</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">60</td><td class=\"c\">FF0</td><td class=\"m\">KIN 0</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">61</td><td class=\"c\">F03</td><td class=\"m\">HXDZ</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">62</td><td class=\"c\">F3D</td><td class=\"m\">DISP 3,D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">63</td><td class=\"c\">FF0</td><td class=\"m\">KIN 0</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">64</td><td class=\"c\">C00</td><td class=\"m\">GOTO 00</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;SR&ldquo;</td><td class=\"a\">65</td><td class=\"c\">878</td><td class=\"m\">CMP 7,8</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">66</td><td class=\"c\">E68</td><td class=\"m\">BRZ 68</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">67</td><td class=\"c\">C69</td><td class=\"m\">GOTO 69</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">68</td><td class=\"c\">516</td><td class=\"m\">ADDI 1,6</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">69</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\">&bdquo;ZR&ldquo;</td><td class=\"a\">6A</td><td class=\"c\">878</td><td class=\"m\">CMP 7,8</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6B</td><td class=\"c\">E6D</td><td class=\"m\">BRZ 6D</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6C</td><td class=\"c\">C6E</td><td class=\"m\">GOTO 6E</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6D</td><td class=\"c\">515</td><td class=\"m\">ADDI 1,5</td><td style=\"white-space:nowrap\"></td></tr><tr><td style=\"white-space:nowrap\"></td><td class=\"a\">6E</td><td class=\"c\">F07</td><td class=\"m\">RET</td><td style=\"white-space:nowrap\"></td></tr></table>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 0mm\">Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 0mm\">The display shows: 0000. Now we have to help the computer find a random number combination. To do this we enter 4 arbitrary numbers or letters (this entry has nothing to do with the number combination to be guessed later). The display switches off for 1 second &ndash; then 000000 is shown. The computer has determined the number combination to be guessed and stored it invisibly.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 0mm\">For the guessing process we can always enter 4 numbers between 0 and 9, for example 1 &ndash; 2 &ndash; 3 &ndash; 4. The entered numbers are displayed. By pressing key <b>A</b>, the computer compares the entered number values with the invisibly stored number combination. The display shows a 6-digit readout, in which the four rightmost digits continue to show the previously entered number combination (e.g. 1 &ndash; 2 &ndash; 3 &ndash; 4). If, for example, 00 is shown on the two left digits, this means that no number was guessed correctly.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 0mm\">If the display shows, for example, &bdquo;01&ldquo; on the two left digit positions, this would mean:</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\"><b>0</b> = no correctly guessed number in the correct position.<br><b>1</b> = one correct number, but in the wrong position.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 0mm\">A reading of, for example, 21 on the two left display positions would mean that we have guessed 2 correct digits in the correct position, and that we have guessed 1 further correct number which, however, is in the wrong position. After we have entered the number combination 1 &ndash; 2 &ndash; 3 &ndash; 4, it would be established that three of these numbers were guessed correctly, of which two are in the correct position, while one is in the wrong position and one number in the combination invisibly fixed by the computer still has to be guessed.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 0mm\">The following small table once again demonstrates to us how the display shows the values:</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">= entered number combination</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">= correct number, but in the wrong position</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">= correct number, in the correct position</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0 0 3mm\">We keep guessing. Enter four new numbers &ndash; press key <b>A</b>. As soon as the display reports correct numbers on the two left digit positions, we should write down the entered number combinations, so that by shifting and re-entering the individual digits we can guess the correct number combination step by step.</p><p style=\"margin:0 0 3mm\">The Code Breaker is an interesting game and it requires a lot of logical thinking to find the correct number combination. With every new entry, do not forget to press key A.</p><p style=\"margin:0 0 3mm\">If after some time we were to find the correct number combination, for example by entering the numbers 6 &ndash; 8 &ndash; 5 &ndash; 7 (then key A), the display reports: <b>E6857E</b>. If we then press key A once more, the display shows in three digits how many attempts were needed.</p><p style=\"margin:0 0 3mm\">If key A is pressed again, the display reports, as at the start of the game: 0000, and as soon as 4 arbitrary number keys have been pressed, a new Code Breaker game can begin.</p><p style=\"margin:0 0 3mm\">If the course of the game takes too long for us, we can have the computer display the number combination it has fixed by pressing key <b>B</b>. However, this aborts the game, and when key A is pressed again the number of guessing attempts made so far is shown on the display.</p><p style=\"margin:0 0 0mm\">The program must be entered very carefully, because if a command is entered incorrectly the computer&rsquo;s ongoing calculations will not be right and thus incorrect results will be displayed. We can test this very easily if, at the beginning after a few guessing attempts, we have the number combination to be guessed displayed by pressing key B. If necessary, check and correct the program with HALT &ndash; NEXT &ndash; 00 and further presses of the NEXT key.</p></div>"
+  }
+}

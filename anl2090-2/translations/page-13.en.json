@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap\">This is of interest to the programmer:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;white-space:nowrap\">Program flow chart: Code Breaker</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">We again compare the program table and the flow chart. The first part of the program (addresses 00 to 23) provides the four different random numbers that have to be guessed later. Although we determine these random numbers with the help of the random-number generator integrated in the microprocessor, it is difficult to effectively obtain four independent (mutually different) random numbers. Suppose one were simply to store the resulting random numbers in the 4 registers by means of 4 RND commands placed one after another &ndash; then numbers &bdquo;dependent&ldquo; on one another would arise. If, for example, the first random number were the digit 1, the next 3 digits would depend on this number; i.e. every time the first random number turns out to be the digit 1, the same number combination would result. This happens because the execution times of the commands are always equal in length, and so the &bdquo;random counter&ldquo; also counts on by the same number of steps within this same time interval.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">To obtain four mutually independent random numbers, the following trick was used: 4 arbitrary digits are entered, and to each of these a random number is added. It is then checked whether these numbers are smaller than 9. If this is not the case, the value 7 is added repeatedly until values result that are 9 or smaller than 9. In this way the hexadecimal digits A to F are eliminated.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In addition, the four random numbers are checked to see whether perhaps an identical number is present twice. If so, the value 7 is again added until all 4 random numbers are different. In this way four different and mutually independent random numbers are determined.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">At address 28, the &bdquo;guessing numbers&ldquo; are entered.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">At address 31 the random numbers can be displayed. At addresses 57 to 59 the number of guessing attempts is counted hexadecimally in registers D to F. The comparison command at address 5A checks whether register 6 contains the value 4. If so, the correct number combination has been guessed.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In the program table, the first column also gives notes on the addresses at which the individual jump targets begin, while the last column contains notes on the addresses at which corresponding jumps &ndash; for example to the subroutines &ndash; are carried out.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The individual working steps can be seen from the program flow chart. In registers 1 to 4 the &bdquo;guessing number&ldquo; devised by the player is entered, and then each individual entered digit is compared with the computer&rsquo;s random numbers stored in registers 9 to C. This gives rise to the jumps to the subroutine &bdquo;SR&ldquo; (= position correct?), or to the subroutine &bdquo;ZR&ldquo; (= number correct?). The subroutine &bdquo;SR&ldquo; checks whether the correct number is in the correct position. If this is the case, the value 1 is added to register 6.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">In the subroutine &bdquo;ZR&ldquo; it is checked whether a correct number has indeed been entered but is in the wrong position. If so, the value 1 is added to register 5.</p></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">The number of attempts is counted hexadecimally in registers D, E and F. Only when the number of attempts is to be displayed is the hexadecimal result converted into decimal numbers.</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0\">It is impossible, with these longer programs, to explain every single program step (as in the first part of the instruction book). Anyone who takes the trouble to work through the program flow chart consistently, however, will quickly understand the meaning and the operation of the program.</p></div>"
+  }
+}

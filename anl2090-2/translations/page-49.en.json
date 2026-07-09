@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13.5pt;font-weight:700;text-align:left;line-height:1.05\">Computer-controlled timer clock with many variation options</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.02\">For the following experiments, the &bdquo;Schaltuhr&ldquo; program from the previous chapter continues to be used. By connecting additional components, the following variations arise, for example:</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;text-align:left;line-height:1.15\">Radio alarm clock<br><span style=\"font-weight:400;font-size:11pt\">(BUSCH Electronic Studio 2070 required).</span></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.03\">With the BUSCH Studio Center 2070, a radio receiver is built. (See figure.) In radio circuits, the connecting cable normally runs from the minus pole of the battery to the slide switch of the Electronic Studio. Since the radio is to be switched on by the computer, the &bdquo;&Uuml;berspielkabel&ldquo; (patch-cable) module is connected in between, as can be seen from the figure. We can now connect the Electronic Center 2070 with the assembled radio to the computer by joining the two devices with a standard patch cable (available at any radio shop). This patch cable runs from the patch socket of the Studio Center to patch socket no. 1 of the computer.</p><p style=\"margin:0.42em 0 0;font-size:10.5pt;line-height:1.03\">In the computer housing, a simple amplifier circuit is built with a transistor and the 1 k&Omega; resistor, connected to the &bdquo;&Uuml;berspielkabel 1&ldquo; module. Since we cannot operate our radio set with the low voltage of the computer output, building the small transistor amplifier is necessary. The transistor amplifier circuit is connected to OUTPUT 2 of the computer. The piezo buzzer is connected to OUTPUT 1 of the computer. The arrangement of the buttons stays the same as in the previous experiment. The figure shows all the required circuit assemblies and changes.</p><p style=\"margin:0.42em 0 0;font-size:10.5pt;line-height:1.03\">Entering the switch-on and switch-off times, as well as putting it into operation, still follows the instructions in the &bdquo;Schaltuhr&ldquo; (timer clock) chapter.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.05\">It makes sense to check the assembled radio set for perfect operation before connecting the &bdquo;&Uuml;berspielkabel&ldquo; module in between.</p><p style=\"margin:0.45em 0 0;font-size:11pt;line-height:1.05\">Entering the first alarm time will now trigger the piezo buzzer, while the second alarm time switches on the radio receiver.</p><p style=\"margin:0.45em 0 0;font-size:11pt;line-height:1.05\">We can now operate the two interconnected devices (computer with radio receiver) as follows:</p><p style=\"margin:0.45em 0 0;font-size:11pt;line-height:1.05\">The first alarm time is again entered as 06:30, the first switch-off time as 06:31. As the second switch-on time we again enter 06:45, and as the second switch-off time 07:15.</p><p style=\"margin:0.45em 0 0;font-size:11pt;line-height:1.05\">The computer signals at 6:30 in the morning with a buzzing tone lasting one minute. After a 14-minute pause, the radio set is switched on at 6:45. If the radio receiver is not switched off by pressing a red button, it switches off automatically at 7:15.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Timer clock for MW radio connection</div>"
+  }
+}

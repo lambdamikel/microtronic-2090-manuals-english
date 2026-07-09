@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Connecting relays</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">BUSCH low-current switching relay no. 5964</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Connecting the 5964 relay to a computer output</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:0.97;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:0.97\">From various experiments (instruction book, Part 1) we know that the computer can take over switching functions. For this, with the DOT command and appropriate programming, we put &bdquo;a voltage&ldquo; on the computer outputs. With this small control voltage, however, we can drive only, say, the piezo buzzer or a light-emitting diode.</p><p style=\"margin:0.34em 0 0;font-size:10pt;line-height:0.98\">Larger current consumers get their power supply via a switching relay. The switching relay is driven from the computer output. Since the relay function too needs more current or voltage than is available at the computer output, the output voltage must be amplified by a transistor circuit.</p><p style=\"margin:0.34em 0 0;font-size:10pt;line-height:0.98\">Two relay options are available:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:0.98;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:0.98\">All kinds of devices capable of low-current operation (up to a maximum of 24 volts, 8 A) can be switched on or off &mdash; on a model-railway layout, for example, lighting, cranes for automatic loading and unloading, bells, horns, sirens, and so on. Setting or switching points is also possible if points with automatic end shut-off are used.</p><p style=\"margin:0.34em 0 0;font-size:10pt;line-height:0.98\">The 5964 relay works as a &bdquo;changeover switch&ldquo;. Two separate circuits can be switched.</p><p style=\"margin:0.34em 0 0;font-size:10pt;line-height:0.98\">The figure shows how the relay is driven, e.g. from computer output no. 1 with a 1 k&Omega; resistor and a transistor. As soon as the DOT command puts &bdquo;a voltage&ldquo; on the output, the relay&rsquo;s switching action is triggered: circuit 1 off &ndash; circuit 2 on. This state is held until &bdquo;no voltage&ldquo; is present at the computer output any longer. The relay springs back: circuit 1 on &ndash; circuit 2 off. The corresponding circuits can be connected at the relay&rsquo;s contacts. A detailed description is supplied with the relay.</p><p style=\"margin:0.34em 0 0;font-size:10pt;line-height:0.98\">For experiments &mdash; e.g. with a model railway &mdash; it is essential that live parts never come into contact with a computer connection. The model-railway transformer voltage of 16 V AC will inevitably destroy individual components.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">This relay is also offered, among other places, in the BUSCH model-railway accessory range. It can be used for a wide variety of switching and control functions.</p></div>"
+  }
+}

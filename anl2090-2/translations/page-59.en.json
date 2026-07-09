@@ -1,0 +1,194 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:15pt;font-weight:700;line-height:1.12\">The computer counts people and objects</div><div style=\"font-size:11pt;font-weight:400;line-height:1.1;margin-top:4px\">(BUSCH Electronic Studio 2065 or 2070 required)</div></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Light-barrier controlled counter</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">The tone-generating circuit from the preceding experiments is also used unchanged for this experiment.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">After HALT &ndash; NEXT &ndash; 00 &ndash; RUN, the program is put into operation in the same way as described on page 23 of instruction book Part 1. At the end of the game, additional acoustic effects now result, which are matched to the game result by a corresponding tone sequence:</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\"><b>Soft landing of the lunar module</b> = melodic tone sequence of high and low tones.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\"><b>Lunar module has smashed on the lunar surface</b> = simultaneously rising and falling melody sequence.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\"><b>Fuel supply used up</b> = repeatedly falling tone sequence.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\"><b>Lunar module vanishes into space</b> = rapidly rising tone sequence.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">The game &bdquo;Moon Landing&ldquo; is now perfect. The short additional program shows how such games can be made even more interesting through acoustic effects. The individual tone-program parts can also be adopted afterward for other game programs. (Note the command changes for the jumps to the subroutine!)</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">Where there is light, there is also shadow! Through this effect, counting effects can be achieved with light barriers, in that an illuminated photoresistor passes on the change between light and dark to the computer input by changing the voltage.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">We build the electronic circuit according to the figure. The photoresistor should be illuminated by daylight or by the light of a lamp. By slowly turning the potentiometer knob, the circuit is adjusted so that the light bulb just goes out. If the photoresistor is then darkened somewhat &mdash; e.g. by the shadow of a hand held over it &mdash; the little bulb must light up.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">After the electronic circuit has been connected to the computer, we carry out the programming after HALT &ndash; NEXT &ndash; 00:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows 00.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">As soon as we bring a shadow onto the photoresistor (e.g. with the hand), this light&ndash;dark change is counted. The display shows 01 (i.e. how often a shadow was registered by the photoresistor). With the red button H, the counter can be reset to 0 again.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">If the connecting cable is extended, the photoresistor can be mounted, for example, on a door. The computer then counts how many people have entered a room through this door.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">With a focused beam of light, objects can be counted, e.g. on a conveyor belt. The circuit can also be used as a lap counter for model railways or electric slot-car tracks, and so on, and so on.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:3px\">Address</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;text-align:center;line-height:1.0;padding-top:3px\">Code</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:3px\">Mnemonic</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:3px\">Explanations</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Clear all registers</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Show registers 1 and 2</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Store input value<br>in Reg. 0</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Clear value at<br>inputs 3 and 4</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Reg. 0 = Reg 3?</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Yes, then jump to 02</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Reg 0 &rarr; Reg. 3</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Reg 0 = 1?</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Yes, jump to 02</div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Greater than 1, jump to 00</div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">Decimal counting program<br>in registers 1 and 2</div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7pt;line-height:1.2;white-space:nowrap;padding:2px 0 0 8px\">similar to page 25<br>(described from address 08 on)</div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;text-align:center;line-height:1.1;padding-top:16px\">Wait<br>loop</div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "24": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "25": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "26": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "27": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "28": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "29": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "30": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "31": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "32": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "33": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "34": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "35": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "36": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "37": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "38": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "39": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "40": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "41": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "42": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "43": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "44": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "45": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "46": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "47": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.0pt;line-height:1.03\">After the program has been entered, the two red buttons G and H must be connected to INPUTS 1 and 2, and in addition the TAKT/CLOCK connecting lead to INPUT 4. The piezo buzzer is connected to OUTPUT 3 and GND. The connecting leads of the piezo buzzer must not be interchanged. (See figure.)</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\">After the keys HALT &ndash; PGM &ndash; 3, enter the current time of day. Then start the program with HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows 0. Now the following options arise:</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\"><b>Button B:</b> The clock is shown on the display. The timer clock is still working without switching functions. If one of the two red buttons G or H is pressed, the display shows 0 again and the computer waits for the next entry.</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\"><b>Button C:</b> The first switch-on time can be entered (hours and minutes). If a wrong time was entered by mistake, repeat the correct entry until the desired hours and minutes are shown on the display. Finish the entry by pressing button C again. The display shows 0 again &ndash; the computer waits for a new entry.</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\"><b>Button D:</b> Entry of the first switch-off time (hours and minutes). Finish the entry by pressing button D again. The display shows 0 again.</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\"><b>Button E:</b> Entry of the second switch-on time. End the entry by pressing button E once more.</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\"><b>Button F:</b> Entry of the second switch-off time. End the entry by pressing button F once more.</p><p style=\"margin:0.36em 0 0;font-size:10.0pt;line-height:1.03\"><b>Button A:</b> The timer-clock functions are put into operation. The display shows the current time of day in hours and</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Connecting the buttons &amp; piezo buzzer for the timer clock</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Hour comparison</div></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">10-minute comparison</div></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Minute comparison</div></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Set carry flag (1)</div></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Reset carry flag (0)</div></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">10-hour comparison</div></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Hour comparison</div></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">10-minute comparison</div></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;text-align:left;line-height:0.95\"><div style=\"padding:4px 0 0 8px\">Minute comparison</div></div>"
+  }
+}

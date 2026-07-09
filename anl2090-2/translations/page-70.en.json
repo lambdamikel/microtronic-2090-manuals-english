@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;\"><div style=\"font-size:19pt;font-weight:700;line-height:1.05\">Digital voltmeter</div><div style=\"font-size:10.5pt;font-weight:400;line-height:1.1;margin-top:8px\">(BUSCH Electronic Studios 2065 or 2070 required)</div></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Astable multivibrator for the digital voltmeter</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Digital voltmeter</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Measuring leads</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">to the computer</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">A digital voltmeter is a voltage-measuring instrument in which the measurement results are displayed digitally, i.e. in directly readable numerical values. Compared with an analog measuring instrument, in which the measurement result is shown by the deflection of a pointer, digital displays are easier to read. In addition, digital measuring instruments work more accurately. However, a greater circuit complexity is also required.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">In a digital voltmeter, the voltage (an analog quantity) must be converted into a digital quantity. For this there are special integrated circuits, so-called A/D converters (analog-to-digital converters).</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">The display accuracy of a digital measuring instrument depends on how many parts the quantity to be measured can be divided into. If, for example, a 10 V voltage is divided into 20 parts, the smallest displayed value (or the smallest voltage difference) works out to a range of 0.5 V. If 10 V is divided into 100 parts, an accuracy of 0.1 V already results.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">For the analog-to-digital conversion we again use an &bdquo;astable multivibrator&ldquo;, whose construction, however, changes compared with the multivibrator used up to now. We rebuild the circuit according to the figure. TAKT/CLOCK must again be connected to INPUT 1.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">The construction plan is authoritative when the large Electronic Studio 2070 is available. When using the Electronic Studio 2065, the 3 components shown directly to the left of the battery are omitted (loudspeaker, transistor and 22 K Ohm resistor). In this case the earphone is to be used (drawn in the plan with a dotted line). The connecting leads to the unused components</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">are omitted, and the plus pole of the battery is connected directly to the 1 K Ohm resistor (top center).</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">The leads leading to the computer are again marked with &oplus; and &ominus;. As in the previous experiment, the &oplus; lead is again connected to INPUT 4 of the computer board. The &ominus; lead leads to the GND socket. The red buttons G and H that may still be connected are not required.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">So that we can &bdquo;calibrate&ldquo; our digital voltmeter, the program must first be entered according to the table.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.5pt;font-weight:400;text-align:left;line-height:1.04;padding-top:2px;padding-left:6px\">Addr.<br>No.</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:700;text-align:left;line-height:1.04;padding-top:3px;padding-left:6px\">Code</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:left;line-height:1.04;padding-top:3px;padding-left:6px\">Mnemonic</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.5pt;font-weight:400;text-align:left;line-height:1.04;padding-top:3px;padding-left:6px\">Explanations</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Computer counts frequencies</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program: Frequency counter</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Circuit of the astable multivibrator for frequency measurement</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.1;text-align:left\"><p style=\"margin:0;font-size:11pt;line-height:1.1\">(BUSCH Electronic Studio 2065 or 2070 required).</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">Frequency measuring instruments are needed in electronics for checking oscillation-generating circuits. With them, one can determine, for example, the transmitting frequency of a radio transmitter, or the audio frequency of an astable multivibrator.</p><p style=\"margin:0.24em 0 0;font-size:10pt;line-height:1.0\">The measuring principle is the same for all frequency counters. During a defined time (e.g. one second), the number of frequency pulses is counted and evaluated. Our experiment works on this principle too.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">Before we start the program, the circuit is to be built up as shown in the figure. The connecting lead marked with &oplus; is connected to INPUT 4 of the computer. The lead marked with &ominus; leads to the GND socket of the computer.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.05\">On the computer board, TAKT/CLOCK is to be connected to INPUT 1.</p></div>"
+  }
+}

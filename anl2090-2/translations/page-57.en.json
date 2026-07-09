@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.1\">(&bdquo;H&auml;nschen Klein&ldquo;)</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.1\">(&bdquo;Du liegst mir am Herzen&ldquo;)</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">This is of interest to the programmer:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">Reconnect the battery cable to the electronic circuit. Program start with HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.05\">The computer immediately begins to play the 3 melodies one after another, repeating them until the green RESET button on the computer board is pressed. A new program start is made as usual with HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.05\">With the rotary knob of the potentiometer, the pitch can be trimmed a little if the melodies are not played in the correct key.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.05\">If the owners of the Electronic Studios 2060 or 2065 do not have the two aforementioned components sent to them, this experiment can still be carried out; however, wrong tone sequences must then be accepted in some places.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">Through hexadecimal entries, binary values are placed on the outputs, whereby the desired &bdquo;high&ldquo; and &bdquo;low&ldquo; states arise there. Depending on which outputs &mdash; and how many of the outputs &mdash; are &bdquo;high&ldquo;, the various pitches are played.</p><p style=\"margin:0.28em 0 0;font-size:10.5pt;line-height:1.0\">To get the computer to play particular melodies, the required tones must be produced in the correct order by the corresponding binary values at the outputs. We must know which resistor combination of our circuit produces the desired tone. The programming of the tone sequences follows accordingly.</p><p style=\"margin:0.28em 0 0;font-size:10.5pt;line-height:1.0\">Since the 3 melodies consist of a whole host of individual tones, a longer program is required, because every single tone has to be programmed.</p><p style=\"margin:0.28em 0 0;font-size:10.5pt;line-height:1.0\">Nevertheless, even without a program flow chart, a simple and clear presentation results, because the entire &bdquo;tone program&ldquo; is carried out with pitch in register 0 and tone length in register 2.</p></div>"
+  }
+}

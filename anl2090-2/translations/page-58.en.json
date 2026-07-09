@@ -1,0 +1,50 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15.5pt;font-weight:700;text-align:left;line-height:1.1\">Acoustic effects for computer games:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.16\">Program addition:<br>Acoustic effects for &bdquo;Moon Landing&ldquo;</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.03;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.03\">The MOVI commands bring the hexadecimal values for the binary representation at the outputs into register 0. The CALL commands cause a jump into the subroutine (from address 02 to 0A), whereby the corresponding outputs are activated for a short time.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.03\">The MOVI commands also take care of the tone lengths, by bringing either the value 0 (short tones) or the value 1 (long tones) into register 2. If register 2 has the content 1, a continuous tone results, which changes only with the next following tone. If register 2 holds the value 0, a short tone arises &mdash; i.e. a short pause results between two tones. The melody &bdquo;Sentimental Journey&ldquo; begins at address 0B. The command MOVI 1,2 brings the value 1 into register 2, i.e. all following tone commands produce continuous tones. With the following command MOVI 8,0, the value 8 is brought into register 0 (binary: 1000), i.e. output 4 becomes &bdquo;high&ldquo; and the corresponding tone is produced by the electronic circuit. Each MOVI command is followed by a CALL command. Through this constant jumping back and forth between the &bdquo;melody program&ldquo; and the &bdquo;subroutine&ldquo;, the melody sequence results.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.03\">The melody &bdquo;H&auml;nschen klein&ldquo; results from address 4E onward, where the command MOVI 0,2 brings the value 0 into register 2, so that all following tones are &bdquo;played short&ldquo;.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.03\">In the melody &bdquo;Du, Du liegst mir am Herzen&ldquo;, registers 0 and 2 are addressed alternately, because both long and short tones are required for this melody.</p><p style=\"margin:0.32em 0 0;font-size:10.5pt;line-height:1.03\">It should not be difficult for us to program the computer ourselves with a melody that we particularly like.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">The &bdquo;computer games&ldquo; offered in shops are often bought because of their acoustic effects. Many a game can be made more interesting through an acoustic representation of the score reached.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.05\">The game &bdquo;The Moon Landing&ldquo; (page 23, instruction book Part 1) becomes considerably more effective through acoustic signals at the end of the game.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.05\">Let's try it out!</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.05\">We enter the Moon Landing program once again. Apart from a few commands, the program can be taken over from page 24:</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.05\">At address 56 (FE6), the change to CA5 is required. At address 6D (1FF) it is changed to C99. At address 7F (C6D) it is replaced by C90, and address 84 (C6D) by C9F.</p><p style=\"margin:0.34em 0 0;font-size:10.5pt;line-height:1.05\">Then the program is extended from address 90 onward. We carry out the additional reprogramming after HALT &ndash; NEXT &ndash; 90:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Address</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;text-align:center;line-height:1.0;padding-top:2px\">Code</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Mnemonic</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;text-align:center;line-height:1.0;padding-top:2px\">Explanations</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.1;padding:3px 0 0 8px\">Tone generation for<br>&bdquo;lunar module crashes&ldquo;</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.1;padding:3px 0 0 8px\">Tone generation for<br>&bdquo;fuel used up&ldquo;</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.1;padding:3px 0 0 8px\">Tone generation for<br>&bdquo;lunar module drifts off&ldquo;</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.1;padding:3px 0 0 8px\">Tone generation for<br>&bdquo;soft moon landing&ldquo;</div>"
+  }
+}

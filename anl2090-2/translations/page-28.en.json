@@ -1,0 +1,38 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:17pt;font-weight:700;white-space:nowrap\">The &bdquo;Pocket Calculator&ldquo; Program</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">That our computer can add, subtract, multiply and divide is known to us from the experiments of the instruction book, Part 1.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">These individual programs are now combined into a convenient calculator program with which all 4 basic arithmetic operations can be performed.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">The rather extensive program should be entered very carefully after HALT &ndash; NEXT &ndash; 00 and checked.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap\">Program: &bdquo;Pocket Calculator&ldquo;</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;white-space:nowrap\">Label</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;white-space:nowrap\">Adr.</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:700;white-space:nowrap\">Code</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;font-weight:400;white-space:nowrap\">Jump to</div>"
+  }
+}

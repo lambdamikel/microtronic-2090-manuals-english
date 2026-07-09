@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Program flow chart: Timer clock</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.02;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.02\">The functions follow from the flow chart. At <b>START</b> (first column) we find the usual input routine. The abbreviations used are:</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.98\"><span style=\"display:inline-block;width:60px;font-weight:700\">EIN 1</span>= first switch-on time<br><span style=\"display:inline-block;width:60px;font-weight:700\">AUS 1</span>= first switch-off time<br><span style=\"display:inline-block;width:60px;font-weight:700\">EIN 2</span>= second switch-on time<br><span style=\"display:inline-block;width:60px;font-weight:700\">AUS 2</span>= second switch-off time<br><span style=\"display:inline-block;width:60px;font-weight:700\">S UHR</span>= timer clock<br><span style=\"display:inline-block;width:60px;font-weight:700\">UHR</span>= clock operation without switching<br></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:0.98\">The switching times are entered by means of the two subroutines:<br>SUB-routine <b>S EIN</b> = setting the switch-on time<br>SUB-routine <b>S AUS</b> = setting the switch-off time</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">In program part 3, the clock runs without switching capability. The SHL command (shift left) removes the clock pulse present at input 4 from register 8, so that no jump back to <b>START</b> occurs.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">The timer-clock function is in program part 2, <b>S UHR</b>. The current time is compared with the entered switching times in the subroutines <b>V EIN</b> (compare switch-on time) and <b>V AUS</b> (compare switch-off time). There the carry flag is set (value 1) while a switching time does not match the current time, and reset (value 0) when it matches. Querying the carry flag, the main program switches the individual outputs on or off via the AND/OR commands.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">In program part 2, <b>S UHR</b>, it is checked whether one of the two red buttons was pressed, and the outputs are switched accordingly. As long as neither red button G nor H is pressed, register 8 holds 0 and the following program part is skipped.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10.5pt;line-height:1.0\">If, however, both red buttons were pressed, register 8 has the value 3 (binary: 0011) and a jump back to the program part <b>START</b> occurs.</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">The next comparison, &bdquo;Is the value 1 present in register 8?&ldquo;, determines whether the red button G or H was pressed. When button G is pressed, a jump to program part <b>TA G</b> (button G) occurs. Since the command MOV 9,A occurs earlier at address 51, the content of register A is identical to the content of register 9. In program part <b>TA G</b>, the command SHR A determines whether output 1 is &bdquo;high&ldquo; or &bdquo;low&ldquo;, i.e. switched on or off. With a &bdquo;high&ldquo; at output 1 (binary: 0001), the SHR command (shift right) sets the carry flag and the command ANDI E,9 (binary: 1110) switches the output off. If, however, the output was &bdquo;low&ldquo;, it is switched on by the command ADDI 1,9 (binary: 0001).</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">The same applies in principle to program part <b>TA H</b> (button H).</p><p style=\"margin:0.3em 0 0;font-size:10.5pt;line-height:1.0\">In program part <b>OR</b>, it is determined whether one of the two outputs no. 1 or 2 is &bdquo;high&ldquo;, i.e. switched on. If outputs no. 1 or 2 are switched on, output 3 is also switched on.</p></div>"
+  }
+}

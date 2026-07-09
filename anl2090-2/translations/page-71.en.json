@@ -1,0 +1,34 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;text-align:left;line-height:1.2;padding:3px 0 0 4px\">Jump to &bdquo;MOVI 0&ldquo;</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;text-align:left;line-height:1.2;padding:3px 0 0 4px\">Jump to &bdquo;MOVI 0&ldquo;</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;text-align:left;line-height:1.2;padding:3px 0 0 4px\">Jump to &bdquo;MOVI 0&ldquo;</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;text-align:left;line-height:1.2;padding:3px 0 0 4px\">Subroutine &bdquo;MOVI 0&ldquo;</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.2;white-space:nowrap;padding:10px 0 0 4px\">Command change<br>at 40&nbsp;Hz frequency</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.5pt;text-align:left;line-height:1.2;white-space:nowrap;padding:20px 0 0 4px\">Command change<br>at 40&nbsp;Hz frequency</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;line-height:1.05;text-align:left\"><p style=\"margin:0;font-size:10.5pt;line-height:1.05\">* At these addresses, note the command changes in the 2nd part of the experiment.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10pt;line-height:1.0;text-align:justify\"><p style=\"margin:0;font-size:10pt;line-height:1.0\">Start the program. The display shows 00. To calibrate the voltmeter we need a 9 V battery that has already been in operation for some time. We deliberately do not use a factory-fresh battery, because such new batteries (despite the corresponding label) usually have 9.6&ndash;9.8 V, whereas batteries that have already been in use show quite exactly 9 V when no current is being drawn. The battery is connected to the <b>measuring leads</b> marked with &oplus; and &ominus; (see figure). We turn the potentiometer knob back to the left stop. Nothing can be heard in the earphone or loudspeaker. Now the potentiometer knob is slowly turned to the right in small steps. The loudspeaker (earphone) again produces the familiar crackling sound. We keep turning to the right until the display shows, as exactly as possible, 90 (9.0 V). The computer needs about 2&ndash;3 seconds for the measuring process, which is why after each potentiometer setting one must wait for the changed display value.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">We will probably find that we will not succeed in calibrating precisely at 9 V. The display may show fluctuating values between 8.4 and 9.5 V. This should not bother us for now.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">With our digital voltmeter we can now measure DC voltages <b>up to 9 V</b>. We surely have 1.5 V batteries available in another electrical device (e.g. in a portable radio), so that when using 2 batteries we can measure 3 V, or with 3 batteries 4.5 V, and so on. If we own the Electronic Studio &bdquo;Digital-Technik 2075&ldquo;, the very accurately working 5 V socket of the IC counter module can also be used for calibrating and measuring.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">In its current form, our digital voltmeter has a measuring accuracy of 0.4 to 0.5 V. With voltages that have intermediate values, the mentioned display fluctuations result.</p><p style=\"margin:0.28em 0 0;font-size:10pt;line-height:1.0\">If, however, in the &bdquo;Frequency counter&ldquo; chapter we found that the limit frequency of our microcomputer is above 40 Hz, the measuring accuracy of our digital voltmeter can be substantially improved. For this, the commands marked with a * in the program table must be exchanged for the commands given in parentheses. So, for example, at address 25 we change the command entered as &bdquo;170&ldquo; to &bdquo;150&ldquo;, and so on.</p></div>"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">Program start with HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows: 000000.</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">With the cover hood open, place the keypad mask labeled &bdquo;Taschen-Rechner/Calculator&ldquo; on the keyboard and close the cover hood again.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">The function keys (on the right-hand side) are not used for the arithmetic operations. This concerns above all the C/CE key, which is now present and to be used as a &bdquo;clear key&ldquo; (in the second row from the top).</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">As with a pocket calculator, the values to be calculated are entered. The entry of the number values must not be made too quickly. The arithmetic operations are triggered by pressing the keys +, &ndash;, &divide;, &times; and the result is determined and displayed by the = key. With the C/CE key, a single press clears the most recently entered number; with a double press, all entered numbers are cleared.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">If a negative result arises, the upper carry-flag LED lights up at the same time as the result display.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">We first carry out the following calculation: 25 &times; 3 + 80 &ndash; 300. The entries, the keys to be pressed, and the display result as follows:</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap\">Entry</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap;text-align:center\">Display</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"width:100%;height:100%;background:#111\"></div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">1st intermediate result</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">2nd intermediate result</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;white-space:nowrap\">Final result</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.1\">Glowing carry flag = negative result,<br>i.e. final result = &ndash;145</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">If a result is larger than the 6-digit display permits, EEEEEE appears on the display.</p></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">For a division, a maximum of 4 digits may be entered. Division results are therefore always displayed with 4 digits. Since the display of decimal places is not provided, division results are generally rounded down: example: 17 &divide; 2 = 8 (instead of the correct result 8.5).</p></div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:700;white-space:nowrap\">This is of interest to the programmer:</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">For better understanding, the register assignment will first be presented in the following table:</p></div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap\">Register Assignment:</div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<table style=\"border-collapse:collapse;width:100%;font-family:Helvetica,Arial,sans-serif;color:#111;table-layout:fixed\"><colgroup><col style=\"width:15%\"><col style=\"width:85%\"></colgroup><tr><th style=\"border:1px solid #111;padding:2px 6px;font-weight:700;font-size:9pt;text-align:center;line-height:1.1\">Reg.<br>No.</th><th style=\"border:1px solid #111;padding:2px 6px;font-weight:700;font-size:9pt;text-align:left\">Register functions</th></tr><tr><td style=\"border:1px solid #111;padding:0 4px;text-align:center;font-size:9.5pt;line-height:1.0;white-space:nowrap;\">0<br>1<br>2<br>3<br>4<br>5</td><td style=\"border:1px solid #111;padding:1px 9px;text-align:left;font-size:9.5pt;line-height:1.15;\">Display register<br>for number entry,<br>for intermediate results<br>and final results</td></tr><tr><td style=\"border:1px solid #111;padding:0 4px;text-align:center;font-size:9.5pt;line-height:1.0;white-space:nowrap;\">6</td><td style=\"border:1px solid #111;padding:1px 9px;text-align:left;font-size:9.5pt;line-height:1.15;\">Input register for numbers that are shifted onward into reg. 0 to 5</td></tr><tr><td style=\"border:1px solid #111;padding:0 4px;text-align:center;font-size:9.5pt;line-height:1.0;white-space:nowrap;\">*&nbsp;7</td><td style=\"border:1px solid #111;padding:1px 9px;text-align:left;font-size:9.5pt;line-height:1.15;\">Plus-/minus index register (storage of whether the number values present in reg. 0 to 5 are positive (+) or negative (&ndash;).</td></tr><tr><td style=\"border:1px solid #111;padding:0 4px;text-align:center;font-size:9.5pt;line-height:1.0;white-space:nowrap;\">8<br>9<br>A<br>B<br>C<br>D</td><td style=\"border:1px solid #111;padding:1px 9px;text-align:left;font-size:9.5pt;line-height:1.15;\">Register for the intermediate storage of the &bdquo;to be further processed&ldquo; number values (value storage until the arithmetic operation with the numbers in reg. 0 to 5 is performed).</td></tr><tr><td style=\"border:1px solid #111;padding:0 4px;text-align:center;font-size:9.5pt;line-height:1.0;white-space:nowrap;\">E</td><td style=\"border:1px solid #111;padding:1px 9px;text-align:left;font-size:9.5pt;line-height:1.15;\">Memory register for the arithmetic operation to be performed ( +&nbsp; &ndash;&nbsp; &times;&nbsp; : )</td></tr><tr><td style=\"border:1px solid #111;padding:0 4px;text-align:center;font-size:9.5pt;line-height:1.0;white-space:nowrap;\">*&nbsp;F</td><td style=\"border:1px solid #111;padding:1px 9px;text-align:left;font-size:9.5pt;line-height:1.15;\">Plus-/minus index register (storage of whether the number values present in reg. 8 to D are positive (+) or negative (&ndash;).</td></tr></table>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0\">The plus/minus index registers (registers 7 and F) have the content 1 when the number values are negative, or 0 when the number values are positive. Index register 7 additionally receives the value 4 as soon as the C/CE key has been pressed once, or it receives the value 8 as soon as a new number is entered.</p></div>"
+  }
+}
