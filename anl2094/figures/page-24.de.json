@@ -1,0 +1,24 @@
+{
+ "heading0": {
+  "box": [
+   112,
+   1512,
+   584,
+   1578
+  ],
+  "conf": 68.8,
+  "words": 3,
+  "de": "(Abb. El.Studio 2070)"
+ },
+ "prose0": {
+  "box": [
+   122,
+   1584,
+   1216,
+   2314
+  ],
+  "conf": 92.2,
+  "words": 102,
+  "de": "Die Anschlußleitungen {1-4 und GND) führen zu den entsprechenden Computer-Ausgangsbuchsen (1-4 und GND). Die Anschlüsse dürfen nicht vertauscht wer- den, j Da sowohl beim Studio-Center 20/0 als auch beim Com- puter Überspielbuchsen vorhanden sind, können die für die Computer-Ausgänge bestimmten Leitungen zu- nachst auch auf den Baustein Überspielkabel geführt werden, In diesem Fall wird auch beim Computer der Baustein Überspielkabel verwendet und von dort aus die Verbindungsleitungen zu den Computer-Ausgängen hergestellt, Es ist dann darauf zu achten, daß bei beiden Bausteinen Überspielkabel für die Anschlüsse die gleiche Numerierung verwendet wird. Beide Geräte können jetzt durch ein genormtes Überspielkabel mit- einander verbunden werden."
+ }
+}

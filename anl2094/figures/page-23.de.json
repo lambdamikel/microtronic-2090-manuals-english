@@ -1,0 +1,24 @@
+{
+ "heading0": {
+  "box": [
+   172,
+   1536,
+   1342,
+   1630
+  ],
+  "conf": 77.8,
+  "words": 6,
+  "de": "(Abb. El.Studio 2060/65 Aufbau im MICROTRONIC-Gehause)"
+ },
+ "prose0": {
+  "box": [
+   170,
+   1788,
+   1288,
+   2316
+  ],
+  "conf": 92.4,
+  "words": 46,
+  "de": "Hierfür muß der Befehl unter Adresse 10 ( FO2 in F1D) geändert werden. Eingabe: HALT - NEXT - 10 F1D - NEXT. Neuer Programm-Start: HALT - NEXT - 00 - RUN. Zusätzlich zur Tonvorgabe wird jetzt auf dem Display auch noch die entsprechende Eingabe-Taste ange- zeigt."
+ }
+}

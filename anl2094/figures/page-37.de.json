@@ -1,0 +1,167 @@
+{
+ "heading0": {
+  "box": [
+   158,
+   76,
+   422,
+   162
+  ],
+  "conf": 90.4,
+  "words": 1,
+  "de": "Fallgrube"
+ },
+ "heading1": {
+  "box": [
+   154,
+   796,
+   850,
+   872
+  ],
+  "conf": 84.4,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   150,
+   1448,
+   500,
+   1506
+  ],
+  "conf": 96.0,
+  "words": 1,
+  "de": "Beispiel:"
+ },
+ "heading3": {
+  "box": [
+   154,
+   1780,
+   350,
+   1840
+  ],
+  "conf": 96.4,
+  "words": 1,
+  "de": "Wichtig:"
+ },
+ "prose0": {
+  "box": [
+   160,
+   378,
+   1242,
+   780
+  ],
+  "conf": 94.1,
+  "words": 61,
+  "de": "In einem Spielplan mit hundert Feldern sind 12 un- sichtbare Fallgruben vorhanden, Nacheinander müssen drei Spielfiguren von der Startposition in's Zie] gebracht werden, ohne in eine Grube zu fallen. Tak- tik und eine reichliche Portion Glück sind hierfür notwendig, Bei jedem neuen Spielbeginn werden die Fallgruben vom Computer neu festgelegt. Ein spe- zieller Spielplan ist diesem Buch als Zubehör beige- geben,"
+ },
+ "prose1": {
+  "box": [
+   154,
+   888,
+   1260,
+   1440
+  ],
+  "conf": 92.9,
+  "words": 82,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben, Dann wird am Ausgang 4 und der Buchse GND der Piezo-Summer angeschlossen, Programm-Start: HALT - NEXT - 00 - RUN: Bei Spielbeginn verteilt der Computer (durch seinen Zufallsgenerator gesteuert) 12 Fallgruben. Danach zeigt das Display: 00. Die erste Spielfigur kann starten. Es ist zu beachten, daß der Start grund- sätzlich in der REIHE 9 vorgenommen wird. Es kann jedoch gewahlt werden, in welcher SPALTE die Figur gestartet werden soll."
+ },
+ "prose2": {
+  "box": [
+   148,
+   1516,
+   1236,
+   1770
+  ],
+  "conf": 93.3,
+  "words": 47,
+  "de": "Die erste Figur soll in der 3. Spalte der 9, Reihe starten. Bei der CGomputer-Eingabe wird immer zuerst die SPALTE und dann die REIHE eingegeben. In diesem Beispiel ist die Eingabe: 39. Das Display wird für einen Moment dunkel - anschließend wird der eingege- bene Wert angezeigt."
+ },
+ "prose3": {
+  "box": [
+   152,
+   1848,
+   1252,
+   2336
+  ],
+  "conf": 94.2,
+  "words": 70,
+  "de": "Die Spielfigur darf in Richtung ZIEL immer nur ein Feld vorrücken, Seitlich oder zurück können beliebig viele Felder übersprungen werden. Die Figur kann jetzt z.B. in die 4. Spalte der 8, Reihe gehen. Ein- gabe: 48. Sollte nach Eingabe der Positionszahlen (SPALTE und REIHE) der Piezo-Sumer kurz ertönen, wurde eine falsche Position eingegeben (z.B. mehr als ein Feld vorgerückt). In diesem Falle muß die Position noch- mals richtig wiederholt werden."
+ },
+ "prose4": {
+  "box": [
+   1284,
+   384,
+   2374,
+   1290
+  ],
+  "conf": 93.1,
+  "words": 140,
+  "de": "Wenn ein Dauerton ertönt, ist die Spielfigur in eine Grube gefallen. Das Display zeigt: 02. Die erste Zahl gibt Auskunft, wieviele Spielfiguren im Ziel angekommen sind (in diesem Falle noch keiner). Die zweite Zahl zeigt, wieviele Figuren noch zur Ver- fügung stehen (in diesem Falle 2). Nach Betätigung der Taste O0 zeigt das Display 00 - die nächste Figur kann gestartet werden. (Start in REIHE 9). Hat eine Figur die Ziellinie erreicht (Reihe 0), gibt es zwei Möglichkeiten: l. Der Piezo-Summer ertönt: Die Figur ist auf der Ziellinie in eine Grube gefallen. 2. Der Piezo-Summer ertönt nicht: Die Figur ist sicher im Ziel angekommen. In beiden Fällen wird der Spielstand angezeigt, z.B. 11 (1 Figur im Ziel, 1 Figur steht noch zur Verfü- gung). Durch Betätigung der Taste 0 werden die Fall- gruben neu verteilt. Die nächste Figur kann starten."
+ },
+ "prose5": {
+  "box": [
+   1330,
+   1430,
+   1380,
+   1484
+  ],
+  "conf": 78.2,
+  "words": 1,
+  "de": "Z"
+ },
+ "prose6": {
+  "box": [
+   1406,
+   1432,
+   1452,
+   1488
+  ],
+  "conf": 0.0,
+  "words": 0,
+  "de": ""
+ },
+ "prose7": {
+  "box": [
+   1476,
+   1432,
+   1532,
+   1484
+  ],
+  "conf": 70.0,
+  "words": 1,
+  "de": "E"
+ },
+ "prose8": {
+  "box": [
+   1554,
+   1432,
+   1616,
+   1492
+  ],
+  "conf": 89.2,
+  "words": 1,
+  "de": "L"
+ },
+ "prose9": {
+  "box": [
+   2124,
+   1690,
+   2160,
+   1930
+  ],
+  "conf": 44.6,
+  "words": 12,
+  "de": "eb) = Ö ir 1 eb) ie) (5 e)) = ul N"
+ },
+ "prose10": {
+  "box": [
+   1586,
+   2236,
+   1864,
+   2266
+  ],
+  "conf": 94.8,
+  "words": 4,
+  "de": "1. Eingabe = Spalte"
+ }
+}

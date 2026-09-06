@@ -1,0 +1,101 @@
+{
+ "heading0": {
+  "box": [
+   1018,
+   1180,
+   1200,
+   1248
+  ],
+  "conf": 96.6,
+  "words": 2,
+  "de": "3 rechts"
+ },
+ "heading1": {
+  "box": [
+   1012,
+   1276,
+   1202,
+   1330
+  ],
+  "conf": 96.3,
+  "words": 2,
+  "de": "2 rechts"
+ },
+ "heading2": {
+  "box": [
+   1010,
+   1370,
+   1190,
+   1434
+  ],
+  "conf": 92.5,
+  "words": 2,
+  "de": "l rechts"
+ },
+ "heading3": {
+  "box": [
+   650,
+   1496,
+   794,
+   1564
+  ],
+  "conf": 96.0,
+  "words": 1,
+  "de": "gerade"
+ },
+ "heading4": {
+  "box": [
+   110,
+   1376,
+   272,
+   1452
+  ],
+  "conf": 93.3,
+  "words": 2,
+  "de": "1 links"
+ },
+ "heading5": {
+  "box": [
+   112,
+   1280,
+   274,
+   1348
+  ],
+  "conf": 94.2,
+  "words": 2,
+  "de": "2 links"
+ },
+ "heading6": {
+  "box": [
+   110,
+   1176,
+   274,
+   1252
+  ],
+  "conf": 92.0,
+  "words": 2,
+  "de": "3 links"
+ },
+ "prose0": {
+  "box": [
+   104,
+   374,
+   1206,
+   1052
+  ],
+  "conf": 93.7,
+  "words": 87,
+  "de": "Für Könner, welche die Reaktionszeit von zwei auf eine Sekunde verkürzen möchten, kann im Programm bei Adresse 15 der Befehlscode 527 in 517 geändert wer- den. Eingabe: HALT - NEXT - 15 517 - NEXT. Neuer Programm-Start: HALT - NEXT - 00 - RUN. Außer schnellen Reaktionen wird jetzt auch ein biß- chen Glück für ein unfallfreies Auto-Rennen not- wendig sein. Für schnelle Reaktionen ist es zweckmaßig, das Tas- tenfeld des Computers mit der weißen Tastenfeld- Maske (siehe beiliegendes Zubehör) abzudecken und wie nachffolgend dargestellt zu beschriften:"
+ },
+ "prose1": {
+  "box": [
+   102,
+   2218,
+   1122,
+   2348
+  ],
+  "conf": 87.3,
+  "words": 5,
+  "de": "Programmierer: K.-T. Eggert, 211/ Tostedt"
+ }
+}

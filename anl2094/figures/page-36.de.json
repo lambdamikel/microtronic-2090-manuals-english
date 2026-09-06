@@ -1,0 +1,24 @@
+{
+ "prose0": {
+  "box": [
+   104,
+   380,
+   1216,
+   902
+  ],
+  "conf": 94.3,
+  "words": 90,
+  "de": "Bei Glücksspielen dieser Art kann keine spezielle Gewinnstrategie programiert werden, welche dem Computer eine bessere Chance als uns einräumt, MICROTRONIC wurde so programmiert, daß er nach jeder Kartenvergabe kontrolliert, ob er bereits mehr als 16 Punkte erreicht hat. In diesem Fall zieht er für sich keine weitere Karte, Dem Computer kann man kein \"Gefühl\" einprogrammieren. Der Mensch zieht viel- leicht noch eine Karte (obwohl er bereits 18 Punkte hat), weil er hofft, hierdurch genau 21 Punkte zu erreichen, oder er macht vielleicht schon Schluß, obwohl erst 14 Punkte erreicht wurden."
+ },
+ "prose1": {
+  "box": [
+   92,
+   922,
+   1214,
+   1136
+  ],
+  "conf": 87.4,
+  "words": 5,
+  "de": "Programmierer; Johannes Freundorfer, 8354 Metten"
+ }
+}

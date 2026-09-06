@@ -1,0 +1,68 @@
+{
+ "heading0": {
+  "box": [
+   158,
+   52,
+   812,
+   194
+  ],
+  "conf": 94.5,
+  "words": 4,
+  "de": "Wörter und Sätze bilden"
+ },
+ "heading1": {
+  "box": [
+   156,
+   1170,
+   754,
+   1252
+  ],
+  "conf": 91.1,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   158,
+   370,
+   1250,
+   1146
+  ],
+  "conf": 93.0,
+  "words": 109,
+  "de": "Mit diesem Programm kann MICROTRONIC einfache Worte anzeigen und Sätze bilden. Für die Darstellung solcher Worte auf dem Display stehen die Buchstaben A - F zur Verfügung. Außerdem kann die Zahl Null als Buchstabe \"o\", die Zahl 1 als \"i\" und die Zahl 5 als \"s\" verwendet werden. Hier- durch ergeben sich 9 verschiedene Buchstaben, welche durch entsprechende Programmierung zu kurzen Worten, wie z.B. AFFE, EI, BOESE, BADE, SIE, SOFT, BABIE, IDA etc. zusammengestezt werden. Das folgende Programm bildet aus solchen Worten mehr oder weniger sinnvolle Sätze, wobei gut gemeinte Computer-Ratschlage wie z.B. \"BADE BEI EBBE\" nicht unbedingt zu befolgen und kleine Frechheiten (\"SIE AFFE\") keinesfalls persönlich aufzufassen sind."
+ },
+ "prose1": {
+  "box": [
+   1288,
+   370,
+   2396,
+   1014
+  ],
+  "conf": 91.4,
+  "words": 88,
+  "de": "Beim folgenden Spiel \"1/7 + 4\" wird die Anwendung de- monstriert, indem der Computer dem Gewinner ein Konm- pliment (in englisch) ausspricht: \"GOOD\", bzw. dem Verlierer durch \"BAD\" sagt, daß sein Ergebnis schlecht war. Mit einigen Überlegungen können mit den zur Verfü- gung stehenden 9 Buchstaben noch viele weiter Worte gebildet werden, wobei die Rechtschreibung von \"ß\" (am Wortende) in \"ss\" umzuwandeln ist, z.B. \"FASS\" (statt Faß). Weitere Wortbeispiele: ABI (Abitur), ABBA (Schlagergruppe), AS (Spielkarte), BASS (Musik- instrument), FASSE, ESSE, OB, SAFE, SIEB, SIE, ES, SASS usw. |"
+ },
+ "prose2": {
+  "box": [
+   1286,
+   1026,
+   2378,
+   1136
+  ],
+  "conf": 95.1,
+  "words": 6,
+  "de": "Programmierer: Frank Simon, 6342 Haier 6"
+ },
+ "prose3": {
+  "box": [
+   158,
+   1274,
+   1252,
+   2318
+  ],
+  "conf": 93.5,
+  "words": 146,
+  "de": "Nach HALT - NEXT - 00 geben wird das Programm einge- geben, Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt nacheinander die Worte für zwei Satze und schaltet sich dann aus. Nach Tastendruck O bringt der Computer die nächsten Sätze, bis das Dis- play wieder dunkel wird. Mit Taste O0 können die nächsten Sätze abgerufen werden, Dies geht solange, bis sich der Computer mit \"ADE\" verabschiedet. Bei nochmaliger Betätigung der Taste 0 wird das Programm neu gestartet. Dieses Programm soll lediglich einige Anregung ge- ben, ähnliche Kommentare für Spiele usw. selbst zu programmieren. Wenn die MICROTRONIC-Anleitungsbücher durchgearbeitet wurden, ist der Programm-Aufbau ein- fach: In die Register werden durch MOVI-Befehle die entsprechenden Buchstaben und Zahlen geschoben und anschließend durch DISP-Befehle angezeigt. In den Unterprogrammen ab Adresse AD, bzw. B3 werden Pausen erzeugt, damit die Worte für kurze Zeit auf dem Dis- play angezeigt werden,"
+ }
+}

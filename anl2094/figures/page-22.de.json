@@ -1,0 +1,79 @@
+{
+ "heading0": {
+  "box": [
+   110,
+   74,
+   622,
+   178
+  ],
+  "conf": 83.5,
+  "words": 1,
+  "de": "Ton-Memory"
+ },
+ "heading1": {
+  "box": [
+   108,
+   872,
+   796,
+   934
+  ],
+  "conf": 89.8,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   1238,
+   1158,
+   2134,
+   1228
+  ],
+  "conf": 93.7,
+  "words": 3,
+  "de": "Steigerung des Schwierigkeitsgrades"
+ },
+ "prose0": {
+  "box": [
+   110,
+   376,
+   1196,
+   864
+  ],
+  "conf": 92.6,
+  "words": 58,
+  "de": "Ton-Memory (z.B. unter dem Namen \"SENSO\" bekannt) ist ein interessantes Geschicklichkeitsspiel, wel- ches viel Aufmerksamkeit und Konzentration erfor- dert. Die Arbeitsweise ist ähnlich wie beim Spiel \"Zahlenlawine\". Anstelle von Zahlen und Buchstaben werden vom Computer Tone vorgegeben, wodurch der Schwierigkeitsgrad beträchtlich gesteigert wird, Für eine Melodien spielende Schaltung ist das BUSCH-Electronic-Studio Nr. 2060 (oder 2065 oder 2070) erforderlich."
+ },
+ "prose1": {
+  "box": [
+   106,
+   956,
+   1200,
+   2310
+  ],
+  "conf": 93.9,
+  "words": 215,
+  "de": "Nach Tastendruck HALT - NEXT - 00 wird das Programm entsprechend der Programm-Tabelle eingegeben, Dann die grüne Reset-Taste (Computerplatine) betätigen, wodurch die 4 Ausgänge abgeschaltet werden, Jetzt muß noch die elektronische Schaltung \"Mini-Orgel\" gem, Abbildung auf Seite 20 aufgebaut werden, Die Besitzer eines Electronic-Studios 2060 oder 2065 bauen die Schaltung direkt im Computer-Gehäuse auf, Die Besitzer des größeren Electronic-Studios 2070 bauen die Schaltung im Studio-Gehäuse auf und führen die entsprechenden Anschlußkabel zu den Computer- Ausgängen Nr. 1 - 4 (Kabel nicht vertausen). Programm-Start: HALT - NEXT - 00 - RUN Der Computer spielt nacheinander 4 Töne und zeigt auf dem Display die zu jedem Ton gehörende Zahl an, d.n., daß die Zahl 4 dem tiefsten Ton und die Zahl 7 dem höchsten Ton entspricht. Das Display erlischt - der Computer spielt nach kurzer Pause einen Ton. Es muß jetzt die zu diesem Ton gehörende Taste (4 = tiefster Ton, 7 = höchster Ton) betätigt werden. Bei richtiger Tastenbetätigung spielt der Computer einen weiteren Ton. Nun sind für beide Töne die ent- sprechenden Tasten in der richtigen Reihenfolge zu betätigen. Bei jeder Tastenbetätigung wiederholt der Computer für ca. eine Sekunde den entsprechenden Ton. Es ist unbedingt zu beachten, daß die folgenden Tastenbetätigungen erst dann vorgenommen werden, wenn der Computer den zuvor eingegebenen Ton ausge- spielt hat,"
+ },
+ "prose2": {
+  "box": [
+   1240,
+   1244,
+   2330,
+   2300
+  ],
+  "conf": 93.2,
+  "words": 135,
+  "de": "Der Schwierigkeitsgrad des Spieles kann durch eine Umprogrammierung gesteigert werden, indem die Vor- gabe von 4 auf 8 Töne erweitert wird. Für die Programmänderung (bei Adresse 07 und 93) sind folgende Eingaben erforderlich: HALT - NEXT - 07 9B0 - NEXT - HALT - NEXT - 93 9BD - NEXT Neuer Programm-Start: HALT - NEXT - 00 - RUN Jetzt arbeitet das Ton-Memory mit acht verschiedenen Tönen (tiefster Ton entspricht weiterhin der Taste A, höchster Ton ist nun Taste B). Der Spielverlauf entspricht der vorangegangenen Be- schreibung, nur daß der Computer jetzt acht Tone vorgibt (4 - 9 und A), welche durch entsprechende Tastenbetätigungen zu wiederholen sind, Unser Ton-Memory ist nun sehr schwierig geworden, Zum \"Eingewöhnen\" könnte es vorteilhaft sein, wenn der Computer die Töne nicht nur akustisch, sondern auch optisch auf dem Display anzeigt."
+ },
+ "prose3": {
+  "box": [
+   1244,
+   380,
+   2336,
+   1140
+  ],
+  "conf": 95.1,
+  "words": 109,
+  "de": "Das Spiel setzt sich solange fort, bis bei der Ein- gabe ein Fehler gemacht wird. Der Computer spielt dann eine abfallende Melodienfolge und zeigt auf dem Display an, wieviele Versuche richtig waren. Danach spielt der Computer automatisch wieder die vier Grundtöne - ein neues Spiel beginnt. Falls es gelingt, 12 Töne in der richtigen Reihen- folge einzugeben, wird das Spiel abgebrochen, was vom Computer durch eine ansteigende Melodienfolge gemeldet wird, Obwohl der Computer nur vier verschiedene Tone (4 bis 7) vorgibt, ist es nicht einfach, diese in der richtigen Reihenfolge zu wiederholen, Bei mehreren Mitspielern ist derjenige Sieger, wel- cher bei den vorher festgelegten Spieldurchgängen das höchste Eingabe-Ergebnis erzielt."
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14.0pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">One-Armed Bandit</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.4pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.06;text-align:justify\">The program &ldquo;One-Armed Bandit&rdquo; is a game of chance for 2 players, similar to the well-known machine found in pubs and amusement arcades. The computer display shows three rows of digits which change rapidly. The individual rows can be stopped by pressing the appropriate keys. The aim is to stop the display on several identical digits, or on a rising or falling sequence.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.06;text-align:justify\">The program is entered after HALT &ndash; NEXT &ndash; 00 according to the program table. Push-button G must then be connected to input 1 and push-button H to input 2 (see illustration).<br><br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows: 000000.</p></div>"
+  }
+}

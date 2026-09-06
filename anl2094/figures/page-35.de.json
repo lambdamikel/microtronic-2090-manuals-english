@@ -1,0 +1,123 @@
+{
+ "heading0": {
+  "box": [
+   154,
+   72,
+   806,
+   196
+  ],
+  "conf": 94.5,
+  "words": 5,
+  "de": "17 + 4 (Black Jack)"
+ },
+ "heading1": {
+  "box": [
+   154,
+   1066,
+   714,
+   1130
+  ],
+  "conf": 88.3,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   302,
+   1738,
+   1202,
+   1820
+  ],
+  "conf": 92.6,
+  "words": 6,
+  "de": "Kartenwert, den wir soeben erhalten haben,"
+ },
+ "heading3": {
+  "box": [
+   260,
+   1824,
+   1202,
+   1926
+  ],
+  "conf": 94.4,
+  "words": 8,
+  "de": "Summe der Kartenwerte, die wir insgesamt erhalten haben,"
+ },
+ "heading4": {
+  "box": [
+   1476,
+   714,
+   2096,
+   792
+  ],
+  "conf": 81.1,
+  "words": 3,
+  "de": "Summe unserer Kartenwerte.,"
+ },
+ "heading5": {
+  "box": [
+   1392,
+   802,
+   2176,
+   878
+  ],
+  "conf": 92.3,
+  "words": 5,
+  "de": "Summe der Kartenwerte des Computers,"
+ },
+ "prose0": {
+  "box": [
+   156,
+   386,
+   1250,
+   1030
+  ],
+  "conf": 93.8,
+  "words": 94,
+  "de": "17 + 4 ist ein bekanntes Kartenspiel (Glücks-Spiel). Ziel des Spieles ist es, durch das Ziehen von 2 oder mehreren Karten möglichst nahe an die Zahl 21 (17 + 4) zu kommen, In keinem Falle darf die Zahl 21 über- schritten werden. Abwechselnd erhalten die Mitspie- ler eine Karte, bis ein Spieler glaubt, genügend Punkte zu haben. Gewonnen hat, wer am nächsten an die Zahl 21 herangekomt. Das Spiel (weitere Karten- ausgabe) wird beendet, wenn ein Spieler entweder ? Asse erhalten hat, oder die Zahl 21 erreicht wurde, d.h., daß dieser Spieler gesiegt hat."
+ },
+ "prose1": {
+  "box": [
+   162,
+   1156,
+   1266,
+   1654
+  ],
+  "conf": 92.6,
+  "words": 71,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben, Danach wird der Piezo-Summer am Ausgang 1 und Buchse GND angeschlossen, Pprogramm-Start: HALT - NEXT - 00 - RUN, Das Display zeigt: \"17 ADD 4\" (17 + 4). Nach Betäti- gung der Taste 1 vergibt der Computer eine \"Karte\" an uns und eine an sich (d,.h., er vergibt die \"Karten-Werte\"). Das Display zeigt den uns ausge- teilten Wert."
+ },
+ "prose2": {
+  "box": [
+   152,
+   1954,
+   1262,
+   2354
+  ],
+  "conf": 94.6,
+  "words": 46,
+  "de": "wir können jetzt entscheiden, ob wir eine weitere Karte ziehen möchten, oder ob das Spiel beendet wer- den soll, weil wir glauben, genügend Karten-Werte zu haben: Eingabe Taste 1 = der Computer gibt uns eine weitere Karte, Eingabe Taste 0 = das Spiel soll beendet werden,"
+ },
+ "prose3": {
+  "box": [
+   1284,
+   382,
+   2394,
+   630
+  ],
+  "conf": 91.5,
+  "words": 37,
+  "de": "Beim Spiel-Ende ertönt der Piezo-Summer und auf dem Display erscheint \"GOOD\" (6 wird als G verwendet), wenn wir gewonnen haben bzw. \"BAD\", falls das Spiel verloren wurde. Bei Tastendruck 1 zeigt das Display den Endstand des Spiels:"
+ },
+ "prose4": {
+  "box": [
+   1292,
+   886,
+   2422,
+   2330
+  ],
+  "conf": 93.5,
+  "words": 169,
+  "de": "Bei einem Punkte-Gleichstand gewinnt (programmbe- dingt) der Computer. Nach Betatigung der Taste 1 er- scheint auf dem Display: \"17 ADD 4\" und wir können ein neues Spiel wagen. Zu beachten ist, daß als Kartenwerte die Zahlen 1 bis 9 und A als Ass (Wert 10) zugelassen sind. (Die Zahl 0 wird als Niete nicht gezählt). Diese Werte stimmen zwar nicht genau mit den Originalkarten überein, die Computerversion von \"17 + 4\" ist trotz- dem so interessant, wie das echte Vorbild, Der Computer beendet das Spiel automatisch, wenn folgender Spielstand erreicht wird: ls Der Computer oder wir haben mehr als 21 Punkte erreicht. 2. Der Computer oder wir haben genau 21 Punkte er- reicht, 3. Die beiden zuerst gezogenen Karten waren 2 Asse. In diesem Falle erscheint auf dem Display bei der entsprechenden Punktanzeige nicht die Summe der Kartenwerte, sondern \"AA\". Das Programm ist so programmiert, daß der Computer als selbständiger Spieler mitspielt. Er kann nicht in unsere Karten \"sehen\". Die abwechselnd gezogenen Karten werden durch einen Zufallsgenerator ernit- telt.,"
+ }
+}

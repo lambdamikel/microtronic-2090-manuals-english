@@ -1,0 +1,211 @@
+{
+ "heading0": {
+  "box": [
+   164,
+   66,
+   628,
+   182
+  ],
+  "conf": 96.0,
+  "words": 2,
+  "de": "Ziffern ordnen"
+ },
+ "heading1": {
+  "box": [
+   168,
+   900,
+   720,
+   978
+  ],
+  "conf": 90.5,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   1292,
+   1002,
+   2118,
+   1082
+  ],
+  "conf": 90.1,
+  "words": 6,
+  "de": "3. Tauschmöglichkeit = Eingabe Taste 2"
+ },
+ "heading3": {
+  "box": [
+   1290,
+   754,
+   2098,
+   836
+  ],
+  "conf": 92.5,
+  "words": 6,
+  "de": "2. Tauschmöglichkeit = Eingabe Taste 1"
+ },
+ "heading4": {
+  "box": [
+   1296,
+   478,
+   2048,
+   552
+  ],
+  "conf": 84.6,
+  "words": 6,
+  "de": "1. Tauschmöglichkeit = Eingabe Taste O0"
+ },
+ "heading5": {
+  "box": [
+   2050,
+   1806,
+   2378,
+   1884
+  ],
+  "conf": 95.9,
+  "words": 2,
+  "de": "ergibt 346215"
+ },
+ "heading6": {
+  "box": [
+   2056,
+   1932,
+   2372,
+   2002
+  ],
+  "conf": 96.6,
+  "words": 2,
+  "de": "ergibt 345126"
+ },
+ "heading7": {
+  "box": [
+   2050,
+   2054,
+   2350,
+   2132
+  ],
+  "conf": 96.3,
+  "words": 2,
+  "de": "ergibt 154326"
+ },
+ "heading8": {
+  "box": [
+   2062,
+   2172,
+   2364,
+   2240
+  ],
+  "conf": 96.1,
+  "words": 2,
+  "de": "ergibt 123456"
+ },
+ "prose0": {
+  "box": [
+   164,
+   372,
+   1254,
+   876
+  ],
+  "conf": 93.5,
+  "words": 72,
+  "de": "Ein kniffeliges Denksport-Spiel. Auf dem Computer- Display erscheinen in zufälliger Reihenfolge die Zahlen 1 - 6 (z.B. 264315). Durch festgelegte Tausch-Operationen müssen diese Ziffern in eine auf- steigende Reihenfolge sortiert werden (123456). Die Tausch-Operationen sind so festgelegt, daß es nicht möglich ist, einfach nur zwei Ziffern miteinander auszutauschen, sondern es werden bei jeder Tausch- Operation vier Zahlen vertauscht. Ziel des Spieles ist es, die aufsteigende Reihenfolge mit möglichst wenig Tausch-Operationen zu erreichen."
+ },
+ "prose1": {
+  "box": [
+   168,
+   984,
+   1246,
+   2212
+  ],
+  "conf": 93.4,
+  "words": 161,
+  "de": "Zunachst wird das Programm nach HALT - NEXT - 00 entsprechend der Programm-Tabelle eingegeben. An- schließend wird der Piezo-Summer an den Ausgang 1 und Buchse GND angeschlossen. programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: 000. Im Computer ist jetzt die Zahlenreihe 123456 gespeichert und er will wissen, wie oft diese Zahlen untereinander vertauscht werden sollen, Die Eingabe einer kleinen Zahl (z.B. 2) er- gibt eine leichtere Lösungsmöglichkeit. Die Eingabe einer größeren Zahl (z.B. 8) erhöht den Schwierig- keitsgrad, Maximale Eingabe = 999, Für den Anfang empfiehlt es sich, mit einer kleinen Zahleneingabe zu beginnen, z.B. 2. Diese Eingabe muß durch Betatigung der Taste A abgeschlossen werden. Auf dem Display erscheinen nach kurzer Zeit die sechs Zahlen in einer ungeordneten Reihenfolge. (z.B. 251346). Es stehen 3 verschiedene Tauschmög- lichkeiten zur Verfügung (die auch abwechselnd ein- gesetzt werden), um die ungeordnete Zahlenreihe in eine aufsteigende Reihe (123456) umzuwandeln, Bei stark ungeordneten Reihen wird das \"Ziffern-ordnen\" zu einer echten Denksport-Aufgabe,"
+ },
+ "prose2": {
+  "box": [
+   1290,
+   1086,
+   2390,
+   1718
+  ],
+  "conf": 93.0,
+  "words": 74,
+  "de": "Die 3, Zahl wird mit der 6. Zahl und die 4, Zahl wird mit der 5. Zahl vertauscht. (Beispiel: Aus 251346 wird 256431). Ein Spielverlauf und die Anwendung der Tausch- Operationen wird durch folgendes Beispiel demon- striert: Nach dem Programm-Start zeigt das Display: 000. Ein- gabe z.B.: 4, anschließend Taste A betätigen. Vom Computer wird jetzt die Zahlenreihe 123456 viermal in zufälliger Reihenfolge der beschriebenen Tausch- möglichkeiten vertauscht. Das Display zeigt jetzt z.B.: 264315"
+ },
+ "prose3": {
+  "box": [
+   1286,
+   840,
+   2396,
+   988
+  ],
+  "conf": 95.6,
+  "words": 23,
+  "de": "Die 2. Zahl wird mit der 5. Zahl und gleichzeitig die 3. Zahl mit der 4. Zahl vertauscht. (Beispiel: Aus 251346 wird 243156)."
+ },
+ "prose4": {
+  "box": [
+   1302,
+   552,
+   2400,
+   748
+  ],
+  "conf": 93.9,
+  "words": 29,
+  "de": "Die 1. (linke) Zahl der Display-Anzeige wird mit der 4, Zahl (halb rechts) und gleichzeitig wird die 2. Zahl mit der 3. Zahl vertauscht. (Beispiel: Aus 251346 wird 315246.)"
+ },
+ "prose5": {
+  "box": [
+   1290,
+   376,
+   2360,
+   464
+  ],
+  "conf": 94.8,
+  "words": 5,
+  "de": "Folgende Tauschmöglichkeiten stehen zur Verfügung:"
+ },
+ "prose6": {
+  "box": [
+   1298,
+   1756,
+   1800,
+   1872
+  ],
+  "conf": 83.4,
+  "words": 6,
+  "de": "l. Tauschversuch Eingabe z.B. Taste 0"
+ },
+ "prose7": {
+  "box": [
+   1290,
+   1886,
+   1812,
+   1994
+  ],
+  "conf": 94.3,
+  "words": 6,
+  "de": "2. Tauschversuch Eingabe z.B. Taste 2"
+ },
+ "prose8": {
+  "box": [
+   1288,
+   2004,
+   1798,
+   2124
+  ],
+  "conf": 91.1,
+  "words": 6,
+  "de": "3. Tauschversuch Eingabe z.B. Taste O"
+ },
+ "prose9": {
+  "box": [
+   1288,
+   2134,
+   1810,
+   2260
+  ],
+  "conf": 93.5,
+  "words": 6,
+  "de": "4. Tauschversuch Eingabe z.B. Taste 1"
+ }
+}

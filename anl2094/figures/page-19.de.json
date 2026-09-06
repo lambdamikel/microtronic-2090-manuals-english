@@ -1,0 +1,288 @@
+{
+ "heading0": {
+  "box": [
+   178,
+   52,
+   938,
+   150
+  ],
+  "conf": 64.1,
+  "words": 1,
+  "de": "MICROTRONIC-Rouilette"
+ },
+ "heading1": {
+  "box": [
+   172,
+   1022,
+   760,
+   1096
+  ],
+  "conf": 91.3,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   1326,
+   394,
+   1560,
+   488
+  ],
+  "conf": 89.1,
+  "words": 2,
+  "de": "Setz- Möglichkeit"
+ },
+ "heading3": {
+  "box": [
+   1594,
+   392,
+   1704,
+   468
+  ],
+  "conf": 96.3,
+  "words": 1,
+  "de": "Taste"
+ },
+ "heading4": {
+  "box": [
+   1732,
+   396,
+   2076,
+   482
+  ],
+  "conf": 93.8,
+  "words": 2,
+  "de": "weitere Tastenbetätigung"
+ },
+ "heading5": {
+  "box": [
+   2104,
+   396,
+   2348,
+   486
+  ],
+  "conf": 93.1,
+  "words": 2,
+  "de": "Gewinn- Möglichkeit"
+ },
+ "heading6": {
+  "box": [
+   2106,
+   518,
+   2364,
+   640
+  ],
+  "conf": 94.6,
+  "words": 3,
+  "de": "Einsatz wird verdoppelt"
+ },
+ "heading7": {
+  "box": [
+   2102,
+   684,
+   2366,
+   850
+  ],
+  "conf": 96.4,
+  "words": 3,
+  "de": "Einsatz wird verdoppelt"
+ },
+ "heading8": {
+  "box": [
+   2100,
+   890,
+   2352,
+   1052
+  ],
+  "conf": 95.2,
+  "words": 3,
+  "de": "Einsatz mal 300"
+ },
+ "heading9": {
+  "box": [
+   2096,
+   1098,
+   2362,
+   1264
+  ],
+  "conf": 93.3,
+  "words": 3,
+  "de": "Einsatz wird verdreifacht"
+ },
+ "heading10": {
+  "box": [
+   2100,
+   1306,
+   2362,
+   1478
+  ],
+  "conf": 95.0,
+  "words": 3,
+  "de": "Einsatz wird verzehnfacht"
+ },
+ "heading11": {
+  "box": [
+   2100,
+   1510,
+   2362,
+   1682
+  ],
+  "conf": 94.9,
+  "words": 3,
+  "de": "Einsatz wird verfünffacht"
+ },
+ "heading12": {
+  "box": [
+   1724,
+   1504,
+   2074,
+   1690
+  ],
+  "conf": 93.0,
+  "words": 9,
+  "de": "Eingabe der 3. Ziffer der Gewinnzahl, (0 bis 9)"
+ },
+ "heading13": {
+  "box": [
+   1728,
+   1298,
+   2056,
+   1482
+  ],
+  "conf": 89.5,
+  "words": 9,
+  "de": "Eingabe der 2. Ziffer der Gewinnzahl,. (0 bis 9)"
+ },
+ "heading14": {
+  "box": [
+   1728,
+   1092,
+   2052,
+   1280
+  ],
+  "conf": 85.1,
+  "words": 9,
+  "de": "Eingabe der l. Ziffer der Gewinnzanhl. (0,1 oder 2)"
+ },
+ "heading15": {
+  "box": [
+   1728,
+   890,
+   2050,
+   1068
+  ],
+  "conf": 80.5,
+  "words": 6,
+  "de": "Eingabe der Gewinnzahl;an- schließend Taste A"
+ },
+ "heading16": {
+  "box": [
+   1730,
+   682,
+   2060,
+   860
+  ],
+  "conf": 84.4,
+  "words": 8,
+  "de": "Taste 1 für Gerade-/Zahl Taste 2 für Ungerade-Zahl"
+ },
+ "heading17": {
+  "box": [
+   1726,
+   510,
+   2070,
+   656
+  ],
+  "conf": 91.2,
+  "words": 8,
+  "de": "Taste O für Rot Taste 1 fur Schwarz"
+ },
+ "heading18": {
+  "box": [
+   1326,
+   512,
+   1570,
+   620
+  ],
+  "conf": 86.2,
+  "words": 1,
+  "de": "Rot/Schwarz"
+ },
+ "heading19": {
+  "box": [
+   1322,
+   682,
+   1552,
+   820
+  ],
+  "conf": 91.8,
+  "words": 2,
+  "de": "Gerade/ Ungerade"
+ },
+ "heading20": {
+  "box": [
+   1320,
+   886,
+   1560,
+   1040
+  ],
+  "conf": 95.5,
+  "words": 4,
+  "de": "Direkt auf eine Zahl"
+ },
+ "heading21": {
+  "box": [
+   1322,
+   1096,
+   1576,
+   1206
+  ],
+  "conf": 91.0,
+  "words": 1,
+  "de": "100er-Stelle"
+ },
+ "heading22": {
+  "box": [
+   1324,
+   1310,
+   1578,
+   1454
+  ],
+  "conf": 73.5,
+  "words": 1,
+  "de": "10er-Stelle"
+ },
+ "heading23": {
+  "box": [
+   1316,
+   1512,
+   1580,
+   1674
+  ],
+  "conf": 90.9,
+  "words": 1,
+  "de": "ler-Stelle"
+ },
+ "prose0": {
+  "box": [
+   172,
+   362,
+   1256,
+   1008
+  ],
+  "conf": 94.5,
+  "words": 97,
+  "de": "Ähnlich wie beim bekannten Roulette-Glücksspiel kann man auf Farben (rot oder schwarz), auf gerade oder ungerade Zahlen, oder auf eine bestimmte Zahl set- zen. Im Gegensatz zum üblichen Roulette arbeitet das MICROTRONIC-Roulette mit den Zahlen von 0 - 256. Hierdurch ergeben sich wesentlich mehr Möglichkei- ten. So kann man z.B. zusätzlich auch noch die Einer-, Zehner- oder Hunderter-Stelle einer Zahl setzen. MICROTRONIC übernimmt außerdem die Bankver- waltung mit automatischer Kontoführung des Spielers, indem verlorene Beträge abgebucht und Gewinne zum Startkapital zugebucht werden. Als Anfangskapital stehen 10.000 Spielmark zur Verfügung, die durch ge- schickten Einsatz vermehrt werden sollen."
+ },
+ "prose1": {
+  "box": [
+   174,
+   1116,
+   1262,
+   2122
+  ],
+  "conf": 92.9,
+  "words": 124,
+  "de": "Nach HALT = NEXT - 00 wird das Programm It. Tabelle eingegeben. Dann wird der Piezo-Summer an den Buch- sen Ausgang 1 und GND angeschlossen, Programm-Start: HALT - NEXT - 00 - RUN. Das Display wird kurzzeitig dunkel, Der Computer er- mittelt durch seinen Zufallsgenerator eine Gewinn- zahl zwischen O und 256. Gleichzeitig wird festge- legt, ob die Zahl rot oder schwarz, bzw. gerade oder ungerade ist. Die Gewinnzahl wird selbstverständlich erst nach Eingabe des Einsatzes bekanntgegeben. Hierfür zeigt das Display: 0000. Man gibt jetzt ein, wieviel Spielmark gesetzt werden, z.B. 200.-- (Ein- gabe 200 - Höchsteinsatz: 9999). Anschließend wird Taster A betätigt. Das Display zeigt: A. Von sechs verschiedenen Einsatz-Möglichkeiten, muß eine aus- gewählt und die entsprechende Taste gemaß folgender Tabelle betätigt werden:"
+ }
+}

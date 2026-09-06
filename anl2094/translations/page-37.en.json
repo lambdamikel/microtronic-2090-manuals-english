@@ -1,0 +1,62 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Fallgrube (Pitfall)</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">A game board of one hundred squares holds 12 invisible pitfalls. One after another, three playing pieces have to be brought from the starting position to the GOAL without falling into a pit. Tactics and a generous helping of luck are needed for this. Every time a new game begins the computer lays out the pitfalls afresh. A special game board is enclosed with this book as an accessory.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">After HALT &ndash; NEXT &ndash; 00 the program is entered according to the table. Then the piezo buzzer is connected to output 4 and socket GND.<br><br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>At the start of the game the computer distributes 12 pitfalls (controlled by its random generator). The display then shows: 00. The first playing piece can start. Note that the start is always made in ROW 9. You may, however, choose which COLUMN the piece starts in.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Example:</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The first piece is to start in the 3rd column of row 9. When entering on the computer, the COLUMN is always entered first and then the ROW. In this example the entry is: 39. The display goes dark for a moment &ndash; then the value entered is shown.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Important:</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The playing piece may only ever advance one square in the direction of the GOAL. Sideways or backwards it may skip any number of squares. The piece can now go, for example, to the 4th column of row 8. Entry: 48.<br><br>If the piezo buzzer sounds briefly after the position numbers (COLUMN and ROW) have been entered, a wrong position was entered (e.g. advanced by more than one square). In that case the position has to be repeated correctly.</p></div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">If a continuous tone sounds, the playing piece has fallen into a pit. The display shows: 02. The first digit tells us how many pieces have reached the GOAL (in this case none so far). The second digit shows how many pieces are still available (in this case 2). After key 0 is pressed the display shows 00 &ndash; the next piece can be started. (Start in ROW 9.)<br><br>Once a piece has reached the goal line (row 0) there are two possibilities:<br>1. The piezo buzzer sounds: the piece has fallen into a pit on the goal line.<br>2. The piezo buzzer does not sound: the piece has arrived safely at the GOAL.<br><br>In both cases the score is displayed, e.g. 11 (1 piece at the GOAL, 1 piece still available). Pressing key 0 redistributes the pitfalls. The next piece can start.</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.35\">G</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.35\">O</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.35\">A</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:center;line-height:1.35\">L</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;text-align:center;width:100%;height:100%;font-family:Helvetica,Arial,sans-serif;color:#111;line-height:1;font-size:6.8pt\">2nd entry = row</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:6.5pt;font-weight:400;white-space:nowrap;text-align:center;line-height:1.0\">1st entry = column</div>"
+  }
+}

@@ -1,0 +1,90 @@
+{
+ "heading0": {
+  "box": [
+   170,
+   40,
+   1058,
+   156
+  ],
+  "conf": 90.6,
+  "words": 2,
+  "de": "Zahlen-Raten (High-Low-Game)"
+ },
+ "heading1": {
+  "box": [
+   170,
+   788,
+   756,
+   858
+  ],
+  "conf": 91.0,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   172,
+   1242,
+   878,
+   1310
+  ],
+  "conf": 96.5,
+  "words": 4,
+  "de": "Beispiel für einen Spielverlauf:"
+ },
+ "prose0": {
+  "box": [
+   168,
+   344,
+   1266,
+   768
+  ],
+  "conf": 93.4,
+  "words": 68,
+  "de": "Zahlen raten ist eines der klassischen Computer- Spiele. MICROTRONIC ermittelt mit seinem \"Zufalls- Generator\" eine zufällige Zahl zwischen O und 999, Diese nicht sichtbare Zufallszahl soll mit möglichst wenig Rate-Versuchen gefunden werden. Nach jedem Versuch gibt der Computer an, ob die geratene Zahl größer oder kleiner als die Zufallszahl des Compu- ters ist. Durch logisches Denken ist es möglich, mit 5 - 6 Rateversuchen die Zufallszahl zu finden."
+ },
+ "prose1": {
+  "box": [
+   166,
+   870,
+   1256,
+   1222
+  ],
+  "conf": 91.8,
+  "words": 41,
+  "de": "Nach HALT - NEXT - 00 wird das Programm gemäß Tabelle eingegeben. Programm-Start: HALT - NEXT - 00 - RUN. Für kurze Zeit bleibt das Display dunkel, während der Computer eine Zufallszahl zwischen 0 und 999 ermittelt. Anschließend wird angezeigt: 000."
+ },
+ "prose2": {
+  "box": [
+   1296,
+   974,
+   2246,
+   1028
+  ],
+  "conf": 88.7,
+  "words": 5,
+  "de": "Programmierer: Markus Jouaux, 69/0 Lauda"
+ },
+ "prose3": {
+  "box": [
+   1300,
+   344,
+   2390,
+   960
+  ],
+  "conf": 92.5,
+  "words": 85,
+  "de": "Wird wahrend einer 6-stelligen Anzeige die Taste C betätigt, zeigt das Display die Anzahl der bis- herigen Rateversuche. Nochmalige Betätigung der Tas- te C bringt wieder die 6-stellige Anzeige - es kann weiter geraten werden, Wird die zu erratende Zahl nicht gefunden, kann das Spiel jederzeit durch Betätigung der Taste B abge- brochen werden. Das Display zeigt dann: BXXB (XXX = vom Computer ermittelte Zufallszahl). Betätigung der Taste A zeigt die Anzahl der bisherigen Ratever- suche. Nochmalige Betätigung der Taste A führt zu neuem Spiel-Start,"
+ },
+ "prose4": {
+  "box": [
+   174,
+   1328,
+   1266,
+   2286
+  ],
+  "conf": 94.4,
+  "words": 158,
+  "de": "Die Zahl 368 soll die vom Computer ermittelte Zu- fallszahl sein. Bei einem ersten Rateversuch wird die Zahl 560 eingegeben - anschließend Taste A be- tatigen. Das Display zeigt: 560 000. Die drei linken Display-Stellen zeigen die Zahl, welche größer als die gesuchte Zahl ist. Die drei rechten Stellen zeigen die Zahl, welche kleiner als die gesuchte Zahl ist. Bei einem zweiten Rateversuch wird z.B. die Zahl 275 eingegeben, (Nach jeder Ein- gabe Taste A betätigen). Das Display zeigt jetzt: 560 275. Also muß die gesuchte Zahl zwischen 560 und 275 liegen, Wird beim nächsten Versuch z.B. die Zahl 355 eingegeben, zeigt das Display 560 355. Durch weitere Rateversuche tastet man sich immer naä- her an die vom Computer verborgen gehaltene Zufalls- zahl heran. Wird die gesuchte Zahl gefunden, zeigt das Display in unserem Beispiel: E368E. Durch er- neute Betätigung der Taste A wird die Anzahl der Rateversuche angezeigt. Nochmalige Betätigung der Taste A bringt den nächsten Spiel-Start."
+ }
+}

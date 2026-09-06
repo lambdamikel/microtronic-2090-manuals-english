@@ -1,3 +1,5 @@
 .DS_Store
 *.pyc
 __pycache__/
+anl2094/hocr/
+anl2094-progress.html

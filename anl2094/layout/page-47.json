@@ -1,0 +1,227 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [
+    {
+      "kind": "title",
+      "bbox": [
+        1669,
+        105,
+        2324,
+        181
+      ],
+      "fragments": [
+        [
+          1669,
+          105,
+          2324,
+          181
+        ]
+      ],
+      "lines": [
+        [
+          1669,
+          105,
+          2324,
+          181
+        ]
+      ],
+      "text": "2 I & Ü) Photo-( IT = ö bi; Batterie Widerstand iR} | E widerst, FR 5 | s"
+    }
+  ],
+  "raw_blocks": [
+    {
+      "bbox": [
+        1526,
+        257,
+        1605,
+        292
+      ],
+      "text": "Potentio- meter {P}",
+      "lines": [
+        [
+          1526,
+          257,
+          1605,
+          271
+        ],
+        [
+          1528,
+          276,
+          1605,
+          292
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1669,
+        105,
+        2324,
+        181
+      ],
+      "text": "2 I & Ü) Photo-( IT = ö bi; Batterie Widerstand iR} | E widerst, FR 5 | s",
+      "lines": [],
+      "kind": "title"
+    },
+    {
+      "bbox": [
+        1994,
+        580,
+        2303,
+        657
+      ],
+      "text": "Takt/Clock Un GND 1Hz & O0",
+      "lines": [
+        [
+          1994,
+          580,
+          2303,
+          603
+        ],
+        [
+          2030,
+          611,
+          2289,
+          629
+        ],
+        [
+          2202,
+          637,
+          2287,
+          657
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        300,
+        1284,
+        497,
+        1312
+      ],
+      "text": "somputen system",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        581,
+        1433,
+        1155,
+        1486
+      ],
+      "text": "1 2 G H Überspielbuchsen/DIN Sockets Taster/Keys",
+      "lines": [
+        [
+          684,
+          1433,
+          1155,
+          1453
+        ],
+        [
+          581,
+          1461,
+          1136,
+          1486
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1516,
+        1435,
+        1599,
+        1487
+      ],
+      "text": "Display Anzeige",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2141,
+        1205,
+        2254,
+        1218
+      ],
+      "text": "mm",
+      "lines": [
+        [
+          2141,
+          1205,
+          2254,
+          1218
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2035,
+        1223,
+        2225,
+        1239
+      ],
+      "text": "F NEXT REG",
+      "lines": [
+        [
+          2035,
+          1223,
+          2225,
+          1239
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2013,
+        1293,
+        2236,
+        1350
+      ],
+      "text": "8 m BEN MEN",
+      "lines": [
+        [
+          2033,
+          1293,
+          2045,
+          1309
+        ],
+        [
+          2013,
+          1314,
+          2236,
+          1350
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2035,
+        1365,
+        2231,
+        1380
+      ],
+      "text": "7 RUN HALT",
+      "lines": [
+        [
+          2035,
+          1365,
+          2231,
+          1380
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

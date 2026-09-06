@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15.4pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">A Hundred Wins</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.1pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.1pt;line-height:1.06;text-align:justify\">A Hundred Wins is a positively fiendish puzzle game. A number between 1 and 10 is added in turn by the player and by the computer to a random number picked by the computer at the start of play. Whoever reaches 100 first has won.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.1pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.1pt;line-height:1.06;text-align:justify\">After HALT &ndash; NEXT &ndash; 00 the program is entered carefully according to the table. The piezo buzzer is then connected to the output 1 and GND sockets. Then program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>The display shows: 0XXA00 (XX = the random starting number picked by the computer).<br><br>If the computer is to begin the game, the number 0 is entered. Entering zero is not allowed later in the game. If the player wants to add a number to the starting number, a number between 1 and 10 is entered. The entry is shown on the two right-hand positions of the display. Then press key A. The computer adds the entered number to the starting number and shows the result on the left-hand 3 display positions. The computer then carries on automatically and adds its own number to that result. After a short calculation a brief tone sounds and the display shows:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:'DejaVu Sans Mono',Courier,monospace;font-size:10.5pt;line-height:1.15;color:#111;white-space:pre\">0XXCXX\n &#9474;  &#9492;&#9472;&#9472;&#9658; Number the computer has added to\n &#9474;       its last result.\n &#9492;&#9472;&#9472;&#9472;&#9472;&#9472;&#9658; New total result.</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.1pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.1pt;line-height:1.06;text-align:justify\">Now the player enters a number again, confirming with key A after each entry. It is essential to note that the entered number must lie between 1 and 10; entering 0, or a number greater than 10, is not permitted.<br><br>The game ends as soon as the number 100 is reached. If the computer wins, the display shows: C100C. If the player wins, the display shows: E100E. A new game is started by pressing key 0.</p></div>"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.5pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Flow chart</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.9pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Exponent</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.8pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Yes</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.9pt;font-weight:400;text-align:left;line-height:1.15\">Result<br>=1</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.9pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">No</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.9pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Exponent</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:8.8pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Yes</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.9pt;font-weight:400;text-align:left;line-height:1.15\">Result<br>found</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.5pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">No</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.6pt;font-weight:400;text-align:left;line-height:1.28\">Multiply the base by itself, or by the result of the last calculation</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.9pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Exponent &ndash; 1</div>"
+  }
+}

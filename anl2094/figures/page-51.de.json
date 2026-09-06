@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   140,
+   360,
+   918,
+   432
+  ],
+  "conf": 91.4,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   148,
+   464,
+   1232,
+   2230
+  ],
+  "conf": 93.6,
+  "words": 249,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben. Anschließend wird die elek- tronische Zusatz-Schaltung (siehe Abbildung) mit dem Electronic-Studio 2070 aufgebaut und an den Computer angeschlossen. (Sollte das Electronic-Studio IC-Ver- stärker-Technik 2072 ebenfalls vorhanden sein, kann die Schaltung gemaß Abbildung 20 des Anleitungs- buches 2072 aufgebaut werden. In diesem Fall wird der Taster durch das Spezial-Relais 5964 ersetzt). Ohne Electronic-Studio 2070 kann der Piezo-Summer (als Behelf) an den Buchsen GND und Ausgang 1 ange- schlossen werden. Ein naturgetreuer Glockenschlag ist dann allerdings nicht möglich. In jedem Fall ist zu beachten, daß gemäß Abbildung der Taster G an Eingang 1 angeschlossen und eine Verbindung von der Buchse Takt/Glock zum Eingang 4 hergestellt wird. Jetzt ist die \"Multifunktions-Uhr\" betriebsbereit. Zunachst muß die Uhrzeit eingegeben werden. Hierfür die Tasten HALT - PGM - 3 betätigen und die Uhrzeit 4-stellig eingeben, (z.B. 7.30 Uhr = Eingabe: 0730). Danach Programm-Start mit HALT - NEXT - 00 - RUN und die Zusatzschaltung am Electronic-Studio 2070 mit dem Schiebeschalter einschalten. Das Display zeigt: DOOOO,. Jetzt folgt die 4-stellige Eingabe des Datums (z.B. 20. März = 2003). Die beiden linken Displaystellen zeigen das Tagesdatum, die rechten Displaystellen den Monat. Anschließend muß noch die Taste A betä- tigt werden. Auf dem Display wird jetzt im Wechsel für 7 Sekunden die Uhrzeit und für 3 Sekunden das Datum gezeigt. Zu jeder vollen Stunde wird der ent- sprechende Stundenschlag erzeugt (z.B. 10 Uhr morgens werden 10 Glockenschlage erzeugt, 15 Uhr nachmittags ergeben sich 3 Glockenschläge)."
+ },
+ "prose1": {
+  "box": [
+   1276,
+   2086,
+   2382,
+   2232
+  ],
+  "conf": 93.0,
+  "words": 9,
+  "de": "Programmierer: Frank Simon, 6342 Haiger Michael Bahn, 5000 Koln"
+ },
+ "prose2": {
+  "box": [
+   1276,
+   366,
+   2362,
+   1538
+  ],
+  "conf": 92.9,
+  "words": 99,
+  "de": "Die Multifunktions-Uhr kann im Dauerbetrieb einge- setzt werden, Das Tagesdatum wird automatisch um Mitternacht geändert. Der Computer beachtet auch, daß z.B. der Januar 31 Tage oder der Februar nur 28 Tage hat. Lediglich bei Schaltjahren muß das Datum manuell geändert werden. Zusätzlich kann noch eine Weckzeit (Alarmzeit) ein- gegeben werden. Hierfür wird der Taster G solange betätigt, bis auf dem Display AAAA erscheint. Weck- zeit (4-stellig)J eingeben und Taste B betätigen. Soll die Weckzeit gelöscht werden, ist einzugeben: AAAA (anstelle der vorhandenen Weckzeit). Zur Weckzeit wird ein Dauerton erzeugt. Er kann durch Betätigung einer beliebigen Zahlentaste abge- stellt werden."
+ }
+}

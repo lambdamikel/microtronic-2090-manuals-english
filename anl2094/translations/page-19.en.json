@@ -1,0 +1,106 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">MICROTRONIC Roulette</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.4pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">As in the well-known game of roulette, you can bet on colours (red or black), on even or odd numbers, or on a particular number. Unlike ordinary roulette, MICROTRONIC roulette works with the numbers 0 &ndash; 256. This gives considerably more possibilities: you can also bet on the units, tens or hundreds digit of a number, for example. MICROTRONIC additionally acts as the bank, keeping the player's account automatically, debiting losses and crediting winnings to the starting capital. A starting capital of 10,000 play marks is available, to be increased by skilful betting.</p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">After HALT &ndash; NEXT &ndash; 00 the program is entered according to the table. The piezo buzzer is then connected to the output 1 and GND sockets.<br><br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>The display goes dark briefly. The computer uses its random generator to pick a winning number between 0 and 256. At the same time it decides whether the number is red or black, and even or odd. The winning number is of course not revealed until the stake has been entered. For this the display shows: 0000. You now enter how many play marks are being staked, for example 200 (entry 200; maximum stake 9999). Then press key A. The display shows: A. One of six different betting options must be chosen and the corresponding key pressed according to the following table:</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:700;text-align:left;line-height:1.05\">Betting option</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:700;text-align:left;line-height:1.05\">Key</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:700;text-align:left;line-height:1.05\">further key press</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:700;text-align:left;line-height:1.05\">Winnings</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Red/Black</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Even/Odd</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Directly on a number</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Hundreds digit</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Tens digit</div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Units digit</div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Key 0 for red<br>Key 1 for black</div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Key 1 for even number<br>Key 2 for odd number</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Enter the winning number; then key A</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Enter the 1st digit of the winning number (0, 1 or 2)</div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Enter the 2nd digit of the winning number (0 to 9)</div>"
+  },
+  "19": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Enter the 3rd digit of the winning number (0 to 9)</div>"
+  },
+  "20": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Stake is doubled</div>"
+  },
+  "21": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Stake is doubled</div>"
+  },
+  "22": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Stake &times; 300</div>"
+  },
+  "23": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Stake is tripled</div>"
+  },
+  "24": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Stake &times; 10</div>"
+  },
+  "25": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:9.0pt;font-weight:400;text-align:left;line-height:1.05\">Stake &times; 5</div>"
+  }
+}

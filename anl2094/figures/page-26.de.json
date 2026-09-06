@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   108,
+   64,
+   288,
+   162
+  ],
+  "conf": 92.6,
+  "words": 1,
+  "de": "Pull"
+ },
+ "heading1": {
+  "box": [
+   1236,
+   368,
+   1806,
+   440
+  ],
+  "conf": 90.9,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   112,
+   374,
+   1212,
+   1038
+  ],
+  "conf": 93.0,
+  "words": 109,
+  "de": "Pull ist ein Strategie-Spiel. Es wird auf einem quadratischen Spielfeld mit 25 Einzelfeldern ge- spielt. Der Computer erhält einen Spielstein, wel- cher auf Feld C gesetzt wird. Wir haben drei Spiel- Steine zur Verfügung, welche. beim Spielstart auf die Felder 1, 2 und 3 gesetzt werden, Wir dürfen mit: unseren Spielsteinen auf den dunklen Felder nur vorwärts ziehen, während der Computer vorwärts und rückwarts ziehen darf. Wir siegen, wenn es uns ge- tingt, den Spielstein des Computers so zu blockie- ren, daß er keinen Zug mehr machen kann, Der Compu- ter gewinnt, sobald er eines der Felder 1, 2 oder 3 erreicht hat. Ein Pull-Spielfeld liegt diesem Buch bei,"
+ },
+ "prose1": {
+  "box": [
+   1236,
+   462,
+   2328,
+   2160
+  ],
+  "conf": 93.0,
+  "words": 284,
+  "de": "Nach HALT = NEXT - 00 wird das Programm sorgfältig entsprechend der Tabelle eingegeben, Anschließend kurz die Reset-Taste betätigen. Am Ausgang 3 und der Buchse GND wird der Piezo-Sumner angeschlossen. Be- sitzer des Electronic-Studios 2065 oder 2070 können auch die Schaltung \"Mini-Orgel\" (siehe Seite 20 ) aufbauen und an den Computer-Ausgängen anschließen, Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt die Grundposition unserer Spiel- figuren an: 123 (unsere Figuren stehen auf den Fel- dern 1, 2 und 3, die Figur des Computers auf Feld C). Wir beginnen und führen einen ersten Zug durch. Wir wollen z.B. mit einer Figur von Feld 3 auf Feld 5 ziehen (es darf immer nur mit einer Figur gezogen werden). Unsere Figuren stehen dann auf den Feldern l, 2 und 5. Es ist einzugeben: 125 (die neue Spiel- stein-Position). Das Display zeigt jetzt: A (wir müssen die Computer-Figur auf Feld A setzten). An- schließend Taste O0 betätigen. Das Display zeigt wie- der unsere Spielposition 125 an. Wir können den nächsten Zug ausführen, indem wir z.B. von Feld 1 auf Feld 4 ziehen. Wir geben ein: 425 (die neue Positionen der Spielfigur). Das Display zeigt jetzt: 7 (die Computer-Figur kommt auf Feld 7). Wir betä- tigen erneut Taste O0 und geben anschließend unsere neue Spielposition ein, Sollte der Computer die Felder 1, 2 oder 3 errei- chen, ertönt ein unterbrochener Ton (bzw. bei an- geschlossener\"Mini-Orgel\" eine fallende Tonfolge). Gelingt es uns den Computer zu besiegen, wird ab- wechselnd ein kurzer und ein langer Ton erzeugt (bzw. bei angeschlossener “Mini-Orgel\" wird eine kurze Melodie gespielt). Anschließend zeigt das Dis- play auf vier Stellen die Positionen der vier Spielfiguren an, Nach Betätigung der Taste O0 erfolgt ein neuer Spielstart."
+ }
+}

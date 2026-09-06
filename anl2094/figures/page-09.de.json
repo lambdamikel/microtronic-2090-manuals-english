@@ -1,0 +1,90 @@
+{
+ "heading0": {
+  "box": [
+   178,
+   50,
+   656,
+   180
+  ],
+  "conf": 96.3,
+  "words": 1,
+  "de": "Blockade"
+ },
+ "heading1": {
+  "box": [
+   166,
+   1238,
+   746,
+   1298
+  ],
+  "conf": 91.1,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading2": {
+  "box": [
+   1296,
+   1238,
+   2104,
+   1304
+  ],
+  "conf": 94.7,
+  "words": 5,
+  "de": "Wird bei der Eingabe gemogelt:"
+ },
+ "prose0": {
+  "box": [
+   170,
+   362,
+   1256,
+   1230
+  ],
+  "conf": 95.0,
+  "words": 147,
+  "de": "Blockade ist ein Strategie-Spiel, welches auf zwei Bahnen mit 5 bzw. 10 Feldern gespielt wird. Dem Com- puter und dem Spieler stehen auf jeder Spielbahn je- weils 1 Figur zur Verfügung, wobei die zwei Spiel- figuren des Computers links außen, die des Spielers rechts außen auf die Felder der beiden Spielbahnen gesetzt werden. Die Figuren dürfen dann abwechselnd vom Computer und vom Spieler auf einer der beiden Bahnen beliebig vor und zurückgeschoben werden. Da- bei ist es nicht erlaubt, die gegnerischen Figuren zu überspringen, Ziel ist es, beide Figuren des Com- puters so in die Ausgangsstellung (auf die linken äußeren Spielfelder) zurückzudrängen, daß ihm keine weiteren Zuge möglich sind. Dies erfordert viel Tak- tik und Strategie, da auch der Computer versucht, die Figuren des Spielers zu blockieren, bzw. seine Figuren in die rechte Spielhälfte zurückzudrängen. Als Zubehör wurde diesem Buch ein Blockade-Spielfeld mit Spielmarken (als Figuren) beigefügt."
+ },
+ "prose1": {
+  "box": [
+   170,
+   1322,
+   1244,
+   2294
+  ],
+  "conf": 94.5,
+  "words": 140,
+  "de": "Zunächst wird nach HALT - NEXT - 00 das Programm It. Tabelle eingegeben. Anschließend wird der Piezo-Sum- mer an den Buchsen GND und Ausgang 1 der Computer- platine angeschlossen. Programm-Start: HALT - NEXT - 00 = RUN, Das Display zeigt 00. Auf die Felder Nr. 1 der beiden Spielbahnen werden die Figuren des Computers gesetzt. Die Figuren des Spielers kommen auf Feld A von Bahn 1 und auf Feld 5 von Bahn 2. Anschließend kann der erste Zug des Spielers in den Computer eingegeben werden. Hierfür wird zuerst die Zahl 1 oder 2 für die entsprechende Bahn und anschließend die Nummer des Feldes einge- geben, auf welche der Spieler seine Figuren setzen möchte, Soll z.B. eine Figur auf Bahn 1, Feld 7 gesetzt wer- den, ist die Eingabe 17 erforderlich. Der Computer zeigt seinen Zug (13) an, d.h., die Computer-Figur"
+ },
+ "prose2": {
+  "box": [
+   1300,
+   1320,
+   2392,
+   2034
+  ],
+  "conf": 94.5,
+  "words": 88,
+  "de": "Z.B. Eingabe 26 (Feld 6 gibt es nicht auf Bahn 2) oder Eingabe auf ein Feld, auf dem schon eine Figur steht, wird das Spiel sofort abgebrochen und auf dem Display erscheint: 00 das Spiel muß neu begonnen werden. Sollte es gelingen, gegen den Computer zu gewinnen (es ist möglich, wenn man die richtige Strategie herausgefunden hat), erscheint auf dem Display: CCC - der Computer erzeugt einen unterbrochenen Signal- ton, Falls das Spiel nach mehreren Versuchen nicht zu ge- winnen ist, finden Sie die Strategie-Erklärung auf Seite 13."
+ },
+ "prose3": {
+  "box": [
+   1300,
+   2192,
+   2276,
+   2282
+  ],
+  "conf": 95.8,
+  "words": 5,
+  "de": "Programmierer: Christoph Fuchs, 6920 Sinsheim"
+ },
+ "prose4": {
+  "box": [
+   1304,
+   360,
+   2386,
+   1194
+  ],
+  "conf": 94.4,
+  "words": 121,
+  "de": "ist auf Bahn 1, Feld 3 zu setzen. Der Spieler gibt jetzt z.B. 22 ein und setzt seine Figur auf Feld 2 der zweiten Bahn, Der Computer gibt bekannt, daß er seine Figur auf Bahn 1, Feld 6 setzen will (Anzeige: 16). Der Computer gewinnt schon jetzt die Übermacht. Der Spieler kann mit seinen Figuren nicht mehr weiter nach links vorrücken, weil die Computerfiguren den Weg blockieren. Der Spieler muß zurück und gibt z.B. ein: 18. Der Computer zieht sofort seine Figur auf Feld 7 der ersten Bahn (Anzeige: 17). Der Spieler wird weiter zurückgedrängt. Wenn in diesem Beispiel der Computer gewinnt, zeigt das Display: FFF - ein kurzes Dauersignal ertönt. Ein neuer Spielstart ist durch Betätigung der Taste O möglich."
+ }
+}

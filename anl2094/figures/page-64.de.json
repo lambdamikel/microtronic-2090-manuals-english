@@ -1,0 +1,123 @@
+{
+ "heading0": {
+  "box": [
+   320,
+   378,
+   554,
+   450
+  ],
+  "conf": 91.3,
+  "words": 1,
+  "de": "Ablaufplan"
+ },
+ "heading1": {
+  "box": [
+   344,
+   788,
+   520,
+   844
+  ],
+  "conf": 84.4,
+  "words": 1,
+  "de": "Hochzahl"
+ },
+ "heading2": {
+  "box": [
+   572,
+   780,
+   658,
+   822
+  ],
+  "conf": 73.3,
+  "words": 1,
+  "de": "Ja"
+ },
+ "heading3": {
+  "box": [
+   828,
+   774,
+   1030,
+   878
+  ],
+  "conf": 95.5,
+  "words": 2,
+  "de": "Ergebnis =]"
+ },
+ "heading4": {
+  "box": [
+   824,
+   1064,
+   1024,
+   1172
+  ],
+  "conf": 95.8,
+  "words": 2,
+  "de": "Ergebnis gefunden"
+ },
+ "heading5": {
+  "box": [
+   338,
+   1080,
+   522,
+   1126
+  ],
+  "conf": 49.4,
+  "words": 1,
+  "de": "Hochzahl"
+ },
+ "heading6": {
+  "box": [
+   586,
+   1068,
+   644,
+   1110
+  ],
+  "conf": 93.4,
+  "words": 1,
+  "de": "Ja"
+ },
+ "heading7": {
+  "box": [
+   444,
+   946,
+   540,
+   988
+  ],
+  "conf": 94.9,
+  "words": 1,
+  "de": "Nein"
+ },
+ "heading8": {
+  "box": [
+   242,
+   1316,
+   628,
+   1532
+  ],
+  "conf": 87.9,
+  "words": 12,
+  "de": "Basis mit sich selbst bzw. mit dem Ergebnis der letzten Berechnung multiplizieren"
+ },
+ "heading9": {
+  "box": [
+   296,
+   1658,
+   564,
+   1728
+  ],
+  "conf": 93.1,
+  "words": 3,
+  "de": "Hochzahl - 1"
+ },
+ "heading10": {
+  "box": [
+   346,
+   558,
+   518,
+   604
+  ],
+  "conf": 94.0,
+  "words": 1,
+  "de": "START"
+ }
+}

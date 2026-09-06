@@ -1,0 +1,79 @@
+{
+ "heading0": {
+  "box": [
+   154,
+   72,
+   700,
+   240
+  ],
+  "conf": 94.9,
+  "words": 3,
+  "de": "Für Mathematiker: Potenz-Rechnung"
+ },
+ "heading1": {
+  "box": [
+   1284,
+   374,
+   2044,
+   446
+  ],
+  "conf": 87.9,
+  "words": 4,
+  "de": "Das interessiert den Programmierer:"
+ },
+ "heading2": {
+  "box": [
+   156,
+   750,
+   754,
+   822
+  ],
+  "conf": 90.9,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   160,
+   380,
+   1256,
+   732
+  ],
+  "conf": 89.7,
+  "words": 28,
+  "de": "Das folgende Programm zeigt, daß man mit MICROTRONIC außer den vier Grundrechenarten (siehe Anleitungs- bücher) auch Potenz-Rechnungen durchführen kann. Eine Potenz-Rechnung ist z.B. 57°? (57 x57x57 = 185.193)."
+ },
+ "prose1": {
+  "box": [
+   146,
+   842,
+   1234,
+   1838
+  ],
+  "conf": 93.5,
+  "words": 112,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben. Programm-Start durch HALT - NEXT - 00 - RUN, Das Display zeigt 000. Beispiel: Es soll die Aufgabe 57? berechnet werden. Zuerst wird die Zahl 5/ eingegeben - dann Taste A. Das Dis- play zeigt: 00. Jetzt wird die Hochzahl 3 eingegeben - Taste A. Nach kurzer Rechenzeit zeigt das Display 185.193 als Ergebnis. Nach Betätigung einer belie- bigen Zahlentaste kann eine neue Berechnung durchge- führt werden. Ist das Ergebnis zu groß (größer als 6 Stellen), zeigt das Display: EEEEEE. Zu beachten ist, daß die Potenz 0 hoch O nicht korrekt berechnet wird, weil diese mathematisch nicht definiert ist."
+ },
+ "prose2": {
+  "box": [
+   1282,
+   458,
+   2382,
+   1834
+  ],
+  "conf": 93.8,
+  "words": 215,
+  "de": "Bei vielen Taschenrechnern kann die Potenz-Rechnung durch Betätigung einer Taste abgerufen werden. Bei diesen Rechnern ist der Mikroprozessor So pro- grammiert, daß er die Potenz-Rechnung durch eine wiederholte Multiplikation durchführt. Der hierfür notwendige Algorithmus ist ziemlich einfach. Es wird zunachst geprüft, ob die Hochzahl eine 1 ist. Wenn ja, ist die Zahlenbasis (in unserem Beispiel 57) das Ergebnis. Ist die Hochzahl größer als 1, wird die Basis mit sich selbst multipliziert (in unserem Bei- spiel 57 x 57) und von der eingegebenen Hochzahl 1 subtrahiert. Ist jetzt die Hochzahl 1, wurde das Er- gebnis gefunden. Wenn nein, wird das Ergebnis der letzten Berechnung (57 x 57 = 3.249) wieder mit der eingegebenen Basis (in unserem Beispiel 57) multi- pliziert. Von der Hochzahl wird wieder 1 subtrahiert und anschließend kontrolliert, ob die Hochzahl jetzt gleich 1 ist und damit das Ergebnis gefunden wurde, Der Ablaufplan verdeutlicht dieses Prinzip. Zu be- achten ist, daß der Aplaufplan nur den eigentlichen Rechenteil zeigt. Selbstverständlich sind für das Programm noch spezielle Ein- und Ausgabe-Routinen notwendig. Der Ablaufplan zeigt noch eine Besonder- heit: Bei Potenz-Rechnungen wurde definiert, daß das Ergebnis 1 wird, wenn die Hochzahl O ist. Aus diesem Grund wird vor der eigentlichen Berechnung geprüft, ob die Hochzahl gleich O0 ist - wenn ja, wird das Er- gebnis automatisch |."
+ },
+ "prose3": {
+  "box": [
+   1274,
+   2238,
+   2180,
+   2304
+  ],
+  "conf": 93.6,
+  "words": 5,
+  "de": "Programmier: Matthias Gorek, 3210 Elze"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "heading0": {
+  "box": [
+   110,
+   364,
+   400,
+   440
+  ],
+  "conf": 96.2,
+  "words": 1,
+  "de": "Spielende:"
+ },
+ "prose0": {
+  "box": [
+   102,
+   456,
+   1212,
+   1412
+  ],
+  "conf": 93.3,
+  "words": 71,
+  "de": "Zeigt das Display: 66 FOO = alle 3 Figuren sind in eine Fallgrube gefallen, keine ist am Ziel angekom- men. Neuer Spielstart: HALT - NEXT - 00 - RUN. Zeigt das Display: 1000 (oder 2000 bzw. 3000) = Eine Figur (oder 2 bzw. 3 Figuren) sind sicher am Ziel angekommen. Das Spiel ist beendet, es stehen keine weiteren Spielfiguren zur Verfügung. Neuer Spiel- start: HALT - NEXT - 00 - RUN."
+ },
+ "prose1": {
+  "box": [
+   94,
+   2228,
+   1092,
+   2326
+  ],
+  "conf": 95.1,
+  "words": 6,
+  "de": "Programmierer: Frank Simon, 6342 Haiger 6"
+ }
+}

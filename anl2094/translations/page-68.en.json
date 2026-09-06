@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#ffffff;font-size:12.5pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.0\">Add-on for 2090</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#ffffff;font-size:12.0pt;line-height:1.06;text-align:left\"><p style=\"margin:0;font-size:12.0pt;line-height:1.06;text-align:left\"><b>Ready-to-use plug-in module for easy installation.</b></p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#ffffff;font-size:12.0pt;line-height:1.06;text-align:left\"><p style=\"margin:0;font-size:12.0pt;line-height:1.06;text-align:left\"><b>For transferring (saving) computer programs onto cassettes or tape.</b></p></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#ffffff;font-size:12.0pt;line-height:1.06;text-align:left\"><p style=\"margin:0;font-size:12.0pt;line-height:1.06;text-align:left\"><b>The digital computer signals are recorded by ordinary cassette recorders or tape machines. Transfer time for a full Microtronic program memory (256 addresses) approx. 4 minutes. 12&ndash;14 large computer programs can be stored on one C60 cassette.</b></p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#ffffff;font-size:12.0pt;line-height:1.06;text-align:left\"><p style=\"margin:0;font-size:12.0pt;line-height:1.06;text-align:left\"><b>On playback the interface turns the audio signals back into digital computer signals.</b></p></div>"
+  }
+}

@@ -1,0 +1,79 @@
+{
+ "heading0": {
+  "box": [
+   170,
+   68,
+   690,
+   184
+  ],
+  "conf": 91.5,
+  "words": 1,
+  "de": "Auto-Rennen"
+ },
+ "heading1": {
+  "box": [
+   162,
+   1112,
+   730,
+   1182
+  ],
+  "conf": 90.8,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   172,
+   378,
+   1256,
+   1104
+  ],
+  "conf": 93.5,
+  "words": 116,
+  "de": "Das Auto-Rennen ist ein interessantes Reaktions- Spiel, Man muß versuchen, innerhalb einer Reaktions- zeit zwei Sekunden (oder bei gesteigertem Schwie- rigkeitsgrad innerhalb einer Sekunde), entgegen- kommenden Autos auszuweichen. Die Fahrbahn wird durch die vier Leuchtdioden an den Computer-Ausgän- gen und vier Stellen der Display-Anzeige darge- stellt. Jede Leuchtdiode, bzw. jede Display-Stelle entspricht einer Fahrspur. Die vom eigenen Auto be- setzte Fahrspur wird auf dem Display durch eine 1, die freien Fahrspuren werden durch 000 gekennzeich- net. Leuchtende LED's an den Ausgängen bedeuten, daß diese Spuren durch entgegenkommende Fahrzeuge belegt sind, welche (durch den Zufallsgenerator des Compu- ters gesteuert) nach jedem Spielzug die Fahrspur wechseln. Der Spieler muß versuchen, sein Auto auf eine freie Spur zu lenken,"
+ },
+ "prose1": {
+  "box": [
+   164,
+   1190,
+   1258,
+   2338
+  ],
+  "conf": 92.9,
+  "words": 146,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben. Danach wird \"Eingang 4\" mit der Buchse \"Takt/Clock\" verbunden, Programm-Start: HALT - NEXT - 00 - RUN. Auf dem Display erscheint z.B.: 0100 = Unser Fahrzeug (1) befindet sich auf der zweiten Spur von links, An ‘den Ausgängen leuchten einzelne LED's (entgegenkommende Fahrzeuge). Es gibt mehrere Mög- lichkeiten, durch entsprechende Tastenbetätigung die Fahrbahn zu wechseln; Taste 1: Das Fahrzeug wechselt eine Spur nach links (die 1 auf dem Display wird um eine Stelle nach links geschoben), Taste 2: Das Fahrzeug bleibt auf seiner Spur (Dis- play bleibt unverändert), Taste 3: Das Fahrzeug wechselt eine Spur nach rechts. Taste 5: Das Fahrzeug wechselt zwei Spuren nach links. Taste 7: Das Fahrzeug wechselt zwei Spuren nach rechts. Taste 9: Das Fahrzeug wechselt drei Spuren nach links. Taste B: Das Fahrzeug wechselt drei Spuren nach rechts,"
+ },
+ "prose2": {
+  "box": [
+   1294,
+   382,
+   2392,
+   476
+  ],
+  "conf": 95.0,
+  "words": 10,
+  "de": "Die Funktion des Spieles wird durch folgendes Bei- spiel verdeutlicht:"
+ },
+ "prose3": {
+  "box": [
+   1298,
+   518,
+   2056,
+   678
+  ],
+  "conf": 93.6,
+  "words": 10,
+  "de": "An den 4 Ausgängen leuchten 2 LED's: Das Display zeigt:"
+ },
+ "prose4": {
+  "box": [
+   1294,
+   692,
+   2378,
+   1942
+  ],
+  "conf": 93.5,
+  "words": 152,
+  "de": "Die Fahrspuren 2 und 3 sind durch entgegenkommende Autos besetzt, Unser Auto befindet sich auf der zweiten Spur, d.h., es wird im nächsten Moment mit einem entgegenkommenden Auto zusamenstoßen. Ein so- fortiges Ausweichmanöver ist erforderlich: Entweder eine Spur nach links (Eingabe Taste 1) oder ? Spuren nach rechts (Eingabe Taste 7). Das Leuchten der LED's an den Ausgängen wird verändert und wir müssen durch reaktionsschnelle Eingaben entgegekommenden Fahrzeugen ausweichen, Das Spiel wird automatisch beendet, fails mehr als ? Sekunden für die Eingabe des Ausweichmanövers be- notigt werden, Das Spiel wird ebenfalls beendet: Beim Ausweichen auf eine Spur, auf welcher ein Auto entgegenkomt. Beim Überwechseln auf eine Spur, die nicht vorhanden ist (zu weit nach links oder rechts). Das Spielende wird durch das blinkende Display angezeigt, auf wel- chem anschließend die gefahrenen Kilometer (Anzahl der gelungenen Ausweichmanöver) aufleuchten, Ein neuer Spielstart ist durch Betätigung der Taste 0 möglich. BUSCH-MICROTRONIC wünscht eine gute Fahrt,"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "heading0": {
+  "box": [
+   154,
+   58,
+   1154,
+   272
+  ],
+  "conf": 93.3,
+  "words": 5,
+  "de": "Für Statistiker: Zeichnen von Kreis-Diagrammen"
+ },
+ "heading1": {
+  "box": [
+   1282,
+   372,
+   1776,
+   452
+  ],
+  "conf": 86.9,
+  "words": 1,
+  "de": "Anwendungsbeispiel:"
+ },
+ "heading2": {
+  "box": [
+   146,
+   900,
+   736,
+   986
+  ],
+  "conf": 90.8,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "heading3": {
+  "box": [
+   1290,
+   1222,
+   1590,
+   1276
+  ],
+  "conf": 96.2,
+  "words": 2,
+  "de": "78% Stickstoff"
+ },
+ "heading4": {
+  "box": [
+   2136,
+   1374,
+   2368,
+   1428
+  ],
+  "conf": 92.5,
+  "words": 2,
+  "de": "1% Edelgas"
+ },
+ "heading5": {
+  "box": [
+   2142,
+   1442,
+   2356,
+   1502
+  ],
+  "conf": 91.1,
+  "words": 2,
+  "de": "3,6 Grad"
+ },
+ "heading6": {
+  "box": [
+   2052,
+   1550,
+   2364,
+   1604
+  ],
+  "conf": 96.0,
+  "words": 2,
+  "de": "21% Sauerstoff"
+ },
+ "heading7": {
+  "box": [
+   1850,
+   1462,
+   2050,
+   1508
+  ],
+  "conf": 96.4,
+  "words": 2,
+  "de": "75,6 Grad"
+ },
+ "heading8": {
+  "box": [
+   1592,
+   1400,
+   1808,
+   1450
+  ],
+  "conf": 92.6,
+  "words": 2,
+  "de": "280,8 Grad"
+ },
+ "prose0": {
+  "box": [
+   1274,
+   2232,
+   2386,
+   2338
+  ],
+  "conf": 96.3,
+  "words": 6,
+  "de": "Programmierer: Thorsten Lindner, 5600 Wuppertal 2"
+ },
+ "prose1": {
+  "box": [
+   1274,
+   1710,
+   2386,
+   2208
+  ],
+  "conf": 94.9,
+  "words": 72,
+  "de": "Auf diese Weise können beliebig viele Kreiseintei- lungen vorgenommen werden. Es ist lediglich darauf zu achten, daß alle Werte des Kreisinhaltes (wie in unserem Beispiel 78% + 21% + 1%) = 100% ergeben, Die Funktion des Programmes ist einfach: Der einge- gebene Prozentwert wird mit 3,6 multipliziert und man erhalt das Ergebnis in Grad. Das Programm demon- striert, wie ein individuell programmierter Computer als wichtiges Hilfsmittel für manigfaltige Aufgaben eingesetzt werden kann."
+ },
+ "prose2": {
+  "box": [
+   1286,
+   456,
+   2384,
+   1160
+  ],
+  "conf": 94.0,
+  "words": 100,
+  "de": "Die Anteile der Luft-Zusammensetzung sollen in einem Kreisdiagramm dargestellt werden. Die Luft besteht aus 78% Stickstoff, 21% Sauerstoff und 1% Edelgasen. Diese Prozentwerte sind in Winkelgrade umzurechnen, Wir geben den ersten Prozentwert für Stickstoff (78) ein. Anschließend Taste A betätigen, Das Display zeigt: 2808 = 280,8 Grad. Taste A betatigen. Den zweiten Wert (21) für Sauerstoff eingegeben, Taste A betätigen, das Display zeigt 756 = 75,6 Grad. Taste A, dann letzte Eingabe für Edelgase (1). Nochmals Taste A - Display-Ergebnis: 36 (3,6 Grad). Mit den vom Computer berechneten Gradwerten kann ein Kreis-Diagrmm mit entsprechenden Feldern leicht festgelegt und gezeichnet werden:"
+ },
+ "prose3": {
+  "box": [
+   148,
+   376,
+   1236,
+   868
+  ],
+  "conf": 94.2,
+  "words": 51,
+  "de": "Zur graphischen Darstellung von Tabellen oder Sta- tistiken werden oft sogenannte \"Kreis-Diagramme\" verwendet. Hierfür ist es erforderlich, die prozen- tualen Anteile in entsprechend große \"Kuchenstücke\" einzuteilen (siehe Abbildung). Das folgende Programm ist zur Zeichnungsvorbereitung von Kreis-Diagrammen eine wertvolle Hilfe. Der Computer errechnet aufgrund eingegebener Prozentwerte die Winkelgrade für die entsprechenden Kreisausschnitte."
+ },
+ "prose4": {
+  "box": [
+   154,
+   996,
+   1246,
+   1386
+  ],
+  "conf": 93.1,
+  "words": 25,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben, Progamm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: 00."
+ }
+}

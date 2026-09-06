@@ -1,0 +1,24 @@
+{
+ "heading0": {
+  "box": [
+   1224,
+   56,
+   2124,
+   190
+  ],
+  "conf": 94.0,
+  "words": 4,
+  "de": "Gewinnstrategie für Spiel \"BLOCKADE\""
+ },
+ "prose0": {
+  "box": [
+   1228,
+   372,
+   2330,
+   1734
+  ],
+  "conf": 94.6,
+  "words": 186,
+  "de": "Dieser Abschnitt sollte erst dann gelesen werden, wenn das Blockade-Spiel trotz mehrfacher Bemühungen nicht gewonnen werden konnte, Dieses Spiel zu gewinnen, ist eigentlich ganz ein- fach: Man muß versuchen, auf beiden Spielbahnen die gleiche Anzahl von Leerfeldern zwischen den Spielfiguren des Computers und den eigenen Figuren zu erreichen, Nach dem Programm-Start (Spielbeginn) sind auf Bahn 2 zwischen den Spielfiguren drei Leerfelder. Durch unsere erste Eingabe: 15 erzielen wir auch auf der Bahn 1 die erforderlichen drei Leerfelder zwischen den Figuren. Der Computer zieht jetzt auf Bahn 1 zum Feld 2 (d.h., daß auf Bahn 1 nur noch zwei Leerfel- der bestehen, während auf der Bahn 2 drei Leerfelder vorhanden sind). Wir können jetzt entweder auf Bahn ]l mit unserer Spielfigur ein Feld nach rechts, oder auf Bahn 2 ein Feld nach links ziehen. In beiden Fällen aber ergeben sich auf beiden Spielbahnen wie- der die gleiche Anzahl von Leerfeldern zwischen unseren und den Spielfiguren des Computers. Auf diese Weise kann das Spiel bis zum Sieg fortgesetzt werden, Wichtig ist es, daß wir konsequent auf bei- den Spielbahnen immer die gleiche Anzahl Leerfelder zwischen den Spielfiguren anstreben."
+ }
+}

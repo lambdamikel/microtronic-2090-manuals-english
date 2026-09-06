@@ -1,0 +1,602 @@
+{
+  "page_size_px": [
+    2452,
+    2427
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.676190476190476,
+  "bg_crop_px": [
+    21,
+    18,
+    7,
+    35
+  ],
+  "text_blocks": [
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        987,
+        870,
+        1987
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_color": "#b32433",
+      "mask_lines": true,
+      "tight_masks": [
+        [
+          107,
+          987,
+          870,
+          1987
+        ]
+      ]
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1000,
+        870,
+        1056
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1079,
+        870,
+        1135
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1154,
+        870,
+        1210
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1233,
+        870,
+        1289
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1313,
+        870,
+        1369
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1393,
+        870,
+        1449
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1472,
+        870,
+        1528
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1552,
+        870,
+        1608
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1632,
+        870,
+        1688
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1713,
+        870,
+        1769
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1793,
+        870,
+        1849
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1855,
+        870,
+        1911
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        107,
+        1935,
+        870,
+        1991
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1397,
+        1394,
+        1779,
+        1477
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_color": "#b72a3a",
+      "mask_lines": true,
+      "tight_masks": [
+        [
+          1397,
+          1394,
+          1779,
+          1477
+        ]
+      ]
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1851,
+        1394,
+        2207,
+        1477
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_color": "#b72a3a",
+      "mask_lines": true,
+      "tight_masks": [
+        [
+          1851,
+          1394,
+          2207,
+          1477
+        ]
+      ]
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        89,
+        2174,
+        1879,
+        2344
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_color": "#b82b3a",
+      "mask_lines": true,
+      "tight_masks": [
+        [
+          89,
+          2174,
+          1879,
+          2344
+        ]
+      ]
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        99,
+        2187,
+        1085,
+        2262
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        99,
+        2265,
+        1839,
+        2340
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_lines": true
+    },
+    {
+      "kind": "body",
+      "bbox": [
+        1909,
+        2332,
+        2309,
+        2392
+      ],
+      "fragments": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "lines": [
+        [
+          2,
+          2,
+          3,
+          3
+        ]
+      ],
+      "text": "",
+      "mask_color": "#b82c3c",
+      "mask_lines": true,
+      "tight_masks": [
+        [
+          1909,
+          2332,
+          2309,
+          2392
+        ]
+      ]
+    }
+  ],
+  "raw_blocks": []
+}

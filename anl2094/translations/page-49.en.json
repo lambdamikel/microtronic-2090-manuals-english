@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14.0pt;font-weight:700;text-align:left;line-height:1.15\">Clock with chimes, date display and alarm function</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">With this program MICROTRONIC becomes a &ldquo;multi-function clock&rdquo;. On every full hour the computer strikes the hour (like a church tower clock). The display alternately shows the time for 7 seconds and the date for 3 seconds. An alarm time can also be entered (for triggering an alarm, etc.). To produce the chime true to life, the BUSCH Electronic Studio 2070 and</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">special relay 5964 are needed. To try the program out (without the chime), the piezo buzzer can be used.<br><br>Additionally required: Electronic Studio 2070 and BUSCH special relay 5964.</p></div>"
+  }
+}

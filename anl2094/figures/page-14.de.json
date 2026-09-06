@@ -1,0 +1,57 @@
+{
+ "heading0": {
+  "box": [
+   108,
+   40,
+   572,
+   178
+  ],
+  "conf": 90.0,
+  "words": 1,
+  "de": "Rechentrainer"
+ },
+ "heading1": {
+  "box": [
+   102,
+   680,
+   828,
+   756
+  ],
+  "conf": 90.3,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   100,
+   350,
+   1196,
+   668
+  ],
+  "conf": 94.5,
+  "words": 50,
+  "de": "Mit diesem Rechentrainer-Programm kann das \"Einmal- eins\" (das Multiplizieren) geübt werden. Der Compu- ter gibt eine Rechenaufgabe. Das \"im Kopf\" errech- nete Ergebnis wird eingegeben. Der Computer ver- gleicht, ob das Ergebnis stimmt und stellt an- schließend die nächste Aufgabe. Bei falscher Eingabe gibt der Computer das richtige Ergebnis bekannt,"
+ },
+ "prose1": {
+  "box": [
+   96,
+   768,
+   1184,
+   2178
+  ],
+  "conf": 93.6,
+  "words": 205,
+  "de": "Nach HALT - NEXT - 00 wird das Programm gemäß Tabelle eingegeben. Anschließend muß kurz die grüne Reset-Taste betätigt und der Piezo-Summer an den Buchsen GND und Ausgang l angeschlossen werden. Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: 00000. Es werden 2 beliebige Zah- len, die kleiner als 20 sein müssen, eingegeben, z.B. 15 und 12. Das Display zeigt: 15012. Dies ist die erste Rechenaufgabe. Die zwei linken Stellen der Anzeige (15) müssen mit den beiden rechten Stellen (12) multipliziert werden. 15 x 12 = 180. Das Ergebnis (180) wird eingegeben - anschließend Taste A betätigen. Ein kurzer Pfeifton bestätigt, daß die Eingabe richtig war, Das Display zeigt auto- matisch die nächste Aufgabe: 15013. 15 x 13 wird ausgerechnet und das Ergebnis (195) eingegeben, an- schließend wieder Taste A betätigen. Wird ein falsches Ergebnis eingegeben, erzeugt der Computer 2 kurze Pfeiftöne. Auf dem Display er- scheint die Meldung FE (Fehler), dann wird das rich- tige Ergebnis angezeigt. Nach kurzer Zeit wird auto- matisch die nächste Aufgabe gestellt. Soll das ganze \"Einmaleins\" (bis 20 x 20) trainiert werden, muß nach dem Programm-Start (HALT - NEXT - 00 - RUN) eingegeben werden: 0101. Nach jeder Einga- be nicht vergessen Taste A zu betätigen."
+ },
+ "prose2": {
+  "box": [
+   90,
+   2198,
+   1154,
+   2296
+  ],
+  "conf": 96.2,
+  "words": 5,
+  "de": "Programmierer: Alexander Stadler, A-1160 Wien"
+ }
+}

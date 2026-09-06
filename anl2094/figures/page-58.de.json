@@ -1,0 +1,57 @@
+{
+ "heading0": {
+  "box": [
+   132,
+   70,
+   994,
+   164
+  ],
+  "conf": 92.0,
+  "words": 3,
+  "de": "Diagonal-Berechnung für Vielecke"
+ },
+ "heading1": {
+  "box": [
+   1270,
+   376,
+   1786,
+   464
+  ],
+  "conf": 91.7,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   126,
+   376,
+   1228,
+   918
+  ],
+  "conf": 94.0,
+  "words": 59,
+  "de": "Mit diesem Programm berechnet der Computer, wieviel Möglichkeiten es gibt, Diagonale in ein Vieleck ein- zuzeichnen. Es ist z.B. bekannt, daß bei einem Vier- eck nur zwei Diagonalen möglich sind, während es bei einem Fünfeck bereits fünf verschiedene Möglich- keiten gibt (siehe Zeichnung). Das Programm kann die Anzahl der Diagonalen aller Vielecke mit bis zu maximal 99 Ecken berechnen."
+ },
+ "prose1": {
+  "box": [
+   1264,
+   474,
+   2354,
+   1466
+  ],
+  "conf": 93.9,
+  "words": 98,
+  "de": "Nach HALT - NEXT - 00 wird das Programm It. Tabelle eingegeben. Programmstart: HALT - NEXT - 00 - RUN. Das Display zeigt: 00. Eingabe z.B: 10 (für ein Zehneck). Anschließend Taste A betätigen. Sofort wird das Ergebnis vierstellig (in diesem Beispiel: 0035) angezeigt, d.h., daß an einem Zehneck 35 Dia- gonalen möglich sind. | Wird anschließend Taste A betätigt, zeigt das Dis- play wieder: 00. Es kann eine neue Zahl für ein Vieleck eingegeben werden. Die Anzahl der Diagonalen wird nach folgender Formel berechnet: d=(nx(n-3)) : 2. da = Anzahl der Diagonalen n = Anzahl der Ecken"
+ },
+ "prose2": {
+  "box": [
+   1256,
+   2228,
+   2256,
+   2314
+  ],
+  "conf": 94.6,
+  "words": 6,
+  "de": "Programmierer: Peter Feltens, 5450 Neuwied 12"
+ }
+}

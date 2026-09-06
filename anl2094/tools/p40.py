@@ -1,0 +1,49 @@
+import sys, os; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from page_build import PageBuild
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+b = PageBuild(ROOT, 40)
+
+b.heading([112,64,548,170], "Chess Clock", fs=15)
+
+b.prose([116,370,1214,1550],
+ "So-called chess clocks are used in chess tournaments to make sure that the "
+ "players have the same amount of &ldquo;thinking time&rdquo; available in the "
+ "course of the tournament.<br><br>"
+ "A chess clock consists of 2 separate stopwatches with which the time the "
+ "players need to make their moves is measured alternately. While the first "
+ "player is making their move, the first clock runs. When they have finished "
+ "their move a button is pressed, which switches their clock off and the "
+ "opponent's clock on. When the opponent's move is finished a button is pressed "
+ "again, which now stops the second clock and starts the first one again. In "
+ "tournaments a maximum time can be laid down that is available to each player "
+ "as &ldquo;thinking time&rdquo;. The player who reaches their maximum time "
+ "first (without checkmating the opponent) has then lost the game.<br><br>"
+ "Such a chess clock can also be programmed with MICROTRONIC and used for home "
+ "tournaments.", fs=10.4)
+
+b.heading([1246,364,1784,438], "Function description:", fs=12.6)
+
+b.prose([1248,450,2352,2200],
+ "After HALT &ndash; NEXT &ndash; 00 the program is entered as per the table. "
+ "Then the two push-buttons (G and H) and the piezo buzzer are connected as "
+ "shown in the illustration. A connection from input 4 to Takt/Clock must also "
+ "be made.<br><br>"
+ "Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>"
+ "The display shows: 0000. We can now enter a 4-digit maximum time, e.g. 40 "
+ "minutes, 00 seconds (entry: 4000). The two left-hand display places show the "
+ "minutes, the two right-hand places the seconds. If a mistake is made during "
+ "entry it can be cleared again by pressing key B.<br><br>"
+ "Important: the seconds entered must on no account be greater than 59, as "
+ "otherwise correct operation of the program is not guaranteed. The maximum time "
+ "is 99 minutes and 59 seconds.<br><br>"
+ "As soon as key A is pressed, the time starts to run for the first player. They "
+ "can now make their move and then press the red button H (for about one "
+ "second). Their time is stopped and the opponent's time starts to run, until "
+ "the opponent presses button G (for about one second), which switches the first "
+ "player's clock on again. The display shows how much time each player still has "
+ "available.<br><br>"
+ "As soon as one of the two players has used up the maximum time entered, the "
+ "piezo buzzer sounds. The display shows either 1E XXX (X = time) if the first "
+ "player, or 2E XXX if the second player has reached the maximum time. Pressing "
+ "any number key restarts the program.", fs=10.4)
+b.write()

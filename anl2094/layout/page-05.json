@@ -1,0 +1,101 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [],
+  "raw_blocks": [
+    {
+      "bbox": [
+        1009,
+        1945,
+        1506,
+        2004
+      ],
+      "text": "Copyright 1983 by BUSCH GmbH + Co. KG, Viernheim",
+      "lines": [
+        [
+          1132,
+          1945,
+          1384,
+          1974
+        ],
+        [
+          1009,
+          1978,
+          1506,
+          2004
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1088,
+        2043,
+        1423,
+        2066
+      ],
+      "text": "Alle Rechte vorbehalten",
+      "lines": [
+        [
+          1088,
+          2043,
+          1423,
+          2066
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1083,
+        2108,
+        1428,
+        2167
+      ],
+      "text": "Grafik Atelier Wuthe, Weinheim",
+      "lines": [
+        [
+          1215,
+          2108,
+          1298,
+          2131
+        ],
+        [
+          1083,
+          2141,
+          1428,
+          2167
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1099,
+        2206,
+        1413,
+        2260
+      ],
+      "text": "Printed in W.-Germany 12/84",
+      "lines": [
+        [
+          1099,
+          2206,
+          1413,
+          2234
+        ],
+        [
+          1218,
+          2238,
+          1293,
+          2260
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

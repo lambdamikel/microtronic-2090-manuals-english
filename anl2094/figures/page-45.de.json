@@ -1,0 +1,57 @@
+{
+ "heading0": {
+  "box": [
+   162,
+   366,
+   690,
+   430
+  ],
+  "conf": 89.9,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   150,
+   460,
+   1254,
+   888
+  ],
+  "conf": 94.2,
+  "words": 79,
+  "de": "Vor der Programmierung muß unbedingt der Programnm- Speicher durch Eingabe von HALT - PGM - 5 (Löschpro- gramm) gelöscht werden. Dann nach HALT - NEXT - 00 das Programm It, Tabelle eingeben, Zu beachten ist, daß in der Programm-Tabelle von Adresse 03 - 08 die mittlere Ziffer des Befehls-Codes als X dargestellt wurde, Anstelle von X wird jeweils eine der 6-stelligen Code-Zahlen eingeben. Soll der Code z.B. 195513 sein, dann sind von Adresse 03 bis 08 folgende Befehle einzugeben:"
+ },
+ "prose1": {
+  "box": [
+   138,
+   916,
+   692,
+   984
+  ],
+  "conf": 68.3,
+  "words": 3,
+  "de": "Adresse Befehl scode"
+ },
+ "prose2": {
+  "box": [
+   144,
+   1292,
+   1244,
+   2246
+  ],
+  "conf": 93.3,
+  "words": 133,
+  "de": "Nach der vollständigen Programm-Eingabe wird an den Buchsen GND und Ausgang 2 der Piezo-Summer ange- schlossen. Am Ausgang 1 kann entsprechend den Abbil- dungen das BUSCH Spezial-Relais 5964 oder BUSCH- Netzstrom-Schaltgerät 2087 angeschlossen werden. An diesen Relais sind elektronische bzw. elektrische Geräte anschließenbar, welche nur durch Eingabe des richtigen Codes in Betrieb genommen werden können. Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt 000000. Wird jetzt der vorher pro- gramnierte Code (in unserem Beispiel 195513) einge- geben, wird der Ausgang 1] mit dem dort angeschlos- senen Relais eingeschaltet. Soll dieser Ausgang wieder abgeschaltet werden, ist eine beliebige Zah- lentaste zu betätigen. Wird ein falscher Code einge- geben, ertönt der am Ausgang 2 angeschlossene Piezo-Summer, der sich nach kurzer Zeit automatisch wieder abschaltet. Anschließend kann ein neuer Fin- gabeversuch durchgeführt werden,"
+ },
+ "prose3": {
+  "box": [
+   138,
+   2250,
+   1240,
+   2334
+  ],
+  "conf": 93.9,
+  "words": 5,
+  "de": "Programmierer: Frank Simon, 6342 Haiger-Allendorf"
+ }
+}

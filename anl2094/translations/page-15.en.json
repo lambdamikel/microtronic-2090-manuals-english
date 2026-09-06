@@ -1,0 +1,34 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.3pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Number Guessing (High-Low Game)</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.1pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Example of a game in progress:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.9pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.9pt;line-height:1.06;text-align:justify\">Number guessing is one of the classic computer games. MICROTRONIC uses its random number generator to pick a number between 0 and 999. The aim is to find this hidden random number in as few guesses as possible. After each attempt the computer indicates whether the guessed number is larger or smaller than the computer's number. With logical thinking it is possible to find it in 5 to 6 guesses.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.9pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.9pt;line-height:1.06;text-align:justify\">After HALT &ndash; NEXT &ndash; 00 the program is entered according to the table.<br><br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display stays dark for a short time while the computer picks a random number between 0 and 999. It then shows: 000.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.9pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.9pt;line-height:1.06;text-align:justify\">If key C is pressed while a 6-digit display is showing, the display shows the number of guesses made so far. Pressing key C again brings back the 6-digit display and guessing can continue.<br><br>If the number cannot be found, the game can be broken off at any time by pressing key B. The display then shows BXXXB (XXX = the random number picked by the computer). Pressing key A shows the number of guesses made so far. Pressing key A again starts a new game.</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.9pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.9pt;line-height:1.06;text-align:justify\">Suppose 368 is the random number picked by the computer. For a first guess the number 560 is entered, then key A is pressed. The display shows: 560 000. The three left-hand positions show the number that is larger than the number sought; the three right-hand positions show the number that is smaller.<br><br>For a second guess the number 275 is entered, say, pressing key A after every entry. The display now shows: 560 275. The number sought must therefore lie between 560 and 275. If 355 is entered on the next attempt, the display shows 560 355.<br><br>With further guesses you feel your way closer and closer to the number the computer is keeping hidden. When the number is found, the display in our example shows E368E. Pressing key A again shows the number of guesses. Pressing key A once more starts the next game.</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Markus Jouaux, 6970 Lauda</div>"
+  }
+}

@@ -1,0 +1,90 @@
+{
+ "heading0": {
+  "box": [
+   396,
+   62,
+   1226,
+   240
+  ],
+  "conf": 62.5,
+  "words": 1,
+  "de": "Inhaltsverzeichnis"
+ },
+ "heading1": {
+  "box": [
+   396,
+   370,
+   818,
+   448
+  ],
+  "conf": 92.6,
+  "words": 2,
+  "de": "1. Computer-Spiele:"
+ },
+ "heading2": {
+  "box": [
+   392,
+   1426,
+   1206,
+   1506
+  ],
+  "conf": 91.7,
+  "words": 3,
+  "de": "2. Interessante Computer-Experimente:"
+ },
+ "heading3": {
+  "box": [
+   392,
+   1882,
+   1102,
+   1960
+  ],
+  "conf": 89.8,
+  "words": 5,
+  "de": "3. Für Mathematiker und Statistiker:"
+ },
+ "heading4": {
+  "box": [
+   1894,
+   382,
+   2036,
+   450
+  ],
+  "conf": 96.2,
+  "words": 1,
+  "de": "Seite"
+ },
+ "prose0": {
+  "box": [
+   390,
+   462,
+   2040,
+   1404
+  ],
+  "conf": 90.7,
+  "words": 96,
+  "de": "Zahlenlawine - elektronisches Gedachtnis-Training A Blockade - ein Strategie-Spiel | 6 Einarmiger Bandit - ein Glücksspie] 8 Rechen-Trainer - Computer kontrolliert Rechenaufgaben 11 Zahlen-Raten - klassisches Computer-Spiel 12 Hundert gewinnt - ein teuflisches Knobel-Spie] 14 MICROTRONIC-Roulette - ein Glücksspiel nach bekanntem Vorbild 16 Ton-Memory - ein Konzentrations-Spiel 19 Pull - ein Strategie-Spiel 23 Autorennen - interessantes Reaktions-Spiel 26 Ziffern ordnen - ein kniffeliges Denksport-Spiel 28 Wörter und Satze bilden - der lustige Computer 30 17 + 4 (Black Jack) - Glücksspiel gegen den Computer 32 Fallgrube - taktisches Glücksspiel 34 Schach-Uhr - Computer kontrolliert Denkzeiten 3/"
+ },
+ "prose1": {
+  "box": [
+   386,
+   1520,
+   2034,
+   1868
+  ],
+  "conf": 92.2,
+  "words": 39,
+  "de": "Code-Schloß - mikroelektkronische Alarm-Zentrale 40 Lichtschranken gesteuerte Zeit-Messung - wann wurde Licht eingeschaltet? 43 Computer-Uhr mit Glockenspiel, Datums-Anzeige und Weckfunktion 46 Weltzeit-Berechnung - wieviel Uhr ist es in Tokyo? 50 Akustischer Fernschalter - über's Telefon elektrische Geräte schalten 52"
+ },
+ "prose2": {
+  "box": [
+   388,
+   1962,
+   2036,
+   2320
+  ],
+  "conf": 90.2,
+  "words": 21,
+  "de": "Programm zum Zeichnen von Kreis-Diagrammen 54 Diagonalen Berechnungs-Programm für Vielecke > Divisions-Programm für beliebig viele Nachkommastellen 56 Primzahlen-Berechnung 58 Potenz-Rechnungen 60"
+ }
+}

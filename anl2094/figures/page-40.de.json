@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   112,
+   64,
+   548,
+   170
+  ],
+  "conf": 91.6,
+  "words": 1,
+  "de": "Schach-Uhr"
+ },
+ "heading1": {
+  "box": [
+   1246,
+   364,
+   1784,
+   438
+  ],
+  "conf": 90.8,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   116,
+   370,
+   1214,
+   1550
+  ],
+  "conf": 94.4,
+  "words": 150,
+  "de": "Bei Schach-Turnieren werden sogenannte Schach-Uhren eingesetzt, die gewährleisten sollen, daß den Spie- lern im Verlaufe des Turniers die gleiche \"Denkzeit\" zur Verfügung steht. Eine Schach-Uhr besteht aus 2 getrennten Stopp- Uhren, mit denen abwechselnd die Zeit gemessen wird, welche die Spieler benötigen, um ihre Spielzüge aus- zuführen, Solange der erste Spieler seinen Zug aus- führt, lauft die erste Uhr. Hat er seinen Zug be- endet, wird eine Taste betätigt, wodurch seine Uhr abgeschaltet und die Uhr des Gegenspielers einge- schaltet wird. Nach Beendigung des gegnerischen Spielzuges wird erneut eine Taste betätigt, wodurch jetzt die zweite Uhr angehalten und die erste wieder eingeschaltet wird. Bei Turnieren kann eine Höchst- zeit festgelegt werden, die jedem Spieler als \"Denk-Zeit\" zur Verfügung steht. Der Spieler, wel- cher zuerst seine Höchstzeit erreicht hat (ohne den Gegner mattzusetzen), hat dann das Spiel verloren. Eine solche Schach-Uhr laßt sich auch mit MICROTONIC programmieren und für Heim-Turniere einsetzen,"
+ },
+ "prose1": {
+  "box": [
+   1248,
+   450,
+   2352,
+   2200
+  ],
+  "conf": 94.1,
+  "words": 250,
+  "de": "Nach HALT = NEXT - 00 ist das Programm It. Tabelle einzugeben. Anschließend werden die beiden Taster (G und H) und der Piezo-Summer entsprechend der Abbil- dung angeschlossen. Außerdem muß eine Verbindung von Eingang 4 zu Takt/ Clock hergestellt werden. Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: 0000. Wir können jetzt eine 4-stellige Höchstzeit eingeben, z.B. 40 Minuten, 00 Sekunden (Eingabe: 4000). Die beiden linken Dis- play-Stellen zeigen die Minuten, die beiden rechten Stellen die Sekunden. Wird bei der Eingabe ein Feh- ler gemacht, kann durch Betätigung der Taste B wie- der gelöscht werden, Wichtig: Die Eingabe der Sekunden darf keinesfalls größer als 59 sein, da sonst eine einwandfreie Funk- tion des Programmes nicht gewährleistet ist. Die maximale Höchstzeit beträgt 99 Minuten und 59 Sekun- den, Sobald Taste A betätigt wird, beginnt der Zeit- Ablauf für den ersten Spieler. Dieser kann jetzt seinen Zug ausführen und betätigt anschließend (ca. eine Sekunde lang) den roten Taster H. Seine Zeit wird angehalten und der Zeitablauf des Gegenspielers beginnt, bis dieser den Taster G (ca. eine Sekunde) betätigt, wodurch wieder die Uhr des ersten Spielers eingeschaltet wird. Auf dem Display wird angezeigt, wieviel Zeit dem einzelnen Spieler noch zur Verfügung steht. Sobald einer der beiden Spieler die eingegebene Höchstzeit verbraucht hat, ertönt der Piezo-Summer. Das Display zeigt entweder 1E XXX (X = Zeitangabe) wenn der erste Spieler, oder: 2E XXX wenn der zweite Spieler die Höchstzeit erreicht hat. Durch Betätigung einer beliebigen Zahlentaste wird das Programm neu gestar- tet."
+ }
+}

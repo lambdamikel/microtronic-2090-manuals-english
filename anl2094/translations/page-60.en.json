@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Of interest to the programmer:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.4pt;line-height:1.06;text-align:justify\">The algorithm for the big division program is relatively simple: with a problem such as 787 : 63 the two numbers are divided in the working and storage registers by the division instruction. The working registers then hold the result before the decimal point, 12. The remainder, 31, stays in the storage registers.<br><br>The decimal places are calculated further by multiplying the remainder (31) by 10 and dividing the result, 310, by 63 again. The first decimal place, 4, moves into the working register; the remaining remainder (58) is again multiplied by 10 in the storage registers and divided by 63. That gives the second decimal place. This process is repeated automatically until the program is broken off, so that any number of decimal places can be calculated.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Michael Stapfer, 8850 Donauw&ouml;rth</div>"
+  }
+}

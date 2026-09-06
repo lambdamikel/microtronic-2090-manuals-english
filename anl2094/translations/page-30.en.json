@@ -1,0 +1,38 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">For experts who would like to shorten the reaction time from two seconds to one, the instruction code 527 at address 15 can be changed to 517 in the program. Entry: HALT &ndash; NEXT &ndash; 15 &nbsp; 517 &ndash; NEXT. New program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>Besides fast reactions, a little luck will now also be needed for an accident-free car race.<br><br>For fast reactions it is a good idea to cover the computer's keypad with the white keypad mask (see the accessories enclosed) and to label it as shown below:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">3 left</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">2 left</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">1 left</div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">3 right</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">2 right</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">1 right</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">straight</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: K.-T. Eggert, 2117 Tostedt</div>"
+  }
+}

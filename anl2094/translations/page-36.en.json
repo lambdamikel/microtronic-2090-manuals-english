@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">With games of chance of this kind no special winning strategy can be programmed that would give the computer a better chance than us. MICROTRONIC has been programmed so that after every deal it checks whether it has already reached more than 16 points. In that case it draws no further card for itself. A &ldquo;feel&rdquo; for the game cannot be programmed into a computer. A person may well draw another card (although they already have 18 points) because they hope to reach exactly 21 that way, or may stop even though only 14 points have been reached.</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Johannes Freundorfer, 8354 Metten</div>"
+  }
+}

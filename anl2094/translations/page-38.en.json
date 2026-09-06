@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">End of game:</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The display shows: 66 F00 = all 3 pieces have fallen into a pitfall, none has reached the GOAL. New game start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>The display shows: 1000 (or 2000 or 3000) = one piece (or 2 or 3 pieces) has arrived safely at the GOAL. The game is over, no further playing pieces are available. New game start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Frank Simon, 6342 Haiger 6</div>"
+  }
+}

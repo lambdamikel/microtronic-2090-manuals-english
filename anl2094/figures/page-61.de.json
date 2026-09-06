@@ -1,0 +1,68 @@
+{
+ "heading0": {
+  "box": [
+   156,
+   82,
+   1144,
+   258
+  ],
+  "conf": 94.4,
+  "words": 3,
+  "de": "Für Mathematiker: Primzahlen-Berechnung"
+ },
+ "heading1": {
+  "box": [
+   156,
+   1770,
+   774,
+   1834
+  ],
+  "conf": 91.6,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   156,
+   392,
+   1246,
+   1768
+  ],
+  "conf": 92.1,
+  "words": 199,
+  "de": "Die Defination von Primzahlen wird im \"Guinness - Buch der Rekorde\" wie folgt beschrieben: Unter Primzahlen versteht man alle ganzen Zahlen (mit Ausnmahme von 1), die nur durch sich selbst bzw. 1 teilbar sind, z.B. 2, 3, 5, 7, oder 11, Die kleinste Primzahl ist also 2, die größte bekann- te Primzahl (eine Zahl mit 13395 Stellen) ist 244497 _], Sie wurde am 8. April 1979 als höchste Primzahl gemeldet, nachdem Harry Nelson (47) und David Slowinski (25) zwei Monate lang mit Hilfe eines Cray-One-Computers der Universitat von Kali- fornien (im Lawrence Livermore Laboratorium) an die- ser Berechnung gearbeitet hatten. Primzahlen spielen in der Mathematik eine große Rolle. Die Primzahlen-Berechnung wird auch in der Computer-Technik häufig für sogenannte \"Benchmark\" - Programme verwendet. Mit Benchmark-Programnen kann man die Rechengeschwindigkeit verschiedener Com- puter-Typen oder auch unterschiedlicher Pro- grammier-Sprachen vergleichen. Man laßt z.B. einen Computer nacheinander die ersten eintausend Prim- zahlen berechnen und mißt die Zeit, die hierfür be- notigt wird. Werden diese Berechnungen mit ver- schiedenen Computern durchgeführt, erhält man einen sehr guten Vergleich über deren Arbeitsgeschwindig- keit. Mit dem folgenden Programm können alle Primzahlen zwischen O0 und 99.999 berechnet bzw. bestimmte Zah- len überpruft werden, ob sie eine Primzahl sind."
+ },
+ "prose1": {
+  "box": [
+   1280,
+   392,
+   2388,
+   1378
+  ],
+  "conf": 93.2,
+  "words": 139,
+  "de": "C wird die nächste Primzahl berechnet (2, 3,5 usw.). Der Piezo-Summer kann mit Taste D abgestellt werde. Mit Taste A wird die Anzeige wieder auf O gesetzt. wird anschließend Taste B betätigt, kann ein belie- biger Zahlenwert für die Primzahlen-Prüfung einge- geben werden. Beispiel: Nacheinander Tasten A und B betätigen, Dann die Zahl 500 eingeben. Taste C betätigen. Der Computer überprüft, ob die eingegebene Zahl (500) eine Primzahl ist. Ware dies der Fall, wird die ein- gegebene Zahl wieder angezeigt. Da in unserem Bei- spiel die Zahl 500, keine Primzahl ist, wird die nächst höhere Primzahl (503) angezeigt. Anschließend kann wieder die Taste C betätigt werden für die Be- rechnung der nächsten Primzahl. Bei der Berechnung größerer Primzahlen kann die Rechenzeit u.U. mehrere Minuten betragen. Der Piezo-Sumner macht auf das ermittelte Ergebnis auf- merksam, (Summer mit Taste D abschalten)."
+ },
+ "prose2": {
+  "box": [
+   1282,
+   1386,
+   2386,
+   1496
+  ],
+  "conf": 88.9,
+  "words": 5,
+  "de": "Programmierer: Klaus Hallatschek, 9850 Neugablonz-Kaufbeuren"
+ },
+ "prose3": {
+  "box": [
+   158,
+   1846,
+   1242,
+   2342
+  ],
+  "conf": 93.9,
+  "words": 70,
+  "de": "Das Programm wird nach HALT - NEXT - 00 gemäß Tabelle sorgfaltig eingegeben. Anschließend am Aus- gang 1 und Buchse GND den Piezo-Summer anschließen, Programm-Start durch HALT - NEXT - 00 - RUN. Das Display zeigt: 00000. Wird Taste C betätigt, be- rechnet der Computer die erste Primzahl. Er beginnt automatisch mit 1 (obwohl dies eigentlich gar keine Primzahl ist). Die Ergebnisanzeige wird gleichzeitig mit Summerton bekanntgegeben, Nach jedem Tastendruck"
+ }
+}

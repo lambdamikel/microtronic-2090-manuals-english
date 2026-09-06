@@ -1,0 +1,158 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [],
+  "raw_blocks": [
+    {
+      "bbox": [
+        2138,
+        925,
+        2165,
+        980
+      ],
+      "text": "T",
+      "lines": [
+        [
+          2138,
+          925,
+          2165,
+          980
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1618,
+        850,
+        1698,
+        877
+      ],
+      "text": "j",
+      "lines": [
+        [
+          1618,
+          850,
+          1698,
+          877
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1647,
+        890,
+        1689,
+        1018
+      ],
+      "text": "Widerstand {R), AT7KD",
+      "lines": [
+        [
+          1647,
+          890,
+          1663,
+          1018
+        ],
+        [
+          1676,
+          926,
+          1689,
+          981
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1264,
+        1126,
+        1527,
+        1283
+      ],
+      "text": "ve",
+      "lines": [
+        [
+          1264,
+          1126,
+          1527,
+          1283
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1383,
+        1239,
+        1454,
+        1254
+      ],
+      "text": "Sitizium-",
+      "lines": [
+        [
+          1383,
+          1239,
+          1454,
+          1254
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1166,
+        1240,
+        1486,
+        1295
+      ],
+      "text": "Widers Transistor.\"",
+      "lines": [
+        [
+          1166,
+          1240,
+          1486,
+          1295
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        2008,
+        2112,
+        2201,
+        2128
+      ],
+      "text": "7 RUN HALT",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        1263,
+        2184,
+        2198,
+        2207
+      ],
+      "text": "@ Carry Flag Display C/CE PGM",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        553,
+        2179,
+        2223,
+        2258
+      ],
+      "text": "Überspielbuchsen/DIN Sockets Taster/Keys @ Zero-Flag Anzeige Ku N RN in BE |",
+      "lines": [],
+      "kind": "label"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.2pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Track 1</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.2pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Computer start</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.2pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Track 2</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:7.2pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Player start</div>"
+  }
+}

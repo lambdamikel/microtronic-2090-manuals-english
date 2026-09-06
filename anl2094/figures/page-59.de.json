@@ -1,0 +1,112 @@
+{
+ "heading0": {
+  "box": [
+   154,
+   70,
+   992,
+   214
+  ],
+  "conf": 94.1,
+  "words": 4,
+  "de": "Für Mathematiker: Ein Super-Divisions-Programm"
+ },
+ "heading1": {
+  "box": [
+   1290,
+   378,
+   1696,
+   460
+  ],
+  "conf": 96.2,
+  "words": 2,
+  "de": "Zweite Möglichkeit:"
+ },
+ "heading2": {
+  "box": [
+   1278,
+   1148,
+   1702,
+   1220
+  ],
+  "conf": 92.9,
+  "words": 2,
+  "de": "Dritte Möglichkeit:"
+ },
+ "heading3": {
+  "box": [
+   158,
+   1386,
+   654,
+   1452
+  ],
+  "conf": 96.4,
+  "words": 2,
+  "de": "Erste Möglichkeit:"
+ },
+ "heading4": {
+  "box": [
+   156,
+   904,
+   662,
+   972
+  ],
+  "conf": 91.6,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   150,
+   378,
+   1250,
+   862
+  ],
+  "conf": 91.3,
+  "words": 46,
+  "de": "Dieses große Divisions-Programm zeigt, wie z.B. MICROTRONIC mit einem einfachen Algorithmus auch komplizierte Berechnungen ausführen kann, z.B. Divisionsaufgaben mit beliebig vielen Nachkomma- stellen, Beispiel: 787 : 63 = 12,4920634920634920... Bei dieser Aufgabe wird MICROTRONIC solange Nachkomma- stellen berechnen und anzeigen, bis das Programm ab- gebrochen wird."
+ },
+ "prose1": {
+  "box": [
+   154,
+   992,
+   1240,
+   1372
+  ],
+  "conf": 90.9,
+  "words": 32,
+  "de": "Nach HALT - NEXT - 00 Programm gemäß Tabelle einge- geben. Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: AD. Der Computer bietet jetzt drei verschiedene Möglich- keiten an."
+ },
+ "prose2": {
+  "box": [
+   154,
+   1474,
+   1244,
+   2154
+  ],
+  "conf": 92.6,
+  "words": 101,
+  "de": "Berechnung von drei Nachkommastellen, wobei die letzte Stelle automatisch auf- oder abgerundet wird. Diese Möglichkeit wird mit Taste 1 angewählt. Das Display zeigt: 000. Jetzt wird der Divisor (maximal drei Stellen) eingegeben (z.B. 787). Die Eingabe wird durch Betätigung der Taste A abge- schlossen. Anschließend wird der Dividend (z.B. 63) eingegeben. Auch diese Eingabe muß durch Taste A ab- geschlossen werden. Der Computer berechnet jetzt die Division 787 : 63. Auf dem Display erscheint das Vorkomma-Ergebnis: 12, Durch Betätigung der Taste 0 werden die drei Nachkommastellen: 492 angezeigt. Das Gesamtergebnis lautet also: 12,49. Ein neuer Programmstart wird mit Taste 0 vorgenommen,"
+ },
+ "prose3": {
+  "box": [
+   1278,
+   1238,
+   2366,
+   2048
+  ],
+  "conf": 93.8,
+  "words": 71,
+  "de": "Berechnung beliebig vieler Nachkommastellen, wobei immer vier Stellen automatisch nacheinander ange- zeigt werden. Das Display zeigt: AO. Programmablauf mit Taste 3 anwählen. Nach Eingabe der Zahlen (Taste A nicht vergessen) wird zunächst das Ergebnis vor dem Komma angezeigt. Mit Taste 0 werden für kurze Zeit vier Nachkommastellen angezeigt. Automatisch folgen die nächsten vier Stellen usw. Das Programm wird durch HALT - NEXT - 00 - RUN abgebrochen und gleichzeitig neu gestartet."
+ },
+ "prose4": {
+  "box": [
+   1290,
+   468,
+   2380,
+   1128
+  ],
+  "conf": 91.9,
+  "words": 96,
+  "de": "Berechnung beliebig vieler Nachkommastellen. Es wer- den jeweils vier Stellen angezeigt. Durch Betätigung der Taste O0 folgen die nächsten vier Stellen, usw. Das Display zeigt: AO. Programmablauf mit Taste ? anwählen. Anschließend Divisor und Dividend ein- geben. (Beispiel 14 : 973 = Eingabe: 14 dann Taste A, anschließend Eingabe: 973 und nochmals Taste A). Das Display zeigt zunachst das Vorkomma-Ergebnis (0). Wird Taste 0 betätigt, werden die ersten vier Nachkommastellen angezeigt (0143). Nach jeder OÜ-Tastenbetätigung erscheinen die nächsten vier Stellen, Gesamtergebnis für dieses Beispiel: 0,01438848... Die Berechnung weiterer Nachkomma- stellen kann mit Taste F abgebrochen werden,"
+ }
+}

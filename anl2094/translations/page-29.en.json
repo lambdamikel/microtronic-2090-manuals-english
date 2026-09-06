@@ -1,0 +1,30 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Car Race</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The car race is an interesting reaction game. You have to try to dodge oncoming cars within a reaction time of two seconds (or, at the increased difficulty level, within one second). The road is represented by the four LEDs at the computer outputs and by four places of the display. Each LED, or each display place, corresponds to one lane. The lane occupied by your own car is marked on the display by a 1, the free lanes are marked by 000. Lit LEDs at the outputs mean that those lanes are occupied by oncoming vehicles, which change lane after every move (controlled by the computer's random generator). The player has to try to steer their car into a free lane.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">After HALT &ndash; NEXT &ndash; 00 the program is entered according to the table. Then &ldquo;input 4&rdquo; is connected to the socket &ldquo;Takt/Clock&rdquo;.<br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>The display shows, for example: 0100 = our vehicle (1) is in the second lane from the left. Individual LEDs light up at the outputs (oncoming vehicles). There are several ways of changing lane by pressing the appropriate key:<br><br>Key 1: the vehicle moves one lane to the left (the 1 on the display is shifted one place to the left).<br>Key 2: the vehicle stays in its lane (the display remains unchanged).<br>Key 3: the vehicle moves one lane to the right.<br>Key 5: the vehicle moves two lanes to the left.<br>Key 7: the vehicle moves two lanes to the right.<br>Key 9: the vehicle moves three lanes to the left.<br>Key B: the vehicle moves three lanes to the right.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The way the game works is made clear by the following example:</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.2pt;line-height:1.55;text-align:left\"><p style=\"margin:0;font-size:10.2pt;line-height:1.55;text-align:left\">2 LEDs are lit at the 4 outputs:<br>The display shows:</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">Lanes 2 and 3 are occupied by oncoming cars. Our car is in the second lane, that is, in a moment it will collide with an oncoming car. An immediate evasive manoeuvre is needed: either one lane to the left (press key 1) or two lanes to the right (press key 7). The pattern of lit LEDs at the outputs changes, and we have to dodge the oncoming vehicles with quick-reaction entries.<br><br>The game ends automatically if more than two seconds are needed to enter the evasive manoeuvre. The game also ends if we dodge into a lane in which a car is coming towards us, or if we move into a lane that does not exist (too far to the left or to the right). The end of the game is signalled by the flashing display, on which the kilometres driven (the number of successful evasive manoeuvres) then light up. A new game can be started by pressing key 0.<br><br>BUSCH MICROTRONIC wishes you a good trip.</p></div>"
+  }
+}
