@@ -7,6 +7,10 @@ the manual for Busch's 1981 4‑bit educational microcomputer kit. Both parts ar
 onto the original scanned pages, so the layout, figures, cartoons and program listings are
 preserved exactly as in the German original.
 
+Also included is the companion book **Computer Spiele** (*Computer Games*, Busch Nr. 2094) —
+25 games and experiments to program yourself on the Microtronic 2090, from Black Jack and
+Roulette to a chess clock, a code lock and a prime‑number benchmark.
+
 ## 📚 Read the manual
 
 | | |
@@ -15,6 +19,8 @@ preserved exactly as in the German original.
 | 🌐 **Part 1 — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/>** — read in your browser, with a clickable table of contents |
 | 📖 **Part 2 — PDF** | **[Busch_Microtronic_2090_Manual_Part2_EN.pdf](Busch_Microtronic_2090_Manual_Part2_EN.pdf)** — full 83‑page manual (Part 2), A4 |
 | 🌐 **Part 2 — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/part2.html>** — the large‑program collection, with a clickable table of contents |
+| 🎲 **Computer Games (2094) — PDF** | **[Busch_Microtronic_2094_Computer_Games_EN.pdf](Busch_Microtronic_2094_Computer_Games_EN.pdf)** — the full *Computer Spiele* book, 66 sheets (printed pages 1–64) including the covers and the two loose game boards |
+| 🌐 **Computer Games (2094) — online** | **<https://lambdamikel.github.io/microtronic-2090-manuals-english/computer-games.html>** — 25 games and experiments, with a clickable table of contents |
 | 📑 **Program Tables / quick reference** | the bookmark insert (Busch Nr. 20904): **[PDF](Busch_Microtronic_2090_Program_Tables_EN.pdf)** · **[HTML](https://lambdamikel.github.io/microtronic-2090-manuals-english/program-tables.html)** — instruction set, function keys, number‑system conversion tables |
 
 ## Copyright & permission
@@ -58,6 +64,18 @@ It was done in batches of eight sheets across several sessions, with Michael rev
 batch and requesting fixes (column breaks, alignment nudges, cover wording) that were folded
 back in. The same `tools/` are included here so the whole manual can be re‑rendered from the
 scans + translation JSON.
+
+The *Computer Spiele* book (2094) was translated the same way, by **Claude Opus 5**, and
+added a few problems of its own. Its scans were skewed, so every sheet is deskewed by a
+projection‑profile search before anything else happens; Michael hand‑marked each text block
+with an interactive tool, which lifts OCR accuracy on these mixed prose‑and‑hex‑table pages
+from roughly 60 % to over 90 %. Game‑board artwork is translated in place — the word ZIEL is
+replaced letter by letter with GOAL inside the grid squares, a flow chart is relabelled
+without disturbing its boxes and arrows, and a vertical axis caption is re‑set bottom‑to‑top.
+The red covers needed masks painted in the page colour sampled from the scan rather than the
+usual white. Four checkers guard the result: overflow (English overrunning its box), graphics
+(a mask eating a figure), residue (German surviving just outside a mask) and coverage (a
+marked block that never got a translation).
 
 The pipeline (in `anl2090-1/tools/`):
 

@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   166,
+   84,
+   340,
+   166
+  ],
+  "conf": 96.4,
+  "words": 1,
+  "de": "Wichtig:"
+ },
+ "heading1": {
+  "box": [
+   164,
+   218,
+   1210,
+   280
+  ],
+  "conf": 95.0,
+  "words": 6,
+  "de": "Der Computer hat eine eingebaute Mogelkontrolle!"
+ },
+ "prose0": {
+  "box": [
+   160,
+   306,
+   1252,
+   1282
+  ],
+  "conf": 93.0,
+  "words": 109,
+  "de": "Wenn wir z.B. mit einer unserer Figuren rückwärts ziehen, wird das Spiel sofort abgebrochen und das Display zeigt: FOl. Hier muß durch HALT - NEXT - 00 - RUN ein neuer Programm-Start vorgenommen werden, Außerdem sollten wir unbedingt bei der Eingabe neuer Spielpositionen beachten, daß pro Zug immer nur eine der drei Figuren-Positionen verändert werden darf. Zeigt das Display z.B. 496 und wir wollen mit dem Spielstein von Feld 9 auf Feld B ziehen, müssen wir 4B6 eingeben. Würden wir z.B. B46 eingeben, hatten sich 2 Figuren-Positionen verändert und der Computer würde das Spiel ebenfalls abbrechen. (Dis- un FOl = neuer Programm-Start: HALT - NEXT - 00 - RUN."
+ },
+ "prose1": {
+  "box": [
+   152,
+   2246,
+   1232,
+   2334
+  ],
+  "conf": 96.2,
+  "words": 6,
+  "de": "Programmierer: Markus Baumann, 6660 Zweibrücken 16"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "heading0": {
+  "box": [
+   138,
+   68,
+   592,
+   220
+  ],
+  "conf": 91.8,
+  "words": 1,
+  "de": "Code-Schloß"
+ },
+ "prose0": {
+  "box": [
+   148,
+   378,
+   1240,
+   804
+  ],
+  "conf": 93.7,
+  "words": 66,
+  "de": "Code-Schlösser werden schon seit Jahrzehnten einge- setzt, um z.B. Tresore, Bankschließfächer oder Kof- fer zu sichern. Die Funktion dieser Code-Schlösser wurde früher durch eine komplizierte Mechanik be- werkstelligt, Seit einigen Jahren gibt es auch elek- tronische Code-Schlösser, die einige wesentliche Vorteile haben: Sie arbeiten z.B. völlig gerauschlos und elektronische Code-Schlösser können direkt mit einer Alarmanlage verbunden werden, um z.B. bei einer falschen Code-Eingabe einen Alarm auszulösen."
+ },
+ "prose1": {
+  "box": [
+   1270,
+   378,
+   2356,
+   798
+  ],
+  "conf": 91.9,
+  "words": 44,
+  "de": "MICROTRONIC kann durch das folgende Programm zu einem Code-Schloß mit Alarmauslosung progranmiert werden. Durch Eingabe eines 6-stelligen Zahlen-Codes ist z.B. die Inbetriebnahme am Computer ange- schlossener elektrischer oder elektronischer Geräte nur demjenigen möglich, der den Code kennt, Bei falscher Code-Eingabe wird ein Alarm ausgelöst."
+ }
+}

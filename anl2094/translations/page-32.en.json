@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The correct order has been found. The piezo buzzer sounds for a short time. For the example above the display then shows: 0004, that is, 4 swap attempts were needed to find the correct number sequence. Pressing any number key restarts the program.<br><br>If key F is pressed during play (instead of 0, 1 or 2), the number of swap attempts needed so far is displayed. Pressing key F again brings back the number sequence and the game can be continued.</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Markus Jouaux, 6970 Lauda</div>"
+  }
+}

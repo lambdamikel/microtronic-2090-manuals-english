@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">(Fig. El. Studio 2060/65 built into the MICROTRONIC housing)</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">To do this the instruction at address 10 has to be changed (F02 to F1D).<br><br>Entry: HALT &ndash; NEXT &ndash; 10 &nbsp; F1D &ndash; NEXT.<br><br>New program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>In addition to playing the tone, the display now also shows the corresponding key to be pressed.</p></div>"
+  }
+}

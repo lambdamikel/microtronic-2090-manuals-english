@@ -1,0 +1,79 @@
+{
+ "heading0": {
+  "box": [
+   156,
+   76,
+   1076,
+   206
+  ],
+  "conf": 91.9,
+  "words": 2,
+  "de": "Akustische Computer-Fernschaltung"
+ },
+ "heading1": {
+  "box": [
+   1282,
+   382,
+   1484,
+   456
+  ],
+  "conf": 96.1,
+  "words": 1,
+  "de": "Wichtig!"
+ },
+ "heading2": {
+  "box": [
+   154,
+   826,
+   798,
+   914
+  ],
+  "conf": 89.0,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   152,
+   386,
+   1256,
+   810
+  ],
+  "conf": 91.6,
+  "words": 48,
+  "de": "Mit diesem Programm können \"akustisch-ferngesteuert\" elektrische Geräte ein- und ausgeschaltet werden. Durch eine elektronische Schaltung {(Lichtorgel- prinzip-Schaltung) werden Geräusche in low- (0) und high- (1) Signale umgewandelt. Der Computer wertet diese 0 und 1 Signale entsprechend aus, wodurch seine Ausgänge mit vorher bestimmbaren Geräuschen ein- und ausgeschaltet werden."
+ },
+ "prose1": {
+  "box": [
+   154,
+   924,
+   1216,
+   2212
+  ],
+  "conf": 91.7,
+  "words": 171,
+  "de": "Nach HALT - NEXT - 00 wird das Programm It. Tabell: eingegeben, Anschließend wird die elektronisch Schaltung (gemäß Aufbauplan) an den Buchsen Einganı l und GND des Computers angeschlossen. Die Schaltung muß mit dem Potentiometer so einge- regelt werden, daß die Glühbirne z.B. durch Hände- klatschen oder Telefonklingeln eingeschaltet wire und nach kurzer Zeit wieder ausgeht. Programm-Start: HALT - NEXT - 00 - RUN, Das Display zeigt 0. Der Computer erwartet die Ein- gabe, nach wieviel Geräuschen (Händeklatschen Telefonklingeln o.ä.) seine Ausgänge ein- oder aus: geschaltet werden sollen. Es ist jede beliebige Eingabe-Zahl zwischen 1 und 9 möglich oder die Buch- staben A = 10, B = 11,C=12,D=13, E=14 F= 15). Beispiel: Es wird die Zahl 4 (für vier Geräusch- Intervalle) eingegeben. Das Display wird dunkel. Die Computer-Ausgänge können jetzt durch viermaliges Handeklatschen eingeschaltet werden. Es ist jedoch darauf zu achten, daß zwischen jedem Händeklatscher eine kurze Pause eingelegt wird, bis sich die Glüh- birne (der Schaltung) wieder ausgeschaltet hat. Ir gleicher Weise (viermaliges Händeklatschen) könner die Computer-Ausgäange auch abgeschaltet werden,"
+ },
+ "prose2": {
+  "box": [
+   1278,
+   2230,
+   2260,
+   2330
+  ],
+  "conf": 94.7,
+  "words": 5,
+  "de": "Programmierer: Peter Polzer, 7000 Stuttgart"
+ },
+ "prose3": {
+  "box": [
+   1290,
+   464,
+   2372,
+   2070
+  ],
+  "conf": 94.6,
+  "words": 236,
+  "de": "Das Programm besitzt einige Besonderheiten, damit die Schaltvorgänge nicht von Unbefugten durchgeführt werden können, In unserem Beispiel wurde eingegeben, daß der Schaltvorgang durch vier Geräusche ausgelöst wird. Der Computer zahlt intern die Geräusche mit (die über die Lichtorgelprinzip-Schaltung regi- striert werden). Voraussetzung ist es jedoch, daß die Geräusch-Intervalle ohne längere Pausen vorge- nommen werden, Ergibt sich z.B. zwischen dem zweiten und dritten Händeklatschen eine Pause von mehr als 3 Sekunden, nimmt der Computer an, daß die Geräusch- Eingabe abgebrochen wurde. Nach einem Abbruch werden die folgenden Geräusche als neuer Start registriert, d.n., daß ein drittes und viertes Händeklatschen keine Schaltauslösung bewirkt. Hat der Computer die eingegebene Anzahl von Geräu- schen (in unserem Beispiel 4) registriert, werden seine Ausgänge nicht sofort ein- oder ausgeschaltet. Er wartet jetzt ca. fünf Sekunden und kontrolliert, ob in dieser Zeit weitere Geräusche empfangen werden. Kommt z.B. innerhalb dieser Fünf-Sekunden- Frist ein fünftes Händeklatschen, wird das Programm vom Computer abgebrochen. Zur Auslösung des Schalt- vorganges sind für dieses Beispiel 4 Geräusch- Intervalle erforderlich. Weniger (3) oder mehr (5) werden nicht akzeptiert. Durch diese Kontrollmöglichkeit, arbeitet das Pro- gramm z.B. als Telefonschalter absolut störungsfrei. Die elektronische Geräusch-Empfangs-Schaltung wird so aufgestellt, daß ein Telefonklingeln registriert wird. Beim Anwählen dieses Telefons muß man es so oft klingeln lassen, wie es dem Computer eingegeben wurde. Ruft ein Fremder an, kann er die Schaltung nur dann auslösen, wenn er durch Zufall die dem Computer eingegebene Geräuschzahl erreicht,"
+ }
+}

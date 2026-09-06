@@ -1,0 +1,26 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.0pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Number Avalanche</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div></div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.06;text-align:justify\">The game Number Avalanche is an electronic memory exercise. It demands and develops concentrated thinking.<br><br>Individual numbers or letters light up briefly on the computer display in random order. The player's task is to memorise the numbers or letters and repeat them, in the order the computer gave them, by entering them on the keypad. After each correct entry the computer briefly shows a further number. The sequence to be repeated grows ever longer; the process continues like an avalanche, up to a maximum of 14 numbers or letters entered in the correct order.<br><br>The computer records how many repetitions were made before the first mistake. Six to eight correct entries is already a good result. Anyone who can remember all 14 has an outstanding memory.<br><br>With several players, the winner is the one who achieves the highest entry score over the agreed number of rounds.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.06;text-align:justify\">After pressing HALT &ndash; NEXT &ndash; 00 the program is entered according to the program table. The piezo buzzer is then connected to the output 1 and GND sockets.<br><br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN<br><br>A number (0 &ndash; 9) or a letter (A &ndash; F) is shown briefly on the computer display. The number or letter must be repeated by pressing the corresponding key. A second number is shown immediately. Both numbers must now be repeated on the keypad in the correct order. The computer shows a third number. All three numbers must again be entered one after another in the correct order.<br><br>The game continues until a mistake is made during entry.<br><br>As soon as a number or letter is entered incorrectly, or in the wrong order, the computer responds with a continuous tone and the display shows how many numbers were entered in the correct order. Pressing any number key restarts the game.<br><br>If all 14 numbers are entered in the correct order, the computer produces a rapidly warbling &ldquo;tone of joy&rdquo;. The game is restarted by pressing any number key.</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Frank Gothe, 2210 Itzehoe</div>"
+  }
+}

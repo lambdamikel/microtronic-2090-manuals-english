@@ -1,0 +1,70 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [],
+  "raw_blocks": [
+    {
+      "bbox": [
+        1994,
+        582,
+        2303,
+        660
+      ],
+      "text": "Takl/Clock Uin GND 1Hz © oO O0",
+      "lines": [
+        [
+          1994,
+          582,
+          2303,
+          605
+        ],
+        [
+          2031,
+          611,
+          2288,
+          632
+        ],
+        [
+          2202,
+          639,
+          2287,
+          660
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        581,
+        1437,
+        2238,
+        1504
+      ],
+      "text": "0 1 2 3 Überspielbuchsen/DIN Sockets Taster/Keys @ Zero-Flag Anzeige BE 1) 4 ; [4:1 BE",
+      "lines": [],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        685,
+        1439,
+        1597,
+        1460
+      ],
+      "text": "1 2 ® Carry Flag Display",
+      "lines": [
+        [
+          685,
+          1439,
+          1597,
+          1460
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

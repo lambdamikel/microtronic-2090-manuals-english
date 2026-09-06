@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">With a slight change to the program the opposite case can also be monitored. By entering HALT &ndash; NEXT &ndash; 01 &nbsp; 109 &ndash; NEXT, the program is changed so that the time stops as soon as the photoresistor is darkened. In this way you can monitor whether and when the light was switched off in a lit room.<br><br>With these programs the exact time of sunrise or sunset could also be determined automatically, for example.<br><br>If a program does not work properly, check whether the potentiometer has been adjusted correctly. To do this enter HALT &ndash; NEXT &ndash; 0 &ndash; A &ndash; RUN, set the potentiometer (as described) and start the program.</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Holger Witt, 4006 Erkrath</div>"
+  }
+}

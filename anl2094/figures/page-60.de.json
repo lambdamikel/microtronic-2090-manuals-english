@@ -1,0 +1,35 @@
+{
+ "heading0": {
+  "box": [
+   122,
+   374,
+   930,
+   444
+  ],
+  "conf": 96.1,
+  "words": 4,
+  "de": "Das interessiert den Programmierer:"
+ },
+ "prose0": {
+  "box": [
+   122,
+   458,
+   1216,
+   1198
+  ],
+  "conf": 94.0,
+  "words": 116,
+  "de": "Der Algorithmus für das große Divisions-Programm ist relativ einfach: Bei einer Aufgabe z.B. 787 : 63 werden die beiden Zahlen in den Arbeits- und Speicher-Registern durch den Divisions-Befehl geteilt. Anschließend steht in den Arbeits-Registern das Vorkomma-Ergebnis 12, In den Speicher- Registern verbleibt der Rest 31. Die Nachkommastellen werden weiter berechnet, indem der Rest (31) mit 10 multipliziert und das Ergebnis 310 erneut durch 63 dividiert wird. Die erste Nachkomma- stelle 4 wandert in's Arbeits-Register, der verblei- bende Rest (58) wird abermals in den Speicher- Registern mit 10 multipliziert und durch 63 divi- diert. Damit ist die zweite Nachkommastelle gefun- den. Dieser Vorgang wird bis zum Programm-Abbruch automatisch wiederholt, wodurch beliebig viele Nach- kommastellen berechnet werden können."
+ },
+ "prose1": {
+  "box": [
+   118,
+   1210,
+   1216,
+   1314
+  ],
+  "conf": 92.9,
+  "words": 5,
+  "de": "Programmier: Michael Stapfer, 8850 Donauwörth"
+ }
+}

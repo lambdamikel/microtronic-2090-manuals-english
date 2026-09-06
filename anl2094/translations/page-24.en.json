@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">(Fig. El. Studio 2070)</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The connecting leads (1&ndash;4 and GND) run to the corresponding computer output sockets (1&ndash;4 and GND). The connections must not be swapped.<br><br>Since both the Studio Center 2070 and the computer have transfer sockets, the leads intended for the computer outputs can first be taken to the transfer-cable module. In that case the transfer-cable module is used on the computer as well, and the connections to the computer outputs are made from there. Care must then be taken to use the same numbering for the connections on both transfer-cable modules. The two units can now be linked to each other with a standard transfer cable.</p></div>"
+  }
+}

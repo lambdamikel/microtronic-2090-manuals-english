@@ -1,0 +1,68 @@
+{
+ "heading0": {
+  "box": [
+   186,
+   54,
+   688,
+   200
+  ],
+  "conf": 96.2,
+  "words": 2,
+  "de": "Hundert gewinnt"
+ },
+ "heading1": {
+  "box": [
+   1324,
+   358,
+   1960,
+   436
+  ],
+  "conf": 87.8,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   192,
+   360,
+   1274,
+   920
+  ],
+  "conf": 95.2,
+  "words": 39,
+  "de": "Hundert gewinnt ist ein geradezu teuflisches Kno- bel-Spiel. Zu einer beim Spielbeginn vom Computer ermittelten Zufallszahl wird abwechselnd vom Mit- spieler und vom Computer eine Zahl zwischen 1 und 10 addiert. Wer zuerst die Zahl 100 erreicht, hat gewonnen,"
+ },
+ "prose1": {
+  "box": [
+   1322,
+   448,
+   2408,
+   1290
+  ],
+  "conf": 93.0,
+  "words": 141,
+  "de": "Nach HALT - NEXT - 00 wird das Programm It. Tabelle sorgfältig eingegeben. Dann wird der Piezo-Summer an den Buchsen Ausgang 1 und GND angeschlossen. Danach Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: OXXAOO (XX = die vom Computer er- mittelte Zufalls-Start-zahl.) Soll der Computer das Spiel beginnen, wird die Zahl 0 eingegeben. (Im weiteren Spielverlauf ist Null- Eingabe nicht mehr erlaubt). Will der Spieler eine Zahl zur Startzahl addieren, wird eine Zahl zwischen ı und 10 eingegeben, Die Eingabe wird auf den beiden rechten Stellen des Displays angezeigt. Anschließend Taste A Detätigten. Der Computer addiert die eingegebene Zahl zur Startzahl und zeigt das Ergeb- nis auf den linken 3 Display-Stellen. Dann rechnet der Computer automatisch weiter und addiert seine Zahl zu diesem Ergebnis hinzu. Nach kurzer Rechen- zeit ertönt ein kurzer Ton und das Display zeigt:"
+ },
+ "prose2": {
+  "box": [
+   1314,
+   1310,
+   2412,
+   1570
+  ],
+  "conf": 83.9,
+  "words": 13,
+  "de": "OXXCKX Em. die der Computer zu seinen letzten Ergebnis hinzuaddiert hat. Neues Gesamtergebnis,"
+ },
+ "prose3": {
+  "box": [
+   1318,
+   1604,
+   2408,
+   2198
+  ],
+  "conf": 93.5,
+  "words": 72,
+  "de": "Jetzt gibt der Spieler wieder eine Zahl ein (nach jeder Eingabe Taste A bestätigen). Es ist unbedingt zu beachten, daß die Eingabe-Zahl zwischen 1 und 10 liegen muß, d.h., die Eingabe 0 oder einer größeren Zahl als 10 ist nicht erlaubt. Das Spiel ist beendet, sobald die Zahl 100 erreicht wird. Gewinnt der Computer zeigt das Display: C100C. Gewinnt der Spieler zeigt das Display: EIO00E. Neuer Spiel-Start durch Betätigung der Taste 0."
+ }
+}

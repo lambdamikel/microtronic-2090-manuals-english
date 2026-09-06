@@ -1,0 +1,22 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">We choose one of the betting options and press the corresponding keys. The display then shows the winning number according to the following scheme:</p></div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Example:</div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:'DejaVu Sans Mono',Courier,monospace;font-size:7.4pt;line-height:1.16;color:#111;white-space:pre\">217 0 1   means:\n &#9474;  &#9474; &#9474;\n &#9474;  &#9474; &#9660;  0 = odd number\n &#9474;  &#9474;     1 = even number\n &#9474;  &#9660;\n &#9474;      0 = black\n &#9474;      1 = red\n &#9660;\nLucky number (3 digits)</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The example above (217 0 1) would produce the following winnings:<br><br>217 wins 300 times the stake.<br>The hundreds digit (bet on the number 2) = 3 times the stake.<br>The tens digit (bet on the number 1) = 10 times the stake.<br>The units digit (bet on the number 7) = 5 times the stake.<br>Black (4th winning position: 0) = double the stake.<br>Odd (5th winning position: 1) = double the stake.<br><br>If key A is then pressed, the sum of money won appears, including the stake. A display of 00000 means that nothing was won and the stake was lost.<br><br>If key A is pressed again, the new account balance appears, that is, the total available for further games. On pressing key A once more the display shows 0000 again. The computer is waiting for your new stake: &ldquo;place your bets!&rdquo;<br><br>The game is ended automatically if more than 99,999 play marks have been won. In this case the display shows: EEEEE. The game is also ended if no money remains (display: E0000 and a continuous tone). In both cases a new game can be started by pressing any number key.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Frank Simon, 6342 Haiger 6</div>"
+  }
+}

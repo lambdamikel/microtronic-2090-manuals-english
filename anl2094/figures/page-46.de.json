@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   114,
+   54,
+   1106,
+   236
+  ],
+  "conf": 94.4,
+  "words": 3,
+  "de": "Lichtschranken gesteuerte Zeitmessung"
+ },
+ "heading1": {
+  "box": [
+   1256,
+   356,
+   1820,
+   430
+  ],
+  "conf": 90.7,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   132,
+   368,
+   1214,
+   1034
+  ],
+  "conf": 93.6,
+  "words": 57,
+  "de": "Zusätzlich erforderlich sind einige Bauelemente aus dem BUSCH- ElectronicStudio 2065 (oder 2070). Mit dem MICROTRONIC-Computer sind auch Problem- lösungen mit sehr kleinen Programmen möglich. Ein typischer Fall ist z.B. eine Raum-Überwachung. MICROTRONIC kann in Verbindung mit einer einfachen Lichtschranke und dem folgenden Programm fest- stellen, ob und wann die Beleuchtung in einem Raum ein- bzw. ausgeschaltet wurde."
+ },
+ "prose1": {
+  "box": [
+   1258,
+   446,
+   2342,
+   1850
+  ],
+  "conf": 93.8,
+  "words": 196,
+  "de": "Nach HALT - NEXT - 00 wird das kurze Progamm It. Tabelle eingegeben. Anschließend wird die kleine elektronische Schaltung (gemäß Abbildung) aufgebaut. Dann nach HALT - PGM - 3 die Uhrzeit 4-stellig eingeben (9 Uhr 30 = 0930). Vor dem Programm -Start muß der Fotowiderstand mit Hilfe des Potentiometers richtig justiert werden, Hierfür steht ein Hilfsprogramm zur Verfügung, wel- ches durch HALT - NEXT - 0 - A - RUN gestartet wird, Das Potentiometer wird so eingestellt, daß bei normaler Raumbeleuchtung die LED am Ausgang 1 leuch- tet. Bei verdunkeltem Raum (verdunkeltem Fotowider- stand) muß die LED am Ausgang 1 ausgehen, Jetzt wird der zu überwachende Raum verdunkelt und dass Programm durch HALT - NEXT - 00 = RUN gestartet. Das Display zeigt die laufende Uhrzeit. Sobald Licht eingeschaltet wird (der Fotowiderstand beleuchtet wird), bleibt die Uhrzeit auf dem Display stehen und man kann ablesen, wann das Licht eingeschaltet wurde. Durch Betätigung der Taste O0 wird das Pro- gramm (bei wieder abgedunkteltem Raum) fortgesetzt. Mit diesem Programm kann überwacht werden, ob und wann in einem Raum ein Licht eingeschaltet wurde. Die Uhrzeit bleibt auf dem Display auch dann ange- zeigt, wenn das Licht wieder abgeschaltet wird."
+ }
+}

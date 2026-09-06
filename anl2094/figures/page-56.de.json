@@ -1,0 +1,57 @@
+{
+ "heading0": {
+  "box": [
+   112,
+   1462,
+   1242,
+   1624
+  ],
+  "conf": 94.7,
+  "words": 8,
+  "de": "Zusätzlich erforderlich BUSCH-Electronic-Studio 2060 (oder 2065 oder 2070)."
+ },
+ "heading1": {
+  "box": [
+   106,
+   1924,
+   518,
+   1990
+  ],
+  "conf": 96.4,
+  "words": 2,
+  "de": "Wichtiger Hinweis!"
+ },
+ "heading2": {
+  "box": [
+   1304,
+   852,
+   1444,
+   966
+  ],
+  "conf": 90.7,
+  "words": 3,
+  "de": "Eingang Input 1"
+ },
+ "heading3": {
+  "box": [
+   1300,
+   770,
+   1430,
+   836
+  ],
+  "conf": 91.1,
+  "words": 1,
+  "de": "GND"
+ },
+ "prose0": {
+  "box": [
+   106,
+   2002,
+   1224,
+   2504
+  ],
+  "conf": 93.0,
+  "words": 35,
+  "de": "Bei Telefon-Experimenten ist zu beachten, daß die Deutsche Bundespost Datenübertragungen über post- eigene Fernsprechleitungen grundsätzlich verbietet, es sei denn, daß ein entsprechender Antrag genehmigt wurde. Erprobungen sollten daher nur mit einer Haus- telefon-Anlage durchgeführt werden."
+ }
+}

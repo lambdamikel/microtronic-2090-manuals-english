@@ -1,0 +1,10 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:13.3pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Winning strategy for BLOCKADE</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:11pt;line-height:1.06;text-align:justify\">This section should only be read once the Blockade game has proved impossible to win despite repeated attempts.<br><br>Winning this game is actually quite simple: you must try to achieve the same number of empty squares between the computer's pieces and your own on both tracks.<br><br>After the program start, at the beginning of play, there are three empty squares between the pieces on track 2. With our first entry, 15, we achieve the necessary three empty squares between the pieces on track 1 as well. The computer now moves to square 2 on track 1, which means only two empty squares remain on track 1 while there are three on track 2. We can now either move our piece one square to the right on track 1, or one square to the left on track 2. In both cases the same number of empty squares between our pieces and the computer's is restored on both tracks.<br><br>The game can be continued in this way until victory. The important thing is that we consistently aim for the same number of empty squares between the pieces on both tracks.</p></div>"
+  }
+}

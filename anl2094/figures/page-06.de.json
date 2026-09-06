@@ -1,0 +1,35 @@
+{
+ "heading0": {
+  "box": [
+   106,
+   70,
+   1384,
+   194
+  ],
+  "conf": 96.5,
+  "words": 6,
+  "de": "Bevor Sie die ersten Programme ausprobieren!"
+ },
+ "prose0": {
+  "box": [
+   114,
+   370,
+   1194,
+   1944
+  ],
+  "conf": 91.2,
+  "words": 200,
+  "de": "Alle Programme sind speziell für das BUSCH- MICROTRONIC-Computersysten 2090 vorgesehen, Prin- zipielle Kenntnisse über die Funktionen des MICROTRONIC-Computers werden vorausgesetzt. Sie sollten daher das zum Computer-Zubehör gehörende An- leitungsbuch 1. Teil wenigstens bis Seite 22 durch- gearbeitet haben, Jedes Programm wurde mehrfach auf einwandfreie Funk- tion getestet. Sollte ein Programm dem jeweils be- schriebenen Funktionsablauf nicht entsprechen, haben Sie mit Sicherheit beim Programmieren einen Fehler (Zahlendreher o.ä.) gemacht. In einem solchen Fall soliten Sie nocheinmal zum Programm-Anfang zurückgehen. Erforderliche Tasten- betatigungen: HALT - NEXT - 00. Jetzt wird der erste Befehls-Code (Adresse 00) angezeigt. Immer wenn Sie die Next-Taste betätigen, wird die nächste Befehls- eingabe angezeigt und Sie können anhand der Pro- gramm-Tabelle prüfen, ob alle Befehls-Codes richtig eingegeben wurden. Bedenken Sie bitte, daß u.U. be- reits durch eine einzige falsche Befehlseingabe das Programm nicht richtig funktionieren wird. Nach der Überprüfung versuchen Sie bitte einen neuen Pro- gramm-Start: HALT - NEXT - OU = RUN. Durch Anschaffung des  MICROTRONIC-Cassetten- Interface 2095 können Sie die in den Computer einge- gebenen Programme auf einen Cassetten-Recorder oder Tonbandgerät überspielen. Auch die längsten Pro- gramme stehen Ihnen dann innerhalb weniger Minuten (ohne nochmalige Eingabe) spielbereit zur Verfügung. Sie können sich Ihre MICROTRONIC-SPIELIOTHEK selbst zusammenstellen."
+ },
+ "prose1": {
+  "box": [
+   1236,
+   370,
+   2328,
+   1340
+  ],
+  "conf": 91.1,
+  "words": 68,
+  "de": "Die in diesem Buch veröffentlichten Programme wurden von Teilnehmern des BUSCH-MICROTRONIC-Program- mier-Wettbewerbs 1983 entwickelt. Falls auch Sie eine gute Idee haben, sollten Sie uns Ihr Prograımn zur unverbindlichen Prüfung einsenden, Vielleicht wird auch Ihr Vorschlag in einem folgenden MICROTRUNIC-Buch veröffentlicht. Beachten Sie hier- für die im MICROTRONIC-Anleitungsbuch 2. Teil (Seite 77) enthaltenen Hinweise. Weiterhin viel Spaß beim Programmieren, Experimen- tieren und Spielend lernen, wie ein Computer funk- tioniert."
+ }
+}

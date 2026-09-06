@@ -1,0 +1,24 @@
+{
+ "prose0": {
+  "box": [
+   118,
+   366,
+   1220,
+   1378
+  ],
+  "conf": 93.7,
+  "words": 109,
+  "de": "Durch eine geringfügige Programm-Änderung kann auch der umgekehrte Fall überwacht werden. Durch Eingabe von HALT - NEXT - 01109 - NEXT, wird das Programm so geändert, daß die Uhrzeit stehen bleibt, sobald der Fotowiderstand verdunkelt wird. Auf diese Weise kann überwacht werden, ob und wann in einem beleuchteten Raum das Licht abgeschaltet wurde. | Mit diesen Programmen könnte z.B. auch automatisch die genaue Uhrzeit für Sonnenaufgang, bzw. Sonnen- untergang festgestellt werden. Falls ein Programm nicht einwandfrei funktioniert, ist zu überprüfen, ob das Potentiometer richtig jus- tiert wurde. Hierfür HALT - NEXT - 0 - A - RUN ein- geben und das Potentiometer (wie beschrieben) ein- stellen und Programm starten,"
+ },
+ "prose1": {
+  "box": [
+   116,
+   1772,
+   1062,
+   1854
+  ],
+  "conf": 94.8,
+  "words": 5,
+  "de": "Programmierer: Holger Witt, 4006 Erkrath"
+ }
+}

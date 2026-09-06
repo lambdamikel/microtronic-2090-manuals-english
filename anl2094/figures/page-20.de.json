@@ -1,0 +1,57 @@
+{
+ "prose0": {
+  "box": [
+   112,
+   62,
+   1196,
+   222
+  ],
+  "conf": 93.7,
+  "words": 21,
+  "de": "Wir wahlen eine der Setz-Moglichkeiten aus und betä- tigen die entsprechenden Tasten. Das Display zeigt anschließend die Gewinnzahl nach folgendem Schema:"
+ },
+ "prose1": {
+  "box": [
+   104,
+   240,
+   358,
+   314
+  ],
+  "conf": 95.9,
+  "words": 1,
+  "de": "Beispiel:"
+ },
+ "prose2": {
+  "box": [
+   558,
+   232,
+   1182,
+   558
+  ],
+  "conf": 84.3,
+  "words": 20,
+  "de": "217 0 : bedeutet: [5 = Ungerade Zahl 1 = Gerade Zahl 0 = Schwarz 1 = Rot Glückszahl (3-stellig)"
+ },
+ "prose3": {
+  "box": [
+   112,
+   566,
+   1202,
+   2224
+  ],
+  "conf": 92.6,
+  "words": 172,
+  "de": "Obiges Beispiel (217 O0 1) würde folgende Gewinn- Möglichkeiten erbringen: 217 gewinnt 300-fachen Einsatz. Die 100er-Stelle (gesetzt auf Zahl 2) = 3-facher Einsatz. Die 10der-Stelle (gesetzt auf Zahl 1) = 10-facher Einsatz. Die ler-Stelle (gesetzt auf Zahl 7) = 5-facher Ein- Satz. Schwarz (4. Gewinnstelle: O0). = doppelter Einsatz, Ungerade (5. Gewinnstelle: 1) = doppelter Einsatz. wird anschließend Taste A betätigt, erscheint der Geldbetrag, welcher gewonnen wurde (inkl. Einsatz). Die Display-Anzeige: 00000 bedeutet, daß nichts ge- wonnen sondern der Einsatz verloren wurde. Wird nochmals Taste A betätigt, erscheint der neue Kontostand, also die Gesamtsumme, die für weitere Spiele zur Verfügung steht. Bei abermaliger Tasten- betäatigung A zeigt das Display wieder: 0000. Der Computer erwartet Ihren neuen Einsatz: \"Bitte das Spiel zu machen!\" Das Spiel wird automatisch abgebrochen, wenn mehr als 99.999.-- Spielmark gewonnen wurden, In diesem Falle zeigt das Display: EEEEE. Das Spiel wird eben- falls abgebrochen, wenn kein Geld mehr zur Verfügung steht (Display: EO0000 und Dauerton). In beiden Fäl- len ist ein neuer Spielstart durch Betätigung einer beliebigen Zahlentaste möglich."
+ },
+ "prose4": {
+  "box": [
+   100,
+   2232,
+   1204,
+   2306
+  ],
+  "conf": 83.5,
+  "words": 6,
+  "de": "Programmierer: Frank Simon, 6342 Haiger 6"
+ }
+}

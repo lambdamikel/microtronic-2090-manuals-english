@@ -1,0 +1,24 @@
+{
+ "prose0": {
+  "box": [
+   158,
+   54,
+   1218,
+   618
+  ],
+  "conf": 92.4,
+  "words": 86,
+  "de": "Die richtige Reihenfolge ist gefunden. Der Piezo- Summer ertönt für eine kurze Zeit. Anschließend er- scheint für obiges Beispiel auf dem Display: 0004, d.n., daß 4 Tauschversuche notwendig waren, um die richtige Zahlenfolge zu finden, Durch Betätigung ei- ner beliebigen Zahlentaste wird das Programm neu ge- startet. Wird während des Spielverlaufes die Taste F (anstel- ie von 0, 1 oder 2) betätigt, wird die Anzahl der bisher benötigten Tauschversuche angezeigt. Nochma- lige Betätigung der Taste F bringt wieder die Zah- lenreihe, das Spiel kann fortgesetzt werden,"
+ },
+ "prose1": {
+  "box": [
+   152,
+   630,
+   1218,
+   732
+  ],
+  "conf": 93.9,
+  "words": 5,
+  "de": "Programmierer: Markus Jouaux, 6970 Lauda"
+ }
+}

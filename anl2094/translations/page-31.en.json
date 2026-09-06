@@ -1,0 +1,78 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Sorting Digits</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">A tricky brain-teaser. The numbers 1 &ndash; 6 appear on the computer display in random order (e.g. 264315). These digits have to be sorted into ascending order (123456) by means of prescribed swap operations. The swap operations are laid down in such a way that it is not possible simply to exchange two digits with each other; instead four numbers are swapped in every swap operation. The aim of the game is to reach ascending order with as few swap operations as possible.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">First the program is entered after HALT &ndash; NEXT &ndash; 00 according to the program table. Then the piezo buzzer is connected to output 1 and socket GND.<br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN. The display shows: 000.<br><br>The computer has now stored the number sequence 123456 and wants to know how often these numbers are to be swapped among themselves. Entering a small number (e.g. 2) gives an easier puzzle. Entering a larger number (e.g. 8) increases the difficulty. Maximum entry = 999. To begin with it is advisable to start with a small number, e.g. 2. This entry has to be completed by pressing key A.<br><br>After a short time the six numbers appear on the display in a jumbled order (e.g. 251346). Three different swap operations are available (which may also be used in alternation) to turn the jumbled sequence into an ascending one (123456). With badly jumbled sequences, &ldquo;sorting digits&rdquo; becomes a real brain-teaser.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:left\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:left\">The following swap operations are available:</p></div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">1st swap operation = press key 0</div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The 1st (left-hand) number of the display is exchanged with the 4th number (half right), and at the same time the 2nd number is exchanged with the 3rd. (Example: 251346 becomes 315246.)</p></div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">2nd swap operation = press key 1</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The 2nd number is exchanged with the 5th and at the same time the 3rd number with the 4th. (Example: 251346 becomes 243156.)</p></div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">3rd swap operation = press key 2</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The 3rd number is exchanged with the 6th and the 4th number with the 5th. (Example: 251346 becomes 256431.)<br><br>A game in progress and the use of the swap operations are demonstrated by the following example:<br><br>After the program start the display shows: 000. Enter e.g. 4, then press key A. The computer now swaps the number sequence 123456 four times, in a random order of the swap operations described. The display now shows, for example: 264315</p></div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;line-height:1.25;text-align:left\"><p style=\"margin:0;font-size:10.4pt;line-height:1.25;text-align:left\">1st swap attempt<br>entry e.g. key 0</p></div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;line-height:1.25;text-align:left\"><p style=\"margin:0;font-size:10.4pt;line-height:1.25;text-align:left\">2nd swap attempt<br>entry e.g. key 2</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;line-height:1.25;text-align:left\"><p style=\"margin:0;font-size:10.4pt;line-height:1.25;text-align:left\">3rd swap attempt<br>entry e.g. key 0</p></div>"
+  },
+  "14": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;line-height:1.25;text-align:left\"><p style=\"margin:0;font-size:10.4pt;line-height:1.25;text-align:left\">4th swap attempt<br>entry e.g. key 1</p></div>"
+  },
+  "15": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">gives 346215</div>"
+  },
+  "16": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">gives 345126</div>"
+  },
+  "17": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">gives 154326</div>"
+  },
+  "18": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.4pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">gives 123456</div>"
+  }
+}

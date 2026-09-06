@@ -1,0 +1,14 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:15pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Code Lock</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">Code locks have been used for decades to secure safes, bank deposit boxes or suitcases, for example. The action of these code locks used to be achieved by complicated mechanics. For some years now there have also been electronic code locks, which have several important advantages: they work completely silently, for instance, and electronic code locks can be connected directly to an alarm system, so as to set off an alarm if a wrong code is entered, for example.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">With the following program MICROTRONIC can be turned into a code lock with alarm triggering. By entering a 6-digit numerical code, electrical or electronic devices connected to the computer can be put into operation only by someone who knows the code. If a wrong code is entered, an alarm is set off.</p></div>"
+  }
+}

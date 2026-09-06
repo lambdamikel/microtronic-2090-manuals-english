@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   100,
+   1742,
+   722,
+   1818
+  ],
+  "conf": 90.4,
+  "words": 1,
+  "de": "Spiel-Abbruch:"
+ },
+ "prose0": {
+  "box": [
+   100,
+   56,
+   1202,
+   1716
+  ],
+  "conf": 94.2,
+  "words": 225,
+  "de": "Jetzt werden 6 beliebige Zahlen eingegeben, die der Computer für einen zufälligen Startwert benutzt. Nach Eingabe der 6. Ziffer erscheint auf dem Display kurzzeitig die Zahl 1 (oder 2). Entsprechend dieser Anzeige darf der erste oder der zweite Spieler be- ginnen, Auf drei Stellen des Displays werden jetzt in sehr schneller Folge Zahlen und Buchstaben angezeigt. Jede der drei Stellen arbeitet unabhängig und \"zählt\" von O0 - 9, danach von A - F und beginnt wie- der bei 0. Diesen \"Zählvorgang\" kann der aufgerufene Spieler durch Betätigung der roten Taster wie folgt beenden: Taster G: Die linke Displaystelle wird gestoppt. Taster H: Die mittlere Displaystelle wird gestoppt. Taster G + H gleichzeitig: Rechte Stelle wird ge- stoppt. Sobald alle 3 Stellen gestoppt sind, wird vom Com- puter die erreichte Punktzahl ermittelt und ange- zeigt. Die Punktzahl wird vom Computer nach folgen- den Gesichtspunkten festgestellt: Für jedes F auf der Anzeige gibt es 5 Punkte. Für 2 gleiche Zahlen gibt es 10 Punkte, Für 3 gleiche Zahlen gibt es 20 Punkte. Für eine steigende oder fallende Zahlenreihe (z.B. 4 56 oder 4 3 2) gibt es 40 Punkte, Nach kurzzeitiger Anzeige des Punktestandes er- Scheint auf dem Display die Nummer des Spielers, der als nächster an der Reihe ist (1 oder 2). Das neue Spiel beginnt automatisch und der nächste Spieler kann{wie beschrieben) sein Glück versuchen,"
+ },
+ "prose1": {
+  "box": [
+   102,
+   1832,
+   1192,
+   2198
+  ],
+  "conf": 93.0,
+  "words": 50,
+  "de": "Werden während der Anzeige des Punktestandes eines Spielers die Taster G und H gleichzeitig betätigt, wird das Spiel abgebrochen, Der Computer zeigt die Gesantpunktzahl von Spieler 1 und nach Betätigung der Taste 0 die Gesamtpunktzahl von Spieler 2 an. Nach nochmaliger Betätigung der Taste O0 wird das Spiel neu gestartet."
+ },
+ "prose2": {
+  "box": [
+   100,
+   2218,
+   1190,
+   2308
+  ],
+  "conf": 95.1,
+  "words": 5,
+  "de": "Programmierer: Valentin Illich, 7750 Konstanz"
+ }
+}

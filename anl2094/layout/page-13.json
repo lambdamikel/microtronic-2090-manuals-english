@@ -1,0 +1,95 @@
+{
+  "page_size_px": [
+    2480,
+    3508
+  ],
+  "dpi": 300,
+  "px_per_mm": 11.80952380952381,
+  "text_blocks": [],
+  "raw_blocks": [
+    {
+      "bbox": [
+        193,
+        56,
+        1803,
+        219
+      ],
+      "text": "7 [ Adr.Befehl Mnemonic Ihdr.Befen] Mnemonic Adr.Befehl Mnemonic | m 1DB MOVI D 90 T2F SUBI 2,F co 558 ADDI 5,8",
+      "lines": [
+        [
+          193,
+          60,
+          1331,
+          93
+        ],
+        [
+          213,
+          56,
+          1802,
+          131
+        ],
+        [
+          756,
+          123,
+          1260,
+          164
+        ],
+        [
+          193,
+          108,
+          1803,
+          219
+        ]
+      ],
+      "kind": "label"
+    },
+    {
+      "bbox": [
+        202,
+        1958,
+        1229,
+        2194
+      ],
+      "text": "‚D 8A C8F GOTO 8F BA 05E MOV 55E 8B 8EF CMP E,5F BB 0O6F MOV 6,F 8C ESE BRZ 8E BC FO3 HXDZ 8D C8F GOTO 8F BD F3D DISP 3,D 8sE BCB CALL CB BE FFO KINO",
+      "lines": [
+        [
+          1191,
+          1958,
+          1229,
+          1991
+        ],
+        [
+          203,
+          1996,
+          1227,
+          2033
+        ],
+        [
+          202,
+          2038,
+          1227,
+          2074
+        ],
+        [
+          202,
+          2079,
+          1127,
+          2111
+        ],
+        [
+          202,
+          2121,
+          1228,
+          2159
+        ],
+        [
+          202,
+          2163,
+          1153,
+          2194
+        ]
+      ],
+      "kind": "label"
+    }
+  ]
+}

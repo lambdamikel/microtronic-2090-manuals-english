@@ -1,0 +1,58 @@
+{
+  "0": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:14.5pt;font-weight:700;text-align:left;line-height:1.15\">For statisticians: drawing pie charts</div>"
+  },
+  "1": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">So-called &ldquo;pie charts&rdquo; are often used for the graphical presentation of tables or statistics. For this it is necessary to divide the percentage shares into &ldquo;slices&rdquo; of the right size (see illustration). The following program is a valuable aid in preparing pie charts for drawing. From the percentage values entered, the computer works out the angles in degrees for the corresponding sectors of the circle.</p></div>"
+  },
+  "2": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Function description:</div>"
+  },
+  "3": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">After HALT &ndash; NEXT &ndash; 00 the program is entered according to the table.<br><br>Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN.<br><br>The display shows: 00.</p></div>"
+  },
+  "4": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:12.6pt;font-weight:700;white-space:nowrap;text-align:left;line-height:1.1\">Example of use:</div>"
+  },
+  "5": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">The proportions making up air are to be shown in a pie chart. Air consists of 78% nitrogen, 21% oxygen and 1% noble gases. These percentages have to be converted into angles in degrees.<br><br>We enter the first percentage, for nitrogen (78). Then press key A. The display shows: 2808 = 280.8 degrees. Press key A. Enter the second value (21) for oxygen, press key A, the display shows 756 = 75.6 degrees. Key A, then the last entry for noble gases (1). Key A once more &ndash; display result: 36 (3.6 degrees).<br><br>With the values in degrees calculated by the computer, a pie chart with the corresponding sectors can easily be laid out and drawn:</p></div>"
+  },
+  "6": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">78% nitrogen</div>"
+  },
+  "7": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">1% noble gas</div>"
+  },
+  "8": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">3.6&deg;</div>"
+  },
+  "9": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">21% oxygen</div>"
+  },
+  "10": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">75.6&deg;</div>"
+  },
+  "11": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.0pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">280.8&deg;</div>"
+  },
+  "12": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:10.6pt;line-height:1.06;text-align:justify\"><p style=\"margin:0;font-size:10.6pt;line-height:1.06;text-align:justify\">In this way any number of divisions of the circle can be made. All you have to make sure of is that all the values of the circle's contents add up to 100% (as in our example 78% + 21% + 1%).<br><br>The way the program works is simple: the percentage entered is multiplied by 3.6 and you get the result in degrees. The program demonstrates how an individually programmed computer can be used as an important aid for a wide variety of tasks.</p></div>"
+  },
+  "13": {
+    "de": "",
+    "en": "<div style=\"font-family:Helvetica,Arial,sans-serif;color:#111;font-size:11pt;font-weight:400;white-space:nowrap;text-align:left;line-height:1.1\">Programmer: Thorsten Lindner, 5600 Wuppertal 2</div>"
+  }
+}

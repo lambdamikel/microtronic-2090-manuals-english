@@ -1,0 +1,57 @@
+{
+ "heading0": {
+  "box": [
+   162,
+   72,
+   708,
+   186
+  ],
+  "conf": 92.2,
+  "words": 1,
+  "de": "Weltzeit-Berechnung"
+ },
+ "heading1": {
+  "box": [
+   1278,
+   382,
+   1808,
+   446
+  ],
+  "conf": 90.7,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   154,
+   382,
+   1236,
+   1372
+  ],
+  "conf": 94.8,
+  "words": 88,
+  "de": "Mit dem Programm Weltzeit-Berechnung kann die Uhr- zeit für jeden beliebigen Ort der Erde ausgerechnet werden. Hierfür muß lediglich bekannt sein, auf wel- chem Langengrad sich dieser Ort befindet. Die Erde ist in sogenannte Zeitzonen eingeteilt. Durch diese Zeitzonen wird erreicht, daß innerhalb einzelner Lander die gleiche Uhrzeit vorhanden ist. Andernfalls würde z.B. im Westen Deutschlands die Uhrzeit um mehrere Minuten von der Uhrzeit im Osten Deutschlands abweichen. Das Program Weltzeit- Berechnung berücksichtigt dieses Zeitzonen nicht, sondern berechnet die tatsächliche Uhrzeit (Stand der Sonne) für den entsprechenden Längengrad."
+ },
+ "prose1": {
+  "box": [
+   1280,
+   452,
+   2376,
+   1802
+  ],
+  "conf": 94.0,
+  "words": 168,
+  "de": "Nach HALT - NEXT - 00 wird das Programm entsprechend der Tabelle eingegeben. Anschließend wird der Ein- gang 4 mit der Buchse Takt/Clock verbunden. Nach HALT - PGM - 3 wird die mitteleuropäische Zeit (MEZ) eingegeben. Während der Sommerzeit muß zur MEZ 1 Stunde addiert werden, Programm-Start: HALT - NEXT - 00 - RUN. Das Display zeigt: 0000. Der Computer soll z.B. die Uhrzeit für Tokyo ausrechnen. Tokyo liegt auf dem 138. Längengrad (Eingabe: 138). Anschließend muß entweder die Taste O0 betätigt werden (für die Uhr- zeit einer Stadt, die im Osten liegt) oder Taste 1 (wenn die Stadt im Westen liegt). Da Tokyo östlich von uns liegt, wird Taste 0 betätigt. Nach kurzer Rechenzeit erscheint die Uhrzeit für diesen Längengrad. Wenn es bei uns z.B. 17.36 Uhr MEZ ist, ergibt sich für Tokyo 2.48 Uhr, Für eine neue Zeitberechnung Taste 0 betätigen. Das Display zeigt wieder: 0000. Soll die MEZ angezeigt werden, muß entweder O0 Grad West (also 0001) oder 360 Grad Ost (also 3600) eingegeben werden."
+ },
+ "prose2": {
+  "box": [
+   1268,
+   2226,
+   2336,
+   2326
+  ],
+  "conf": 87.5,
+  "words": 5,
+  "de": "Programmierer: Michael Stapfer, 8850 Donauwörth"
+ }
+}

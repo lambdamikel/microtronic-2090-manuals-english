@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+"""Build page 22 (Ton-Memory / Sound Memory) — sample page for style review."""
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from page_build import PageBuild
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+b = PageBuild(ROOT, 22)
+
+# ---- left column -------------------------------------------------------
+b.heading([110, 74, 622, 178], "Sound Memory", fs=17)
+
+b.prose([110, 376, 1196, 864],
+    "Sound Memory (known in English-speaking countries as &ldquo;Simon&rdquo;, and "
+    "in Germany as &ldquo;SENSO&rdquo;) is an "
+    "interesting game of skill that demands a great deal of attention and "
+    "concentration. It works in much the same way as the game &ldquo;Number "
+    "Avalanche&rdquo;. Instead of numbers and letters the computer plays tones, "
+    "which increases the difficulty considerably. A BUSCH Electronic Studio "
+    "no. 2060 (or 2065 or 2070) is required for the melody-playing circuit.",
+    fs=10.8)
+
+b.heading([108, 872, 796, 934], "Function description:", fs=13)
+
+b.prose([106, 956, 1200, 2310],
+    "After pressing HALT &ndash; NEXT &ndash; 00 the program is entered "
+    "according to the program table. Then press the green reset button (computer "
+    "board), which switches off the 4 outputs. Now the electronic circuit "
+    "&ldquo;mini organ&rdquo; still has to be built as shown in the illustration "
+    "on page 20. Owners of an Electronic Studio 2060 or 2065 build the circuit "
+    "directly in the computer housing. Owners of the larger Electronic Studio "
+    "2070 build the circuit in the studio housing and run the appropriate "
+    "connecting cables to computer outputs no. 1 &ndash; 4 (do not swap the "
+    "cables).<br><br>"
+    "Program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN<br><br>"
+    "The computer plays 4 tones one after another and shows on the display the "
+    "number belonging to each tone, that is, the number 4 corresponds to the "
+    "lowest tone and the number 7 to the highest tone. The display goes out "
+    "&ndash; after a short pause the computer plays a tone. The key belonging to "
+    "that tone (4 = lowest tone, 7 = highest tone) must now be pressed. If the "
+    "correct key is pressed, the computer plays a further tone. Now the "
+    "corresponding keys for both tones must be pressed in the correct order. At "
+    "each key press the computer repeats the corresponding tone for about one "
+    "second. It is essential to note that the following key presses must not be "
+    "made until the computer has finished playing the tone entered before.",
+    fs=10.8)
+
+# ---- right column ------------------------------------------------------
+b.prose([1244, 380, 2336, 1140],
+    "The game continues until a mistake is made during entry. The computer then "
+    "plays a descending sequence of notes and shows on the display how many "
+    "attempts were correct. After that the computer automatically plays the four "
+    "basic tones again &ndash; a new game begins.<br><br>"
+    "If you succeed in entering 12 tones in the correct order, the game is ended, "
+    "which the computer signals with an ascending sequence of notes.<br><br>"
+    "Although the computer plays only four different tones (4 to 7), it is not "
+    "easy to repeat them in the correct order. With several players, the winner "
+    "is the one who achieves the highest entry score over the agreed number of "
+    "rounds.",
+    fs=10.8)
+
+b.heading([1238, 1158, 2134, 1228], "Increasing the difficulty", fs=13)
+
+b.prose([1240, 1244, 2330, 2300],
+    "The difficulty of the game can be increased by reprogramming, extending the "
+    "sequence from 4 to 8 tones. The following entries are required for the "
+    "program change (at addresses 07 and 93):<br><br>"
+    "HALT &ndash; NEXT &ndash; 07 &nbsp; 9B0 &ndash; NEXT<br>"
+    "HALT &ndash; NEXT &ndash; 93 &nbsp; 9BD &ndash; NEXT<br><br>"
+    "New program start: HALT &ndash; NEXT &ndash; 00 &ndash; RUN<br><br>"
+    "The Sound Memory now works with eight different tones (the lowest tone is "
+    "still key 4, the highest tone is now key B). Play follows the description "
+    "above, except that the computer now plays eight tones (4 &ndash; 9 and A), "
+    "which have to be repeated with the corresponding key presses.<br><br>"
+    "Our Sound Memory has now become very difficult. To get used to it, it may be "
+    "an advantage if the computer shows the tones not only acoustically but also "
+    "visually on the display.",
+    fs=10.8)
+
+b.write()
+print("wrote layout/page-22.json + translations/page-22.en.json")

@@ -1,0 +1,35 @@
+{
+ "heading0": {
+  "box": [
+   146,
+   74,
+   1218,
+   284
+  ],
+  "conf": 89.0,
+  "words": 6,
+  "de": "Uhr mit Glockensspiel, Datumsanzeige und Weckfunktion"
+ },
+ "prose0": {
+  "box": [
+   150,
+   378,
+   1234,
+   818
+  ],
+  "conf": 93.1,
+  "words": 59,
+  "de": "Mit diesem Programm wird MICROTRONIC zur \"Multifunk- tions-Uhr\". Der Computer bringt zu jeder vollen Stunde den entsprechenden Stundenschlag (ähnlich einer Kirchturm-Uhr). Auf dem Display wird ab- wechselnd für 7 Sekunden die Uhrzeit und für 3 Sekunden das Datum angezeigt. Außerdem kann eine Weckzeit eingegeben werden (für Alarmauslösung usw.). Um den Glockenschlag wirklichkeitsgetreu zu erzeugen, ist das BUSCH-Electronic-Studio 2070 und"
+ },
+ "prose1": {
+  "box": [
+   1276,
+   370,
+   2364,
+   804
+  ],
+  "conf": 89.8,
+  "words": 21,
+  "de": "Spezial-Relais 5964 notwendig. Um das Programm auszuprobieren (ohne Glockenschlag), kann der Piezo-Summer verwendet werden, Zusätzlich erforderlich: Electronic-Studio 2070 und BUSCH-Spezial-Relais 5964,"
+ }
+}

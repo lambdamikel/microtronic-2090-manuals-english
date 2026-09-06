@@ -1,0 +1,57 @@
+{
+ "heading0": {
+  "box": [
+   174,
+   70,
+   622,
+   172
+  ],
+  "conf": 91.7,
+  "words": 1,
+  "de": "Zahlenlawine"
+ },
+ "heading1": {
+  "box": [
+   1306,
+   376,
+   1888,
+   442
+  ],
+  "conf": 91.7,
+  "words": 1,
+  "de": "Funktions-Beschreibung:"
+ },
+ "prose0": {
+  "box": [
+   180,
+   384,
+   1262,
+   1836
+  ],
+  "conf": 93.9,
+  "words": 149,
+  "de": "Das Spiel Zahlenlawine ist ein elektronisches Ge- dachtnistraining,. Es erfordert und fördert konzen- triertes Denken, Auf dem Computer-Display leuchten kurzzeitig ein- zelne Zahlen oder Buchstaben in zufalliger Reihen- folge auf. Der Spieler hat die Aufgabe, sich die Zahlen, bzw. Buchstaben zu merken und in der vom Computer vorgegebenen Reihenfolge durch Eingabe über die Tastatur zu wiederholen. Nach jeder richtigen Eingabe wird vom Computer eine weitere Zahl kurz an- gezeigt. Die zu wiederholende Zahlenreihe wird immer langer, der Vorgang setzt sich wie eine Lawine fort, bis maximal 14 Zahlen oder Buchstaben in der richti- gen Reihenfolge eingegeben wurden, Der Computer registriert, wieviele Wiederholungen (bis zur Eingabe eines ersten Fehlers) vorgenommen wurden. 6 - 8 richtige Eingaben sind bereits ein gutes Ergebnis. Wer sich alle 14 Möglichkeiten mer- ken kann, hat ein hervorragendes Gedächtnis, Bei mehreren Mitspielern ist derjenige Sieger, wel- cher bei den vorher festgelegten Spieldurchgängen das höchste Eingabe-Ergebnis erzielt."
+ },
+ "prose1": {
+  "box": [
+   1304,
+   466,
+   2392,
+   1966
+  ],
+  "conf": 93.4,
+  "words": 192,
+  "de": "Das Programm wird nach Tastendruck: HALT - NEXT - 00 entsprechend der ProgrammTabelle eingegeben. An- schließend wird der Piezo-Summer an den Buchsen Aus- gang 1 und GND angeschlossen, Programm-Start: HALT - NEXT - 00 - RUN Auf dem Computer-Display wird für kurze Zeit eine Zahl (0 - 9) oder ein Buchstabe (A - F) angezeigt. Durch Betätigung der entsprechenden Taste muß die Zahl (oder Buchstabe) wiederholt werden, Sofort wird eine zweite Zahl angezeigt. Jetzt mussen beide Zah- len in der richtigen Reihenfolge über die Tastatur wiederholt werden. Der Computer zeigt eine dritte Zahl. Alle drei Zahlen müssen wieder in der richti- gen Reihenfolge nacheinander eingegeben werden, Das Spiel wird solange fortgesetzt, bis ein Fehler bei der Eingabe gemacht wird. Sobald eine Zahl (Buchstabe) falsch oder in falscher Reihenfolge eingegeben wird, meldet sich der Com- puter mit einem Dauerton und auf dem Display wird angezeigt, wieviele Zahlen bisher in der richtigen Reihenfolge eingegeben wurden. Durch Betätigung einer beliebigen Zahlentaste wird das Spiel neu ge- startet, Wurden alle 14 Zahlen in richtiger Reihenfolge ein- gegeben, erzeugt der Computer einen schnell schwingenden \"Freudenton\". Das Spiel wird durch Be- tatigung einer beliebigen Zahlentaste neu ge- startet."
+ },
+ "prose2": {
+  "box": [
+   1298,
+   2240,
+   2206,
+   2302
+  ],
+  "conf": 94.7,
+  "words": 5,
+  "de": "Programmierer: Frank Gothe, 2210 Itzehoe"
+ }
+}

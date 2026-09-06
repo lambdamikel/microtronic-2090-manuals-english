@@ -1,0 +1,46 @@
+{
+ "heading0": {
+  "box": [
+   223,
+   402,
+   331,
+   442
+  ],
+  "conf": 95.6,
+  "words": 2,
+  "de": "Bahn 1"
+ },
+ "heading1": {
+  "box": [
+   149,
+   554,
+   362,
+   614
+  ],
+  "conf": 96.0,
+  "words": 2,
+  "de": "Start Computer"
+ },
+ "heading2": {
+  "box": [
+   401,
+   605,
+   566,
+   642
+  ],
+  "conf": 85.8,
+  "words": 2,
+  "de": "Bahn 2"
+ },
+ "heading3": {
+  "box": [
+   1019,
+   551,
+   1181,
+   595
+  ],
+  "conf": 96.5,
+  "words": 2,
+  "de": "Start Spieler"
+ }
+}
