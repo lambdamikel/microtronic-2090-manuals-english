@@ -11,6 +11,18 @@ Also included is the companion book **Computer Spiele** (*Computer Games*, Busch
 25 games and experiments to program yourself on the Microtronic 2090, from Black Jack and
 Roulette to a chess clock, a code lock and a prime‑number benchmark.
 
+## Latest News
+
+**October 5th 2026:** A Microtronic emulator that runs in your web browser is now online. It runs the original
+1981 firmware ROM on an emulated TMS1600, with the program RAM, display, keypad, inputs,
+outputs and 1 Hz clock modelled at pin level behind a console drawn from photos of the real
+machine, and it comes with a library of programs from the manuals. Everybody can now
+experience the Microtronic - there is nothing to build, and nothing to load or install on
+your computer: just open the page. Made with Claude Code (Opus 5.5).
+It is the ideal companion to these manuals - read a chapter, then try it out right away.
+
+**▶ [https://lambdamikel.github.io/microtronic-emulator/](https://lambdamikel.github.io/microtronic-emulator/)** · source code: [https://github.com/lambdamikel/microtronic-emulator](https://github.com/lambdamikel/microtronic-emulator)
+
 ## 📚 Read the manual
 
 | | |
