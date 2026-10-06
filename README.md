@@ -23,6 +23,8 @@ It is the ideal companion to these manuals - read a chapter, then try it out rig
 
 **▶ [https://lambdamikel.github.io/microtronic-emulator/](https://lambdamikel.github.io/microtronic-emulator/)** · source code: [https://github.com/lambdamikel/microtronic-emulator](https://github.com/lambdamikel/microtronic-emulator)
 
+![Microtronic Emulator](https://github.com/lambdamikel/microtronic-emulator/raw/main/screenshot.png)
+
 ## 📚 Read the manual
 
 | | |
